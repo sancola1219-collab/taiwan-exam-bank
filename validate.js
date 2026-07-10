@@ -81,6 +81,7 @@ for (const exp of expectedFiles) {
 
   const seenText = new Set();
   const diffCount = { 1: 0, 2: 0, 3: 0 };
+  let figCount = 0;
   bank.questions.forEach((q, i) => {
     const tag = `${exp.file} 第${i + 1}題`;
     if (!q.id || typeof q.id !== "string") errors.push(`[缺id] ${tag}`);
@@ -109,6 +110,22 @@ for (const exp of expectedFiles) {
     /* LaTeX 分隔符號需成對 */
     const dollars = (String(q.question) + q.options.join("") + String(q.explanation)).split("$").length - 1;
     if (dollars % 2 !== 0) warnings.push(`[LaTeX $ 不成對] ${tag}`);
+
+    /* 附圖（選填）：僅接受自製 inline SVG */
+    if (q.figure !== undefined) {
+      const fig = String(q.figure);
+      if (!/^\s*<svg[\s>]/i.test(fig)) errors.push(`[附圖非SVG] ${tag}`);
+      else {
+        figCount++;
+        const open = (fig.match(/<svg[\s>]/gi) || []).length;
+        const close = (fig.match(/<\/svg>/gi) || []).length;
+        if (open !== close) errors.push(`[附圖SVG標籤不成對] ${tag}`);
+        if (!/viewBox\s*=/i.test(fig)) warnings.push(`[附圖缺viewBox] ${tag}（可能無法縮放）`);
+        if (/<script|<foreignObject|<image|\son[a-z]+\s*=|javascript:/i.test(fig))
+          errors.push(`[附圖含危險內容] ${tag}（script/image/事件/js）`);
+        if (fig.length > 12000) warnings.push(`[附圖過大] ${tag}（${fig.length} 字元）`);
+      }
+    }
   });
 
   if (diffCount[1] < 4 || diffCount[2] < 4 || diffCount[3] < 3) {
@@ -117,6 +134,7 @@ for (const exp of expectedFiles) {
 
   manifest.files[exp.file] = bank.questions.length;
   manifest.total += bank.questions.length;
+  manifest.figures = (manifest.figures || 0) + figCount;
 }
 
 /* 目錄中不在期望清單內的多餘 JSON（例如檔名拼錯的殘留檔） */
@@ -124,7 +142,7 @@ const expectedNames = new Set(expectedFiles.map((e) => e.file).concat(["manifest
 const strays = fs.readdirSync(DATA_DIR).filter((f) => f.endsWith(".json") && !expectedNames.has(f));
 strays.forEach((f) => warnings.push(`[多餘檔案] ${f}（不在科目清單中，網站不會載入，建議刪除）`));
 
-console.log(`檔案：${present}/${expectedFiles.length}　總題數：${manifest.total}`);
+console.log(`檔案：${present}/${expectedFiles.length}　總題數：${manifest.total}　圖片題：${manifest.figures || 0}`);
 if (warnings.length) {
   console.log(`\n⚠️ 警告 ${warnings.length} 項：`);
   warnings.slice(0, 40).forEach((w) => console.log("  " + w));

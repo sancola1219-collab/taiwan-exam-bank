@@ -169,6 +169,31 @@ function renderMath(el) {
 function esc(s) {
   return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
+
+/* 題目附圖：只接受我們自己題庫內的 inline SVG。
+ * 仍做防禦性淨化：移除 script / 事件屬性 / 外部與 javascript: 連結 / foreignObject。 */
+function sanitizeFigure(svg) {
+  if (!svg) return "";
+  let s = String(svg).trim();
+  if (!/^<svg[\s>]/i.test(s)) return "";                 // 必須是 svg 開頭
+  s = s.replace(/<script[\s\S]*?<\/script>/gi, "");
+  s = s.replace(/<foreignObject[\s\S]*?<\/foreignObject>/gi, "");
+  s = s.replace(/\son[a-z]+\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/gi, "");   // onload= 等
+  s = s.replace(/(href|xlink:href)\s*=\s*("\s*javascript:[^"]*"|'\s*javascript:[^']*')/gi, "");
+  s = s.replace(/<image\b[\s\S]*?>/gi, "");              // 禁止外部點陣圖
+  return s;
+}
+/* 回傳可放進 innerHTML 字串的圖形區塊（review / 錯題本用） */
+function figureHtml(svg) {
+  const clean = sanitizeFigure(svg);
+  return clean ? `<div class="figure">${clean}</div>` : "";
+}
+/* 直接把圖形塞進指定容器（作答畫面用） */
+function setFigure(el, svg) {
+  const clean = sanitizeFigure(svg);
+  el.innerHTML = clean;
+  el.hidden = !clean;
+}
 function fmtTime(sec) {
   const m = String(Math.floor(sec / 60)).padStart(2, "0");
   const s = String(sec % 60).padStart(2, "0");
@@ -514,6 +539,7 @@ function renderQuestion() {
   $("q-num").textContent = `第 ${idx + 1} / ${questions.length} 題`;
   $("q-diff").textContent = DIFF_LABEL[q.difficulty] || "";
   $("q-text").textContent = q.question;
+  setFigure($("q-figure"), q.figure);
 
   if (mode === "rush") {
     session.qDeadline = Date.now() + RUSH_SECONDS * 1000;
@@ -688,6 +714,7 @@ function renderResult() {
         <span class="review-verdict ${ok ? "ok" : "no"}">${ok ? "✔ 答對" : (answers[i] === null ? "⏰ 未作答" : "✘ 答錯")}</span>
       </div>
       <div class="review-q">${esc(q.question)}</div>
+      ${figureHtml(q.figure)}
       ${optsHtml}
       <div class="review-exp"><b>【詳解】</b>${esc(q.explanation)}</div>`;
     list.appendChild(item);
@@ -742,6 +769,7 @@ function renderWrongbook() {
     item.innerHTML = `
       <div class="review-head"><span>${esc(e.title)} · ${DIFF_LABEL[q.difficulty] || ""}</span></div>
       <div class="review-q">${esc(q.question)}</div>
+      ${figureHtml(q.figure)}
       ${optsHtml}
       <div class="review-exp"><b>【詳解】</b>${esc(q.explanation)}</div>`;
     list.appendChild(item);

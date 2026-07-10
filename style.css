@@ -219,6 +219,23 @@ h3 { font-size: 15px; color: var(--muted); margin-bottom: 8px; font-weight: 600;
 .qnum { font-weight: 700; color: var(--accent); }
 .qdiff { color: var(--warn); font-size: 14px; }
 .qtext { font-size: 17px; margin-bottom: 16px; white-space: pre-wrap; }
+
+/* 題目附圖（原創 inline SVG）。color 讓 SVG 內的 currentColor 隨主題變化 */
+.figure {
+  display: flex; justify-content: center;
+  margin: 4px 0 16px;
+  padding: 12px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  color: var(--text);
+  overflow-x: auto;
+}
+.figure svg {
+  max-width: 100%; height: auto;
+  max-height: 300px;
+}
+.review-item .figure { margin: 8px 0; background: var(--card); }
 .options { display: flex; flex-direction: column; gap: 10px; }
 .option {
   display: flex; gap: 10px; align-items: flex-start; text-align: left;
