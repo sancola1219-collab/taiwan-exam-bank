@@ -1,0 +1,167 @@
+{
+  "level": "uni",
+  "subject": "chemistry",
+  "grade": 0,
+  "questions": [
+    {
+      "id": "uni_chemistry_u_001",
+      "difficulty": 1,
+      "question": "主量子數 $n=2$ 的電子層最多可容納多少個電子？",
+      "options": ["8", "2", "18", "4"],
+      "answer": 0,
+      "explanation": "每一電子層最多容納 $2n^2$ 個電子，$n=2$ 時為 $2\\times 2^2=8$ 個，對應 2s 與 2p 共 4 個軌域、每軌域 2 個電子。易錯處是把軌域數 $n^2=4$ 當成電子數，或誤用 $n=3$ 的 18。"
+    },
+    {
+      "id": "uni_chemistry_u_002",
+      "difficulty": 1,
+      "question": "依 VSEPR（價殼層電子對互斥）理論，甲烷 $CH_4$ 分子的形狀為何？",
+      "options": ["平面正方形", "三角錐形", "正四面體形", "直線形"],
+      "answer": 2,
+      "explanation": "碳原子周圍有 4 對鍵結電子對且無孤對電子，電子對互斥使其均勻分布於空間，形成鍵角約 $109.5^\\circ$ 的正四面體。易錯處是把四個氫畫在平面上而誤選平面正方形，或與含孤對電子的 $NH_3$ 三角錐形混淆。"
+    },
+    {
+      "id": "uni_chemistry_u_003",
+      "difficulty": 1,
+      "question": "定溫下，某定量氣體在 2 atm 時體積為 3 公升，依波以耳定律，壓力降為 1 atm 時體積變為多少公升？",
+      "options": ["1.5", "6", "3", "12"],
+      "answer": 1,
+      "explanation": "波以耳定律 $P_1V_1=P_2V_2$，代入得 $2\\times 3=1\\times V_2$，故 $V_2=6$ 公升。易錯處是以為壓力減半體積也減半而答 1.5，定溫下壓力與體積是反比關係。"
+    },
+    {
+      "id": "uni_chemistry_u_004",
+      "difficulty": 1,
+      "question": "依反應式 $2H_2+O_2\\to 2H_2O$，完全反應 4 莫耳 $H_2$ 需要多少莫耳 $O_2$？",
+      "options": ["8", "4", "1", "2"],
+      "answer": 3,
+      "explanation": "由平衡係數，$H_2$ 與 $O_2$ 的莫耳數比為 $2:1$，故 4 莫耳 $H_2$ 需 $4\\times\\frac{1}{2}=2$ 莫耳 $O_2$。易錯處是把係數比看反而乘以 2 得 8，化學計量必須依平衡方程式的係數比換算。"
+    },
+    {
+      "id": "uni_chemistry_u_005",
+      "difficulty": 1,
+      "question": "某水溶液的氫離子濃度 $[H^+]=1\\times 10^{-3}\\ \\mathrm{M}$，其 pH 值為何？",
+      "options": ["3", "11", "$-3$", "0.001"],
+      "answer": 0,
+      "explanation": "$\\mathrm{pH}=-\\log[H^+]=-\\log(10^{-3})=3$，此溶液為酸性。易錯處是忘記負號而答 $-3$，或先算出 $\\mathrm{pOH}$ 的 11 卻誤當成 pH。"
+    },
+    {
+      "id": "uni_chemistry_u_006",
+      "difficulty": 1,
+      "question": "硫酸 $H_2SO_4$ 中硫原子的氧化數為何？",
+      "options": ["$+4$", "$+2$", "$+6$", "$-2$"],
+      "answer": 2,
+      "explanation": "設硫的氧化數為 $x$，氫為 $+1$、氧為 $-2$，整體電中性：$2(+1)+x+4(-2)=0$，解得 $x=+6$。易錯處是與亞硫酸 $H_2SO_3$ 中硫的 $+4$ 混淆，或誤用硫化物中的 $-2$。"
+    },
+    {
+      "id": "uni_chemistry_u_007",
+      "difficulty": 1,
+      "question": "鈉原子（原子序 11）的基態電子組態為 $1s^22s^22p^63s^1$，其價電子數為何？",
+      "options": ["7", "11", "2", "1"],
+      "answer": 3,
+      "explanation": "價電子是最外層（$n=3$）的電子，鈉只有 $3s^1$ 一個價電子，故化學性質上易失去此電子形成 $Na^+$。易錯處是把全部電子數 11 或次外層的 8 個電子當成價電子數。"
+    },
+    {
+      "id": "uni_chemistry_u_008",
+      "difficulty": 2,
+      "question": "依 VSEPR 理論，氨 $NH_3$ 分子的形狀為何？",
+      "options": ["平面三角形", "三角錐形", "正四面體形", "T 字形"],
+      "answer": 1,
+      "explanation": "氮原子周圍有 3 對鍵結電子對與 1 對孤對電子，電子對幾何為四面體，但分子形狀只看原子位置，故為三角錐形，鍵角約 $107^\\circ$。易錯處是忽略孤對電子而誤選平面三角形（如 $BF_3$），孤對電子仍占據空間並壓縮鍵角。"
+    },
+    {
+      "id": "uni_chemistry_u_009",
+      "difficulty": 2,
+      "question": "1 莫耳理想氣體在 300 K、1 atm 下的體積約為多少公升？（$R=0.082\\ \\mathrm{L\\cdot atm/(mol\\cdot K)}$）",
+      "options": ["24.6", "22.4", "8.2", "30.0"],
+      "answer": 0,
+      "explanation": "由理想氣體方程式 $PV=nRT$，$V=\\frac{nRT}{P}=\\frac{1\\times 0.082\\times 300}{1}=24.6$ 公升。易錯處是直接套用 STP（273 K）下的莫耳體積 22.4 公升，忽略本題溫度是 300 K。"
+    },
+    {
+      "id": "uni_chemistry_u_010",
+      "difficulty": 2,
+      "question": "已知生成熱 $\\Delta H_f$：$CO_2(g)=-394$、$H_2O(l)=-286$、$CH_4(g)=-75$（單位 kJ/mol），則反應 $CH_4+2O_2\\to CO_2+2H_2O$ 的反應熱 $\\Delta H$ 為何？",
+      "options": ["$-605$ kJ/mol", "$-755$ kJ/mol", "$-1041$ kJ/mol", "$-891$ kJ/mol"],
+      "answer": 3,
+      "explanation": "$\\Delta H=\\sum\\Delta H_f(\\text{生成物})-\\sum\\Delta H_f(\\text{反應物})=[-394+2\\times(-286)]-(-75)=-966+75=-891$ kJ/mol，$O_2$ 為元素態生成熱為零。易錯處是忘記 $H_2O$ 要乘係數 2，或把反應物與生成物相減的順序弄反。"
+    },
+    {
+      "id": "uni_chemistry_u_011",
+      "difficulty": 2,
+      "question": "合成氨反應 $N_2+3H_2\\rightleftharpoons 2NH_3$ 為放熱反應，若升高溫度，依勒沙特列原理平衡將如何移動？",
+      "options": ["向右移動，$NH_3$ 增加", "不移動，只加快速率", "向左移動，$NH_3$ 減少", "先右移再左移回原點"],
+      "answer": 2,
+      "explanation": "放熱反應可視為「熱」是生成物之一，升溫等於增加生成物端的熱，平衡向吸熱方向（左）移動以消耗多餘的熱，$NH_3$ 產率下降。易錯處是把「升溫加快反應速率」與「平衡位置移動」混為一談，速率與平衡是兩個不同概念。"
+    },
+    {
+      "id": "uni_chemistry_u_012",
+      "difficulty": 2,
+      "question": "反應 $H_2+I_2\\rightleftharpoons 2HI$ 達平衡時，$[H_2]=[I_2]=0.5\\ \\mathrm{M}$、$[HI]=2\\ \\mathrm{M}$，則平衡常數 $K_c$ 為何？",
+      "options": ["8", "16", "4", "2"],
+      "answer": 1,
+      "explanation": "$K_c=\\frac{[HI]^2}{[H_2][I_2]}=\\frac{2^2}{0.5\\times 0.5}=\\frac{4}{0.25}=16$。易錯處是忘記把 $[HI]$ 依係數平方而算成 $\\frac{2}{0.25}=8$，平衡常數表達式中濃度須以化學計量係數為指數。"
+    },
+    {
+      "id": "uni_chemistry_u_013",
+      "difficulty": 2,
+      "question": "下列哪一組混合溶液可構成典型的緩衝溶液？",
+      "options": ["$CH_3COOH$ 與 $CH_3COONa$", "$HCl$ 與 $NaCl$", "$NaOH$ 與 $NaCl$", "$HCl$ 與 $NaOH$（等莫耳）"],
+      "answer": 0,
+      "explanation": "緩衝溶液由弱酸與其共軛鹼（或弱鹼與其共軛酸）組成，醋酸與醋酸鈉即弱酸加共軛鹼，能同時中和外加的少量酸或鹼而維持 pH 穩定。易錯處是以為強酸配其鹽（$HCl/NaCl$）也有緩衝作用，強酸完全解離、$Cl^-$ 幾乎不接受質子，故無緩衝能力。"
+    },
+    {
+      "id": "uni_chemistry_u_014",
+      "difficulty": 2,
+      "question": "鋅銅電池（丹尼耳電池）中，鋅電極發生的變化為何？",
+      "options": ["發生還原反應，為陰極", "發生還原反應，為陽極", "發生氧化反應，為陽極（負極）", "不發生反應，僅導電"],
+      "answer": 2,
+      "explanation": "鋅的活性大於銅，鋅電極發生氧化 $Zn\\to Zn^{2+}+2e^-$，在電化電池中發生氧化的電極定義為陽極，同時是放電時的負極。易錯處是把電池的陽極與電解槽接電源正極的陽極混淆，判斷依據應是「氧化發生處即陽極」。"
+    },
+    {
+      "id": "uni_chemistry_u_015",
+      "difficulty": 3,
+      "question": "某弱酸 $HA$ 的 $K_a=1\\times 10^{-5}$，配製 $[HA]=[A^-]$ 的緩衝溶液，其 pH 值為何？",
+      "options": ["7", "9", "10", "5"],
+      "answer": 3,
+      "explanation": "由 Henderson-Hasselbalch 方程式 $\\mathrm{pH}=\\mathrm{p}K_a+\\log\\frac{[A^-]}{[HA]}$，當 $[HA]=[A^-]$ 時 $\\log 1=0$，故 $\\mathrm{pH}=\\mathrm{p}K_a=-\\log(10^{-5})=5$。易錯處是以為緩衝溶液的 pH 一定是中性 7，其實取決於弱酸的 $\\mathrm{p}K_a$。"
+    },
+    {
+      "id": "uni_chemistry_u_016",
+      "difficulty": 3,
+      "question": "某反應 $A\\to$ 產物，實驗發現 $[A]$ 加倍時初始反應速率變為原來的 4 倍，此反應對 $A$ 的級數為何？",
+      "options": ["零級", "二級", "一級", "三級"],
+      "answer": 1,
+      "explanation": "設速率式 $r=k[A]^n$，濃度加倍後 $\\frac{r_2}{r_1}=2^n=4$，解得 $n=2$，故為二級反應。易錯處是直覺認為濃度加倍速率也加倍（一級）就足夠，必須由倍率關係 $2^n$ 反推級數。"
+    },
+    {
+      "id": "uni_chemistry_u_017",
+      "difficulty": 3,
+      "question": "電解硫酸銅 $CuSO_4$ 水溶液，若通入 0.2 莫耳電子的電量，陰極可析出多少莫耳的銅？",
+      "options": ["0.4", "0.2", "0.1", "0.05"],
+      "answer": 2,
+      "explanation": "陰極反應為 $Cu^{2+}+2e^-\\to Cu$，每析出 1 莫耳銅需 2 莫耳電子，故 0.2 莫耳電子析出 $\\frac{0.2}{2}=0.1$ 莫耳銅。易錯處是忽略銅離子帶兩價、需 2 個電子，而直接答 0.2 莫耳。"
+    },
+    {
+      "id": "uni_chemistry_u_018",
+      "difficulty": 3,
+      "question": "下列哪一組量子數 $(n,\\ l,\\ m_l)$ 是「不合法」的組合？",
+      "options": ["$(2,\\ 2,\\ 0)$", "$(2,\\ 1,\\ -1)$", "$(3,\\ 0,\\ 0)$", "$(3,\\ 2,\\ 2)$"],
+      "answer": 0,
+      "explanation": "角量子數的限制為 $l=0,1,\\dots,n-1$，故 $n=2$ 時 $l$ 只能是 0 或 1，$(2,2,0)$ 中 $l=2$ 超出範圍不合法；其餘各組皆滿足 $l<n$ 且 $|m_l|\\le l$。易錯處是只檢查 $m_l$ 是否介於 $-l$ 與 $l$ 之間，而忘了 $l$ 必須小於 $n$ 這個條件。"
+    },
+    {
+      "id": "uni_chemistry_u_019",
+      "difficulty": 3,
+      "question": "依格銳目（Graham）擴散定律，同溫同壓下 $H_2$（分子量 2）與 $O_2$（分子量 32）的擴散速率比 $r_{H_2}:r_{O_2}$ 為何？",
+      "options": ["1 : 16", "16 : 1", "1 : 4", "4 : 1"],
+      "answer": 3,
+      "explanation": "擴散速率與分子量的平方根成反比：$\\frac{r_{H_2}}{r_{O_2}}=\\sqrt{\\frac{M_{O_2}}{M_{H_2}}}=\\sqrt{\\frac{32}{2}}=\\sqrt{16}=4$，故比為 $4:1$。易錯處是忘記開平方根而答 16:1，或把輕重關係弄反以為分子量大者擴散快。"
+    },
+    {
+      "id": "uni_chemistry_u_020",
+      "difficulty": 3,
+      "question": "某反應 $\\Delta H=+100\\ \\mathrm{kJ}$、$\\Delta S=+200\\ \\mathrm{J/K}$（兩者不隨溫度改變），此反應在什麼溫度條件下為自發（$\\Delta G<0$）？",
+      "options": ["任何溫度都自發", "溫度高於 500 K", "任何溫度都不自發", "溫度低於 500 K"],
+      "answer": 1,
+      "explanation": "$\\Delta G=\\Delta H-T\\Delta S<0$ 需 $T>\\frac{\\Delta H}{\\Delta S}=\\frac{100000\\ \\mathrm{J}}{200\\ \\mathrm{J/K}}=500\\ \\mathrm{K}$，即高溫下熵項 $T\\Delta S$ 才能勝過吸熱的 $\\Delta H$。易錯處是單位不一致，忘記把 kJ 換成 J 而算出 0.5 K；吸熱且熵增的反應屬「高溫自發」型。"
+    }
+  ]
+}

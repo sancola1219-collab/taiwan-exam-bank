@@ -1,0 +1,167 @@
+{
+  "level": "uni",
+  "subject": "physics",
+  "grade": 0,
+  "questions": [
+    {
+      "id": "uni_physics_u_001",
+      "difficulty": 1,
+      "question": "一物體由靜止自由落下，取重力加速度 $g=10\\ \\mathrm{m/s^2}$，經過 2 秒後其速度大小為何？",
+      "options": ["10 m/s", "20 m/s", "40 m/s", "5 m/s"],
+      "answer": 1,
+      "explanation": "自由落體由靜止出發，速度 $v=gt=10\\times 2=20\\ \\mathrm{m/s}$。易錯處是把位移公式 $\\frac{1}{2}gt^2=20$ 公尺與速度混淆，兩者數值恰巧相同但物理量不同；也有人誤乘成 $gt^2=40$。"
+    },
+    {
+      "id": "uni_physics_u_002",
+      "difficulty": 1,
+      "question": "質量 2 公斤的物體受淨力作用產生 $3\\ \\mathrm{m/s^2}$ 的加速度，此淨力大小為何？",
+      "options": ["1.5 N", "5 N", "3 N", "6 N"],
+      "answer": 3,
+      "explanation": "由牛頓第二定律 $F=ma=2\\times 3=6\\ \\mathrm{N}$。易錯處是把質量與加速度相除得 $1.5$ 或相加得 5，牛頓第二定律是相乘關係。"
+    },
+    {
+      "id": "uni_physics_u_003",
+      "difficulty": 1,
+      "question": "質量 2 公斤的物體以 3 m/s 的速率運動，其動能為何？",
+      "options": ["9 J", "6 J", "18 J", "3 J"],
+      "answer": 0,
+      "explanation": "動能 $K=\\frac{1}{2}mv^2=\\frac{1}{2}\\times 2\\times 3^2=9\\ \\mathrm{J}$。易錯處是忘記把速度平方而算成 $\\frac{1}{2}\\times 2\\times 3=3$，或漏掉 $\\frac{1}{2}$ 而得 18。"
+    },
+    {
+      "id": "uni_physics_u_004",
+      "difficulty": 1,
+      "question": "一電阻 $5\\ \\Omega$ 的導體通過 2 A 電流，依歐姆定律其兩端電壓為何？",
+      "options": ["2.5 V", "7 V", "10 V", "0.4 V"],
+      "answer": 2,
+      "explanation": "歐姆定律 $V=IR=2\\times 5=10\\ \\mathrm{V}$。易錯處是把電阻除以電流得 2.5 V，或把兩數相加得 7 V，電壓、電流、電阻是乘法關係而非加減。"
+    },
+    {
+      "id": "uni_physics_u_005",
+      "difficulty": 1,
+      "question": "空氣中某聲波頻率為 500 Hz，波長為 0.68 公尺，則此聲波的波速為何？",
+      "options": ["680 m/s", "340 m/s", "735 m/s", "170 m/s"],
+      "answer": 1,
+      "explanation": "波速 $v=f\\lambda=500\\times 0.68=340\\ \\mathrm{m/s}$，正是常溫下空氣中的聲速。易錯處是把頻率與波長相除（$500/0.68\\approx 735$）或除反（$0.68/500$），須記得波速等於頻率乘以波長。"
+    },
+    {
+      "id": "uni_physics_u_006",
+      "difficulty": 1,
+      "question": "質量 3 公斤的物體以 4 m/s 等速直線運動，其動量大小為何？",
+      "options": ["12 kg·m/s", "7 kg·m/s", "24 kg·m/s", "1.33 kg·m/s"],
+      "answer": 0,
+      "explanation": "動量 $p=mv=3\\times 4=12\\ \\mathrm{kg\\cdot m/s}$。易錯處是把動量與動能混淆而多乘一次速度再除以 2（$\\frac{1}{2}mv^2=24$），或把質量與速度相加得 7。"
+    },
+    {
+      "id": "uni_physics_u_007",
+      "difficulty": 1,
+      "question": "物體作等速率圓周運動時，其加速度的方向為何？",
+      "options": ["沿切線方向與速度相同", "沿切線方向與速度相反", "沿半徑指向圓心", "沿半徑指離圓心"],
+      "answer": 2,
+      "explanation": "等速率圓周運動中速率不變，但速度方向持續改變，此改變由指向圓心的向心加速度 $a=\\frac{v^2}{r}$ 提供。易錯處是以為速率不變就沒有加速度，或誤以為存在向外的「離心加速度」，離心力只是非慣性系中的假想力。"
+    },
+    {
+      "id": "uni_physics_u_008",
+      "difficulty": 2,
+      "question": "質量 2 公斤的物體在光滑水平面上由靜止出發，受 4 N 的水平定力作用移動 9 公尺，此時物體的速率為何？",
+      "options": ["3 m/s", "18 m/s", "36 m/s", "6 m/s"],
+      "answer": 3,
+      "explanation": "由功能定理，合力作的功 $W=Fd=4\\times 9=36\\ \\mathrm{J}$ 全部轉為動能，$\\frac{1}{2}mv^2=36$，解得 $v^2=36$、$v=6\\ \\mathrm{m/s}$。易錯處是解出 $v^2=36$ 後忘記開根號而答 36，或把功直接當成速度。"
+    },
+    {
+      "id": "uni_physics_u_009",
+      "difficulty": 2,
+      "question": "一剛體對轉軸的轉動慣量為 $2\\ \\mathrm{kg\\cdot m^2}$，以角速度 $3\\ \\mathrm{rad/s}$ 轉動，其轉動動能為何？",
+      "options": ["6 J", "9 J", "18 J", "3 J"],
+      "answer": 1,
+      "explanation": "轉動動能 $K=\\frac{1}{2}I\\omega^2=\\frac{1}{2}\\times 2\\times 3^2=9\\ \\mathrm{J}$，形式與平移動能 $\\frac{1}{2}mv^2$ 對應。易錯處是忘記把角速度平方（得 3）或漏掉 $\\frac{1}{2}$（得 18）。"
+    },
+    {
+      "id": "uni_physics_u_010",
+      "difficulty": 2,
+      "question": "質量 1 公斤的物體掛在力常數 $k=100\\ \\mathrm{N/m}$ 的彈簧上作簡諧運動，其週期為何？",
+      "options": ["$\\frac{\\pi}{5}$ 秒", "$\\frac{\\pi}{10}$ 秒", "$20\\pi$ 秒", "$\\frac{5}{\\pi}$ 秒"],
+      "answer": 0,
+      "explanation": "彈簧簡諧運動的週期 $T=2\\pi\\sqrt{\\frac{m}{k}}=2\\pi\\sqrt{\\frac{1}{100}}=\\frac{2\\pi}{10}=\\frac{\\pi}{5}$ 秒。易錯處是把根號內的 $\\frac{m}{k}$ 寫成 $\\frac{k}{m}$，或忘記係數 $2\\pi$。"
+    },
+    {
+      "id": "uni_physics_u_011",
+      "difficulty": 2,
+      "question": "某氣體系統自外界吸收 100 J 的熱量，同時對外界作功 40 J，依熱力學第一定律，其內能變化為何？",
+      "options": ["增加 140 J", "減少 60 J", "增加 60 J", "增加 40 J"],
+      "answer": 2,
+      "explanation": "熱力學第一定律 $\\Delta U=Q-W$（$W$ 為系統對外作的功），故 $\\Delta U=100-40=60\\ \\mathrm{J}$，內能增加 60 J。易錯處是符號約定混淆，把對外作功當成獲得能量而算成 $100+40=140$ J。"
+    },
+    {
+      "id": "uni_physics_u_012",
+      "difficulty": 2,
+      "question": "$6\\ \\Omega$ 與 $3\\ \\Omega$ 兩電阻並聯後的等效電阻為何？",
+      "options": ["9 Ω", "4.5 Ω", "18 Ω", "2 Ω"],
+      "answer": 3,
+      "explanation": "並聯時 $\\frac{1}{R}=\\frac{1}{6}+\\frac{1}{3}=\\frac{1}{6}+\\frac{2}{6}=\\frac{1}{2}$，故 $R=2\\ \\Omega$。易錯處是把並聯誤算成串聯相加得 9 Ω；並聯等效電阻必小於其中最小的電阻，可用此性質快速檢查。"
+    },
+    {
+      "id": "uni_physics_u_013",
+      "difficulty": 2,
+      "question": "兩點電荷間的距離增為原來的 2 倍（電量不變），依庫侖定律，其間靜電力變為原來的幾倍？",
+      "options": ["$\\frac{1}{4}$ 倍", "$\\frac{1}{2}$ 倍", "2 倍", "4 倍"],
+      "answer": 0,
+      "explanation": "庫侖定律 $F=k\\frac{q_1q_2}{r^2}$ 與距離平方成反比，距離加倍時力變為 $\\frac{1}{2^2}=\\frac{1}{4}$ 倍。易錯處是只想到反比而未平方，誤答 $\\frac{1}{2}$ 倍。"
+    },
+    {
+      "id": "uni_physics_u_014",
+      "difficulty": 2,
+      "question": "一球自 45 公尺高的平台以 20 m/s 水平拋出（取 $g=10\\ \\mathrm{m/s^2}$，忽略空氣阻力），落地時的水平射程為何？",
+      "options": ["90 公尺", "60 公尺", "45 公尺", "30 公尺"],
+      "answer": 1,
+      "explanation": "鉛直方向自由落體：$45=\\frac{1}{2}\\times 10\\times t^2$，解得 $t=3$ 秒；水平方向等速：射程 $=20\\times 3=60$ 公尺。易錯處是誤以為水平初速會影響落地時間，其實水平與鉛直運動彼此獨立。"
+    },
+    {
+      "id": "uni_physics_u_015",
+      "difficulty": 3,
+      "question": "質量 4 公斤的物體以 3 m/s 撞上靜止的 2 公斤物體後兩者黏在一起（完全非彈性碰撞），碰撞過程中損失的動能為何？",
+      "options": ["0 J", "12 J", "6 J", "18 J"],
+      "answer": 2,
+      "explanation": "動量守恆：$4\\times 3=(4+2)v$，得共同速度 $v=2\\ \\mathrm{m/s}$；碰撞前動能 $\\frac{1}{2}\\times 4\\times 9=18$ J，碰撞後 $\\frac{1}{2}\\times 6\\times 4=12$ J，損失 $18-12=6$ J。易錯處是以為動量守恆就代表動能也守恆，完全非彈性碰撞的動能損失最大。"
+    },
+    {
+      "id": "uni_physics_u_016",
+      "difficulty": 3,
+      "question": "花式滑冰選手旋轉中將雙臂收回，使轉動慣量減為原來的一半（外力矩可忽略），下列敘述何者正確？",
+      "options": ["角速度減半，角動量不變", "角速度不變，角動量減半", "角速度變兩倍，轉動動能不變", "角速度變兩倍，轉動動能變兩倍"],
+      "answer": 3,
+      "explanation": "無外力矩時角動量 $L=I\\omega$ 守恆，$I$ 減半則 $\\omega$ 變兩倍；轉動動能 $K=\\frac{1}{2}I\\omega^2$ 變為 $\\frac{1}{2}\\cdot\\frac{I}{2}\\cdot(2\\omega)^2=2K$，增加的能量來自選手收臂所作的功。易錯處是以為角動量守恆時動能也必守恆，兩者是不同的守恆條件。"
+    },
+    {
+      "id": "uni_physics_u_017",
+      "difficulty": 3,
+      "question": "一卡諾熱機在高溫熱庫 400 K 與低溫熱庫 300 K 之間運轉，其理論最大效率為何？",
+      "options": ["75%", "25%", "33%", "100%"],
+      "answer": 1,
+      "explanation": "卡諾效率 $\\eta=1-\\frac{T_L}{T_H}=1-\\frac{300}{400}=0.25=25\\%$，其中溫度必須使用絕對溫度（K）。易錯處是算成 $\\frac{T_L}{T_H}=75\\%$，或誤用攝氏溫度代入公式。"
+    },
+    {
+      "id": "uni_physics_u_018",
+      "difficulty": 3,
+      "question": "一帶電量 2 C 的粒子以 3 m/s 的速度垂直進入磁感應強度（磁場）$0.5\\ \\mathrm{T}$ 的均勻磁場中，所受磁力大小為何？",
+      "options": ["3 N", "1.5 N", "6 N", "0 N"],
+      "answer": 0,
+      "explanation": "磁力 $F=qvB\\sin\\theta$，垂直進入時 $\\sin\\theta=1$，故 $F=2\\times 3\\times 0.5=3\\ \\mathrm{N}$。易錯處是漏乘其中一個量（如只算 $qB=1$ 或 $vB=1.5$），或誤以為帶電粒子在磁場中一定不受力。"
+    },
+    {
+      "id": "uni_physics_u_019",
+      "difficulty": 3,
+      "question": "一個 10 匝的線圈，通過每匝的磁通量在 0.2 秒內由 0.6 Wb 均勻減少至零，線圈感應電動勢的大小為何？",
+      "options": ["3 V", "0.3 V", "6 V", "30 V"],
+      "answer": 3,
+      "explanation": "由法拉第電磁感應定律，$\\varepsilon=N\\frac{\\Delta\\Phi}{\\Delta t}=10\\times\\frac{0.6}{0.2}=30\\ \\mathrm{V}$。易錯處是忘記乘匝數 $N$ 而只得 3 V，或把 $\\Delta\\Phi$ 與 $\\Delta t$ 相乘而非相除。"
+    },
+    {
+      "id": "uni_physics_u_020",
+      "difficulty": 3,
+      "question": "一質點作簡諧運動，位移方程為 $x=5\\sin(2t)$（$x$ 單位為公分、$t$ 為秒），其最大加速度為何？",
+      "options": ["$10\\ \\mathrm{cm/s^2}$", "$5\\ \\mathrm{cm/s^2}$", "$20\\ \\mathrm{cm/s^2}$", "$40\\ \\mathrm{cm/s^2}$"],
+      "answer": 2,
+      "explanation": "簡諧運動最大加速度 $a_{max}=\\omega^2 A$，本題角頻率 $\\omega=2\\ \\mathrm{rad/s}$、振幅 $A=5$ 公分，故 $a_{max}=2^2\\times 5=20\\ \\mathrm{cm/s^2}$。易錯處是忘記把 $\\omega$ 平方而算成 $\\omega A=10$，或把最大速度 $\\omega A$ 與最大加速度混淆。"
+    }
+  ]
+}

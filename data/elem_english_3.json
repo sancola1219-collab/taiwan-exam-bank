@@ -1,0 +1,167 @@
+{
+  "level": "elem",
+  "subject": "english",
+  "grade": 3,
+  "questions": [
+    {
+      "id": "elem_english_3_001",
+      "difficulty": 1,
+      "question": "大寫字母「B」的小寫字母是下列哪一個？",
+      "options": ["b", "d", "p", "q"],
+      "answer": 0,
+      "explanation": "大寫 B 的小寫是 b，直線在左邊、圓圈在右邊。b、d、p、q 這四個字母長得很像，書寫時要特別注意直線和圓圈的位置。"
+    },
+    {
+      "id": "elem_english_3_002",
+      "difficulty": 1,
+      "question": "早上到學校遇到老師，用英語打招呼應該說什麼？",
+      "options": ["Good night.", "Goodbye.", "Good morning.", "Thank you."],
+      "answer": 2,
+      "explanation": "早上見面要說 Good morning.（早安）。Good night. 是睡前說的「晚安」，Goodbye. 是「再見」，Thank you. 是「謝謝」，使用的時機都不一樣。"
+    },
+    {
+      "id": "elem_english_3_003",
+      "difficulty": 1,
+      "question": "英語單字 red 指的是什麼顏色？",
+      "options": ["藍色", "綠色", "黃色", "紅色"],
+      "answer": 3,
+      "explanation": "red 的意思是「紅色」，例如：a red apple（一顆紅蘋果）。藍色是 blue，綠色是 green，黃色是 yellow，這些都是常用的顏色單字。"
+    },
+    {
+      "id": "elem_english_3_004",
+      "difficulty": 1,
+      "question": "英語單字 dog 的中文意思是什麼？",
+      "options": ["貓", "狗", "鳥", "魚"],
+      "answer": 1,
+      "explanation": "dog 的意思是「狗」，例如：This is a dog.（這是一隻狗。）貓是 cat，鳥是 bird，魚是 fish，都是常見的動物單字。"
+    },
+    {
+      "id": "elem_english_3_005",
+      "difficulty": 1,
+      "question": "英語數字 three 是指哪一個數字？",
+      "options": ["1", "2", "3", "5"],
+      "answer": 2,
+      "explanation": "three 是數字「3」。1 是 one，2 是 two，5 是 five，記住數字單字可以幫助我們數數和說出年齡。"
+    },
+    {
+      "id": "elem_english_3_006",
+      "difficulty": 1,
+      "question": "小寫字母「g」的大寫字母是下列哪一個？",
+      "options": ["G", "J", "Q", "C"],
+      "answer": 0,
+      "explanation": "小寫 g 的大寫是 G。J、Q、C 是其他字母的大寫，和 g 沒有關係，要記清楚每個字母大小寫的樣子。"
+    },
+    {
+      "id": "elem_english_3_007",
+      "difficulty": 1,
+      "question": "同學對你說 Hello!，你可以怎麼回答他？",
+      "options": ["Good night.", "Sorry.", "No.", "Hello!"],
+      "answer": 3,
+      "explanation": "別人說 Hello!（哈囉！）打招呼時，我們可以同樣用 Hello! 或 Hi! 回應。Good night. 是晚安，Sorry. 是對不起，No. 是不，都不適合用來回應打招呼。"
+    },
+    {
+      "id": "elem_english_3_008",
+      "difficulty": 2,
+      "question": "英語單字 pen 指的是哪一種文具？",
+      "options": ["書", "原子筆", "尺", "橡皮擦"],
+      "answer": 1,
+      "explanation": "pen 的意思是「原子筆」，例如：This is a pen.（這是一枝筆。）書是 book，尺是 ruler，橡皮擦是 eraser，都是教室裡常見的文具單字。"
+    },
+    {
+      "id": "elem_english_3_009",
+      "difficulty": 2,
+      "question": "This is ___ apple. 空格中應該填入哪一個字？",
+      "options": ["an", "a", "the two", "is"],
+      "answer": 0,
+      "explanation": "apple 的開頭是母音 a 的發音，所以前面要用 an，說成 This is an apple.（這是一顆蘋果。）如果單字開頭是子音，像 book，才用 a，例如 a book。"
+    },
+    {
+      "id": "elem_english_3_010",
+      "difficulty": 2,
+      "question": "下列哪一組字母的順序是正確的？",
+      "options": ["A、C、B", "D、F、E", "H、G、I", "A、B、C"],
+      "answer": 3,
+      "explanation": "英文字母的正確順序是 A、B、C、D、E……一直到 Z，共二十六個字母。其他選項的字母順序都排錯了，唱唱字母歌可以幫助記憶。"
+    },
+    {
+      "id": "elem_english_3_011",
+      "difficulty": 2,
+      "question": "你在公園看到一隻貓，牠的英語單字是哪一個？",
+      "options": ["dog", "bird", "cat", "duck"],
+      "answer": 2,
+      "explanation": "cat 的意思是「貓」，例如：This is a cat.（這是一隻貓。）dog 是狗，bird 是鳥，duck 是鴨子，看到動物時可以練習說出牠們的英語名字。"
+    },
+    {
+      "id": "elem_english_3_012",
+      "difficulty": 2,
+      "question": "This is a book. 這句話的中文意思是什麼？",
+      "options": ["那是一枝筆。", "這是一本書。", "我有一顆蘋果。", "這是一張桌子。"],
+      "answer": 1,
+      "explanation": "This is a book. 的意思是「這是一本書」。This is a... 是介紹身邊東西的句型，把 book 換成其他單字，就可以介紹不同的物品。"
+    },
+    {
+      "id": "elem_english_3_013",
+      "difficulty": 2,
+      "question": "英語數字 seven 是指哪一個數字？",
+      "options": ["5", "6", "9", "7"],
+      "answer": 3,
+      "explanation": "seven 是數字「7」。5 是 five，6 是 six，9 是 nine，這些數字單字的長相有點像，要多唸幾次分清楚。"
+    },
+    {
+      "id": "elem_english_3_014",
+      "difficulty": 2,
+      "question": "英語單字 yellow 指的是什麼顏色？",
+      "options": ["黃色", "白色", "黑色", "紫色"],
+      "answer": 0,
+      "explanation": "yellow 的意思是「黃色」，例如香蕉就是 yellow 的。白色是 white，黑色是 black，紫色是 purple，都是常見的顏色單字。"
+    },
+    {
+      "id": "elem_english_3_015",
+      "difficulty": 3,
+      "question": "放學的時候要跟同學道別，用英語應該說什麼？",
+      "options": ["Good morning.", "Goodbye!", "Thank you.", "Yes."],
+      "answer": 1,
+      "explanation": "道別的時候要說 Goodbye!（再見！），也可以說 Bye! 或 See you!。Good morning. 是早安，Thank you. 是謝謝，Yes. 是「是的」，都不是道別用語。"
+    },
+    {
+      "id": "elem_english_3_016",
+      "difficulty": 3,
+      "question": "下列哪一組英文字母的大小寫配對是正確的？",
+      "options": ["A — b", "D — p", "E — e", "G — q"],
+      "answer": 2,
+      "explanation": "大寫 E 的小寫就是 e，這一組配對正確。A 的小寫是 a、D 的小寫是 d、G 的小寫是 g，其他選項都配錯了，要小心形狀相似的字母。"
+    },
+    {
+      "id": "elem_english_3_017",
+      "difficulty": 3,
+      "question": "下列哪一句的英語語序是正確的？",
+      "options": ["This is a ruler.", "This a is ruler.", "Is this ruler a.", "A this is ruler."],
+      "answer": 0,
+      "explanation": "正確的句子是 This is a ruler.（這是一把尺。）句型的順序是 This + is + a + 物品名稱，其他選項的字都排錯位置了。"
+    },
+    {
+      "id": "elem_english_3_018",
+      "difficulty": 3,
+      "question": "英語數字 ten 是指哪一個數字？",
+      "options": ["3", "6", "8", "10"],
+      "answer": 3,
+      "explanation": "ten 是數字「10」。3 是 three，6 是 six，8 是 eight，從 one 數到 ten 是三年級要學會的基本數字。"
+    },
+    {
+      "id": "elem_english_3_019",
+      "difficulty": 3,
+      "question": "下列哪一個單字是「文具」類的單字？",
+      "options": ["dog", "red", "eraser", "ten"],
+      "answer": 2,
+      "explanation": "eraser 的意思是「橡皮擦」，屬於文具類單字。dog（狗）是動物，red（紅色）是顏色，ten（十）是數字，分類時要想想每個單字的意思。"
+    },
+    {
+      "id": "elem_english_3_020",
+      "difficulty": 3,
+      "question": "Good afternoon. 這句話應該在一天中的什麼時候說？",
+      "options": ["早上起床時", "下午見面時", "深夜睡覺前", "吃早餐的時候"],
+      "answer": 1,
+      "explanation": "Good afternoon. 的意思是「午安」，是下午見面時的問候語。早上說 Good morning.（早安），晚上見面說 Good evening.（晚安），睡前才說 Good night.。"
+    }
+  ]
+}

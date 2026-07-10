@@ -1,0 +1,267 @@
+{
+  "level": "senior",
+  "subject": "english",
+  "grade": 10,
+  "questions": [
+    {
+      "id": "senior_english_10_001",
+      "difficulty": 1,
+      "question": "The museum is famous ______ its collection of ancient Chinese paintings.",
+      "options": [
+        "as",
+        "to",
+        "with",
+        "for"
+      ],
+      "answer": 3,
+      "explanation": "「be famous for + 事物」表示「以（某特色、館藏）聞名」，全句翻譯為「這座博物館以收藏中國古畫聞名」。若用 be famous as 則後面接身分或名稱，例如 He is famous as a writer.（他以作家的身分聞名），兩者不可混用。"
+    },
+    {
+      "id": "senior_english_10_002",
+      "difficulty": 1,
+      "question": "The news of the team's victory made everyone ______.",
+      "options": [
+        "exciting",
+        "excited",
+        "excite",
+        "to excite"
+      ],
+      "answer": 1,
+      "explanation": "此為 S + V + O + OC（受詞補語）句型，make 之後接受詞與補語，人「感到興奮」須用過去分詞 excited。全句翻譯為「球隊獲勝的消息使每個人都很興奮」。exciting 是「令人興奮的」，用來形容事物本身，如 The game was exciting.，故不可選。"
+    },
+    {
+      "id": "senior_english_10_003",
+      "difficulty": 1,
+      "question": "Amy ______ in Kaohsiung since she graduated from senior high school.",
+      "options": [
+        "has lived",
+        "lives",
+        "lived",
+        "is living"
+      ],
+      "answer": 0,
+      "explanation": "句中的 since she graduated（自從她高中畢業以來）是現在完成式的標記，表示動作從過去持續到現在，故主要子句用 has lived。全句翻譯為「艾咪自高中畢業後就一直住在高雄」。單純現在式、過去式或現在進行式都無法表達「持續至今」的時間概念。"
+    },
+    {
+      "id": "senior_english_10_004",
+      "difficulty": 1,
+      "question": "To stay healthy, it is important to ______ a balanced diet and exercise regularly.",
+      "options": [
+        "delay",
+        "blame",
+        "maintain",
+        "refuse"
+      ],
+      "answer": 2,
+      "explanation": "maintain 意為「維持、保持」，maintain a balanced diet 即「維持均衡飲食」，全句翻譯為「為了保持健康，維持均衡飲食並規律運動是很重要的」。delay 是「延遲」，blame 是「責怪」，refuse 是「拒絕」，代入後語意皆不通。"
+    },
+    {
+      "id": "senior_english_10_005",
+      "difficulty": 1,
+      "question": "This bowl of beef noodle soup tastes really ______.",
+      "options": [
+        "well",
+        "delicious",
+        "deliciously",
+        "nicely"
+      ],
+      "answer": 1,
+      "explanation": "taste 在此是連綴動詞（linking verb），屬 S + V + SC 句型，後面須接形容詞作主詞補語，故選 delicious。全句翻譯為「這碗牛肉麵嘗起來真美味」。well、deliciously、nicely 皆為副詞，不能作連綴動詞的補語；look、sound、smell、feel 也適用同樣規則。"
+    },
+    {
+      "id": "senior_english_10_006",
+      "difficulty": 1,
+      "question": "Look! The children ______ kites in the park.",
+      "options": [
+        "fly",
+        "flew",
+        "have flown",
+        "are flying"
+      ],
+      "answer": 3,
+      "explanation": "句首的 Look!（你看！）提示動作正在眼前發生，須用現在進行式 are flying。全句翻譯為「你看！孩子們正在公園裡放風箏」。Look、Listen 開頭的句子是判斷現在進行式的常見線索，其餘時態皆與「當下正在進行」的語境不合。"
+    },
+    {
+      "id": "senior_english_10_007",
+      "difficulty": 1,
+      "question": "Please remember to ______ off the lights before you leave the classroom.",
+      "options": [
+        "put",
+        "take",
+        "turn",
+        "get"
+      ],
+      "answer": 2,
+      "explanation": "turn off 是固定片語，意為「關掉（電燈、電器）」，全句翻譯為「離開教室前請記得關燈」。put off 是「延期」，take off 是「脫下、起飛」，get off 是「下車」，雖然都是常見片語，但語意皆不符合本句情境。"
+    },
+    {
+      "id": "senior_english_10_008",
+      "difficulty": 2,
+      "question": "______ the door, Jenny found a mysterious package lying on the floor.",
+      "options": [
+        "Opening",
+        "Opened",
+        "To be opened",
+        "Open"
+      ],
+      "answer": 0,
+      "explanation": "本題考分詞構句：主要子句的主詞 Jenny 與 open 是主動關係（珍妮開門），故用現在分詞 Opening。全句翻譯為「打開門時，珍妮發現地上放著一個神祕的包裹」。原句可還原為 When she opened the door, ...，省略連接詞與主詞後動詞改為分詞。"
+    },
+    {
+      "id": "senior_english_10_009",
+      "difficulty": 2,
+      "question": "By the time we got to the theater, the movie ______ for ten minutes.",
+      "options": [
+        "starts",
+        "has started",
+        "started",
+        "had been on"
+      ],
+      "answer": 3,
+      "explanation": "by the time + 過去式子句，表示「到過去某時間點為止」，主要子句須用過去完成式描述更早發生並持續的狀態，start 是瞬間動詞不能接 for ten minutes，故用 had been on（已經播放了十分鐘）。全句翻譯為「等我們趕到戲院時，電影已經開演十分鐘了」。"
+    },
+    {
+      "id": "senior_english_10_010",
+      "difficulty": 2,
+      "question": "The typhoon caused serious ______ to the crops, and vegetable prices went up quickly.",
+      "options": [
+        "treasure",
+        "damage",
+        "courage",
+        "message"
+      ],
+      "answer": 1,
+      "explanation": "damage 意為「損害、破壞」，cause damage to... 是固定搭配，全句翻譯為「颱風對農作物造成嚴重損害，菜價迅速上漲」。treasure 是「寶藏」，courage 是「勇氣」，message 是「訊息」，皆與颱風災損的語境不合。"
+    },
+    {
+      "id": "senior_english_10_011",
+      "difficulty": 2,
+      "question": "My uncle bought a new bicycle ______ me as a birthday present.",
+      "options": [
+        "to",
+        "at",
+        "for",
+        "with"
+      ],
+      "answer": 2,
+      "explanation": "S + V + IO + DO 句型改寫時，buy、make、get 等動詞的間接受詞移到句尾須用介係詞 for，即 buy something for someone。全句翻譯為「我叔叔買了一輛新腳踏車給我當生日禮物」。give、send、show 等動詞才搭配 to，這是四級句型改寫的常考重點。"
+    },
+    {
+      "id": "senior_english_10_012",
+      "difficulty": 2,
+      "question": "The speech was so ______ that many students fell asleep in the middle of it.",
+      "options": [
+        "boring",
+        "bored",
+        "excited",
+        "interested"
+      ],
+      "answer": 0,
+      "explanation": "形容「事物令人感到無聊」用現在分詞 boring；bored 是「（人）感到無聊的」，主詞是 The speech（演講），故選 boring。全句翻譯為「這場演講太無聊了，許多學生聽到一半就睡著了」。so...that... 表示「如此……以至於……」，excited、interested 語意也與睡著的結果矛盾。"
+    },
+    {
+      "id": "senior_english_10_013",
+      "difficulty": 2,
+      "question": "Our teacher encourages every student to ______ in class discussions bravely.",
+      "options": [
+        "graduate",
+        "participate",
+        "celebrate",
+        "operate"
+      ],
+      "answer": 1,
+      "explanation": "participate in 意為「參與」，全句翻譯為「我們老師鼓勵每位學生勇敢參與課堂討論」。graduate 是「畢業」、celebrate 是「慶祝」、operate 是「操作、動手術」，四個字尾同為 -ate，是常見的字形混淆選項，需依語意判斷。"
+    },
+    {
+      "id": "senior_english_10_014",
+      "difficulty": 2,
+      "question": "I ______ dinner with my family when the earthquake hit last night.",
+      "options": [
+        "have",
+        "have had",
+        "had",
+        "was having"
+      ],
+      "answer": 3,
+      "explanation": "when 子句用過去式（the earthquake hit）表示過去某一時刻，主要子句描述當時「正在進行」的動作，須用過去進行式 was having。全句翻譯為「昨晚地震來襲時，我正和家人吃晚餐」。單純過去式 had 無法凸顯「動作進行中被打斷」的語感。"
+    },
+    {
+      "id": "senior_english_10_015",
+      "difficulty": 3,
+      "question": "______ from space, the Earth looks like a beautiful blue marble.",
+      "options": [
+        "Seen",
+        "Seeing",
+        "To see",
+        "Having seen"
+      ],
+      "answer": 0,
+      "explanation": "分詞構句中，主要子句主詞 the Earth 與 see 是被動關係（地球「被看」），故用過去分詞 Seen，原句可還原為 When it is seen from space, ...。全句翻譯為「從太空看，地球就像一顆美麗的藍色彈珠」。Seeing 會誤指地球主動去看，Having seen 則表示主動且先發生，皆不合語意。"
+    },
+    {
+      "id": "senior_english_10_016",
+      "difficulty": 3,
+      "question": "Despite the heavy rain, the outdoor concert was not ______, and thousands of fans still showed up.",
+      "options": [
+        "rejected",
+        "suspected",
+        "canceled",
+        "admired"
+      ],
+      "answer": 2,
+      "explanation": "cancel 意為「取消」，演唱會因雨「未被取消」符合語境，全句翻譯為「儘管下著大雨，戶外演唱會並未取消，仍有數千名歌迷到場」。reject 是「拒絕（提議、申請）」，suspect 是「懷疑」，admire 是「欽佩」，皆無法與 concert 搭配出合理語意。Despite 後接名詞，表示「儘管」。"
+    },
+    {
+      "id": "senior_english_10_017",
+      "difficulty": 3,
+      "question": "閱讀測驗：Last September, Green Hill Senior High started a \"No Plastic Wednesday\" program. On that day, the school store stops selling drinks in plastic bottles, and students bring their own cups and lunch boxes. At first, many students complained because buying drinks became less convenient. However, six months later, a school report showed that the trash produced on Wednesdays had dropped by forty percent, and more students now bring reusable bottles every day, not just on Wednesdays. What is the main purpose of this passage?",
+      "options": [
+        "To describe how a school program successfully reduced plastic waste",
+        "To explain why plastic bottles are cheaper than reusable cups",
+        "To complain that the school store made buying drinks difficult",
+        "To encourage students to buy more drinks on Wednesdays"
+      ],
+      "answer": 0,
+      "explanation": "文章敘述 Green Hill 高中推行「無塑星期三」：起初學生抱怨不便，但六個月後週三垃圾量減少四成，且更多學生天天自備環保瓶，可見主旨是介紹此計畫如何成功減少塑膠垃圾。關鍵句 the trash produced on Wednesdays had dropped by forty percent 翻譯為「星期三產生的垃圾量已減少了百分之四十」。其餘選項或與文意相反，或僅是文中的細節。"
+    },
+    {
+      "id": "senior_english_10_018",
+      "difficulty": 3,
+      "question": "The man ______ car was stolen last night went to the police station this morning.",
+      "options": [
+        "who",
+        "whom",
+        "which",
+        "whose"
+      ],
+      "answer": 3,
+      "explanation": "空格後的 car 是名詞，先行詞 the man 與 car 之間是「所有」關係（那個人的車），故用所有格關係代名詞 whose。全句翻譯為「昨晚汽車遭竊的那名男子今天早上去了警察局」。who 作主格、whom 作受格，後面都不能直接接名詞；which 用於事物，皆不合本句結構。"
+    },
+    {
+      "id": "senior_english_10_019",
+      "difficulty": 3,
+      "question": "閱讀測驗：Night markets are one of the best places to experience local life in Taiwan. Visitors can try famous snacks such as stinky tofu and bubble tea at low prices. However, night markets are more than just food. Many stalls offer games, clothes, and handmade goods, and some markets have a history of more than fifty years. For many Taiwanese people, walking through a night market with family after dinner is not shopping but a way of spending time together. According to the passage, why are night markets important to many Taiwanese people?",
+      "options": [
+        "They sell the cheapest clothes in the country",
+        "They are open twenty-four hours a day",
+        "They offer a way for families to spend time together",
+        "They only sell traditional handmade goods"
+      ],
+      "answer": 2,
+      "explanation": "文章末句 walking through a night market with family after dinner is not shopping but a way of spending time together 翻譯為「晚餐後和家人逛夜市不是購物，而是共度時光的一種方式」，直接說明夜市對許多台灣人的意義在於家人相聚。文中僅說小吃「價格便宜」，並未說衣服全國最便宜，也未提及全天營業或只賣手工藝品。"
+    },
+    {
+      "id": "senior_english_10_020",
+      "difficulty": 3,
+      "question": "After months of talks, the two companies finally reached an ______ on the new project.",
+      "options": [
+        "argument",
+        "agreement",
+        "instrument",
+        "equipment"
+      ],
+      "answer": 1,
+      "explanation": "reach an agreement 是固定搭配，意為「達成協議」，全句翻譯為「經過數月的談判，兩家公司終於就新專案達成協議」。argument 是「爭論」，與 finally reached 的正面語意矛盾；instrument 是「儀器、樂器」，equipment 是「設備」且為不可數名詞，皆不符合語境與句法。"
+    }
+  ]
+}

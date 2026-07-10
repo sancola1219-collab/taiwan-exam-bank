@@ -1,0 +1,167 @@
+{
+  "level": "uni",
+  "subject": "uenglish",
+  "grade": 0,
+  "questions": [
+    {
+      "id": "uni_uenglish_u_001",
+      "difficulty": 1,
+      "question": "The scientists will carefully ___ the data before drawing any conclusions.",
+      "options": ["analyze", "analysis", "analytical", "analytically"],
+      "answer": 0,
+      "explanation": "助動詞 will 之後必須接原形動詞，故選動詞 analyze（分析）。易錯處是誤選名詞 analysis 或形容詞 analytical，判斷詞性時應先確認空格在句中扮演的角色：這裡需要的是動詞。"
+    },
+    {
+      "id": "uni_uenglish_u_002",
+      "difficulty": 1,
+      "question": "The word \"significant\" in the sentence \"The experiment showed a significant improvement\" is closest in meaning to ___.",
+      "options": ["temporary", "obvious to everyone", "important", "strange"],
+      "answer": 2,
+      "explanation": "significant 為學術字彙（AWL），意為「重要的、顯著的」，與 important 意思最接近。易錯處是望文生義以為與 sign（記號）有關而選 obvious，significant 強調的是重要性與影響程度，未必人人一眼可見。"
+    },
+    {
+      "id": "uni_uenglish_u_003",
+      "difficulty": 1,
+      "question": "Neither of the students ___ finished the assignment yet.",
+      "options": ["have", "has", "are", "were"],
+      "answer": 1,
+      "explanation": "neither of＋複數名詞作主詞時視為單數，動詞用第三人稱單數，故選 has。易錯處是受到就近的複數名詞 students 影響而誤選 have，主詞其實是單數的 neither。"
+    },
+    {
+      "id": "uni_uenglish_u_004",
+      "difficulty": 1,
+      "question": "He studied very hard for the test; ___, he failed it.",
+      "options": ["therefore", "moreover", "for example", "however"],
+      "answer": 3,
+      "explanation": "前句「努力讀書」與後句「考試不及格」語意相反，需要表示轉折的 however（然而）。易錯處是選表因果的 therefore，那會變成「因為努力所以不及格」，邏輯不通；分號加轉折副詞再加逗號是常見的學術句型。"
+    },
+    {
+      "id": "uni_uenglish_u_005",
+      "difficulty": 1,
+      "question": "The engineer gave a rough ___ of the total cost of the project.",
+      "options": ["estimate", "emphasis", "episode", "equation"],
+      "answer": 0,
+      "explanation": "estimate 作名詞指「估計、估價」，a rough estimate of 是固定搭配，意為「粗略的估算」。易錯處是被拼字相近的 emphasis（強調）或 equation（方程式）干擾，應由語意「工程師估算成本」判斷。"
+    },
+    {
+      "id": "uni_uenglish_u_006",
+      "difficulty": 1,
+      "question": "She had to make a quick ___ about which job offer to accept.",
+      "options": ["decide", "decisive", "decision", "decidedly"],
+      "answer": 2,
+      "explanation": "make a decision 是固定搭配，冠詞 a 與形容詞 quick 之後必須接名詞，故選 decision。易錯處是選動詞 decide，但空格前有冠詞與形容詞修飾，只能填名詞形。"
+    },
+    {
+      "id": "uni_uenglish_u_007",
+      "difficulty": 1,
+      "question": "The committee ___ ten members from different departments.",
+      "options": ["consists with", "composes of", "comprises of", "consists of"],
+      "answer": 3,
+      "explanation": "「由……組成」的正確用法是 consist of，故選 consists of；亦可說 is composed of 或 comprises（直接接受詞、不加 of）。易錯處正是 comprises of 這個常見錯誤搭配，comprise 本身已含「包含」之意，不可再加 of。"
+    },
+    {
+      "id": "uni_uenglish_u_008",
+      "difficulty": 2,
+      "question": "If I ___ rich, I would travel around the world.",
+      "options": ["am", "were", "had been", "will be"],
+      "answer": 1,
+      "explanation": "本句為與現在事實相反的假設語氣（第二條件句），if 子句用過去式，be 動詞一律用 were，主句搭配 would＋原形動詞。易錯處是選 had been，那是與過去事實相反的第三條件句用法，主句須改為 would have traveled 才一致。"
+    },
+    {
+      "id": "uni_uenglish_u_009",
+      "difficulty": 2,
+      "question": "___ by the unexpected news, she burst into tears.",
+      "options": ["Shocked", "Shocking", "Being shocking", "To shock"],
+      "answer": 0,
+      "explanation": "分詞構句的主詞是主句的 she，她是「被消息震驚」的承受者，故用過去分詞 Shocked 表被動。易錯處是選現在分詞 Shocking，那表示「她令人震驚」，主動與被動關係恰好顛倒；判斷關鍵是看主詞與分詞動作的關係。"
+    },
+    {
+      "id": "uni_uenglish_u_010",
+      "difficulty": 2,
+      "question": "The new policy will directly ___ thousands of college students.",
+      "options": ["effect", "affection", "affect", "effective"],
+      "answer": 2,
+      "explanation": "空格需要動詞，affect 意為「影響」，故選 affect；effect 通常作名詞（影響、效果），如 have an effect on。易錯處正是 affect 與 effect 的混用，可記為「a 開頭的 affect 是動作（動詞），e 開頭的 effect 是結果（名詞）」。"
+    },
+    {
+      "id": "uni_uenglish_u_011",
+      "difficulty": 2,
+      "question": "Never ___ such a beautiful sunset before I visited Kenting.",
+      "options": ["I have seen", "I saw", "have seen I", "have I seen"],
+      "answer": 3,
+      "explanation": "否定副詞 never 置於句首時，句子必須倒裝，助動詞提到主詞之前，故為 Never have I seen。易錯處是仍用正常語序 I have seen，或只把動詞整串移到主詞前；倒裝只移動助動詞，主要動詞留在原位。"
+    },
+    {
+      "id": "uni_uenglish_u_012",
+      "difficulty": 2,
+      "question": "The government plans to ___ the new tax policy starting next year.",
+      "options": ["implicate", "implement", "imply", "complement"],
+      "answer": 1,
+      "explanation": "implement 為學術常用動詞，意為「實施、執行（政策、計畫）」，implement a policy 是固定搭配。易錯處是形近字干擾：implicate 是「牽連」、imply 是「暗示」、complement 是「補充」，皆不符「政府執行政策」的語意。"
+    },
+    {
+      "id": "uni_uenglish_u_013",
+      "difficulty": 2,
+      "question": "The novel, ___ was published in 2020, soon became an international bestseller.",
+      "options": ["which", "that", "what", "who"],
+      "answer": 0,
+      "explanation": "兩個逗號之間為非限定關係子句，補充說明先行詞 the novel，先行詞為事物且非限定用法時只能用 which。易錯處是選 that，that 不能用於逗號隔開的非限定子句；what 本身不接先行詞，who 只用於人。"
+    },
+    {
+      "id": "uni_uenglish_u_014",
+      "difficulty": 2,
+      "question": "The results of the first experiment were inconclusive; ___, further research is needed.",
+      "options": ["in contrast", "otherwise", "therefore", "nevertheless"],
+      "answer": 2,
+      "explanation": "前句「結果尚無定論」是原因，後句「需要更多研究」是結論，兩句為因果關係，應選 therefore（因此）。易錯處是選 nevertheless（儘管如此），那表示轉折，會使句意變成「雖然無定論但仍需研究」的讓步邏輯，與本句直接推論的關係不符。"
+    },
+    {
+      "id": "uni_uenglish_u_015",
+      "difficulty": 3,
+      "question": "If she had studied harder in college, she ___ the licensing exam last year.",
+      "options": ["would pass", "will pass", "had passed", "would have passed"],
+      "answer": 3,
+      "explanation": "本句是與過去事實相反的假設（第三條件句）：if 子句用過去完成式 had studied，主句須用 would have＋過去分詞，故選 would have passed。易錯處是選 would pass，那是第二條件句（與現在事實相反）的主句形式，時態必須前後配套。"
+    },
+    {
+      "id": "uni_uenglish_u_016",
+      "difficulty": 3,
+      "question": "Hardly ___ at the station when it began to rain heavily.",
+      "options": ["we had arrived", "had we arrived", "we arrived", "did we arrived"],
+      "answer": 1,
+      "explanation": "Hardly...when... 句型中，hardly 置於句首須倒裝，且動作先發生用過去完成式，故為 Hardly had we arrived...when＋過去簡單式。易錯處是不倒裝（we had arrived），或倒裝後動詞形式錯誤（did we arrived 中 arrived 應為原形 arrive，且此句型慣用 had 倒裝而非 did）。"
+    },
+    {
+      "id": "uni_uenglish_u_017",
+      "difficulty": 3,
+      "question": "Read the passage: \"Remote work has grown rapidly over the past decade. While it offers flexibility and saves commuting time, studies show that many remote employees struggle with isolation and blurred boundaries between work and home. Many companies are therefore experimenting with hybrid models that combine office days and remote days.\" What is the main idea of the passage?",
+      "options": ["Remote work is beneficial mainly because it saves commuting time.", "Most companies have decided to ban remote work completely.", "Remote work has both advantages and drawbacks, so companies are trying hybrid arrangements.", "Isolation is a problem that affects only employees who work in offices."],
+      "answer": 2,
+      "explanation": "文章先述遠距工作的優點（彈性、省通勤），再指出缺點（孤立感、工作與生活界線模糊），最後說明公司因此嘗試混合辦公模式，主旨即「遠距工作有利有弊，故企業改採混合制」。易錯處是把文中提到的單一細節（如省通勤時間）當成主旨，主旨題應涵蓋全文論述架構而非片段資訊。"
+    },
+    {
+      "id": "uni_uenglish_u_018",
+      "difficulty": 3,
+      "question": "In the sentence \"The new drainage system helped mitigate the flooding problem,\" the word \"mitigate\" is closest in meaning to ___.",
+      "options": ["alleviate", "aggravate", "celebrate", "complicate"],
+      "answer": 0,
+      "explanation": "mitigate 意為「減輕、緩和」，與 alleviate（緩解）同義，兩者常用於描述減輕問題、痛苦或災害。易錯處是誤選 aggravate（使惡化），它是 mitigate 的反義詞，形近或音近的干擾選項須以語意判斷。"
+    },
+    {
+      "id": "uni_uenglish_u_019",
+      "difficulty": 3,
+      "question": "The professor insisted that the final report ___ submitted by Friday.",
+      "options": ["is", "be", "was", "has been"],
+      "answer": 1,
+      "explanation": "insist、suggest、demand、require 等表「堅持、要求」的動詞，其後 that 子句用假設語氣，動詞為（should＋）原形，report 是被提交的對象，故用 be submitted。易錯處是依主句過去式而選 was，假設語氣的原形動詞不隨主句時態變化。"
+    },
+    {
+      "id": "uni_uenglish_u_020",
+      "difficulty": 3,
+      "question": "Sales rose sharply in the Asian market last quarter; ___, they fell significantly in Europe.",
+      "options": ["as a result", "in addition", "similarly", "in contrast"],
+      "answer": 3,
+      "explanation": "前句「亞洲銷售大漲」與後句「歐洲銷售大跌」呈現兩個對象的相反情況，應用表對比的 in contrast（相較之下）。易錯處是選 similarly（同樣地），那用於兩句情況相似時；as a result 表因果、in addition 表遞進，皆與本句的對比邏輯不合。"
+    }
+  ]
+}

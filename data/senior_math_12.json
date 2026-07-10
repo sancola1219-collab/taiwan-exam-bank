@@ -1,0 +1,167 @@
+{
+  "level": "senior",
+  "subject": "math",
+  "grade": 12,
+  "questions": [
+    {
+      "id": "senior_math_12_001",
+      "difficulty": 1,
+      "question": "求極限 $\\displaystyle\\lim_{x\\to 2}\\frac{x^2-4}{x-2}$ 之值。",
+      "options": ["$0$", "$2$", "$4$", "不存在"],
+      "answer": 2,
+      "explanation": "分子因式分解 $x^2-4=(x-2)(x+2)$，約分後極限化為 $\\displaystyle\\lim_{x\\to 2}(x+2)=4$。易錯處是看到代入 $x=2$ 得 $\\dfrac{0}{0}$ 就誤判極限不存在，$\\dfrac{0}{0}$ 型應先化簡再求值。"
+    },
+    {
+      "id": "senior_math_12_002",
+      "difficulty": 1,
+      "question": "設 $f(x)=x^3$，則 $f'(2)$ 之值為何？",
+      "options": ["$12$", "$6$", "$8$", "$4$"],
+      "answer": 0,
+      "explanation": "由公式 $(x^n)'=nx^{n-1}$ 得 $f'(x)=3x^2$，故 $f'(2)=3\\times 2^2=12$。易錯處是把 $f'(2)$ 誤算成 $f(2)=8$，或微分時忘記係數 $n$ 而得 $4$。"
+    },
+    {
+      "id": "senior_math_12_003",
+      "difficulty": 1,
+      "question": "定積分 $\\displaystyle\\int_0^1 2x\\,dx$ 之值為何？",
+      "options": ["$2$", "$1$", "$\\dfrac{1}{2}$", "$0$"],
+      "answer": 1,
+      "explanation": "反導函數為 $x^2$，故 $\\displaystyle\\int_0^1 2x\\,dx=\\left[x^2\\right]_0^1=1-0=1$。易錯處是忘記積分要升次除以新指數，把被積函數直接代端點相減而得 $2$。"
+    },
+    {
+      "id": "senior_math_12_004",
+      "difficulty": 1,
+      "question": "空間向量 $\\vec{a}=(1,2,2)$ 的長度 $|\\vec{a}|$ 為何？",
+      "options": ["$5$", "$\\sqrt{5}$", "$9$", "$3$"],
+      "answer": 3,
+      "explanation": "向量長度為 $|\\vec{a}|=\\sqrt{1^2+2^2+2^2}=\\sqrt{1+4+4}=\\sqrt{9}=3$。易錯處是求出平方和 $9$ 後忘記開根號，或漏掉其中一個分量只算 $\\sqrt{5}$。"
+    },
+    {
+      "id": "senior_math_12_005",
+      "difficulty": 1,
+      "question": "二階方陣 $\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}$ 的行列式值為何？",
+      "options": ["$-2$", "$2$", "$10$", "$-5$"],
+      "answer": 0,
+      "explanation": "二階行列式為主對角線乘積減副對角線乘積：$1\\times 4-2\\times 3=4-6=-2$。易錯處是把減號寫成加號算成 $10$，或前後順序顛倒得 $2$。"
+    },
+    {
+      "id": "senior_math_12_006",
+      "difficulty": 1,
+      "question": "已知 $P(A\\cap B)=0.2$，$P(B)=0.5$，則條件機率 $P(A\\mid B)$ 為何？",
+      "options": ["$0.1$", "$0.25$", "$0.4$", "$0.7$"],
+      "answer": 2,
+      "explanation": "由條件機率定義 $P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}=\\dfrac{0.2}{0.5}=0.4$。易錯處是把兩機率相乘得 $0.1$，或分子分母顛倒；條件機率是「在 $B$ 已發生下」重新以 $P(B)$ 為分母。"
+    },
+    {
+      "id": "senior_math_12_007",
+      "difficulty": 1,
+      "question": "求極限 $\\displaystyle\\lim_{n\\to\\infty}\\frac{3n+1}{n+2}$ 之值。",
+      "options": ["$\\dfrac{1}{2}$", "$3$", "$0$", "$\\dfrac{3}{2}$"],
+      "answer": 1,
+      "explanation": "分子分母同除以 $n$ 得 $\\dfrac{3+\\frac{1}{n}}{1+\\frac{2}{n}}$，當 $n\\to\\infty$ 時 $\\dfrac{1}{n}\\to 0$，極限為 $\\dfrac{3}{1}=3$。易錯處是只看常數項算成 $\\dfrac{1}{2}$，分式極限應比較最高次項係數。"
+    },
+    {
+      "id": "senior_math_12_008",
+      "difficulty": 2,
+      "question": "設 $f(x)=x^3-3x$，則 $f(x)$ 的極大值為何？",
+      "options": ["$2$", "$-2$", "$0$", "$3$"],
+      "answer": 0,
+      "explanation": "$f'(x)=3x^2-3=3(x-1)(x+1)$，令 $f'(x)=0$ 得 $x=\\pm 1$；由一階導數變號判斷，$x=-1$ 為極大點，極大值 $f(-1)=(-1)^3-3(-1)=-1+3=2$。易錯處是把 $x=1$（極小點）代入得 $-2$ 當成極大值，需檢查導數正負變化的方向。"
+    },
+    {
+      "id": "senior_math_12_009",
+      "difficulty": 2,
+      "question": "定積分 $\\displaystyle\\int_1^2 3x^2\\,dx$ 之值為何？",
+      "options": ["$8$", "$3$", "$9$", "$7$"],
+      "answer": 3,
+      "explanation": "反導函數為 $x^3$，故 $\\displaystyle\\int_1^2 3x^2\\,dx=\\left[x^3\\right]_1^2=8-1=7$。易錯處是只代上限得 $8$ 而忘記減去下限的值 $1$。"
+    },
+    {
+      "id": "senior_math_12_010",
+      "difficulty": 2,
+      "question": "設 $A=\\begin{pmatrix}1&2\\\\0&1\\end{pmatrix}$，$B=\\begin{pmatrix}1&0\\\\3&1\\end{pmatrix}$，則 $AB$ 為何？",
+      "options": ["$\\begin{pmatrix}1&2\\\\3&7\\end{pmatrix}$", "$\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}$", "$\\begin{pmatrix}7&2\\\\3&1\\end{pmatrix}$", "$\\begin{pmatrix}7&3\\\\2&1\\end{pmatrix}$"],
+      "answer": 2,
+      "explanation": "依列乘行規則：第一列為 $(1\\times 1+2\\times 3,\\ 1\\times 0+2\\times 1)=(7,2)$，第二列為 $(0\\times 1+1\\times 3,\\ 0\\times 0+1\\times 1)=(3,1)$，故 $AB=\\begin{pmatrix}7&2\\\\3&1\\end{pmatrix}$。易錯處是算成 $BA$（矩陣乘法不可交換），或把對應元素直接相乘。"
+    },
+    {
+      "id": "senior_math_12_011",
+      "difficulty": 2,
+      "question": "空間向量 $\\vec{a}=(1,0,1)$ 與 $\\vec{b}=(0,1,1)$ 的夾角為何？",
+      "options": ["$60^\\circ$", "$30^\\circ$", "$45^\\circ$", "$90^\\circ$"],
+      "answer": 0,
+      "explanation": "內積 $\\vec{a}\\cdot\\vec{b}=0+0+1=1$，長度 $|\\vec{a}|=|\\vec{b}|=\\sqrt{2}$，故 $\\cos\\theta=\\dfrac{1}{\\sqrt{2}\\times\\sqrt{2}}=\\dfrac{1}{2}$，得 $\\theta=60^\\circ$。易錯處是把 $\\cos\\theta=\\dfrac{1}{2}$ 對應到 $30^\\circ$（那是 $\\cos\\theta=\\dfrac{\\sqrt{3}}{2}$ 的角）。"
+    },
+    {
+      "id": "senior_math_12_012",
+      "difficulty": 2,
+      "question": "原點 $(0,0,0)$ 到平面 $2x+y+2z=6$ 的距離為何？",
+      "options": ["$6$", "$2$", "$\\dfrac{6}{5}$", "$3$"],
+      "answer": 1,
+      "explanation": "點到平面距離公式 $d=\\dfrac{|2\\cdot 0+0+2\\cdot 0-6|}{\\sqrt{2^2+1^2+2^2}}=\\dfrac{6}{\\sqrt{9}}=\\dfrac{6}{3}=2$。易錯處是分母法向量長度算錯（$\\sqrt{4+1+4}=3$ 而非 $5$），或忘記分子要取絕對值。"
+    },
+    {
+      "id": "senior_math_12_013",
+      "difficulty": 2,
+      "question": "曲線 $y=x^2$ 在點 $(1,1)$ 處的切線方程式為何？",
+      "options": ["$y=2x+1$", "$y=x+1$", "$y=2x$", "$y=2x-1$"],
+      "answer": 3,
+      "explanation": "$y'=2x$，在 $x=1$ 處切線斜率為 $2$；由點斜式 $y-1=2(x-1)$，整理得 $y=2x-1$。易錯處是求出斜率後常數項處理錯誤寫成 $y=2x+1$，可用切點 $(1,1)$ 代入檢驗：$2\\times 1-1=1$ 正確。"
+    },
+    {
+      "id": "senior_math_12_014",
+      "difficulty": 2,
+      "question": "袋中有 $3$ 顆紅球、$2$ 顆白球，逐一取出不放回。已知第一顆為紅球，則第二顆也是紅球的機率為何？",
+      "options": ["$\\dfrac{2}{5}$", "$\\dfrac{1}{2}$", "$\\dfrac{3}{5}$", "$\\dfrac{1}{4}$"],
+      "answer": 1,
+      "explanation": "第一顆取出紅球後，袋中剩 $2$ 紅 $2$ 白共 $4$ 顆，故第二顆為紅球的條件機率為 $\\dfrac{2}{4}=\\dfrac{1}{2}$。易錯處是仍用原本的 $\\dfrac{3}{5}$ 或未扣除已取出的紅球，條件機率須依已知資訊更新樣本空間。"
+    },
+    {
+      "id": "senior_math_12_015",
+      "difficulty": 3,
+      "question": "求極限 $\\displaystyle\\lim_{x\\to 3}\\frac{x^2-9}{x^2-x-6}$ 之值。",
+      "options": ["$1$", "$\\dfrac{3}{2}$", "$\\dfrac{6}{5}$", "不存在"],
+      "answer": 2,
+      "explanation": "分解因式：$x^2-9=(x-3)(x+3)$，$x^2-x-6=(x-3)(x+2)$，約去 $(x-3)$ 後極限為 $\\displaystyle\\lim_{x\\to 3}\\frac{x+3}{x+2}=\\frac{6}{5}$。易錯處是分母因式分解錯誤，或因代入得 $\\dfrac{0}{0}$ 而誤答不存在。"
+    },
+    {
+      "id": "senior_math_12_016",
+      "difficulty": 3,
+      "question": "定積分 $\\displaystyle\\int_0^2 (x^2+1)\\,dx$ 之值為何？",
+      "options": ["$\\dfrac{14}{3}$", "$\\dfrac{8}{3}$", "$6$", "$\\dfrac{10}{3}$"],
+      "answer": 0,
+      "explanation": "逐項積分：$\\displaystyle\\int_0^2 (x^2+1)\\,dx=\\left[\\frac{x^3}{3}+x\\right]_0^2=\\frac{8}{3}+2=\\frac{14}{3}$。易錯處是漏掉常數項 $1$ 的積分只得 $\\dfrac{8}{3}$，或把 $\\dfrac{x^3}{3}$ 的分母 $3$ 忘掉。"
+    },
+    {
+      "id": "senior_math_12_017",
+      "difficulty": 3,
+      "question": "工廠甲生產全部產品的 $60\\%$，不良率 $1\\%$；工廠乙生產 $40\\%$，不良率 $2\\%$。今隨機抽到一件不良品，它來自工廠乙的機率為何？",
+      "options": ["$\\dfrac{3}{7}$", "$\\dfrac{2}{5}$", "$\\dfrac{1}{2}$", "$\\dfrac{4}{7}$"],
+      "answer": 3,
+      "explanation": "由貝氏定理：$P(\\text{乙}\\mid\\text{不良})=\\dfrac{0.4\\times 0.02}{0.6\\times 0.01+0.4\\times 0.02}=\\dfrac{0.008}{0.006+0.008}=\\dfrac{8}{14}=\\dfrac{4}{7}$。易錯處是只比較不良率 $2\\%$ 與 $1\\%$ 而忽略兩廠產量權重，或分母漏掉甲廠的貢獻 $0.006$。"
+    },
+    {
+      "id": "senior_math_12_018",
+      "difficulty": 3,
+      "question": "平面上將點繞原點逆時針旋轉 $90^\\circ$ 的線性變換矩陣為 $\\begin{pmatrix}0&-1\\\\1&0\\end{pmatrix}$，則點 $(2,3)$ 經此變換後的像為何？",
+      "options": ["$(3,-2)$", "$(-3,2)$", "$(2,-3)$", "$(-2,3)$"],
+      "answer": 1,
+      "explanation": "計算 $\\begin{pmatrix}0&-1\\\\1&0\\end{pmatrix}\\begin{pmatrix}2\\\\3\\end{pmatrix}=\\begin{pmatrix}0\\times 2+(-1)\\times 3\\\\1\\times 2+0\\times 3\\end{pmatrix}=\\begin{pmatrix}-3\\\\2\\end{pmatrix}$，故像為 $(-3,2)$。易錯處是把旋轉方向弄成順時針而答 $(3,-2)$，或矩陣乘向量時列與行對應錯誤。"
+    },
+    {
+      "id": "senior_math_12_019",
+      "difficulty": 3,
+      "question": "點 $(1,2,3)$ 到平面 $x+2y+2z=3$ 的距離為何？",
+      "options": ["$\\dfrac{8}{9}$", "$8$", "$\\dfrac{8}{3}$", "$\\dfrac{4}{3}$"],
+      "answer": 2,
+      "explanation": "代入距離公式：$d=\\dfrac{|1+2\\times 2+2\\times 3-3|}{\\sqrt{1^2+2^2+2^2}}=\\dfrac{|1+4+6-3|}{3}=\\dfrac{8}{3}$。易錯處是分母誤用 $1+2+2=5$ 或 $9$（忘記開根號 $\\sqrt{9}=3$），及分子忘記減去常數項 $3$。"
+    },
+    {
+      "id": "senior_math_12_020",
+      "difficulty": 3,
+      "question": "函數 $f(x)=x^3-3x^2+2$ 的遞減區間為何？",
+      "options": ["$(-\\infty,0)$", "$(2,\\infty)$", "$(-1,1)$", "$(0,2)$"],
+      "answer": 3,
+      "explanation": "$f'(x)=3x^2-6x=3x(x-2)$，當 $0<x<2$ 時 $f'(x)<0$，故遞減區間為 $(0,2)$；在 $x<0$ 與 $x>2$ 時 $f'(x)>0$ 為遞增。易錯處是解不等式 $3x(x-2)<0$ 時把「小於 $0$」的區間誤判為兩根之外。"
+    }
+  ]
+}

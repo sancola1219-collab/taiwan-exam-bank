@@ -1,0 +1,267 @@
+{
+  "level": "senior",
+  "subject": "english",
+  "grade": 12,
+  "questions": [
+    {
+      "id": "senior_english_12_001",
+      "difficulty": 1,
+      "question": "This medicine can help ______ the pain in your shoulder, but it cannot cure the injury itself.",
+      "options": [
+        "relieve",
+        "rebel",
+        "recite",
+        "reserve"
+      ],
+      "answer": 0,
+      "explanation": "relieve 意為「緩解、減輕（疼痛、壓力）」，relieve the pain 是常見搭配，全句翻譯為「這種藥可以幫助緩解你肩膀的疼痛，但無法治癒傷勢本身」。rebel 是「反叛」，recite 是「背誦」，reserve 是「預訂、保留」，皆與疼痛的語境不合。"
+    },
+    {
+      "id": "senior_english_12_002",
+      "difficulty": 1,
+      "question": "Success in learning a language rarely comes without ______ effort over a long period of time.",
+      "options": [
+        "fragile",
+        "offensive",
+        "persistent",
+        "allergic"
+      ],
+      "answer": 2,
+      "explanation": "persistent 意為「持續不懈的」，persistent effort 即「持之以恆的努力」，全句翻譯為「學好語言的成功，很少能在缺乏長期持續努力的情況下達成」。fragile 是「脆弱的」，offensive 是「冒犯的」，allergic 是「過敏的」，語意皆不符。"
+    },
+    {
+      "id": "senior_english_12_003",
+      "difficulty": 1,
+      "question": "The novel, ______ was published only last spring, has already been translated into twelve languages.",
+      "options": [
+        "that",
+        "what",
+        "it",
+        "which"
+      ],
+      "answer": 3,
+      "explanation": "本題考非限定關係子句：先行詞 The novel 之後有逗點，須用 which 引導補述用法的關係子句，that 不能用於非限定用法。全句翻譯為「這本小說去年春天才出版，就已經被翻譯成十二種語言」。it 是代名詞，會造成兩個主要子句無連接詞相連的錯誤。"
+    },
+    {
+      "id": "senior_english_12_004",
+      "difficulty": 1,
+      "question": "The retired teacher's farewell speech was so ______ that many students were moved to tears.",
+      "options": [
+        "tedious",
+        "touching",
+        "toxic",
+        "technical"
+      ],
+      "answer": 1,
+      "explanation": "touching 意為「感人的」，與後文「許多學生感動落淚」呼應，全句翻譯為「這位退休老師的告別演說十分感人，許多學生都感動得流下眼淚」。tedious 是「冗長乏味的」，toxic 是「有毒的」，technical 是「技術性的」，皆與落淚的反應矛盾。"
+    },
+    {
+      "id": "senior_english_12_005",
+      "difficulty": 1,
+      "question": "With the deadline ______, the whole team had no choice but to work overtime.",
+      "options": [
+        "approached",
+        "approach",
+        "approaching",
+        "to approaching"
+      ],
+      "answer": 2,
+      "explanation": "「with + 受詞 + 分詞」為表附帶狀況的獨立結構，deadline 與 approach 是主動關係（截止日期正在逼近），故用現在分詞 approaching。全句翻譯為「隨著截止日期逼近，整個團隊別無選擇，只能加班」。approached 是過去分詞，表被動，與語意不合。"
+    },
+    {
+      "id": "senior_english_12_006",
+      "difficulty": 1,
+      "question": "Doctors say that regular exercise can greatly ______ the risk of heart disease.",
+      "options": [
+        "reduce",
+        "refund",
+        "remind",
+        "require"
+      ],
+      "answer": 0,
+      "explanation": "reduce 意為「降低、減少」，reduce the risk of... 是固定搭配，全句翻譯為「醫生表示，規律運動能大幅降低罹患心臟病的風險」。refund 是「退款」，remind 是「提醒」，require 是「需要、要求」，皆無法與 risk 形成合理搭配。"
+    },
+    {
+      "id": "senior_english_12_007",
+      "difficulty": 1,
+      "question": "It is essential that every visitor ______ the safety rules before entering the laboratory.",
+      "options": [
+        "follows",
+        "follow",
+        "followed",
+        "has followed"
+      ],
+      "answer": 1,
+      "explanation": "It is essential/important/necessary that... 的句型中，that 子句用「should + 原形動詞」，而 should 常被省略，故動詞用原形 follow。全句翻譯為「每位訪客在進入實驗室前都必須遵守安全規則，這一點非常重要」。誘答選項 follows 是依一般第三人稱單數規則變化，但在此句型中不適用。"
+    },
+    {
+      "id": "senior_english_12_008",
+      "difficulty": 2,
+      "question": "Instead of giving direct answers, the professor encouraged us to examine every claim ______ before accepting it.",
+      "options": [
+        "urgently",
+        "financially",
+        "previously",
+        "critically"
+      ],
+      "answer": 3,
+      "explanation": "critically 意為「批判性地」，think/examine critically 指以批判性思考檢視資訊，全句翻譯為「教授不直接給答案，而是鼓勵我們在接受任何說法之前，先批判性地檢視它」。urgently 是「緊急地」，financially 是「財務上」，previously 是「先前地」，皆不符合學術思辨的語境。"
+    },
+    {
+      "id": "senior_english_12_009",
+      "difficulty": 2,
+      "question": "______ in 1624, the old fort in Tainan has stood for about four hundred years.",
+      "options": [
+        "Building",
+        "Having built",
+        "Built",
+        "To build"
+      ],
+      "answer": 2,
+      "explanation": "分詞構句中，主詞 the old fort 與 build 是被動關係（堡壘「被建造」），須用過去分詞 Built，原句可還原為 Because it was built in 1624, ...。全句翻譯為「這座台南的古堡建於一六二四年，至今已矗立約四百年」。Building 與 Having built 皆表主動，邏輯不通。"
+    },
+    {
+      "id": "senior_english_12_010",
+      "difficulty": 2,
+      "question": "The vaccine was developed quickly thanks to the close ______ between scientists from over ten countries.",
+      "options": [
+        "collaboration",
+        "calculation",
+        "celebration",
+        "circulation"
+      ],
+      "answer": 0,
+      "explanation": "collaboration 意為「合作」，close collaboration between... 即「……之間的密切合作」，全句翻譯為「多虧十多個國家科學家的密切合作，這支疫苗才得以迅速研發完成」。calculation 是「計算」，celebration 是「慶祝」，circulation 是「循環、發行量」，字形相近但語意皆不合。"
+    },
+    {
+      "id": "senior_english_12_011",
+      "difficulty": 2,
+      "question": "The number of people who use mobile payments ______ sharply in recent years.",
+      "options": [
+        "have risen",
+        "has risen",
+        "rise",
+        "rising"
+      ],
+      "answer": 1,
+      "explanation": "主詞是 The number of...（……的數目），核心名詞為單數的 number，動詞須用單數；又 in recent years（近年來）是現在完成式的常見標記，故選 has risen。全句翻譯為「近年來使用行動支付的人數急遽上升」。have risen 誤將複數的 people 當作主詞，是最主要的誘答選項。"
+    },
+    {
+      "id": "senior_english_12_012",
+      "difficulty": 2,
+      "question": "His endless complaints at every meeting began to ______ his colleagues' patience.",
+      "options": [
+        "explore",
+        "expand",
+        "export",
+        "exhaust"
+      ],
+      "answer": 3,
+      "explanation": "exhaust 意為「耗盡（耐心、資源）」，exhaust one's patience 即「磨光某人的耐心」，全句翻譯為「他在每次會議上無止境的抱怨，開始耗盡同事們的耐心」。explore 是「探索」，expand 是「擴張」，export 是「出口」，四字皆以 ex- 開頭，但只有 exhaust 符合語意。"
+    },
+    {
+      "id": "senior_english_12_013",
+      "difficulty": 2,
+      "question": "Rarely ______ a documentary that presents both sides of an issue so fairly.",
+      "options": [
+        "have I seen",
+        "I have seen",
+        "I saw",
+        "did I saw"
+      ],
+      "answer": 0,
+      "explanation": "否定副詞 Rarely（很少）置於句首時，句子須部分倒裝，助動詞 have 移至主詞 I 之前，故選 have I seen。全句翻譯為「我很少看到一部能如此公正呈現議題正反兩面的紀錄片」。did I saw 在倒裝後動詞應還原為原形 see，屬文法錯誤，是常見陷阱。"
+    },
+    {
+      "id": "senior_english_12_014",
+      "difficulty": 2,
+      "question": "The government issued a travel warning to ______ citizens from visiting the flooded area.",
+      "options": [
+        "promote",
+        "inspire",
+        "discourage",
+        "convince"
+      ],
+      "answer": 2,
+      "explanation": "discourage someone from + V-ing 意為「勸阻某人做某事」，全句翻譯為「政府發布旅遊警示，勸阻民眾前往淹水地區」。promote 是「促進、宣傳」，inspire 是「激勵」，convince 是「說服（相信）」，且三者皆不與 from + V-ing 搭配，語法與語意皆不合。"
+    },
+    {
+      "id": "senior_english_12_015",
+      "difficulty": 3,
+      "question": "閱讀測驗：For decades, scientists believed that adult brains could not grow new cells. However, research in recent years has challenged this view. Studies show that in a brain area related to memory, new neurons can appear even in people in their seventies. Interestingly, the growth seems stronger in those who exercise regularly, sleep well, and keep learning new skills. Although scientists still debate how much these new cells improve thinking, many agree on one point: the adult brain is far more flexible than we once imagined. What can be inferred from the passage?",
+      "options": [
+        "Scientists have fully understood how new brain cells improve thinking",
+        "Only people under seventy can grow new brain cells",
+        "The belief that adult brains cannot change was proved in recent years",
+        "A healthy lifestyle may support the growth of new brain cells in adults"
+      ],
+      "answer": 3,
+      "explanation": "文中提到 the growth seems stronger in those who exercise regularly, sleep well, and keep learning new skills，翻譯為「在規律運動、睡眠充足並持續學習新技能的人身上，新神經元的生長似乎更旺盛」，可推論健康的生活型態可能有助於成人腦細胞新生。文章明言科學家仍在爭論新細胞對思考的助益，且七十多歲者也能長出新神經元，故其餘選項皆與文意不符。"
+    },
+    {
+      "id": "senior_english_12_016",
+      "difficulty": 3,
+      "question": "圖表判讀：下表為某高中圖書館統計的年度借閱資料。Literature: 1,250 books; Science: 980 books; Comics: 1,430 books; Language learning: 640 books. According to the table, which of the following statements is true?",
+      "options": [
+        "Science books were borrowed more often than literature books",
+        "Comics were the most frequently borrowed category of the four",
+        "Language learning books were borrowed more than 1,000 times",
+        "Literature was the least popular category in the library"
+      ],
+      "answer": 1,
+      "explanation": "四類書籍中漫畫（Comics）借閱量 1,430 冊最高，故「Comics were the most frequently borrowed category」（漫畫是四類中最常被借閱的類別）正確。科普 980 冊低於文學 1,250 冊；語言學習類僅 640 冊，未超過一千；借閱量最低的是語言學習類而非文學類，故其餘選項皆與表中數據不符。"
+    },
+    {
+      "id": "senior_english_12_017",
+      "difficulty": 3,
+      "question": "閱讀測驗：\"Fast fashion\" refers to cheap clothing produced rapidly to follow the latest trends. Because prices are low, many consumers buy clothes they wear only a few times. The hidden cost, however, is paid elsewhere: making a single cotton T-shirt can take about 2,700 liters of water, and mountains of discarded clothes end up in landfills in developing countries. Some brands now offer recycling programs, but critics argue that such programs deal with only a tiny fraction of the waste and may simply make shoppers feel less guilty about buying more. Which statement best describes the critics' view of the recycling programs?",
+      "options": [
+        "They have completely solved the problem of clothing waste",
+        "They should be expanded to cover all developing countries",
+        "They prove that fast fashion brands care nothing about profits",
+        "They handle little waste and may even encourage more buying"
+      ],
+      "answer": 3,
+      "explanation": "文末關鍵句 critics argue that such programs deal with only a tiny fraction of the waste and may simply make shoppers feel less guilty about buying more，翻譯為「批評者主張這類回收計畫只處理了極小部分的廢棄物，而且可能只是讓消費者買更多時比較不內疚」，即回收成效有限、甚至變相鼓勵消費，故選最後一項。其餘選項或過度誇大成效，或是文中未提及的主張。"
+    },
+    {
+      "id": "senior_english_12_018",
+      "difficulty": 3,
+      "question": "Her remarkable ______ to detail makes her one of the best editors in the publishing house.",
+      "options": [
+        "attention",
+        "intention",
+        "tension",
+        "extension"
+      ],
+      "answer": 0,
+      "explanation": "attention to detail 是固定搭配，意為「對細節的注意、一絲不苟」，全句翻譯為「她對細節的高度注意，使她成為出版社裡最優秀的編輯之一」。intention 是「意圖」，tension 是「緊張（關係）」，extension 是「延伸、分機」，皆不與 to detail 形成慣用搭配。"
+    },
+    {
+      "id": "senior_english_12_019",
+      "difficulty": 3,
+      "question": "So difficult ______ that fewer than five percent of the participants solved it within an hour.",
+      "options": [
+        "the puzzle was",
+        "it was the puzzle",
+        "was the puzzle",
+        "the puzzle is"
+      ],
+      "answer": 2,
+      "explanation": "「So + 形容詞」置於句首表強調時，主要子句須倒裝，將 be 動詞移到主詞之前，故選 was the puzzle。全句翻譯為「這道謎題如此困難，以致不到百分之五的參與者能在一小時內解出」。不倒裝的 the puzzle was 是最主要的誘答選項；the puzzle is 除語序外，時態也與 solved 不一致。"
+    },
+    {
+      "id": "senior_english_12_020",
+      "difficulty": 3,
+      "question": "The ancient manuscript was so ______ that scholars could barely make out the words on it.",
+      "options": [
+        "fluent",
+        "faded",
+        "frequent",
+        "fertile"
+      ],
+      "answer": 1,
+      "explanation": "faded 意為「褪色的、模糊的」，與後文「學者幾乎無法辨認上面的文字」呼應，全句翻譯為「這份古代手稿褪色得非常嚴重，學者幾乎無法辨認上面的字」。fluent 是「流利的」，frequent 是「頻繁的」，fertile 是「肥沃的」，皆無法描述手稿字跡的狀態。make out 意為「辨認出」。"
+    }
+  ]
+}

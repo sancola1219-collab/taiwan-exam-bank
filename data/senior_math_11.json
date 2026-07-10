@@ -1,0 +1,167 @@
+{
+  "level": "senior",
+  "subject": "math",
+  "grade": 11,
+  "questions": [
+    {
+      "id": "senior_math_11_001",
+      "difficulty": 1,
+      "question": "等差數列首項 $a_1=3$，公差 $d=4$，則第 $10$ 項 $a_{10}$ 為何？",
+      "options": ["$43$", "$36$", "$39$", "$33$"],
+      "answer": 2,
+      "explanation": "等差數列一般項為 $a_n=a_1+(n-1)d$，代入得 $a_{10}=3+(10-1)\\times 4=3+36=39$。易錯處是把 $(n-1)$ 誤用成 $n$，算成 $3+40=43$。"
+    },
+    {
+      "id": "senior_math_11_002",
+      "difficulty": 1,
+      "question": "等比數列 $2,\\ 6,\\ 18,\\ \\dots$ 的第 $5$ 項為何？",
+      "options": ["$162$", "$486$", "$54$", "$96$"],
+      "answer": 0,
+      "explanation": "公比 $r=\\dfrac{6}{2}=3$，一般項 $a_n=a_1 r^{n-1}$，故 $a_5=2\\times 3^{4}=2\\times 81=162$。易錯處是把指數用成 $n$ 而算 $2\\times 3^5=486$，或只乘到第 4 項得 $54$。"
+    },
+    {
+      "id": "senior_math_11_003",
+      "difficulty": 1,
+      "question": "$5$ 個不同的人排成一列，共有幾種排法？",
+      "options": ["$25$", "$120$", "$60$", "$24$"],
+      "answer": 1,
+      "explanation": "$5$ 人直線排列的方法數為 $5!=5\\times 4\\times 3\\times 2\\times 1=120$ 種。易錯處是誤算成 $5^2=25$ 或漏乘一個因數得 $24=4!$。"
+    },
+    {
+      "id": "senior_math_11_004",
+      "difficulty": 1,
+      "question": "擲一顆公正骰子一次，出現點數大於 $4$ 的機率為何？",
+      "options": ["$\\dfrac{1}{2}$", "$\\dfrac{1}{6}$", "$\\dfrac{2}{3}$", "$\\dfrac{1}{3}$"],
+      "answer": 3,
+      "explanation": "點數大於 $4$ 的情形有 $5$ 和 $6$ 共 $2$ 種，樣本空間共 $6$ 種，故機率為 $\\dfrac{2}{6}=\\dfrac{1}{3}$。易錯處是把「大於 $4$」誤含 $4$ 本身而算成 $\\dfrac{3}{6}=\\dfrac{1}{2}$。"
+    },
+    {
+      "id": "senior_math_11_005",
+      "difficulty": 1,
+      "question": "設平面向量 $\\vec{a}=(1,2)$，$\\vec{b}=(3,-1)$，則 $\\vec{a}+\\vec{b}$ 為何？",
+      "options": ["$(4,1)$", "$(4,3)$", "$(-2,3)$", "$(3,1)$"],
+      "answer": 0,
+      "explanation": "向量加法為對應分量相加：$\\vec{a}+\\vec{b}=(1+3,\\ 2+(-1))=(4,1)$。易錯處是忽略 $\\vec{b}$ 第二分量的負號而得 $(4,3)$，或誤做減法得 $(-2,3)$。"
+    },
+    {
+      "id": "senior_math_11_006",
+      "difficulty": 1,
+      "question": "函數 $y=3\\sin(2x)$ 的週期為何？",
+      "options": ["$2\\pi$", "$\\dfrac{\\pi}{2}$", "$\\pi$", "$4\\pi$"],
+      "answer": 2,
+      "explanation": "$y=A\\sin(bx)$ 的週期為 $\\dfrac{2\\pi}{|b|}$，此處 $b=2$，故週期為 $\\dfrac{2\\pi}{2}=\\pi$。易錯處是把振幅 $3$ 誤當成影響週期的量，或忘記除以 $b$ 而答 $2\\pi$。"
+    },
+    {
+      "id": "senior_math_11_007",
+      "difficulty": 1,
+      "question": "資料 $2,\\ 4,\\ 6,\\ 8,\\ 10$ 的算術平均數為何？",
+      "options": ["$5$", "$6$", "$7$", "$30$"],
+      "answer": 1,
+      "explanation": "平均數為總和除以個數：$\\dfrac{2+4+6+8+10}{5}=\\dfrac{30}{5}=6$。易錯處是只求出總和 $30$ 忘記除以資料個數，或誤取中間偏差的值 $5$。"
+    },
+    {
+      "id": "senior_math_11_008",
+      "difficulty": 2,
+      "question": "等差數列首項 $a_1=5$，公差 $d=3$，則前 $10$ 項的和 $S_{10}$ 為何？",
+      "options": ["$185$", "$200$", "$160$", "$320$"],
+      "answer": 0,
+      "explanation": "先求 $a_{10}=5+9\\times 3=32$，再由 $S_{10}=\\dfrac{10(a_1+a_{10})}{2}=\\dfrac{10(5+32)}{2}=5\\times 37=185$。易錯處是把 $a_{10}$ 誤算成 $5+10\\times 3=35$ 而得 $200$。"
+    },
+    {
+      "id": "senior_math_11_009",
+      "difficulty": 2,
+      "question": "從 $7$ 人中選出 $3$ 人組成委員會（不分職務），共有幾種選法？",
+      "options": ["$21$", "$210$", "$28$", "$35$"],
+      "answer": 3,
+      "explanation": "不計順序用組合數：$C^7_3=\\dfrac{7\\times 6\\times 5}{3\\times 2\\times 1}=\\dfrac{210}{6}=35$ 種。易錯處是誤用排列 $P^7_3=210$（有分職務才用排列），或分母階乘算錯。"
+    },
+    {
+      "id": "senior_math_11_010",
+      "difficulty": 2,
+      "question": "袋中有 $4$ 名男生、$3$ 名女生，從中隨機選出 $2$ 人，兩人皆為女生的機率為何？",
+      "options": ["$\\dfrac{3}{7}$", "$\\dfrac{9}{49}$", "$\\dfrac{1}{7}$", "$\\dfrac{2}{7}$"],
+      "answer": 2,
+      "explanation": "全部選法為 $C^7_2=21$，兩人皆女生的選法為 $C^3_2=3$，故機率為 $\\dfrac{3}{21}=\\dfrac{1}{7}$。易錯處是用 $\\left(\\dfrac{3}{7}\\right)^2=\\dfrac{9}{49}$ 計算，但抽出不放回時兩次抽取並非獨立事件。"
+    },
+    {
+      "id": "senior_math_11_011",
+      "difficulty": 2,
+      "question": "某抽獎活動中，抽中 $100$ 元的機率為 $0.2$，抽中 $50$ 元的機率為 $0.3$，其餘情形得 $0$ 元，則獎金的期望值為何？",
+      "options": ["$35$ 元", "$50$ 元", "$30$ 元", "$75$ 元"],
+      "answer": 0,
+      "explanation": "期望值 $E=100\\times 0.2+50\\times 0.3+0\\times 0.5=20+15+0=35$ 元。易錯處是把各獎金直接平均 $(100+50+0)\\div 3=50$，期望值必須用機率加權計算。"
+    },
+    {
+      "id": "senior_math_11_012",
+      "difficulty": 2,
+      "question": "設 $\\vec{a}=(2,1)$，$\\vec{b}=(1,-3)$，則內積 $\\vec{a}\\cdot\\vec{b}$ 為何？",
+      "options": ["$1$", "$-1$", "$5$", "$(2,-3)$"],
+      "answer": 1,
+      "explanation": "內積為對應分量乘積之和：$\\vec{a}\\cdot\\vec{b}=2\\times 1+1\\times(-3)=2-3=-1$。易錯處是忽略負號算成 $2+3=5$，或誤以為內積結果仍是向量，內積是一個純量。"
+    },
+    {
+      "id": "senior_math_11_013",
+      "difficulty": 2,
+      "question": "函數 $y=2\\sin x+1$ 的最大值為何？",
+      "options": ["$2$", "$1$", "$4$", "$3$"],
+      "answer": 3,
+      "explanation": "因 $-1\\le \\sin x\\le 1$，故 $y=2\\sin x+1$ 的最大值發生在 $\\sin x=1$ 時，為 $2\\times 1+1=3$。易錯處是只看振幅 $2$ 當作最大值，忘記加上垂直平移量 $1$。"
+    },
+    {
+      "id": "senior_math_11_014",
+      "difficulty": 2,
+      "question": "資料 $1,\\ 3,\\ 5,\\ 7,\\ 9$ 的標準差為何？",
+      "options": ["$8$", "$2\\sqrt{2}$", "$4$", "$2$"],
+      "answer": 1,
+      "explanation": "平均數為 $\\dfrac{1+3+5+7+9}{5}=5$，變異數為 $\\dfrac{(-4)^2+(-2)^2+0^2+2^2+4^2}{5}=\\dfrac{40}{5}=8$，標準差為 $\\sqrt{8}=2\\sqrt{2}$。易錯處是求出變異數 $8$ 後忘記開根號，標準差是變異數的正平方根。"
+    },
+    {
+      "id": "senior_math_11_015",
+      "difficulty": 3,
+      "question": "無窮等比級數首項為 $6$，公比為 $\\dfrac{1}{3}$，則其和為何？",
+      "options": ["$18$", "$\\dfrac{9}{2}$", "$9$", "$12$"],
+      "answer": 2,
+      "explanation": "當 $|r|<1$ 時，無窮等比級數和為 $S=\\dfrac{a_1}{1-r}=\\dfrac{6}{1-\\frac{1}{3}}=\\dfrac{6}{\\frac{2}{3}}=9$。易錯處是分母誤用 $r$ 而算 $6\\div\\dfrac{1}{3}=18$，公式分母是 $1-r$ 而非 $r$。"
+    },
+    {
+      "id": "senior_math_11_016",
+      "difficulty": 3,
+      "question": "由數字 $0,1,2,3,4$ 中取相異數字組成三位數，共可組成幾個？",
+      "options": ["$48$", "$60$", "$100$", "$36$"],
+      "answer": 0,
+      "explanation": "百位不可為 $0$，有 $4$ 種選法；十位可用剩下 $4$ 個數字（含 $0$），個位再選剩下 $3$ 個，故共 $4\\times 4\\times 3=48$ 個。易錯處是忽略百位不能為 $0$ 的限制而算成 $5\\times 4\\times 3=60$。"
+    },
+    {
+      "id": "senior_math_11_017",
+      "difficulty": 3,
+      "question": "設 $A$、$B$ 為獨立事件，$P(A)=0.4$，$P(B)=0.5$，則 $P(A\\cup B)$ 為何？",
+      "options": ["$0.9$", "$0.2$", "$0.5$", "$0.7$"],
+      "answer": 3,
+      "explanation": "獨立事件有 $P(A\\cap B)=P(A)P(B)=0.4\\times 0.5=0.2$，再由取捨原理 $P(A\\cup B)=P(A)+P(B)-P(A\\cap B)=0.4+0.5-0.2=0.7$。易錯處是直接相加得 $0.9$，獨立不代表互斥，必須扣除交集的機率。"
+    },
+    {
+      "id": "senior_math_11_018",
+      "difficulty": 3,
+      "question": "已知 $|\\vec{a}|=2$，$|\\vec{b}|=3$，且 $\\vec{a}$ 與 $\\vec{b}$ 的夾角為 $60^\\circ$，則 $|\\vec{a}+\\vec{b}|$ 為何？",
+      "options": ["$\\sqrt{7}$", "$\\sqrt{19}$", "$5$", "$\\sqrt{13}$"],
+      "answer": 1,
+      "explanation": "$|\\vec{a}+\\vec{b}|^2=|\\vec{a}|^2+|\\vec{b}|^2+2\\vec{a}\\cdot\\vec{b}=4+9+2\\times 2\\times 3\\cos 60^\\circ=13+6=19$，故 $|\\vec{a}+\\vec{b}|=\\sqrt{19}$。易錯處是漏掉交叉項 $2\\vec{a}\\cdot\\vec{b}$ 而答 $\\sqrt{13}$，或直接把長度相加得 $5$（僅在同方向時成立）。"
+    },
+    {
+      "id": "senior_math_11_019",
+      "difficulty": 3,
+      "question": "設 $\\theta$ 在第二象限且 $\\sin\\theta=\\dfrac{3}{5}$，則 $\\tan\\theta$ 之值為何？",
+      "options": ["$\\dfrac{3}{4}$", "$-\\dfrac{4}{3}$", "$-\\dfrac{3}{4}$", "$\\dfrac{4}{3}$"],
+      "answer": 2,
+      "explanation": "第二象限中 $\\cos\\theta<0$，由 $\\sin^2\\theta+\\cos^2\\theta=1$ 得 $\\cos\\theta=-\\sqrt{1-\\frac{9}{25}}=-\\dfrac{4}{5}$，故 $\\tan\\theta=\\dfrac{\\sin\\theta}{\\cos\\theta}=\\dfrac{3/5}{-4/5}=-\\dfrac{3}{4}$。易錯處是忽略象限判斷把 $\\cos\\theta$ 取正而答 $\\dfrac{3}{4}$，或把分子分母顛倒得 $-\\dfrac{4}{3}$。"
+    },
+    {
+      "id": "senior_math_11_020",
+      "difficulty": 3,
+      "question": "一組資料的標準差為 $4$，若將每筆資料都乘以 $2$ 再加 $3$，則新資料的標準差為何？",
+      "options": ["$11$", "$4$", "$16$", "$8$"],
+      "answer": 3,
+      "explanation": "資料經線性變換 $y=ax+b$ 後，標準差變為 $|a|$ 倍且與 $b$ 無關，故新標準差為 $2\\times 4=8$。易錯處是以為加 $3$ 也會影響離散程度而答 $11$，平移只改變平均數，不改變標準差。"
+    }
+  ]
+}

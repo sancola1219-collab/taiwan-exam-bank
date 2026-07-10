@@ -1,0 +1,167 @@
+{
+  "level": "uni",
+  "subject": "calculus",
+  "grade": 0,
+  "questions": [
+    {
+      "id": "uni_calculus_u_001",
+      "difficulty": 1,
+      "question": "求極限 $\\lim_{x\\to 0}\\frac{\\sin 3x}{x}$ 之值為何？",
+      "options": ["0", "1", "3", "$\\infty$"],
+      "answer": 2,
+      "explanation": "利用基本極限 $\\lim_{u\\to 0}\\frac{\\sin u}{u}=1$，將原式改寫為 $3\\cdot\\frac{\\sin 3x}{3x}$，當 $x\\to 0$ 時 $\\frac{\\sin 3x}{3x}\\to 1$，故極限為 3。常見錯誤是直接套用 $\\frac{\\sin x}{x}=1$ 而忽略係數 3，誤選 1。"
+    },
+    {
+      "id": "uni_calculus_u_002",
+      "difficulty": 1,
+      "question": "設 $f(x)=x^3-2x$，則 $f'(1)$ 之值為何？",
+      "options": ["1", "2", "3", "-1"],
+      "answer": 0,
+      "explanation": "由冪次法則，$f'(x)=3x^2-2$，代入 $x=1$ 得 $f'(1)=3-2=1$。易錯處在於忘記對 $-2x$ 微分得到 $-2$，只算 $3x^2$ 而誤選 3。"
+    },
+    {
+      "id": "uni_calculus_u_003",
+      "difficulty": 1,
+      "question": "定積分 $\\int_0^1 2x\\,dx$ 之值為何？",
+      "options": ["0", "$\\frac{1}{2}$", "2", "1"],
+      "answer": 3,
+      "explanation": "反導函數為 $x^2$，由微積分基本定理得 $\\int_0^1 2x\\,dx = x^2\\Big|_0^1 = 1-0 = 1$。常見錯誤是把被積函數當成 $x$ 而算出 $\\frac{1}{2}$，或忘記代入上下限。"
+    },
+    {
+      "id": "uni_calculus_u_004",
+      "difficulty": 1,
+      "question": "設 $f(x)=\\frac{x^2-1}{x-1}$（$x\\neq 1$），若要使 $f$ 在 $x=1$ 處連續，應定義 $f(1)$ 為何值？",
+      "options": ["0", "2", "1", "無論如何定義都不可能連續"],
+      "answer": 1,
+      "explanation": "先化簡 $\\frac{x^2-1}{x-1}=\\frac{(x-1)(x+1)}{x-1}=x+1$（$x\\neq 1$），故 $\\lim_{x\\to 1}f(x)=2$，定義 $f(1)=2$ 即為可移除的不連續點。易錯處是看到分母為 0 就以為極限不存在而選最後一個選項。"
+    },
+    {
+      "id": "uni_calculus_u_005",
+      "difficulty": 1,
+      "question": "函數 $f(x)=e^{2x}$ 的導函數為何？",
+      "options": ["$e^{2x}$", "$\\frac{1}{2}e^{2x}$", "$2e^{2x}$", "$2xe^{2x}$"],
+      "answer": 2,
+      "explanation": "由連鎖律，令 $u=2x$，則 $\\frac{d}{dx}e^{2x}=e^{2x}\\cdot\\frac{d}{dx}(2x)=2e^{2x}$。常見錯誤是以為 $e^x$ 的導數是自己，就忽略內函數的導數 2 而誤選 $e^{2x}$。"
+    },
+    {
+      "id": "uni_calculus_u_006",
+      "difficulty": 1,
+      "question": "不定積分 $\\int e^x\\,dx$ 之結果為何？（$C$ 為積分常數）",
+      "options": ["$e^x + C$", "$xe^{x-1} + C$", "$\\frac{e^{x+1}}{x+1} + C$", "$xe^x + C$"],
+      "answer": 0,
+      "explanation": "指數函數 $e^x$ 的導數是它自己，因此其反導函數也是 $e^x$，故 $\\int e^x dx = e^x + C$。易錯處是誤用冪函數的積分公式 $\\int x^n dx=\\frac{x^{n+1}}{n+1}+C$，把指數當成冪次處理。"
+    },
+    {
+      "id": "uni_calculus_u_007",
+      "difficulty": 1,
+      "question": "求極限 $\\lim_{x\\to\\infty}\\frac{2x^2+1}{x^2+3}$ 之值為何？",
+      "options": ["0", "1", "$\\infty$", "2"],
+      "answer": 3,
+      "explanation": "分子分母同除以最高次項 $x^2$，得 $\\frac{2+1/x^2}{1+3/x^2}$，當 $x\\to\\infty$ 時 $1/x^2\\to 0$，故極限為 $\\frac{2}{1}=2$。分子分母次數相同時極限為最高次項係數比，易錯處是看到 $x\\to\\infty$ 就直覺認為極限是 $\\infty$。"
+    },
+    {
+      "id": "uni_calculus_u_008",
+      "difficulty": 2,
+      "question": "函數 $f(x)=\\sin(x^2)$ 的導函數為何？",
+      "options": ["$\\cos(x^2)$", "$2x\\cos(x^2)$", "$2x\\sin(x^2)$", "$-2x\\cos(x^2)$"],
+      "answer": 1,
+      "explanation": "由連鎖律，外層 $\\sin u$ 的導數為 $\\cos u$，內層 $u=x^2$ 的導數為 $2x$，故 $f'(x)=\\cos(x^2)\\cdot 2x = 2x\\cos(x^2)$。易錯處是忘記乘上內函數導數 $2x$ 而只寫 $\\cos(x^2)$，或誤記 $\\sin$ 的導數帶負號。"
+    },
+    {
+      "id": "uni_calculus_u_009",
+      "difficulty": 2,
+      "question": "設曲線 $x^2+y^2=25$，利用隱函數微分法求在點 $(3,4)$ 處的切線斜率 $\\frac{dy}{dx}$ 為何？",
+      "options": ["$-\\frac{3}{4}$", "$\\frac{3}{4}$", "$-\\frac{4}{3}$", "$\\frac{4}{3}$"],
+      "answer": 0,
+      "explanation": "對方程式兩邊同時對 $x$ 微分得 $2x+2y\\frac{dy}{dx}=0$，解出 $\\frac{dy}{dx}=-\\frac{x}{y}$，代入 $(3,4)$ 得 $-\\frac{3}{4}$。易錯處是忘記 $y$ 是 $x$ 的函數、漏乘 $\\frac{dy}{dx}$，或把 $x$、$y$ 位置顛倒算成 $-\\frac{4}{3}$。"
+    },
+    {
+      "id": "uni_calculus_u_010",
+      "difficulty": 2,
+      "question": "函數 $f(x)=x^3-3x$ 的局部極大值為何？",
+      "options": ["$-2$", "0", "2", "3"],
+      "answer": 2,
+      "explanation": "$f'(x)=3x^2-3=3(x-1)(x+1)$，臨界點為 $x=\\pm 1$；由 $f''(x)=6x$，$f''(-1)=-6<0$ 表示 $x=-1$ 為局部極大點，極大值 $f(-1)=-1+3=2$。易錯處是把極大值答成極大點的位置 $x=-1$，或誤取 $x=1$ 處的極小值 $-2$。"
+    },
+    {
+      "id": "uni_calculus_u_011",
+      "difficulty": 2,
+      "question": "設 $F(x)=\\int_0^x t^2\\,dt$，由微積分基本定理，$F'(2)$ 之值為何？",
+      "options": ["$\\frac{8}{3}$", "8", "2", "4"],
+      "answer": 3,
+      "explanation": "微積分基本定理指出 $F'(x)=x^2$，即對上限微分等於把上限代入被積函數，故 $F'(2)=2^2=4$。易錯處是先把積分算出 $F(x)=\\frac{x^3}{3}$ 後又代值算成 $F(2)=\\frac{8}{3}$，混淆了 $F$ 與 $F'$。"
+    },
+    {
+      "id": "uni_calculus_u_012",
+      "difficulty": 2,
+      "question": "利用變數代換求 $\\int_0^1 xe^{x^2}\\,dx$ 之值為何？",
+      "options": ["$e-1$", "$\\frac{e-1}{2}$", "$\\frac{e}{2}$", "$\\frac{e+1}{2}$"],
+      "answer": 1,
+      "explanation": "令 $u=x^2$，則 $du=2x\\,dx$，原式 $=\\frac{1}{2}\\int_0^1 e^u\\,du=\\frac{1}{2}(e-1)$。易錯處是代換時忘記除以 2（即漏掉 $du=2x\\,dx$ 的係數），而算出 $e-1$。"
+    },
+    {
+      "id": "uni_calculus_u_013",
+      "difficulty": 2,
+      "question": "利用分部積分求 $\\int_0^1 xe^x\\,dx$ 之值為何？",
+      "options": ["1", "$e-1$", "$e$", "$e-2$"],
+      "answer": 0,
+      "explanation": "取 $u=x$、$dv=e^x dx$，得 $\\int xe^x dx = xe^x - \\int e^x dx = xe^x - e^x$，代入上下限：$(1\\cdot e - e)-(0-1)=0+1=1$。易錯處是分部公式漏掉負號，或下限 $x=0$ 時忘記 $-e^0=-1$ 這一項。"
+    },
+    {
+      "id": "uni_calculus_u_014",
+      "difficulty": 2,
+      "question": "無窮等比級數 $\\sum_{n=1}^{\\infty}\\left(\\frac{1}{2}\\right)^n$ 之和為何？",
+      "options": ["$\\frac{1}{2}$", "2", "1", "發散"],
+      "answer": 2,
+      "explanation": "首項 $a=\\frac{1}{2}$、公比 $r=\\frac{1}{2}$，因 $|r|<1$ 級數收斂，和為 $\\frac{a}{1-r}=\\frac{1/2}{1/2}=1$。易錯處是誤用從 $n=0$ 起算的公式 $\\frac{1}{1-r}=2$，忽略本題是從 $n=1$ 開始。"
+    },
+    {
+      "id": "uni_calculus_u_015",
+      "difficulty": 3,
+      "question": "求極限 $\\lim_{x\\to 0}\\frac{1-\\cos x}{x^2}$ 之值為何？",
+      "options": ["0", "1", "2", "$\\frac{1}{2}$"],
+      "answer": 3,
+      "explanation": "此為 $\\frac{0}{0}$ 型，用羅必達法則兩次：$\\lim\\frac{\\sin x}{2x}=\\frac{1}{2}$；或用泰勒展開 $\\cos x\\approx 1-\\frac{x^2}{2}$，故 $\\frac{1-\\cos x}{x^2}\\to\\frac{1}{2}$。易錯處是只套一次羅必達後直接把 $x=0$ 代入 $\\frac{\\sin x}{2x}$ 的分子誤判為 0。"
+    },
+    {
+      "id": "uni_calculus_u_016",
+      "difficulty": 3,
+      "question": "以周長 20 公尺的圍籬圍出一矩形，此矩形的最大面積為多少平方公尺？",
+      "options": ["20", "24", "25", "50"],
+      "answer": 2,
+      "explanation": "設寬為 $x$，則長為 $10-x$，面積 $A(x)=x(10-x)=10x-x^2$；令 $A'(x)=10-2x=0$ 得 $x=5$，且 $A''=-2<0$ 確為極大，最大面積 $A(5)=25$。易錯處是把半周長 10 誤當成長加寬以外的量，或忘記驗證二階導數判定極大。"
+    },
+    {
+      "id": "uni_calculus_u_017",
+      "difficulty": 3,
+      "question": "定積分 $\\int_0^{\\pi/2}\\sin^2 x\\,dx$ 之值為何？",
+      "options": ["$\\frac{\\pi}{4}$", "$\\frac{\\pi}{2}$", "$\\frac{1}{2}$", "$\\pi$"],
+      "answer": 0,
+      "explanation": "利用半角公式 $\\sin^2 x=\\frac{1-\\cos 2x}{2}$，積分得 $\\frac{1}{2}\\left[x-\\frac{\\sin 2x}{2}\\right]_0^{\\pi/2}=\\frac{1}{2}\\cdot\\frac{\\pi}{2}=\\frac{\\pi}{4}$。易錯處是直接把 $\\sin^2 x$ 的反導函數誤寫成 $\\frac{\\sin^3 x}{3}$，冪函數積分公式不適用於三角函數的次方。"
+    },
+    {
+      "id": "uni_calculus_u_018",
+      "difficulty": 3,
+      "question": "下列哪一個無窮級數收斂？",
+      "options": ["$\\sum_{n=1}^{\\infty}\\frac{1}{n}$", "$\\sum_{n=1}^{\\infty}\\frac{1}{n^2}$", "$\\sum_{n=1}^{\\infty}\\frac{1}{\\sqrt{n}}$", "$\\sum_{n=1}^{\\infty}\\frac{n}{n+1}$"],
+      "answer": 1,
+      "explanation": "由 $p$ 級數判別法，$\\sum\\frac{1}{n^p}$ 在 $p>1$ 時收斂，故 $\\sum\\frac{1}{n^2}$（$p=2$）收斂；調和級數（$p=1$）與 $\\sum\\frac{1}{\\sqrt{n}}$（$p=\\frac{1}{2}$）皆發散，而 $\\frac{n}{n+1}\\to 1\\neq 0$ 由發散判別法知其發散。易錯處是以為只要一般項趨近 0 級數就收斂，調和級數即為反例。"
+    },
+    {
+      "id": "uni_calculus_u_019",
+      "difficulty": 3,
+      "question": "一球形氣球充氣時半徑以每秒 1 公分的速率增加，當半徑為 3 公分時，體積的瞬時變化率為多少立方公分／秒？（球體積 $V=\\frac{4}{3}\\pi r^3$）",
+      "options": ["$4\\pi$", "$12\\pi$", "$108\\pi$", "$36\\pi$"],
+      "answer": 3,
+      "explanation": "對時間微分得 $\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}$，代入 $r=3$、$\\frac{dr}{dt}=1$ 得 $\\frac{dV}{dt}=4\\pi\\cdot 9\\cdot 1=36\\pi$。易錯處是忘記用連鎖律乘上 $\\frac{dr}{dt}$，或把 $r^2$ 誤算成 $r^3$ 得到 $108\\pi$。"
+    },
+    {
+      "id": "uni_calculus_u_020",
+      "difficulty": 3,
+      "question": "交錯級數 $\\sum_{n=1}^{\\infty}\\frac{(-1)^{n+1}}{n}$ 的斂散性為下列何者？",
+      "options": ["絕對收斂", "條件收斂", "發散", "僅部分和有界但不收斂"],
+      "answer": 1,
+      "explanation": "由交錯級數判別法，$\\frac{1}{n}$ 遞減且趨近 0，故級數收斂（其和為 $\\ln 2$）；但取絕對值後成為調和級數 $\\sum\\frac{1}{n}$ 發散，因此是條件收斂而非絕對收斂。易錯處是以為收斂就等於絕對收斂，兩者必須分開檢驗。"
+    }
+  ]
+}

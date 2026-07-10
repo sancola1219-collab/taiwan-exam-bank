@@ -1,0 +1,167 @@
+{
+  "level": "elem",
+  "subject": "english",
+  "grade": 6,
+  "questions": [
+    {
+      "id": "elem_english_6_001",
+      "difficulty": 1,
+      "question": "I am ___ a book now.（我現在正在讀一本書）空格應填入哪一個字？",
+      "options": ["read", "reads", "reading", "to read"],
+      "answer": 2,
+      "explanation": "句子有 now（現在）又用了 am，是現在進行式，動詞要用 reading，寫成 I am reading a book now.（我現在正在讀一本書。）現在進行式的句型是 be 動詞加上動詞 ing。"
+    },
+    {
+      "id": "elem_english_6_002",
+      "difficulty": 1,
+      "question": "在商店裡問店員 How much is it? 是想知道什麼？",
+      "options": ["現在的時間", "今天的天氣", "商店的位置", "東西的價錢"],
+      "answer": 3,
+      "explanation": "How much is it? 的意思是「這個多少錢？」，是購物時詢問價錢的用語。問時間用 What time is it?，問天氣用 How's the weather?，問句不同用途也不同。"
+    },
+    {
+      "id": "elem_english_6_003",
+      "difficulty": 1,
+      "question": "I ___ at home yesterday.（我昨天在家）空格應填入哪一個字？",
+      "options": ["am", "was", "is", "are"],
+      "answer": 1,
+      "explanation": "句子裡有 yesterday（昨天），是過去的事情，主詞 I 的 be 動詞過去式是 was，所以說 I was at home yesterday.（我昨天在家。）am 和 is、are 都是現在式，不能和 yesterday 一起用。"
+    },
+    {
+      "id": "elem_english_6_004",
+      "difficulty": 1,
+      "question": "taller 是形容詞 tall（高的）的什麼形式？",
+      "options": ["比較級（更高的）", "過去式", "複數形", "縮寫"],
+      "answer": 0,
+      "explanation": "形容詞字尾加上 er 就變成比較級，taller 的意思是「更高的」，用來比較兩個人或東西。例如：I am taller than you.（我比你高。）"
+    },
+    {
+      "id": "elem_english_6_005",
+      "difficulty": 1,
+      "question": "They ___ playing basketball now.（他們現在正在打籃球）空格應填入哪一個字？",
+      "options": ["am", "is", "be", "are"],
+      "answer": 3,
+      "explanation": "主詞 They（他們）要搭配 be 動詞 are，寫成 They are playing basketball now.（他們現在正在打籃球。）am 只給 I 用，is 給第三人稱單數用，主詞和 be 動詞要互相搭配。"
+    },
+    {
+      "id": "elem_english_6_006",
+      "difficulty": 1,
+      "question": "店員說：It's ninety dollars. 表示這樣東西賣多少錢？",
+      "options": ["九元", "十九元", "九十元", "九百元"],
+      "answer": 2,
+      "explanation": "ninety 的意思是「九十」，所以 It's ninety dollars. 是「九十元」。nine 是九，nineteen 是十九，nine hundred 是九百，數字要看清楚。"
+    },
+    {
+      "id": "elem_english_6_007",
+      "difficulty": 1,
+      "question": "We ___ in Tainan last week.（我們上星期在台南）空格應填入哪一個字？",
+      "options": ["were", "was", "are", "is"],
+      "answer": 0,
+      "explanation": "last week（上星期）是過去的時間，主詞 We（我們）的 be 動詞過去式要用 were，寫成 We were in Tainan last week.（我們上星期在台南。）was 是給 I、he、she、it 用的過去式。"
+    },
+    {
+      "id": "elem_english_6_008",
+      "difficulty": 2,
+      "question": "She is ___ to music.（她正在聽音樂）空格應填入哪一個字？",
+      "options": ["listen", "listening", "listens", "listened"],
+      "answer": 1,
+      "explanation": "前面有 be 動詞 is，表示現在進行式，動詞要加 ing，寫成 She is listening to music.（她正在聽音樂。）listens 是現在簡單式，listened 是過去式，都不能接在 is 後面表示進行。"
+    },
+    {
+      "id": "elem_english_6_009",
+      "difficulty": 2,
+      "question": "形容詞 big（大的）的比較級是下列哪一個？",
+      "options": ["biger", "more big", "bigger", "bigest"],
+      "answer": 2,
+      "explanation": "big 的比較級是 bigger，要先重複字尾的 g 再加 er，例如：An elephant is bigger than a dog.（大象比狗大。）短母音加子音結尾的形容詞，變比較級時通常要重複字尾字母。"
+    },
+    {
+      "id": "elem_english_6_010",
+      "difficulty": 2,
+      "question": "He ___ TV last night.（他昨晚看了電視）空格應填入哪一個字？",
+      "options": ["watched", "watches", "watch", "watching"],
+      "answer": 0,
+      "explanation": "last night（昨晚）表示過去的時間，動詞要用過去式 watched，寫成 He watched TV last night.（他昨晚看了電視。）規則動詞的過去式是在字尾加上 ed。"
+    },
+    {
+      "id": "elem_english_6_011",
+      "difficulty": 2,
+      "question": "A: How much is the cap?  B: ___  下列哪一個回答最合適？",
+      "options": ["It's ten years old.", "I like it very much.", "It's on the desk.", "It's fifty dollars."],
+      "answer": 3,
+      "explanation": "How much is the cap?（這頂帽子多少錢？）是在問價錢，所以要回答 It's fifty dollars.（五十元。）回答年紀、喜好或位置都答非所問。"
+    },
+    {
+      "id": "elem_english_6_012",
+      "difficulty": 2,
+      "question": "I am taller than my sister. 這句話的中文意思是什麼？",
+      "options": ["我和妹妹一樣高。", "我比妹妹高。", "妹妹比我高。", "我是全家最矮的。"],
+      "answer": 1,
+      "explanation": "taller than 的意思是「比……高」，所以這句話是「我比妹妹（姊姊）高」。比較級句型「A is 形容詞er than B」表示 A 勝過 B，方向不要弄反了。"
+    },
+    {
+      "id": "elem_english_6_013",
+      "difficulty": 2,
+      "question": "___ you at school yesterday?（你昨天在學校嗎？）空格應填入哪一個字？",
+      "options": ["Were", "Was", "Do", "Is"],
+      "answer": 0,
+      "explanation": "主詞是 you，過去式的 be 動詞要用 were，問句把 Were 放到句首：Were you at school yesterday?（你昨天在學校嗎？）Was 是搭配 I、he、she、it 的過去式。"
+    },
+    {
+      "id": "elem_english_6_014",
+      "difficulty": 2,
+      "question": "Look! The birds are ___.（看！鳥兒們正在飛）空格應填入哪一個字？",
+      "options": ["fly", "flys", "flying", "flied"],
+      "answer": 2,
+      "explanation": "Look!（看！）提示事情正在發生，要用現在進行式，are 後面接 flying，寫成 The birds are flying.（鳥兒們正在飛。）fly 直接加 ing 即可，不用改變字尾。"
+    },
+    {
+      "id": "elem_english_6_015",
+      "difficulty": 3,
+      "question": "動詞 go（去）的過去式是下列哪一個？",
+      "options": ["goed", "went", "goes", "going"],
+      "answer": 1,
+      "explanation": "go 是不規則動詞，過去式是 went，例如：I went to Kaohsiung last summer.（我去年夏天去了高雄。）不規則動詞不能直接加 ed，要一個一個記起來。"
+    },
+    {
+      "id": "elem_english_6_016",
+      "difficulty": 3,
+      "question": "A: What are you doing?  B: ___  下列哪一個回答正確？",
+      "options": ["I did my homework yesterday.", "I do my homework every day, yes.", "I can homework.", "I'm doing my homework."],
+      "answer": 3,
+      "explanation": "What are you doing?（你正在做什麼？）問的是現在正在進行的事，要用現在進行式回答：I'm doing my homework.（我正在做功課。）用過去式或簡單式回答，時態就對不上了。"
+    },
+    {
+      "id": "elem_english_6_017",
+      "difficulty": 3,
+      "question": "An elephant is ___ than a mouse.（大象比老鼠大）空格應填入哪一個字？",
+      "options": ["bigger", "big", "biggest", "more bigger"],
+      "answer": 0,
+      "explanation": "句子裡有 than（比），要用比較級 bigger，寫成 An elephant is bigger than a mouse.（大象比老鼠大。）原級 big 不能和 than 連用，more bigger 則是重複比較，是錯誤的用法。"
+    },
+    {
+      "id": "elem_english_6_018",
+      "difficulty": 3,
+      "question": "閱讀對話：A: How much are these apples?  B: They're thirty dollars. 請問這些蘋果賣多少錢？",
+      "options": ["十三元", "三十元", "三元", "三百元"],
+      "answer": 1,
+      "explanation": "thirty 的意思是「三十」，所以蘋果賣三十元。thirteen（十三）和 thirty（三十）發音相近，聽和讀的時候都要特別注意字尾的差別。"
+    },
+    {
+      "id": "elem_english_6_019",
+      "difficulty": 3,
+      "question": "She was happy because she ___ a gift.（她很開心，因為她收到了一份禮物）空格應填入哪一個字？",
+      "options": ["get", "gets", "getting", "got"],
+      "answer": 3,
+      "explanation": "前面用了過去式 was，整句都在說過去的事，動詞 get 要用過去式 got，寫成 She was happy because she got a gift.（她很開心，因為她收到了一份禮物。）get 是不規則動詞，過去式不是 getted 而是 got。"
+    },
+    {
+      "id": "elem_english_6_020",
+      "difficulty": 3,
+      "question": "閱讀對話：A: Were you at the park last Sunday?  B: No, I wasn't. I was at the library. 請問 B 上星期日在哪裡？",
+      "options": ["公園", "學校", "圖書館", "家裡"],
+      "answer": 2,
+      "explanation": "B 回答 No, I wasn't. 表示他不在公園，接著說 I was at the library.（我在圖書館。）閱讀對話時要看完整個回答，才能找到正確的答案。"
+    }
+  ]
+}

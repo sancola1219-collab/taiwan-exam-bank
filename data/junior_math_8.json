@@ -1,0 +1,27 @@
+{
+  "level": "junior",
+  "subject": "math",
+  "grade": 8,
+  "questions": [
+    { "id": "junior_math_8_001", "difficulty": 1, "question": "展開 $(x+3)^2$ 的結果為何？", "options": ["$x^2+9$", "$x^2+6x+9$", "$x^2+3x+9$", "$x^2+6x+3$"], "answer": 1, "explanation": "利用和的平方公式 $(a+b)^2=a^2+2ab+b^2$，得 $x^2+2\\cdot 3\\cdot x+9=x^2+6x+9$。常見錯誤是漏掉中間項 $2ab$ 而寫成 $x^2+9$。" },
+    { "id": "junior_math_8_002", "difficulty": 1, "question": "計算 $(x+2)(x-2)$ 的結果為何？", "options": ["$x^2-4$", "$x^2+4$", "$x^2-4x-4$", "$x^2-2x-4$"], "answer": 0, "explanation": "利用平方差公式 $(a+b)(a-b)=a^2-b^2$，得 $x^2-2^2=x^2-4$。常見錯誤是誤用和的平方而多出中間項。" },
+    { "id": "junior_math_8_003", "difficulty": 1, "question": "$\\sqrt{81}$ 的值為何？", "options": ["$-9$", "$81$", "$18$", "$9$"], "answer": 3, "explanation": "根號代表正平方根，$9^2=81$，故 $\\sqrt{81}=9$。常見錯誤是把根號值與被開方數混淆而寫成 $81$。" },
+    { "id": "junior_math_8_004", "difficulty": 1, "question": "直角三角形兩股長分別為 $3$ 與 $4$，斜邊長為何？", "options": ["$7$", "$12$", "$25$", "$5$"], "answer": 3, "explanation": "由畢氏定理 $c^2=3^2+4^2=9+16=25$，故 $c=\\sqrt{25}=5$。常見錯誤是把兩股直接相加得到 $7$。" },
+    { "id": "junior_math_8_005", "difficulty": 1, "question": "將 $x^2-9$ 因式分解，結果為何？", "options": ["$(x-3)^2$", "$(x+3)(x-3)$", "$(x-9)(x+1)$", "$(x+3)^2$"], "answer": 1, "explanation": "$x^2-9=x^2-3^2$，符合平方差公式 $a^2-b^2=(a+b)(a-b)$，得 $(x+3)(x-3)$。常見錯誤是誤寫成完全平方 $(x-3)^2$。" },
+    { "id": "junior_math_8_006", "difficulty": 1, "question": "解方程式 $x^2=49$，$x$ 的值為何？", "options": ["只有 $7$", "$\\pm 7$", "$\\pm 24.5$", "只有 $-7$"], "answer": 1, "explanation": "$x^2=49$ 時 $x=\\pm\\sqrt{49}=\\pm 7$，正負皆為解。常見錯誤是只取正根 $7$ 而漏掉 $-7$。" },
+    { "id": "junior_math_8_007", "difficulty": 1, "question": "已知一次函數 $y=2x+1$，當 $x=3$ 時 $y$ 的值為何？", "options": ["$6$", "$5$", "$7$", "$9$"], "answer": 2, "explanation": "將 $x=3$ 代入得 $y=2\\times 3+1=6+1=7$。常見錯誤是忘記加常數項 $1$ 而得到 $6$。" },
+    { "id": "junior_math_8_008", "difficulty": 2, "question": "計算 $\\sqrt{12}$ 化為最簡根式的結果為何？", "options": ["$2\\sqrt{3}$", "$3\\sqrt{2}$", "$4\\sqrt{3}$", "$6$"], "answer": 0, "explanation": "$\\sqrt{12}=\\sqrt{4\\times 3}=\\sqrt{4}\\times\\sqrt{3}=2\\sqrt{3}$。常見錯誤是把 $12$ 拆成 $\\sqrt{2}\\times\\sqrt{6}$ 卻無法化簡，或誤拆成 $3\\sqrt{2}$。" },
+    { "id": "junior_math_8_009", "difficulty": 2, "question": "將 $x^2+5x+6$ 因式分解，結果為何？", "options": ["$(x+1)(x+6)$", "$(x+2)(x+3)$", "$(x-2)(x-3)$", "$(x+2)(x-3)$"], "answer": 1, "explanation": "找兩數相乘為 $6$、相加為 $5$，即 $2$ 與 $3$，故 $(x+2)(x+3)$。常見錯誤是符號取錯而寫成 $(x-2)(x-3)$。" },
+    { "id": "junior_math_8_010", "difficulty": 2, "question": "解方程式 $x^2-5x+6=0$，兩根為何？", "options": ["$x=1$ 或 $x=6$", "$x=2$ 或 $x=3$", "$x=-2$ 或 $x=-3$", "$x=-1$ 或 $x=-6$"], "answer": 1, "explanation": "因式分解為 $(x-2)(x-3)=0$，故 $x=2$ 或 $x=3$。常見錯誤是把常數項的符號弄錯而取成 $-2$、$-3$。" },
+    { "id": "junior_math_8_011", "difficulty": 2, "question": "計算 $(2x-1)^2$ 的結果為何？", "options": ["$4x^2-1$", "$4x^2+4x+1$", "$4x^2-4x+1$", "$2x^2-4x+1$"], "answer": 2, "explanation": "由差的平方公式 $(a-b)^2=a^2-2ab+b^2$，得 $(2x)^2-2\\cdot 2x\\cdot 1+1=4x^2-4x+1$。常見錯誤是漏掉中間項或把 $(2x)^2$ 誤算成 $2x^2$。" },
+    { "id": "junior_math_8_012", "difficulty": 2, "question": "一次函數 $y=-3x+2$ 的圖形，其直線斜率為何？", "options": ["$2$", "$3$", "$-3$", "$-2$"], "answer": 2, "explanation": "一次函數 $y=ax+b$ 中 $a$ 即為斜率，此處 $a=-3$。常見錯誤是把常數項 $2$ 誤當成斜率。" },
+    { "id": "junior_math_8_013", "difficulty": 2, "question": "計算 $\\sqrt{2}\\times\\sqrt{8}$ 的值為何？", "options": ["$\\sqrt{10}$", "$16$", "$2\\sqrt{2}$", "$4$"], "answer": 3, "explanation": "根號相乘 $\\sqrt{2}\\times\\sqrt{8}=\\sqrt{16}=4$。常見錯誤是把根號內的數相加得到 $\\sqrt{10}$。" },
+    { "id": "junior_math_8_014", "difficulty": 2, "question": "多項式 $(3x^2+2x-1)+(x^2-2x+4)$ 的結果為何？", "options": ["$4x^2+3$", "$4x^2+4x+3$", "$3x^2+3$", "$4x^2-3$"], "answer": 0, "explanation": "同類項相加：$x^2$ 項 $3+1=4$，$x$ 項 $2-2=0$，常數 $-1+4=3$，得 $4x^2+3$。常見錯誤是誤把 $x$ 項相加成 $4x$。" },
+    { "id": "junior_math_8_015", "difficulty": 3, "question": "一個長方形長比寬多 $2$ 公分，面積為 $35$ 平方公分，則寬為多少公分？", "options": ["$7$", "$4$", "$5$", "$6$"], "answer": 2, "explanation": "設寬為 $x$，則 $x(x+2)=35$，即 $x^2+2x-35=0$，因式分解 $(x+7)(x-5)=0$，取正解 $x=5$。常見錯誤是取到負根 $-7$ 而未捨去。" },
+    { "id": "junior_math_8_016", "difficulty": 3, "question": "直角三角形斜邊長 $13$，一股長 $5$，另一股長為何？", "options": ["$8$", "$18$", "$144$", "$12$"], "answer": 3, "explanation": "由畢氏定理 $b^2=13^2-5^2=169-25=144$，故 $b=\\sqrt{144}=12$。常見錯誤是把斜邊與股相加減得到 $8$，或忘記開根號。" },
+    { "id": "junior_math_8_017", "difficulty": 3, "question": "將 $2x^2+7x+3$ 因式分解，結果為何？", "options": ["$(2x+1)(x+3)$", "$(2x+3)(x+1)$", "$(x+1)(x+3)$", "$(2x-1)(x-3)$"], "answer": 0, "explanation": "利用十字交乘：$2x$ 與 $x$、$1$ 與 $3$ 交叉相乘得 $2x\\cdot 3+1\\cdot x=7x$，故 $(2x+1)(x+3)$。常見錯誤是交叉配對錯誤而寫成 $(2x+3)(x+1)$，其中間項會變成 $5x$。" },
+    { "id": "junior_math_8_018", "difficulty": 3, "question": "一次函數 $y=ax+b$ 通過 $(0,3)$ 與 $(2,7)$，則 $a$ 的值為何？", "options": ["$3$", "$1$", "$2$", "$4$"], "answer": 2, "explanation": "斜率 $a=\\dfrac{7-3}{2-0}=\\dfrac{4}{2}=2$。常見錯誤是把兩點的座標相減時分子分母對應錯誤。" },
+    { "id": "junior_math_8_019", "difficulty": 3, "question": "利用乘法公式計算 $103\\times 97$ 的值為何？", "options": ["$9991$", "$10000$", "$9999$", "$9909$"], "answer": 0, "explanation": "$103\\times 97=(100+3)(100-3)=100^2-3^2=10000-9=9991$。常見錯誤是誤以為答案就是 $10000$ 而漏減 $9$。" },
+    { "id": "junior_math_8_020", "difficulty": 3, "question": "已知 $a+b=6$、$ab=8$，則 $a^2+b^2$ 的值為何？", "options": ["$36$", "$28$", "$20$", "$52$"], "answer": 2, "explanation": "由 $(a+b)^2=a^2+2ab+b^2$，得 $a^2+b^2=(a+b)^2-2ab=36-16=20$。常見錯誤是忘記減去 $2ab$ 而直接寫 $36$。" }
+  ]
+}

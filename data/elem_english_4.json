@@ -1,0 +1,167 @@
+{
+  "level": "elem",
+  "subject": "english",
+  "grade": 4,
+  "questions": [
+    {
+      "id": "elem_english_4_001",
+      "difficulty": 1,
+      "question": "英語單字 father 的中文意思是什麼？",
+      "options": ["媽媽", "哥哥", "姊姊", "爸爸"],
+      "answer": 3,
+      "explanation": "father 的意思是「爸爸」，也可以說 dad。媽媽是 mother（mom），哥哥或弟弟是 brother，姊姊或妹妹是 sister，都是家庭成員的單字。"
+    },
+    {
+      "id": "elem_english_4_002",
+      "difficulty": 1,
+      "question": "英語單字 apple 指的是哪一種食物？",
+      "options": ["香蕉", "蘋果", "蛋糕", "麵包"],
+      "answer": 1,
+      "explanation": "apple 的意思是「蘋果」，例如：I like apples.（我喜歡蘋果。）香蕉是 banana，蛋糕是 cake，麵包是 bread，都是常見的食物單字。"
+    },
+    {
+      "id": "elem_english_4_003",
+      "difficulty": 1,
+      "question": "What's this? 這個問句的中文意思是什麼？",
+      "options": ["這是什麼？", "你好嗎？", "你幾歲？", "這是誰？"],
+      "answer": 0,
+      "explanation": "What's this? 的意思是「這是什麼？」，用來詢問眼前的東西。你好嗎是 How are you?，你幾歲是 How old are you?，問句的開頭字不同，意思就不同。"
+    },
+    {
+      "id": "elem_english_4_004",
+      "difficulty": 1,
+      "question": "英語單字 Sunday 指的是星期幾？",
+      "options": ["星期一", "星期六", "星期日", "星期三"],
+      "answer": 2,
+      "explanation": "Sunday 的意思是「星期日」。星期一是 Monday，星期六是 Saturday，星期三是 Wednesday，一個星期七天的單字都要記熟。"
+    },
+    {
+      "id": "elem_english_4_005",
+      "difficulty": 1,
+      "question": "天氣單字 sunny 是形容什麼樣的天氣？",
+      "options": ["下雨的", "晴朗的", "下雪的", "多雲的"],
+      "answer": 1,
+      "explanation": "sunny 的意思是「晴朗的」，例如：It's sunny today.（今天是晴天。）下雨的是 rainy，下雪的是 snowy，多雲的是 cloudy。"
+    },
+    {
+      "id": "elem_english_4_006",
+      "difficulty": 1,
+      "question": "英語單字 mother 的中文意思是什麼？",
+      "options": ["妹妹", "弟弟", "爺爺", "媽媽"],
+      "answer": 3,
+      "explanation": "mother 的意思是「媽媽」，也可以說 mom。妹妹是 sister，弟弟是 brother，爺爺是 grandfather，介紹家人時會用到這些單字。"
+    },
+    {
+      "id": "elem_english_4_007",
+      "difficulty": 1,
+      "question": "I like milk. 這句話的中文意思是什麼？",
+      "options": ["我討厭牛奶。", "我有牛奶。", "我喜歡牛奶。", "我要買牛奶。"],
+      "answer": 2,
+      "explanation": "I like milk. 的意思是「我喜歡牛奶」。I like... 是表達喜歡某樣東西的句型，把 milk 換成其他食物單字，就能說出自己喜歡吃什麼。"
+    },
+    {
+      "id": "elem_english_4_008",
+      "difficulty": 2,
+      "question": "有人問你：Do you like fish? 如果你喜歡，應該怎麼回答？",
+      "options": ["Yes, I do.", "No, I don't like it not.", "Yes, I doesn't.", "I am fish."],
+      "answer": 0,
+      "explanation": "Do you like fish?（你喜歡魚嗎？）喜歡的話要回答 Yes, I do.（是的，我喜歡。）不喜歡則回答 No, I don't.，其他選項的說法都是錯誤的。"
+    },
+    {
+      "id": "elem_english_4_009",
+      "difficulty": 2,
+      "question": "A: What's this?  B: ___ a banana. 空格應填入哪一個字？",
+      "options": ["It", "It's", "Is", "Are"],
+      "answer": 1,
+      "explanation": "回答 What's this? 時要說 It's a banana.（它是一根香蕉。）It's 是 It is 的縮寫，只用 It 少了動詞 is，句子就不完整了。"
+    },
+    {
+      "id": "elem_english_4_010",
+      "difficulty": 2,
+      "question": "It's rainy today. 今天出門應該帶下列哪一樣東西？",
+      "options": ["kite", "fan", "umbrella", "ball"],
+      "answer": 2,
+      "explanation": "It's rainy today. 的意思是「今天下雨」，所以要帶 umbrella（雨傘）。kite 是風箏、fan 是扇子、ball 是球，都不是雨天需要的東西。"
+    },
+    {
+      "id": "elem_english_4_011",
+      "difficulty": 2,
+      "question": "英語單字 brother 的中文意思是什麼？",
+      "options": ["爸爸", "叔叔", "爺爺", "哥哥或弟弟"],
+      "answer": 3,
+      "explanation": "brother 的意思是「哥哥或弟弟」，英語中兄弟用同一個字。爸爸是 father，爺爺是 grandfather，uncle 則是叔叔、伯伯或舅舅。"
+    },
+    {
+      "id": "elem_english_4_012",
+      "difficulty": 2,
+      "question": "「星期五」的英語單字是下列哪一個？",
+      "options": ["Friday", "Sunday", "Tuesday", "Thursday"],
+      "answer": 0,
+      "explanation": "星期五是 Friday。Sunday 是星期日，Tuesday 是星期二，Thursday 是星期四；Thursday 和 Friday 容易搞混，要特別記清楚。"
+    },
+    {
+      "id": "elem_english_4_013",
+      "difficulty": 2,
+      "question": "有人問你：Do you like tea? 如果你不喜歡，應該怎麼回答？",
+      "options": ["Yes, I do.", "No, I do.", "No, I don't.", "Yes, I don't."],
+      "answer": 2,
+      "explanation": "Do you like tea?（你喜歡茶嗎？）不喜歡時要回答 No, I don't.（不，我不喜歡。）Yes 要配 I do，No 要配 I don't，前後要一致才正確。"
+    },
+    {
+      "id": "elem_english_4_014",
+      "difficulty": 2,
+      "question": "英語單字 hamburger 指的是哪一種食物？",
+      "options": ["熱狗", "三明治", "薯條", "漢堡"],
+      "answer": 3,
+      "explanation": "hamburger 的意思是「漢堡」，例如：I like hamburgers.（我喜歡漢堡。）熱狗是 hot dog，三明治是 sandwich，薯條是 French fries。"
+    },
+    {
+      "id": "elem_english_4_015",
+      "difficulty": 3,
+      "question": "下列哪一句的英語語序是正確的？",
+      "options": ["Do you like apples?", "You do like apples?", "Like you do apples?", "Do like you apples?"],
+      "answer": 0,
+      "explanation": "正確的問句是 Do you like apples?（你喜歡蘋果嗎？）疑問句要把 Do 放在句子的最前面，接著是 you like apples，其他選項的語序都不對。"
+    },
+    {
+      "id": "elem_english_4_016",
+      "difficulty": 3,
+      "question": "Monday（星期一）的下一天是星期幾？",
+      "options": ["Sunday", "Tuesday", "Friday", "Wednesday"],
+      "answer": 1,
+      "explanation": "Monday（星期一）的下一天是 Tuesday（星期二）。一週的順序是 Sunday、Monday、Tuesday、Wednesday、Thursday、Friday、Saturday，要照順序記起來。"
+    },
+    {
+      "id": "elem_english_4_017",
+      "difficulty": 3,
+      "question": "It's cloudy. 這句話描述的天氣是什麼樣子？",
+      "options": ["晴朗無雲", "颳大風", "正在下雨", "天空多雲"],
+      "answer": 3,
+      "explanation": "It's cloudy. 的意思是「天空多雲」，cloud 是雲，加上 y 變成形容詞 cloudy（多雲的）。晴朗是 sunny，颳風是 windy，下雨是 rainy。"
+    },
+    {
+      "id": "elem_english_4_018",
+      "difficulty": 3,
+      "question": "A: What's this?  B: ___  下列哪一個回答最合適？",
+      "options": ["It's an egg.", "I'm fine, thank you.", "I'm nine years old.", "Yes, it is."],
+      "answer": 0,
+      "explanation": "What's this?（這是什麼？）要用 It's... 來回答，例如 It's an egg.（它是一顆蛋。）I'm fine 是回答 How are you?，I'm nine 是回答年齡，答非所問就不對了。"
+    },
+    {
+      "id": "elem_english_4_019",
+      "difficulty": 3,
+      "question": "英語單字 grandmother 的中文意思是什麼？",
+      "options": ["爺爺或外公", "奶奶或外婆", "阿姨", "叔叔"],
+      "answer": 1,
+      "explanation": "grandmother 的意思是「奶奶或外婆」，grand 加上 mother 表示上一輩的媽媽。爺爺或外公是 grandfather，阿姨是 aunt，叔叔是 uncle。"
+    },
+    {
+      "id": "elem_english_4_020",
+      "difficulty": 3,
+      "question": "I like ___. 想說「我喜歡吃麵」，空格應填入哪一個食物單字？",
+      "options": ["desk", "book", "noodles", "chair"],
+      "answer": 2,
+      "explanation": "noodles 的意思是「麵條」，I like noodles. 就是「我喜歡吃麵」。desk 是書桌、book 是書、chair 是椅子，都不是食物，不適合接在 I like 後面表達喜歡的食物。"
+    }
+  ]
+}

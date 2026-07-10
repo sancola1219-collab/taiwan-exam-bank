@@ -1,0 +1,167 @@
+{
+  "level": "senior",
+  "subject": "physics",
+  "grade": 10,
+  "questions": [
+    {
+      "id": "senior_physics_10_001",
+      "difficulty": 1,
+      "question": "一物體由靜止出發作等加速度直線運動，加速度為 $2\\ \\mathrm{m/s^2}$，經過 $5$ 秒後速度為何？",
+      "options": ["$5$ m/s", "$20$ m/s", "$10$ m/s", "$25$ m/s"],
+      "answer": 2,
+      "explanation": "由等加速度公式 $v=v_0+at$，代入 $v_0=0$、$a=2\\ \\mathrm{m/s^2}$、$t=5\\ \\mathrm{s}$，得 $v=0+2\\times 5=10\\ \\mathrm{m/s}$。易錯處是誤用位移公式 $\\dfrac{1}{2}at^2=25$ 當成速度，速度與位移的公式不可混用。"
+    },
+    {
+      "id": "senior_physics_10_002",
+      "difficulty": 1,
+      "question": "質量 $2\\ \\mathrm{kg}$ 的物體產生 $3\\ \\mathrm{m/s^2}$ 的加速度，所需的合力為何？",
+      "options": ["$6$ N", "$1.5$ N", "$5$ N", "$9$ N"],
+      "answer": 0,
+      "explanation": "由牛頓第二定律 $F=ma$，代入得 $F=2\\times 3=6\\ \\mathrm{N}$。易錯處是把質量與加速度相除得 $1.5$ 或相加得 $5$，牛頓第二定律是「乘積」關係。"
+    },
+    {
+      "id": "senior_physics_10_003",
+      "difficulty": 1,
+      "question": "以 $10\\ \\mathrm{N}$ 的水平定力推動物體沿力的方向移動 $5\\ \\mathrm{m}$，此力作功多少？",
+      "options": ["$2$ J", "$50$ J", "$15$ J", "$500$ J"],
+      "answer": 1,
+      "explanation": "力與位移同方向時 $W=Fd=10\\times 5=50\\ \\mathrm{J}$。易錯處是把力與位移相除或相加，功的定義是力沿位移方向的分量乘以位移大小。"
+    },
+    {
+      "id": "senior_physics_10_004",
+      "difficulty": 1,
+      "question": "質量 $3\\ \\mathrm{kg}$ 的物體以 $4\\ \\mathrm{m/s}$ 的速度運動，其動量大小為何？",
+      "options": ["$7$ kg·m/s", "$24$ kg·m/s", "$0.75$ kg·m/s", "$12$ kg·m/s"],
+      "answer": 3,
+      "explanation": "動量 $p=mv=3\\times 4=12\\ \\mathrm{kg\\cdot m/s}$。易錯處是與動能公式混淆算成 $\\dfrac{1}{2}mv^2=24\\ \\mathrm{J}$，動量與速度為一次方關係且是向量。"
+    },
+    {
+      "id": "senior_physics_10_005",
+      "difficulty": 1,
+      "question": "一週期波頻率為 $5\\ \\mathrm{Hz}$，波長為 $2\\ \\mathrm{m}$，則波速為何？",
+      "options": ["$10$ m/s", "$2.5$ m/s", "$0.4$ m/s", "$7$ m/s"],
+      "answer": 0,
+      "explanation": "波速公式 $v=f\\lambda=5\\times 2=10\\ \\mathrm{m/s}$。易錯處是把頻率除以波長得 $2.5$ 或倒過來除得 $0.4$，波速是頻率與波長的乘積。"
+    },
+    {
+      "id": "senior_physics_10_006",
+      "difficulty": 1,
+      "question": "物體自靜止自由落下（取 $g=10\\ \\mathrm{m/s^2}$，不計空氣阻力），$2$ 秒內落下的距離為何？",
+      "options": ["$10$ m", "$40$ m", "$20$ m", "$5$ m"],
+      "answer": 2,
+      "explanation": "自由落體位移 $h=\\dfrac{1}{2}gt^2=\\dfrac{1}{2}\\times 10\\times 2^2=20\\ \\mathrm{m}$。易錯處是忘記乘 $\\dfrac{1}{2}$ 而得 $40\\ \\mathrm{m}$，或把 $t^2$ 只算一次方得 $10\\ \\mathrm{m}$。"
+    },
+    {
+      "id": "senior_physics_10_007",
+      "difficulty": 1,
+      "question": "馬拉車前進時，「馬拉車的力」與「車拉馬的力」之間的關係，下列敘述何者正確？",
+      "options": ["馬拉車的力較大，所以車才會前進", "兩力大小相等、方向相反，分別作用在不同物體上", "車拉馬的力較小，所以馬不會後退", "兩力大小相等且互相抵消，合力為零"],
+      "answer": 1,
+      "explanation": "依牛頓第三定律，作用力與反作用力必大小相等、方向相反，且分別作用在「兩個不同的物體」上，故不能互相抵消。車能前進是因為作用在車上的合力（馬拉車的力減去阻力）不為零，與反作用力大小無關；易錯處是誤以為兩力作用在同一物體而互相抵消。"
+    },
+    {
+      "id": "senior_physics_10_008",
+      "difficulty": 2,
+      "question": "汽車以 $20\\ \\mathrm{m/s}$ 行駛，緊急煞車產生大小 $4\\ \\mathrm{m/s^2}$ 的減速度，從煞車到停止共滑行多少距離？",
+      "options": ["$50$ m", "$100$ m", "$25$ m", "$80$ m"],
+      "answer": 0,
+      "explanation": "由 $v^2=v_0^2-2as$，停止時 $v=0$，故 $s=\\dfrac{v_0^2}{2a}=\\dfrac{20^2}{2\\times 4}=\\dfrac{400}{8}=50\\ \\mathrm{m}$。易錯處是忘記分母的 $2$ 而算成 $100\\ \\mathrm{m}$，或誤用 $v_0 t$ 未考慮減速過程。"
+    },
+    {
+      "id": "senior_physics_10_009",
+      "difficulty": 2,
+      "question": "質量 $2\\ \\mathrm{kg}$ 的物體速度由 $3\\ \\mathrm{m/s}$ 增為 $5\\ \\mathrm{m/s}$，其動能增加多少？",
+      "options": ["$25$ J", "$4$ J", "$9$ J", "$16$ J"],
+      "answer": 3,
+      "explanation": "動能變化 $\\Delta K=\\dfrac{1}{2}m(v^2-v_0^2)=\\dfrac{1}{2}\\times 2\\times(25-9)=16\\ \\mathrm{J}$。易錯處是先把速度相減再平方，$\\dfrac{1}{2}\\times 2\\times(5-3)^2=4\\ \\mathrm{J}$ 是錯誤算法，必須是「速度平方的差」而非「速度差的平方」。"
+    },
+    {
+      "id": "senior_physics_10_010",
+      "difficulty": 2,
+      "question": "$10\\ \\mathrm{N}$ 的定力作用於原靜止、質量 $2\\ \\mathrm{kg}$ 的物體 $0.5$ 秒（無摩擦），則物體的末速為何？",
+      "options": ["$5$ m/s", "$10$ m/s", "$2.5$ m/s", "$0.5$ m/s"],
+      "answer": 2,
+      "explanation": "衝量等於動量變化：$Ft=mv-0$，故 $v=\\dfrac{Ft}{m}=\\dfrac{10\\times 0.5}{2}=2.5\\ \\mathrm{m/s}$。易錯處是求出衝量 $5\\ \\mathrm{N\\cdot s}$ 後忘記除以質量，直接把 $5$ 當成速度。"
+    },
+    {
+      "id": "senior_physics_10_011",
+      "difficulty": 2,
+      "question": "光滑水平面上，以 $10\\ \\mathrm{N}$ 的水平力拉質量 $3\\ \\mathrm{kg}$ 的物體，其後方用輕繩連接質量 $2\\ \\mathrm{kg}$ 的物體一起加速，則繩的張力為何？",
+      "options": ["$4$ N", "$6$ N", "$10$ N", "$5$ N"],
+      "answer": 0,
+      "explanation": "整體加速度 $a=\\dfrac{F}{m_{\\text{總}}}=\\dfrac{10}{3+2}=2\\ \\mathrm{m/s^2}$；對後方 $2\\ \\mathrm{kg}$ 物體而言，繩張力是唯一水平力，故 $T=ma=2\\times 2=4\\ \\mathrm{N}$。易錯處是以為張力等於外力 $10\\ \\mathrm{N}$，或用 $3\\ \\mathrm{kg}$ 計算得 $6\\ \\mathrm{N}$（那是對前方物體列式時 $10-T=3a$ 的中間量，仍解得 $T=4\\ \\mathrm{N}$）。"
+    },
+    {
+      "id": "senior_physics_10_012",
+      "difficulty": 2,
+      "question": "將質量 $2\\ \\mathrm{kg}$ 的物體等速升高 $5\\ \\mathrm{m}$（取 $g=10\\ \\mathrm{m/s^2}$），其重力位能增加多少？",
+      "options": ["$10$ J", "$100$ J", "$50$ J", "$1000$ J"],
+      "answer": 1,
+      "explanation": "重力位能變化 $\\Delta U=mgh=2\\times 10\\times 5=100\\ \\mathrm{J}$。易錯處是漏乘 $g$ 得 $10\\ \\mathrm{J}$，或漏乘高度得 $20\\ \\mathrm{J}$ 之類的結果，三個量都必須相乘。"
+    },
+    {
+      "id": "senior_physics_10_013",
+      "difficulty": 2,
+      "question": "聲波在空氣中傳播時，空氣分子的振動方向與波的前進方向平行，故聲波屬於下列何者？",
+      "options": ["橫波", "電磁波", "表面波", "縱波"],
+      "answer": 3,
+      "explanation": "介質振動方向與波行進方向平行的波稱為縱波（疏密波），聲波在空氣中即為縱波；橫波則是振動方向與行進方向垂直，如繩波。易錯處是把聲波與光波混淆，光是電磁波且為橫波，聲波必須依靠介質傳播。"
+    },
+    {
+      "id": "senior_physics_10_014",
+      "difficulty": 2,
+      "question": "載有穩定電流的長直導線，其周圍某點的磁場大小 $B$ 與該點到導線的垂直距離 $r$ 之關係為何？",
+      "options": ["與 $r$ 成正比", "與 $r$ 成反比", "與 $r^2$ 成反比", "與 $r$ 無關"],
+      "answer": 1,
+      "explanation": "長直導線周圍磁場 $B=\\dfrac{\\mu_0 I}{2\\pi r}$，故 $B$ 與距離 $r$ 成反比，距離加倍磁場減半。易錯處是與點電荷的電場或萬有引力混淆而答平方反比，長直導線的磁場是一次反比關係。"
+    },
+    {
+      "id": "senior_physics_10_015",
+      "difficulty": 3,
+      "question": "甲車以 $20\\ \\mathrm{m/s}$ 等速通過某點，同一時刻乙車自該點由靜止以 $4\\ \\mathrm{m/s^2}$ 等加速度同向追趕，乙車經多久追上甲車？",
+      "options": ["$5$ s", "$4$ s", "$10$ s", "$20$ s"],
+      "answer": 2,
+      "explanation": "追上時兩車位移相等：$20t=\\dfrac{1}{2}\\times 4\\times t^2=2t^2$，整理得 $t(2t-20)=0$，故 $t=10\\ \\mathrm{s}$。易錯處是用「速度相等」的時刻 $t=5\\ \\mathrm{s}$ 當作追上時刻，速度相等只是兩車距離最大（或最近）的時刻，追上必須位移相等。"
+    },
+    {
+      "id": "senior_physics_10_016",
+      "difficulty": 3,
+      "question": "質量 $4\\ \\mathrm{kg}$ 的物體以 $5\\ \\mathrm{m/s}$ 撞上靜止的 $6\\ \\mathrm{kg}$ 物體後兩者黏在一起（完全非彈性碰撞），碰撞後的共同速度為何？",
+      "options": ["$2$ m/s", "$2.5$ m/s", "$5$ m/s", "$1$ m/s"],
+      "answer": 0,
+      "explanation": "由動量守恆 $m_1v_1=(m_1+m_2)v'$，得 $v'=\\dfrac{4\\times 5}{4+6}=\\dfrac{20}{10}=2\\ \\mathrm{m/s}$。易錯處是分母只用其中一個質量，碰撞後兩物體合為一體，總質量應為 $10\\ \\mathrm{kg}$；另外此類碰撞動能不守恆，不可用動能守恆計算。"
+    },
+    {
+      "id": "senior_physics_10_017",
+      "difficulty": 3,
+      "question": "物體自高度 $45\\ \\mathrm{m}$ 處由靜止自由落下（取 $g=10\\ \\mathrm{m/s^2}$，不計空氣阻力），著地時的速率為何？",
+      "options": ["$45$ m/s", "$90$ m/s", "$21$ m/s", "$30$ m/s"],
+      "answer": 3,
+      "explanation": "由力學能守恆 $mgh=\\dfrac{1}{2}mv^2$，得 $v=\\sqrt{2gh}=\\sqrt{2\\times 10\\times 45}=\\sqrt{900}=30\\ \\mathrm{m/s}$。易錯處是忘記根號內的 $2$ 而算 $\\sqrt{450}$，或直接把高度數值當成速度。"
+    },
+    {
+      "id": "senior_physics_10_018",
+      "difficulty": 3,
+      "question": "起重機在 $10$ 秒內將質量 $200\\ \\mathrm{kg}$ 的貨物等速吊高 $5\\ \\mathrm{m}$（取 $g=10\\ \\mathrm{m/s^2}$），其輸出功率為何？",
+      "options": ["$100$ W", "$1000$ W", "$10000$ W", "$500$ W"],
+      "answer": 1,
+      "explanation": "作功 $W=mgh=200\\times 10\\times 5=10000\\ \\mathrm{J}$，功率 $P=\\dfrac{W}{t}=\\dfrac{10000}{10}=1000\\ \\mathrm{W}$。易錯處是求出總功 $10000\\ \\mathrm{J}$ 後忘記除以時間，或漏乘 $g$ 得 $100\\ \\mathrm{W}$。"
+    },
+    {
+      "id": "senior_physics_10_019",
+      "difficulty": 3,
+      "question": "質量 $10\\ \\mathrm{kg}$ 的物體置於水平地面，動摩擦係數 $\\mu_k=0.2$，以 $40\\ \\mathrm{N}$ 的水平力推動（取 $g=10\\ \\mathrm{m/s^2}$），物體的加速度為何？",
+      "options": ["$4$ m/s²", "$1$ m/s²", "$2$ m/s²", "$6$ m/s²"],
+      "answer": 2,
+      "explanation": "正向力 $N=mg=100\\ \\mathrm{N}$，動摩擦力 $f=\\mu_k N=0.2\\times 100=20\\ \\mathrm{N}$，合力 $=40-20=20\\ \\mathrm{N}$，故 $a=\\dfrac{20}{10}=2\\ \\mathrm{m/s^2}$。易錯處是忽略摩擦力直接算 $\\dfrac{40}{10}=4\\ \\mathrm{m/s^2}$，有摩擦時必須先求合力再用第二定律。"
+    },
+    {
+      "id": "senior_physics_10_020",
+      "difficulty": 3,
+      "question": "長螺線管內部磁場 $B=\\mu_0 n I$（$n$ 為單位長度匝數）。若將 $n$ 加倍且電流 $I$ 減半，則管內磁場變為原來的幾倍？",
+      "options": ["變為 $2$ 倍", "變為 $\\dfrac{1}{2}$ 倍", "變為 $4$ 倍", "不變"],
+      "answer": 3,
+      "explanation": "磁場與 $nI$ 的乘積成正比，$n$ 變 $2$ 倍、$I$ 變 $\\dfrac{1}{2}$ 倍時，乘積 $nI$ 為 $2\\times\\dfrac{1}{2}=1$ 倍，故磁場不變。易錯處是只考慮其中一個因素的變化就下結論，應同時考慮兩個變因的乘積效果。"
+    }
+  ]
+}

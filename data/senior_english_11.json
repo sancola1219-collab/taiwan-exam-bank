@@ -1,0 +1,267 @@
+{
+  "level": "senior",
+  "subject": "english",
+  "grade": 11,
+  "questions": [
+    {
+      "id": "senior_english_11_001",
+      "difficulty": 1,
+      "question": "The city government plans to ______ new measures to reduce air pollution.",
+      "options": [
+        "resign",
+        "inherit",
+        "implement",
+        "exaggerate"
+      ],
+      "answer": 2,
+      "explanation": "implement 意為「實施、執行（政策、計畫）」，implement new measures 即「實施新措施」，全句翻譯為「市政府計畫實施新措施以減少空氣汙染」。resign 是「辭職」，inherit 是「繼承」，exaggerate 是「誇大」，皆與政策語境不合。"
+    },
+    {
+      "id": "senior_english_11_002",
+      "difficulty": 1,
+      "question": "If I ______ you, I would apologize to her right away.",
+      "options": [
+        "were",
+        "am",
+        "had been",
+        "will be"
+      ],
+      "answer": 0,
+      "explanation": "本題為「與現在事實相反」的假設語氣，If 子句用過去式，且 be 動詞一律用 were，主要子句搭配 would + 原形動詞。全句翻譯為「如果我是你，我會立刻向她道歉」。事實上「我不是你」，故不能用直說法 am；had been 用於與過去事實相反的假設，時態不合。"
+    },
+    {
+      "id": "senior_english_11_003",
+      "difficulty": 1,
+      "question": "I am not sure ______ the manager will approve our proposal or not.",
+      "options": [
+        "what",
+        "who",
+        "which",
+        "whether"
+      ],
+      "answer": 3,
+      "explanation": "空格引導的名詞子句作 sure 的受詞，且句尾有 or not，須用 whether（是否）。全句翻譯為「我不確定經理是否會批准我們的提案」。what、who、which 都是疑問代名詞，須在子句中擔任成分，但本子句結構完整，只缺表示「是否」的連接詞，故選 whether。"
+    },
+    {
+      "id": "senior_english_11_004",
+      "difficulty": 1,
+      "question": "Her touching speech left a deep ______ on everyone in the audience.",
+      "options": [
+        "expression",
+        "impression",
+        "depression",
+        "possession"
+      ],
+      "answer": 1,
+      "explanation": "leave a deep impression on someone 是固定搭配，意為「給某人留下深刻的印象」，全句翻譯為「她感人的演說給在場每位聽眾留下深刻的印象」。expression 是「表達、表情」，depression 是「沮喪、蕭條」，possession 是「擁有（物）」，字形相近但語意皆不符。"
+    },
+    {
+      "id": "senior_english_11_005",
+      "difficulty": 1,
+      "question": "______ it was raining heavily, the baseball game continued as planned.",
+      "options": [
+        "Although",
+        "Because",
+        "Unless",
+        "Since"
+      ],
+      "answer": 0,
+      "explanation": "前句「雨下得很大」與後句「比賽照常進行」語意相反，須用表讓步的從屬連接詞 Although（雖然）。全句翻譯為「雖然雨下得很大，棒球賽仍照原訂計畫進行」。Because 與 Since 表原因，Unless 表「除非」，代入後皆造成邏輯矛盾。"
+    },
+    {
+      "id": "senior_english_11_006",
+      "difficulty": 1,
+      "question": "If it rains tomorrow, we ______ the field trip to the national park.",
+      "options": [
+        "canceled",
+        "had canceled",
+        "will cancel",
+        "would have canceled"
+      ],
+      "answer": 2,
+      "explanation": "本題是表「未來可能發生」的條件句（直說法條件句），If 子句用現在式代替未來式，主要子句用 will + 原形動詞。全句翻譯為「如果明天下雨，我們就會取消國家公園的校外教學」。would have canceled 用於與過去事實相反的假設，與 tomorrow 的時間副詞矛盾。"
+    },
+    {
+      "id": "senior_english_11_007",
+      "difficulty": 1,
+      "question": "The new working-hour policy will ______ every employee in the company.",
+      "options": [
+        "collapse",
+        "affect",
+        "infect",
+        "reflect"
+      ],
+      "answer": 1,
+      "explanation": "affect 意為「影響」，全句翻譯為「新的工時政策將影響公司裡的每一位員工」。collapse 是「倒塌、崩潰」（不及物），infect 是「感染」，reflect 是「反射、反映」，其中 infect 與 affect 字形相近，是典型的混淆選項，須依語意選擇 affect。"
+    },
+    {
+      "id": "senior_english_11_008",
+      "difficulty": 2,
+      "question": "Never ______ such a breathtaking view of the mountains before I visited Alishan.",
+      "options": [
+        "I saw",
+        "I have seen",
+        "saw I",
+        "had I seen"
+      ],
+      "answer": 3,
+      "explanation": "否定副詞 Never 置於句首時，句子須部分倒裝，將助動詞移到主詞之前；又因「看見美景」發生在「造訪阿里山」這個過去時點之前，須用過去完成式，故選 had I seen。全句翻譯為「在造訪阿里山之前，我從未見過如此令人屏息的山景」。"
+    },
+    {
+      "id": "senior_english_11_009",
+      "difficulty": 2,
+      "question": "If Nancy ______ harder last semester, she would have passed the math exam.",
+      "options": [
+        "had studied",
+        "studied",
+        "has studied",
+        "would study"
+      ],
+      "answer": 0,
+      "explanation": "主要子句的 would have passed 顯示本題是「與過去事實相反」的假設語氣，If 子句須用過去完成式 had studied。全句翻譯為「如果南西上學期更用功一點，她就會通過數學考試了」。言下之意是她當時不夠用功，也沒有通過考試，故其他時態皆不合。"
+    },
+    {
+      "id": "senior_english_11_010",
+      "difficulty": 2,
+      "question": "______ surprised everyone in the office was that the quiet intern solved the problem first.",
+      "options": [
+        "Which",
+        "That",
+        "What",
+        "Whom"
+      ],
+      "answer": 2,
+      "explanation": "空格引導的名詞子句作全句主詞，且該子句中 surprised 缺少主詞，須用兼具「先行詞＋關係代名詞」功能的 What（＝The thing that）。全句翻譯為「讓辦公室所有人驚訝的是，那位安靜的實習生最先解決了問題」。That 引導名詞子句時子句結構須完整，故不可選。"
+    },
+    {
+      "id": "senior_english_11_011",
+      "difficulty": 2,
+      "question": "The scientist's bold theory was finally ______ by a series of careful experiments.",
+      "options": [
+        "insulted",
+        "distributed",
+        "postponed",
+        "confirmed"
+      ],
+      "answer": 3,
+      "explanation": "confirm 意為「證實、確認」，理論「被一連串實驗證實」語意通順，全句翻譯為「這位科學家大膽的理論終於被一系列嚴謹的實驗所證實」。insult 是「侮辱」，distribute 是「分發」，postpone 是「延期」，皆無法與 theory 及 experiments 形成合理搭配。"
+    },
+    {
+      "id": "senior_english_11_012",
+      "difficulty": 2,
+      "question": "Only after the accident ______ the importance of wearing a seat belt.",
+      "options": [
+        "he realized",
+        "did he realize",
+        "he did realize",
+        "realized he"
+      ],
+      "answer": 1,
+      "explanation": "「Only + 副詞（片語、子句）」置於句首時，主要子句須部分倒裝，助動詞 did 移至主詞 he 之前，故選 did he realize。全句翻譯為「直到那場意外之後，他才明白繫安全帶的重要性」。不倒裝的 he realized 是本題最主要的誘答選項。"
+    },
+    {
+      "id": "senior_english_11_013",
+      "difficulty": 2,
+      "question": "Jason talks about the movie industry ______ he knew every famous director personally.",
+      "options": [
+        "even if",
+        "as long as",
+        "as if",
+        "in case"
+      ],
+      "answer": 2,
+      "explanation": "as if 意為「彷彿、好像」，後接過去式表示與現在事實相反的假設，全句翻譯為「傑森談起電影產業，彷彿他和每位名導演都私交甚篤」。even if 是「即使」，as long as 是「只要」，in case 是「以防萬一」，語意皆不符合本句「說話誇張、不合事實」的語氣。"
+    },
+    {
+      "id": "senior_english_11_014",
+      "difficulty": 2,
+      "question": "The internet has greatly changed the way people ______ with each other.",
+      "options": [
+        "communicate",
+        "commute",
+        "compete",
+        "complain"
+      ],
+      "answer": 0,
+      "explanation": "communicate with... 意為「與……溝通」，全句翻譯為「網際網路大大改變了人們彼此溝通的方式」。commute 是「通勤」，compete 是「競爭」，complain 是「抱怨」，四字皆以 com- 開頭，字形相近，但依語意應選 communicate。the way 後的子句省略了關係副詞 how。"
+    },
+    {
+      "id": "senior_english_11_015",
+      "difficulty": 3,
+      "question": "If Kevin had taken the doctor's advice last year, he ______ in the hospital now.",
+      "options": [
+        "wouldn't have been",
+        "wouldn't be",
+        "isn't",
+        "hadn't been"
+      ],
+      "answer": 1,
+      "explanation": "本題為「混合假設語氣」：If 子句的 had taken 表示與「過去」事實相反（去年沒聽醫生的話），主要子句句尾的 now 表示與「現在」事實相反，須用 would + 原形動詞，故選 wouldn't be。全句翻譯為「如果凱文去年聽了醫生的勸告，他現在就不會住院了」。wouldn't have been 只能描述過去的結果，與 now 矛盾。"
+    },
+    {
+      "id": "senior_english_11_016",
+      "difficulty": 3,
+      "question": "______ had the meeting begun when the fire alarm suddenly went off.",
+      "options": [
+        "No sooner",
+        "Not until",
+        "Only when",
+        "Hardly"
+      ],
+      "answer": 3,
+      "explanation": "「Hardly + had + 主詞 + 過去分詞 + when + 過去式」為固定倒裝句型，表示「一……就……」，全句翻譯為「會議才剛開始，火災警報就突然響了」。No sooner 須與 than 搭配而非 when；Not until 與 Only when 之後須先接時間子句再倒裝主要子句，與本句結構不合。"
+    },
+    {
+      "id": "senior_english_11_017",
+      "difficulty": 3,
+      "question": "克漏字：More and more young people are moving back to their hometowns to start small businesses. ______ living in big cities offers more job opportunities, it also means high rent and long working hours. By returning home, these young people can enjoy a slower pace of life and stay closer to their families. 空格中應填入：",
+      "options": [
+        "While",
+        "Unless",
+        "Once",
+        "Now that"
+      ],
+      "answer": 0,
+      "explanation": "空格所在句前半說「大城市工作機會較多」，後半（it also means...）說「房租高、工時長」，前後為讓步對比關係，須用 While（雖然、儘管）。關鍵句翻譯為「雖然住在大城市提供較多工作機會，但也意味著高房租與長工時」。Unless（除非）、Once（一旦）、Now that（既然）皆不符合讓步語意。"
+    },
+    {
+      "id": "senior_english_11_018",
+      "difficulty": 3,
+      "question": "Thanks to the new management team, the company's profits have increased ______ over the past five years.",
+      "options": [
+        "reluctantly",
+        "accidentally",
+        "substantially",
+        "suspiciously"
+      ],
+      "answer": 2,
+      "explanation": "substantially 意為「大幅地、可觀地」，修飾 increased 表示利潤大幅成長，全句翻譯為「多虧新的管理團隊，公司的利潤在過去五年大幅成長」。reluctantly 是「不情願地」，accidentally 是「意外地」，suspiciously 是「可疑地」，與 Thanks to（多虧）的正面語境皆不搭配。"
+    },
+    {
+      "id": "senior_english_11_019",
+      "difficulty": 3,
+      "question": "篇章結構：Working from home has become common since the pandemic. Many workers enjoy the freedom of setting their own schedules and saving time on commuting. ______ Therefore, many companies now adopt a mixed model, asking employees to come to the office only two or three days a week. 空格中應填入最適當的句子：",
+      "options": [
+        "As a result, office buildings have become more expensive than ever.",
+        "In other words, working from home is always better than office work.",
+        "For example, most workers spend their free time playing online games.",
+        "However, some people find it hard to focus at home and miss chatting with coworkers."
+      ],
+      "answer": 3,
+      "explanation": "空格前說明在家工作的優點，空格後以 Therefore 帶出「混合辦公」的折衷方案，因此空格須先轉折、指出在家工作的缺點，混合模式才有成立的理由，故選 However 開頭的句子。該句翻譯為「然而，有些人發現在家難以專心，也想念與同事閒聊的時光」。其餘選項與前後文的邏輯皆無法銜接。"
+    },
+    {
+      "id": "senior_english_11_020",
+      "difficulty": 3,
+      "question": "The fact ______ the manager lied about the sales figures made the whole team angry.",
+      "options": [
+        "which",
+        "that",
+        "what",
+        "whether"
+      ],
+      "answer": 1,
+      "explanation": "本題考「同位語名詞子句」：that 引導的子句說明 The fact 的內容，子句結構完整，that 僅作連接詞，故選 that。全句翻譯為「經理在銷售數字上說謊的這個事實，讓整個團隊非常憤怒」。which 是關係代名詞，須在子句中擔任成分；what 不能引導同位語子句；whether 表「是否」，與「事實」語意矛盾。"
+    }
+  ]
+}

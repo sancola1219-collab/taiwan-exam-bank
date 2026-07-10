@@ -1,0 +1,167 @@
+{
+  "level": "junior",
+  "subject": "english",
+  "grade": 7,
+  "questions": [
+    {
+      "id": "junior_english_7_001",
+      "difficulty": 1,
+      "question": "My brother ______ a junior high school student.",
+      "options": ["is", "am", "are", "be"],
+      "answer": 0,
+      "explanation": "主詞 My brother（我的哥哥）是第三人稱單數，be 動詞要用 is。am 只搭配 I，are 搭配 you 或複數主詞，be 是原形不能直接當現在式動詞。全句意思是：我的哥哥是一名國中生。"
+    },
+    {
+      "id": "junior_english_7_002",
+      "difficulty": 1,
+      "question": "This is Mary. ______ is my classmate.",
+      "options": ["He", "It", "She", "Her"],
+      "answer": 2,
+      "explanation": "Mary 是女生，代名詞要用主格 She 當第二句的主詞。He 指男生，It 指事物或動物，Her 是受格或所有格，不能當主詞。全句意思是：這位是瑪麗，她是我的同班同學。"
+    },
+    {
+      "id": "junior_english_7_003",
+      "difficulty": 1,
+      "question": "There is ______ egg on the table.",
+      "options": ["a", "an", "two", "some"],
+      "answer": 1,
+      "explanation": "egg（蛋）以母音開頭，前面的不定冠詞要用 an，不能用 a。There is 後面接單數名詞，所以 two（兩個）和 some（一些）也不合文法。全句意思是：桌上有一顆蛋。"
+    },
+    {
+      "id": "junior_english_7_004",
+      "difficulty": 1,
+      "question": "There ______ many books in the school library.",
+      "options": ["is", "be", "am", "are"],
+      "answer": 3,
+      "explanation": "many books（許多書）是複數名詞，「有……」的句型要用 There are。There is 只能接單數或不可數名詞，be 是原形，am 只搭配 I。全句意思是：學校圖書館裡有許多書。"
+    },
+    {
+      "id": "junior_english_7_005",
+      "difficulty": 1,
+      "question": "I ______ go to school by bus.",
+      "options": ["am usually", "usually am", "usually", "use to"],
+      "answer": 2,
+      "explanation": "頻率副詞 usually（通常）放在一般動詞 go 的前面，直接說 I usually go。句中的動詞是一般動詞 go，不需要 be 動詞，所以含 am 的選項都是錯的；use to 並不是正確的頻率副詞用法。全句意思是：我通常搭公車上學。"
+    },
+    {
+      "id": "junior_english_7_006",
+      "difficulty": 1,
+      "question": "We use our ______ to see things.",
+      "options": ["eyes", "ears", "noses", "mouths"],
+      "answer": 0,
+      "explanation": "see 是「看」的意思，所以要用 eyes（眼睛）。ears 是耳朵（聽）、noses 是鼻子（聞）、mouths 是嘴巴（吃、說），功能都不符。全句意思是：我們用眼睛看東西。"
+    },
+    {
+      "id": "junior_english_7_007",
+      "difficulty": 1,
+      "question": "A: How are you today? B: ______",
+      "options": ["I'm twelve years old.", "I'm a student.", "It's Monday.", "I'm fine, thank you."],
+      "answer": 3,
+      "explanation": "How are you? 是問候對方「你好嗎？」，回答應該說明自己的狀況，如 I'm fine, thank you.（我很好，謝謝。）。其他選項分別回答年齡（How old are you?）、身分（What do you do?）和星期（What day is it?），皆答非所問。"
+    },
+    {
+      "id": "junior_english_7_008",
+      "difficulty": 2,
+      "question": "My sister ______ English for one hour every day.",
+      "options": ["study", "studies", "studying", "is study"],
+      "answer": 1,
+      "explanation": "every day（每天）表示現在的習慣，動詞用現在簡單式；主詞 My sister 是第三人稱單數，study 要去 y 加 ies 變成 studies。studying 是現在分詞不能單獨當動詞，is study 則是 be 動詞與原形動詞的錯誤組合。全句意思是：我姊姊每天讀一小時英文。"
+    },
+    {
+      "id": "junior_english_7_009",
+      "difficulty": 2,
+      "question": "Ken doesn't ______ up early on Sundays.",
+      "options": ["gets", "got", "get", "getting"],
+      "answer": 2,
+      "explanation": "否定句中助動詞 doesn't 已經表示第三人稱單數，後面的動詞必須用原形 get。gets 多了 s，got 是過去式，getting 是現在分詞，都不能接在 doesn't 後面。全句意思是：肯恩星期天不會早起。"
+    },
+    {
+      "id": "junior_english_7_010",
+      "difficulty": 2,
+      "question": "This bike is not mine. It is ______.",
+      "options": ["her", "he", "him", "hers"],
+      "answer": 3,
+      "explanation": "空格要填「她的（東西）」，須用所有格代名詞 hers，等於 her bike。her 是所有格必須接名詞，he 是主格，him 是受格，單獨放在句尾都不正確。全句意思是：這輛腳踏車不是我的，它是她的。"
+    },
+    {
+      "id": "junior_english_7_011",
+      "difficulty": 2,
+      "question": "______ your father cook dinner every day?",
+      "options": ["Does", "Do", "Is", "Are"],
+      "answer": 0,
+      "explanation": "句中的 cook 是一般動詞，疑問句要用助動詞；主詞 your father 是第三人稱單數，所以用 Does。Do 用於 I、you 和複數主詞，Is 和 Are 是 be 動詞，不能和一般動詞 cook 直接連用。全句意思是：你爸爸每天煮晚餐嗎？"
+    },
+    {
+      "id": "junior_english_7_012",
+      "difficulty": 2,
+      "question": "______ there any milk in the fridge?",
+      "options": ["Are", "Is", "Do", "Have"],
+      "answer": 1,
+      "explanation": "milk（牛奶）是不可數名詞，視為單數，所以疑問句用 Is there...?。Are 用於複數名詞，Do 和 Have 不能用在 there 的存在句型中。全句意思是：冰箱裡有牛奶嗎？"
+    },
+    {
+      "id": "junior_english_7_013",
+      "difficulty": 2,
+      "question": "Lisa is thirsty. She wants something to ______.",
+      "options": ["eat", "read", "play", "drink"],
+      "answer": 3,
+      "explanation": "thirsty 是「口渴的」，口渴需要喝的東西，所以用 drink（喝）。eat（吃）對應 hungry（飢餓的），read（讀）和 play（玩）都與口渴無關。全句意思是：麗莎口渴了，她想要喝點東西。"
+    },
+    {
+      "id": "junior_english_7_014",
+      "difficulty": 2,
+      "question": "Mr. Wang is never late for work. He ______ comes to the office on time.",
+      "options": ["always", "never", "seldom", "sometimes"],
+      "answer": 0,
+      "explanation": "前句說王先生上班從不遲到，語意上他「總是」準時到辦公室，所以用 always（總是）。never（從不）與前句矛盾，seldom（很少）和 sometimes（有時）程度都不夠。全句意思是：王先生上班從不遲到，他總是準時到辦公室。"
+    },
+    {
+      "id": "junior_english_7_015",
+      "difficulty": 3,
+      "question": "A: What does your mother do? B: ______",
+      "options": ["She is cooking now.", "She likes music very much.", "She is a nurse.", "She is at home."],
+      "answer": 2,
+      "explanation": "What does your mother do? 是詢問職業，意思是「你媽媽是做什麼工作的？」，所以要回答職業：She is a nurse.（她是護理師。）。回答正在做的事、喜好或地點，都沒有回應職業的問題，是常見的陷阱。"
+    },
+    {
+      "id": "junior_english_7_016",
+      "difficulty": 3,
+      "question": "下列哪一個句子文法完全正確？",
+      "options": ["He don't like dogs.", "My parents are teachers.", "She have two brothers.", "There are a cat under the chair."],
+      "answer": 1,
+      "explanation": "My parents are teachers.（我的父母是老師。）主詞複數搭配 are，完全正確。He don't 應改為 He doesn't；She have 應改為 She has；There are 後面不能接單數的 a cat，應改為 There is a cat。"
+    },
+    {
+      "id": "junior_english_7_017",
+      "difficulty": 3,
+      "question": "閱讀短文並回答問題：Amy gets up at six every morning. She has breakfast with her family and then goes to school by bike. After school, she plays basketball with her friends in the park. — How does Amy go to school?",
+      "options": ["By bike.", "By bus.", "On foot.", "By car."],
+      "answer": 0,
+      "explanation": "短文中提到 she goes to school by bike，意思是「她騎腳踏車上學」，所以答案是 By bike.。短文大意：艾咪每天早上六點起床，和家人吃完早餐後騎腳踏車上學，放學後和朋友在公園打籃球。作答時要在文中找到關鍵句，不要被其他交通方式混淆。"
+    },
+    {
+      "id": "junior_english_7_018",
+      "difficulty": 3,
+      "question": "閱讀短文並回答問題：It is Sunday. The park is full of people. Some are jogging, and some are flying kites. Ben is sitting under a big tree and reading a comic book. — Which is true?",
+      "options": ["Ben is jogging in the park.", "The park is empty.", "It is Monday today.", "Ben is reading under a tree."],
+      "answer": 3,
+      "explanation": "短文最後一句說 Ben is sitting under a big tree and reading a comic book，意思是「班正坐在大樹下看漫畫書」，因此「Ben is reading under a tree.」正確。短文大意：今天是星期日，公園裡到處是人，有人慢跑、有人放風箏。其餘選項與文中「星期日」、「公園滿是人」、「班在看漫畫」的敘述都不符。"
+    },
+    {
+      "id": "junior_english_7_019",
+      "difficulty": 3,
+      "question": "A: ______ is your English class? B: It's at ten o'clock in the morning.",
+      "options": ["Where", "When", "Who", "Why"],
+      "answer": 1,
+      "explanation": "回答是 at ten o'clock（十點鐘），是「時間」，所以問句要用疑問詞 When（何時）。Where 問地點、Who 問人、Why 問原因，都無法對應時間的回答。全句意思是：你的英文課是什麼時候？——早上十點。"
+    },
+    {
+      "id": "junior_english_7_020",
+      "difficulty": 3,
+      "question": "In a shop. A: ______ B: Yes, please. I'm looking for a cap for my son.",
+      "options": ["How do you do?", "What's wrong with you?", "May I help you?", "How's the weather today?"],
+      "answer": 2,
+      "explanation": "由回答 Yes, please. I'm looking for a cap...（好的，麻煩你，我正在幫兒子找一頂帽子）可知，這是店員詢問顧客是否需要協助，所以用 May I help you?（需要我為您服務嗎？）。How do you do? 用於初次見面，What's wrong? 是關心對方怎麼了，How's the weather? 是問天氣，都不符合購物情境。"
+    }
+  ]
+}

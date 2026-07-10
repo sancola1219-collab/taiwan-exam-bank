@@ -1,0 +1,182 @@
+{
+  "level": "junior",
+  "subject": "english",
+  "grade": 8,
+  "questions": [
+    {
+      "id": "junior_english_8_001",
+      "difficulty": 1,
+      "question": "I ______ at home with my family last night.",
+      "options": ["am", "are", "was", "were"],
+      "answer": 2,
+      "explanation": "last night（昨晚）表示過去時間，be 動詞要用過去式；主詞 I 搭配 was。am 和 are 是現在式，were 搭配 you 或複數主詞。全句意思是：昨晚我和家人待在家裡。"
+    },
+    {
+      "id": "junior_english_8_002",
+      "difficulty": 1,
+      "question": "Jason ______ basketball with his classmates yesterday afternoon.",
+      "options": ["played", "plays", "play", "playing"],
+      "answer": 0,
+      "explanation": "yesterday afternoon（昨天下午）是過去時間，動詞要用過去式 played。plays 和 play 是現在式，playing 是現在分詞，不能單獨當句子的動詞。全句意思是：傑森昨天下午和同學打籃球。"
+    },
+    {
+      "id": "junior_english_8_003",
+      "difficulty": 1,
+      "question": "We ______ visit our grandparents in Hualien next week.",
+      "options": ["did", "were", "are", "will"],
+      "answer": 3,
+      "explanation": "next week（下星期）表示未來時間，用助動詞 will 加原形動詞 visit 構成未來式。did 是過去式助動詞，were 是過去式 be 動詞，are 之後必須接 going to 才能表示未來。全句意思是：我們下星期要去花蓮探望祖父母。"
+    },
+    {
+      "id": "junior_english_8_004",
+      "difficulty": 1,
+      "question": "Tom is ______ than his little brother.",
+      "options": ["tall", "taller", "tallest", "the tallest"],
+      "answer": 1,
+      "explanation": "句中有 than（比），是兩者的比較，形容詞要用比較級 taller。tall 是原級，tallest 和 the tallest 是最高級，用於三者以上的比較且不與 than 連用。全句意思是：湯姆比他弟弟高。"
+    },
+    {
+      "id": "junior_english_8_005",
+      "difficulty": 1,
+      "question": "I like tea, ______ my sister likes coffee.",
+      "options": ["but", "or", "so", "if"],
+      "answer": 0,
+      "explanation": "前句說我喜歡茶，後句說姊姊喜歡咖啡，兩者是對比關係，用表示轉折的連接詞 but（但是）。or 表示選擇，so 表示結果，if 表示條件，都不符合句意。全句意思是：我喜歡茶，但我姊姊喜歡咖啡。"
+    },
+    {
+      "id": "junior_english_8_006",
+      "difficulty": 1,
+      "question": "My father enjoys ______ in the river near our house.",
+      "options": ["fish", "to fish", "fishing", "fished"],
+      "answer": 2,
+      "explanation": "enjoy（享受、喜歡）後面固定接動名詞 V-ing，所以用 fishing。enjoy 不能接不定詞 to fish，也不能接原形或過去式。全句意思是：我爸爸喜歡在我們家附近的河裡釣魚。"
+    },
+    {
+      "id": "junior_english_8_007",
+      "difficulty": 1,
+      "question": "She ______ to Tainan with her friends last weekend.",
+      "options": ["goes", "went", "gone", "go"],
+      "answer": 1,
+      "explanation": "last weekend（上週末）是過去時間，動詞用過去式；go 是不規則動詞，過去式是 went。goes 和 go 是現在式，gone 是過去分詞，不能單獨當動詞。全句意思是：她上週末和朋友去了台南。"
+    },
+    {
+      "id": "junior_english_8_008",
+      "difficulty": 2,
+      "question": "Look at those dark clouds! It ______ rain soon.",
+      "options": ["was", "will be", "is going", "is going to"],
+      "answer": 3,
+      "explanation": "看到烏雲密布，是根據眼前的跡象推測即將發生的事，用 be going to 加原形動詞 rain。is going 少了 to，will be 後面不能再接原形動詞 rain，was 是過去式。全句意思是：看那些烏雲！快要下雨了。"
+    },
+    {
+      "id": "junior_english_8_009",
+      "difficulty": 2,
+      "question": "Yushan is ______ mountain in Taiwan.",
+      "options": ["the highest", "higher", "high", "the higher"],
+      "answer": 0,
+      "explanation": "在台灣所有山之中比較，要用最高級 the highest，最高級前面通常加 the。higher 是比較級，需與 than 連用；high 是原級；the higher 用於兩者中較高的那個，皆不符合句意。全句意思是：玉山是台灣最高的山。"
+    },
+    {
+      "id": "junior_english_8_010",
+      "difficulty": 2,
+      "question": "Jenny hopes ______ a doctor and help sick people in the future.",
+      "options": ["be", "being", "to be", "is"],
+      "answer": 2,
+      "explanation": "hope（希望）後面固定接不定詞 to V，所以用 to be。hope 不能接動名詞 being，也不能直接接原形 be 或現在式 is。全句意思是：珍妮希望將來成為醫生，幫助生病的人。"
+    },
+    {
+      "id": "junior_english_8_011",
+      "difficulty": 2,
+      "question": "______ you watch the baseball game on TV last night?",
+      "options": ["Do", "Did", "Were", "Are"],
+      "answer": 1,
+      "explanation": "last night（昨晚）是過去時間，一般動詞 watch 的疑問句要用過去式助動詞 Did，後面接原形動詞。Do 是現在式助動詞，Were 和 Are 是 be 動詞，不能與一般動詞 watch 連用。全句意思是：你昨晚有看電視轉播的棒球賽嗎？"
+    },
+    {
+      "id": "junior_english_8_012",
+      "difficulty": 2,
+      "question": "He was very tired after work, ______ he went to bed early.",
+      "options": ["because", "but", "or", "so"],
+      "answer": 3,
+      "explanation": "前句「他下班後很累」是原因，後句「他很早就上床睡覺」是結果，因果關係用連接詞 so（所以）。because 引導的是原因而非結果，but 表轉折，or 表選擇，都不符合。全句意思是：他下班後非常累，所以很早就去睡了。"
+    },
+    {
+      "id": "junior_english_8_013",
+      "difficulty": 2,
+      "question": "Your idea sounds ______ than mine. Let's try it!",
+      "options": ["good", "gooder", "better", "best"],
+      "answer": 2,
+      "explanation": "句中有 than，要用比較級；good 是不規則變化，比較級是 better，不能寫成 gooder。best 是最高級，good 是原級，都不能與 than 連用。全句意思是：你的點子聽起來比我的好，我們就這麼做吧！"
+    },
+    {
+      "id": "junior_english_8_014",
+      "difficulty": 2,
+      "question": "Ted spent two hours ______ his math homework last night.",
+      "options": ["doing", "to do", "did", "does"],
+      "answer": 0,
+      "explanation": "「spend + 時間 + V-ing」是固定句型，表示花時間做某事，所以用 doing。spend 後面不接不定詞 to do，did 和 does 是動詞變化形，不能放在這個位置。全句意思是：泰德昨晚花了兩個小時寫數學作業。"
+    },
+    {
+      "id": "junior_english_8_015",
+      "difficulty": 3,
+      "question": "下列哪一個句子文法完全正確？",
+      "options": [
+        "She will goes shopping tomorrow.",
+        "Did he played tennis yesterday?",
+        "I am interested in swim.",
+        "Kevin didn't come to school because he was sick."
+      ],
+      "answer": 3,
+      "explanation": "Kevin didn't come to school because he was sick.（凱文因為生病沒來上學。）時態與連接詞使用皆正確。will 後面要接原形，應為 will go；Did 後面要接原形，應為 Did he play；in 是介系詞，後面要接動名詞，應為 interested in swimming。"
+    },
+    {
+      "id": "junior_english_8_016",
+      "difficulty": 3,
+      "question": "Hurry up, ______ you will miss the school bus.",
+      "options": ["and", "or", "but", "so"],
+      "answer": 1,
+      "explanation": "「祈使句 + or + 結果」表示「否則就會……」，這裡指不快一點「否則」就會錯過校車，所以用 or。若用 and 則表示「這樣就會……」，語意變成快一點反而錯過校車，並不合理。全句意思是：快一點，否則你會錯過校車。"
+    },
+    {
+      "id": "junior_english_8_017",
+      "difficulty": 3,
+      "question": "閱讀短文並回答問題：Last summer, the Lin family took a trip to Green Island. They went snorkeling and saw many colorful fish in the sea. On the last day, it rained heavily, so they stayed at the hotel and played cards together. — Which is true?",
+      "options": [
+        "It rained every day during the trip.",
+        "The Lin family went to Green Island last winter.",
+        "They didn't see any fish in the sea.",
+        "They played cards at the hotel on the last day."
+      ],
+      "answer": 3,
+      "explanation": "短文最後說 On the last day, it rained heavily, so they stayed at the hotel and played cards，意思是「最後一天下大雨，所以他們待在旅館一起玩牌」，因此第四個選項正確。短文大意：去年夏天林家去綠島旅行，浮潛時看到許多色彩繽紛的魚。其餘選項與「去年夏天」、「只有最後一天下雨」、「看到很多魚」的敘述皆不符。"
+    },
+    {
+      "id": "junior_english_8_018",
+      "difficulty": 3,
+      "question": "閱讀短文並回答問題：Mary practices the violin harder than anyone else in her class. Next month, she is going to play in the school concert for the first time. She feels nervous but excited. — What can we learn about Mary?",
+      "options": [
+        "She has never played in the school concert before.",
+        "She hates playing the violin.",
+        "The school concert was held last month.",
+        "She practices less than her classmates."
+      ],
+      "answer": 0,
+      "explanation": "文中說她下個月將 for the first time（第一次）在學校音樂會演出，可推知她以前從未在音樂會表演過。短文大意：瑪麗練小提琴比班上任何人都努力，下個月她將第一次在學校音樂會演出，她感到緊張又興奮。她練習得比同學勤，音樂會在下個月，也看不出她討厭拉琴，其餘選項皆錯。"
+    },
+    {
+      "id": "junior_english_8_019",
+      "difficulty": 3,
+      "question": "Betty is ______ student in her class; nobody gets better grades than she does.",
+      "options": ["a smarter", "the smarter", "the smartest", "smartest"],
+      "answer": 2,
+      "explanation": "後句說「沒有人的成績比她好」，表示她在全班中是「最」聰明的學生，要用最高級，且最高級前面要加 the，所以是 the smartest。比較級 smarter 不符合「全班之最」的語意，缺少 the 的 smartest 也不正確。全句意思是：貝蒂是班上最聰明的學生，沒有人成績比她好。"
+    },
+    {
+      "id": "junior_english_8_020",
+      "difficulty": 3,
+      "question": "Don't forget ______ the door before you leave the house.",
+      "options": ["locking", "to lock", "locked", "locks"],
+      "answer": 1,
+      "explanation": "forget to V 表示「忘記去做（還沒做的事）」，這裡提醒對方出門前要記得鎖門，是還沒做的動作，所以用 to lock。forget V-ing 則表示「忘記做過（已經做的事）」，語意不符；locked 和 locks 都不能接在 forget 後面表達此意。全句意思是：離開家之前，別忘了鎖門。"
+    }
+  ]
+}

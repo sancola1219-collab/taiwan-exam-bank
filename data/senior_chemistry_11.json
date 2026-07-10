@@ -1,0 +1,167 @@
+{
+  "level": "senior",
+  "subject": "chemistry",
+  "grade": 11,
+  "questions": [
+    {
+      "id": "senior_chemistry_11_001",
+      "difficulty": 1,
+      "question": "升高溫度能使化學反應速率明顯加快，最主要的原因為何？",
+      "options": ["反應的活化能降低", "反應熱變大", "具有足夠能量（超過活化能）的分子比例大增", "平衡常數變大"],
+      "answer": 2,
+      "explanation": "升溫時分子動能分布右移，能量超過活化能的分子比例大幅增加，有效碰撞次數隨之明顯增多，速率因而加快。易錯處是誤以為升溫會「降低活化能」，活化能由反應本身（反應途徑）決定，只有催化劑才能改變它。"
+    },
+    {
+      "id": "senior_chemistry_11_002",
+      "difficulty": 1,
+      "question": "催化劑能加快反應速率，其原理為何？",
+      "options": ["提供活化能較低的反應途徑", "增加反應物的濃度", "升高反應系統的溫度", "使平衡向生成物方向移動"],
+      "answer": 0,
+      "explanation": "催化劑參與反應形成中間物，提供一條活化能較低的新途徑，使更多分子能越過能量障礙，正逆反應速率同時加快。易錯處是以為催化劑會改變平衡位置或產率，催化劑只縮短達到平衡的時間，不改變平衡常數。"
+    },
+    {
+      "id": "senior_chemistry_11_003",
+      "difficulty": 1,
+      "question": "某水溶液中氫離子濃度 $[\\mathrm{H^+}]=10^{-3}\\ \\mathrm{M}$，則其 pH 值為何？",
+      "options": ["$-3$", "$3$", "$11$", "$0.001$"],
+      "answer": 1,
+      "explanation": "由定義 $\\mathrm{pH}=-\\log[\\mathrm{H^+}]=-\\log 10^{-3}=3$。易錯處是忘記負號答 $-3$，或把 $[\\mathrm{H^+}]$ 的數值 $0.001$ 直接當成 pH；$11$ 則是誤算成 pOH 對應的值。"
+    },
+    {
+      "id": "senior_chemistry_11_004",
+      "difficulty": 1,
+      "question": "過錳酸鉀（$\\mathrm{KMnO_4}$）中，錳的氧化數為何？",
+      "options": ["$+2$", "$+4$", "$+6$", "$+7$"],
+      "answer": 3,
+      "explanation": "設 Mn 氧化數為 $x$，K 為 $+1$、O 為 $-2$，由電中性：$(+1)+x+4\\times(-2)=0$，解得 $x=+7$。易錯處是氧的個數少算或把整體電荷設錯，中性化合物各元素氧化數總和必為 $0$。"
+    },
+    {
+      "id": "senior_chemistry_11_005",
+      "difficulty": 1,
+      "question": "某放熱反應已達平衡，若升高溫度，依勒沙特列原理，平衡將如何移動？",
+      "options": ["向左（逆反應）移動", "向右（正反應）移動", "不移動", "先向右再向左移動"],
+      "answer": 0,
+      "explanation": "放熱反應可把「熱」視為生成物，升溫等於增加生成物側的熱，平衡向吸熱的逆反應方向（左）移動以消耗多餘的熱。易錯處是以為升溫速率變快就代表平衡向右，速率與平衡移動方向是兩回事。"
+    },
+    {
+      "id": "senior_chemistry_11_006",
+      "difficulty": 1,
+      "question": "在 AgCl 的飽和水溶液中加入 NaCl 水溶液，則 AgCl 的溶解度將如何變化？",
+      "options": ["增大", "不變", "減小", "先增後減"],
+      "answer": 2,
+      "explanation": "加入 NaCl 使溶液中 $[\\mathrm{Cl^-}]$ 增大，由 $K_{sp}=[\\mathrm{Ag^+}][\\mathrm{Cl^-}]$ 為定值，$[\\mathrm{Ag^+}]$ 必須下降，即 AgCl 溶解度因同離子效應而減小。易錯處是以為加入電解質都會幫助溶解，含共同離子時反而抑制溶解。"
+    },
+    {
+      "id": "senior_chemistry_11_007",
+      "difficulty": 1,
+      "question": "關於放熱反應的反應熱 $\\Delta H$，下列何者正確？",
+      "options": ["$\\Delta H>0$", "$\\Delta H<0$", "$\\Delta H=0$", "無法判斷正負"],
+      "answer": 1,
+      "explanation": "反應熱定義為生成物焓減反應物焓，放熱反應釋放能量給環境，生成物焓較低，故 $\\Delta H<0$。易錯處是直覺認為「放出熱」是加號而寫成 $\\Delta H>0$，符號是從系統的焓變化來看，放熱即焓減少。"
+    },
+    {
+      "id": "senior_chemistry_11_008",
+      "difficulty": 2,
+      "question": "某反應速率定律為 $r=k[\\mathrm{A}]^2[\\mathrm{B}]$。若 $[\\mathrm{A}]$ 加倍而 $[\\mathrm{B}]$ 不變，反應速率變為原來的幾倍？",
+      "options": ["$4$ 倍", "$2$ 倍", "$8$ 倍", "不變"],
+      "answer": 0,
+      "explanation": "速率與 $[\\mathrm{A}]$ 的平方成正比，$[\\mathrm{A}]$ 變 $2$ 倍時速率變為 $2^2=4$ 倍，$[\\mathrm{B}]$ 不變故無其他影響。易錯處是把二級反應當一級而答 $2$ 倍，各反應物的級數須以速率定律的指數為準，不可直接看化學式係數。"
+    },
+    {
+      "id": "senior_chemistry_11_009",
+      "difficulty": 2,
+      "question": "反應 $\\mathrm{N_2(g)}+3\\mathrm{H_2(g)}\\rightleftharpoons 2\\mathrm{NH_3(g)}$ 的平衡常數 $K_c$ 表示式為何？",
+      "options": ["$\\dfrac{[\\mathrm{NH_3}]}{[\\mathrm{N_2}][\\mathrm{H_2}]}$", "$\\dfrac{[\\mathrm{N_2}][\\mathrm{H_2}]^3}{[\\mathrm{NH_3}]^2}$", "$\\dfrac{2[\\mathrm{NH_3}]}{[\\mathrm{N_2}]\\cdot 3[\\mathrm{H_2}]}$", "$\\dfrac{[\\mathrm{NH_3}]^2}{[\\mathrm{N_2}][\\mathrm{H_2}]^3}$"],
+      "answer": 3,
+      "explanation": "平衡常數為生成物濃度除以反應物濃度，且各物種以其化學式係數為冪次：$K_c=\\dfrac{[\\mathrm{NH_3}]^2}{[\\mathrm{N_2}][\\mathrm{H_2}]^3}$。易錯處是把係數寫成濃度前的乘數（如 $2[\\mathrm{NH_3}]$），或把分子分母放反寫成逆反應的常數。"
+    },
+    {
+      "id": "senior_chemistry_11_010",
+      "difficulty": 2,
+      "question": "$25^\\circ\\mathrm{C}$ 時，$0.01\\ \\mathrm{M}$ 氫氧化鈉水溶液的 pH 值為何？",
+      "options": ["$2$", "$10$", "$12$", "$13$"],
+      "answer": 2,
+      "explanation": "NaOH 為強鹼完全解離，$[\\mathrm{OH^-}]=10^{-2}\\ \\mathrm{M}$，$\\mathrm{pOH}=2$，再由 $\\mathrm{pH}+\\mathrm{pOH}=14$ 得 $\\mathrm{pH}=12$。易錯處是把 $10^{-2}$ 直接取負對數當 pH 而答 $2$，鹼性溶液應先求 pOH 再換算。"
+    },
+    {
+      "id": "senior_chemistry_11_011",
+      "difficulty": 2,
+      "question": "以 $0.2\\ \\mathrm{M}$ NaOH 滴定 $0.1\\ \\mathrm{M}$ HCl $20\\ \\mathrm{mL}$，達當量點時需 NaOH 多少毫升？",
+      "options": ["$10$ mL", "$40$ mL", "$20$ mL", "$5$ mL"],
+      "answer": 0,
+      "explanation": "當量點時酸鹼莫耳數相等：$C_aV_a=C_bV_b$，即 $0.1\\times 20=0.2\\times V_b$，得 $V_b=10\\ \\mathrm{mL}$。易錯處是把濃度比放反算成 $40\\ \\mathrm{mL}$，鹼的濃度較大時所需體積應較小，可先做合理性判斷。"
+    },
+    {
+      "id": "senior_chemistry_11_012",
+      "difficulty": 2,
+      "question": "反應 $\\mathrm{Zn}+\\mathrm{Cu^{2+}}\\rightarrow \\mathrm{Zn^{2+}}+\\mathrm{Cu}$ 中，關於 Zn 的敘述何者正確？",
+      "options": ["是氧化劑，本身被還原", "是還原劑，本身被氧化", "是還原劑，本身被還原", "是氧化劑，本身被氧化"],
+      "answer": 1,
+      "explanation": "Zn 的氧化數由 $0$ 升為 $+2$，失去電子被氧化；因它把電子給了 $\\mathrm{Cu^{2+}}$ 使其還原，故 Zn 是還原劑。易錯處是把「被氧化」與「氧化劑」混為一談，氧化劑是使別人氧化、自己被還原的物質，兩者恰好相反。"
+    },
+    {
+      "id": "senior_chemistry_11_013",
+      "difficulty": 2,
+      "question": "已知 AgCl 的 $K_{sp}=1.0\\times 10^{-10}$，則 AgCl 在純水中的溶解度（M）為何？",
+      "options": ["$1.0\\times 10^{-10}$ M", "$5.0\\times 10^{-11}$ M", "$1.0\\times 10^{-4}$ M", "$1.0\\times 10^{-5}$ M"],
+      "answer": 3,
+      "explanation": "設溶解度為 $s$，則 $[\\mathrm{Ag^+}]=[\\mathrm{Cl^-}]=s$，$K_{sp}=s^2=1.0\\times 10^{-10}$，故 $s=1.0\\times 10^{-5}\\ \\mathrm{M}$。易錯處是把 $K_{sp}$ 本身當成溶解度，或開根號時指數除以 $2$ 算錯成 $10^{-4}$。"
+    },
+    {
+      "id": "senior_chemistry_11_014",
+      "difficulty": 2,
+      "question": "已知 $\\mathrm{C(s)}+\\mathrm{O_2(g)}\\rightarrow \\mathrm{CO_2(g)}$ 的 $\\Delta H_1=-394\\ \\mathrm{kJ}$，$\\mathrm{CO(g)}+\\frac{1}{2}\\mathrm{O_2(g)}\\rightarrow \\mathrm{CO_2(g)}$ 的 $\\Delta H_2=-283\\ \\mathrm{kJ}$，則 $\\mathrm{C(s)}+\\frac{1}{2}\\mathrm{O_2(g)}\\rightarrow \\mathrm{CO(g)}$ 的 $\\Delta H$ 為何？",
+      "options": ["$-677$ kJ", "$-111$ kJ", "$+111$ kJ", "$-283$ kJ"],
+      "answer": 1,
+      "explanation": "由赫斯定律，目標反應 $=$ 反應一減反應二，故 $\\Delta H=\\Delta H_1-\\Delta H_2=(-394)-(-283)=-111\\ \\mathrm{kJ}$。易錯處是把兩反應熱直接相加得 $-677\\ \\mathrm{kJ}$，組合反應式時必須先確認目標式需要「反轉」哪一個反應。"
+    },
+    {
+      "id": "senior_chemistry_11_015",
+      "difficulty": 3,
+      "question": "反應 $2\\mathrm{A}\\rightarrow 3\\mathrm{B}$ 進行中，若 A 的消耗速率為 $0.6\\ \\mathrm{M/s}$，則 B 的生成速率為何？",
+      "options": ["$0.6$ M/s", "$0.4$ M/s", "$0.9$ M/s", "$1.2$ M/s"],
+      "answer": 2,
+      "explanation": "各物種速率與係數成正比：$\\dfrac{1}{2}\\times$（A 消耗速率）$=\\dfrac{1}{3}\\times$（B 生成速率），故 B 的生成速率 $=0.6\\times\\dfrac{3}{2}=0.9\\ \\mathrm{M/s}$。易錯處是把係數比放反算成 $0.4\\ \\mathrm{M/s}$，B 的係數較大，其速率應比 A 快。"
+    },
+    {
+      "id": "senior_chemistry_11_016",
+      "difficulty": 3,
+      "question": "在 $1$ 公升容器中放入 $\\mathrm{H_2}$ 與 $\\mathrm{I_2}$ 各 $1$ 莫耳，進行 $\\mathrm{H_2}+\\mathrm{I_2}\\rightleftharpoons 2\\mathrm{HI}$，已知該溫度下 $K_c=4$，則平衡時 $[\\mathrm{HI}]$ 為何？",
+      "options": ["$1$ M", "$0.5$ M", "$2$ M", "$0.67$ M"],
+      "answer": 0,
+      "explanation": "設 $\\mathrm{H_2}$ 消耗 $x$，平衡時 $[\\mathrm{H_2}]=[\\mathrm{I_2}]=1-x$、$[\\mathrm{HI}]=2x$，代入 $K_c=\\dfrac{(2x)^2}{(1-x)^2}=4$，開根號得 $\\dfrac{2x}{1-x}=2$，解得 $x=0.5$，故 $[\\mathrm{HI}]=2\\times 0.5=1\\ \\mathrm{M}$。易錯處是把 $[\\mathrm{HI}]$ 寫成 $x$ 而忘了係數 $2$，或忽略兩邊可直接開平方的簡化方法。"
+    },
+    {
+      "id": "senior_chemistry_11_017",
+      "difficulty": 3,
+      "question": "$0.1\\ \\mathrm{M}$ 的某弱酸 HA，解離常數 $K_a=1\\times 10^{-5}$，則此溶液的 pH 約為何？",
+      "options": ["$1$", "$5$", "$2$", "$3$"],
+      "answer": 3,
+      "explanation": "弱酸近似公式 $[\\mathrm{H^+}]=\\sqrt{K_aC}=\\sqrt{1\\times 10^{-5}\\times 0.1}=\\sqrt{10^{-6}}=10^{-3}\\ \\mathrm{M}$，故 $\\mathrm{pH}=3$。易錯處是把弱酸當強酸完全解離而答 $\\mathrm{pH}=1$，弱酸僅部分解離，必須用 $K_a$ 計算。"
+    },
+    {
+      "id": "senior_chemistry_11_018",
+      "difficulty": 3,
+      "question": "鋅銅電池中，已知標準還原電位 $E^\\circ(\\mathrm{Zn^{2+}/Zn})=-0.76\\ \\mathrm{V}$、$E^\\circ(\\mathrm{Cu^{2+}/Cu})=+0.34\\ \\mathrm{V}$，則此電池的標準電動勢為何？",
+      "options": ["$-0.42$ V", "$1.10$ V", "$0.42$ V", "$-1.10$ V"],
+      "answer": 1,
+      "explanation": "電動勢 $E^\\circ_{\\text{cell}}=E^\\circ_{\\text{陰極}}-E^\\circ_{\\text{陽極}}=0.34-(-0.76)=1.10\\ \\mathrm{V}$，其中還原電位較高的 Cu 極為陰極（還原端）。易錯處是兩電位直接相加減時漏掉負號而得 $0.42\\ \\mathrm{V}$，減去負數等於加上其絕對值。"
+    },
+    {
+      "id": "senior_chemistry_11_019",
+      "difficulty": 3,
+      "question": "已知 $\\mathrm{Ag_2CrO_4}$ 的 $K_{sp}=4\\times 10^{-12}$，其溶解時 $\\mathrm{Ag_2CrO_4}\\rightleftharpoons 2\\mathrm{Ag^+}+\\mathrm{CrO_4^{2-}}$，則其溶解度（M）為何？",
+      "options": ["$2\\times 10^{-6}$ M", "$1\\times 10^{-6}$ M", "$1\\times 10^{-4}$ M", "$2\\times 10^{-4}$ M"],
+      "answer": 2,
+      "explanation": "設溶解度為 $s$，則 $[\\mathrm{Ag^+}]=2s$、$[\\mathrm{CrO_4^{2-}}]=s$，$K_{sp}=(2s)^2\\cdot s=4s^3=4\\times 10^{-12}$，得 $s^3=10^{-12}$，$s=1\\times 10^{-4}\\ \\mathrm{M}$。易錯處是忘記把 $[\\mathrm{Ag^+}]=2s$ 的係數平方（寫成 $2s^2\\cdot s$），或誤用 $s^2$ 的 AgCl 型公式直接開平方。"
+    },
+    {
+      "id": "senior_chemistry_11_020",
+      "difficulty": 3,
+      "question": "反應 $\\mathrm{H_2}+\\mathrm{Cl_2}\\rightarrow 2\\mathrm{HCl}$ 中，鍵能：H$-$H 為 $436\\ \\mathrm{kJ/mol}$、Cl$-$Cl 為 $242\\ \\mathrm{kJ/mol}$、H$-$Cl 為 $431\\ \\mathrm{kJ/mol}$，則此反應的 $\\Delta H$ 為何？",
+      "options": ["$+184$ kJ", "$+247$ kJ", "$-92$ kJ", "$-184$ kJ"],
+      "answer": 3,
+      "explanation": "$\\Delta H=$ 斷鍵吸收的能量 $-$ 形成鍵放出的能量 $=(436+242)-2\\times 431=678-862=-184\\ \\mathrm{kJ}$。易錯處是忘記生成 $2$ 莫耳 HCl 要乘 $2$（誤算成 $678-431=+247$），或把斷鍵與成鍵的正負角色顛倒而答 $+184$。"
+    }
+  ]
+}

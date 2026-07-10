@@ -1,0 +1,187 @@
+{
+  "level": "junior",
+  "subject": "english",
+  "grade": 9,
+  "questions": [
+    {
+      "id": "junior_english_9_001",
+      "difficulty": 1,
+      "question": "I have already ______ my homework, so I can watch TV now.",
+      "options": ["do", "done", "did", "does"],
+      "answer": 1,
+      "explanation": "have already 加過去分詞構成現在完成式，表示動作已經完成；do 的過去分詞是 done。did 是過去式，do 和 does 是現在式，都不能接在 have 後面構成完成式。全句意思是：我已經做完功課了，所以現在可以看電視。"
+    },
+    {
+      "id": "junior_english_9_002",
+      "difficulty": 1,
+      "question": "English ______ in many countries around the world.",
+      "options": ["speaks", "is speaking", "has spoken", "is spoken"],
+      "answer": 3,
+      "explanation": "English（英語）是「被說」的，語言不會自己說話，要用被動語態 be 動詞加過去分詞，即 is spoken。speaks 和 is speaking 是主動語態，has spoken 是主動的完成式，主詞應該是人才對。全句意思是：英語在世界上許多國家被使用。"
+    },
+    {
+      "id": "junior_english_9_003",
+      "difficulty": 1,
+      "question": "The girl ______ is singing on the stage is my cousin.",
+      "options": ["who", "which", "what", "whose"],
+      "answer": 0,
+      "explanation": "先行詞 The girl 是人，且關係代名詞在子句中當主詞，所以用 who。which 用於事物，what 不能當關係代名詞使用，whose 是所有格，後面必須接名詞。全句意思是：正在臺上唱歌的那個女孩是我的表妹。"
+    },
+    {
+      "id": "junior_english_9_004",
+      "difficulty": 1,
+      "question": "Lucy is your younger sister, ______?",
+      "options": ["is she", "does she", "isn't she", "doesn't she"],
+      "answer": 2,
+      "explanation": "附加問句的原則是「前肯定、後否定」，主要子句用 be 動詞 is，附加問句就用 isn't she。is she 違反前肯後否的原則，does she 和 doesn't she 是搭配一般動詞使用的。全句意思是：露西是你妹妹，不是嗎？"
+    },
+    {
+      "id": "junior_english_9_005",
+      "difficulty": 1,
+      "question": "They have lived in Taichung ______ 2020.",
+      "options": ["for", "during", "at", "since"],
+      "answer": 3,
+      "explanation": "現在完成式中，since 接「起始時間點」，2020 年是時間點，所以用 since 2020，表示從 2020 年住到現在。for 接「一段時間」，如 for five years；during 和 at 不用於此句型。全句意思是：他們從 2020 年起就住在台中。"
+    },
+    {
+      "id": "junior_english_9_006",
+      "difficulty": 1,
+      "question": "Do you know where ______ now?",
+      "options": ["does Mr. Chen live", "Mr. Chen lives", "is Mr. Chen lived", "did Mr. Chen lived"],
+      "answer": 1,
+      "explanation": "間接問句要用「疑問詞 + 主詞 + 動詞」的直述句語序，所以是 where Mr. Chen lives，不能保留疑問句的倒裝。does Mr. Chen live 是直接問句的語序；後兩個選項的動詞形式本身就是錯誤的。全句意思是：你知道陳先生現在住在哪裡嗎？"
+    },
+    {
+      "id": "junior_english_9_007",
+      "difficulty": 1,
+      "question": "The window was ______ by the strong wind last night.",
+      "options": ["break", "breaks", "broken", "breaking"],
+      "answer": 2,
+      "explanation": "was 加過去分詞構成過去式的被動語態，break 的過去分詞是 broken。窗戶是「被」強風吹破的，必須用被動；break、breaks 是主動的現在式，breaking 是現在分詞，皆不能接在 was 後面表達被動。全句意思是：窗戶昨晚被強風吹破了。"
+    },
+    {
+      "id": "junior_english_9_008",
+      "difficulty": 2,
+      "question": "______ you ever been to Japan?",
+      "options": ["Have", "Did", "Do", "Were"],
+      "answer": 0,
+      "explanation": "have been to 表示「曾經去過」，是現在完成式的經驗用法，疑問句把 Have 移到句首，搭配 ever（曾經）。Did、Do、Were 後面都不能接 been 構成這個句型。全句意思是：你曾經去過日本嗎？"
+    },
+    {
+      "id": "junior_english_9_009",
+      "difficulty": 2,
+      "question": "The movie ______ we saw last night was really exciting.",
+      "options": ["who", "whom", "whose", "which"],
+      "answer": 3,
+      "explanation": "先行詞 The movie（電影）是事物，關係代名詞要用 which 或 that，在子句中當 saw 的受詞。who 和 whom 用於人，whose 是所有格，後面須接名詞，皆不適用。全句意思是：我們昨晚看的那部電影真的很刺激。"
+    },
+    {
+      "id": "junior_english_9_010",
+      "difficulty": 2,
+      "question": "Tom went to the party last night, ______?",
+      "options": ["did he", "didn't he", "doesn't he", "wasn't he"],
+      "answer": 1,
+      "explanation": "主要子句用一般動詞過去式 went（肯定），附加問句要用否定的過去式助動詞，即 didn't he。did he 違反前肯後否原則，doesn't he 時態錯誤，wasn't he 是 be 動詞，與一般動詞 went 不搭配。全句意思是：湯姆昨晚去了派對，不是嗎？"
+    },
+    {
+      "id": "junior_english_9_011",
+      "difficulty": 2,
+      "question": "This bridge ______ over one hundred years ago.",
+      "options": ["was built", "built", "is built", "has built"],
+      "answer": 0,
+      "explanation": "橋是「被建造」的，且 one hundred years ago（一百年前）是明確的過去時間，所以用過去式被動語態 was built。built 單獨使用是主動過去式，is built 是現在式，has built 是主動完成式且不能與 ago 連用。全句意思是：這座橋建於一百多年前。"
+    },
+    {
+      "id": "junior_english_9_012",
+      "difficulty": 2,
+      "question": "Could you tell me what time ______?",
+      "options": ["does the museum open", "the museum open", "the museum opens", "is the museum open"],
+      "answer": 2,
+      "explanation": "間接問句要用直述句語序，主詞 the museum 是第三人稱單數，動詞要加 s，所以是 what time the museum opens。does the museum open 是直接問句語序，the museum open 動詞少了 s，is the museum open 則是倒裝的錯誤語序。全句意思是：可以告訴我博物館幾點開門嗎？"
+    },
+    {
+      "id": "junior_english_9_013",
+      "difficulty": 2,
+      "question": "Amy ______ her report yet, so she can't go out with us tonight.",
+      "options": ["doesn't finish", "didn't finish", "wasn't finishing", "hasn't finished"],
+      "answer": 3,
+      "explanation": "yet（尚未）是現在完成式否定句的標誌詞，且後句說她「現在」不能出門，表示到目前為止還沒完成，用 hasn't finished。doesn't finish 是現在簡單式，didn't finish 和 wasn't finishing 是過去時態，都不能與 yet 搭配表達「到現在還沒做完」。全句意思是：艾咪的報告還沒寫完，所以今晚不能和我們出去。"
+    },
+    {
+      "id": "junior_english_9_014",
+      "difficulty": 2,
+      "question": "The boy ______ father is a police officer is my best friend.",
+      "options": ["who", "which", "whose", "that"],
+      "answer": 2,
+      "explanation": "空格後面接名詞 father，表示「他的爸爸」，要用關係代名詞所有格 whose。who 和 that 在子句中當主詞或受詞，後面直接接動詞或主詞；which 用於事物，皆不能表達所有格關係。全句意思是：那位爸爸是警察的男孩是我最好的朋友。"
+    },
+    {
+      "id": "junior_english_9_015",
+      "difficulty": 3,
+      "question": "下列哪一個句子文法完全正確？",
+      "options": [
+        "The letter was written by my grandmother.",
+        "He has saw that movie three times.",
+        "Do you know where does she work?",
+        "It's a beautiful day, is it?"
+      ],
+      "answer": 0,
+      "explanation": "The letter was written by my grandmother.（這封信是我祖母寫的。）被動語態使用正確。has saw 應改為 has seen（完成式接過去分詞）；間接問句應改為 where she works（直述句語序）；附加問句前肯後否，應改為 isn't it。"
+    },
+    {
+      "id": "junior_english_9_016",
+      "difficulty": 3,
+      "question": "Night markets are popular in Taiwan. People who ______ them can enjoy delicious food and fun games.",
+      "options": ["visits", "visit", "is visiting", "has visited"],
+      "answer": 1,
+      "explanation": "關係代名詞 who 的先行詞是 People（複數），子句動詞要與先行詞一致，用複數形 visit。visits、is visiting、has visited 都是單數主詞才用的形式。全句意思是：夜市在台灣很受歡迎，造訪夜市的人可以享受美食和有趣的遊戲。"
+    },
+    {
+      "id": "junior_english_9_017",
+      "difficulty": 3,
+      "question": "閱讀短文並回答問題：Dear members, The city library has been closed since Monday because workers are painting the walls. It will open again this Saturday. Before then, books can be returned at the book drop by the front door. Thank you. — Which is true?",
+      "options": [
+        "The library is open now.",
+        "The library will open again next month.",
+        "People can still return books at the book drop.",
+        "The library was closed because of a typhoon."
+      ],
+      "answer": 2,
+      "explanation": "短文中說 books can be returned at the book drop by the front door，意思是「書可以投入大門旁的還書箱歸還」，因此第三個選項正確。短文大意：市立圖書館因為工人粉刷牆壁，從星期一起閉館，本週六重新開放。圖書館目前閉館、週六（而非下個月）開放、原因是粉刷而非颱風，其餘選項皆與內容不符。"
+    },
+    {
+      "id": "junior_english_9_018",
+      "difficulty": 3,
+      "question": "閱讀短文並回答問題：Kevin has played baseball for ten years. Last month, he was chosen to be the captain of the school team. His teammates say the team has won more games since he became the captain. — What do we know about Kevin?",
+      "options": [
+        "He started playing baseball last month.",
+        "His team has lost more games recently.",
+        "He left the team after he became the captain.",
+        "He has played baseball since he was young and now leads the team."
+      ],
+      "answer": 3,
+      "explanation": "文中說 Kevin has played baseball for ten years（打棒球已經十年），又說他上個月被選為校隊隊長，隊友表示自他當隊長後球隊贏了更多比賽，可知他從小打棒球且現在帶領球隊。他不是上個月才開始打球，球隊是贏更多而非輸更多，他也沒有離開球隊，其餘選項皆錯。"
+    },
+    {
+      "id": "junior_english_9_019",
+      "difficulty": 3,
+      "question": "The report must ______ to the teacher before Friday.",
+      "options": ["hand in", "be handed in", "be hand in", "handed in"],
+      "answer": 1,
+      "explanation": "報告是「被交出去」的，情態助動詞 must 後面的被動語態要用「be + 過去分詞」，即 must be handed in。hand in 是主動原形，be hand in 少了過去分詞變化，handed in 前面缺少 be，皆不正確。全句意思是：這份報告必須在星期五之前交給老師。"
+    },
+    {
+      "id": "junior_english_9_020",
+      "difficulty": 3,
+      "question": "I really wonder ______.",
+      "options": [
+        "why she was late for the meeting",
+        "why was she late for the meeting",
+        "why did she late for the meeting",
+        "why she were late for the meeting"
+      ],
+      "answer": 0,
+      "explanation": "wonder 後面接間接問句，要用「疑問詞 + 主詞 + 動詞」的直述句語序，主詞 she 搭配過去式 be 動詞 was，所以 why she was late 正確。第二個選項是倒裝的直接問句語序；第三個選項 did 之後沒有原形動詞，文法錯誤；第四個選項 she 不能搭配 were。全句意思是：我真想知道她開會為什麼遲到。"
+    }
+  ]
+}

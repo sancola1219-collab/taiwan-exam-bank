@@ -1,0 +1,167 @@
+{
+  "level": "elem",
+  "subject": "english",
+  "grade": 5,
+  "questions": [
+    {
+      "id": "elem_english_5_001",
+      "difficulty": 1,
+      "question": "Where is the cat? It's ___ the box.（貓在箱子「裡面」）空格應填入哪一個介係詞？",
+      "options": ["on", "in", "at", "of"],
+      "answer": 1,
+      "explanation": "「在……裡面」要用介係詞 in，所以說 It's in the box.（牠在箱子裡。）on 是「在……上面」，位置不同要用不同的介係詞。"
+    },
+    {
+      "id": "elem_english_5_002",
+      "difficulty": 1,
+      "question": "I can swim. 這句話的中文意思是什麼？",
+      "options": ["我會游泳。", "我會跳舞。", "我不會游泳。", "我想要買泳衣。"],
+      "answer": 0,
+      "explanation": "I can swim. 的意思是「我會游泳」，can 表示「會、能夠」。如果不會游泳，要說 I can't swim.，加上 not 表示否定。"
+    },
+    {
+      "id": "elem_english_5_003",
+      "difficulty": 1,
+      "question": "英語單字 October 指的是幾月？",
+      "options": ["一月", "五月", "八月", "十月"],
+      "answer": 3,
+      "explanation": "October 的意思是「十月」，台灣的國慶日就在 October。一月是 January，五月是 May，八月是 August，十二個月份的單字都要記熟。"
+    },
+    {
+      "id": "elem_english_5_004",
+      "difficulty": 1,
+      "question": "What time is it? 這個問句是在問什麼？",
+      "options": ["天氣如何", "今天星期幾", "現在幾點", "你幾歲"],
+      "answer": 2,
+      "explanation": "What time is it? 的意思是「現在幾點？」，用來詢問時間。問天氣是 How's the weather?，問星期是 What day is it?，問年齡是 How old are you?。"
+    },
+    {
+      "id": "elem_english_5_005",
+      "difficulty": 1,
+      "question": "日常活動片語 get up 的中文意思是什麼？",
+      "options": ["起床", "睡覺", "吃晚餐", "洗澡"],
+      "answer": 0,
+      "explanation": "get up 的意思是「起床」，例如：I get up at six.（我六點起床。）睡覺是 go to bed，吃晚餐是 eat dinner，洗澡是 take a bath。"
+    },
+    {
+      "id": "elem_english_5_006",
+      "difficulty": 1,
+      "question": "想表達「書在桌子上面」，應該用哪一個介係詞？",
+      "options": ["under", "in", "behind", "on"],
+      "answer": 3,
+      "explanation": "「在……上面」要用 on，所以說 The book is on the desk.（書在桌上。）under 是「在……下面」，in 是「在……裡面」，behind 是「在……後面」。"
+    },
+    {
+      "id": "elem_english_5_007",
+      "difficulty": 1,
+      "question": "英語單字 March 指的是幾月？",
+      "options": ["四月", "三月", "六月", "七月"],
+      "answer": 1,
+      "explanation": "March 的意思是「三月」。四月是 April，六月是 June，七月是 July，月份單字的第一個字母都要大寫。"
+    },
+    {
+      "id": "elem_english_5_008",
+      "difficulty": 2,
+      "question": "It's seven o'clock. 這句話表示現在幾點？",
+      "options": ["七點半", "五點整", "七點整", "十二點整"],
+      "answer": 2,
+      "explanation": "It's seven o'clock. 的意思是「現在七點整」，o'clock 用在整點的時候。七點半要說 It's seven thirty. 或 It's half past seven.。"
+    },
+    {
+      "id": "elem_english_5_009",
+      "difficulty": 2,
+      "question": "The dog is under the table. 這句話的中文意思是什麼？",
+      "options": ["狗在桌子上面。", "狗在桌子旁邊。", "狗在桌子前面。", "狗在桌子下面。"],
+      "answer": 3,
+      "explanation": "under 的意思是「在……下面」，所以這句話是「狗在桌子下面」。在上面是 on，在旁邊是 next to，在前面是 in front of，要分清楚各個介係詞。"
+    },
+    {
+      "id": "elem_english_5_010",
+      "difficulty": 2,
+      "question": "有人問你：Can you dance? 如果你會跳舞，應該怎麼回答？",
+      "options": ["Yes, I don't.", "Yes, I can.", "No, I can.", "I can yes."],
+      "answer": 1,
+      "explanation": "Can you dance?（你會跳舞嗎？）會的話要回答 Yes, I can.（是的，我會。）不會則回答 No, I can't.，Yes 和 No 後面要接正確的助動詞。"
+    },
+    {
+      "id": "elem_english_5_011",
+      "difficulty": 2,
+      "question": "日常活動片語 brush my teeth 的中文意思是什麼？",
+      "options": ["刷牙", "洗臉", "梳頭髮", "洗手"],
+      "answer": 0,
+      "explanation": "brush my teeth 的意思是「刷牙」，例如：I brush my teeth at night.（我晚上刷牙。）洗臉是 wash my face，洗手是 wash my hands。"
+    },
+    {
+      "id": "elem_english_5_012",
+      "difficulty": 2,
+      "question": "一年之中的「第一個月」，英語是下列哪一個？",
+      "options": ["February", "December", "January", "November"],
+      "answer": 2,
+      "explanation": "一年的第一個月是 January（一月）。February 是二月，December 是十二月，November 是十一月，月份順序要照著記。"
+    },
+    {
+      "id": "elem_english_5_013",
+      "difficulty": 2,
+      "question": "Where is my bag? It's ___ the chair.（書包在椅子「旁邊」）空格應填入什麼？",
+      "options": ["between", "next to", "out", "with"],
+      "answer": 1,
+      "explanation": "「在……旁邊」要用 next to，所以說 It's next to the chair.（它在椅子旁邊。）between 是「在兩者之間」，要有兩樣東西才能用。"
+    },
+    {
+      "id": "elem_english_5_014",
+      "difficulty": 2,
+      "question": "想表達「他會彈鋼琴」，下列哪一句英語才正確？",
+      "options": ["He can plays the piano.", "He cans play the piano.", "He can playing the piano.", "He can play the piano."],
+      "answer": 3,
+      "explanation": "正確的句子是 He can play the piano.（他會彈鋼琴。）can 後面要接原形動詞 play，can 本身也不能加 s，這是 can 句型的重要規則。"
+    },
+    {
+      "id": "elem_english_5_015",
+      "difficulty": 3,
+      "question": "有人問：What time do you go to bed? 下列哪一個回答的語序正確？",
+      "options": ["At nine go to bed I.", "I bed at nine go.", "I go to bed at nine.", "Go to bed nine at I."],
+      "answer": 2,
+      "explanation": "正確的回答是 I go to bed at nine.（我九點睡覺。）語序是「主詞＋動詞＋時間」，時間前面要加介係詞 at，其他選項的字都排錯位置了。"
+    },
+    {
+      "id": "elem_english_5_016",
+      "difficulty": 3,
+      "question": "介係詞 behind 的中文意思是什麼？",
+      "options": ["在……後面", "在……前面", "在……裡面", "在……之間"],
+      "answer": 0,
+      "explanation": "behind 的意思是「在……後面」，例如：The cat is behind the door.（貓在門後面。）在前面是 in front of，在裡面是 in，在之間是 between。"
+    },
+    {
+      "id": "elem_english_5_017",
+      "difficulty": 3,
+      "question": "June（六月）的下一個月份是什麼？",
+      "options": ["May", "April", "August", "July"],
+      "answer": 3,
+      "explanation": "June（六月）的下一個月是 July（七月）。May 是五月、April 是四月、August 是八月；June 和 July 開頭都是 Ju，要小心不要弄混。"
+    },
+    {
+      "id": "elem_english_5_018",
+      "difficulty": 3,
+      "question": "A: Can your brother ride a bike?  B: ___  下列哪一個回答正確？",
+      "options": ["No, he can't.", "No, he isn't.", "Yes, he does.", "Yes, he cans."],
+      "answer": 0,
+      "explanation": "用 Can 開頭的問句，要用 can 或 can't 回答，所以 No, he can't.（不，他不會。）才正確。isn't 和 does 是別種問句的回答，cans 則是錯誤的寫法。"
+    },
+    {
+      "id": "elem_english_5_019",
+      "difficulty": 3,
+      "question": "It's half past six. 這句話表示現在幾點？",
+      "options": ["六點整", "五點半", "六點半", "七點半"],
+      "answer": 2,
+      "explanation": "half past six 的意思是「六點半」，half 是一半，表示過了六點之後又過了半小時。六點半也可以說成 six thirty，兩種說法都常用。"
+    },
+    {
+      "id": "elem_english_5_020",
+      "difficulty": 3,
+      "question": "日常活動片語 do my homework 的中文意思是什麼？",
+      "options": ["做家事", "做功課", "打電動", "看電視"],
+      "answer": 1,
+      "explanation": "do my homework 的意思是「做功課」，例如：I do my homework after school.（我放學後做功課。）做家事是 do the housework，看電視是 watch TV，意思不一樣。"
+    }
+  ]
+}

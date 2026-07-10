@@ -1,0 +1,167 @@
+{
+  "level": "senior",
+  "subject": "physics",
+  "grade": 11,
+  "questions": [
+    {
+      "id": "senior_physics_11_001",
+      "difficulty": 1,
+      "question": "一物體作等速圓周運動，半徑 $2\\ \\mathrm{m}$，速率 $4\\ \\mathrm{m/s}$，其向心加速度大小為何？",
+      "options": ["$2$ m/s²", "$4$ m/s²", "$8$ m/s²", "$32$ m/s²"],
+      "answer": 2,
+      "explanation": "向心加速度 $a_c=\\dfrac{v^2}{r}=\\dfrac{4^2}{2}=\\dfrac{16}{2}=8\\ \\mathrm{m/s^2}$。易錯處是忘記把速率平方而算成 $\\dfrac{4}{2}=2\\ \\mathrm{m/s^2}$，或把 $r$ 乘到分子得 $32$。"
+    },
+    {
+      "id": "senior_physics_11_002",
+      "difficulty": 1,
+      "question": "一物體作等速圓周運動，週期為 $2$ 秒，其角速度為何？",
+      "options": ["$\\pi$ rad/s", "$2\\pi$ rad/s", "$\\dfrac{\\pi}{2}$ rad/s", "$4\\pi$ rad/s"],
+      "answer": 0,
+      "explanation": "角速度 $\\omega=\\dfrac{2\\pi}{T}=\\dfrac{2\\pi}{2}=\\pi\\ \\mathrm{rad/s}$。易錯處是忘記除以週期直接答 $2\\pi$，或把週期與頻率混淆多除或少除一次。"
+    },
+    {
+      "id": "senior_physics_11_003",
+      "difficulty": 1,
+      "question": "兩質點間的萬有引力為 $F$，若兩者距離變為原來的 $2$ 倍（質量不變），則引力變為原來的幾倍？",
+      "options": ["$\\dfrac{1}{2}$ 倍", "$\\dfrac{1}{4}$ 倍", "$2$ 倍", "$4$ 倍"],
+      "answer": 1,
+      "explanation": "萬有引力 $F=\\dfrac{Gm_1m_2}{r^2}$ 與距離平方成反比，距離變 $2$ 倍時，引力變為 $\\dfrac{1}{2^2}=\\dfrac{1}{4}$ 倍。易錯處是只按一次反比計算答 $\\dfrac{1}{2}$，平方反比定律必須把倍率平方。"
+    },
+    {
+      "id": "senior_physics_11_004",
+      "difficulty": 1,
+      "question": "彈簧的力常數 $k=100\\ \\mathrm{N/m}$，將其拉伸 $0.1\\ \\mathrm{m}$（在彈性限度內），彈簧的彈力大小為何？",
+      "options": ["$1000$ N", "$1$ N", "$100$ N", "$10$ N"],
+      "answer": 3,
+      "explanation": "由虎克定律 $F=kx=100\\times 0.1=10\\ \\mathrm{N}$。易錯處是把伸長量 $0.1\\ \\mathrm{m}$ 誤當 $10\\ \\mathrm{cm}=10$ 來乘而得 $1000$，計算時單位必須統一為 SI 制。"
+    },
+    {
+      "id": "senior_physics_11_005",
+      "difficulty": 1,
+      "question": "定量理想氣體在定容下，若絕對溫度變為原來的 $2$ 倍，則壓力變為原來的幾倍？",
+      "options": ["變為 $2$ 倍", "變為 $\\dfrac{1}{2}$ 倍", "不變", "變為 $4$ 倍"],
+      "answer": 0,
+      "explanation": "由理想氣體方程式 $PV=nRT$，定容定量時 $P\\propto T$（給呂薩克定律），絕對溫度加倍則壓力加倍。易錯處是誤用攝氏溫度計算比例，氣體定律中的溫度必須使用絕對溫度（K）。"
+    },
+    {
+      "id": "senior_physics_11_006",
+      "difficulty": 1,
+      "question": "救護車鳴笛朝向靜止的觀察者接近時，觀察者聽到的聲音頻率與原頻率相比為何？",
+      "options": ["變低", "不變", "變高", "先變低再變高"],
+      "answer": 2,
+      "explanation": "依都卜勒效應，音源接近觀察者時，波前被壓縮使波長變短，觀察者接收到的頻率比原頻率高。易錯處是把「接近時變高、遠離時變低」記反，可用波前被壓縮或拉開的圖像來判斷。"
+    },
+    {
+      "id": "senior_physics_11_007",
+      "difficulty": 1,
+      "question": "人站在平面鏡前，鏡中所成的像為下列何者？",
+      "options": ["倒立等大實像", "正立等大虛像", "正立放大虛像", "倒立縮小實像"],
+      "answer": 1,
+      "explanation": "平面鏡成像為正立、與物體等大的虛像，且像與物到鏡面的距離相等、左右相反。易錯處是誤以為鏡中的像可以成在屏幕上，虛像是由反射光線的延長線相交而成，無法用屏幕承接。"
+    },
+    {
+      "id": "senior_physics_11_008",
+      "difficulty": 2,
+      "question": "質量 $0.5\\ \\mathrm{kg}$ 的小球以 $4\\ \\mathrm{m/s}$ 的速率在半徑 $2\\ \\mathrm{m}$ 的水平圓周上等速率運動，所需向心力為何？",
+      "options": ["$4$ N", "$8$ N", "$2$ N", "$16$ N"],
+      "answer": 0,
+      "explanation": "向心力 $F=\\dfrac{mv^2}{r}=\\dfrac{0.5\\times 4^2}{2}=\\dfrac{0.5\\times 16}{2}=4\\ \\mathrm{N}$。易錯處是忘記把速率平方，或忘記除以半徑；向心力方向恆指向圓心，是使方向改變而非使速率改變的力。"
+    },
+    {
+      "id": "senior_physics_11_009",
+      "difficulty": 2,
+      "question": "衛星繞地球作圓軌道運動，若軌道半徑變為原來的 $4$ 倍，則週期變為原來的幾倍？",
+      "options": ["$4$ 倍", "$16$ 倍", "$2$ 倍", "$8$ 倍"],
+      "answer": 3,
+      "explanation": "由克卜勒第三定律 $T^2\\propto r^3$，$r$ 變 $4$ 倍時 $T^2$ 變 $4^3=64$ 倍，故 $T$ 變 $\\sqrt{64}=8$ 倍。易錯處是誤用 $T\\propto r$ 答 $4$ 倍，或忘記最後開平方而答 $64$ 相關數值。"
+    },
+    {
+      "id": "senior_physics_11_010",
+      "difficulty": 2,
+      "question": "質量 $2\\ \\mathrm{kg}$ 的物體掛在力常數 $k=200\\ \\mathrm{N/m}$ 的彈簧下作簡諧運動，其週期為何？",
+      "options": ["$2\\pi$ s", "$0.1\\pi$ s", "$0.2\\pi$ s", "$20\\pi$ s"],
+      "answer": 2,
+      "explanation": "彈簧簡諧運動週期 $T=2\\pi\\sqrt{\\dfrac{m}{k}}=2\\pi\\sqrt{\\dfrac{2}{200}}=2\\pi\\sqrt{0.01}=2\\pi\\times 0.1=0.2\\pi\\ \\mathrm{s}$。易錯處是把根號內的 $\\dfrac{m}{k}$ 寫成 $\\dfrac{k}{m}$，或忘記開根號。"
+    },
+    {
+      "id": "senior_physics_11_011",
+      "difficulty": 2,
+      "question": "定容容器內的理想氣體在 $300\\ \\mathrm{K}$ 時壓力為 $2\\ \\mathrm{atm}$，加熱至 $450\\ \\mathrm{K}$ 時壓力為何？",
+      "options": ["$3$ atm", "$\\dfrac{4}{3}$ atm", "$4$ atm", "$1.5$ atm"],
+      "answer": 0,
+      "explanation": "定容下 $\\dfrac{P_1}{T_1}=\\dfrac{P_2}{T_2}$，故 $P_2=P_1\\times\\dfrac{T_2}{T_1}=2\\times\\dfrac{450}{300}=2\\times 1.5=3\\ \\mathrm{atm}$。易錯處是把溫度比放反算成 $2\\times\\dfrac{300}{450}=\\dfrac{4}{3}\\ \\mathrm{atm}$，升溫時壓力應增大可作合理性檢查。"
+    },
+    {
+      "id": "senior_physics_11_012",
+      "difficulty": 2,
+      "question": "音源發出頻率 $450\\ \\mathrm{Hz}$ 的聲音，以 $34\\ \\mathrm{m/s}$ 朝靜止觀察者接近（聲速 $340\\ \\mathrm{m/s}$），觀察者聽到的頻率為何？",
+      "options": ["$405$ Hz", "$500$ Hz", "$495$ Hz", "$550$ Hz"],
+      "answer": 1,
+      "explanation": "音源接近時 $f'=f\\times\\dfrac{v}{v-v_s}=450\\times\\dfrac{340}{340-34}=450\\times\\dfrac{340}{306}=450\\times\\dfrac{10}{9}=500\\ \\mathrm{Hz}$。易錯處是分母用 $v+v_s$ 算成 $405\\ \\mathrm{Hz}$，接近時頻率必變高，可先判斷答案應大於 $450\\ \\mathrm{Hz}$。"
+    },
+    {
+      "id": "senior_physics_11_013",
+      "difficulty": 2,
+      "question": "焦距 $10\\ \\mathrm{cm}$ 的凸透鏡，物體置於鏡前 $30\\ \\mathrm{cm}$ 處，則像距為何？",
+      "options": ["$7.5$ cm", "$30$ cm", "$20$ cm", "$15$ cm"],
+      "answer": 3,
+      "explanation": "由成像公式 $\\dfrac{1}{p}+\\dfrac{1}{q}=\\dfrac{1}{f}$，得 $\\dfrac{1}{q}=\\dfrac{1}{10}-\\dfrac{1}{30}=\\dfrac{3-1}{30}=\\dfrac{2}{30}$，故 $q=15\\ \\mathrm{cm}$，為倒立縮小實像。易錯處是把公式寫成 $\\dfrac{1}{q}=\\dfrac{1}{p}+\\dfrac{1}{f}$ 或通分時算錯，$7.5\\ \\mathrm{cm}$ 即是誤加所得。"
+    },
+    {
+      "id": "senior_physics_11_014",
+      "difficulty": 2,
+      "question": "光自空氣射入水中（水的折射率 $n=\\dfrac{4}{3}$），入射角的正弦值為 $0.8$（約 $53^\\circ$），則折射角約為何？",
+      "options": ["$53^\\circ$", "$37^\\circ$", "$45^\\circ$", "$30^\\circ$"],
+      "answer": 1,
+      "explanation": "由司乃耳定律 $n_1\\sin\\theta_1=n_2\\sin\\theta_2$，$1\\times 0.8=\\dfrac{4}{3}\\sin\\theta_2$，得 $\\sin\\theta_2=0.8\\times\\dfrac{3}{4}=0.6$，故折射角約 $37^\\circ$。易錯處是把折射率比放反使折射角變大，光由疏介質進入密介質時應偏向法線、折射角變小。"
+    },
+    {
+      "id": "senior_physics_11_015",
+      "difficulty": 3,
+      "question": "汽車在水平彎道上轉彎，彎道半徑 $45\\ \\mathrm{m}$，輪胎與路面的靜摩擦係數 $\\mu_s=0.5$（取 $g=10\\ \\mathrm{m/s^2}$），不打滑的最大速率為何？",
+      "options": ["$225$ m/s", "$22.5$ m/s", "$15$ m/s", "$10$ m/s"],
+      "answer": 2,
+      "explanation": "以最大靜摩擦力提供向心力：$\\mu_s mg=\\dfrac{mv^2}{r}$，得 $v=\\sqrt{\\mu_s gr}=\\sqrt{0.5\\times 10\\times 45}=\\sqrt{225}=15\\ \\mathrm{m/s}$。易錯處是求出 $v^2=225$ 後忘記開根號而答 $225$，或把質量留在式中以為需要質量資料（實際上 $m$ 會約掉）。"
+    },
+    {
+      "id": "senior_physics_11_016",
+      "difficulty": 3,
+      "question": "近地衛星貼近地表繞行，設地表重力加速度 $g=10\\ \\mathrm{m/s^2}$、地球半徑 $R=6.4\\times 10^6\\ \\mathrm{m}$，其繞行速率約為何？",
+      "options": ["$8$ km/s", "$11.2$ km/s", "$4$ km/s", "$64$ km/s"],
+      "answer": 0,
+      "explanation": "重力提供向心力：$mg=\\dfrac{mv^2}{R}$，得 $v=\\sqrt{gR}=\\sqrt{10\\times 6.4\\times 10^6}=\\sqrt{6.4\\times 10^7}=8\\times 10^3\\ \\mathrm{m/s}=8\\ \\mathrm{km/s}$。易錯處是與脫離速度 $11.2\\ \\mathrm{km/s}$ 混淆，脫離速度是 $\\sqrt{2gR}$，為圓軌道速率的 $\\sqrt{2}$ 倍。"
+    },
+    {
+      "id": "senior_physics_11_017",
+      "difficulty": 3,
+      "question": "物體作簡諧運動，振幅為 $A$。當位移大小為 $\\dfrac{A}{2}$ 時，其動能佔總力學能的比例為何？",
+      "options": ["$\\dfrac{1}{2}$", "$\\dfrac{1}{4}$", "$\\dfrac{\\sqrt{3}}{2}$", "$\\dfrac{3}{4}$"],
+      "answer": 3,
+      "explanation": "總能 $E=\\dfrac{1}{2}kA^2$，位移 $x=\\dfrac{A}{2}$ 時位能 $U=\\dfrac{1}{2}k\\left(\\dfrac{A}{2}\\right)^2=\\dfrac{E}{4}$，故動能 $K=E-U=\\dfrac{3}{4}E$，比例為 $\\dfrac{3}{4}$。易錯處是以為位移一半時位能即佔一半，位能與位移的「平方」成正比而非一次方。"
+    },
+    {
+      "id": "senior_physics_11_018",
+      "difficulty": 3,
+      "question": "定量理想氣體由 $2\\ \\mathrm{atm}$、$3\\ \\mathrm{L}$、$300\\ \\mathrm{K}$ 變化到 $600\\ \\mathrm{K}$、$4\\ \\mathrm{L}$，則末態壓力為何？",
+      "options": ["$1.5$ atm", "$3$ atm", "$6$ atm", "$2$ atm"],
+      "answer": 1,
+      "explanation": "由聯合氣體定律 $\\dfrac{P_1V_1}{T_1}=\\dfrac{P_2V_2}{T_2}$，$P_2=\\dfrac{P_1V_1T_2}{T_1V_2}=\\dfrac{2\\times 3\\times 600}{300\\times 4}=\\dfrac{3600}{1200}=3\\ \\mathrm{atm}$。易錯處是只考慮溫度加倍答 $4\\ \\mathrm{atm}$ 或只考慮體積增大答 $1.5\\ \\mathrm{atm}$，必須同時處理兩個變因。"
+    },
+    {
+      "id": "senior_physics_11_019",
+      "difficulty": 3,
+      "question": "靜止音源發出頻率 $600\\ \\mathrm{Hz}$ 的聲音，觀察者以 $17\\ \\mathrm{m/s}$ 朝音源接近（聲速 $340\\ \\mathrm{m/s}$），觀察者聽到的頻率為何？",
+      "options": ["$570$ Hz", "$600$ Hz", "$630$ Hz", "$660$ Hz"],
+      "answer": 2,
+      "explanation": "觀察者接近靜止音源時 $f'=f\\times\\dfrac{v+v_o}{v}=600\\times\\dfrac{340+17}{340}=600\\times\\dfrac{357}{340}=600\\times 1.05=630\\ \\mathrm{Hz}$。易錯處是把觀察者速度放到分母（那是音源移動的公式），或符號取負算成 $570\\ \\mathrm{Hz}$；相互接近時頻率必升高。"
+    },
+    {
+      "id": "senior_physics_11_020",
+      "difficulty": 3,
+      "question": "焦距 $20\\ \\mathrm{cm}$ 的凹面鏡，物體置於鏡前 $30\\ \\mathrm{cm}$ 處，則像距為何？",
+      "options": ["$12$ cm", "$30$ cm", "$20$ cm", "$60$ cm"],
+      "answer": 3,
+      "explanation": "由面鏡公式 $\\dfrac{1}{p}+\\dfrac{1}{q}=\\dfrac{1}{f}$，$\\dfrac{1}{q}=\\dfrac{1}{20}-\\dfrac{1}{30}=\\dfrac{3-2}{60}=\\dfrac{1}{60}$，故 $q=60\\ \\mathrm{cm}$，為倒立放大實像（放大率 $2$ 倍）。易錯處是通分時分子相加算成 $\\dfrac{5}{60}$ 得 $12\\ \\mathrm{cm}$，公式移項後應是相減。"
+    }
+  ]
+}
