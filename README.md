@@ -48,4 +48,16 @@ node dev-server.js   # 本機預覽 http://localhost:8735
 node validate.js     # 驗證題庫格式並產生 data/manifest.json
 ```
 
-題庫檔：`data/{學段}_{科目}_{年級}.json`，格式見 `docs/design.md`。
+題庫檔：`data/{學段}_{科目}_{年級}.json`。
+
+## 給接手的人 / AI 助手
+
+| 文件 | 內容 |
+|------|------|
+| [AGENTS.md](AGENTS.md) | **權威技術規格**：架構鐵則、題庫格式、新增科目流程、模式實作、測試清單、已知陷阱 |
+| [CLAUDE.md](CLAUDE.md) | Claude Code 用的入口（指向 AGENTS.md） |
+| [docs/HANDOVER.md](docs/HANDOVER.md) | 專案由來、關鍵決策理由、開發歷程、待辦 |
+| [docs/design.md](docs/design.md) | 原始設計文件 |
+
+⚠️ 最容易踩的雷：新增科目時 `app.js` 與 `validate.js` 的 `CATALOG` 必須同步登記；
+改完題庫一定要跑 `node validate.js` 重生 manifest，否則使用者的瀏覽器拿到的是舊題。
