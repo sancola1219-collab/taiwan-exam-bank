@@ -1,0 +1,27 @@
+{
+  "level": "uni",
+  "subject": "materials",
+  "grade": 0,
+  "questions": [
+    { "id": "uni_materials_u_001", "difficulty": 1, "question": "體心立方（BCC）結構每個單位晶胞內所含的原子數為何？", "options": ["2", "1", "4", "6"], "answer": 0, "explanation": "BCC 有 8 個角原子各貢獻 $1/8$（共 1 個）加上體心 1 個完整原子，合計 $8\\times\\frac{1}{8}+1=2$。易錯處是漏算角原子只算體心而答 1。" },
+    { "id": "uni_materials_u_002", "difficulty": 1, "question": "面心立方（FCC）結構每個單位晶胞內所含的原子數為何？", "options": ["2", "4", "6", "8"], "answer": 1, "explanation": "FCC 為 8 個角原子各 $1/8$（共 1 個）加 6 個面心各 $1/2$（共 3 個），合計 $1+3=4$。易錯處是把面心原子誤算為整顆而高估。" },
+    { "id": "uni_materials_u_003", "difficulty": 1, "question": "六方最密堆積（HCP）的原子層堆疊順序為何？", "options": ["ABCABC", "完全無序", "ABAB", "AAAA"], "answer": 2, "explanation": "HCP 為 ABAB 交替堆疊，而 FCC 為 ABCABC 堆疊，兩者堆積因子相同但層序不同。易錯處是把 FCC 的 ABCABC 誤記為 HCP。" },
+    { "id": "uni_materials_u_004", "difficulty": 1, "question": "晶格中某原子離開其正常位置而留下的空缺，稱為哪一種點缺陷？", "options": ["刃狀差排", "晶界", "間隙原子", "空位"], "answer": 3, "explanation": "原子缺席其晶格位置形成的點缺陷稱為空位（vacancy）。刃狀差排屬線缺陷、晶界屬面缺陷，切勿把不同維度的缺陷混為一談。" },
+    { "id": "uni_materials_u_005", "difficulty": 1, "question": "在拉伸應力-應變曲線中，卸載後材料能完全恢復原狀的區域稱為？", "options": ["彈性區", "塑性區", "頸縮區", "破裂點"], "answer": 0, "explanation": "在彈性區內應力與應變成正比（虎克定律），卸載後可完全恢復；超過降伏點進入塑性區則產生永久變形。易錯處是把已產生永久變形的塑性區當成可恢復。" },
+    { "id": "uni_materials_u_006", "difficulty": 1, "question": "楊氏模數（Young's modulus）E 在彈性區的定義為何？", "options": ["應變除以應力", "應力除以應變", "應力乘以應變", "力除以體積"], "answer": 1, "explanation": "楊氏模數為彈性區內應力對應變的比值 $E=\\sigma/\\varepsilon$，代表材料剛性。易錯處是把分子分母顛倒，那會得到柔量（compliance）而非模數。" },
+    { "id": "uni_materials_u_007", "difficulty": 1, "question": "碳鋼主要是鐵與下列哪一種元素形成的合金？", "options": ["矽", "鉻", "碳", "鎳"], "answer": 2, "explanation": "碳鋼是鐵與碳的合金，碳含量影響其硬度與強度。鉻、鎳是不鏽鋼等合金鋼的添加元素，不是碳鋼的定義成分。" },
+    { "id": "uni_materials_u_008", "difficulty": 2, "question": "面心立方（FCC）結構的配位數（coordination number）為何？", "options": ["6", "4", "8", "12"], "answer": 3, "explanation": "FCC 每個原子的最近鄰有 12 個，故配位數為 12，屬最密堆積之一。易錯處是把 BCC 的配位數 8 誤用於 FCC。" },
+    { "id": "uni_materials_u_009", "difficulty": 2, "question": "體心立方（BCC）結構的配位數為何？", "options": ["8", "12", "6", "4"], "answer": 0, "explanation": "BCC 體心原子的最近鄰為 8 個角原子，故配位數為 8。易錯處是誤把最密堆積的 12 套用到非最密的 BCC。" },
+    { "id": "uni_materials_u_010", "difficulty": 2, "question": "在二元相圖中，槓桿法則（lever rule）主要用來計算什麼？", "options": ["晶格常數", "兩相共存時各相的相對量（比例）", "擴散係數", "純物質的熔點"], "answer": 1, "explanation": "槓桿法則用於雙相區，依組成線段長度比計算兩相的相對重量分率。它不決定晶格常數或擴散係數，這是常見混淆點。" },
+    { "id": "uni_materials_u_011", "difficulty": 2, "question": "在工程應力-應變曲線上，材料所能承受的最大工程應力對應的量稱為？", "options": ["降伏強度", "彈性極限", "抗拉強度", "破斷強度"], "answer": 2, "explanation": "曲線最高點對應抗拉強度（UTS, ultimate tensile strength），之後材料開始頸縮。降伏強度是開始塑性變形之點，位置較前，兩者不可混淆。" },
+    { "id": "uni_materials_u_012", "difficulty": 2, "question": "擴散遵循菲克定律，當溫度升高時，擴散係數 D 通常如何變化？", "options": ["減少", "不變", "先增後減", "增加"], "answer": 3, "explanation": "擴散係數隨溫度呈阿瑞尼士關係 $D=D_0\\exp(-Q/RT)$，溫度升高使 D 指數式增大。易錯處是誤以為溫度與擴散無關或成反比。" },
+    { "id": "uni_materials_u_013", "difficulty": 2, "question": "將鋼加熱至沃斯田鐵化後急速冷卻（淬火，quenching），通常會使鋼的性質如何改變？", "options": ["硬度增加、脆性增加", "延性大幅增加", "硬度完全不變", "熔點顯著下降"], "answer": 0, "explanation": "淬火使碳來不及擴散而形成硬而脆的麻田散鐵，硬度提高但韌性下降。易錯處是把淬火與退火混淆，退火才是提高延性、軟化材料的處理。" },
+    { "id": "uni_materials_u_014", "difficulty": 2, "question": "面心立方（FCC）結構的原子堆積因子（APF）約為何？", "options": ["0.68", "0.74", "0.52", "0.90"], "answer": 1, "explanation": "FCC 為最密堆積，APF 約 0.74，是所有結構中最高者之一（與 HCP 相同）。易錯處是把 BCC 的 0.68 誤用於 FCC。" },
+    { "id": "uni_materials_u_015", "difficulty": 3, "question": "體心立方（BCC）結構的原子堆積因子（APF）約為何？", "options": ["0.74", "0.52", "0.68", "0.60"], "answer": 2, "explanation": "BCC 的 APF 約 0.68，低於 FCC 與 HCP 的 0.74，因其非最密堆積。易錯處是誤把最密堆積的 0.74 套用到 BCC。" },
+    { "id": "uni_materials_u_016", "difficulty": 3, "question": "簡單立方（simple cubic, SC）結構的原子堆積因子（APF）約為何？", "options": ["0.68", "0.74", "0.34", "0.52"], "answer": 3, "explanation": "簡單立方每胞僅 1 個原子且沿邊接觸，APF 約 0.52，為常見結構中最低者。易錯處是誤與 BCC 的 0.68 混淆。" },
+    { "id": "uni_materials_u_017", "difficulty": 3, "question": "在金屬中，差排（dislocation）的滑移運動主要造成何種現象？", "options": ["塑性變形", "彈性變形", "相變化", "熱擴散"], "answer": 0, "explanation": "差排在滑移面上運動使原子面逐步錯動，是金屬塑性變形的微觀機制。彈性變形靠鍵長微調而非差排移動，兩者機制不同。" },
+    { "id": "uni_materials_u_018", "difficulty": 3, "question": "在共晶（eutectic）相圖中，共晶反應 $L\\rightarrow\\alpha+\\beta$ 發生於什麼條件下？", "options": ["連續的溫度範圍", "一個固定的共晶溫度", "任意溫度皆可", "高於純組分熔點時"], "answer": 1, "explanation": "共晶反應在特定的共晶組成與固定的共晶溫度下發生，液相同時凝固出兩個固相。易錯處是誤以為共晶凝固橫跨一段溫度區間，那是非共晶組成的情況。" },
+    { "id": "uni_materials_u_019", "difficulty": 3, "question": "體心立方（BCC）金屬的晶格常數 a 與原子半徑 r 之間的關係為何？", "options": ["$r=\\frac{a}{2}$", "$r=\\frac{\\sqrt{2}}{4}a$", "$r=\\frac{\\sqrt{3}}{4}a$", "$r=\\frac{a}{4}$"], "answer": 2, "explanation": "BCC 沿體對角線原子相接，體對角線長 $\\sqrt{3}\\,a=4r$，故 $r=\\dfrac{\\sqrt{3}}{4}a$。易錯處是誤用 FCC 的面對角線關係 $\\frac{\\sqrt{2}}{4}a$。" },
+    { "id": "uni_materials_u_020", "difficulty": 3, "question": "面心立方（FCC）金屬的晶格常數 a 與原子半徑 r 之間的關係為何？", "options": ["$r=\\frac{a}{2}$", "$r=\\frac{\\sqrt{3}}{4}a$", "$r=\\frac{a}{4}$", "$r=\\frac{\\sqrt{2}}{4}a$"], "answer": 3, "explanation": "FCC 沿面對角線原子相接，面對角線長 $\\sqrt{2}\\,a=4r$，故 $r=\\dfrac{\\sqrt{2}}{4}a$。易錯處是誤用 BCC 的體對角線關係 $\\frac{\\sqrt{3}}{4}a$。" }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "level": "uni",
+  "subject": "database",
+  "grade": 0,
+  "questions": [
+    {
+      "id": "uni_database_u_001",
+      "difficulty": 1,
+      "question": "關於關聯式資料庫中「主鍵」（primary key）的特性，下列敘述何者正確？",
+      "options": [
+        "值必須唯一且不可為 NULL",
+        "值可以重複，只要大部分不同即可",
+        "每張表必須有兩個以上的主鍵",
+        "主鍵欄位只能是整數型別"
+      ],
+      "answer": 0,
+      "explanation": "主鍵用來唯一識別表中的每一筆資料列，因此值不可重複也不可為 NULL，這稱為實體完整性（entity integrity）。易錯處是以為主鍵一定是整數：只要能唯一識別，字串（如學號、身分證字號）也可以當主鍵；另外一張表只能有一個主鍵，但主鍵可以由多個欄位組成。"
+    },
+    {
+      "id": "uni_database_u_002",
+      "difficulty": 1,
+      "question": "SQL 敘述「SELECT name FROM student WHERE age > 20;」中，WHERE 子句的作用為何？",
+      "options": [
+        "指定要查詢的資料表",
+        "決定輸出欄位的排列順序",
+        "篩選出符合條件的資料列",
+        "把查詢結果分組"
+      ],
+      "answer": 2,
+      "explanation": "WHERE 子句逐列檢查條件，只有 age 大於 20 的資料列會被留下，再由 SELECT 取出 name 欄位。易錯處是與其他子句的職責混淆：指定資料表是 FROM、排序是 ORDER BY、分組是 GROUP BY，各子句分工不同。"
+    },
+    {
+      "id": "uni_database_u_003",
+      "difficulty": 1,
+      "question": "在關聯式模型中，一筆紀錄（tuple）對應到表格結構中的什麼？",
+      "options": [
+        "一個直欄（column）",
+        "一個橫列（row）",
+        "整張表格",
+        "表格的名稱"
+      ],
+      "answer": 1,
+      "explanation": "關聯式模型中，關聯（relation）對應表格、值組（tuple）對應橫列、屬性（attribute）對應直欄。易錯處是把 tuple 與 attribute 對調：屬性描述的是欄位（如姓名、年齡），而一個 tuple 是某個實體的一組完整屬性值，也就是一列資料。"
+    },
+    {
+      "id": "uni_database_u_004",
+      "difficulty": 1,
+      "question": "外鍵（foreign key）在關聯式資料庫中的主要用途為何？",
+      "options": [
+        "加快單一表格的排序速度",
+        "壓縮資料以節省磁碟空間",
+        "唯一識別本表中的每一筆資料",
+        "參照另一張表的主鍵，維持兩張表之間的參照完整性"
+      ],
+      "answer": 3,
+      "explanation": "外鍵的值必須存在於被參照表的主鍵中（或為 NULL），資料庫會拒絕破壞這個對應關係的操作，這就是參照完整性（referential integrity）。易錯處是與主鍵混淆：唯一識別本表資料列的是主鍵，外鍵的值在本表中是可以重複的，例如多筆訂單可指向同一位顧客。"
+    },
+    {
+      "id": "uni_database_u_005",
+      "difficulty": 1,
+      "question": "交易（transaction）的 ACID 特性中，「A」代表的意義為何？",
+      "options": [
+        "原子性：交易內的操作要麼全部完成，要麼全部不做",
+        "可用性：資料庫必須全年無休提供服務",
+        "正確性：資料永遠不會輸入錯誤",
+        "匿名性：交易紀錄不可追查"
+      ],
+      "answer": 0,
+      "explanation": "A 是 Atomicity（原子性），例如轉帳時「扣款」與「入帳」必須同時成功或同時取消，不允許只完成一半。易錯處是把 A 誤記成 Availability（可用性），那是分散式系統 CAP 定理中的概念；ACID 其餘三者為一致性、隔離性與持久性。"
+    },
+    {
+      "id": "uni_database_u_006",
+      "difficulty": 1,
+      "question": "SQL 敘述「SELECT DISTINCT dept FROM emp;」中，DISTINCT 關鍵字的作用為何？",
+      "options": [
+        "將結果依 dept 由小到大排序",
+        "只取出第一筆資料",
+        "去除查詢結果中重複的值",
+        "計算 dept 的總數"
+      ],
+      "answer": 2,
+      "explanation": "DISTINCT 會把 SELECT 結果中完全相同的值合併成一筆，例如 10 位員工分屬 3 個部門時，查詢結果只會列出 3 個部門名稱。易錯處是與 ORDER BY（排序）或 COUNT（計數）混淆，DISTINCT 只負責去除重複，不保證排序。"
+    },
+    {
+      "id": "uni_database_u_007",
+      "difficulty": 1,
+      "question": "SQL 語言依功能分類，「CREATE TABLE」敘述屬於下列哪一類？",
+      "options": [
+        "DML（資料操作語言）",
+        "DCL（資料控制語言）",
+        "TCL（交易控制語言）",
+        "DDL（資料定義語言）"
+      ],
+      "answer": 3,
+      "explanation": "CREATE、ALTER、DROP 這類定義或修改資料庫結構（schema）的敘述屬於 DDL；SELECT、INSERT、UPDATE、DELETE 操作資料內容，屬於 DML。易錯處是以為凡是會「建立東西」的都是 DML，判斷關鍵在於操作的對象是「結構」還是「資料列」。"
+    },
+    {
+      "id": "uni_database_u_008",
+      "difficulty": 2,
+      "question": "SQL 中 WHERE 與 HAVING 子句的差異，下列敘述何者正確？",
+      "options": [
+        "兩者功能完全相同，可任意互換",
+        "WHERE 在分組前篩選資料列，HAVING 在 GROUP BY 分組後篩選各組的結果",
+        "HAVING 在分組前篩選資料列，WHERE 在分組後篩選",
+        "WHERE 只能搭配子查詢使用"
+      ],
+      "answer": 1,
+      "explanation": "WHERE 先逐列過濾原始資料，之後 GROUP BY 分組，HAVING 再依聚合結果（如 AVG、COUNT）過濾整個群組，因此聚合函數的條件只能寫在 HAVING。易錯處是把「WHERE AVG(score) > 80」這種寫法當成合法：WHERE 執行時分組尚未發生，不能使用聚合函數。"
+    },
+    {
+      "id": "uni_database_u_009",
+      "difficulty": 2,
+      "question": "關於 LEFT JOIN（左外部連接）的行為，下列敘述何者正確？",
+      "options": [
+        "保留左表全部資料列，右表無對應資料時以 NULL 填入",
+        "只保留兩表都有對應的資料列",
+        "保留右表全部資料列，左表無對應時以 NULL 填入",
+        "回傳兩表所有資料列的笛卡兒積"
+      ],
+      "answer": 0,
+      "explanation": "LEFT JOIN 以左表為主，即使右表找不到符合連接條件的資料列，左表的資料仍會出現在結果中，右表欄位以 NULL 呈現，例如列出「所有學生及其借書紀錄」時沒借書的學生也要出現。易錯處是與 INNER JOIN 混淆：INNER JOIN 只留下兩邊都匹配的資料列，沒借書的學生會被排除。"
+    },
+    {
+      "id": "uni_database_u_010",
+      "difficulty": 2,
+      "question": "關聯式資料庫正規化中，第一正規化（1NF）的基本要求為何？",
+      "options": [
+        "消除非主鍵屬性之間的遞移相依",
+        "消除對複合主鍵的部分相依",
+        "每個欄位的值必須是不可再分割的原子值，不可有重複群組",
+        "每張表最多只能有五個欄位"
+      ],
+      "answer": 2,
+      "explanation": "1NF 要求每個欄位在每一列中只能存放單一不可分割的值，例如「電話」欄位塞入「0912xxx, 02-2345xxx」兩個號碼就違反 1NF，應拆成多列或另建表。易錯處是與 2NF、3NF 的條件混淆：部分相依是 2NF 處理的問題，遞移相依是 3NF 處理的問題。"
+    },
+    {
+      "id": "uni_database_u_011",
+      "difficulty": 2,
+      "question": "第二正規化（2NF）在滿足 1NF 的基礎上，要求消除下列哪一種相依關係？",
+      "options": [
+        "主鍵對非主鍵屬性的完全相依",
+        "非主鍵屬性對複合主鍵的部分功能相依",
+        "非主鍵屬性之間的遞移相依",
+        "多值相依"
+      ],
+      "answer": 1,
+      "explanation": "2NF 針對複合主鍵的表：若某非主鍵屬性只相依於主鍵的一部分（例如主鍵為（學號, 課號）而「學生姓名」只相依於學號），就必須拆表。易錯處是與 3NF 混淆：3NF 消除的是「非主鍵屬性經由另一個非主鍵屬性間接相依於主鍵」的遞移相依，兩者處理的對象不同。"
+    },
+    {
+      "id": "uni_database_u_012",
+      "difficulty": 2,
+      "question": "資料表 grades(name, subject, score) 內容為：('王','數學',80)、('王','英文',90)、('李','數學',70)、('李','英文',60)、('陳','數學',90)。執行下列查詢會輸出幾列？\nSELECT subject, AVG(score) FROM grades\nGROUP BY subject\nHAVING AVG(score) >= 80;",
+      "options": [
+        "3 列",
+        "2 列",
+        "0 列",
+        "1 列"
+      ],
+      "answer": 3,
+      "explanation": "逐步追蹤：GROUP BY 把資料分成數學組（80、70、90，平均 80）與英文組（90、60，平均 75）；HAVING 保留平均大於等於 80 的組，只有數學組符合，因此輸出 1 列。易錯處是把英文組的平均算成 (90+60)/2 = 75 之後誤判為符合，或忘了 HAVING 是在分組之後才過濾。"
+    },
+    {
+      "id": "uni_database_u_013",
+      "difficulty": 2,
+      "question": "在交易控制中，ROLLBACK 敘述的作用為何？",
+      "options": [
+        "取消目前交易中尚未確認（COMMIT）的所有變更，恢復到交易開始前的狀態",
+        "把資料庫備份到另一台伺服器",
+        "確認並永久保存交易中的所有變更",
+        "刪除整張資料表及其結構"
+      ],
+      "answer": 0,
+      "explanation": "ROLLBACK 會撤銷交易開始以來所有未確認的修改，常用於偵測到錯誤時放棄整筆交易，以維持原子性。易錯處是與 COMMIT 相反方向記憶：COMMIT 才是確認並永久寫入；另外 ROLLBACK 只影響未確認的變更，已 COMMIT 的交易無法用 ROLLBACK 取消。"
+    },
+    {
+      "id": "uni_database_u_014",
+      "difficulty": 2,
+      "question": "在資料表的某欄位上建立索引（index）之後，下列敘述何者正確？",
+      "options": [
+        "所有操作都會變快，沒有任何代價",
+        "以該欄位為條件的查詢通常變快，但新增、修改、刪除因需同步維護索引而變慢",
+        "查詢變慢，寫入變快",
+        "資料表的儲存空間會減少"
+      ],
+      "answer": 1,
+      "explanation": "索引（常以 B+ 樹實作）讓資料庫不必逐列掃描即可定位資料，因此等值與範圍查詢大幅加速；但每次 INSERT、UPDATE、DELETE 都必須同步更新索引結構，寫入成本增加，索引本身也占用額外空間。易錯處是以為索引有百利而無一害，欄位很少被查詢或表格很小時建索引反而得不償失。"
+    },
+    {
+      "id": "uni_database_u_015",
+      "difficulty": 3,
+      "question": "第三正規化（3NF）在滿足 2NF 的基礎上，要求消除下列哪一種相依？",
+      "options": [
+        "主鍵屬性之間的相依",
+        "非主鍵屬性對主鍵的直接相依",
+        "非主鍵屬性經由其他非主鍵屬性間接相依於主鍵的遞移相依",
+        "所有欄位之間的任何相依"
+      ],
+      "answer": 2,
+      "explanation": "遞移相依的典型例子：學號決定系所、系所決定系主任，於是「系主任」透過「系所」間接相依於主鍵「學號」，3NF 要求把（系所, 系主任）拆到另一張表。易錯處是以為 3NF 要消除所有相依：非主鍵屬性「直接」相依於主鍵正是正常設計，要消除的只有間接的遞移相依。"
+    },
+    {
+      "id": "uni_database_u_016",
+      "difficulty": 3,
+      "question": "表 A 的 id 欄位有三列：1、2、3；表 B 的 aid 欄位有四列：1、1、2、5。執行「SELECT * FROM A INNER JOIN B ON A.id = B.aid;」會得到幾列結果？",
+      "options": [
+        "4 列",
+        "12 列",
+        "2 列",
+        "3 列"
+      ],
+      "answer": 3,
+      "explanation": "逐步比對：B 中兩列 aid=1 都能對到 A 的 id=1，產生 2 列；aid=2 對到 id=2，產生 1 列；aid=5 在 A 中無對應，被排除，合計 3 列。易錯處是回答 12 列（那是 3×4 的 CROSS JOIN 笛卡兒積）或忘記 aid=1 出現兩次要各自產生一列結果。"
+    },
+    {
+      "id": "uni_database_u_017",
+      "difficulty": 3,
+      "question": "交易 T2 讀取了交易 T1 「尚未 COMMIT」的資料，之後 T1 執行 ROLLBACK，導致 T2 使用了不存在的資料。這種現象稱為什麼？哪個隔離層級允許它發生？",
+      "options": [
+        "幻影讀；SERIALIZABLE",
+        "髒讀（dirty read）；READ UNCOMMITTED",
+        "不可重複讀；REPEATABLE READ",
+        "遺失更新；SERIALIZABLE"
+      ],
+      "answer": 1,
+      "explanation": "讀到其他交易未提交的資料稱為髒讀，只有最低的隔離層級 READ UNCOMMITTED 允許髒讀，提升到 READ COMMITTED 以上即可避免。易錯處是與不可重複讀混淆：不可重複讀是同一交易兩次讀取之間資料被別的「已提交」交易修改，而髒讀讀到的是「未提交」且可能被撤銷的資料。"
+    },
+    {
+      "id": "uni_database_u_018",
+      "difficulty": 3,
+      "question": "關聯 R(A, B, C) 具有功能相依 A → B 與 B → C。R 的候選鍵（candidate key）為下列何者？",
+      "options": [
+        "A",
+        "B",
+        "(A, B)",
+        "(A, C)"
+      ],
+      "answer": 0,
+      "explanation": "由 A → B 與 B → C 可推得 A → C（遞移律），因此 A 的閉包包含 A、B、C 全部屬性，A 單獨即可決定整個關聯，且無法再縮小，故候選鍵是 A。易錯處是選 (A, B)：它雖是超鍵，但包含多餘屬性 B，不滿足候選鍵的「最小性」；B 的閉包只有 B、C，不含 A，不能當鍵。"
+    },
+    {
+      "id": "uni_database_u_019",
+      "difficulty": 3,
+      "question": "name 欄位上已建立 B+ 樹索引，下列哪一種查詢條件「最無法」有效利用這個索引？",
+      "options": [
+        "WHERE name = '王小明'",
+        "WHERE name LIKE '王%'",
+        "WHERE name > '林' AND name < '陳'",
+        "WHERE name LIKE '%明'"
+      ],
+      "answer": 3,
+      "explanation": "B+ 樹索引依鍵值排序，等值查詢、範圍查詢與「前綴」開頭的 LIKE '王%' 都能沿排序結構快速定位；但 LIKE '%明' 的萬用字元在開頭，任何名字都可能以「明」結尾，索引的排序完全派不上用場，只能整表掃描。易錯處是以為所有 LIKE 都無法用索引，關鍵在於萬用字元是否出現在模式的開頭。"
+    },
+    {
+      "id": "uni_database_u_020",
+      "difficulty": 3,
+      "question": "帳戶餘額為 1000 元，交易 T1 與 T2 同時讀到餘額 1000，各自加上存入的 100 元後先後寫回，最終餘額變成 1100 而不是預期的 1200。這種併發問題稱為什麼？",
+      "options": [
+        "死結（deadlock）",
+        "髒讀（dirty read）",
+        "遺失更新（lost update）",
+        "幻影讀（phantom read）"
+      ],
+      "answer": 2,
+      "explanation": "兩個交易基於相同的舊值計算後先後寫回，後寫入者覆蓋了先寫入者的結果，導致一次更新憑空消失，稱為遺失更新，可用鎖定機制（如兩段式鎖定）或提高隔離層級避免。易錯處是誤判為髒讀：本例兩個交易讀到的 1000 都是已提交的正確資料，問題出在「寫寫衝突」而非讀到未提交資料。"
+    }
+  ]
+}

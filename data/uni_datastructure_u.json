@@ -1,0 +1,27 @@
+{
+  "level": "uni",
+  "subject": "datastructure",
+  "grade": 0,
+  "questions": [
+    { "id": "uni_datastructure_u_001", "difficulty": 1, "question": "堆疊（stack）的資料存取方式為下列何者？", "options": ["後進先出（LIFO）", "先進先出（FIFO）", "隨機存取", "依優先權存取"], "answer": 0, "explanation": "堆疊採後進先出（LIFO），最後放入的元素最先被取出。易錯處是把它與先進先出的佇列（queue）行為搞混。" },
+    { "id": "uni_datastructure_u_002", "difficulty": 1, "question": "佇列（queue）的資料存取方式為下列何者？", "options": ["後進先出", "先進先出（FIFO）", "隨機存取", "依大小排序取出"], "answer": 1, "explanation": "佇列採先進先出（FIFO），最先加入的元素最先離開，如同排隊。易錯處是把它與後進先出的堆疊行為弄反。" },
+    { "id": "uni_datastructure_u_003", "difficulty": 1, "question": "相較於鏈結串列，陣列（array）的主要優勢為下列何者？", "options": ["中間插入較快", "中間刪除較快", "可依索引隨機存取，時間為 $O(1)$", "記憶體不需連續"], "answer": 2, "explanation": "陣列以連續記憶體儲存，可用索引直接計算位址而達 $O(1)$ 隨機存取。易錯處是把鏈結串列在插入刪除上的優勢誤記到陣列身上。" },
+    { "id": "uni_datastructure_u_004", "difficulty": 1, "question": "在二元樹（binary tree）中，每個節點最多可以有幾個子節點？", "options": ["1", "3", "無限多", "2"], "answer": 3, "explanation": "二元樹的定義即每個節點最多有兩個子節點（左、右）。易錯處是與一般樹（可有任意子節點數）混淆。" },
+    { "id": "uni_datastructure_u_005", "difficulty": 1, "question": "在二元搜尋樹（BST）中，任一節點的左子節點其鍵值相對於該節點為何？", "options": ["較小", "較大", "相等", "隨機"], "answer": 0, "explanation": "BST 性質為左子樹皆小於節點、右子樹皆大於節點。易錯處是把左右大小關係弄反，那會破壞搜尋的有序性。" },
+    { "id": "uni_datastructure_u_006", "difficulty": 1, "question": "完整走訪一個含 n 個節點的單向鏈結串列，所需時間複雜度為何？", "options": ["$O(1)$", "$O(n)$", "$O(\\log n)$", "$O(n^2)$"], "answer": 1, "explanation": "鏈結串列須從頭逐一走訪每個節點，故為 $O(n)$。易錯處是誤以為鏈結串列也能像陣列般 $O(1)$ 直接定位到任意位置。" },
+    { "id": "uni_datastructure_u_007", "difficulty": 1, "question": "在理想（無碰撞）情況下，雜湊表（hash table）的查詢平均時間複雜度為何？", "options": ["$O(n)$", "$O(\\log n)$", "$O(1)$", "$O(n^2)$"], "answer": 2, "explanation": "雜湊表透過雜湊函式直接計算位置，理想情況查詢為平均 $O(1)$。易錯處是忽略碰撞而誤以為最壞情況也一定是 $O(1)$。" },
+    { "id": "uni_datastructure_u_008", "difficulty": 2, "question": "下列何者最適合以堆疊（stack）來實作或管理？", "options": ["最短路徑搜尋", "資料排序", "圖的廣度優先搜尋", "函式呼叫（含遞迴）的呼叫紀錄"], "answer": 3, "explanation": "程式的函式呼叫堆疊採後進先出，最新呼叫最先返回，天然符合堆疊行為。易錯處是把使用佇列的 BFS 誤配給堆疊。" },
+    { "id": "uni_datastructure_u_009", "difficulty": 2, "question": "圖的廣度優先搜尋（BFS）通常搭配哪一種資料結構來實作？", "options": ["佇列（queue）", "堆疊（stack）", "二元樹", "堆積（heap）"], "answer": 0, "explanation": "BFS 逐層擴展，需以佇列維持「先發現先處理」的順序。易錯處是把使用堆疊（或遞迴）的 DFS 與 BFS 弄反。" },
+    { "id": "uni_datastructure_u_010", "difficulty": 2, "question": "圖的深度優先搜尋（DFS）通常搭配哪一種資料結構（或機制）來實作？", "options": ["佇列", "堆疊（或遞迴）", "雜湊表", "排序陣列"], "answer": 1, "explanation": "DFS 沿一條路徑深入到底再回溯，可用堆疊或遞迴（本質也是呼叫堆疊）實作。易錯處是把使用佇列的 BFS 與 DFS 混淆。" },
+    { "id": "uni_datastructure_u_011", "difficulty": 2, "question": "在最小堆積（min-heap）中，根節點所儲存的元素為何？", "options": ["最大值", "中位數", "最小值", "隨機值"], "answer": 2, "explanation": "最小堆積滿足父節點不大於子節點，故根節點為整個堆積的最小值。易錯處是把最大堆積（根為最大值）的性質誤套到最小堆積。" },
+    { "id": "uni_datastructure_u_012", "difficulty": 2, "question": "合併排序（merge sort）的平均時間複雜度為何？", "options": ["$O(n^2)$", "$O(n)$", "$O(\\log n)$", "$O(n\\log n)$"], "answer": 3, "explanation": "合併排序採分治法，分割 $\\log n$ 層、每層合併 $O(n)$，故為 $O(n\\log n)$。易錯處是與氣泡排序的 $O(n^2)$ 混淆。" },
+    { "id": "uni_datastructure_u_013", "difficulty": 2, "question": "氣泡排序（bubble sort）的最壞情況時間複雜度為何？", "options": ["$O(n^2)$", "$O(n\\log n)$", "$O(n)$", "$O(\\log n)$"], "answer": 0, "explanation": "氣泡排序以雙層迴圈兩兩比較交換，最壞需 $O(n^2)$ 次比較。易錯處是誤以為它能達到合併排序的 $O(n\\log n)$ 效率。" },
+    { "id": "uni_datastructure_u_014", "difficulty": 2, "question": "在平衡二元搜尋樹中，搜尋一個元素的時間複雜度為何？", "options": ["$O(n)$", "$O(\\log n)$", "$O(1)$", "$O(n^2)$"], "answer": 1, "explanation": "平衡 BST 的高度維持在 $O(\\log n)$，故搜尋沿樹高進行為 $O(\\log n)$。易錯處是忽略「平衡」條件，退化成鏈狀時才會是 $O(n)$。" },
+    { "id": "uni_datastructure_u_015", "difficulty": 3, "question": "快速排序（quicksort）在最壞情況下的時間複雜度為何？", "options": ["$O(n\\log n)$", "$O(n)$", "$O(n^2)$", "$O(\\log n)$"], "answer": 2, "explanation": "當每次選到的樞紐極端不平衡（如已排序資料選端點），快速排序退化為 $O(n^2)$；平均則為 $O(n\\log n)$。易錯處是只記平均情況而忽略最壞情況。" },
+    { "id": "uni_datastructure_u_016", "difficulty": 3, "question": "雜湊表發生碰撞時，採用鏈結法（chaining）解決，通常在每個桶中使用何種結構儲存衝突元素？", "options": ["陣列", "堆疊", "二元搜尋樹", "鏈結串列"], "answer": 3, "explanation": "鏈結法在每個雜湊桶掛一條鏈結串列，把映射到同一位置的元素串起來。易錯處是把它與開放定址法（在表內另尋空位）混淆。" },
+    { "id": "uni_datastructure_u_017", "difficulty": 3, "question": "在含 n 個元素的二元堆積（binary heap）中，插入一個新元素的時間複雜度為何？", "options": ["$O(\\log n)$", "$O(n)$", "$O(1)$", "$O(n\\log n)$"], "answer": 0, "explanation": "插入時將元素置於末端再向上調整（sift-up），最多沿樹高 $O(\\log n)$。易錯處是誤以為插入是 $O(1)$，忽略維持堆積性質的上浮操作。" },
+    { "id": "uni_datastructure_u_018", "difficulty": 3, "question": "對二元搜尋樹（BST）進行中序走訪（in-order traversal），會得到什麼樣的序列？", "options": ["由大到小的序列", "由小到大的排序序列", "隨機順序", "依層由上到下"], "answer": 1, "explanation": "中序走訪順序為左子樹、節點、右子樹，配合 BST 性質即得由小到大的排序輸出。易錯處是把它與前序或層序走訪的結果混淆。" },
+    { "id": "uni_datastructure_u_019", "difficulty": 3, "question": "一棵含 n 個節點的完滿（perfect）二元樹，其高度約為何等級？", "options": ["$O(n)$", "$O(n^2)$", "$O(\\log n)$", "$O(1)$"], "answer": 2, "explanation": "完滿二元樹每層節點數約倍增，$n\\approx2^{h}$，故高度 $h\\approx\\log_2 n$，為 $O(\\log n)$。易錯處是把退化成鏈狀的樹高 $O(n)$ 誤用於平衡的完滿樹。" },
+    { "id": "uni_datastructure_u_020", "difficulty": 3, "question": "以陣列實作的堆疊，在不需擴充容量的情況下，push（推入）操作的時間複雜度為何？", "options": ["$O(n)$", "$O(\\log n)$", "$O(n^2)$", "$O(1)$"], "answer": 3, "explanation": "push 只需在堆疊頂端（陣列尾端）放入元素並更新頂端索引，為 $O(1)$。易錯處是把需要搬移元素的陣列開頭插入（$O(n)$）誤當成堆疊頂端操作。" }
+  ]
+}

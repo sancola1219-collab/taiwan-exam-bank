@@ -26,11 +26,12 @@
   <section class="screen" id="screen-home">
     <div class="hero">
       <h1>想考哪個階段？</h1>
-      <p class="hero-sub">教師依 108 課綱原創編寫 · 自動改分 · 每題附詳解</p>
+      <p class="hero-sub">教師原創編寫 · 自動改分 · 每題附詳解</p>
       <p class="hero-stats" id="home-stats"></p>
     </div>
     <div class="level-grid" id="level-grid"></div>
     <div class="home-tip">
+      <p>🎮 三種模式任你挑：<b>一般練習</b>慢慢想、<b>⚡ 搶答挑戰</b>每題只有 15 秒、<b>🏆 闖關模式</b>三關破到底。</p>
       <p>💡 答錯的題目會自動存進「錯題本 📒」，可以隨時重考，直到全部弄懂為止。</p>
     </div>
   </section>
@@ -41,11 +42,15 @@
     <h2 id="setup-title"></h2>
     <div class="setup-block">
       <h3>科目</h3>
-      <div class="chip-grid" id="subject-grid"></div>
+      <div id="subject-grid"></div>
     </div>
     <div class="setup-block" id="grade-block" hidden>
       <h3>年級</h3>
       <div class="chip-row" id="grade-row"></div>
+    </div>
+    <div class="setup-block" id="mode-block" hidden>
+      <h3>挑戰模式</h3>
+      <div class="mode-row" id="mode-row"></div>
     </div>
     <div class="setup-block" id="difficulty-block" hidden>
       <h3>難度</h3>
@@ -68,6 +73,8 @@
       <div class="quiz-meta" id="quiz-meta"></div>
       <div class="timer" id="quiz-timer">00:00</div>
     </div>
+    <div class="stage-tag" id="stage-tag" hidden></div>
+    <div class="streak-tag" id="streak-tag" hidden></div>
     <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
     <div class="qcard">
       <div class="qhead">
@@ -92,6 +99,8 @@
       <div class="result-sub" id="result-sub"></div>
       <div class="result-msg" id="result-msg"></div>
       <div class="result-actions">
+        <button class="primary-btn" id="btn-next-stage" hidden>前往下一關 🏆</button>
+        <button class="primary-btn" id="btn-retry-stage" hidden>重新挑戰本關 🔄</button>
         <button class="primary-btn" id="btn-share">🔗 分享成績</button>
         <button class="nav-btn" id="btn-retry">再考一次</button>
         <button class="nav-btn" id="btn-result-home">回首頁</button>

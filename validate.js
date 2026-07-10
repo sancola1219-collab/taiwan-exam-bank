@@ -23,8 +23,27 @@ const CATALOG = {
     history: [10, 11], geography: [10, 11], civics: [10, 11],
   },
   uni: {
-    calculus: [0], physics: [0], chemistry: [0], economics: [0],
-    statistics: [0], csintro: [0], uenglish: [0],
+    /* 理學群 */
+    calculus: [0], linalg: [0], statistics: [0], physics: [0],
+    chemistry: [0], organic_chem: [0], biology: [0], earth_sci: [0],
+    /* 工學群 */
+    engmath: [0], statics: [0], thermodynamics: [0], fluidmech: [0],
+    materials: [0], circuits: [0],
+    /* 資訊學群 */
+    csintro: [0], programming: [0], datastructure: [0], database: [0],
+    network: [0], os: [0], algorithm: [0], discrete: [0],
+    /* 商管學群 */
+    economics: [0], macroecon: [0], accounting: [0], management: [0],
+    marketing: [0], finance: [0],
+    /* 法政學群 */
+    law_intro: [0], civil_law: [0], criminal_law: [0], constitution: [0],
+    politics: [0], publicadmin: [0], intl_relations: [0],
+    /* 醫護學群 */
+    anatomy: [0], nutrition: [0], pharmacology: [0], publichealth: [0],
+    /* 人文社科學群 */
+    psychology: [0], sociology: [0], philosophy: [0], education: [0], env_science: [0],
+    /* 語文學群 */
+    uenglish: [0], japanese: [0],
   },
 };
 
@@ -99,6 +118,11 @@ for (const exp of expectedFiles) {
   manifest.files[exp.file] = bank.questions.length;
   manifest.total += bank.questions.length;
 }
+
+/* 目錄中不在期望清單內的多餘 JSON（例如檔名拼錯的殘留檔） */
+const expectedNames = new Set(expectedFiles.map((e) => e.file).concat(["manifest.json"]));
+const strays = fs.readdirSync(DATA_DIR).filter((f) => f.endsWith(".json") && !expectedNames.has(f));
+strays.forEach((f) => warnings.push(`[多餘檔案] ${f}（不在科目清單中，網站不會載入，建議刪除）`));
 
 console.log(`檔案：${present}/${expectedFiles.length}　總題數：${manifest.total}`);
 if (warnings.length) {

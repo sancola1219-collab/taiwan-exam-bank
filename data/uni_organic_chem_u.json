@@ -1,0 +1,27 @@
+{
+  "level": "uni",
+  "subject": "organic_chem",
+  "grade": 0,
+  "questions": [
+    { "id": "uni_organic_chem_u_001", "difficulty": 1, "question": "含 $-OH$ 官能基（接在飽和碳上）的有機化合物屬於哪一類？", "options": ["醇類", "醛類", "羧酸", "酮類"], "answer": 0, "explanation": "羥基 $-OH$ 接在飽和碳上為醇類的特徵官能基，如乙醇 $CH_3CH_2OH$。易錯是與羧酸 $-COOH$ 中的 $OH$ 混淆，後者的 $OH$ 接在羰基碳上。" },
+    { "id": "uni_organic_chem_u_002", "difficulty": 1, "question": "甲烷 (methane) 的分子式為？", "options": ["$CH_2$", "$CH_4$", "$C_2H_4$", "$CH_3$"], "answer": 1, "explanation": "甲烷的碳為 $sp^3$ 混成，四個鍵各接一個氫，故為 $CH_4$。易錯是寫成不滿足碳四價的 $CH_2$ 或 $CH_3$。" },
+    { "id": "uni_organic_chem_u_003", "difficulty": 1, "question": "乙烯 (ethene, $C_2H_4$) 分子中含有？", "options": ["碳碳單鍵", "碳碳三鍵", "碳碳雙鍵", "苯環"], "answer": 2, "explanation": "乙烯為最簡單的烯類，兩碳間以碳碳雙鍵 ($C=C$) 相連。易錯是與乙炔（三鍵）或乙烷（單鍵）混淆。" },
+    { "id": "uni_organic_chem_u_004", "difficulty": 1, "question": "炔類 (alkyne) 的特徵是分子中含有？", "options": ["$-OH$", "碳碳雙鍵", "苯環", "碳碳三鍵"], "answer": 3, "explanation": "炔類的官能基為碳碳三鍵 ($C\\equiv C$)，如乙炔 $C_2H_2$。易錯是與烯類的雙鍵混淆，三鍵含一個 $\\sigma$ 鍵與兩個 $\\pi$ 鍵。" },
+    { "id": "uni_organic_chem_u_005", "difficulty": 1, "question": "$CH_3CH_2CH_3$ 的 IUPAC 名稱為？", "options": ["丙烷 (propane)", "乙烷 (ethane)", "丁烷 (butane)", "甲烷 (methane)"], "answer": 0, "explanation": "此分子主鏈有三個碳且全為單鍵，命名為丙烷。易錯是數錯碳數，三碳烷類即為 propane（字首 prop- 代表三碳）。" },
+    { "id": "uni_organic_chem_u_006", "difficulty": 1, "question": "羧酸 (carboxylic acid) 的官能基為？", "options": ["$-CHO$", "$-COOH$", "$-OH$", "$-CO-$"], "answer": 1, "explanation": "羧酸的特徵官能基為羧基 $-COOH$，兼具羰基與羥基。易錯是與醛基 $-CHO$ 或酮的羰基 $-CO-$ 混淆。" },
+    { "id": "uni_organic_chem_u_007", "difficulty": 1, "question": "苯 (benzene) 的分子式為？", "options": ["$C_6H_{12}$", "$C_5H_5$", "$C_6H_6$", "$C_6H_{14}$"], "answer": 2, "explanation": "苯為六碳芳香環，每碳接一氫，分子式為 $C_6H_6$。易錯是誤寫成環己烷 $C_6H_{12}$ 或己烷 $C_6H_{14}$，苯因具離域雙鍵而氫較少。" },
+    { "id": "uni_organic_chem_u_008", "difficulty": 2, "question": "分子式 $C_4H_{10}$ 共有幾種結構異構物？", "options": ["$4$", "$3$", "$1$", "$2$"], "answer": 3, "explanation": "$C_4H_{10}$ 有正丁烷（直鏈）與異丁烷（2-甲基丙烷，支鏈）兩種，共 $2$ 種。易錯是把同一結構的不同畫法重複計數。" },
+    { "id": "uni_organic_chem_u_009", "difficulty": 2, "question": "醛類與酮類皆含羰基 $C=O$，兩者的差別在於？", "options": ["醛的羰基碳至少接一個氫，酮的羰基碳兩側皆接碳", "醛含 $-OH$ 而酮不含", "醛為芳香族，酮為脂肪族", "醛的碳為 $sp^3$，酮為 $sp^2$"], "answer": 0, "explanation": "醛的羰基位於碳鏈末端，羰基碳至少接一個氫 ($-CHO$)；酮的羰基位於鏈中間，兩側皆為碳。易錯是以為兩者官能基不同，其實同為羰基，差在位置。" },
+    { "id": "uni_organic_chem_u_010", "difficulty": 2, "question": "$CH_3-CH(CH_3)-CH_3$ 的 IUPAC 名稱為？", "options": ["丁烷 (butane)", "2-甲基丙烷 (2-methylpropane)", "丙烷 (propane)", "2-甲基丁烷"], "answer": 1, "explanation": "最長碳鏈為三碳（丙烷），第二個碳上接一甲基，故名 2-甲基丙烷。易錯是把甲基算進主鏈而誤稱丁烷；命名須先找最長鏈。" },
+    { "id": "uni_organic_chem_u_011", "difficulty": 2, "question": "根據 Hückel 規則，環狀共軛系統具芳香性時其 $\\pi$ 電子數須為？", "options": ["$4n$", "$2n$", "$4n+2$", "$2n+1$"], "answer": 2, "explanation": "Hückel 規則要求平面環狀共軛系統的 $\\pi$ 電子數為 $4n+2$（$n$ 為非負整數），苯有 $6$ 個 $\\pi$ 電子（$n=1$）故具芳香性。易錯是記成 $4n$，那反而對應反芳香性。" },
+    { "id": "uni_organic_chem_u_012", "difficulty": 2, "question": "$S_N2$ 反應的立體化學特徵為？", "options": ["構型完全保持不變", "產生消旋混合物", "無任何立體選擇性", "中心碳構型翻轉（Walden 翻轉）"], "answer": 3, "explanation": "$S_N2$ 為親核劑從離去基背面進攻的一步協同反應，造成中心碳構型翻轉。易錯是與 $S_N1$ 經平面碳陽離子而產生消旋的情形混淆。" },
+    { "id": "uni_organic_chem_u_013", "difficulty": 2, "question": "$S_N1$ 反應的速率主要取決於？", "options": ["受質（基質）濃度", "親核劑濃度", "受質與親核劑濃度乘積", "溶劑濃度"], "answer": 0, "explanation": "$S_N1$ 的速率決定步驟是碳陽離子的生成，只牽涉受質，故速率 $=k[\\text{受質}]$，為一級動力學。易錯是誤以為親核劑濃度也影響速率，那是 $S_N2$ 的特徵。" },
+    { "id": "uni_organic_chem_u_014", "difficulty": 2, "question": "烯類與 $HX$ 加成時，依馬可尼可夫規則，$H$ 傾向加到？", "options": ["含氫較少的碳", "含氫較多的碳", "雙鍵正中間", "任一碳皆等機率"], "answer": 1, "explanation": "馬可尼可夫規則指 $H$ 加到已含較多氫的雙鍵碳，使 $X$ 接在能形成較穩定（較高級）碳陽離子的碳上。易錯是方向記反，關鍵在中間體碳陽離子的穩定度。" },
+    { "id": "uni_organic_chem_u_015", "difficulty": 3, "question": "下列受質進行 $S_N2$ 反應速率最快者為？", "options": ["三級鹵烷 (tertiary)", "二級鹵烷 (secondary)", "甲基鹵烷 (methyl)", "新戊基鹵烷 (neopentyl)"], "answer": 2, "explanation": "$S_N2$ 為背面進攻，立體阻礙越小越快，速率序為甲基 > 一級 > 二級 > 三級。易錯是與 $S_N1$ 傾向混淆，$S_N1$ 反而是三級最快。" },
+    { "id": "uni_organic_chem_u_016", "difficulty": 3, "question": "$S_N1$ 反應中最穩定、反應最快的碳陽離子為？", "options": ["甲基陽離子", "一級碳陽離子", "乙烯基陽離子", "三級碳陽離子"], "answer": 3, "explanation": "三級碳陽離子因周圍烷基的超共軛與誘導供電子效應而最穩定，故 $S_N1$ 最快。易錯是與 $S_N2$ 立體阻礙的考量搞反。" },
+    { "id": "uni_organic_chem_u_017", "difficulty": 3, "question": "依 Zaitsev（薩伊采夫）規則，消去反應主要生成？", "options": ["雙鍵上取代基較多的較穩定烯", "取代基較少的烯", "炔類", "醇類"], "answer": 0, "explanation": "Zaitsev 規則指消去反應優先生成雙鍵上取代基較多、較穩定的烯（主產物）。易錯是與 Hofmann 產物（取代較少）混淆，後者需特殊大基底才主導。" },
+    { "id": "uni_organic_chem_u_018", "difficulty": 3, "question": "一級醇經強氧化劑完全氧化，最終產物為？", "options": ["酮", "羧酸", "醚", "烷"], "answer": 1, "explanation": "一級醇先氧化為醛，再進一步氧化為羧酸（完全氧化的終點）。易錯是與二級醇混淆，二級醇氧化只到酮即停止。" },
+    { "id": "uni_organic_chem_u_019", "difficulty": 3, "question": "苯不易進行加成反應而傾向取代反應，主要原因為？", "options": ["苯環含三個獨立定域雙鍵", "苯的分子量較大", "離域 $\\pi$ 電子的共振使苯環特別穩定", "苯環不含氫原子"], "answer": 2, "explanation": "苯的六個 $\\pi$ 電子完全離域產生共振穩定（芳香性），加成會破壞此穩定，故傾向保留芳香環的取代反應。易錯是把苯看成含三個定域雙鍵的一般烯類。" },
+    { "id": "uni_organic_chem_u_020", "difficulty": 3, "question": "聚乙烯 (PE) 是由乙烯經由何種反應生成？", "options": ["縮合聚合", "水解", "酯化", "加成聚合"], "answer": 3, "explanation": "乙烯的碳碳雙鍵打開後彼此連接成長鏈，屬加成聚合，過程中不失去任何小分子。易錯是與縮合聚合混淆，縮合聚合（如尼龍）會脫去水等小分子。" }
+  ]
+}

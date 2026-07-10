@@ -1,0 +1,27 @@
+{
+  "level": "uni",
+  "subject": "programming",
+  "grade": 0,
+  "questions": [
+    { "id": "uni_programming_u_001", "difficulty": 1, "question": "在 C 語言中宣告 `int x;`，變數 x 的資料型別屬於下列何者？", "options": ["整數", "浮點數", "字元", "布林"], "answer": 0, "explanation": "`int` 為整數型別，只能儲存不含小數的整數值。易錯處是把 `int` 與儲存小數的 `float`／`double` 混淆。" },
+    { "id": "uni_programming_u_002", "difficulty": 1, "question": "在一般運算式中，下列哪一種運算子的優先序最高（最先計算）？", "options": ["加法 +", "括號 ()", "乘法 *", "賦值 ="], "answer": 1, "explanation": "括號 () 具有最高優先序，會強制其內部先計算。易錯處是誤以為乘法最高，事實上括號能改變一切既定優先序。" },
+    { "id": "uni_programming_u_003", "difficulty": 1, "question": "在 C 語言中，整數運算 `5 / 2` 的結果為何？", "options": ["2.5", "3", "2", "1"], "answer": 2, "explanation": "兩個整數相除採整數除法，捨去小數部分得 2。易錯處是誤以為會自動得到浮點數 2.5，除非其中一個運算元是浮點數。" },
+    { "id": "uni_programming_u_004", "difficulty": 1, "question": "運算式 `5 % 2`（取餘數運算）的結果為何？", "options": ["2", "2.5", "0", "1"], "answer": 3, "explanation": "% 為取餘數運算子，$5\\div2=2$ 餘 1，故結果為 1。易錯處是把 % 誤當成除法或百分比運算。" },
+    { "id": "uni_programming_u_005", "difficulty": 1, "question": "迴圈 `for(i=0; i<5; i++)` 的迴圈本體總共會執行幾次？", "options": ["5", "4", "6", "0"], "answer": 0, "explanation": "i 由 0 遞增到 4 皆滿足 $i<5$，共執行 5 次（i=0,1,2,3,4）。易錯處是把上界 5 也算進去而誤答 6，或漏算 i=0 而答 4。" },
+    { "id": "uni_programming_u_006", "difficulty": 1, "question": "在 C、Java、Python 等語言中，陣列（或串列）的索引通常從哪個數字開始？", "options": ["1", "0", "-1", "任意"], "answer": 1, "explanation": "多數程式語言採零基索引，第一個元素索引為 0。易錯處是沿用日常「第一個」的直覺而以為索引從 1 開始。" },
+    { "id": "uni_programming_u_007", "difficulty": 1, "question": "邏輯運算 `True AND False` 的結果為何？", "options": ["True", "1", "False", "無法判斷"], "answer": 2, "explanation": "AND（且）運算須兩者皆為真才為真，其中一者為假即得 False。易錯處是把 AND 與只要一項為真即成立的 OR 混淆。" },
+    { "id": "uni_programming_u_008", "difficulty": 2, "question": "在 Python 中，`len(\"hello\")` 的回傳值為何？", "options": ["4", "6", "1", "5"], "answer": 3, "explanation": "字串 \"hello\" 含 h、e、l、l、o 共 5 個字元，`len` 回傳 5。易錯處是把字串長度與索引最大值 4 混淆。" },
+    { "id": "uni_programming_u_009", "difficulty": 2, "question": "條件式 `if (x > 0)` 當 x 的值為 0 時，其判斷結果與行為為何？", "options": ["條件為假，不執行區塊", "條件為真，執行區塊", "編譯錯誤", "無窮迴圈"], "answer": 0, "explanation": "0 並不大於 0，條件 $x>0$ 為假，故不執行區塊。易錯處是把「大於」誤當成「大於等於」而以為 0 也成立。" },
+    { "id": "uni_programming_u_010", "difficulty": 2, "question": "一個正確的遞迴函式必須具備下列何者，才能避免無限遞迴？", "options": ["至少一個迴圈", "終止條件（base case）", "一個陣列", "一個全域變數"], "answer": 1, "explanation": "遞迴須有終止條件（基底情況）讓呼叫在某點停止，否則會無限遞迴造成堆疊溢位。易錯處是只寫遞迴呼叫而忘了設終止條件。" },
+    { "id": "uni_programming_u_011", "difficulty": 2, "question": "執行下列 Python 片段後，x 的值為何？\n```\nx = 1\nfor i in range(3):\n    x = x * 2\n```", "options": ["6", "2", "8", "4"], "answer": 2, "explanation": "`range(3)` 迭代三次，x 依序變為 $1\\to2\\to4\\to8$，最終為 8。易錯處是把乘法誤當加法（得 7 或 6）或少算一次迭代。" },
+    { "id": "uni_programming_u_012", "difficulty": 2, "question": "執行 C 語言 `int a=7, b=2; printf(\"%d\", a/b);` 會輸出什麼？", "options": ["3.5", "4", "2", "3"], "answer": 3, "explanation": "兩整數相除為整數除法，$7\\div2=3$ 餘 1，捨去小數輸出 3。易錯處是誤以為 `%d` 會印出四捨五入或小數結果。" },
+    { "id": "uni_programming_u_013", "difficulty": 2, "question": "在 C 語言中，指標（pointer）變數所儲存的內容是下列何者？", "options": ["另一個變數的記憶體位址", "變數的值本身", "一個函式", "陣列的大小"], "answer": 0, "explanation": "指標儲存的是記憶體位址，透過解參考（*）才能存取該位址上的值。易錯處是把指標本身的內容誤當成它所指向的資料值。" },
+    { "id": "uni_programming_u_014", "difficulty": 2, "question": "在 C 語言中，若希望一個函式能真正交換呼叫端兩個變數的值，參數應以何種方式傳遞？", "options": ["傳值（by value）", "傳指標（位址）", "傳常數", "使用全域變數宣告"], "answer": 1, "explanation": "C 預設為傳值，函式內只改到副本；須傳遞變數的位址（指標）才能修改原變數。易錯處是誤以為傳值也能改變呼叫端的原始變數。" },
+    { "id": "uni_programming_u_015", "difficulty": 3, "question": "下列巢狀迴圈的時間複雜度為何？\n```\nfor i in range(n):\n    for j in range(n):\n        print(i, j)\n```", "options": ["$O(n)$", "$O(\\log n)$", "$O(n^2)$", "$O(1)$"], "answer": 2, "explanation": "外層 n 次、內層各 n 次，總執行 $n\\times n=n^2$ 次，故為 $O(n^2)$。易錯處是只看單層迴圈而誤答 $O(n)$。" },
+    { "id": "uni_programming_u_016", "difficulty": 3, "question": "在已排序陣列上執行二分搜尋（binary search），其時間複雜度為何？", "options": ["$O(n)$", "$O(n^2)$", "$O(1)$", "$O(\\log n)$"], "answer": 3, "explanation": "二分搜尋每次將搜尋範圍減半，最多約 $\\log_2 n$ 次比較，故為 $O(\\log n)$。易錯處是與線性搜尋的 $O(n)$ 混淆。" },
+    { "id": "uni_programming_u_017", "difficulty": 3, "question": "執行 Python `a = [1, 2, 3]; print(a[-1])`，會輸出什麼？", "options": ["3", "1", "2", "程式錯誤"], "answer": 0, "explanation": "Python 的負索引由尾端算起，`a[-1]` 為最後一個元素 3。易錯處是誤以為負索引會造成越界錯誤，或誤指到第一個元素。" },
+    { "id": "uni_programming_u_018", "difficulty": 3, "question": "遞迴定義 `f(n)=f(n-1)+f(n-2)`，且 `f(1)=f(2)=1`，則 `f(5)` 的值為何？", "options": ["3", "5", "8", "4"], "answer": 1, "explanation": "此為費氏數列：$f(3)=2$、$f(4)=3$、$f(5)=f(4)+f(3)=3+2=5$。易錯處是算錯遞迴起始項或少算一層而得 3。" },
+    { "id": "uni_programming_u_019", "difficulty": 3, "question": "執行下列 Python 片段後，s 的值為何？\n```\ns = 0\nfor i in range(1, 5):\n    s += i\n```", "options": ["15", "5", "10", "6"], "answer": 2, "explanation": "`range(1,5)` 產生 1、2、3、4，累加 $1+2+3+4=10$。易錯處是把上界 5 也加進去而得 15，忽略 range 不含結尾。" },
+    { "id": "uni_programming_u_020", "difficulty": 3, "question": "執行下列 C 語言片段後，迴圈結束時 i 的值為何？\n```\nint i = 0;\nwhile (i < 3) {\n    i++;\n}\n```", "options": ["2", "4", "0", "3"], "answer": 3, "explanation": "i 由 0 依序遞增，當 i 變為 3 時 $i<3$ 不成立而跳出迴圈，故結束時 i 為 3。易錯處是誤以為在 i=2 就停止，忽略最後一次遞增。" }
+  ]
+}

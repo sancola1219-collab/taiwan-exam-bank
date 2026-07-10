@@ -1,0 +1,27 @@
+{
+  "level": "uni",
+  "subject": "circuits",
+  "grade": 0,
+  "questions": [
+    { "id": "uni_circuits_u_001", "difficulty": 1, "question": "歐姆定律描述電壓 V、電流 I 與電阻 R 之間的關係，其正確形式為何？", "options": ["$V=IR$", "$V=I/R$", "$V=R/I$", "$I=VR$"], "answer": 0, "explanation": "歐姆定律為 $V=IR$，電壓等於電流乘以電阻。易錯處是把電阻放到分母或把電流與電阻相乘來求電流，導致關係式錯誤。" },
+    { "id": "uni_circuits_u_002", "difficulty": 1, "question": "電阻 R 通過電流 I 時所消耗的功率，下列何者正確？", "options": ["$P=IR$", "$P=I^2R$", "$P=I/R$", "$P=IR^2$"], "answer": 1, "explanation": "由 $P=VI$ 與 $V=IR$ 得 $P=I^2R$。易錯處是把電流或電阻的次方寫錯，例如誤寫成 $IR^2$。" },
+    { "id": "uni_circuits_u_003", "difficulty": 1, "question": "克希荷夫電流定律（KCL）在物理上是基於下列何種守恆？", "options": ["能量守恆", "動量守恆", "電荷守恆", "電壓守恆"], "answer": 2, "explanation": "KCL 指節點流入電流總和等於流出總和，本質是電荷守恆。易錯處是把它與基於能量守恆的電壓定律（KVL）弄反。" },
+    { "id": "uni_circuits_u_004", "difficulty": 1, "question": "兩個電阻值皆為 R 的電阻串聯，總等效電阻為何？", "options": ["$R/2$", "$R$", "$R^2$", "$2R$"], "answer": 3, "explanation": "串聯電阻直接相加，$R+R=2R$。易錯處是誤用並聯公式，串聯應相加而非取倒數相加。" },
+    { "id": "uni_circuits_u_005", "difficulty": 1, "question": "兩個電阻值皆為 R 的電阻並聯，總等效電阻為何？", "options": ["$R/2$", "$2R$", "$R$", "$R^2$"], "answer": 0, "explanation": "並聯 $\\dfrac{1}{R_{eq}}=\\dfrac{1}{R}+\\dfrac{1}{R}=\\dfrac{2}{R}$，故 $R_{eq}=R/2$。易錯處是把串並聯規則弄反而答 2R。" },
+    { "id": "uni_circuits_u_006", "difficulty": 1, "question": "電容量為 C 的電容器兩端電壓為 V 時，所儲存的能量為何？", "options": ["$CV$", "$\\frac{1}{2}CV^2$", "$\\frac{1}{2}CV$", "$CV^2$"], "answer": 1, "explanation": "電容儲能為 $E=\\frac{1}{2}CV^2$。易錯處是漏掉係數 $\\frac{1}{2}$ 或忘記電壓要平方。" },
+    { "id": "uni_circuits_u_007", "difficulty": 1, "question": "克希荷夫電壓定律（KVL）在物理上是基於下列何種守恆？", "options": ["電荷守恆", "質量守恆", "能量守恆", "動量守恆"], "answer": 2, "explanation": "KVL 指任一封閉迴路電壓升降代數和為零，本質是能量守恆。易錯處是把它與基於電荷守恆的電流定律（KCL）混淆。" },
+    { "id": "uni_circuits_u_008", "difficulty": 2, "question": "一個 12 V 的電源直接連接 4 Ω 的電阻，流過電阻的電流為何？", "options": ["48 A", "0.33 A", "4 A", "3 A"], "answer": 3, "explanation": "由歐姆定律 $I=V/R=12/4=3$ A。易錯處是把電壓與電阻相乘（得 48）而非相除。" },
+    { "id": "uni_circuits_u_009", "difficulty": 2, "question": "6 Ω 與 3 Ω 兩電阻並聯，其等效電阻為何？", "options": ["2 Ω", "9 Ω", "18 Ω", "4.5 Ω"], "answer": 0, "explanation": "並聯 $R_{eq}=\\dfrac{6\\times3}{6+3}=\\dfrac{18}{9}=2\\ \\Omega$。易錯處是誤把並聯當串聯直接相加得 9 Ω。" },
+    { "id": "uni_circuits_u_010", "difficulty": 2, "question": "$R_1=2\\ \\Omega$ 與 $R_2=4\\ \\Omega$ 串聯後接於 12 V 電源，$R_2$ 兩端的電壓為何？", "options": ["4 V", "8 V", "6 V", "12 V"], "answer": 1, "explanation": "分壓 $V_2=V\\times\\dfrac{R_2}{R_1+R_2}=12\\times\\dfrac{4}{6}=8$ V。易錯處是把分壓比例中的電阻取錯，用到 $R_1$ 而得 4 V。" },
+    { "id": "uni_circuits_u_011", "difficulty": 2, "question": "RC 串聯電路的時間常數 $\\tau$ 為何？", "options": ["$\\tau=R/C$", "$\\tau=C/R$", "$\\tau=RC$", "$\\tau=1/RC$"], "answer": 2, "explanation": "RC 電路時間常數為 $\\tau=RC$，決定電容充放電的快慢。易錯處是誤寫成 R 與 C 相除，因次就不是時間了。" },
+    { "id": "uni_circuits_u_012", "difficulty": 2, "question": "RL 串聯電路的時間常數 $\\tau$ 為何？", "options": ["$RL$", "$R/L$", "$1/RL$", "$L/R$"], "answer": 3, "explanation": "RL 電路時間常數為 $\\tau=L/R$。易錯處是與 RC 電路的 $RC$ 型式混淆，RL 應為電感除以電阻。" },
+    { "id": "uni_circuits_u_013", "difficulty": 2, "question": "在直流穩態下，理想電感器相當於下列何者？", "options": ["短路（一段導線）", "開路", "固定電阻", "電容"], "answer": 0, "explanation": "穩態時電流不再變化，電感電壓 $V=L\\,di/dt=0$，故相當於短路。易錯處是把電感與電容的穩態行為弄反（電容才是開路）。" },
+    { "id": "uni_circuits_u_014", "difficulty": 2, "question": "在直流穩態下，理想電容器相當於下列何者？", "options": ["短路", "開路", "固定電阻", "電源"], "answer": 1, "explanation": "穩態時電容電壓固定，電流 $I=C\\,dv/dt=0$，故相當於開路。易錯處是把電容與電感的穩態行為弄反（電感才是短路）。" },
+    { "id": "uni_circuits_u_015", "difficulty": 3, "question": "戴維寧（Thévenin）等效電路中的等效電壓源 $V_{th}$ 定義為何？", "options": ["端點的短路電流", "負載上的電壓", "端點的開路電壓", "電源的內阻"], "answer": 2, "explanation": "戴維寧等效電壓即從兩端點看進去的開路電壓（移除負載時的端電壓）。易錯處是把它與諾頓等效的短路電流混淆。" },
+    { "id": "uni_circuits_u_016", "difficulty": 3, "question": "諾頓（Norton）等效電路中的等效電流源 $I_N$ 定義為何？", "options": ["端點的開路電壓", "負載上的電流", "電源的電壓", "端點的短路電流"], "answer": 3, "explanation": "諾頓等效電流即將兩端點短路時流過的電流。易錯處是把它與戴維寧等效的開路電壓混淆，兩者互為對偶。" },
+    { "id": "uni_circuits_u_017", "difficulty": 3, "question": "總電流 6 A 流入 2 Ω 與 4 Ω 並聯的組合，流過 2 Ω 電阻的電流為何？", "options": ["4 A", "2 A", "3 A", "6 A"], "answer": 0, "explanation": "分流與電阻成反比，$I_{2\\Omega}=6\\times\\dfrac{4}{2+4}=6\\times\\dfrac{4}{6}=4$ A。易錯處是把分流比例中的電阻取錯，用到本支電阻而得 2 A。" },
+    { "id": "uni_circuits_u_018", "difficulty": 3, "question": "RC 電路充電時，經過一個時間常數 $\\tau$ 後，電容電壓約達電源電壓的多少百分比？", "options": ["37%", "63%", "50%", "100%"], "answer": 1, "explanation": "充電電壓 $V(1-e^{-t/\\tau})$，當 $t=\\tau$ 時 $1-e^{-1}\\approx0.63$，約達 63%。易錯處是誤把放電時剩下的 37% 當成充電達到的百分比。" },
+    { "id": "uni_circuits_u_019", "difficulty": 3, "question": "交流電壓 $v(t)=V_m\\sin(\\omega t)$ 的均方根值（RMS）為何？", "options": ["$V_m$", "$2V_m$", "$V_m/\\sqrt{2}$", "$V_m/2$"], "answer": 2, "explanation": "正弦波的 RMS 值為峰值除以 $\\sqrt{2}$，即 $V_{rms}=V_m/\\sqrt{2}\\approx0.707V_m$。易錯處是把峰值直接當有效值，或誤除以 2。" },
+    { "id": "uni_circuits_u_020", "difficulty": 3, "question": "在純電感的交流電路中，電感電流的相位相對於電感電壓為何？", "options": ["同相", "超前 90°", "落後 45°", "落後 90°"], "answer": 3, "explanation": "純電感中電流落後電壓 90°（電壓超前電流）；純電容則相反為電流超前 90°。易錯處是把電感與電容的相位關係弄反。" }
+  ]
+}

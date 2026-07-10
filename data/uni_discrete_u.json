@@ -1,0 +1,267 @@
+{
+  "level": "uni",
+  "subject": "discrete",
+  "grade": 0,
+  "questions": [
+    {
+      "id": "uni_discrete_u_001",
+      "difficulty": 1,
+      "question": "命題邏輯中，條件命題 $p \\rightarrow q$ 在下列哪一情況下為「偽（false）」？",
+      "options": [
+        "p 真、q 偽",
+        "p 真、q 真",
+        "p 偽、q 真",
+        "p 偽、q 偽"
+      ],
+      "answer": 0,
+      "explanation": "條件命題 $p \\rightarrow q$ 只有在前件 p 為真、後件 q 為偽時才為偽，其餘三種情況皆為真。當前件為偽時，無論後件為何，整個蘊含式恆為真（空虛為真）。易錯處是誤以為 p 偽時命題為偽。"
+    },
+    {
+      "id": "uni_discrete_u_002",
+      "difficulty": 1,
+      "question": "設集合 $A = \\{1, 2, 3\\}$、$B = \\{2, 3, 4\\}$，則 $A \\cap B$（交集）為何？",
+      "options": [
+        "$\\{1, 2, 3, 4\\}$",
+        "$\\{2, 3\\}$",
+        "$\\{1, 4\\}$",
+        "$\\{1\\}$"
+      ],
+      "answer": 1,
+      "explanation": "交集 $A \\cap B$ 是同時屬於 A 與 B 的元素，即 2 與 3，故為 $\\{2, 3\\}$。$\\{1,2,3,4\\}$ 是聯集、$\\{1,4\\}$ 是對稱差、$\\{1\\}$ 是 A 減 B。易錯處是把交集與聯集的運算搞混。"
+    },
+    {
+      "id": "uni_discrete_u_003",
+      "difficulty": 1,
+      "question": "含有 n 個元素的集合，其冪集合（power set）的元素個數為何？",
+      "options": [
+        "$n$",
+        "$n^2$",
+        "$2^n$",
+        "$n!$"
+      ],
+      "answer": 2,
+      "explanation": "冪集合是原集合所有子集所成的集合。每個元素對子集而言有「在」或「不在」兩種選擇，故 n 個元素共有 $2^n$ 個子集（含空集合與本身）。易錯處是誤算為 $n^2$ 或忘記把空集合與全集合算入。"
+    },
+    {
+      "id": "uni_discrete_u_004",
+      "difficulty": 1,
+      "question": "若一個函數 $f: A \\rightarrow B$ 為「一對一（injective，嵌射）」，其定義為何？",
+      "options": [
+        "A 與 B 元素個數相等",
+        "值域中每個元素都有原像",
+        "每個 A 中元素對應唯一 B 中元素",
+        "定義域中不同的元素映射到值域中不同的元素"
+      ],
+      "answer": 3,
+      "explanation": "一對一（injective）指若 $a_1 \\ne a_2$ 則 $f(a_1) \\ne f(a_2)$，即不同輸入必得不同輸出。值域中每個元素都有原像是「映成（surjective）」的定義。易錯處是把一對一（嵌射）與映成（蓋滿）的定義搞混。"
+    },
+    {
+      "id": "uni_discrete_u_005",
+      "difficulty": 1,
+      "question": "數學歸納法證明一個對所有正整數成立的命題，通常包含哪兩個主要步驟？",
+      "options": [
+        "反證與窮舉",
+        "基底步驟與歸納步驟",
+        "假設與反例",
+        "定義與推論"
+      ],
+      "answer": 1,
+      "explanation": "數學歸納法包含基底步驟（證明 $n=1$ 或起始值成立）與歸納步驟（假設 $n=k$ 成立，推導 $n=k+1$ 也成立）。兩步驟缺一不可。易錯處是省略基底步驟，僅有歸納步驟則無法確立起點，證明不成立。"
+    },
+    {
+      "id": "uni_discrete_u_006",
+      "difficulty": 1,
+      "question": "從 5 個相異物品中選取 3 個且不考慮順序，共有幾種選法？",
+      "options": [
+        "60 種",
+        "15 種",
+        "10 種",
+        "125 種"
+      ],
+      "answer": 2,
+      "explanation": "不考慮順序即組合，$C(5,3) = \\dfrac{5!}{3! \\, 2!} = \\dfrac{120}{6 \\times 2} = 10$ 種。若考慮順序則為排列 $P(5,3)=60$。易錯處是誤用排列（60）或誤算階乘。"
+    },
+    {
+      "id": "uni_discrete_u_007",
+      "difficulty": 1,
+      "question": "在圖論中，一個「尤拉迴路（Eulerian circuit）」的定義是？",
+      "options": [
+        "恰好經過每個頂點一次的封閉路徑",
+        "連接所有頂點且無迴圈的子圖",
+        "邊權重總和最小的路徑",
+        "恰好經過每條邊一次並回到起點的封閉路徑"
+      ],
+      "answer": 3,
+      "explanation": "尤拉迴路是經過圖中每一條邊「恰好一次」並回到起點的封閉路徑。經過每個「頂點」恰好一次的是漢米頓迴路。易錯處是把尤拉（走遍每條邊）與漢米頓（走遍每個頂點）的條件對調。"
+    },
+    {
+      "id": "uni_discrete_u_008",
+      "difficulty": 2,
+      "question": "下列哪一個邏輯等價關係正確描述了「$p \\rightarrow q$」的等價命題？",
+      "options": [
+        "$\\neg p \\lor q$",
+        "$p \\land \\neg q$",
+        "$q \\rightarrow p$",
+        "$\\neg p \\land q$"
+      ],
+      "answer": 0,
+      "explanation": "由真值表可驗證 $p \\rightarrow q \\equiv \\neg p \\lor q$：只有 p 真 q 偽時前者為偽，此時 $\\neg p \\lor q = F \\lor F = F$，其餘皆真，兩者完全吻合。$q \\rightarrow p$ 是逆命題，並不等價。易錯處是誤把逆命題當作等價命題。"
+    },
+    {
+      "id": "uni_discrete_u_009",
+      "difficulty": 2,
+      "question": "一個無向連通圖具有尤拉迴路（Eulerian circuit）的充要條件是？",
+      "options": [
+        "所有頂點度數皆相同",
+        "恰有兩個頂點度數為奇數",
+        "每個頂點的度數皆為偶數",
+        "邊數等於頂點數"
+      ],
+      "answer": 2,
+      "explanation": "連通無向圖存在尤拉迴路的充要條件是「每個頂點的度數皆為偶數」。若恰有兩個奇數度頂點，則只存在尤拉路徑（不封閉）而非迴路。易錯處是把尤拉迴路（全偶）與尤拉路徑（恰兩奇）的條件混淆。"
+    },
+    {
+      "id": "uni_discrete_u_010",
+      "difficulty": 2,
+      "question": "鴿籠原理（pigeonhole principle）指出：若將 n 個物品放入 m 個籠子且 $n > m$，則？",
+      "options": [
+        "每個籠子恰有一個物品",
+        "所有物品在同一籠子",
+        "至少有一個籠子是空的",
+        "至少有一個籠子含有兩個以上物品"
+      ],
+      "answer": 3,
+      "explanation": "鴿籠原理指出，當物品數 n 大於籠子數 m 時，至少有一個籠子必含兩個以上物品。推廣式為至少一籠含 $\\lceil n/m \\rceil$ 個。它不保證有空籠，也不保證全部集中。易錯處是誤以為原理能斷定某籠為空。"
+    },
+    {
+      "id": "uni_discrete_u_011",
+      "difficulty": 2,
+      "question": "設關係 R 定義於整數集合上，$a\\,R\\,b$ 若且唯若 $a - b$ 為偶數。此關係具有下列哪些性質？",
+      "options": [
+        "反身、對稱、遞移（為等價關係）",
+        "只有反身性",
+        "只有對稱性",
+        "反對稱但不遞移"
+      ],
+      "answer": 0,
+      "explanation": "反身性：$a-a=0$ 為偶數成立；對稱性：若 $a-b$ 偶，則 $b-a$ 亦偶；遞移性：若 $a-b$、$b-c$ 皆偶，則 $a-c=(a-b)+(b-c)$ 亦偶。三性質皆成立，故為等價關係。易錯處是漏驗其中一項或誤判為反對稱。"
+    },
+    {
+      "id": "uni_discrete_u_012",
+      "difficulty": 2,
+      "question": "含有 n 個頂點的「樹（tree）」必定恰有多少條邊？",
+      "options": [
+        "$n$ 條",
+        "$n - 1$ 條",
+        "$n + 1$ 條",
+        "$2n$ 條"
+      ],
+      "answer": 1,
+      "explanation": "樹是連通且無環的圖，n 個頂點的樹恰有 $n-1$ 條邊。若邊數多於 $n-1$ 必產生環，少於 $n-1$ 則不連通。易錯處是誤記為 n 條邊，或忘記樹的無環特性導致邊數上限。"
+    },
+    {
+      "id": "uni_discrete_u_013",
+      "difficulty": 2,
+      "question": "由數字 1、2、3、4、5 組成的三位數（數字不重複），共可組成幾個？",
+      "options": [
+        "10 個",
+        "125 個",
+        "120 個",
+        "60 個"
+      ],
+      "answer": 3,
+      "explanation": "數字不重複且有位數順序，為排列問題：$P(5,3)=5 \\times 4 \\times 3 = 60$ 個。若可重複則為 $5^3=125$。易錯處是誤用組合（10）或誤把可重複的 125 當答案。"
+    },
+    {
+      "id": "uni_discrete_u_014",
+      "difficulty": 2,
+      "question": "邏輯命題 $\\neg(p \\land q)$ 依笛摩根定律（De Morgan's law）等於下列何者？",
+      "options": [
+        "$\\neg p \\lor \\neg q$",
+        "$\\neg p \\land \\neg q$",
+        "$p \\lor q$",
+        "$\\neg p \\rightarrow q$"
+      ],
+      "answer": 0,
+      "explanation": "笛摩根定律指出，合取的否定等於各項否定的析取：$\\neg(p \\land q) \\equiv \\neg p \\lor \\neg q$。同理 $\\neg(p \\lor q) \\equiv \\neg p \\land \\neg q$。易錯處是否定後忘記把 $\\land$ 改成 $\\lor$（或反之），只否定各項而未改變連接詞。"
+    },
+    {
+      "id": "uni_discrete_u_015",
+      "difficulty": 3,
+      "question": "遞迴關係 $a_n = 2a_{n-1} + 1$，$a_0 = 0$。則 $a_n$ 的封閉解（closed form）為何？",
+      "options": [
+        "$2^n$",
+        "$2^n - 1$",
+        "$2n - 1$",
+        "$n^2 - 1$"
+      ],
+      "answer": 1,
+      "explanation": "逐項展開：$a_1 = 1$、$a_2 = 3$、$a_3 = 7$、$a_4 = 15$，恰為 $2^n - 1$。可驗證：代入得 $2(2^{n-1}-1)+1 = 2^n - 2 + 1 = 2^n - 1$，且 $a_0 = 2^0 - 1 = 0$ 吻合。此即河內塔問題的步數公式。易錯處是忽略常數項 +1 而誤解為 $2^n$。"
+    },
+    {
+      "id": "uni_discrete_u_016",
+      "difficulty": 3,
+      "question": "一副標準撲克牌（52 張）中隨機抽牌，為保證至少抽到 3 張同一花色，最少需抽幾張？",
+      "options": [
+        "13 張",
+        "11 張",
+        "9 張",
+        "15 張"
+      ],
+      "answer": 2,
+      "explanation": "共 4 種花色（籠子）。最壞情況是每種花色各抽 2 張，共 $4 \\times 2 = 8$ 張仍無 3 張同花色；再抽第 9 張，依鴿籠原理必使某花色達 3 張。故最少需 $8 + 1 = 9$ 張。易錯處是忘記「保證」須考慮最壞情況再加 1。"
+    },
+    {
+      "id": "uni_discrete_u_017",
+      "difficulty": 3,
+      "question": "在 n 個頂點的完全圖（complete graph）$K_n$ 中，總共有多少條邊？",
+      "options": [
+        "$\\dfrac{n(n-1)}{2}$",
+        "$n(n-1)$",
+        "$n^2$",
+        "$2^n$"
+      ],
+      "answer": 0,
+      "explanation": "完全圖中每兩個相異頂點間恰有一條邊，等於從 n 個頂點取 2 個的組合數 $C(n,2) = \\dfrac{n(n-1)}{2}$。例如 $K_4$ 有 $\\dfrac{4 \\times 3}{2}=6$ 條邊。易錯處是忘記除以 2（每條邊只計一次），誤算為 $n(n-1)$。"
+    },
+    {
+      "id": "uni_discrete_u_018",
+      "difficulty": 3,
+      "question": "設 $|A| = 3$、$|B| = 2$，則從 A 到 B 的「函數」總共有幾個？",
+      "options": [
+        "5 個",
+        "8 個",
+        "6 個",
+        "9 個"
+      ],
+      "answer": 1,
+      "explanation": "函數要求 A 中每個元素都恰對應一個 B 中元素，A 的 3 個元素各有 $|B|=2$ 種選擇，故共 $2^3 = 8$ 個函數。一般式為 $|B|^{|A|}$。易錯處是把底數與指數對調（誤算 $3^2=9$），或誤用乘法 $3 \\times 2 = 6$。"
+    },
+    {
+      "id": "uni_discrete_u_019",
+      "difficulty": 3,
+      "question": "已知 $|A| = 20$、$|B| = 15$、$|A \\cap B| = 8$，依排容原理（inclusion-exclusion），$|A \\cup B|$ 為何？",
+      "options": [
+        "35",
+        "43",
+        "27",
+        "23"
+      ],
+      "answer": 2,
+      "explanation": "排容原理：$|A \\cup B| = |A| + |B| - |A \\cap B| = 20 + 15 - 8 = 27$。減去交集是為了避免重複計算兩集合共有的元素。易錯處是忘記扣除交集（誤得 35）或重複扣除。"
+    },
+    {
+      "id": "uni_discrete_u_020",
+      "difficulty": 3,
+      "question": "關於推論規則「由 $p \\rightarrow q$ 為真且 $p$ 為真，推得 $q$ 為真」，其名稱為何？",
+      "options": [
+        "否定後件（modus tollens）",
+        "析取三段論（disjunctive syllogism）",
+        "假言三段論（hypothetical syllogism）",
+        "肯定前件（modus ponens）"
+      ],
+      "answer": 3,
+      "explanation": "由 $p \\rightarrow q$ 與 $p$ 推出 $q$，稱為肯定前件（modus ponens）。否定後件是由 $p \\rightarrow q$ 與 $\\neg q$ 推出 $\\neg p$。易錯處是把肯定前件（肯定 p 得 q）與否定後件（否定 q 得非 p）兩種有效規則混淆。"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "level": "uni",
+  "subject": "statics",
+  "grade": 0,
+  "questions": [
+    { "id": "uni_statics_u_001", "difficulty": 1, "question": "力對某一點的力矩大小等於？", "options": ["力乘以力臂（垂直距離）", "力除以距離", "力加上距離", "質量乘以加速度"], "answer": 0, "explanation": "力矩 $M=F\\times d$，其中 $d$ 為力線到轉軸的垂直距離（力臂）。易錯是用力線上的斜距而非垂直距離，或把力矩與牛頓第二定律混淆。" },
+    { "id": "uni_statics_u_002", "difficulty": 1, "question": "剛體處於靜力平衡的條件為？", "options": ["僅合力為零即可", "僅合力矩為零即可", "合力與合力矩皆為零", "速度為零即可"], "answer": 2, "explanation": "靜力平衡須同時滿足 $\\Sigma \\vec{F}=0$ 與 $\\Sigma M=0$，前者防止平移、後者防止轉動。易錯是只考慮合力為零而忽略力矩平衡。" },
+    { "id": "uni_statics_u_003", "difficulty": 1, "question": "繪製自由體圖 (FBD) 的主要目的是？", "options": ["計算材料成本", "顯示物體外觀", "標示零件尺寸", "標出物體所受的所有外力"], "answer": 3, "explanation": "自由體圖將物體單獨隔離，標出其上所有外力與反作用力，是列平衡方程的基礎。易錯是漏標支承反力或重力，導致方程不完整。" },
+    { "id": "uni_statics_u_004", "difficulty": 1, "question": "一對力偶 (couple) 的特徵為？", "options": ["產生淨移動的合力", "兩力等大、反向、不共線，淨力為零但產生力矩", "為單一方向的力", "一定使物體平移"], "answer": 1, "explanation": "力偶由兩個等大、反向、作用線不重合的力組成，合力為零但產生純轉動力矩。易錯是以為力偶會使物體平移，其實它只造成旋轉。" },
+    { "id": "uni_statics_u_005", "difficulty": 1, "question": "均勻且對稱物體（如均勻圓盤）的重心位於？", "options": ["幾何中心", "邊緣", "頂點", "隨機位置"], "answer": 0, "explanation": "密度均勻且形狀對稱的物體，其重心與幾何形心重合，位於中心。易錯是以為重心一定落在物體實體上，環形物體的重心其實可在空心處。" },
+    { "id": "uni_statics_u_006", "difficulty": 1, "question": "二維（平面）問題中，獨立的靜力平衡方程式共有幾個？", "options": ["$1$", "$2$", "$3$", "$6$"], "answer": 2, "explanation": "平面問題有 $\\Sigma F_x=0$、$\\Sigma F_y=0$、$\\Sigma M=0$ 共 $3$ 個獨立方程。易錯是漏掉力矩方程只算 $2$ 個，或誤用三維的 $6$ 個。" },
+    { "id": "uni_statics_u_007", "difficulty": 1, "question": "最大靜摩擦力的大小等於？", "options": ["$\\mu/N$", "$N/\\mu$", "$\\mu+N$", "$\\mu_s N$"], "answer": 3, "explanation": "最大靜摩擦力 $f_{\\max}=\\mu_s N$，與正向力 $N$ 成正比。易錯是把摩擦係數與正向力寫成相除或相加關係。" },
+    { "id": "uni_statics_u_008", "difficulty": 2, "question": "平面桁架分析的節點法中，每個節點可列出幾個平衡方程式？", "options": ["$1$", "$2$", "$3$", "$4$"], "answer": 1, "explanation": "節點上各桿件的力交於一點屬共點力系，力矩自動為零，只有 $\\Sigma F_x=0$ 與 $\\Sigma F_y=0$ 兩式。易錯是把整體剛體的 $3$ 個方程套用到節點。" },
+    { "id": "uni_statics_u_009", "difficulty": 2, "question": "桁架中的二力構件 (two-force member)，其內力方向為？", "options": ["沿桿件的軸線方向", "垂直於桿件", "任意方向皆可", "與重力同向"], "answer": 0, "explanation": "二力構件僅在兩端受力且無其他外載，平衡要求兩力共線，故內力必沿桿件軸線（拉或壓）。易錯是誤以為桿內力可有垂直分量。" },
+    { "id": "uni_statics_u_010", "difficulty": 2, "question": "在 SI 制中，力矩的單位為？", "options": ["牛頓 (N)", "焦耳 (J)", "牛頓·公尺 ($N\\cdot m$)", "瓦特 (W)"], "answer": 2, "explanation": "力矩 $=$ 力 $\\times$ 距離，單位為 $N\\cdot m$。易錯是雖然量綱與焦耳相同，但力矩習慣以 $N\\cdot m$ 表示而不用能量單位焦耳。" },
+    { "id": "uni_statics_u_011", "difficulty": 2, "question": "桁架分析的截面法 (method of sections) 特別適合用於？", "options": ["求出每一根桿件的內力", "繪製桁架外觀", "僅求整體支承反力", "快速求少數幾根特定桿件的內力"], "answer": 3, "explanation": "截面法將桁架切開，對其中一段用三個平衡方程，可直接求出被切斷的特定桿件內力，免去逐一節點計算。易錯是誤以為它適合求所有桿件。" },
+    { "id": "uni_statics_u_012", "difficulty": 2, "question": "一個 $10\\,N$ 的力作用於力臂 $0.5\\,m$ 處，對支點產生的力矩為？", "options": ["$20\\,N\\cdot m$", "$5\\,N\\cdot m$", "$10.5\\,N\\cdot m$", "$0.05\\,N\\cdot m$"], "answer": 1, "explanation": "$M=F\\times d=10\\times0.5=5\\,N\\cdot m$。易錯是把力與距離相除或相加，力矩應為兩者相乘。" },
+    { "id": "uni_statics_u_013", "difficulty": 2, "question": "物體置於粗糙斜面上，當斜面角度增至物體恰將滑動時，$\\tan\\theta$ 等於？", "options": ["$\\mu_s$（靜摩擦係數）", "$1/\\mu_s$", "$\\mu_s^2$", "$\\sin\\theta$"], "answer": 0, "explanation": "臨界時沿面分量與最大靜摩擦力平衡，$mg\\sin\\theta=\\mu_s\\,mg\\cos\\theta$，兩邊約去 $mg$ 得 $\\tan\\theta=\\mu_s$，此角稱摩擦角。易錯是把正弦、餘弦關係弄反。" },
+    { "id": "uni_statics_u_014", "difficulty": 2, "question": "長 $4\\,m$、重 $200\\,N$ 的均勻樑水平放置於兩端支點上，每個支點的反作用力為？", "options": ["$200\\,N$", "$400\\,N$", "$100\\,N$", "$50\\,N$"], "answer": 2, "explanation": "重心在樑中點，因對稱兩支點平分總重 $200\\,N$，各承受 $100\\,N$。易錯是誤以為每個支點都要承受全部 $200\\,N$。" },
+    { "id": "uni_statics_u_015", "difficulty": 3, "question": "矩形截面（寬 $b$、高 $h$）對通過形心的水平軸之慣性矩為？", "options": ["$\\frac{bh^3}{3}$", "$\\frac{b^3h}{12}$", "$\\frac{bh^2}{12}$", "$\\frac{bh^3}{12}$"], "answer": 3, "explanation": "矩形對形心水平軸的面積慣性矩為 $I=\\frac{bh^3}{12}$。易錯是誤用對底邊的 $\\frac{bh^3}{3}$，兩者相差一個平行軸定理修正項。" },
+    { "id": "uni_statics_u_016", "difficulty": 3, "question": "三角形的形心到其底邊的距離為（設高為 $h$）？", "options": ["$\\frac{h}{2}$", "$\\frac{h}{3}$", "$\\frac{2h}{3}$", "$\\frac{h}{4}$"], "answer": 1, "explanation": "三角形形心位於距底邊 $\\frac{h}{3}$（即距頂點 $\\frac{2h}{3}$）處。易錯是把距底邊與距頂點的值對調，或誤用矩形的 $\\frac{h}{2}$。" },
+    { "id": "uni_statics_u_017", "difficulty": 3, "question": "桁架某節點僅連接兩根不共線桿件，且該節點無外力或支承作用，則此兩桿為？", "options": ["零力桿（內力為零）", "受最大拉力", "受最大壓力", "無法判斷"], "answer": 0, "explanation": "該節點兩桿不共線又無外載，由 $\\Sigma F_x=0$、$\\Sigma F_y=0$ 可推得兩桿內力皆為零，是零力桿。易錯是以為每根桿件必然承力。" },
+    { "id": "uni_statics_u_018", "difficulty": 3, "question": "槓桿支點左側 $2\\,m$ 處掛 $300\\,N$ 重物，欲在右側 $3\\,m$ 處施力使其平衡，需施力多少？", "options": ["$450\\,N$", "$300\\,N$", "$200\\,N$", "$150\\,N$"], "answer": 2, "explanation": "由力矩平衡 $300\\times2=F\\times3$，解得 $F=\\frac{600}{3}=200\\,N$。易錯是忽略力臂差異而直接以 $300\\,N$ 作答。" },
+    { "id": "uni_statics_u_019", "difficulty": 3, "question": "一般情況下，動摩擦係數與最大靜摩擦係數的大小關係為？", "options": ["動摩擦較大", "兩者恆相等", "動摩擦為零", "動摩擦通常略小於靜摩擦"], "answer": 3, "explanation": "多數材料的動摩擦係數略小於最大靜摩擦係數，故物體一旦開始滑動所需維持的力會下降。易錯是誤以為兩者相等或動摩擦較大。" },
+    { "id": "uni_statics_u_020", "difficulty": 3, "question": "兩個互相垂直的力 $3\\,N$ 與 $4\\,N$ 作用於同一點，其合力大小為？", "options": ["$7\\,N$", "$5\\,N$", "$1\\,N$", "$12\\,N$"], "answer": 1, "explanation": "垂直分力的合力用畢氏定理 $\\sqrt{3^2+4^2}=\\sqrt{25}=5\\,N$。易錯是把兩力直接相加得 $7\\,N$，只有同向力才可直接相加。" }
+  ]
+}

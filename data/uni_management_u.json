@@ -1,0 +1,27 @@
+{
+  "level": "uni",
+  "subject": "management",
+  "grade": 0,
+  "questions": [
+    { "id": "uni_management_u_001", "difficulty": 1, "question": "管理功能中，主管「衡量實際績效並與標準比較、採取矯正行動」屬於哪一項？", "options": ["規劃", "領導", "控制", "組織"], "answer": 2, "explanation": "控制是衡量績效、與標準比較並矯正偏差的管理功能。易與規劃混淆：規劃是事前設定目標與標準，控制則是事後檢核與矯正。" },
+    { "id": "uni_management_u_002", "difficulty": 1, "question": "被尊稱為「科學管理之父」的學者是？", "options": ["泰勒（Taylor）", "費堯（Fayol）", "韋伯（Weber）", "梅堯（Mayo）"], "answer": 0, "explanation": "泰勒提出科學管理，強調工作標準化與時間動作研究以提升效率。費堯屬管理程序學派、韋伯提官僚組織、梅堯主人群關係，主張各不相同。" },
+    { "id": "uni_management_u_003", "difficulty": 1, "question": "提出十四項管理原則與五大管理功能的學者是？", "options": ["泰勒", "梅堯", "韋伯", "費堯"], "answer": 3, "explanation": "費堯（Fayol）提出十四項管理原則及規劃、組織、指揮、協調、控制五大功能。泰勒著重基層作業效率，兩者著眼層次不同。" },
+    { "id": "uni_management_u_004", "difficulty": 1, "question": "馬斯洛需求層級理論中，最高層次的需求是？", "options": ["生理需求", "自我實現需求", "安全需求", "尊重需求"], "answer": 1, "explanation": "馬斯洛五層次由低到高為生理、安全、社會、尊重、自我實現，最高為自我實現。尊重需求為第四層，勿誤為最高層。" },
+    { "id": "uni_management_u_005", "difficulty": 1, "question": "SWOT 分析中，字母「S」代表？", "options": ["機會", "威脅", "優勢", "劣勢"], "answer": 2, "explanation": "SWOT 中 S 為 Strengths 優勢、W 為劣勢、O 為機會、T 為威脅。優勢屬內部條件，機會屬外部環境，兩者層面不同。" },
+    { "id": "uni_management_u_006", "difficulty": 1, "question": "組織原則中，「命令統一」（unity of command）是指？", "options": ["每位部屬只接受一位主管的指揮", "一位主管只能管少數部屬", "部門依功能別劃分", "決策集中於高層"], "answer": 0, "explanation": "命令統一指每位員工只向一位直屬主管負責，以免多頭馬車、責任不清。與控制幅度（一位主管管轄人數）是不同概念。" },
+    { "id": "uni_management_u_007", "difficulty": 1, "question": "赫茲伯格雙因子理論中，下列何者屬於「激勵因子」？", "options": ["薪資", "工作環境", "公司政策", "成就感"], "answer": 3, "explanation": "激勵因子與工作本身有關，如成就、賞識、責任、成長；薪資、環境、政策屬保健因子。保健因子只能消除不滿，無法真正帶來滿足。" },
+    { "id": "uni_management_u_008", "difficulty": 2, "question": "依明茲伯格（Mintzberg），管理者角色分為三大類，下列何者「不」屬之？", "options": ["人際角色", "資訊角色", "決策角色", "生產角色"], "answer": 3, "explanation": "明茲伯格將管理者角色分為人際、資訊、決策三類，並無「生產角色」。決策角色含創業家、危機處理者、資源分配者等。" },
+    { "id": "uni_management_u_009", "difficulty": 2, "question": "「矩陣式組織」最主要的缺點是？", "options": ["員工可能面臨雙重指揮衝突", "無法整合跨部門專業", "結構過於僵化", "缺乏專案彈性"], "answer": 0, "explanation": "矩陣式組織同時設功能主管與專案主管，違反命令統一，易生雙重指揮衝突。其優點反而是彈性與跨部門整合，勿把優缺點顛倒。" },
+    { "id": "uni_management_u_010", "difficulty": 2, "question": "麥格瑞格（McGregor）的 X 理論，對員工的基本假設是？", "options": ["樂於工作、能自我督導", "追求自我實現", "重視參與式管理", "天生厭惡工作、須嚴格監督"], "answer": 3, "explanation": "X 理論假設人性本惰、須以控制與懲罰驅使；Y 理論則假設員工願主動負責、追求成長。題意描述負面人性觀，屬 X 理論。" },
+    { "id": "uni_management_u_011", "difficulty": 2, "question": "波特（Porter）的一般性競爭策略「不」包括下列何者？", "options": ["成本領導", "多角化", "差異化", "集中化"], "answer": 1, "explanation": "波特三大一般性競爭策略為成本領導、差異化與集中（焦點）。多角化屬公司層級的成長策略，並非事業層級的競爭策略。" },
+    { "id": "uni_management_u_012", "difficulty": 2, "question": "「有限理性」（bounded rationality）決策觀點是由誰提出？", "options": ["泰勒", "費堯", "賽門（Simon）", "韋伯"], "answer": 2, "explanation": "賽門（H. Simon）提出有限理性與滿意決策，指決策者受資訊與能力限制，追求「夠好」而非最佳解。與完全理性的最佳化模型相對。" },
+    { "id": "uni_management_u_013", "difficulty": 2, "question": "佛洛姆（Vroom）的期望理論認為，激勵力量取決於？", "options": ["期望、工具性與價值（效價）三者之乘積", "僅取決於報酬多寡", "與他人比較的公平結果", "需求層級的高低"], "answer": 0, "explanation": "期望理論主張動機＝期望×工具性×效價，強調三者相乘，任一為零則激勵為零。與亞當斯以社會比較為核心的公平理論不同。" },
+    { "id": "uni_management_u_014", "difficulty": 2, "question": "當「控制幅度」（span of control）較大時，組織結構傾向於？", "options": ["高聳型結構", "扁平型結構", "矩陣型結構", "事業部結構"], "answer": 1, "explanation": "控制幅度大代表一位主管管轄較多部屬，管理層級隨之減少，形成扁平型組織。控制幅度小則層級增多，形成高聳型結構。" },
+    { "id": "uni_management_u_015", "difficulty": 3, "question": "依情境領導理論（Hersey & Blanchard），當部屬成熟度最低（R1）時，最適領導風格為？", "options": ["授權", "參與", "告知（指導）", "推銷"], "answer": 2, "explanation": "情境領導對低成熟度部屬採高任務、低關係的「告知（telling）」；隨成熟度提升依序為推銷、參與、授權。R1 應以明確指示為主。" },
+    { "id": "uni_management_u_016", "difficulty": 3, "question": "依亞當斯（Adams）公平理論，員工感到「報酬過低而不公平」時，下列何者為「最不可能」的反應？", "options": ["減少投入", "主動增加工作量", "要求加薪", "選擇離職"], "answer": 1, "explanation": "感到報酬過低者傾向降低投入、要求提高報酬或離開，以回復公平。主動增加工作量會擴大不公平感，故最不可能發生。" },
+    { "id": "uni_management_u_017", "difficulty": 3, "question": "平衡計分卡（BSC）「不」包含下列哪一構面？", "options": ["社會責任構面", "財務構面", "顧客構面", "學習與成長構面"], "answer": 0, "explanation": "卡普蘭與諾頓的平衡計分卡含財務、顧客、內部流程、學習與成長四大構面。社會責任並非其原始四構面之一。" },
+    { "id": "uni_management_u_018", "difficulty": 3, "question": "關於「集權」與「分權」，下列敘述何者正確？", "options": ["分權必然導致失控", "集權有利於地方彈性應變", "分權可加速基層決策並提升授能", "集權可完全避免決策風險"], "answer": 2, "explanation": "分權將決策權下放，能加快回應並激勵授能，但須搭配適當控制。集權有利一致性卻犧牲彈性，兩者各有取捨，非絕對優劣。" },
+    { "id": "uni_management_u_019", "difficulty": 3, "question": "薛恩（Schein）將組織文化分層，其中「最深且最難改變」的是？", "options": ["人工製品", "基本假定（潛在假設）", "外顯價值", "儀式與符號"], "answer": 1, "explanation": "薛恩將文化分為人工製品、外顯價值與基本假定三層，基本假定是內隱、被視為理所當然者，最深也最難改變。人工製品則最外顯易見。" },
+    { "id": "uni_management_u_020", "difficulty": 3, "question": "關於目標管理（MBO），下列敘述何者「錯誤」？", "options": ["強調上下共同設定目標", "目標應明確可衡量", "重視自我控制與定期回饋", "目標由高層單向指派、部屬不參與"], "answer": 3, "explanation": "MBO（杜拉克）強調主管與部屬共同參與設定明確、可衡量的目標並自我控制。單向指派、部屬不參與違反其精神，故為錯誤敘述。" }
+  ]
+}
