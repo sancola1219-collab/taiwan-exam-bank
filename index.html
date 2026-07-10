@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>台灣全學段題庫測驗｜國小・國中・高中・大學</title>
+<meta name="description" content="免費線上題庫測驗：涵蓋台灣國小、國中、高中、大學各科目，依108課綱編寫，自動改分、附詳解、錯題本，手機電腦都能用。">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <button class="brand" id="btn-home" title="回首頁">📚 <span>台灣全學段題庫</span></button>
+  <div class="topbar-actions">
+    <button class="icon-btn" id="btn-wrongbook" title="錯題本">📒<span class="badge" id="wrong-badge" hidden></span></button>
+    <button class="icon-btn" id="btn-history" title="成績紀錄">📊</button>
+    <button class="icon-btn" id="btn-theme" title="切換深色/淺色模式">🌙</button>
+  </div>
+</header>
+
+<main id="app">
+
+  <!-- 首頁：選學段 -->
+  <section class="screen" id="screen-home">
+    <div class="hero">
+      <h1>想考哪個階段？</h1>
+      <p class="hero-sub">教師依 108 課綱原創編寫 · 自動改分 · 每題附詳解</p>
+      <p class="hero-stats" id="home-stats"></p>
+    </div>
+    <div class="level-grid" id="level-grid"></div>
+    <div class="home-tip">
+      <p>💡 答錯的題目會自動存進「錯題本 📒」，可以隨時重考，直到全部弄懂為止。</p>
+    </div>
+  </section>
+
+  <!-- 設定：科目/年級/難度/題數 -->
+  <section class="screen" id="screen-setup" hidden>
+    <button class="back-link" id="setup-back">← 返回</button>
+    <h2 id="setup-title"></h2>
+    <div class="setup-block">
+      <h3>科目</h3>
+      <div class="chip-grid" id="subject-grid"></div>
+    </div>
+    <div class="setup-block" id="grade-block" hidden>
+      <h3>年級</h3>
+      <div class="chip-row" id="grade-row"></div>
+    </div>
+    <div class="setup-block" id="difficulty-block" hidden>
+      <h3>難度</h3>
+      <div class="chip-row" id="difficulty-row"></div>
+    </div>
+    <div class="setup-block" id="count-block" hidden>
+      <h3>題數</h3>
+      <div class="chip-row" id="count-row"></div>
+    </div>
+    <div class="start-wrap">
+      <button class="primary-btn" id="btn-start" disabled>開始測驗 ▶</button>
+      <p class="start-hint" id="start-hint"></p>
+    </div>
+  </section>
+
+  <!-- 測驗 -->
+  <section class="screen" id="screen-quiz" hidden>
+    <div class="quiz-top">
+      <button class="back-link" id="quiz-quit">✕ 離開</button>
+      <div class="quiz-meta" id="quiz-meta"></div>
+      <div class="timer" id="quiz-timer">00:00</div>
+    </div>
+    <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+    <div class="qcard">
+      <div class="qhead">
+        <span class="qnum" id="q-num"></span>
+        <span class="qdiff" id="q-diff"></span>
+      </div>
+      <div class="qtext" id="q-text"></div>
+      <div class="options" id="q-options"></div>
+    </div>
+    <div class="quiz-nav">
+      <button class="nav-btn" id="btn-prev">← 上一題</button>
+      <button class="nav-btn" id="btn-next">下一題 →</button>
+      <button class="primary-btn" id="btn-submit" hidden>交卷 ✔</button>
+    </div>
+    <div class="numstrip" id="numstrip"></div>
+  </section>
+
+  <!-- 成績 -->
+  <section class="screen" id="screen-result" hidden>
+    <div class="result-card">
+      <div class="result-score" id="result-score"></div>
+      <div class="result-sub" id="result-sub"></div>
+      <div class="result-msg" id="result-msg"></div>
+      <div class="result-actions">
+        <button class="primary-btn" id="btn-share">🔗 分享成績</button>
+        <button class="nav-btn" id="btn-retry">再考一次</button>
+        <button class="nav-btn" id="btn-result-home">回首頁</button>
+      </div>
+      <p class="result-note" id="result-note"></p>
+    </div>
+    <h3 class="review-title">📖 逐題詳解</h3>
+    <div id="review-list"></div>
+  </section>
+
+  <!-- 錯題本 -->
+  <section class="screen" id="screen-wrongbook" hidden>
+    <button class="back-link" id="wrong-back">← 返回</button>
+    <h2>📒 錯題本</h2>
+    <p class="screen-sub">答錯的題目都在這裡。重考時答對的題目會自動移除。</p>
+    <div class="wrong-actions">
+      <button class="primary-btn" id="btn-retake-wrong">重考全部錯題 ▶</button>
+      <button class="danger-btn" id="btn-clear-wrong">清空錯題本</button>
+    </div>
+    <div id="wrong-list"></div>
+  </section>
+
+  <!-- 成績紀錄 -->
+  <section class="screen" id="screen-history" hidden>
+    <button class="back-link" id="history-back">← 返回</button>
+    <h2>📊 成績紀錄</h2>
+    <div class="wrong-actions">
+      <button class="danger-btn" id="btn-clear-history">清空紀錄</button>
+    </div>
+    <div id="history-list"></div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>本站題目皆為依台灣 108 課綱編寫之原創題目與詳解，供自主學習使用，非任何學校之真實試題。</p>
+  <p>📚 台灣全學段題庫 · 免費分享使用</p>
+</footer>
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<script defer src="app.js"></script>
+</body>
+</html>
