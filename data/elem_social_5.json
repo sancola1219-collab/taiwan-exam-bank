@@ -7,7 +7,12 @@
       "id": "elem_social_5_001",
       "difficulty": 1,
       "question": "台灣的最高峰是哪一座山？",
-      "options": ["玉山", "雪山", "合歡山", "阿里山"],
+      "options": [
+        "玉山",
+        "雪山",
+        "合歡山",
+        "阿里山"
+      ],
       "answer": 0,
       "explanation": "玉山主峰海拔約3952公尺，是台灣也是東北亞的最高峰。雪山是台灣第二高峰，阿里山則以日出、雲海和森林鐵路聞名，但高度都不及玉山。"
     },
@@ -15,7 +20,12 @@
       "id": "elem_social_5_002",
       "difficulty": 1,
       "question": "台灣最長的河川是哪一條？",
-      "options": ["淡水河", "濁水溪", "高屏溪", "秀姑巒溪"],
+      "options": [
+        "淡水河",
+        "濁水溪",
+        "高屏溪",
+        "秀姑巒溪"
+      ],
       "answer": 1,
       "explanation": "濁水溪全長約186公里，是台灣最長的河川，因河水夾帶大量泥沙而呈混濁的顏色，因此得名。它也是彰化縣與雲林縣的界河，下游平原是台灣重要的農業區。"
     },
@@ -23,7 +33,12 @@
       "id": "elem_social_5_003",
       "difficulty": 1,
       "question": "十七世紀荷蘭人來到台灣後，在哪裡建立熱蘭遮城作為統治據點？",
-      "options": ["基隆", "淡水", "台南安平", "澎湖"],
+      "options": [
+        "基隆",
+        "淡水",
+        "台南安平",
+        "澎湖"
+      ],
       "answer": 2,
       "explanation": "荷蘭人於1624年在今天的台南安平建立熱蘭遮城，作為統治和貿易的中心，這座城堡的遺跡就是現在的安平古堡。同一時期西班牙人則佔領台灣北部的基隆、淡水一帶。"
     },
@@ -31,7 +46,12 @@
       "id": "elem_social_5_004",
       "difficulty": 1,
       "question": "1662年，鄭成功率軍打敗哪一國人，取得台灣作為根據地？",
-      "options": ["西班牙人", "日本人", "英國人", "荷蘭人"],
+      "options": [
+        "西班牙人",
+        "日本人",
+        "英國人",
+        "荷蘭人"
+      ],
       "answer": 3,
       "explanation": "鄭成功率領軍隊圍攻熱蘭遮城，迫使統治台灣的荷蘭人投降離開，開啟了鄭氏（明鄭）治理台灣的時期。西班牙人則早在1642年就已被荷蘭人趕出台灣北部，並不是被鄭成功打敗的。"
     },
@@ -39,7 +59,12 @@
       "id": "elem_social_5_005",
       "difficulty": 1,
       "question": "台灣的人口和主要都市，大多集中分布在哪裡？",
-      "options": ["中央山地", "西部平原", "東部海岸", "離島地區"],
+      "options": [
+        "中央山地",
+        "西部平原",
+        "東部海岸",
+        "離島地區"
+      ],
       "answer": 1,
       "explanation": "台灣西部地形平坦、開發較早、交通便利，人口和台北、台中、高雄等大都市都集中在西部。中央山地地勢高峻，東部平原狹小，人口相對較少，形成西密東疏的人口分布。"
     },
@@ -47,7 +72,12 @@
       "id": "elem_social_5_006",
       "difficulty": 1,
       "question": "北回歸線通過台灣中南部，使台灣的氣候有什麼特色？",
-      "options": ["全島屬於寒帶氣候", "全島終年下雪", "大致以北回歸線為界，南部屬熱帶、北部屬副熱帶", "全島乾燥少雨"],
+      "options": [
+        "全島屬於寒帶氣候",
+        "全島終年下雪",
+        "大致以北回歸線為界，南部屬熱帶、北部屬副熱帶",
+        "全島乾燥少雨"
+      ],
       "answer": 2,
       "explanation": "北回歸線通過嘉義、花蓮一帶，大致以此為界，以南屬於熱帶氣候，以北屬於副熱帶氣候，全島普遍溫暖多雨。嘉義水上和花蓮瑞穗、豐濱都設有北回歸線標誌，是著名的地理景點。"
     },
@@ -55,7 +85,12 @@
       "id": "elem_social_5_007",
       "difficulty": 1,
       "question": "位於台東、出土大量石板棺與玉器的著名史前文化遺址是哪一個？",
-      "options": ["卑南遺址", "龐貝城", "兵馬俑", "吳哥窟"],
+      "options": [
+        "卑南遺址",
+        "龐貝城",
+        "兵馬俑",
+        "吳哥窟"
+      ],
       "answer": 0,
       "explanation": "卑南遺址位於台東市，是台灣規模最大的史前遺址之一，出土了大量石板棺、玉器和陶器，現設有史前文化博物館的卑南遺址公園。龐貝城在義大利、兵馬俑在中國、吳哥窟在柬埔寨，都不在台灣。"
     },
@@ -63,7 +98,12 @@
       "id": "elem_social_5_008",
       "difficulty": 2,
       "question": "清領時期，大量移民渡海來到台灣開墾，他們主要來自哪裡？",
-      "options": ["日本", "韓國", "東南亞各國", "中國的福建、廣東一帶"],
+      "options": [
+        "日本",
+        "韓國",
+        "東南亞各國",
+        "中國的福建、廣東一帶"
+      ],
       "answer": 3,
       "explanation": "清領時期來台的漢人移民，主要來自福建的漳州、泉州和廣東的客家地區，他們冒險渡過俗稱「黑水溝」的台灣海峽來台開墾。這些移民帶來的語言、信仰和習俗，深深影響今日台灣的文化。"
     },
@@ -71,7 +111,12 @@
       "id": "elem_social_5_009",
       "difficulty": 2,
       "question": "縱貫台灣南北、有「台灣屋脊」之稱的山脈是哪一座？",
-      "options": ["阿里山山脈", "海岸山脈", "中央山脈", "雪山山脈"],
+      "options": [
+        "阿里山山脈",
+        "海岸山脈",
+        "中央山脈",
+        "雪山山脈"
+      ],
       "answer": 2,
       "explanation": "中央山脈北起蘇澳附近、南到鵝鑾鼻，縱貫台灣本島，是台灣最長的山脈，因此被稱為台灣屋脊。它像一道高牆隔開東西部，也影響各地的氣候和交通發展。"
     },
@@ -79,7 +124,12 @@
       "id": "elem_social_5_010",
       "difficulty": 2,
       "question": "十七世紀時，西班牙人曾經佔領台灣的哪個地區？",
-      "options": ["南部的台南一帶", "北部的基隆、淡水一帶", "中部的鹿港一帶", "澎湖群島"],
+      "options": [
+        "南部的台南一帶",
+        "北部的基隆、淡水一帶",
+        "中部的鹿港一帶",
+        "澎湖群島"
+      ],
       "answer": 1,
       "explanation": "西班牙人於1626年起佔領台灣北部，在基隆和平島建聖薩爾瓦多城、在淡水建聖多明哥城，淡水著名古蹟紅毛城就與這段歷史有關。後來西班牙人在1642年被南部的荷蘭人擊敗，退出台灣。"
     },
@@ -87,7 +137,12 @@
       "id": "elem_social_5_011",
       "difficulty": 2,
       "question": "台灣的河川大多長度短、水流湍急，主要原因是什麼？",
-      "options": ["山地高聳且島嶼東西距離短，河川坡度大", "台灣降雨量太少", "河川都是人工開鑿的", "台灣地形非常平坦"],
+      "options": [
+        "山地高聳且島嶼東西距離短，河川坡度大",
+        "台灣降雨量太少",
+        "河川都是人工開鑿的",
+        "台灣地形非常平坦"
+      ],
       "answer": 0,
       "explanation": "台灣中央山地高峻，而島嶼東西寬度不大，河川從高山流入海洋的距離短、落差大，因此大多短小湍急。這樣的河川不利航行，且水量隨季節變化大，所以台灣需要興建水庫來蓄水調節。"
     },
@@ -95,7 +150,12 @@
       "id": "elem_social_5_012",
       "difficulty": 2,
       "question": "清領後期台灣開港通商後，出口到國外的主要商品是哪些？",
-      "options": ["石油和天然氣", "汽車和機械", "電腦和手機", "茶葉、蔗糖和樟腦"],
+      "options": [
+        "石油和天然氣",
+        "汽車和機械",
+        "電腦和手機",
+        "茶葉、蔗糖和樟腦"
+      ],
       "answer": 3,
       "explanation": "清領後期開放淡水、基隆、安平、打狗等港口通商後，茶葉、蔗糖和樟腦成為台灣三大出口商品，被稱為「台灣三寶」。北部因種茶和生產樟腦而興起，大稻埕就是當時著名的茶葉集散地。"
     },
@@ -103,7 +163,12 @@
       "id": "elem_social_5_013",
       "difficulty": 2,
       "question": "大量人口從鄉村移入都市後，都市地區可能產生什麼問題？",
-      "options": ["土地變得更寬廣", "交通擁擠、居住空間不足等問題", "空氣品質一定變好", "物價一定大幅下降"],
+      "options": [
+        "土地變得更寬廣",
+        "交通擁擠、居住空間不足等問題",
+        "空氣品質一定變好",
+        "物價一定大幅下降"
+      ],
       "answer": 1,
       "explanation": "人口大量集中都市，容易造成交通擁擠、房價高漲、居住空間不足和環境污染等問題。相對地，鄉村則面臨人口外流、老化的困境，如何平衡城鄉發展是台灣重要的課題。"
     },
@@ -111,7 +176,12 @@
       "id": "elem_social_5_014",
       "difficulty": 2,
       "question": "新竹科學園區是台灣重要的經濟基地，主要以什麼產業聞名？",
-      "options": ["漁業養殖", "傳統紡織業", "半導體等高科技產業", "畜牧業"],
+      "options": [
+        "漁業養殖",
+        "傳統紡織業",
+        "半導體等高科技產業",
+        "畜牧業"
+      ],
       "answer": 2,
       "explanation": "新竹科學園區聚集許多半導體、電子資訊等高科技公司，生產的晶片在全世界佔有重要地位，被視為台灣經濟的重要支柱。台灣的經濟活動已從早期的農業、加工出口，逐步轉型為高科技產業。"
     },
@@ -119,7 +189,12 @@
       "id": "elem_social_5_015",
       "difficulty": 3,
       "question": "明鄭時期，陳永華在台南倡議興建、被稱為「全臺首學」的重要教育設施是什麼？",
-      "options": ["總統府", "紅毛城", "億載金城", "孔廟"],
+      "options": [
+        "總統府",
+        "紅毛城",
+        "億載金城",
+        "孔廟"
+      ],
       "answer": 3,
       "explanation": "陳永華輔佐鄭氏治理台灣時，倡議興建台南孔廟並設立學校，推動儒學教育，因此台南孔廟有「全臺首學」之稱。紅毛城與西班牙、荷蘭時期有關，億載金城則是清領後期沈葆楨所建的砲台。"
     },
@@ -127,7 +202,12 @@
       "id": "elem_social_5_016",
       "difficulty": 3,
       "question": "清領後期，在台灣推動興建鐵路、架設電報線等現代化建設的巡撫是誰？",
-      "options": ["劉銘傳", "鄭成功", "鄭經", "施琅"],
+      "options": [
+        "劉銘傳",
+        "鄭成功",
+        "鄭經",
+        "施琅"
+      ],
       "answer": 0,
       "explanation": "劉銘傳是台灣建省後的首任巡撫，他推動興建台灣第一條客運鐵路、架設電報線、開辦新式學堂等現代化建設。鄭成功和鄭經屬於更早的明鄭時期，施琅則是率清軍攻取台灣的將領。"
     },
@@ -135,7 +215,12 @@
       "id": "elem_social_5_017",
       "difficulty": 3,
       "question": "台灣冬季時，北部常常陰雨綿綿，南部卻乾燥少雨，主要原因是什麼？",
-      "options": ["南部的海拔比較高", "北部人口多，容易造成降雨", "北部正對東北季風的迎風面，水氣豐富", "南部距離海洋太遠"],
+      "options": [
+        "南部的海拔比較高",
+        "北部人口多，容易造成降雨",
+        "北部正對東北季風的迎風面，水氣豐富",
+        "南部距離海洋太遠"
+      ],
       "answer": 2,
       "explanation": "冬季吹東北季風，季風經過海面帶來水氣，台灣北部和東北部位於迎風面，所以基隆、宜蘭一帶冬雨綿綿。南部位於中央山脈的背風側，水氣被山脈攔截，冬季因此乾燥晴朗。"
     },
@@ -143,7 +228,12 @@
       "id": "elem_social_5_018",
       "difficulty": 3,
       "question": "在台東發現的長濱文化，是台灣目前已知最古老的史前文化，它屬於哪個時代？",
-      "options": ["舊石器時代", "新石器時代", "金屬器時代", "已有文字記載的歷史時代"],
+      "options": [
+        "舊石器時代",
+        "新石器時代",
+        "金屬器時代",
+        "已有文字記載的歷史時代"
+      ],
       "answer": 0,
       "explanation": "長濱文化距今約數萬年，當時的人們以打製石器獵捕採集維生，屬於舊石器時代。台灣史前文化依序經歷舊石器、新石器到金屬器時代，例如圓山文化屬新石器時代、十三行文化已進入金屬器時代。"
     },
@@ -151,7 +241,12 @@
       "id": "elem_social_5_019",
       "difficulty": 3,
       "question": "台灣目前面臨的人口變化趨勢，下列敘述何者正確？",
-      "options": ["出生率快速上升", "人口快速爆增", "年輕人口比例大幅增加", "少子化與高齡化日益明顯"],
+      "options": [
+        "出生率快速上升",
+        "人口快速爆增",
+        "年輕人口比例大幅增加",
+        "少子化與高齡化日益明顯"
+      ],
       "answer": 3,
       "explanation": "台灣近年出生的嬰兒數持續偏低，老年人口比例不斷升高，形成少子化與高齡化的趨勢。這會影響未來的勞動力、學校招生和老人照顧需求，是政府和社會必須共同面對的重要課題。"
     },
@@ -159,9 +254,175 @@
       "id": "elem_social_5_020",
       "difficulty": 3,
       "question": "俗諺「一府二鹿三艋舺」描述的是什麼？",
-      "options": ["台灣的三座高山", "清領時期台灣由南而北依序興起的三個重要港口市街", "台灣的三條主要河川", "日治時期的三座火車站"],
+      "options": [
+        "台灣的三座高山",
+        "清領時期台灣由南而北依序興起的三個重要港口市街",
+        "台灣的三條主要河川",
+        "日治時期的三座火車站"
+      ],
       "answer": 1,
       "explanation": "「一府二鹿三艋舺」指清領時期最繁榮的三個市街：台南府城、彰化鹿港和台北艋舺（今萬華），反映台灣開發由南往北的順序。這三個地方都因港口貿易而興盛，至今仍保留許多古蹟和老街。"
+    },
+    {
+      "id": "elem_social_5_021",
+      "difficulty": 1,
+      "question": "台灣的原住民族在語言和文化上，屬於分布範圍廣大的哪一個族群系統？",
+      "options": [
+        "南島語族",
+        "印歐語族",
+        "阿拉伯民族",
+        "斯拉夫民族"
+      ],
+      "answer": 0,
+      "explanation": "台灣原住民族屬於南島語族，這個語族分布極廣，西到非洲外海的馬達加斯加、東到南美洲外海的復活節島，學者甚至認為台灣可能是南島語族的重要起源地之一。常見的錯誤是把原住民和後來移入的漢人混為一談，其實兩者在語言和文化上有明顯差異。"
+    },
+    {
+      "id": "elem_social_5_022",
+      "difficulty": 2,
+      "question": "日治時期，由工程師八田與一主持興建、大幅改善嘉南平原灌溉條件的大型水利工程是什麼？",
+      "options": [
+        "台灣縱貫鐵路",
+        "嘉南大圳與烏山頭水庫",
+        "阿里山森林鐵路",
+        "蘇花公路"
+      ],
+      "answer": 1,
+      "explanation": "八田與一主持興建嘉南大圳與烏山頭水庫，把原本缺水的嘉南平原變成台灣重要的稻米與甘蔗產區。縱貫鐵路和森林鐵路都是交通建設而不是水利工程，這是同學最容易混淆的地方。"
+    },
+    {
+      "id": "elem_social_5_023",
+      "difficulty": 3,
+      "question": "台灣正好位於歐亞板塊與菲律賓海板塊的交界帶上，這樣的位置使台灣容易發生下列哪一種自然現象？",
+      "options": [
+        "經常發生沙塵暴",
+        "冬季普遍降雪",
+        "地震頻繁發生",
+        "土地終年乾旱"
+      ],
+      "answer": 2,
+      "explanation": "台灣處在兩大板塊互相推擠的交界帶，地殼並不穩定，因此地震頻繁，1999年的九二一大地震就是著名的例子。板塊擠壓同時也造就了高聳的山脈與豐富的溫泉，這和沙塵暴、降雪等現象並沒有直接關係。"
+    },
+    {
+      "id": "elem_social_5_024",
+      "difficulty": 1,
+      "question": "台灣的颱風大多集中在哪一段時間侵襲，常帶來強風和豪雨？",
+      "options": [
+        "寒冷的冬季",
+        "乾燥的春季",
+        "一年四季平均侵襲",
+        "夏季到秋季"
+      ],
+      "answer": 3,
+      "explanation": "颱風多形成於夏季到秋季（大約七到九月）的西北太平洋，是台灣這段期間常見的天氣現象。颱風雖然是重要的水資源來源，卻也可能造成淹水、坍方等災害，冬季則幾乎不會有颱風侵襲。"
+    },
+    {
+      "id": "elem_social_5_025",
+      "difficulty": 2,
+      "question": "澎湖群島是由古代火山活動形成的島嶼，當地最具代表性、常呈現六角柱狀的天然地形是什麼？",
+      "options": [
+        "珊瑚礁台地",
+        "柱狀玄武岩",
+        "石灰岩溶洞",
+        "堆積的沙丘"
+      ],
+      "answer": 1,
+      "explanation": "澎湖群島由火山噴發的岩漿冷卻形成，最著名的就是排列成六角柱狀的玄武岩，其中以桶盤嶼一帶最為壯觀。珊瑚礁地形主要出現在墾丁、小琉球等地，並不是澎湖的代表性地形，這一點要特別分清楚。"
+    },
+    {
+      "id": "elem_social_5_026",
+      "difficulty": 2,
+      "question": "西元1949年，因國共內戰失利，哪一個政府將中央機關遷移到台灣？",
+      "options": [
+        "清朝政府",
+        "台灣總督府",
+        "中華民國政府",
+        "荷蘭東印度公司"
+      ],
+      "answer": 2,
+      "explanation": "1949年中華民國政府在國共內戰中失利，將中央政府遷到台灣，台北成為中央政府所在地，也有大量軍民隨之來台，形成各地的眷村。台灣總督府是日治時期的統治機關，1945年二戰結束後就已經結束，時間並不相符。"
+    },
+    {
+      "id": "elem_social_5_027",
+      "difficulty": 1,
+      "question": "為了讓自然資源能夠長久使用，下列哪一種做法最符合「永續發展」的精神？",
+      "options": [
+        "做好資源回收並節約用水用電",
+        "大量砍伐森林換取木材",
+        "把垃圾直接倒進海洋",
+        "毫無限制地捕撈魚類"
+      ],
+      "answer": 0,
+      "explanation": "永續發展強調在滿足現在需求的同時，也要保護環境、留給後代足夠的資源，因此做好資源回收、節約水電最符合這種精神。大量砍伐、任意棄置垃圾或過度捕撈都會破壞環境，讓資源加速枯竭。"
+    },
+    {
+      "id": "elem_social_5_028",
+      "difficulty": 3,
+      "question": "根據下方某地全年的氣溫與降水圖，關於該地氣候的敘述，何者正確？",
+      "figure": "<svg viewBox=\"0 0 260 180\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"130\" y=\"13\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">某地全年氣溫與降水</text><rect x=\"36\" y=\"26\" width=\"12\" height=\"9\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"52\" y=\"35\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">雨量</text><line x1=\"175\" y1=\"31\" x2=\"193\" y2=\"31\" stroke=\"#ef4444\"/><text x=\"197\" y=\"35\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">氣溫</text><line x1=\"30\" y1=\"25\" x2=\"30\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"30\" y1=\"150\" x2=\"252\" y2=\"150\" stroke=\"currentColor\"/><rect x=\"35\" y=\"132.5\" width=\"12\" height=\"17.5\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"53\" y=\"129\" width=\"12\" height=\"21\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"71\" y=\"122\" width=\"12\" height=\"28\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"89\" y=\"115\" width=\"12\" height=\"35\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"107\" y=\"87\" width=\"12\" height=\"63\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"125\" y=\"45\" width=\"12\" height=\"105\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"143\" y=\"38\" width=\"12\" height=\"112\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"161\" y=\"45\" width=\"12\" height=\"105\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"179\" y=\"87\" width=\"12\" height=\"63\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"197\" y=\"122\" width=\"12\" height=\"28\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"215\" y=\"132.5\" width=\"12\" height=\"17.5\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"233\" y=\"136\" width=\"12\" height=\"14\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><polyline points=\"41,102 59,102 77,96 95,84 113,75 131,66 149,63 167,63 185,69 203,78 221,90 239,99\" fill=\"none\" stroke=\"#ef4444\"/><text x=\"41\" y=\"164\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">1</text><text x=\"59\" y=\"164\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">2</text><text x=\"77\" y=\"164\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">3</text><text x=\"95\" y=\"164\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">4</text><text x=\"113\" y=\"164\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">5</text><text x=\"131\" y=\"164\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">6</text><text x=\"149\" y=\"164\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">7</text><text x=\"167\" y=\"164\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">8</text><text x=\"185\" y=\"164\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">9</text><text x=\"203\" y=\"164\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">10</text><text x=\"221\" y=\"164\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">11</text><text x=\"239\" y=\"164\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">12</text><text x=\"130\" y=\"177\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">月份</text></svg>",
+      "options": [
+        "全年氣溫都在攝氏0度以下",
+        "冬季（12月至2月）降水量最多",
+        "各月降水量幾乎完全相同",
+        "夏季高溫又多雨，冬季則較為乾燥"
+      ],
+      "answer": 3,
+      "explanation": "從圖中可看出氣溫折線在夏季（6至8月）最高，雨量的長條也在夏季明顯偏高，冬季的雨量長條則相對很短，因此是夏季高溫多雨、冬季較乾。圖中氣溫折線全年都在0度以上，且各月雨量差異很大，所以其他選項都與圖不符。"
+    },
+    {
+      "id": "elem_social_5_029",
+      "difficulty": 3,
+      "question": "下圖是某國就業人口在三級產業所占的比例，根據圖判斷，該國三級產業的就業比例比一級產業多了幾個百分點？",
+      "figure": "<svg viewBox=\"0 0 300 180\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M100,90 L100,30 A60,60 0 0 1 148.54,54.73 Z\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><path d=\"M100,90 L148.54,54.73 A60,60 0 0 1 118.54,147.06 Z\" fill=\"#ef4444\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><path d=\"M100,90 L118.54,147.06 A60,60 0 1 1 100,30 Z\" fill=\"#22c55e\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"117\" y=\"56\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">15%</text><text x=\"134\" y=\"104\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">30%</text><text x=\"66\" y=\"98\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">55%</text><rect x=\"196\" y=\"48\" width=\"14\" height=\"14\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"216\" y=\"59\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">一級產業 15%</text><rect x=\"196\" y=\"83\" width=\"14\" height=\"14\" fill=\"#ef4444\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"216\" y=\"94\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">二級產業 30%</text><rect x=\"196\" y=\"118\" width=\"14\" height=\"14\" fill=\"#22c55e\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"216\" y=\"129\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">三級產業 55%</text></svg>",
+      "options": [
+        "40個百分點",
+        "15個百分點",
+        "30個百分點",
+        "55個百分點"
+      ],
+      "answer": 0,
+      "explanation": "由圓餅圖可知三級產業占55%、一級產業占15%，兩者相差55減15等於40個百分點。常見的錯誤是直接把某一項的數字（例如55%或15%）當成答案，卻忘了題目問的是兩者相差多少。"
+    },
+    {
+      "id": "elem_social_5_030",
+      "difficulty": 1,
+      "question": "下方長條圖是甲、乙、丙、丁四個都市的人口數，其中人口第二多的是哪一個都市？",
+      "figure": "<svg viewBox=\"0 0 260 180\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"40\" y=\"12\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">單位：萬人</text><line x1=\"34\" y1=\"12\" x2=\"34\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"34\" y1=\"150\" x2=\"250\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"34\" y1=\"105\" x2=\"250\" y2=\"105\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"34\" y1=\"60\" x2=\"250\" y2=\"60\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"34\" y1=\"15\" x2=\"250\" y2=\"15\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><text x=\"30\" y=\"109\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">100</text><text x=\"30\" y=\"64\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">200</text><text x=\"30\" y=\"19\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">300</text><rect x=\"50\" y=\"82.5\" width=\"30\" height=\"67.5\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"100\" y=\"28.5\" width=\"30\" height=\"121.5\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"150\" y=\"60\" width=\"30\" height=\"90\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"200\" y=\"109.5\" width=\"30\" height=\"40.5\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"65\" y=\"78\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">150</text><text x=\"115\" y=\"24\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">270</text><text x=\"165\" y=\"55\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">200</text><text x=\"215\" y=\"105\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">90</text><text x=\"65\" y=\"164\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">甲市</text><text x=\"115\" y=\"164\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">乙市</text><text x=\"165\" y=\"164\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">丙市</text><text x=\"215\" y=\"164\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">丁市</text></svg>",
+      "options": [
+        "甲市",
+        "丙市",
+        "乙市",
+        "丁市"
+      ],
+      "answer": 1,
+      "explanation": "從長條圖的高度可看出乙市人口最多（270萬人），丙市次之（200萬人），因此人口第二多的是丙市。同學常常只注意最高的長條而選乙市，卻忽略題目問的是「第二多」，判讀時要看清楚問題再作答。"
+    },
+    {
+      "id": "elem_social_5_031",
+      "difficulty": 2,
+      "question": "根據下方的地圖與指北標，車站位於學校的哪一個方位？",
+      "figure": "<svg viewBox=\"0 0 220 180\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"8\" y=\"8\" width=\"204\" height=\"164\" fill=\"none\" stroke=\"currentColor\"/><line x1=\"35\" y1=\"58\" x2=\"35\" y2=\"28\" stroke=\"currentColor\"/><polygon points=\"35,22 31,32 39,32\" fill=\"currentColor\" stroke=\"none\"/><text x=\"35\" y=\"18\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">北</text><circle cx=\"105\" cy=\"80\" r=\"4\" fill=\"#3b82f6\" stroke=\"currentColor\"/><text x=\"112\" y=\"78\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">學校</text><circle cx=\"160\" cy=\"135\" r=\"4\" fill=\"#ef4444\" stroke=\"currentColor\"/><text x=\"167\" y=\"133\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">車站</text><circle cx=\"60\" cy=\"140\" r=\"4\" fill=\"#22c55e\" stroke=\"currentColor\"/><text x=\"28\" y=\"144\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">公園</text></svg>",
+      "options": [
+        "西北方",
+        "東北方",
+        "東南方",
+        "西南方"
+      ],
+      "answer": 2,
+      "explanation": "地圖上方為北、右方為東，圖中車站位在學校的右下方，也就是偏東又偏南，因此車站在學校的東南方。判讀方位時要先找到指北標確定方向，再看目標相對於基準點是偏哪一邊，避免上下左右看反。"
+    },
+    {
+      "id": "elem_social_5_032",
+      "difficulty": 3,
+      "question": "根據下方的地圖與比例尺，圖上的甲、乙兩地之間，實際距離大約是多少公里？",
+      "figure": "<svg viewBox=\"0 0 260 140\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"40\" cy=\"50\" r=\"4\" fill=\"#3b82f6\" stroke=\"currentColor\"/><circle cx=\"200\" cy=\"50\" r=\"4\" fill=\"#3b82f6\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"50\" x2=\"200\" y2=\"50\" stroke=\"currentColor\"/><text x=\"32\" y=\"46\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">甲</text><text x=\"208\" y=\"46\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">乙</text><text x=\"120\" y=\"40\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">圖上距離 4 公分</text><line x1=\"40\" y1=\"95\" x2=\"80\" y2=\"95\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"90\" x2=\"40\" y2=\"100\" stroke=\"currentColor\"/><line x1=\"80\" y1=\"90\" x2=\"80\" y2=\"100\" stroke=\"currentColor\"/><text x=\"60\" y=\"114\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">1 公分</text><text x=\"92\" y=\"99\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">＝ 實際 5 公里</text></svg>",
+      "options": [
+        "4公里",
+        "5公里",
+        "9公里",
+        "20公里"
+      ],
+      "answer": 3,
+      "explanation": "比例尺顯示圖上1公分代表實際5公里，甲乙兩地在圖上相距4公分，所以實際距離是4乘以5等於20公里。常見錯誤是把圖上的4公分或比例尺的5公里直接當成答案，卻沒有把兩個數字相乘。"
     }
   ]
 }

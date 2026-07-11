@@ -262,6 +262,167 @@
       ],
       "answer": 1,
       "explanation": "選結束時間最早的活動能替後面留下最多可用時間，可用交換論證證明此策略得到最佳解，先把活動依結束時間排序再逐一挑選即可。易錯處是憑直覺選「最早開始」或「最短時間」：例如一個很早開始但持續極久的活動會擋掉多場短活動，而最短活動若橫跨兩場長活動的交界也會壞事。"
+    },
+    {
+      "id": "uni_algorithm_u_021",
+      "difficulty": 1,
+      "question": "插入排序（insertion sort）在「最佳情況」下（輸入資料已由小到大排好）的時間複雜度為何？",
+      "options": [
+        "O(n)",
+        "O(n log n)",
+        "O(n²)",
+        "O(1)"
+      ],
+      "answer": 0,
+      "explanation": "最佳情況下每個元素只需與前一個元素比較一次就確定位置、不必搬移，比較次數約 n-1，故為 O(n)。易錯處是與最壞情況 O(n²) 混淆：當資料完全反序時每個元素都要往前一路比較與搬移，才會退化為 O(n²)。"
+    },
+    {
+      "id": "uni_algorithm_u_022",
+      "difficulty": 1,
+      "question": "對 n 筆「未排序」的資料進行循序搜尋（linear search），在最壞情況下需要比較幾次才能確定結果？",
+      "options": [
+        "1 次",
+        "log₂n 次",
+        "n 次",
+        "n² 次"
+      ],
+      "answer": 2,
+      "explanation": "循序搜尋逐一比對每個元素，最壞情況（目標在最後一筆或不存在）必須把 n 筆全部看過，需比較 n 次，故為 O(n)。易錯處是套用二分搜尋的 log₂n，但二分搜尋要求資料先排序，未排序資料無法使用。"
+    },
+    {
+      "id": "uni_algorithm_u_023",
+      "difficulty": 1,
+      "question": "下圖三條曲線分別代表 O(log n)、O(n)、O(n²) 三種成長趨勢。其中哪一條（甲、乙、丙）代表成長最快的 O(n²)？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"30\" y1=\"150\" x2=\"222\" y2=\"150\" stroke=\"currentColor\"/><text x=\"16\" y=\"28\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">值</text><text x=\"210\" y=\"168\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">n</text><path d=\"M30,150 Q140,150 200,25\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><path d=\"M30,150 L215,60\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2\"/><path d=\"M30,150 Q90,120 215,112\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><text x=\"203\" y=\"22\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">丙</text><text x=\"219\" y=\"58\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">乙</text><text x=\"219\" y=\"115\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">甲</text></svg>",
+      "options": [
+        "甲",
+        "乙",
+        "丙",
+        "三條的成長速率相同"
+      ],
+      "answer": 2,
+      "explanation": "當 n 很大時，n² 的值遠大於 n 與 log n，因此代表 O(n²) 的曲線會最陡、最快衝向圖的上方，即圖中的丙。易錯處是把成長最平緩、幾乎貼著橫軸的甲（O(log n)）誤認為主角，或誤以為三者成長速率相同。"
+    },
+    {
+      "id": "uni_algorithm_u_024",
+      "difficulty": 1,
+      "question": "關於選擇排序（selection sort），下列敘述何者正確？",
+      "options": [
+        "即使輸入資料已排序，其比較次數仍約為 n²/2，最佳與最壞情況都是 O(n²)",
+        "對已排序的資料只需 O(n) 時間即可完成",
+        "選擇排序是一種穩定排序",
+        "選擇排序的平均時間複雜度為 O(n log n)"
+      ],
+      "answer": 0,
+      "explanation": "選擇排序每一輪都要掃過剩餘所有元素找出最小值，比較次數只取決於資料筆數、與資料是否已排序無關，因此各種情況都是 O(n²)。易錯處是以為「已排序就會變快」，那是插入排序或加旗標泡沫排序的特性；此外一般實作的選擇排序並不穩定。"
+    },
+    {
+      "id": "uni_algorithm_u_025",
+      "difficulty": 2,
+      "question": "某遞迴演算法的時間函數為 T(n) = 2T(n/2) + c（每層只做常數量的工作，c 為常數），且 T(1) = c。其時間複雜度為何？",
+      "options": [
+        "O(log n)",
+        "O(n)",
+        "O(n log n)",
+        "O(n²)"
+      ],
+      "answer": 1,
+      "explanation": "此遞迴每層把問題分成兩個一半大小的子問題，但合併只花常數時間，展開後葉節點約有 n 個並主導總成本，故為 O(n)，典型例子是走訪一棵含 n 個節點的樹。易錯處是與 T(n)=2T(n/2)+cn 混淆：後者每層還有線性的合併成本，答案才是 O(n log n)。"
+    },
+    {
+      "id": "uni_algorithm_u_026",
+      "difficulty": 2,
+      "question": "依下圖對這張無向圖進行「廣度優先搜尋（BFS）」，從頂點 A 出發，同一層的鄰居一律依字母順序拜訪。其走訪順序為何？",
+      "figure": "<svg viewBox=\"0 0 230 195\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50\" y1=\"50\" x2=\"180\" y2=\"50\" stroke=\"currentColor\"/><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"180\" y1=\"50\" x2=\"180\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"50\" y1=\"150\" x2=\"180\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"50\" y1=\"150\" x2=\"115\" y2=\"172\" stroke=\"currentColor\"/><circle cx=\"50\" cy=\"50\" r=\"14\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"180\" cy=\"50\" r=\"14\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"180\" cy=\"150\" r=\"14\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"50\" cy=\"150\" r=\"14\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"115\" cy=\"172\" r=\"14\" fill=\"none\" stroke=\"currentColor\"/><text x=\"45\" y=\"55\" font-size=\"14\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"175\" y=\"55\" font-size=\"14\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"175\" y=\"155\" font-size=\"14\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"45\" y=\"155\" font-size=\"14\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"110\" y=\"177\" font-size=\"14\" fill=\"currentColor\" stroke=\"none\">E</text></svg>",
+      "options": [
+        "A → B → C → D → E",
+        "A → B → C → E → D",
+        "A → D → B → C → E",
+        "A → B → D → C → E"
+      ],
+      "answer": 3,
+      "explanation": "A 的鄰居為 B、D，依序放入佇列；接著處理 B 找到 C、處理 D 找到 E，最後處理 C、E，故順序為 A → B → D → C → E。易錯處是寫成深度優先（DFS）的 A → B → C → D → E，BFS 必須「先把同一層走完」才往下一層。"
+    },
+    {
+      "id": "uni_algorithm_u_027",
+      "difficulty": 2,
+      "question": "下圖為四種演算法處理同一筆資料所需的「比較次數」（單位：千次）長條圖。哪一種演算法的比較次數最少、效率最好？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"20\" x2=\"20\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"20\" y1=\"150\" x2=\"225\" y2=\"150\" stroke=\"currentColor\"/><rect x=\"35\" y=\"60\" width=\"30\" height=\"90\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"85\" y=\"95\" width=\"30\" height=\"55\" fill=\"#22c55e\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"135\" y=\"40\" width=\"30\" height=\"110\" fill=\"#ef4444\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"185\" y=\"115\" width=\"30\" height=\"35\" fill=\"#f59e0b\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"40\" y=\"54\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">90</text><text x=\"90\" y=\"89\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">55</text><text x=\"137\" y=\"34\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">110</text><text x=\"190\" y=\"109\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">35</text><text x=\"46\" y=\"166\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">甲</text><text x=\"96\" y=\"166\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">乙</text><text x=\"146\" y=\"166\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">丙</text><text x=\"196\" y=\"166\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">丁</text></svg>",
+      "options": [
+        "甲",
+        "乙",
+        "丙",
+        "丁"
+      ],
+      "answer": 3,
+      "explanation": "長條越矮代表比較次數越少，圖中丁的長條最矮（約 35 千次），少於甲（90）、乙（55）、丙（110），故丁效率最好。易錯處是看成「越高越好」而選了最高的丙，長條圖比較的是耗用量，數值越小越省。"
+    },
+    {
+      "id": "uni_algorithm_u_028",
+      "difficulty": 2,
+      "question": "下列程式片段的時間複雜度為何？\ni = 1\nwhile i < n:\n    i = i * 2",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n log n)",
+        "O(n²)"
+      ],
+      "answer": 1,
+      "explanation": "變數 i 每次迴圈都乘以 2（1, 2, 4, 8, …），要超過 n 大約需要 log₂n 次，故迴圈執行約 log₂n 次、複雜度為 O(log n)。易錯處是看到 while 迴圈就直覺回答 O(n)，關鍵在於 i 是「倍增」而非「加一」，成長非常快。"
+    },
+    {
+      "id": "uni_algorithm_u_029",
+      "difficulty": 3,
+      "question": "下圖為一未排序陣列。對它由左至右執行「一趟（one pass）」泡沫排序（相鄰兩數若左邊大於右邊就交換）。完成這一趟後，陣列變成下列何者？",
+      "figure": "<svg viewBox=\"0 0 260 135\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"10\" y=\"25\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">初始陣列（索引 0～4）</text><rect x=\"10\" y=\"45\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"55\" y=\"45\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"100\" y=\"45\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"145\" y=\"45\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"190\" y=\"45\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\"/><text x=\"26\" y=\"71\" font-size=\"18\" fill=\"currentColor\" stroke=\"none\">5</text><text x=\"71\" y=\"71\" font-size=\"18\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"116\" y=\"71\" font-size=\"18\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"161\" y=\"71\" font-size=\"18\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"206\" y=\"71\" font-size=\"18\" fill=\"currentColor\" stroke=\"none\">8</text><text x=\"27\" y=\"103\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">0</text><text x=\"72\" y=\"103\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"117\" y=\"103\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"162\" y=\"103\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"207\" y=\"103\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">4</text></svg>",
+      "options": [
+        "1, 2, 4, 5, 8",
+        "1, 4, 2, 5, 8",
+        "1, 5, 4, 2, 8",
+        "1, 4, 2, 8, 5"
+      ],
+      "answer": 1,
+      "explanation": "逐一比較並交換：(5,1)交換→1 5 4 2 8，(5,4)交換→1 4 5 2 8，(5,2)交換→1 4 2 5 8，(5,8)不換，這一趟結束得 1, 4, 2, 5, 8。易錯處是誤以為一趟就完全排好而選 1, 2, 4, 5, 8；泡沫排序一趟只能把當前最大值「浮」到最右端，其餘未必就定位。"
+    },
+    {
+      "id": "uni_algorithm_u_030",
+      "difficulty": 3,
+      "question": "下圖為一棵二元樹。若要它成為合法的「最小堆積（min-heap，每個父節點的值都必須小於等於其子節點）」，圖中哪一個節點的值「小於」它的父節點，因而違反了此性質？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"120\" y1=\"30\" x2=\"75\" y2=\"90\" stroke=\"currentColor\"/><line x1=\"120\" y1=\"30\" x2=\"165\" y2=\"90\" stroke=\"currentColor\"/><line x1=\"75\" y1=\"90\" x2=\"45\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"75\" y1=\"90\" x2=\"105\" y2=\"150\" stroke=\"currentColor\"/><circle cx=\"120\" cy=\"30\" r=\"16\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"75\" cy=\"90\" r=\"16\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"165\" cy=\"90\" r=\"16\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"45\" cy=\"150\" r=\"16\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"105\" cy=\"150\" r=\"16\" fill=\"none\" stroke=\"currentColor\"/><text x=\"115\" y=\"35\" font-size=\"15\" fill=\"currentColor\" stroke=\"none\">5</text><text x=\"70\" y=\"95\" font-size=\"15\" fill=\"currentColor\" stroke=\"none\">8</text><text x=\"160\" y=\"95\" font-size=\"15\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"36\" y=\"155\" font-size=\"15\" fill=\"currentColor\" stroke=\"none\">12</text><text x=\"100\" y=\"155\" font-size=\"15\" fill=\"currentColor\" stroke=\"none\">9</text></svg>",
+      "options": [
+        "值為 8 的節點",
+        "值為 12 的節點",
+        "值為 3 的節點",
+        "值為 9 的節點"
+      ],
+      "answer": 2,
+      "explanation": "檢查每個節點與其父節點：8、12、9 都大於各自的父節點（5、8、8），唯獨值為 3 的節點其父節點為 5，出現 3 < 5，違反最小堆積「父 ≤ 子」的規定。易錯處是只看數值大小、忽略父子關係，最小的 3 本身沒錯，錯在它被放到了父節點 5 的下面。"
+    },
+    {
+      "id": "uni_algorithm_u_031",
+      "difficulty": 3,
+      "question": "關於無向連通加權圖的「最小生成樹（MST）」，下列敘述何者正確？",
+      "options": [
+        "最小生成樹一定包含圖中權重最大的那條邊",
+        "任何圖的最小生成樹都是唯一的",
+        "Kruskal 演算法每一步都挑選目前「權重最大」且不形成環的邊",
+        "一張含有 n 個頂點的連通圖，其最小生成樹恰有 n-1 條邊"
+      ],
+      "answer": 3,
+      "explanation": "生成樹是連接所有頂點且不含環的子圖，n 個頂點的樹必定恰有 n-1 條邊，這與權重無關。易錯處：MST 未必唯一（當存在相同權重的邊時可能有多種），也不一定包含最大權邊；且 Kruskal 是由「權重最小」的邊開始挑選，而非最大。"
+    },
+    {
+      "id": "uni_algorithm_u_032",
+      "difficulty": 3,
+      "question": "河內塔（Tower of Hanoi）問題中，搬移 n 個盤子所需的最少移動次數為 2ⁿ − 1。搬移 6 個盤子最少需要移動幾次？",
+      "options": [
+        "63",
+        "64",
+        "31",
+        "127"
+      ],
+      "answer": 0,
+      "explanation": "將公式代入 n = 6：2⁶ − 1 = 64 − 1 = 63，故最少需要 63 次移動。易錯處是忘記減 1 而寫成 64，或把 n 記錯（2⁵−1 = 31 是 5 個盤子、2⁷−1 = 127 是 7 個盤子）。"
     }
   ]
 }

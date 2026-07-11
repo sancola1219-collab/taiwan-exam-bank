@@ -162,6 +162,107 @@
       "options": ["中秋節", "元宵節", "端午節", "除夕"],
       "answer": 1,
       "explanation": "鹽水蜂炮在每年元宵節舉行，相傳早年居民為驅除瘟疫，抬神轎繞境並燃放鞭炮，逐漸演變成今日著名的民俗活動。同樣在元宵節，台東有炸寒單、新北平溪有放天燈，各地民俗展現不同的地方特色。"
+    },
+    {
+      "id": "elem_social_4_021",
+      "difficulty": 1,
+      "question": "根據下方的地圖與方位指標，「火車站」位於「學校」的哪一個方位？",
+      "figure": "<svg viewBox=\"0 0 240 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"30\" width=\"200\" height=\"150\" fill=\"none\" stroke=\"currentColor\"/><polygon points=\"120,8 116,16 124,16\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"120\" y1=\"16\" x2=\"120\" y2=\"27\" stroke=\"currentColor\"/><text x=\"133\" y=\"18\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">北</text><circle cx=\"120\" cy=\"105\" r=\"7\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"120\" y=\"124\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">學校</text><circle cx=\"120\" cy=\"55\" r=\"6\" fill=\"#ef4444\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"120\" y=\"50\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">醫院</text><circle cx=\"185\" cy=\"105\" r=\"6\" fill=\"#22c55e\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"185\" y=\"124\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">公園</text><circle cx=\"120\" cy=\"155\" r=\"6\" fill=\"#f59e0b\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"120\" y=\"174\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">火車站</text><circle cx=\"55\" cy=\"105\" r=\"6\" fill=\"#a855f7\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"55\" y=\"124\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">郵局</text></svg>",
+      "options": ["東方", "西方", "南方", "北方"],
+      "answer": 2,
+      "explanation": "圖中方位指標的箭頭朝上代表「北」，依「上北、下南、左西、右東」判讀，火車站在學校的正下方，也就是南方。判讀地圖前一定要先找到方位指標，才不會把方向弄錯。"
+    },
+    {
+      "id": "elem_social_4_022",
+      "difficulty": 1,
+      "question": "提供民眾免費借閱書籍、查詢資料，並可安靜閱讀的公共場所，是下列哪一種公共設施？",
+      "options": ["圖書館", "消防局", "菜市場", "加油站"],
+      "answer": 0,
+      "explanation": "圖書館收藏各類書籍與資料，供民眾免費借閱、查詢與閱讀，是重要的公共設施。消防局負責救災、菜市場用來買賣商品、加油站提供車輛加油，各種公共設施的功能都不相同。"
+    },
+    {
+      "id": "elem_social_4_023",
+      "difficulty": 1,
+      "question": "下方是某地一年四季平均降雨量的長條圖。從圖中判斷，哪一個季節的降雨量最多？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"150\" x2=\"224\" y2=\"150\" stroke=\"currentColor\"/><text x=\"10\" y=\"88\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">雨量</text><rect x=\"55\" y=\"110\" width=\"28\" height=\"40\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"100\" y=\"40\" width=\"28\" height=\"110\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"145\" y=\"75\" width=\"28\" height=\"75\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"190\" y=\"125\" width=\"28\" height=\"25\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"69\" y=\"166\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">春</text><text x=\"114\" y=\"166\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">夏</text><text x=\"159\" y=\"166\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">秋</text><text x=\"204\" y=\"166\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">冬</text></svg>",
+      "options": ["春季", "夏季", "秋季", "冬季"],
+      "answer": 1,
+      "explanation": "在長條圖中，長條越高代表數量越多，圖中「夏季」的長條最高，表示降雨量最多。判讀長條圖時，只要比較各長條的高低，就能快速看出資料的多寡與差異。"
+    },
+    {
+      "id": "elem_social_4_024",
+      "difficulty": 1,
+      "question": "每年四、五月油桐花盛開時舉辦的「桐花祭」，主要展現台灣哪一個族群的文化特色？",
+      "options": ["阿美族", "達悟族", "閩南人", "客家人"],
+      "answer": 3,
+      "explanation": "桐花祭是客家族群重要的文化活動，因為油桐樹多分布在客家人聚居的丘陵地區。台灣是多元族群的社會，除了原住民族，還有閩南人、客家人和新住民，各自保有不同的文化。"
+    },
+    {
+      "id": "elem_social_4_025",
+      "difficulty": 2,
+      "question": "下方是某個家鄉就業人口的產業比例圓餅圖。從圖中判斷，就業人口比例最高的是哪一種產業？",
+      "figure": "<svg viewBox=\"0 0 240 190\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M85,95 L85,37 A58,58 0 0 1 85,153 Z\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><path d=\"M85,95 L85,153 A58,58 0 0 1 29.84,77.08 Z\" fill=\"#f59e0b\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><path d=\"M85,95 L29.84,77.08 A58,58 0 0 1 85,37 Z\" fill=\"#22c55e\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"110\" y=\"100\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">50%</text><text x=\"56\" y=\"124\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">30%</text><text x=\"60\" y=\"72\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">20%</text><rect x=\"168\" y=\"52\" width=\"14\" height=\"14\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"186\" y=\"64\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">服務業</text><rect x=\"168\" y=\"82\" width=\"14\" height=\"14\" fill=\"#f59e0b\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"186\" y=\"94\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">工業</text><rect x=\"168\" y=\"112\" width=\"14\" height=\"14\" fill=\"#22c55e\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"186\" y=\"124\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">農業</text></svg>",
+      "options": ["服務業", "工業", "農業", "漁業"],
+      "answer": 0,
+      "explanation": "圓餅圖用整個圓代表全部，扇形越大表示比例越高。圖中「服務業」占了一半（50%），扇形面積最大，代表就業人口比例最高。工業占30%、農業占20%，都比服務業少。"
+    },
+    {
+      "id": "elem_social_4_026",
+      "difficulty": 2,
+      "question": "小明發現住家附近的社區公園垃圾亂丟、遊具損壞。下列哪一種做法最恰當？",
+      "options": ["假裝沒看到，反正不關自己的事", "自己偷偷把遊具全部拆掉丟棄", "向村里辦公室反映，並號召居民一起整理", "把垃圾撿起來丟到隔壁社區去"],
+      "answer": 2,
+      "explanation": "遇到社區的公共問題，最恰當的是向村里辦公室等單位反映，並邀集居民一起改善，這是關心公共事務、參與家鄉的表現。視而不見或把問題轉移給別人，都無法真正解決問題。"
+    },
+    {
+      "id": "elem_social_4_027",
+      "difficulty": 2,
+      "question": "根據下方地圖與比例尺，甲、乙兩地的實際距離大約是多少公里？",
+      "figure": "<svg viewBox=\"0 0 240 150\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"45\" y1=\"50\" x2=\"165\" y2=\"50\" stroke=\"currentColor\"/><circle cx=\"45\" cy=\"50\" r=\"5\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><circle cx=\"165\" cy=\"50\" r=\"5\" fill=\"#ef4444\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"45\" y=\"38\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">甲</text><text x=\"165\" y=\"38\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">乙</text><text x=\"18\" y=\"98\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">比例尺</text><line x1=\"45\" y1=\"110\" x2=\"165\" y2=\"110\" stroke=\"currentColor\"/><line x1=\"45\" y1=\"105\" x2=\"45\" y2=\"115\" stroke=\"currentColor\"/><line x1=\"85\" y1=\"105\" x2=\"85\" y2=\"115\" stroke=\"currentColor\"/><line x1=\"125\" y1=\"105\" x2=\"125\" y2=\"115\" stroke=\"currentColor\"/><line x1=\"165\" y1=\"105\" x2=\"165\" y2=\"115\" stroke=\"currentColor\"/><text x=\"45\" y=\"132\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">0</text><text x=\"85\" y=\"132\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">1</text><text x=\"125\" y=\"132\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">2</text><text x=\"172\" y=\"132\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">3公里</text></svg>",
+      "options": ["1公里", "1.5公里", "2公里", "3公里"],
+      "answer": 3,
+      "explanation": "地圖上甲到乙的長度剛好等於比例尺的三格，而每一格代表1公里，所以實際距離約為3公里。使用比例尺時，先量出地圖上的長度，再對照比例尺換算成實際距離。"
+    },
+    {
+      "id": "elem_social_4_028",
+      "difficulty": 2,
+      "question": "在生活中做好垃圾分類與資源回收，對家鄉環境最主要的好處是什麼？",
+      "options": ["讓需要處理的垃圾變得更多", "減少垃圾量並讓資源再利用", "使空氣汙染立刻完全消失", "讓髒河水自動變乾淨"],
+      "answer": 1,
+      "explanation": "資源回收能把還可利用的物品重新製造使用，減少垃圾量，也節省自然資源，對環境很有幫助。它無法「立刻」解決空氣或河川汙染，環境保護仍需要大家在日常生活中一起努力。"
+    },
+    {
+      "id": "elem_social_4_029",
+      "difficulty": 3,
+      "question": "根據下方地圖的圖例，位於道路北側（上方）的十字形符號，代表哪一種公共設施？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"15\" y1=\"88\" x2=\"148\" y2=\"88\" stroke=\"currentColor\"/><line x1=\"15\" y1=\"102\" x2=\"148\" y2=\"102\" stroke=\"currentColor\"/><text x=\"82\" y=\"99\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">道路</text><line x1=\"52\" y1=\"52\" x2=\"68\" y2=\"52\" stroke=\"#ef4444\" stroke-width=\"3\"/><line x1=\"60\" y1=\"44\" x2=\"60\" y2=\"60\" stroke=\"#ef4444\" stroke-width=\"3\"/><rect x=\"107\" y=\"46\" width=\"16\" height=\"16\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><polygon points=\"60,120 52,136 68,136\" fill=\"#f59e0b\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><circle cx=\"115\" cy=\"128\" r=\"9\" fill=\"#22c55e\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><line x1=\"160\" y1=\"42\" x2=\"172\" y2=\"42\" stroke=\"#ef4444\" stroke-width=\"3\"/><line x1=\"166\" y1=\"36\" x2=\"166\" y2=\"48\" stroke=\"#ef4444\" stroke-width=\"3\"/><text x=\"180\" y=\"46\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">醫院</text><rect x=\"160\" y=\"66\" width=\"12\" height=\"12\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"180\" y=\"76\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">學校</text><polygon points=\"166,96 160,108 172,108\" fill=\"#f59e0b\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"180\" y=\"106\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">廟宇</text><circle cx=\"166\" cy=\"131\" r=\"7\" fill=\"#22c55e\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"180\" y=\"135\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">公園</text></svg>",
+      "options": ["學校", "公園", "醫院", "廟宇"],
+      "answer": 2,
+      "explanation": "對照右側圖例可知，十字形符號代表「醫院」，而它出現在道路的北側（上方），所以答案是醫院。看地圖時要善用圖例，才能正確判讀各種符號所代表的地點。"
+    },
+    {
+      "id": "elem_social_4_030",
+      "difficulty": 3,
+      "question": "像石門水庫、曾文水庫這類大型水庫，對民眾生活最主要的功能是什麼？",
+      "options": ["蓄存水源，供應民生用水與農田灌溉", "專門用來養殖魚類拿去販賣", "作為賽車比賽的專用場地", "開採石油和天然氣"],
+      "answer": 0,
+      "explanation": "水庫能在雨季蓄存大量的水，缺水時供應家庭與農田使用，有些還兼具發電、防洪的功能。台灣降雨集中、河川短促，水資源不易保留，水庫在調節水資源上扮演重要角色。"
+    },
+    {
+      "id": "elem_social_4_031",
+      "difficulty": 3,
+      "question": "台灣有些地方的地名叫做「鹽埕」「打鐵街」「魚市仔」。從這些地名，最能推測出當地早期發展過什麼？",
+      "options": ["曾經發生過大地震", "與地名有關的行業或產業", "居民全部都是外國人", "從來都沒有人居住"],
+      "answer": 1,
+      "explanation": "「鹽埕」「打鐵街」「魚市仔」等地名，往往記錄了當地早期曾發展曬鹽、打鐵、賣魚等行業，因此能推測出早期的產業活動。地名是認識家鄉歷史的重要線索，許多老地名都藏著先民生活的故事。"
+    },
+    {
+      "id": "elem_social_4_032",
+      "difficulty": 3,
+      "question": "阿公說他小時候要聯絡遠方親友只能寫信，等好幾天才收到回音；現在則能用手機立刻通話。這個改變最能說明什麼？",
+      "options": ["家鄉的人口越來越少", "寫信一定比手機更方便", "過去的生活比現在進步", "隨著科技進步，生活變得更便利"],
+      "answer": 3,
+      "explanation": "從寫信到使用手機，說明通訊科技不斷進步，讓人們的聯絡更加快速便利，這是家鄉隨時間變遷的具體例子。比較過去與現在的生活，可以幫助我們了解社會如何演變與進步。"
     }
   ]
 }

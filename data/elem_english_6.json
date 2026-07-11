@@ -162,6 +162,86 @@
       "options": ["公園", "學校", "圖書館", "家裡"],
       "answer": 2,
       "explanation": "B 回答 No, I wasn't. 表示他不在公園，接著說 I was at the library.（我在圖書館。）閱讀對話時要看完整個回答，才能找到正確的答案。"
+    },
+    {
+      "id": "elem_english_6_021",
+      "difficulty": 1,
+      "question": "A: ___ is my pen?  B: It's on the desk.（我的筆在哪裡？在書桌上）空格應填入哪一個字？",
+      "options": ["What", "Where", "When", "Who"],
+      "answer": 1,
+      "explanation": "回答是 It's on the desk.（在書桌上），說的是地點，所以問句要用問地方的 Where。（我的筆在哪裡？）What 問「什麼東西」、When 問「什麼時候」、Who 問「誰」，要依照答句內容選對疑問詞。"
+    },
+    {
+      "id": "elem_english_6_022",
+      "difficulty": 1,
+      "question": "一星期的順序是 Sunday, Monday, ___, Wednesday...。空格裡的「星期二」英文是哪一個？",
+      "options": ["Thursday", "Friday", "Tuesday", "Saturday"],
+      "answer": 2,
+      "explanation": "星期日到星期六依序是 Sunday、Monday、Tuesday、Wednesday...，所以 Monday 和 Wednesday 中間的星期二是 Tuesday。Thursday 是星期四、Friday 是星期五、Saturday 是星期六，星期的順序要記熟。"
+    },
+    {
+      "id": "elem_english_6_023",
+      "difficulty": 1,
+      "question": "Fish can ___ in the water.（魚會在水裡游泳）空格應填入哪一個字？",
+      "options": ["swim", "swims", "swimming", "swam"],
+      "answer": 0,
+      "explanation": "助動詞 can（會、能）後面要接原形動詞，所以用 swim，寫成 Fish can swim in the water.（魚會在水裡游泳。）swims 是第三人稱單數現在式、swam 是過去式，都不能接在 can 後面。"
+    },
+    {
+      "id": "elem_english_6_024",
+      "difficulty": 2,
+      "question": "My father ___ coffee every morning.（我爸爸每天早上喝咖啡）空格應填入哪一個字？",
+      "options": ["drink", "drinks", "drinking", "to drink"],
+      "answer": 1,
+      "explanation": "主詞 My father 是第三人稱單數，又有 every morning（每天早上）表示習慣，動詞現在式要加 s，用 drinks。（我爸爸每天早上喝咖啡。）drink 沒加 s 只能用在 I、you 或複數主詞。"
+    },
+    {
+      "id": "elem_english_6_025",
+      "difficulty": 2,
+      "question": "The ball is under the chair. 句中 under 的意思是什麼？",
+      "options": ["在……上面", "在……旁邊", "在……前面", "在……下面"],
+      "answer": 3,
+      "explanation": "under 是「在……下面」的意思，所以 The ball is under the chair. 是「球在椅子下面」。在上面用 on、在旁邊用 next to、在前面用 in front of，方位介系詞各有不同。"
+    },
+    {
+      "id": "elem_english_6_026",
+      "difficulty": 2,
+      "question": "Look at the dark clouds! It ___ rain soon.（看那烏雲！快要下雨了）空格應填入哪一個字？",
+      "options": ["is going to", "are going to", "am going to", "go to"],
+      "answer": 0,
+      "explanation": "主詞 It 是單數，表示「即將、預計」要用 be going to，be 動詞用 is，寫成 It is going to rain soon.（快要下雨了。）are 給複數主詞、am 只給 I 用，主詞和 be 動詞要搭配正確。"
+    },
+    {
+      "id": "elem_english_6_027",
+      "difficulty": 2,
+      "question": "I want ___ a doctor in the future.（我將來想當醫生）空格應填入哪一個字？",
+      "options": ["be", "to be", "being", "am"],
+      "answer": 1,
+      "explanation": "want 後面要接不定詞「to＋原形動詞」，所以用 to be，寫成 I want to be a doctor.（我想當醫生。）直接接 be 或 being 都不對，want to do something 是固定用法。"
+    },
+    {
+      "id": "elem_english_6_028",
+      "difficulty": 3,
+      "question": "Yushan (Mt. Jade) is the ___ mountain in Taiwan.（玉山是台灣最高的山）空格應填入哪一個字？",
+      "options": ["tall", "taller", "tallest", "more tall"],
+      "answer": 2,
+      "explanation": "句中有 the，又有範圍 in Taiwan（在台灣），表示「最……」要用最高級 tallest，寫成 the tallest mountain（最高的山）。taller 是比較級，用在兩者相比；原級 tall 不能和 the 一起表示最高級。"
+    },
+    {
+      "id": "elem_english_6_029",
+      "difficulty": 3,
+      "question": "閱讀對話：A: What day is the school picnic?  B: It's on Wednesday, not Tuesday. 請問學校的野餐在星期幾？",
+      "options": ["星期三", "星期二", "星期四", "星期一"],
+      "answer": 0,
+      "explanation": "B 說 It's on Wednesday, not Tuesday.（是星期三，不是星期二），所以野餐在星期三。閱讀時看到 not（不是）要特別小心，別把被否定掉的 Tuesday 當成答案。"
+    },
+    {
+      "id": "elem_english_6_030",
+      "difficulty": 3,
+      "question": "閱讀短文：Amy gets up at six every day. She eats breakfast and then goes to school by bus. 請問 Amy 怎麼去上學？",
+      "options": ["走路", "騎腳踏車", "開車", "搭公車"],
+      "answer": 3,
+      "explanation": "短文說 goes to school by bus（搭公車去上學），所以 Amy 是搭公車。by bus 表示交通方式「搭公車」，by 後面接不同的交通工具就代表不同的通勤方法。"
     }
   ]
 }

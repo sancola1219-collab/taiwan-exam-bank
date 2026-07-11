@@ -162,6 +162,107 @@
       "options": ["鼓勵台灣人多說台語", "鼓勵台灣人改用日本姓名、說日語", "開放台灣人自由組織政黨", "恢復傳統的科舉考試"],
       "answer": 1,
       "explanation": "皇民化運動要求台灣人改日本姓名、說日語、參拜神社，企圖使台灣人變成效忠日本的「皇民」，以配合戰爭動員。這段歷史顯示殖民統治對台灣語言和文化的壓抑，也是了解日治時期的重要一頁。"
+    },
+    {
+      "id": "elem_social_6_021",
+      "difficulty": 1,
+      "question": "台灣本島南北狹長、山脈居中，河川大多短而急。下列哪一條是台灣本島全長最長的河流？",
+      "options": ["濁水溪", "淡水河", "高屏溪", "大甲溪"],
+      "answer": 0,
+      "explanation": "濁水溪全長約186公里，是台灣本島最長的河流，因上游夾帶大量泥沙、河水常呈混濁色而得名。高屏溪、淡水河雖然也很長，但都比濁水溪短；要記住『最長』指的是河流的長度，而不是流域面積。"
+    },
+    {
+      "id": "elem_social_6_022",
+      "difficulty": 1,
+      "question": "小華在超市買了一盒餅乾，回家後發現已經過期。依據《消費者保護法》保障消費者的精神，他最適當的做法是什麼？",
+      "options": ["把餅乾丟掉並自認倒楣", "保留商品與發票，向店家反映並要求處理", "偷偷放回貨架換一盒新的", "在店門口大聲辱罵店員"],
+      "answer": 1,
+      "explanation": "《消費者保護法》保障消費者的權益，買到過期或有瑕疵的商品時，可憑發票向店家要求退換貨或申訴，必要時還能向消費者服務專線求助。自認倒楣會讓自己的權益受損，辱罵店員或私自換貨則不合法也不合理，都不是正確的做法。"
+    },
+    {
+      "id": "elem_social_6_023",
+      "difficulty": 1,
+      "question": "地球上的陸地可分為七大洲。其中面積最大、也是台灣所在的一洲是哪一洲？",
+      "options": ["非洲", "歐洲", "亞洲", "大洋洲"],
+      "answer": 2,
+      "explanation": "亞洲是世界七大洲中面積最大的一洲，台灣就位於亞洲東部。非洲面積排第二，歐洲和大洋洲相對較小；判斷時可以先想想台灣屬於哪一洲，就不容易選錯。"
+    },
+    {
+      "id": "elem_social_6_024",
+      "difficulty": 2,
+      "question": "下圖是六年一班全班40位同學票選『最想參觀的社會領域主題』的結果。請問選擇『地圖判讀』的同學共有幾人？",
+      "figure": "<svg viewBox=\"0 0 250 175\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M80,90 L80,30 A60,60 0 0 1 115.27,138.54 Z\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><path d=\"M80,90 L115.27,138.54 A60,60 0 0 1 31.46,125.27 Z\" fill=\"#ef4444\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><path d=\"M80,90 L31.46,125.27 A60,60 0 0 1 31.46,54.73 Z\" fill=\"#22c55e\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><path d=\"M80,90 L31.46,54.73 A60,60 0 0 1 80,30 Z\" fill=\"#f59e0b\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><text x=\"113.29\" y=\"79.18\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">40%</text><text x=\"74.53\" y=\"124.57\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">25%</text><text x=\"45\" y=\"90\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">20%</text><text x=\"64.11\" y=\"58.81\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">15%</text><rect x=\"155\" y=\"40\" width=\"14\" height=\"14\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><text x=\"173\" y=\"51\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">歷史古蹟</text><rect x=\"155\" y=\"65\" width=\"14\" height=\"14\" fill=\"#ef4444\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><text x=\"173\" y=\"76\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">地圖判讀</text><rect x=\"155\" y=\"90\" width=\"14\" height=\"14\" fill=\"#22c55e\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><text x=\"173\" y=\"101\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">政府參訪</text><rect x=\"155\" y=\"115\" width=\"14\" height=\"14\" fill=\"#f59e0b\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><text x=\"173\" y=\"126\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">國際文化</text></svg>",
+      "options": ["25人", "8人", "15人", "10人"],
+      "answer": 3,
+      "explanation": "圖中『地圖判讀』占25%，全班共40人，40×25%＝10，所以有10人。要注意百分比不等於人數，看到25%不能直接寫成25人，必須乘上總人數才是實際的人數。"
+    },
+    {
+      "id": "elem_social_6_025",
+      "difficulty": 2,
+      "question": "十七世紀時，曾經占領台灣南部，並在今天台南一帶興建熱蘭遮城作為統治與貿易據點的是哪一個國家？",
+      "options": ["荷蘭", "日本", "英國", "美國"],
+      "answer": 0,
+      "explanation": "十七世紀荷蘭人占領台灣南部，在今台南安平一帶興建熱蘭遮城，作為貿易與統治的據點，後來被鄭成功打敗而離開台灣。這段時期是台灣進入有文字記載歷史的重要開端，和後來的日本統治時期不同，不要混淆。"
+    },
+    {
+      "id": "elem_social_6_026",
+      "difficulty": 1,
+      "question": "下圖是某社區一週回收四種材料的重量統計。請問回收重量最少的是哪一種材料？",
+      "figure": "<svg viewBox=\"0 0 240 170\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"40\" x2=\"30\" y2=\"140\" stroke=\"currentColor\"/><line x1=\"30\" y1=\"140\" x2=\"220\" y2=\"140\" stroke=\"currentColor\"/><line x1=\"30\" y1=\"110\" x2=\"220\" y2=\"110\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"30\" y1=\"80\" x2=\"220\" y2=\"80\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"30\" y1=\"50\" x2=\"220\" y2=\"50\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><text x=\"24\" y=\"144\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">0</text><text x=\"24\" y=\"114\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">10</text><text x=\"24\" y=\"84\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">20</text><text x=\"24\" y=\"54\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">30</text><rect x=\"45\" y=\"50\" width=\"30\" height=\"90\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"90\" y=\"80\" width=\"30\" height=\"60\" fill=\"#ef4444\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"135\" y=\"95\" width=\"30\" height=\"45\" fill=\"#22c55e\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"180\" y=\"110\" width=\"30\" height=\"30\" fill=\"#f59e0b\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><text x=\"60\" y=\"153\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">紙類</text><text x=\"105\" y=\"153\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">塑膠</text><text x=\"150\" y=\"153\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">玻璃</text><text x=\"195\" y=\"153\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">金屬</text><text x=\"16\" y=\"30\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">公斤</text></svg>",
+      "options": ["紙類", "金屬", "塑膠", "玻璃"],
+      "answer": 1,
+      "explanation": "從長條圖可以看出金屬的長條最短，代表回收重量最少（約10公斤）。判讀長條圖時，長條越高代表數量越多、越矮代表越少，只要比較長條的高矮，就能找出最多或最少的項目。"
+    },
+    {
+      "id": "elem_social_6_027",
+      "difficulty": 2,
+      "question": "政府向人民收取的稅金（例如所得稅），主要用來做什麼？",
+      "options": ["交給總統個人自由使用", "全部存起來永遠不動用", "興建公共建設並提供教育、醫療、國防等服務", "償還私人公司的欠款"],
+      "answer": 2,
+      "explanation": "人民依法納稅是應盡的義務，政府把收到的稅金用來興建道路、學校，並推動教育、醫療、國防等公共服務，讓全體人民共同享用。稅收屬於全民，不是給任何個人使用，因此依規定誠實納稅，是每個國民的責任。"
+    },
+    {
+      "id": "elem_social_6_028",
+      "difficulty": 3,
+      "question": "下圖是某地區從1960年到2020年的人口變化。從圖中判斷，這個地區的人口在2000年以後呈現什麼趨勢？",
+      "figure": "<svg viewBox=\"0 0 260 170\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"45\" y1=\"25\" x2=\"45\" y2=\"140\" stroke=\"currentColor\"/><line x1=\"45\" y1=\"140\" x2=\"245\" y2=\"140\" stroke=\"currentColor\"/><line x1=\"45\" y1=\"107.1\" x2=\"245\" y2=\"107.1\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"45\" y1=\"74.3\" x2=\"245\" y2=\"74.3\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"45\" y1=\"41.4\" x2=\"245\" y2=\"41.4\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><text x=\"40\" y=\"144\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">0</text><text x=\"40\" y=\"111\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">20</text><text x=\"40\" y=\"78\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">40</text><text x=\"40\" y=\"45\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">60</text><polyline points=\"45,123.6 110,90.7 175,49.6 240,41.4\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"45\" cy=\"123.6\" r=\"3\" fill=\"#3b82f6\"/><circle cx=\"110\" cy=\"90.7\" r=\"3\" fill=\"#3b82f6\"/><circle cx=\"175\" cy=\"49.6\" r=\"3\" fill=\"#3b82f6\"/><circle cx=\"240\" cy=\"41.4\" r=\"3\" fill=\"#3b82f6\"/><text x=\"45\" y=\"153\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">1960</text><text x=\"110\" y=\"153\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">1980</text><text x=\"175\" y=\"153\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">2000</text><text x=\"240\" y=\"153\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">2020</text><text x=\"16\" y=\"20\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">萬人</text></svg>",
+      "options": ["快速大幅增加", "突然完全消失", "急速大量減少", "成長趨於平緩"],
+      "answer": 3,
+      "explanation": "圖中1960到2000年折線明顯上升，代表人口快速增加；但2000年以後折線變得幾乎水平，表示人口成長已經趨於平緩。判讀折線圖時，線越陡代表變化越大、線越平代表變化越小，並不是只看最後的數值高低。"
+    },
+    {
+      "id": "elem_social_6_029",
+      "difficulty": 2,
+      "question": "下圖是某社區的簡易地圖，圖上方為正北方。請問『醫院』位於『學校』的哪一個方位？",
+      "figure": "<svg viewBox=\"0 0 220 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"200\" height=\"170\" fill=\"none\" stroke=\"currentColor\"/><line x1=\"195\" y1=\"45\" x2=\"195\" y2=\"20\" stroke=\"currentColor\"/><polygon points=\"195,16 191,26 199,26\" fill=\"currentColor\"/><text x=\"195\" y=\"55\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">北</text><circle cx=\"110\" cy=\"100\" r=\"5\" fill=\"#3b82f6\"/><text x=\"110\" y=\"118\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">學校</text><circle cx=\"160\" cy=\"60\" r=\"5\" fill=\"#ef4444\"/><text x=\"160\" y=\"52\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">醫院</text><circle cx=\"110\" cy=\"45\" r=\"5\" fill=\"#22c55e\"/><text x=\"110\" y=\"37\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">公園</text><circle cx=\"60\" cy=\"145\" r=\"5\" fill=\"#f59e0b\"/><text x=\"60\" y=\"163\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">車站</text></svg>",
+      "options": ["東北方", "西南方", "正北方", "東南方"],
+      "answer": 0,
+      "explanation": "以學校為中心，醫院在它的右上方，也就是偏東又偏北，所以位於學校的東北方。判讀方位時要先確定地圖上方是北方，再從基準點（學校）看向目標（醫院），右邊是東、上面是北，就能判斷方位。"
+    },
+    {
+      "id": "elem_social_6_030",
+      "difficulty": 3,
+      "question": "北回歸線大約通過台灣的嘉義、花蓮一帶。北回歸線以南的台灣地區，主要屬於哪一種氣候帶？",
+      "options": ["寒帶", "熱帶", "極地氣候", "沙漠氣候"],
+      "answer": 1,
+      "explanation": "北回歸線是熱帶與副熱帶的分界線，通過台灣的嘉義、花蓮附近；其以南的地區緯度較低、氣候炎熱，屬於熱帶（熱帶季風）氣候。台灣沒有寒帶或極地氣候，判斷時可以運用『緯度越低越炎熱』的原則來推理。"
+    },
+    {
+      "id": "elem_social_6_031",
+      "difficulty": 3,
+      "question": "下圖是一張經緯線地圖，橫線為緯線、直線為經線。圖中『甲』地的位置最接近下列哪一組座標？",
+      "figure": "<svg viewBox=\"0 0 230 190\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"55\" y1=\"45\" x2=\"55\" y2=\"135\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><line x1=\"100\" y1=\"45\" x2=\"100\" y2=\"135\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><line x1=\"145\" y1=\"45\" x2=\"145\" y2=\"135\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><line x1=\"190\" y1=\"45\" x2=\"190\" y2=\"135\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><line x1=\"55\" y1=\"45\" x2=\"190\" y2=\"45\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><line x1=\"55\" y1=\"90\" x2=\"190\" y2=\"90\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><line x1=\"55\" y1=\"135\" x2=\"190\" y2=\"135\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><circle cx=\"100\" cy=\"90\" r=\"5\" fill=\"#ef4444\"/><text x=\"100\" y=\"82\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">甲</text><text x=\"55\" y=\"150\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">120°E</text><text x=\"100\" y=\"150\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">121°E</text><text x=\"145\" y=\"150\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">122°E</text><text x=\"190\" y=\"150\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">123°E</text><text x=\"48\" y=\"49\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">25°N</text><text x=\"48\" y=\"94\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">24°N</text><text x=\"48\" y=\"139\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">23°N</text></svg>",
+      "options": ["120°E、25°N", "122°E、23°N", "121°E、24°N", "121°E、25°N"],
+      "answer": 2,
+      "explanation": "從圖中找出甲地所在的直線（經線）是121°E，橫線（緯線）是24°N，因此座標為121°E、24°N。判讀時要記得經度看直線、緯度看橫線，兩者交會的地方就是該地的位置。"
+    },
+    {
+      "id": "elem_social_6_032",
+      "difficulty": 3,
+      "question": "近年各國共同推動『永續發展』，希望在發展經濟的同時也能保護環境。下列哪一項生活行為最符合永續發展的精神？",
+      "options": ["為了方便而大量使用一次性餐具", "常常浪費食物並隨意丟棄", "長時間讓電器待機、不關電源", "隨手關燈、做好資源回收與節約用水"],
+      "answer": 3,
+      "explanation": "永續發展強調兼顧經濟、社會與環境，讓現在和未來的人都能享有良好的生活；隨手關燈、資源回收、節約用水都能減少資源浪費與污染，符合永續發展的精神。大量使用一次性用品或浪費食物會消耗過多資源，與永續發展的目標相違背。"
     }
   ]
 }

@@ -262,6 +262,167 @@
       ],
       "answer": 3,
       "explanation": "由 $p \\rightarrow q$ 與 $p$ 推出 $q$，稱為肯定前件（modus ponens）。否定後件是由 $p \\rightarrow q$ 與 $\\neg q$ 推出 $\\neg p$。易錯處是把肯定前件（肯定 p 得 q）與否定後件（否定 q 得非 p）兩種有效規則混淆。"
+    },
+    {
+      "id": "uni_discrete_u_021",
+      "difficulty": 1,
+      "question": "下圖為一個無向圖。依握手定理（handshake theorem），此圖中所有頂點的度數（degree）總和為何？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"40\" x2=\"200\" y2=\"40\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"40\" x2=\"120\" y2=\"100\" stroke=\"currentColor\"/><line x1=\"200\" y1=\"40\" x2=\"120\" y2=\"100\" stroke=\"currentColor\"/><line x1=\"120\" y1=\"100\" x2=\"40\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"120\" y1=\"100\" x2=\"200\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"160\" x2=\"200\" y2=\"160\" stroke=\"currentColor\"/><circle cx=\"40\" cy=\"40\" r=\"14\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"200\" cy=\"40\" r=\"14\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"120\" cy=\"100\" r=\"14\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"40\" cy=\"160\" r=\"14\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"200\" cy=\"160\" r=\"14\" fill=\"none\" stroke=\"currentColor\"/><text x=\"40\" y=\"45\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"200\" y=\"45\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"120\" y=\"105\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"40\" y=\"165\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"200\" y=\"165\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">E</text></svg>",
+      "options": [
+        "12",
+        "6",
+        "10",
+        "24"
+      ],
+      "answer": 0,
+      "explanation": "握手定理指出，所有頂點度數總和等於邊數的 2 倍。此圖共有 6 條邊，故度數總和為 $2 \\times 6 = 12$；亦可逐一數各頂點度數（$2+2+4+2+2$）驗證為 12。易錯處是把度數總和誤當成邊數 6，忘了每條邊會替兩端各貢獻 1 度。"
+    },
+    {
+      "id": "uni_discrete_u_022",
+      "difficulty": 2,
+      "question": "下圖為集合 $A$、$B$ 的文氏圖（Venn diagram），各區域數字代表該區域的元素個數。恰好只屬於其中一個集合（屬於 $A$ 或 $B$，但不同時屬於兩者）的元素共有幾個？",
+      "figure": "<svg viewBox=\"0 0 240 160\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"95\" cy=\"80\" r=\"60\" fill=\"#3b82f6\" fill-opacity=\"0.15\" stroke=\"currentColor\"/><circle cx=\"145\" cy=\"80\" r=\"60\" fill=\"#ef4444\" fill-opacity=\"0.15\" stroke=\"currentColor\"/><text x=\"70\" y=\"38\" font-size=\"16\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"170\" y=\"38\" font-size=\"16\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"58\" y=\"86\" font-size=\"16\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">12</text><text x=\"120\" y=\"86\" font-size=\"16\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">5</text><text x=\"182\" y=\"86\" font-size=\"16\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">8</text></svg>",
+      "options": [
+        "25",
+        "20",
+        "5",
+        "13"
+      ],
+      "answer": 1,
+      "explanation": "恰屬於一個集合者，為「只在 $A$」加「只在 $B$」兩區域，即 $12 + 8 = 20$ 個，不包含兩者共有的交集 5。易錯處是把聯集 $12+5+8=25$ 當成答案，或誤把交集也算進「只屬於一個集合」之中。"
+    },
+    {
+      "id": "uni_discrete_u_023",
+      "difficulty": 1,
+      "question": "下圖為一棵二元樹（binary tree）。其中「葉節點（leaf，沒有任何子節點的節點）」共有幾個？",
+      "figure": "<svg viewBox=\"0 0 240 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"120\" y1=\"25\" x2=\"65\" y2=\"80\" stroke=\"currentColor\"/><line x1=\"120\" y1=\"25\" x2=\"180\" y2=\"80\" stroke=\"currentColor\"/><line x1=\"65\" y1=\"80\" x2=\"35\" y2=\"135\" stroke=\"currentColor\"/><line x1=\"65\" y1=\"80\" x2=\"100\" y2=\"135\" stroke=\"currentColor\"/><line x1=\"180\" y1=\"80\" x2=\"180\" y2=\"135\" stroke=\"currentColor\"/><line x1=\"100\" y1=\"135\" x2=\"100\" y2=\"185\" stroke=\"currentColor\"/><circle cx=\"120\" cy=\"25\" r=\"13\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"65\" cy=\"80\" r=\"13\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"180\" cy=\"80\" r=\"13\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"35\" cy=\"135\" r=\"13\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"100\" cy=\"135\" r=\"13\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"180\" cy=\"135\" r=\"13\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"100\" cy=\"185\" r=\"13\" fill=\"none\" stroke=\"currentColor\"/></svg>",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "葉節點是沒有子節點的節點；由圖可見底部三個沒有向下連線的節點即為葉節點，共 3 個。易錯處是把只有一個子節點的內部節點誤算為葉節點，或漏數位於不同層的葉節點。"
+    },
+    {
+      "id": "uni_discrete_u_024",
+      "difficulty": 3,
+      "question": "下圖為某偏序集（poset）在整除關係下的哈斯圖（Hasse diagram）。下列哪一組元素彼此「不可比較（incomparable）」？",
+      "figure": "<svg viewBox=\"0 0 240 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"120\" y1=\"175\" x2=\"70\" y2=\"120\" stroke=\"currentColor\"/><line x1=\"120\" y1=\"175\" x2=\"170\" y2=\"120\" stroke=\"currentColor\"/><line x1=\"70\" y1=\"120\" x2=\"50\" y2=\"65\" stroke=\"currentColor\"/><line x1=\"70\" y1=\"120\" x2=\"130\" y2=\"65\" stroke=\"currentColor\"/><line x1=\"170\" y1=\"120\" x2=\"130\" y2=\"65\" stroke=\"currentColor\"/><line x1=\"50\" y1=\"65\" x2=\"90\" y2=\"20\" stroke=\"currentColor\"/><line x1=\"130\" y1=\"65\" x2=\"90\" y2=\"20\" stroke=\"currentColor\"/><circle cx=\"120\" cy=\"175\" r=\"14\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"70\" cy=\"120\" r=\"14\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"170\" cy=\"120\" r=\"14\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"50\" cy=\"65\" r=\"14\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"130\" cy=\"65\" r=\"14\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"90\" cy=\"20\" r=\"14\" fill=\"none\" stroke=\"currentColor\"/><text x=\"120\" y=\"180\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"70\" y=\"125\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"170\" y=\"125\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"50\" y=\"70\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"130\" y=\"70\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"90\" y=\"25\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">12</text></svg>",
+      "options": [
+        "2 與 4",
+        "3 與 6",
+        "2 與 12",
+        "4 與 6"
+      ],
+      "answer": 3,
+      "explanation": "在哈斯圖中，兩元素可比較須存在一條由下往上（或由上往下）連通的路徑。4 與 6 之間沒有這樣的上下路徑（4 不整除 6，6 也不整除 4），故不可比較；而 $2$ 與 $4$、$3$ 與 $6$、$2$ 與 $12$ 皆有整除關係而可比較。易錯處是只看兩節點在圖中位置高低，未確認是否真有連通路徑就判定可比較。"
+    },
+    {
+      "id": "uni_discrete_u_025",
+      "difficulty": 2,
+      "question": "下圖為一個有向圖（directed graph），箭頭代表邊的方向。頂點 $C$ 的入度（in-degree，指向該頂點的邊數）為何？",
+      "figure": "<svg viewBox=\"0 0 240 200\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"ah025\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"currentColor\"/></marker></defs><line x1=\"131\" y1=\"35\" x2=\"194\" y2=\"95\" stroke=\"currentColor\" marker-end=\"url(#ah025)\"/><line x1=\"109\" y1=\"35\" x2=\"46\" y2=\"95\" stroke=\"currentColor\" marker-end=\"url(#ah025)\"/><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"170\" stroke=\"currentColor\" marker-end=\"url(#ah025)\"/><line x1=\"194\" y1=\"115\" x2=\"131\" y2=\"175\" stroke=\"currentColor\" marker-end=\"url(#ah025)\"/><line x1=\"46\" y1=\"115\" x2=\"109\" y2=\"175\" stroke=\"currentColor\" marker-end=\"url(#ah025)\"/><circle cx=\"120\" cy=\"25\" r=\"15\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"205\" cy=\"105\" r=\"15\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"120\" cy=\"185\" r=\"15\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"35\" cy=\"105\" r=\"15\" fill=\"none\" stroke=\"currentColor\"/><text x=\"120\" y=\"30\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"205\" y=\"110\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"120\" y=\"190\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"35\" y=\"110\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">D</text></svg>",
+      "options": [
+        "3",
+        "2",
+        "5",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "入度是指向該頂點的邊數。指向 $C$ 的邊有 $A \\to C$、$B \\to C$、$D \\to C$ 共 3 條，故 $C$ 的入度為 3。易錯處是把出度（由該點射出的邊）與入度搞混，或把與該點相連的所有邊都算進入度。"
+    },
+    {
+      "id": "uni_discrete_u_026",
+      "difficulty": 1,
+      "question": "設集合 $A$ 有 4 個元素、$B$ 有 3 個元素，則笛卡兒積（Cartesian product）$A \\times B$ 的元素個數為何？",
+      "options": [
+        "7",
+        "12",
+        "64",
+        "81"
+      ],
+      "answer": 1,
+      "explanation": "$A \\times B$ 由所有有序對 $(a, b)$ 組成，其中 $a \\in A$、$b \\in B$，故元素個數為 $|A| \\times |B| = 4 \\times 3 = 12$。易錯處是把兩集合大小相加（得 7），或誤算成 $4^3$、$3^4$ 之類的次方。"
+    },
+    {
+      "id": "uni_discrete_u_027",
+      "difficulty": 1,
+      "question": "二進位數 $1011_2$ 換算成十進位（decimal）之值為何？",
+      "options": [
+        "13",
+        "7",
+        "11",
+        "12"
+      ],
+      "answer": 2,
+      "explanation": "依位值展開 $1011_2 = 1 \\times 2^3 + 0 \\times 2^2 + 1 \\times 2^1 + 1 \\times 2^0 = 8 + 0 + 2 + 1 = 11$。易錯處是把位元由低位往高位對錯位權，或漏算最低位的 $2^0 = 1$。"
+    },
+    {
+      "id": "uni_discrete_u_028",
+      "difficulty": 2,
+      "question": "將英文字 BANANA 的 6 個字母重新排列，可得幾種相異的排列？",
+      "options": [
+        "120",
+        "720",
+        "180",
+        "60"
+      ],
+      "answer": 3,
+      "explanation": "BANANA 中 A 重複 3 次、N 重複 2 次、B 出現 1 次，故相異排列數為 $\\dfrac{6!}{3! \\, 2! \\, 1!} = \\dfrac{720}{6 \\times 2} = 60$ 種。易錯處是忽略重複字母而直接用 $6! = 720$，或只除以其中一組重複的階乘。"
+    },
+    {
+      "id": "uni_discrete_u_029",
+      "difficulty": 2,
+      "question": "計算等比級數 $\\sum_{k=0}^{9} 2^k = 2^0 + 2^1 + \\cdots + 2^9$ 之和。",
+      "options": [
+        "1023",
+        "1024",
+        "2047",
+        "512"
+      ],
+      "answer": 0,
+      "explanation": "此為首項 1、公比 2、共 10 項的等比級數，其和為 $\\dfrac{2^{10} - 1}{2 - 1} = 2^{10} - 1 = 1024 - 1 = 1023$。易錯處是把項數看成 9 項或誤記公式，導致答成 $2^{10} = 1024$ 或 $2^{11} - 1 = 2047$。"
+    },
+    {
+      "id": "uni_discrete_u_030",
+      "difficulty": 3,
+      "question": "從一個 4 元素集合映到一個 2 元素集合的「映成（onto／surjective）函數」共有幾個？",
+      "options": [
+        "16",
+        "14",
+        "8",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "從 4 元素到 2 元素的函數共 $2^4 = 16$ 個，其中不是映成的（即 4 個元素全映到同一個值、使另一元素無原像）恰有 2 個，故映成函數為 $16 - 2 = 14$ 個。易錯處是直接答總函數數 16，忘了扣掉值域漏掉一個元素的 2 種情形。"
+    },
+    {
+      "id": "uni_discrete_u_031",
+      "difficulty": 3,
+      "question": "今天是星期三。若再經過 $2^{30}$ 天，那一天會是星期幾？（提示：一週 7 天，需計算 $2^{30} \\bmod 7$）",
+      "options": [
+        "星期二",
+        "星期五",
+        "星期四",
+        "星期三"
+      ],
+      "answer": 2,
+      "explanation": "因 $2^3 = 8 \\equiv 1 \\pmod 7$，故 $2^{30} = (2^3)^{10} \\equiv 1^{10} = 1 \\pmod 7$，即所經天數除以 7 餘 1。星期三再往後 1 天即星期四。易錯處是直接硬算龐大的 $2^{30}$，或忘記先對 7 取餘而算錯天數。"
+    },
+    {
+      "id": "uni_discrete_u_032",
+      "difficulty": 3,
+      "question": "以 0 或 1 構成長度為 3 的位元字串，其中「不含連續兩個 0」（即沒有 $00$ 相鄰）者共有幾個？",
+      "options": [
+        "8",
+        "6",
+        "4",
+        "5"
+      ],
+      "answer": 3,
+      "explanation": "長度 3 共 $2^3 = 8$ 個字串，逐一檢查後不含相鄰 $00$ 者為 010、011、101、110、111 共 5 個（其餘 000、001、100 皆含 $00$）。此類計數恰符合費氏數列規律。易錯處是漏檢某些字串，或把「不含連續 1」與「不含連續 0」的條件搞混。"
     }
   ]
 }

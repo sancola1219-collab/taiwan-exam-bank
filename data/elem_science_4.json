@@ -162,6 +162,107 @@
       "options": ["可以隨風飄到很遠的山上", "掉落後能插進泥灘，比較快生根存活", "能吸引動物來把它吃掉", "讓果實變得比較甜"],
       "answer": 1,
       "explanation": "河口泥灘鬆軟又常被潮水淹沒，一般種子容易被沖走；水筆仔的胎生苗掉落時像箭一樣插入泥灘，能很快生根站穩，提高存活機會。這是紅樹林植物適應河口環境的特殊繁殖方式，在淡水、竹圍一帶就能觀察到。"
+    },
+    {
+      "id": "elem_science_4_021",
+      "difficulty": 1,
+      "question": "「太陽、點亮的電燈、發光的螢火蟲」這些物體有一個共同的特點，這個特點是什麼？",
+      "options": ["它們都會自己發出光", "它們的形狀都是圓形的", "它們摸起來都是冰冰涼涼的", "它們都只有在夜晚才看得到"],
+      "answer": 0,
+      "explanation": "太陽、電燈、螢火蟲都能自己發出光，這種會自行發光的物體稱為光源。月亮、鏡子和白紙不會自己發光，是反射了光源的光我們才看得見，常有人誤以為月亮也是光源，要特別分清楚。"
+    },
+    {
+      "id": "elem_science_4_022",
+      "difficulty": 2,
+      "question": "圖中是用電池、電線和燈泡連接成的電路。根據圖中電線的連接情形判斷，接上電池後燈泡會不會亮？",
+      "figure": "<svg viewBox=\"0 0 240 160\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"40\" x2=\"108\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"120\" cy=\"40\" r=\"12\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"#f59e0b\" fill-opacity=\"0.2\"/><line x1=\"112\" y1=\"32\" x2=\"128\" y2=\"48\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"128\" y1=\"32\" x2=\"112\" y2=\"48\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"132\" y1=\"40\" x2=\"200\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/><line x1=\"40\" y1=\"40\" x2=\"40\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/><line x1=\"40\" y1=\"120\" x2=\"104\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/><line x1=\"110\" y1=\"108\" x2=\"110\" y2=\"132\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"122\" y1=\"114\" x2=\"122\" y2=\"126\" stroke=\"currentColor\" stroke-width=\"4\"/><line x1=\"122\" y1=\"120\" x2=\"200\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/><line x1=\"200\" y1=\"120\" x2=\"200\" y2=\"82\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/><line x1=\"200\" y1=\"58\" x2=\"200\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/></svg>",
+      "options": ["會亮，只要有接上電池，燈泡就一定會亮", "會亮，但是亮度會比正常時暗一些", "不會亮，因為這顆電池一定沒有電了", "不會亮，因為電路右側有一處斷開，沒有形成完整的通路"],
+      "answer": 3,
+      "explanation": "電流必須沿著電池、電線和燈泡形成一條完整接通的通路才能流動；圖中電路右邊的電線有一個明顯的缺口沒有接上，電流無法通過，所以燈泡不會亮。這種有缺口、電流無法流通的電路稱為斷路，只要把缺口接好變成通路，燈泡就會亮起來。"
+    },
+    {
+      "id": "elem_science_4_023",
+      "difficulty": 1,
+      "question": "圖中是一隻昆蟲的身體，用甲、乙、丙標示牠的三個部分。從圖中可以看出，昆蟲的六隻腳是長在哪一個部分？",
+      "figure": "<svg viewBox=\"0 0 240 150\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"44\" y1=\"60\" x2=\"28\" y2=\"38\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"54\" y1=\"58\" x2=\"46\" y2=\"32\" stroke=\"currentColor\" stroke-width=\"2\"/><ellipse cx=\"56\" cy=\"80\" rx=\"22\" ry=\"20\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/><ellipse cx=\"110\" cy=\"80\" rx=\"26\" ry=\"22\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/><ellipse cx=\"182\" cy=\"80\" rx=\"38\" ry=\"24\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/><line x1=\"96\" y1=\"98\" x2=\"78\" y2=\"126\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"110\" y1=\"102\" x2=\"104\" y2=\"132\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"124\" y1=\"98\" x2=\"140\" y2=\"126\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"98\" y1=\"92\" x2=\"74\" y2=\"106\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"110\" y1=\"94\" x2=\"110\" y2=\"118\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"122\" y1=\"92\" x2=\"146\" y2=\"106\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"50\" y=\"26\" font-size=\"14\" fill=\"currentColor\" stroke=\"none\">甲</text><text x=\"104\" y=\"26\" font-size=\"14\" fill=\"currentColor\" stroke=\"none\">乙</text><text x=\"176\" y=\"26\" font-size=\"14\" fill=\"currentColor\" stroke=\"none\">丙</text></svg>",
+      "options": ["甲（頭部）", "乙（胸部）", "丙（腹部）", "甲、乙、丙三個部分都有長腳"],
+      "answer": 1,
+      "explanation": "昆蟲的身體分成頭部、胸部、腹部三個部分，六隻腳全部長在中間的胸部，圖中的乙就是胸部。有些同學會誤以為腳分散長在全身，其實不論螞蟻、蝴蝶或獨角仙，牠們的腳都只長在胸部這一段。"
+    },
+    {
+      "id": "elem_science_4_024",
+      "difficulty": 2,
+      "question": "清晨太陽從東方升起。圖中桿子右邊標「東」、左邊標「西」，太陽正掛在東方的天空。根據光沿直線前進的道理，這根桿子的影子會朝向哪一個方向？",
+      "figure": "<svg viewBox=\"0 0 240 150\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"10\" y1=\"120\" x2=\"230\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"120\" y1=\"120\" x2=\"120\" y2=\"66\" stroke=\"currentColor\" stroke-width=\"4\"/><circle cx=\"198\" cy=\"46\" r=\"16\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"#f59e0b\" fill-opacity=\"0.3\"/><line x1=\"198\" y1=\"22\" x2=\"198\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"222\" y1=\"46\" x2=\"230\" y2=\"46\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"181\" y1=\"29\" x2=\"176\" y2=\"24\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"215\" y1=\"29\" x2=\"220\" y2=\"24\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"16\" y=\"140\" font-size=\"14\" fill=\"currentColor\" stroke=\"none\">西</text><text x=\"212\" y=\"140\" font-size=\"14\" fill=\"currentColor\" stroke=\"none\">東</text><text x=\"126\" y=\"64\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">桿子</text></svg>",
+      "options": ["朝向東方，和太陽在同一邊", "影子會朝向正上方的天空", "朝向西方，和太陽相反的一邊", "清晨沒有影子，所以沒有方向"],
+      "answer": 2,
+      "explanation": "光沿直線前進，被桿子擋住後，影子一定落在背對太陽的那一側；太陽在東方，影子就朝向相反的西方。所以清晨影子朝西、傍晚太陽在西邊時影子朝東，影子的方向會隨著太陽的位置改變。"
+    },
+    {
+      "id": "elem_science_4_025",
+      "difficulty": 2,
+      "question": "圖中是某天晚上看到的月亮，圓面的右半邊是明亮的、左半邊是暗的，看起來像半個圓。這種月相最可能是下列哪一個？",
+      "figure": "<svg viewBox=\"0 0 160 160\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 80 25 A 55 55 0 0 1 80 135 Z\" fill=\"#f59e0b\" fill-opacity=\"0.3\" stroke=\"none\"/><circle cx=\"80\" cy=\"80\" r=\"55\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/><line x1=\"80\" y1=\"25\" x2=\"80\" y2=\"135\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"98\" y=\"85\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">亮</text><text x=\"46\" y=\"85\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">暗</text></svg>",
+      "options": ["新月", "下弦月", "滿月", "上弦月"],
+      "answer": 3,
+      "explanation": "月亮亮面約占一半、呈現半圓形時稱為弦月；圖中亮的一面在右邊，是上弦月，通常在農曆初七、初八傍晚的天空看到。如果亮面在左邊就是下弦月，滿月是完整又圓的亮面、新月則幾乎看不到，都和圖中的半圓形不一樣。"
+    },
+    {
+      "id": "elem_science_4_026",
+      "difficulty": 3,
+      "question": "下面的長條圖是四年一班同學調查校園中四種小動物的數量。根據圖中的資料，數量最多的一種和數量最少的一種相差幾隻？",
+      "figure": "<svg viewBox=\"0 0 260 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"45\" y1=\"20\" x2=\"45\" y2=\"140\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"45\" y1=\"140\" x2=\"245\" y2=\"140\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"45\" y1=\"116\" x2=\"245\" y2=\"116\" stroke=\"currentColor\" stroke-width=\"0.5\" stroke-opacity=\"0.35\"/><line x1=\"45\" y1=\"92\" x2=\"245\" y2=\"92\" stroke=\"currentColor\" stroke-width=\"0.5\" stroke-opacity=\"0.35\"/><line x1=\"45\" y1=\"68\" x2=\"245\" y2=\"68\" stroke=\"currentColor\" stroke-width=\"0.5\" stroke-opacity=\"0.35\"/><line x1=\"45\" y1=\"44\" x2=\"245\" y2=\"44\" stroke=\"currentColor\" stroke-width=\"0.5\" stroke-opacity=\"0.35\"/><text x=\"30\" y=\"144\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">0</text><text x=\"30\" y=\"120\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"30\" y=\"96\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">8</text><text x=\"24\" y=\"72\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">12</text><text x=\"24\" y=\"48\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">16</text><rect x=\"61\" y=\"44\" width=\"28\" height=\"96\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"#3b82f6\" fill-opacity=\"0.25\"/><rect x=\"106\" y=\"116\" width=\"28\" height=\"24\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"#ef4444\" fill-opacity=\"0.25\"/><rect x=\"151\" y=\"92\" width=\"28\" height=\"48\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"#22c55e\" fill-opacity=\"0.25\"/><rect x=\"196\" y=\"68\" width=\"28\" height=\"72\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"#f59e0b\" fill-opacity=\"0.25\"/><text x=\"63\" y=\"156\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">螞蟻</text><text x=\"108\" y=\"156\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">瓢蟲</text><text x=\"153\" y=\"156\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">蝴蝶</text><text x=\"198\" y=\"156\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">蝸牛</text></svg>",
+      "options": ["12 隻", "8 隻", "4 隻", "20 隻"],
+      "answer": 0,
+      "explanation": "從長條圖讀出四種動物的數量分別是螞蟻16隻、瓢蟲4隻、蝴蝶8隻、蝸牛12隻，最多的螞蟻減去最少的瓢蟲是16減4等於12隻。判讀長條圖時要先看清楚縱軸每一格代表的數量，再對準長條頂端讀數，才不會把「最多」和「相差」的意思弄混。"
+    },
+    {
+      "id": "elem_science_4_027",
+      "difficulty": 1,
+      "question": "在明亮的房間裡，我們能從平面鏡中看到自己的臉，這主要是因為光發生了什麼現象？",
+      "options": ["光被鏡子完全吸收了", "鏡子本身會發光照亮我們的臉", "光照到平滑的鏡面後反射回我們的眼睛", "光直接穿過鏡子跑到後面去了"],
+      "answer": 2,
+      "explanation": "光照到平滑的鏡面會整齊地反射回來，反射光進入我們的眼睛，我們就能在鏡中看見自己，這種現象叫做光的反射。鏡子本身不會發光，是反射了房間裡的光，所以在完全黑暗、沒有任何光的房間裡，就算擺著鏡子也照不出影像。"
+    },
+    {
+      "id": "elem_science_4_028",
+      "difficulty": 3,
+      "question": "把兩個相同的小燈泡「串聯」接在同一個電路上，原本兩個都亮著。如果其中一個燈泡的燈絲突然斷掉，另一個燈泡會怎麼樣？",
+      "options": ["會變得比原來更亮", "亮度完全不會受到影響", "會開始不停地閃爍", "也會跟著一起熄滅"],
+      "answer": 3,
+      "explanation": "串聯電路只有一條電流通路，其中一個燈泡的燈絲斷了，整個電路就變成斷路，電流無法流通，所以另一個燈泡也會跟著熄滅。這就像有些成串的小燈泡若接成串聯，只要一顆壞掉整串都不亮，正是串聯電路的重要特性。"
+    },
+    {
+      "id": "elem_science_4_029",
+      "difficulty": 2,
+      "question": "家裡使用的電線，金屬線的外面通常會包覆一層塑膠皮。這樣設計最主要的原因是什麼？",
+      "options": ["塑膠不容易導電，可以避免我們碰到電線時觸電", "塑膠可以讓電流在電線裡流動得更快", "只是為了讓電線的顏色看起來比較漂亮", "增加電線的重量，讓它比較不會被風吹動"],
+      "answer": 0,
+      "explanation": "塑膠是不容易導電的絕緣體，包在會導電的金屬線外面，可以擋住電流、避免我們直接碰到金屬而觸電。裡面的金屬（銅或鋁）是導體負責通電，外層絕緣體負責保護安全，這也是電線一旦破皮露出金屬就特別危險的原因。"
+    },
+    {
+      "id": "elem_science_4_030",
+      "difficulty": 1,
+      "question": "水族箱裡常見的金魚藻，整株連根帶葉都沉在水面下生長。像這樣的水生植物屬於下列哪一類？",
+      "options": ["挺水植物", "漂浮植物", "沉水植物", "陸生植物"],
+      "answer": 2,
+      "explanation": "整株都沉在水面下、根莖葉都長在水中的植物稱為沉水植物，金魚藻、水蘊草都是常見的例子。挺水植物（如荷花）的莖葉會挺出水面，漂浮植物（如浮萍）整株浮在水面上，分類的重點就在於植物生長時和水面的相對位置。"
+    },
+    {
+      "id": "elem_science_4_031",
+      "difficulty": 3,
+      "question": "小明在農曆十五的晚上看到又大又圓的滿月。再過大約一個星期（農曆二十二、二十三左右）的晚上，月亮最可能變成什麼樣子？",
+      "options": ["又立刻變回完整的滿月", "亮面大約只剩一半的下弦月", "完全看不到的新月", "月亮會一整晚都不出現"],
+      "answer": 1,
+      "explanation": "月相以大約一個月為週期，順序是新月、上弦月、滿月、下弦月，再回到新月；滿月（十五）之後，亮面會慢慢變少，大約一個星期後（二十二、二十三）變成半圓形的下弦月。要再過大約一個星期才會回到看不見的新月，所以緊接在滿月後面不會馬上變成新月。"
+    },
+    {
+      "id": "elem_science_4_032",
+      "difficulty": 3,
+      "question": "青蛙小時候是在水中游動的蝌蚪，長大後變成能到陸地上活動的青蛙。關於蝌蚪和青蛙的呼吸方式，下列敘述哪一個正確？",
+      "options": ["蝌蚪和青蛙都一直用肺呼吸", "蝌蚪用鰓在水中呼吸，長成青蛙後主要改用肺呼吸", "蝌蚪和青蛙都一直用鰓呼吸", "蝌蚪用肺呼吸，青蛙反而用鰓呼吸"],
+      "answer": 1,
+      "explanation": "蝌蚪生活在水中，用鰓呼吸溶在水裡的氧氣；長成青蛙後可以到陸地上活動，主要改用肺呼吸空氣（皮膚也能幫忙呼吸）。青蛙一生中呼吸器官的改變，正好對應牠從水中到陸地的生活方式轉變，這也是青蛙這類兩生類動物的特徵。"
     }
   ]
 }

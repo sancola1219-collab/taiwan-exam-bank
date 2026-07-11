@@ -7,7 +7,12 @@
       "id": "senior_physics_11_001",
       "difficulty": 1,
       "question": "一物體作等速圓周運動，半徑 $2\\ \\mathrm{m}$，速率 $4\\ \\mathrm{m/s}$，其向心加速度大小為何？",
-      "options": ["$2$ m/s²", "$4$ m/s²", "$8$ m/s²", "$32$ m/s²"],
+      "options": [
+        "$2$ m/s²",
+        "$4$ m/s²",
+        "$8$ m/s²",
+        "$32$ m/s²"
+      ],
       "answer": 2,
       "explanation": "向心加速度 $a_c=\\dfrac{v^2}{r}=\\dfrac{4^2}{2}=\\dfrac{16}{2}=8\\ \\mathrm{m/s^2}$。易錯處是忘記把速率平方而算成 $\\dfrac{4}{2}=2\\ \\mathrm{m/s^2}$，或把 $r$ 乘到分子得 $32$。"
     },
@@ -15,7 +20,12 @@
       "id": "senior_physics_11_002",
       "difficulty": 1,
       "question": "一物體作等速圓周運動，週期為 $2$ 秒，其角速度為何？",
-      "options": ["$\\pi$ rad/s", "$2\\pi$ rad/s", "$\\dfrac{\\pi}{2}$ rad/s", "$4\\pi$ rad/s"],
+      "options": [
+        "$\\pi$ rad/s",
+        "$2\\pi$ rad/s",
+        "$\\dfrac{\\pi}{2}$ rad/s",
+        "$4\\pi$ rad/s"
+      ],
       "answer": 0,
       "explanation": "角速度 $\\omega=\\dfrac{2\\pi}{T}=\\dfrac{2\\pi}{2}=\\pi\\ \\mathrm{rad/s}$。易錯處是忘記除以週期直接答 $2\\pi$，或把週期與頻率混淆多除或少除一次。"
     },
@@ -23,7 +33,12 @@
       "id": "senior_physics_11_003",
       "difficulty": 1,
       "question": "兩質點間的萬有引力為 $F$，若兩者距離變為原來的 $2$ 倍（質量不變），則引力變為原來的幾倍？",
-      "options": ["$\\dfrac{1}{2}$ 倍", "$\\dfrac{1}{4}$ 倍", "$2$ 倍", "$4$ 倍"],
+      "options": [
+        "$\\dfrac{1}{2}$ 倍",
+        "$\\dfrac{1}{4}$ 倍",
+        "$2$ 倍",
+        "$4$ 倍"
+      ],
       "answer": 1,
       "explanation": "萬有引力 $F=\\dfrac{Gm_1m_2}{r^2}$ 與距離平方成反比，距離變 $2$ 倍時，引力變為 $\\dfrac{1}{2^2}=\\dfrac{1}{4}$ 倍。易錯處是只按一次反比計算答 $\\dfrac{1}{2}$，平方反比定律必須把倍率平方。"
     },
@@ -31,7 +46,12 @@
       "id": "senior_physics_11_004",
       "difficulty": 1,
       "question": "彈簧的力常數 $k=100\\ \\mathrm{N/m}$，將其拉伸 $0.1\\ \\mathrm{m}$（在彈性限度內），彈簧的彈力大小為何？",
-      "options": ["$1000$ N", "$1$ N", "$100$ N", "$10$ N"],
+      "options": [
+        "$1000$ N",
+        "$1$ N",
+        "$100$ N",
+        "$10$ N"
+      ],
       "answer": 3,
       "explanation": "由虎克定律 $F=kx=100\\times 0.1=10\\ \\mathrm{N}$。易錯處是把伸長量 $0.1\\ \\mathrm{m}$ 誤當 $10\\ \\mathrm{cm}=10$ 來乘而得 $1000$，計算時單位必須統一為 SI 制。"
     },
@@ -39,7 +59,12 @@
       "id": "senior_physics_11_005",
       "difficulty": 1,
       "question": "定量理想氣體在定容下，若絕對溫度變為原來的 $2$ 倍，則壓力變為原來的幾倍？",
-      "options": ["變為 $2$ 倍", "變為 $\\dfrac{1}{2}$ 倍", "不變", "變為 $4$ 倍"],
+      "options": [
+        "變為 $2$ 倍",
+        "變為 $\\dfrac{1}{2}$ 倍",
+        "不變",
+        "變為 $4$ 倍"
+      ],
       "answer": 0,
       "explanation": "由理想氣體方程式 $PV=nRT$，定容定量時 $P\\propto T$（給呂薩克定律），絕對溫度加倍則壓力加倍。易錯處是誤用攝氏溫度計算比例，氣體定律中的溫度必須使用絕對溫度（K）。"
     },
@@ -47,7 +72,12 @@
       "id": "senior_physics_11_006",
       "difficulty": 1,
       "question": "救護車鳴笛朝向靜止的觀察者接近時，觀察者聽到的聲音頻率與原頻率相比為何？",
-      "options": ["變低", "不變", "變高", "先變低再變高"],
+      "options": [
+        "變低",
+        "不變",
+        "變高",
+        "先變低再變高"
+      ],
       "answer": 2,
       "explanation": "依都卜勒效應，音源接近觀察者時，波前被壓縮使波長變短，觀察者接收到的頻率比原頻率高。易錯處是把「接近時變高、遠離時變低」記反，可用波前被壓縮或拉開的圖像來判斷。"
     },
@@ -55,7 +85,12 @@
       "id": "senior_physics_11_007",
       "difficulty": 1,
       "question": "人站在平面鏡前，鏡中所成的像為下列何者？",
-      "options": ["倒立等大實像", "正立等大虛像", "正立放大虛像", "倒立縮小實像"],
+      "options": [
+        "倒立等大實像",
+        "正立等大虛像",
+        "正立放大虛像",
+        "倒立縮小實像"
+      ],
       "answer": 1,
       "explanation": "平面鏡成像為正立、與物體等大的虛像，且像與物到鏡面的距離相等、左右相反。易錯處是誤以為鏡中的像可以成在屏幕上，虛像是由反射光線的延長線相交而成，無法用屏幕承接。"
     },
@@ -63,7 +98,12 @@
       "id": "senior_physics_11_008",
       "difficulty": 2,
       "question": "質量 $0.5\\ \\mathrm{kg}$ 的小球以 $4\\ \\mathrm{m/s}$ 的速率在半徑 $2\\ \\mathrm{m}$ 的水平圓周上等速率運動，所需向心力為何？",
-      "options": ["$4$ N", "$8$ N", "$2$ N", "$16$ N"],
+      "options": [
+        "$4$ N",
+        "$8$ N",
+        "$2$ N",
+        "$16$ N"
+      ],
       "answer": 0,
       "explanation": "向心力 $F=\\dfrac{mv^2}{r}=\\dfrac{0.5\\times 4^2}{2}=\\dfrac{0.5\\times 16}{2}=4\\ \\mathrm{N}$。易錯處是忘記把速率平方，或忘記除以半徑；向心力方向恆指向圓心，是使方向改變而非使速率改變的力。"
     },
@@ -71,7 +111,12 @@
       "id": "senior_physics_11_009",
       "difficulty": 2,
       "question": "衛星繞地球作圓軌道運動，若軌道半徑變為原來的 $4$ 倍，則週期變為原來的幾倍？",
-      "options": ["$4$ 倍", "$16$ 倍", "$2$ 倍", "$8$ 倍"],
+      "options": [
+        "$4$ 倍",
+        "$16$ 倍",
+        "$2$ 倍",
+        "$8$ 倍"
+      ],
       "answer": 3,
       "explanation": "由克卜勒第三定律 $T^2\\propto r^3$，$r$ 變 $4$ 倍時 $T^2$ 變 $4^3=64$ 倍，故 $T$ 變 $\\sqrt{64}=8$ 倍。易錯處是誤用 $T\\propto r$ 答 $4$ 倍，或忘記最後開平方而答 $64$ 相關數值。"
     },
@@ -79,7 +124,12 @@
       "id": "senior_physics_11_010",
       "difficulty": 2,
       "question": "質量 $2\\ \\mathrm{kg}$ 的物體掛在力常數 $k=200\\ \\mathrm{N/m}$ 的彈簧下作簡諧運動，其週期為何？",
-      "options": ["$2\\pi$ s", "$0.1\\pi$ s", "$0.2\\pi$ s", "$20\\pi$ s"],
+      "options": [
+        "$2\\pi$ s",
+        "$0.1\\pi$ s",
+        "$0.2\\pi$ s",
+        "$20\\pi$ s"
+      ],
       "answer": 2,
       "explanation": "彈簧簡諧運動週期 $T=2\\pi\\sqrt{\\dfrac{m}{k}}=2\\pi\\sqrt{\\dfrac{2}{200}}=2\\pi\\sqrt{0.01}=2\\pi\\times 0.1=0.2\\pi\\ \\mathrm{s}$。易錯處是把根號內的 $\\dfrac{m}{k}$ 寫成 $\\dfrac{k}{m}$，或忘記開根號。"
     },
@@ -87,7 +137,12 @@
       "id": "senior_physics_11_011",
       "difficulty": 2,
       "question": "定容容器內的理想氣體在 $300\\ \\mathrm{K}$ 時壓力為 $2\\ \\mathrm{atm}$，加熱至 $450\\ \\mathrm{K}$ 時壓力為何？",
-      "options": ["$3$ atm", "$\\dfrac{4}{3}$ atm", "$4$ atm", "$1.5$ atm"],
+      "options": [
+        "$3$ atm",
+        "$\\dfrac{4}{3}$ atm",
+        "$4$ atm",
+        "$1.5$ atm"
+      ],
       "answer": 0,
       "explanation": "定容下 $\\dfrac{P_1}{T_1}=\\dfrac{P_2}{T_2}$，故 $P_2=P_1\\times\\dfrac{T_2}{T_1}=2\\times\\dfrac{450}{300}=2\\times 1.5=3\\ \\mathrm{atm}$。易錯處是把溫度比放反算成 $2\\times\\dfrac{300}{450}=\\dfrac{4}{3}\\ \\mathrm{atm}$，升溫時壓力應增大可作合理性檢查。"
     },
@@ -95,7 +150,12 @@
       "id": "senior_physics_11_012",
       "difficulty": 2,
       "question": "音源發出頻率 $450\\ \\mathrm{Hz}$ 的聲音，以 $34\\ \\mathrm{m/s}$ 朝靜止觀察者接近（聲速 $340\\ \\mathrm{m/s}$），觀察者聽到的頻率為何？",
-      "options": ["$405$ Hz", "$500$ Hz", "$495$ Hz", "$550$ Hz"],
+      "options": [
+        "$405$ Hz",
+        "$500$ Hz",
+        "$495$ Hz",
+        "$550$ Hz"
+      ],
       "answer": 1,
       "explanation": "音源接近時 $f'=f\\times\\dfrac{v}{v-v_s}=450\\times\\dfrac{340}{340-34}=450\\times\\dfrac{340}{306}=450\\times\\dfrac{10}{9}=500\\ \\mathrm{Hz}$。易錯處是分母用 $v+v_s$ 算成 $405\\ \\mathrm{Hz}$，接近時頻率必變高，可先判斷答案應大於 $450\\ \\mathrm{Hz}$。"
     },
@@ -103,7 +163,12 @@
       "id": "senior_physics_11_013",
       "difficulty": 2,
       "question": "焦距 $10\\ \\mathrm{cm}$ 的凸透鏡，物體置於鏡前 $30\\ \\mathrm{cm}$ 處，則像距為何？",
-      "options": ["$7.5$ cm", "$30$ cm", "$20$ cm", "$15$ cm"],
+      "options": [
+        "$7.5$ cm",
+        "$30$ cm",
+        "$20$ cm",
+        "$15$ cm"
+      ],
       "answer": 3,
       "explanation": "由成像公式 $\\dfrac{1}{p}+\\dfrac{1}{q}=\\dfrac{1}{f}$，得 $\\dfrac{1}{q}=\\dfrac{1}{10}-\\dfrac{1}{30}=\\dfrac{3-1}{30}=\\dfrac{2}{30}$，故 $q=15\\ \\mathrm{cm}$，為倒立縮小實像。易錯處是把公式寫成 $\\dfrac{1}{q}=\\dfrac{1}{p}+\\dfrac{1}{f}$ 或通分時算錯，$7.5\\ \\mathrm{cm}$ 即是誤加所得。"
     },
@@ -111,7 +176,12 @@
       "id": "senior_physics_11_014",
       "difficulty": 2,
       "question": "光自空氣射入水中（水的折射率 $n=\\dfrac{4}{3}$），入射角的正弦值為 $0.8$（約 $53^\\circ$），則折射角約為何？",
-      "options": ["$53^\\circ$", "$37^\\circ$", "$45^\\circ$", "$30^\\circ$"],
+      "options": [
+        "$53^\\circ$",
+        "$37^\\circ$",
+        "$45^\\circ$",
+        "$30^\\circ$"
+      ],
       "answer": 1,
       "explanation": "由司乃耳定律 $n_1\\sin\\theta_1=n_2\\sin\\theta_2$，$1\\times 0.8=\\dfrac{4}{3}\\sin\\theta_2$，得 $\\sin\\theta_2=0.8\\times\\dfrac{3}{4}=0.6$，故折射角約 $37^\\circ$。易錯處是把折射率比放反使折射角變大，光由疏介質進入密介質時應偏向法線、折射角變小。"
     },
@@ -119,7 +189,12 @@
       "id": "senior_physics_11_015",
       "difficulty": 3,
       "question": "汽車在水平彎道上轉彎，彎道半徑 $45\\ \\mathrm{m}$，輪胎與路面的靜摩擦係數 $\\mu_s=0.5$（取 $g=10\\ \\mathrm{m/s^2}$），不打滑的最大速率為何？",
-      "options": ["$225$ m/s", "$22.5$ m/s", "$15$ m/s", "$10$ m/s"],
+      "options": [
+        "$225$ m/s",
+        "$22.5$ m/s",
+        "$15$ m/s",
+        "$10$ m/s"
+      ],
       "answer": 2,
       "explanation": "以最大靜摩擦力提供向心力：$\\mu_s mg=\\dfrac{mv^2}{r}$，得 $v=\\sqrt{\\mu_s gr}=\\sqrt{0.5\\times 10\\times 45}=\\sqrt{225}=15\\ \\mathrm{m/s}$。易錯處是求出 $v^2=225$ 後忘記開根號而答 $225$，或把質量留在式中以為需要質量資料（實際上 $m$ 會約掉）。"
     },
@@ -127,7 +202,12 @@
       "id": "senior_physics_11_016",
       "difficulty": 3,
       "question": "近地衛星貼近地表繞行，設地表重力加速度 $g=10\\ \\mathrm{m/s^2}$、地球半徑 $R=6.4\\times 10^6\\ \\mathrm{m}$，其繞行速率約為何？",
-      "options": ["$8$ km/s", "$11.2$ km/s", "$4$ km/s", "$64$ km/s"],
+      "options": [
+        "$8$ km/s",
+        "$11.2$ km/s",
+        "$4$ km/s",
+        "$64$ km/s"
+      ],
       "answer": 0,
       "explanation": "重力提供向心力：$mg=\\dfrac{mv^2}{R}$，得 $v=\\sqrt{gR}=\\sqrt{10\\times 6.4\\times 10^6}=\\sqrt{6.4\\times 10^7}=8\\times 10^3\\ \\mathrm{m/s}=8\\ \\mathrm{km/s}$。易錯處是與脫離速度 $11.2\\ \\mathrm{km/s}$ 混淆，脫離速度是 $\\sqrt{2gR}$，為圓軌道速率的 $\\sqrt{2}$ 倍。"
     },
@@ -135,7 +215,12 @@
       "id": "senior_physics_11_017",
       "difficulty": 3,
       "question": "物體作簡諧運動，振幅為 $A$。當位移大小為 $\\dfrac{A}{2}$ 時，其動能佔總力學能的比例為何？",
-      "options": ["$\\dfrac{1}{2}$", "$\\dfrac{1}{4}$", "$\\dfrac{\\sqrt{3}}{2}$", "$\\dfrac{3}{4}$"],
+      "options": [
+        "$\\dfrac{1}{2}$",
+        "$\\dfrac{1}{4}$",
+        "$\\dfrac{\\sqrt{3}}{2}$",
+        "$\\dfrac{3}{4}$"
+      ],
       "answer": 3,
       "explanation": "總能 $E=\\dfrac{1}{2}kA^2$，位移 $x=\\dfrac{A}{2}$ 時位能 $U=\\dfrac{1}{2}k\\left(\\dfrac{A}{2}\\right)^2=\\dfrac{E}{4}$，故動能 $K=E-U=\\dfrac{3}{4}E$，比例為 $\\dfrac{3}{4}$。易錯處是以為位移一半時位能即佔一半，位能與位移的「平方」成正比而非一次方。"
     },
@@ -143,7 +228,12 @@
       "id": "senior_physics_11_018",
       "difficulty": 3,
       "question": "定量理想氣體由 $2\\ \\mathrm{atm}$、$3\\ \\mathrm{L}$、$300\\ \\mathrm{K}$ 變化到 $600\\ \\mathrm{K}$、$4\\ \\mathrm{L}$，則末態壓力為何？",
-      "options": ["$1.5$ atm", "$3$ atm", "$6$ atm", "$2$ atm"],
+      "options": [
+        "$1.5$ atm",
+        "$3$ atm",
+        "$6$ atm",
+        "$2$ atm"
+      ],
       "answer": 1,
       "explanation": "由聯合氣體定律 $\\dfrac{P_1V_1}{T_1}=\\dfrac{P_2V_2}{T_2}$，$P_2=\\dfrac{P_1V_1T_2}{T_1V_2}=\\dfrac{2\\times 3\\times 600}{300\\times 4}=\\dfrac{3600}{1200}=3\\ \\mathrm{atm}$。易錯處是只考慮溫度加倍答 $4\\ \\mathrm{atm}$ 或只考慮體積增大答 $1.5\\ \\mathrm{atm}$，必須同時處理兩個變因。"
     },
@@ -151,7 +241,12 @@
       "id": "senior_physics_11_019",
       "difficulty": 3,
       "question": "靜止音源發出頻率 $600\\ \\mathrm{Hz}$ 的聲音，觀察者以 $17\\ \\mathrm{m/s}$ 朝音源接近（聲速 $340\\ \\mathrm{m/s}$），觀察者聽到的頻率為何？",
-      "options": ["$570$ Hz", "$600$ Hz", "$630$ Hz", "$660$ Hz"],
+      "options": [
+        "$570$ Hz",
+        "$600$ Hz",
+        "$630$ Hz",
+        "$660$ Hz"
+      ],
       "answer": 2,
       "explanation": "觀察者接近靜止音源時 $f'=f\\times\\dfrac{v+v_o}{v}=600\\times\\dfrac{340+17}{340}=600\\times\\dfrac{357}{340}=600\\times 1.05=630\\ \\mathrm{Hz}$。易錯處是把觀察者速度放到分母（那是音源移動的公式），或符號取負算成 $570\\ \\mathrm{Hz}$；相互接近時頻率必升高。"
     },
@@ -159,9 +254,175 @@
       "id": "senior_physics_11_020",
       "difficulty": 3,
       "question": "焦距 $20\\ \\mathrm{cm}$ 的凹面鏡，物體置於鏡前 $30\\ \\mathrm{cm}$ 處，則像距為何？",
-      "options": ["$12$ cm", "$30$ cm", "$20$ cm", "$60$ cm"],
+      "options": [
+        "$12$ cm",
+        "$30$ cm",
+        "$20$ cm",
+        "$60$ cm"
+      ],
       "answer": 3,
       "explanation": "由面鏡公式 $\\dfrac{1}{p}+\\dfrac{1}{q}=\\dfrac{1}{f}$，$\\dfrac{1}{q}=\\dfrac{1}{20}-\\dfrac{1}{30}=\\dfrac{3-2}{60}=\\dfrac{1}{60}$，故 $q=60\\ \\mathrm{cm}$，為倒立放大實像（放大率 $2$ 倍）。易錯處是通分時分子相加算成 $\\dfrac{5}{60}$ 得 $12\\ \\mathrm{cm}$，公式移項後應是相減。"
+    },
+    {
+      "id": "senior_physics_11_021",
+      "difficulty": 1,
+      "question": "一物體作簡諧運動，其振動頻率為 $4\\ \\mathrm{Hz}$，則此運動的週期為何？",
+      "options": [
+        "$0.25$ s",
+        "$4$ s",
+        "$0.5$ s",
+        "$8$ s"
+      ],
+      "answer": 0,
+      "explanation": "週期與頻率互為倒數，$T=\\dfrac{1}{f}=\\dfrac{1}{4}=0.25\\ \\mathrm{s}$。易錯處是把週期與頻率混為一談而直接答 $4\\ \\mathrm{s}$，頻率是每秒振動次數、週期是振動一次所需時間，兩者相乘應等於 $1$。"
+    },
+    {
+      "id": "senior_physics_11_022",
+      "difficulty": 1,
+      "question": "一列水波的頻率為 $50\\ \\mathrm{Hz}$，波長為 $0.4\\ \\mathrm{m}$，則此波的波速為何？",
+      "options": [
+        "$125$ m/s",
+        "$20$ m/s",
+        "$50.4$ m/s",
+        "$0.008$ m/s"
+      ],
+      "answer": 1,
+      "explanation": "波速等於頻率乘以波長，$v=f\\lambda=50\\times 0.4=20\\ \\mathrm{m/s}$。易錯處是把公式記成 $\\dfrac{f}{\\lambda}$ 而算成 $125\\ \\mathrm{m/s}$，或誤把頻率與波長相加，波速三要素的關係務必是相乘。"
+    },
+    {
+      "id": "senior_physics_11_023",
+      "difficulty": 1,
+      "question": "圖為某物體作簡諧運動的位移-時間關係圖（位移單位 cm，時間單位 s），由圖判讀此運動的振幅與週期分別為何？",
+      "figure": "<svg viewBox=\"0 0 260 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"30\" y1=\"90\" x2=\"245\" y2=\"90\" stroke=\"currentColor\"/><polyline points=\"30,90 40,71 50,55 60,44 70,40 80,44 90,55 100,71 110,90 120,109 130,125 140,136 150,140 160,136 170,125 180,109 190,90\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"27\" y1=\"40\" x2=\"30\" y2=\"40\" stroke=\"currentColor\"/><line x1=\"27\" y1=\"140\" x2=\"30\" y2=\"140\" stroke=\"currentColor\"/><line x1=\"70\" y1=\"90\" x2=\"70\" y2=\"93\" stroke=\"currentColor\"/><line x1=\"110\" y1=\"90\" x2=\"110\" y2=\"93\" stroke=\"currentColor\"/><line x1=\"150\" y1=\"90\" x2=\"150\" y2=\"93\" stroke=\"currentColor\"/><line x1=\"190\" y1=\"90\" x2=\"190\" y2=\"93\" stroke=\"currentColor\"/><text x=\"8\" y=\"18\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">x (cm)</text><text x=\"215\" y=\"104\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">t (s)</text><text x=\"14\" y=\"44\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">4</text><text x=\"10\" y=\"144\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">-4</text><text x=\"66\" y=\"104\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">2</text><text x=\"106\" y=\"104\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">4</text><text x=\"146\" y=\"104\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">6</text><text x=\"186\" y=\"104\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">8</text></svg>",
+      "options": [
+        "振幅 $8$ cm，週期 $4$ s",
+        "振幅 $8$ cm，週期 $8$ s",
+        "振幅 $4$ cm，週期 $8$ s",
+        "振幅 $4$ cm，週期 $4$ s"
+      ],
+      "answer": 2,
+      "explanation": "振幅是離開平衡位置的最大位移，由圖讀出為 $4\\ \\mathrm{cm}$；完成一次完整振動所需時間即週期，曲線在 $t=8\\ \\mathrm{s}$ 才回到初始狀態，故週期為 $8\\ \\mathrm{s}$。易錯處是把波峰到波谷的高度 $8\\ \\mathrm{cm}$ 當成振幅，振幅只算單邊，等於全高的一半。"
+    },
+    {
+      "id": "senior_physics_11_024",
+      "difficulty": 1,
+      "question": "一質點作等速圓周運動，圓半徑為 $0.5\\ \\mathrm{m}$，角速率為 $10\\ \\mathrm{rad/s}$，則其線速率為何？",
+      "options": [
+        "$20$ m/s",
+        "$0.05$ m/s",
+        "$50$ m/s",
+        "$5$ m/s"
+      ],
+      "answer": 3,
+      "explanation": "線速率等於半徑乘以角速率，$v=r\\omega=0.5\\times 10=5\\ \\mathrm{m/s}$。易錯處是把公式誤成 $\\dfrac{\\omega}{r}$ 算得 $20\\ \\mathrm{m/s}$，或把半徑與角速率相除；記住半徑愈大、線速率愈大即可判斷關係為相乘。"
+    },
+    {
+      "id": "senior_physics_11_025",
+      "difficulty": 2,
+      "question": "圖為一維橫波在某瞬間的波形圖（縱軸為位移 y，橫軸為位置 x，單位皆為 cm）。若此波的波速為 $20\\ \\mathrm{cm/s}$，則其頻率為何？",
+      "figure": "<svg viewBox=\"0 0 260 160\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"140\" stroke=\"currentColor\"/><line x1=\"30\" y1=\"80\" x2=\"245\" y2=\"80\" stroke=\"currentColor\"/><polyline points=\"30,80 43,52 55,40 68,52 80,80 93,108 105,120 118,108 130,80 143,52 155,40 168,52 180,80 193,108 205,120 218,108 230,80\" fill=\"none\" stroke=\"#22c55e\" stroke-width=\"2\"/><line x1=\"27\" y1=\"40\" x2=\"30\" y2=\"40\" stroke=\"currentColor\"/><line x1=\"27\" y1=\"120\" x2=\"30\" y2=\"120\" stroke=\"currentColor\"/><line x1=\"80\" y1=\"80\" x2=\"80\" y2=\"83\" stroke=\"currentColor\"/><line x1=\"130\" y1=\"80\" x2=\"130\" y2=\"83\" stroke=\"currentColor\"/><line x1=\"180\" y1=\"80\" x2=\"180\" y2=\"83\" stroke=\"currentColor\"/><line x1=\"230\" y1=\"80\" x2=\"230\" y2=\"83\" stroke=\"currentColor\"/><text x=\"8\" y=\"18\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">y (cm)</text><text x=\"205\" y=\"96\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">x (cm)</text><text x=\"16\" y=\"44\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">3</text><text x=\"12\" y=\"124\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">-3</text><text x=\"76\" y=\"96\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">4</text><text x=\"126\" y=\"96\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">8</text><text x=\"173\" y=\"96\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">12</text><text x=\"223\" y=\"96\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">16</text></svg>",
+      "options": [
+        "$2.5$ Hz",
+        "$160$ Hz",
+        "$0.4$ Hz",
+        "$8$ Hz"
+      ],
+      "answer": 0,
+      "explanation": "由波形圖讀出相鄰兩波峰的間隔即波長 $\\lambda=8\\ \\mathrm{cm}$，再由 $v=f\\lambda$ 得 $f=\\dfrac{v}{\\lambda}=\\dfrac{20}{8}=2.5\\ \\mathrm{Hz}$。易錯處是把半個波長 $4\\ \\mathrm{cm}$ 誤讀為波長，或直接把波速乘波長算成 $160\\ \\mathrm{Hz}$，頻率應是波速除以波長。"
+    },
+    {
+      "id": "senior_physics_11_026",
+      "difficulty": 2,
+      "question": "定溫下一定量的理想氣體，體積由 $6\\ \\mathrm{L}$ 被壓縮為 $2\\ \\mathrm{L}$，若原壓力為 $1\\ \\mathrm{atm}$，則壓縮後的壓力為何？",
+      "options": [
+        "$\\dfrac{1}{3}$ atm",
+        "$3$ atm",
+        "$12$ atm",
+        "$0.5$ atm"
+      ],
+      "answer": 1,
+      "explanation": "定溫定量時由波以耳定律 $P_1V_1=P_2V_2$，$1\\times 6=P_2\\times 2$，得 $P_2=3\\ \\mathrm{atm}$。易錯處是把體積比放反算成 $\\dfrac{1}{3}\\ \\mathrm{atm}$，體積被壓小時壓力應增大，可先判斷答案要大於原壓力 $1\\ \\mathrm{atm}$。"
+    },
+    {
+      "id": "senior_physics_11_027",
+      "difficulty": 2,
+      "question": "圖為一凹透鏡（發散透鏡）的示意圖，$F$ 為其焦點，一實物置於鏡前。依凹透鏡的成像性質，此實物所成的像為下列何者？",
+      "figure": "<svg viewBox=\"0 0 260 160\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"80\" x2=\"245\" y2=\"80\" stroke=\"currentColor\"/><line x1=\"130\" y1=\"40\" x2=\"130\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"2\"/><polyline points=\"122,40 130,48 138,40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><polyline points=\"122,120 130,112 138,120\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"55\" y1=\"80\" x2=\"55\" y2=\"48\" stroke=\"#ef4444\" stroke-width=\"2\"/><polyline points=\"51,54 55,46 59,54\" fill=\"#ef4444\" stroke=\"#ef4444\"/><circle cx=\"90\" cy=\"80\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"170\" cy=\"80\" r=\"2.5\" fill=\"currentColor\"/><text x=\"84\" y=\"98\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">F</text><text x=\"164\" y=\"98\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">F</text><text x=\"45\" y=\"44\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">物</text><text x=\"112\" y=\"34\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">凹透鏡</text></svg>",
+      "options": [
+        "倒立放大實像",
+        "倒立縮小實像",
+        "正立縮小虛像",
+        "正立放大虛像"
+      ],
+      "answer": 2,
+      "explanation": "凹透鏡為發散透鏡，對任意位置的實物恆成正立、縮小的虛像，且像位於物體與透鏡的同側。易錯處是套用凸透鏡的成像規則而以為會有倒立實像，發散透鏡因無法使光線實際會聚，永遠不成實像。"
+    },
+    {
+      "id": "senior_physics_11_028",
+      "difficulty": 2,
+      "question": "一物體作簡諧運動，振幅為 $0.2\\ \\mathrm{m}$，角頻率為 $5\\ \\mathrm{rad/s}$，則其通過平衡位置時的最大速率為何？",
+      "options": [
+        "$0.04$ m/s",
+        "$25$ m/s",
+        "$5$ m/s",
+        "$1$ m/s"
+      ],
+      "answer": 3,
+      "explanation": "簡諧運動的最大速率發生在平衡位置，$v_{\\max}=A\\omega=0.2\\times 5=1\\ \\mathrm{m/s}$。易錯處是把振幅與角頻率相除得 $0.04\\ \\mathrm{m/s}$，或誤以為最大速率出現在端點；端點速率為零，速率在通過平衡點時才最大。"
+    },
+    {
+      "id": "senior_physics_11_029",
+      "difficulty": 3,
+      "question": "圖為一小球在水平桌面上作等速圓周運動的俯視圖，O 為圓心，小球沿逆時針方向運動，此刻位於 P 點（其速度方向如圖中箭頭所示）。則此刻小球的加速度方向為何？",
+      "figure": "<svg viewBox=\"0 0 200 180\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"95\" cy=\"90\" r=\"60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"95\" cy=\"90\" r=\"2.5\" fill=\"currentColor\"/><text x=\"80\" y=\"94\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">O</text><circle cx=\"155\" cy=\"90\" r=\"3\" fill=\"#3b82f6\"/><text x=\"160\" y=\"88\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">P</text><line x1=\"155\" y1=\"90\" x2=\"155\" y2=\"45\" stroke=\"#ef4444\" stroke-width=\"2\"/><polyline points=\"151,52 155,42 159,52\" fill=\"#ef4444\" stroke=\"#ef4444\"/><text x=\"162\" y=\"52\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">v</text><path d=\"M 58 48 A 55 55 0 0 1 95 30\" fill=\"none\" stroke=\"currentColor\"/><polyline points=\"89,27 96,29 92,35\" fill=\"currentColor\" stroke=\"currentColor\"/></svg>",
+      "options": [
+        "指向圓心 O",
+        "沿速度方向的切線",
+        "背離圓心向外",
+        "與速度方向恰相反"
+      ],
+      "answer": 0,
+      "explanation": "等速圓周運動的速率雖不變，但速度方向持續改變，故仍具加速度，此加速度為向心加速度，方向恆指向圓心 O。易錯處是誤以為「等速率」代表沒有加速度，或把加速度方向當成與速度同向的切線方向。"
+    },
+    {
+      "id": "senior_physics_11_030",
+      "difficulty": 3,
+      "question": "光由某透明介質（折射率 $n=2$）射向空氣，當入射角逐漸增大時會發生全反射，則此介質對空氣的臨界角為何？",
+      "options": [
+        "$60^\\circ$",
+        "$30^\\circ$",
+        "$45^\\circ$",
+        "$90^\\circ$"
+      ],
+      "answer": 1,
+      "explanation": "臨界角滿足 $\\sin\\theta_c=\\dfrac{n_{\\text{空氣}}}{n_{\\text{介質}}}=\\dfrac{1}{2}$，故 $\\theta_c=30^\\circ$。易錯處是把折射率比放反寫成 $\\sin\\theta_c=2$（無解）或誤算成 $60^\\circ$；全反射只發生在光由密介質射向疏介質、且入射角大於臨界角時。"
+    },
+    {
+      "id": "senior_physics_11_031",
+      "difficulty": 3,
+      "question": "兩顆人造衛星繞同一行星作圓軌道運動，其軌道半徑之比為 $1:4$，則此兩衛星的繞行速率之比（半徑小者比半徑大者）為何？",
+      "options": [
+        "$1:2$",
+        "$1:4$",
+        "$2:1$",
+        "$4:1$"
+      ],
+      "answer": 2,
+      "explanation": "重力提供向心力 $\\dfrac{GMm}{r^2}=\\dfrac{mv^2}{r}$，可得 $v=\\sqrt{\\dfrac{GM}{r}}$，故 $v\\propto\\dfrac{1}{\\sqrt{r}}$。半徑比為 $1:4$ 時速率比為 $\\dfrac{1}{\\sqrt{1}}:\\dfrac{1}{\\sqrt{4}}=2:1$，半徑小者較快。易錯處是誤以為 $v\\propto r$ 而答 $1:4$，或忘了開平方。"
+    },
+    {
+      "id": "senior_physics_11_032",
+      "difficulty": 3,
+      "question": "圖為一定量理想氣體在壓力-體積（P-V）圖上的四個狀態點 甲、乙、丙、丁（壓力單位 atm，體積單位 L）。則下列哪一個狀態的溫度最高？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"35\" y1=\"20\" x2=\"35\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"35\" y1=\"150\" x2=\"225\" y2=\"150\" stroke=\"currentColor\"/><circle cx=\"80\" cy=\"120\" r=\"3.5\" fill=\"#3b82f6\"/><circle cx=\"125\" cy=\"90\" r=\"3.5\" fill=\"#ef4444\"/><circle cx=\"170\" cy=\"120\" r=\"3.5\" fill=\"#22c55e\"/><circle cx=\"80\" cy=\"60\" r=\"3.5\" fill=\"#f59e0b\"/><text x=\"65\" y=\"118\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">甲</text><text x=\"130\" y=\"88\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">乙</text><text x=\"176\" y=\"118\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">丙</text><text x=\"65\" y=\"58\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">丁</text><line x1=\"80\" y1=\"150\" x2=\"80\" y2=\"153\" stroke=\"currentColor\"/><line x1=\"125\" y1=\"150\" x2=\"125\" y2=\"153\" stroke=\"currentColor\"/><line x1=\"170\" y1=\"150\" x2=\"170\" y2=\"153\" stroke=\"currentColor\"/><line x1=\"215\" y1=\"150\" x2=\"215\" y2=\"153\" stroke=\"currentColor\"/><text x=\"77\" y=\"165\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">1</text><text x=\"122\" y=\"165\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">2</text><text x=\"167\" y=\"165\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">3</text><text x=\"212\" y=\"165\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">4</text><line x1=\"32\" y1=\"120\" x2=\"35\" y2=\"120\" stroke=\"currentColor\"/><line x1=\"32\" y1=\"90\" x2=\"35\" y2=\"90\" stroke=\"currentColor\"/><line x1=\"32\" y1=\"60\" x2=\"35\" y2=\"60\" stroke=\"currentColor\"/><line x1=\"32\" y1=\"30\" x2=\"35\" y2=\"30\" stroke=\"currentColor\"/><text x=\"24\" y=\"124\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">1</text><text x=\"24\" y=\"94\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">2</text><text x=\"24\" y=\"64\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">3</text><text x=\"24\" y=\"34\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">4</text><text x=\"40\" y=\"16\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">P (atm)</text><text x=\"190\" y=\"146\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">V (L)</text></svg>",
+      "options": [
+        "甲",
+        "丙",
+        "丁",
+        "乙"
+      ],
+      "answer": 3,
+      "explanation": "由理想氣體方程式 $PV=nRT$，定量時 $T\\propto PV$，故 $PV$ 乘積最大者溫度最高。由圖讀出各點乘積：甲 $=1\\times1=1$、乙 $=2\\times2=4$、丙 $=3\\times1=3$、丁 $=1\\times3=3$，以乙最大。易錯處是只挑壓力最高的丁或體積最大的丙，必須看 $P$ 與 $V$ 的乘積而非單一變數。"
     }
   ]
 }

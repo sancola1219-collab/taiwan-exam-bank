@@ -262,6 +262,136 @@
       ],
       "answer": 1,
       "explanation": "faded 意為「褪色的、模糊的」，與後文「學者幾乎無法辨認上面的文字」呼應，全句翻譯為「這份古代手稿褪色得非常嚴重，學者幾乎無法辨認上面的字」。fluent 是「流利的」，frequent 是「頻繁的」，fertile 是「肥沃的」，皆無法描述手稿字跡的狀態。make out 意為「辨認出」。"
+    },
+    {
+      "id": "senior_english_12_021",
+      "difficulty": 1,
+      "question": "For your own safety, please ______ your seat belt before the plane takes off.",
+      "options": [
+        "decorate",
+        "whisper",
+        "fasten",
+        "borrow"
+      ],
+      "answer": 2,
+      "explanation": "fasten 意為「繫緊、扣上」，fasten your seat belt（繫好安全帶）是飛機與汽車上的固定用語，全句翻譯為「為了您自身的安全，請在飛機起飛前繫好安全帶」。decorate 是「裝飾」，whisper 是「低聲說」，borrow 是「借入」，皆無法與 seat belt 形成合理動作。"
+    },
+    {
+      "id": "senior_english_12_022",
+      "difficulty": 1,
+      "question": "The more you practice, ______ you will become at speaking English in public.",
+      "options": [
+        "the more confident",
+        "more confident",
+        "the most confident",
+        "as confident"
+      ],
+      "answer": 0,
+      "explanation": "本題考「The + 比較級..., the + 比較級...」的句型，表示「越……就越……」，故後半段須用 the more confident 與前半的 The more 對應，全句翻譯為「你練習得越多，在眾人面前說英語就會越有自信」。缺少 the 的 more confident 或用最高級 the most confident，都不符合此固定平行結構。"
+    },
+    {
+      "id": "senior_english_12_023",
+      "difficulty": 1,
+      "question": "Remember to ______ the lights when you leave the classroom in order to save energy.",
+      "options": [
+        "turn up",
+        "turn in",
+        "turn into",
+        "turn off"
+      ],
+      "answer": 3,
+      "explanation": "turn off 意為「關掉（電器、燈）」，與後文「以節省能源」相呼應，全句翻譯為「離開教室時記得關燈以節約能源」。turn up 是「調大（音量）」，turn in 是「繳交」，turn into 是「變成」，三者皆與關燈省電的語境不合。"
+    },
+    {
+      "id": "senior_english_12_024",
+      "difficulty": 2,
+      "question": "If I ______ about the traffic jam earlier, I would have taken another route to the airport.",
+      "options": [
+        "knew",
+        "had known",
+        "have known",
+        "would know"
+      ],
+      "answer": 1,
+      "explanation": "本題考與過去事實相反的第三類條件句：主要子句用 would have taken，if 子句便須用過去完成式 had known，全句翻譯為「要是我早點知道塞車的事，我就會選另一條路去機場」。單純過去式 knew 用於與現在事實相反的假設，時態與主句不搭，是最常見的誤選。"
+    },
+    {
+      "id": "senior_english_12_025",
+      "difficulty": 2,
+      "question": "The witness gave a very ______ description of the suspect, including his height, clothing, and even a small scar on his chin.",
+      "options": [
+        "vague",
+        "brief",
+        "detailed",
+        "false"
+      ],
+      "answer": 2,
+      "explanation": "detailed 意為「詳盡的」，與後文列出身高、衣著、下巴疤痕等具體特徵相呼應，全句翻譯為「目擊者對嫌犯做了非常詳盡的描述，包括他的身高、衣著，甚至下巴上的一道小疤」。vague（模糊的）與 brief（簡短的）都與後面豐富的細節互相矛盾，false（假的）則無文意支持。"
+    },
+    {
+      "id": "senior_english_12_026",
+      "difficulty": 2,
+      "question": "The scientist ______ research completely changed our understanding of climate change was awarded the prize.",
+      "options": [
+        "who",
+        "whom",
+        "which",
+        "whose"
+      ],
+      "answer": 3,
+      "explanation": "空格後緊接名詞 research，需要表「所有格」的關係代名詞 whose，whose research 意為「其研究」，全句翻譯為「那位研究徹底改變了我們對氣候變遷認識的科學家獲得了這個獎」。who 與 whom 分別作主格與受格，後面不能直接接名詞；which 用於指物且非所有格，皆不適用。"
+    },
+    {
+      "id": "senior_english_12_027",
+      "difficulty": 2,
+      "question": "Despite the heavy rain and strong wind, the volunteers remained ______ and finished cleaning up the whole beach.",
+      "options": [
+        "determined",
+        "reluctant",
+        "exhausted",
+        "absent"
+      ],
+      "answer": 0,
+      "explanation": "determined 意為「堅定不移、下定決心的」，與 Despite（儘管）所帶出的轉折以及後文「完成整片海灘的清理」相呼應，全句翻譯為「儘管風雨交加，志工們仍意志堅定，完成了整片海灘的清理」。reluctant（不情願的）與 absent（缺席的）都會與他們堅持完工的行為矛盾，exhausted（筋疲力盡的）雖可能為真，卻無法解釋他們為何仍堅持到底。"
+    },
+    {
+      "id": "senior_english_12_028",
+      "difficulty": 3,
+      "question": "閱讀測驗：Honeybees do far more than produce honey; they pollinate about one-third of the crops we eat every day. In recent years, however, beekeepers around the world have reported that huge numbers of bees are suddenly disappearing from their hives. Scientists point to several possible causes, including certain pesticides, the loss of wild flowers, and tiny parasites that weaken the bees. No single factor fully explains the problem, and researchers warn that if bee populations keep falling, the price of many fruits and vegetables could rise sharply. According to the passage, which of the following is true?",
+      "options": [
+        "Honey is the only reason bees are important to humans",
+        "The decline of bees could push up the prices of fruits and vegetables",
+        "Scientists have identified one single cause of the bees' disappearance",
+        "Bees pollinate almost all of the crops that people eat"
+      ],
+      "answer": 1,
+      "explanation": "文末指出 if bee populations keep falling, the price of many fruits and vegetables could rise sharply，翻譯為「若蜜蜂數量持續下降，許多蔬果的價格可能大幅上漲」，故蜜蜂減少會推升蔬果價格為正確推論。文章開頭說蜜蜂「不只是產蜜」且只授粉約三分之一的作物，並強調沒有單一因素能完全解釋此現象，故其餘選項皆與文意不符。"
+    },
+    {
+      "id": "senior_english_12_029",
+      "difficulty": 3,
+      "question": "After months of tense negotiation, the two countries finally reached a ______ that ended their long-running trade dispute.",
+      "options": [
+        "compromise",
+        "controversy",
+        "catastrophe",
+        "coincidence"
+      ],
+      "answer": 0,
+      "explanation": "compromise 意為「妥協、折衷方案」，reach a compromise（達成妥協）是固定搭配，與後文「結束了長期貿易爭端」相呼應，全句翻譯為「經過數月緊張的談判，兩國終於達成妥協，結束了長期的貿易爭端」。controversy 是「爭議」，catastrophe 是「災難」，coincidence 是「巧合」，皆無法說明爭端何以落幕。"
+    },
+    {
+      "id": "senior_english_12_030",
+      "difficulty": 3,
+      "question": "閱讀測驗：Several companies have recently experimented with a four-day work week, giving employees an extra day off without cutting their pay. Supporters claim that well-rested workers are more focused and can get the same amount of work done in less time. In one large trial in Iceland, most workers reported lower stress and a better balance between work and family life, while productivity stayed the same or even improved. Critics, however, warn that the model may not suit every industry, especially those that must serve customers seven days a week. Which of the following best states the main idea of the passage?",
+      "options": [
+        "The four-day work week has already replaced the traditional schedule worldwide",
+        "A shorter work week may keep productivity steady while improving workers' well-being",
+        "Employees in Iceland were paid less after switching to a four-day week",
+        "The four-day work week works equally well for every kind of industry"
+      ],
+      "answer": 1,
+      "explanation": "全文說明縮短工時的試驗中，員工壓力降低、生活更平衡，而生產力維持不變甚至提升，故主旨為「較短的工時或許能在維持生產力的同時提升員工福祉」。文中僅說「部分公司嘗試」而非全球取代，明言「不減薪」，且批評者指出此模式未必適合所有產業，故其餘三個選項皆與文意相反或誇大。"
     }
   ]
 }

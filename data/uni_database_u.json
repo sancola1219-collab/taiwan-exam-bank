@@ -262,6 +262,136 @@
       ],
       "answer": 2,
       "explanation": "兩個交易基於相同的舊值計算後先後寫回，後寫入者覆蓋了先寫入者的結果，導致一次更新憑空消失，稱為遺失更新，可用鎖定機制（如兩段式鎖定）或提高隔離層級避免。易錯處是誤判為髒讀：本例兩個交易讀到的 1000 都是已提交的正確資料，問題出在「寫寫衝突」而非讀到未提交資料。"
+    },
+    {
+      "id": "uni_database_u_021",
+      "difficulty": 1,
+      "question": "SQL 敘述「INSERT INTO student (id, name) VALUES (5, '林小華');」的主要功能為何？",
+      "options": [
+        "在 student 表中新增一筆資料列",
+        "修改 student 表中既有的資料",
+        "刪除 student 表中的一筆資料",
+        "建立一張名為 student 的新資料表"
+      ],
+      "answer": 0,
+      "explanation": "INSERT INTO 用來把一筆新的資料列加入指定的表，本例會在 student 表新增 id 為 5、name 為「林小華」的紀錄。易錯處是與其他 DML 混淆：修改既有資料是 UPDATE、刪除資料列是 DELETE、建立新表結構則是 DDL 的 CREATE TABLE，四者的用途各不相同。"
+    },
+    {
+      "id": "uni_database_u_022",
+      "difficulty": 1,
+      "question": "SQL 敘述「SELECT name, score FROM exam ORDER BY score DESC;」的查詢結果會如何排列？",
+      "options": [
+        "依 name 由 A 到 Z 排列",
+        "依 score 由高到低排列",
+        "依 score 由低到高排列",
+        "不做任何排序，維持原始儲存順序"
+      ],
+      "answer": 1,
+      "explanation": "ORDER BY 指定排序欄位，關鍵字 DESC（descending）代表由大到小，因此結果會依 score 從最高分排到最低分。易錯處是把 DESC 與 ASC 記反：ASC（或省略不寫）才是由小到大；另外排序的依據是 ORDER BY 後面的欄位 score，而不是 SELECT 先列出的 name。"
+    },
+    {
+      "id": "uni_database_u_023",
+      "difficulty": 1,
+      "question": "在 SQL 中，要篩選出 email 欄位「沒有值（為 NULL）」的資料列，正確的 WHERE 條件為下列何者？",
+      "options": [
+        "WHERE email = NULL",
+        "WHERE email == NULL",
+        "WHERE email <> ''",
+        "WHERE email IS NULL"
+      ],
+      "answer": 3,
+      "explanation": "NULL 代表「未知或不存在」，不能用一般的等號比較，必須使用專用的 IS NULL 判斷式，因此正確寫法是 WHERE email IS NULL。易錯處是寫成「email = NULL」：任何值與 NULL 用等號比較的結果都是 unknown（既非真也非假），該列不會被選出；而「<> ''」判斷的是空字串，與 NULL 是不同的概念。"
+    },
+    {
+      "id": "uni_database_u_024",
+      "difficulty": 2,
+      "question": "執行 SQL 敘述「UPDATE employee SET salary = 50000;」（沒有加上 WHERE 子句）會造成什麼結果？",
+      "options": [
+        "只更新第一筆資料列的 salary",
+        "語法錯誤，無法執行",
+        "employee 表中每一筆資料列的 salary 都被改成 50000",
+        "只更新 salary 原本為 NULL 的資料列"
+      ],
+      "answer": 2,
+      "explanation": "UPDATE 若省略 WHERE，篩選條件視同套用到全部資料列，因此整張 employee 表的 salary 都會被改成 50000，這是實務上常見的誤刪誤改事故。易錯處是以為沒有 WHERE 會報錯或只改一列：語法完全合法且會作用於每一列，撰寫更新前務必先確認 WHERE 條件是否正確。"
+    },
+    {
+      "id": "uni_database_u_025",
+      "difficulty": 2,
+      "question": "關於 UNIQUE 限制（constraint）與 PRIMARY KEY 的比較，下列敘述何者正確？",
+      "options": [
+        "一張表最多只能設定一個 UNIQUE 限制",
+        "UNIQUE 欄位允許存在 NULL 值，PRIMARY KEY 則不允許 NULL",
+        "UNIQUE 與 PRIMARY KEY 完全相同，可任意互換",
+        "PRIMARY KEY 允許值重複，UNIQUE 不允許重複"
+      ],
+      "answer": 1,
+      "explanation": "兩者都要求欄位值不重複，但 PRIMARY KEY 額外要求不可為 NULL 且一張表只能有一個，UNIQUE 通常允許 NULL 且一張表可以設定多個。易錯處是把兩者當成完全相同：關鍵差異在於是否允許 NULL 與數量限制；另外 PRIMARY KEY 同樣不允許重複值，選項中「PRIMARY KEY 允許重複」是錯的。"
+    },
+    {
+      "id": "uni_database_u_026",
+      "difficulty": 2,
+      "question": "資料表 emp 共有 5 列，其中 bonus 欄位有 2 列的值為 NULL。執行「SELECT COUNT(*), COUNT(bonus) FROM emp;」的結果為下列何者？",
+      "options": [
+        "3、5",
+        "5、5",
+        "5、3",
+        "3、3"
+      ],
+      "answer": 2,
+      "explanation": "COUNT(*) 計算所有資料列的筆數，不管欄位是否為 NULL，因此為 5；COUNT(bonus) 只計算 bonus「有值」的列，會略過 2 個 NULL，因此為 3。易錯處是以為 COUNT(bonus) 也會把 NULL 算進去而答 5，聚合函數（COUNT 除了 COUNT(*)、SUM、AVG 等）都會自動忽略 NULL 值。"
+    },
+    {
+      "id": "uni_database_u_027",
+      "difficulty": 2,
+      "question": "關於資料庫「檢視表（view）」的敘述，下列何者正確？",
+      "options": [
+        "view 是一個以查詢定義的虛擬表，本身通常不另外儲存資料",
+        "view 是一張儲存實際資料的實體表格",
+        "建立 view 之後就無法再查詢原始的基底表",
+        "view 只能由資料庫管理員（DBA）查詢"
+      ],
+      "answer": 0,
+      "explanation": "view 是由一段 SELECT 查詢定義的虛擬表，查詢 view 時資料庫才依定義從基底表（base table）即時取資料，本身通常不另外儲存實際資料。易錯處是把 view 當成複製一份資料的實體表；view 常用來簡化複雜查詢或限制使用者只能看到部分欄位，基底表仍可正常查詢。"
+    },
+    {
+      "id": "uni_database_u_028",
+      "difficulty": 3,
+      "question": "關於 BCNF（Boyce-Codd 正規化）與 3NF 的關係，下列敘述何者正確？",
+      "options": [
+        "BCNF 比 3NF 寬鬆，比較容易滿足",
+        "BCNF 只處理多值相依，與函數相依無關",
+        "只要滿足 1NF 就一定滿足 BCNF",
+        "BCNF 要求每個決定因素（determinant）都必須是候選鍵，條件比 3NF 更嚴格"
+      ],
+      "answer": 3,
+      "explanation": "BCNF 要求對每個非平凡的函數相依 X → Y，決定因素 X 都必須是候選鍵（超鍵），這比 3NF 更嚴格，滿足 BCNF 必定滿足 3NF。易錯處是以為 BCNF 比較寬鬆或與多值相依有關：多值相依是第四正規化（4NF）處理的問題，而 BCNF 仍是針對函數相依，只是把 3NF 允許的少數例外也一併消除。"
+    },
+    {
+      "id": "uni_database_u_029",
+      "difficulty": 3,
+      "question": "交易 T1 鎖住資料 X 後想再取得 Y 的鎖，同時交易 T2 已鎖住 Y 又想取得 X 的鎖，兩者互相等待對方釋放而都無法繼續。這種現象稱為什麼？",
+      "options": [
+        "死結（deadlock）",
+        "髒讀（dirty read）",
+        "遞移相依（transitive dependency）",
+        "笛卡兒積（Cartesian product）"
+      ],
+      "answer": 0,
+      "explanation": "兩個以上的交易各自持有對方所需的資源並互相等待，形成循環等待而永遠僵持，稱為死結，資料庫通常以逾時或死結偵測後強制回滾其中一方來解除。易錯處是與髒讀混淆：髒讀是「讀到未提交資料」的資料正確性問題，死結則是因鎖定資源循環等待造成的「併發卡死」問題，兩者成因完全不同。"
+    },
+    {
+      "id": "uni_database_u_030",
+      "difficulty": 3,
+      "question": "下列哪一項最能描述「相關子查詢（correlated subquery）」的特徵？",
+      "options": [
+        "子查詢可獨立執行，只需執行一次就把結果交給外層查詢",
+        "子查詢引用了外層查詢的欄位，必須針對外層每一列各執行一次",
+        "子查詢一定要出現在 FROM 子句中才算相關子查詢",
+        "子查詢的回傳結果一定只有單一數值"
+      ],
+      "answer": 1,
+      "explanation": "相關子查詢因為引用了外層查詢當前列的欄位，無法獨立求值，資料庫必須對外層每一列各執行一次內層查詢，效能通常較差。易錯處是與「非相關子查詢」混淆：後者不依賴外層資料、只執行一次；另外相關子查詢可出現在 WHERE、SELECT 等多個位置，回傳結果也不限於單一值。"
     }
   ]
 }

@@ -162,6 +162,107 @@
       "options": ["$3$", "$4$", "$1$", "$2$"],
       "answer": 3,
       "explanation": "$\\mathrm{C_4H_{10}}$ 有正丁烷（四個碳成直鏈）與異丁烷（$2$-甲基丙烷，一個碳接在中間碳上）兩種結構異構物。易錯處是把鏈的彎折畫法（如 N 字形排列的直鏈）誤當成新的異構物，只要碳骨架連接方式相同就是同一種化合物。"
+    },
+    {
+      "id": "senior_chemistry_10_021",
+      "difficulty": 1,
+      "question": "圖為某原子的波耳（Bohr）電子殼層示意圖，各圈上的圓點代表電子。此原子最外層的電子數（價電子數）為何？",
+      "figure": "<svg viewBox=\"0 0 200 180\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"90\" r=\"65\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"100\" cy=\"90\" r=\"45\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"100\" cy=\"90\" r=\"25\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"100\" cy=\"90\" r=\"10\" fill=\"#ef4444\" fill-opacity=\"0.2\" stroke=\"currentColor\"/><text x=\"100\" y=\"94\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">+</text><circle cx=\"125\" cy=\"90\" r=\"3\" fill=\"currentColor\"/><circle cx=\"75\" cy=\"90\" r=\"3\" fill=\"currentColor\"/><circle cx=\"145\" cy=\"90\" r=\"3\" fill=\"currentColor\"/><circle cx=\"132\" cy=\"122\" r=\"3\" fill=\"currentColor\"/><circle cx=\"100\" cy=\"135\" r=\"3\" fill=\"currentColor\"/><circle cx=\"68\" cy=\"122\" r=\"3\" fill=\"currentColor\"/><circle cx=\"55\" cy=\"90\" r=\"3\" fill=\"currentColor\"/><circle cx=\"68\" cy=\"58\" r=\"3\" fill=\"currentColor\"/><circle cx=\"100\" cy=\"45\" r=\"3\" fill=\"currentColor\"/><circle cx=\"132\" cy=\"58\" r=\"3\" fill=\"currentColor\"/><circle cx=\"100\" cy=\"25\" r=\"3\" fill=\"currentColor\"/></svg>",
+      "options": ["$1$", "$3$", "$8$", "$11$"],
+      "answer": 0,
+      "explanation": "由圖可數出最外層（最外圈，第三層）僅有 $1$ 個電子，故價電子數為 $1$（此為電子排布 $2,8,1$ 的鈉原子）。易錯處是把三層電子總數 $2+8+1=11$ 當成價電子數，價電子只計算最外一層。"
+    },
+    {
+      "id": "senior_chemistry_10_022",
+      "difficulty": 2,
+      "question": "圖為某固體的溶解度曲線（縱軸為每 $100$ 克水所能溶解的最大克數，橫軸為溫度）。由圖判斷，在 $40\\,^\\circ\\mathrm{C}$ 時，該固體在 $100$ 克水中的溶解度約為多少克？",
+      "figure": "<svg viewBox=\"0 0 240 170\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"35\" y1=\"20\" x2=\"35\" y2=\"140\" stroke=\"currentColor\"/><line x1=\"35\" y1=\"140\" x2=\"220\" y2=\"140\" stroke=\"currentColor\"/><line x1=\"35\" y1=\"110\" x2=\"220\" y2=\"110\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><line x1=\"35\" y1=\"80\" x2=\"220\" y2=\"80\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><line x1=\"35\" y1=\"50\" x2=\"220\" y2=\"50\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><polyline points=\"35,120 71,110 107,80 143,50 179,25\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"107\" y1=\"140\" x2=\"107\" y2=\"80\" stroke=\"currentColor\" stroke-dasharray=\"3 3\"/><line x1=\"107\" y1=\"80\" x2=\"35\" y2=\"80\" stroke=\"currentColor\" stroke-dasharray=\"3 3\"/><text x=\"25\" y=\"114\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">30</text><text x=\"25\" y=\"84\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">60</text><text x=\"25\" y=\"54\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">90</text><text x=\"71\" y=\"153\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">20</text><text x=\"107\" y=\"153\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">40</text><text x=\"143\" y=\"153\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">60</text><text x=\"179\" y=\"153\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">80</text><text x=\"210\" y=\"135\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">溫度/°C</text><text x=\"40\" y=\"18\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">溶解度/g</text></svg>",
+      "options": ["$30$ 克", "$45$ 克", "$60$ 克", "$100$ 克"],
+      "answer": 2,
+      "explanation": "從橫軸 $40\\,^\\circ\\mathrm{C}$ 沿虛線向上對應曲線，再水平讀取縱軸得溶解度約 $60$ 克。易錯處是讀成 $20\\,^\\circ\\mathrm{C}$（約 $30$ 克）的對應值，判讀曲線時務必先對準題目指定的溫度再讀縱軸。"
+    },
+    {
+      "id": "senior_chemistry_10_023",
+      "difficulty": 2,
+      "question": "圖為簡化的週期表，圖中以色塊標示的 X 元素位於最右側一行。由其在週期表中的位置判斷，X 最可能屬於下列哪一類元素？",
+      "figure": "<svg viewBox=\"0 0 240 120\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"12\" y=\"24\" width=\"12\" height=\"16\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"216\" y=\"24\" width=\"12\" height=\"16\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"12\" y=\"44\" width=\"12\" height=\"16\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"24\" y=\"44\" width=\"12\" height=\"16\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"156\" y=\"44\" width=\"12\" height=\"16\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"168\" y=\"44\" width=\"12\" height=\"16\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"180\" y=\"44\" width=\"12\" height=\"16\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"192\" y=\"44\" width=\"12\" height=\"16\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"204\" y=\"44\" width=\"12\" height=\"16\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"216\" y=\"44\" width=\"12\" height=\"16\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"12\" y=\"64\" width=\"12\" height=\"16\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"24\" y=\"64\" width=\"12\" height=\"16\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"156\" y=\"64\" width=\"12\" height=\"16\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"168\" y=\"64\" width=\"12\" height=\"16\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"180\" y=\"64\" width=\"12\" height=\"16\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"192\" y=\"64\" width=\"12\" height=\"16\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"204\" y=\"64\" width=\"12\" height=\"16\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"216\" y=\"64\" width=\"12\" height=\"16\" fill=\"#f59e0b\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"222\" y=\"76\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">X</text><text x=\"120\" y=\"104\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">簡化週期表（色塊為待判斷元素 X）</text></svg>",
+      "options": ["容易失去電子的鹼金屬", "化性安定、不易反應的惰性氣體", "位於中間區的過渡金屬", "容易得到電子的鹵素"],
+      "answer": 1,
+      "explanation": "週期表最右一行（第 $18$ 族）為惰性氣體，其價殼層電子已填滿而達八隅體，故化性安定、不易與其他元素反應。易錯處是把最右行與最活潑的鹵素（第 $17$ 族）混淆，鹵素位於惰性氣體左邊一行。"
+    },
+    {
+      "id": "senior_chemistry_10_024",
+      "difficulty": 3,
+      "question": "圖為某元素依序移去第 $1$ 到第 $5$ 個電子所需的游離能（$I_1$ 至 $I_5$，長條越高代表游離能越大）。由圖中游離能出現大幅跳升的位置判斷，此元素最可能屬於週期表哪一族？",
+      "figure": "<svg viewBox=\"0 0 240 160\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"130\" stroke=\"currentColor\"/><line x1=\"30\" y1=\"130\" x2=\"220\" y2=\"130\" stroke=\"currentColor\"/><rect x=\"40\" y=\"124\" width=\"24\" height=\"6\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"76\" y=\"118\" width=\"24\" height=\"12\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"112\" y=\"68\" width=\"24\" height=\"62\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"148\" y=\"45\" width=\"24\" height=\"85\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"184\" y=\"20\" width=\"24\" height=\"110\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><text x=\"52\" y=\"144\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">I1</text><text x=\"88\" y=\"144\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">I2</text><text x=\"124\" y=\"144\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">I3</text><text x=\"160\" y=\"144\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">I4</text><text x=\"196\" y=\"144\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">I5</text><text x=\"33\" y=\"16\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">游離能</text></svg>",
+      "options": ["第 $1$ 族（鹼金屬）", "第 $2$ 族（鹼土金屬）", "第 $13$ 族", "第 $17$ 族（鹵素）"],
+      "answer": 1,
+      "explanation": "移去第 $3$ 個電子的 $I_3$ 相對於 $I_2$ 大幅跳升，表示前 $2$ 個電子屬於較易失去的價電子，第 $3$ 個電子已深入內層（安定的滿殼層），故此元素有 $2$ 個價電子，屬第 $2$ 族。易錯處是只看最高的 $I_5$ 就下結論，判斷價電子數要看「跳升發生在第幾個電子之後」。"
+    },
+    {
+      "id": "senior_chemistry_10_025",
+      "difficulty": 1,
+      "question": "圖為地殼中各元素質量組成的圓餅圖。由圖判斷，氧與矽兩元素合計約占地殼質量的多少百分比？",
+      "figure": "<svg viewBox=\"0 0 240 135\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M80,65 L132,65 A52,52 0 0 1 29.6,77.9 Z\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><path d=\"M80,65 L29.6,77.9 A52,52 0 0 1 76.7,13.1 Z\" fill=\"#ef4444\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><path d=\"M80,65 L76.7,13.1 A52,52 0 0 1 102.1,18.0 Z\" fill=\"#22c55e\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><path d=\"M80,65 L102.1,18.0 A52,52 0 0 1 115.6,27.1 Z\" fill=\"#f59e0b\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><path d=\"M80,65 L115.6,27.1 A52,52 0 0 1 132,65 Z\" fill=\"#a855f7\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"150\" y=\"22\" width=\"12\" height=\"12\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"168\" y=\"32\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">氧 46%</text><rect x=\"150\" y=\"42\" width=\"12\" height=\"12\" fill=\"#ef4444\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"168\" y=\"52\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">矽 28%</text><rect x=\"150\" y=\"62\" width=\"12\" height=\"12\" fill=\"#22c55e\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"168\" y=\"72\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">鋁 8%</text><rect x=\"150\" y=\"82\" width=\"12\" height=\"12\" fill=\"#f59e0b\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"168\" y=\"92\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">鐵 5%</text><rect x=\"150\" y=\"102\" width=\"12\" height=\"12\" fill=\"#a855f7\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"168\" y=\"112\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">其他 13%</text></svg>",
+      "options": ["約 46%", "約 54%", "約 82%", "約 74%"],
+      "answer": 3,
+      "explanation": "由圓餅圖及圖例讀出氧約占 $46\\%$、矽約占 $28\\%$，兩者相加為 $46\\%+28\\%=74\\%$。易錯處是只讀氧一項（$46\\%$）就作答，或把矽誤讀成鋁的比例，判讀時要對照正確的扇形與圖例顏色。"
+    },
+    {
+      "id": "senior_chemistry_10_026",
+      "difficulty": 1,
+      "question": "在標準狀況（STP，$0\\,^\\circ\\mathrm{C}$、$1\\ \\mathrm{atm}$）下，$0.5$ 莫耳的氧氣（$\\mathrm{O_2}$）所占的體積約為多少公升？（標準狀況下 $1$ 莫耳氣體約占 $22.4$ 公升）",
+      "options": ["$11.2$ 公升", "$22.4$ 公升", "$44.8$ 公升", "$5.6$ 公升"],
+      "answer": 0,
+      "explanation": "標準狀況下氣體體積 $=$ 莫耳數 $\\times 22.4=0.5\\times 22.4=11.2$ 公升。易錯處是忽略莫耳數直接寫 $22.4$ 公升，或把氧氣的分子量 $32$ 帶入計算；氣體莫耳體積只與莫耳數有關，與氣體種類無關。"
+    },
+    {
+      "id": "senior_chemistry_10_027",
+      "difficulty": 2,
+      "question": "下列同屬第三週期的元素中，電負度（電陰性，electronegativity）最大的是哪一個？",
+      "options": ["$\\mathrm{Na}$", "$\\mathrm{Al}$", "$\\mathrm{S}$", "$\\mathrm{Cl}$"],
+      "answer": 3,
+      "explanation": "同週期由左至右有效核電荷增加、原子半徑減小，原子吸引成鍵電子的能力（電負度）增強，故最右側（不含惰性氣體）的 Cl 電負度最大。易錯處是把電負度趨勢與金屬活性弄反（金屬越靠左越活潑），且惰性氣體通常不列入電負度比較。"
+    },
+    {
+      "id": "senior_chemistry_10_028",
+      "difficulty": 1,
+      "question": "在密閉容器中，$4$ 克的甲烷與 $16$ 克的氧氣恰好完全反應，生成二氧化碳與水。依質量守恆定律，生成物的總質量應為多少克？",
+      "options": ["$16$ 克", "$20$ 克", "$12$ 克", "$24$ 克"],
+      "answer": 1,
+      "explanation": "依質量守恆定律，密閉系統中反應前後總質量不變，故生成物總質量 $=4+16=20$ 克。易錯處是誤以為生成氣體後質量會減少，只要在密閉容器中沒有物質逸失，反應前後總質量必相等。"
+    },
+    {
+      "id": "senior_chemistry_10_029",
+      "difficulty": 2,
+      "question": "將丙烷燃燒反應式 $\\mathrm{C_3H_8}+a\\,\\mathrm{O_2}\\rightarrow b\\,\\mathrm{CO_2}+c\\,\\mathrm{H_2O}$ 配平（$a$、$b$、$c$ 為最簡整數係數），則 $a$ 的值為何？",
+      "options": ["$3$", "$4$", "$5$", "$7$"],
+      "answer": 2,
+      "explanation": "先由碳平衡得 $b=3$、氫平衡得 $c=4$；右側氧原子共 $3\\times 2+4=10$ 個，故 $a=10\\div 2=5$。易錯處是忘記把 $\\mathrm{CO_2}$ 與 $\\mathrm{H_2O}$ 的氧原子都算入，配平時應先定碳、氫，最後再回頭平衡氧。"
+    },
+    {
+      "id": "senior_chemistry_10_030",
+      "difficulty": 3,
+      "question": "某碳氫化合物經分析後，測得其中碳原子與氫原子的數目比為 $1:2$，則此化合物的實驗式（最簡整數比化學式）為何？",
+      "options": ["$\\mathrm{CH_2}$", "$\\mathrm{CH_4}$", "$\\mathrm{C_2H_4}$", "$\\mathrm{CH_3}$"],
+      "answer": 0,
+      "explanation": "實驗式以原子數目的最簡整數比表示，碳與氫為 $1:2$，故實驗式為 $\\mathrm{CH_2}$。易錯處是把 $\\mathrm{C_2H_4}$ 當成答案，$\\mathrm{C_2H_4}$ 屬分子式，其原子比仍可再約分成 $\\mathrm{CH_2}$；實驗式必須是最簡整數比。"
+    },
+    {
+      "id": "senior_chemistry_10_031",
+      "difficulty": 3,
+      "question": "氮氣分子（$\\mathrm{N_2}$）中兩個氮原子間以參鍵（三重鍵）結合。已知氮原子有 $5$ 個價電子，則此分子中每個氮原子上還有幾對未鍵結的孤對電子？",
+      "options": ["$0$ 對", "$3$ 對", "$1$ 對", "$2$ 對"],
+      "answer": 2,
+      "explanation": "氮原子的 $5$ 個價電子中，有 $3$ 個參與形成參鍵（三對共用電子對），剩下 $2$ 個電子形成 $1$ 對孤對電子，如此每個氮才達到八隅體。易錯處是忘記氮除了參鍵外還保留一對孤對電子，或把共用的三對電子誤算成孤對電子。"
+    },
+    {
+      "id": "senior_chemistry_10_032",
+      "difficulty": 3,
+      "question": "將 $2$ 毫克的某污染物完全溶於 $1000$ 克的水中（溶液密度視為 $1\\ \\mathrm{g/mL}$）。已知 $1\\ \\mathrm{ppm}$ 相當於每 $1$ 公斤溶液含 $1$ 毫克溶質，則此溶液中該污染物的濃度約為多少 ppm？",
+      "options": ["$0.2$ ppm", "$20$ ppm", "$0.5$ ppm", "$2$ ppm"],
+      "answer": 3,
+      "explanation": "溶液總質量約為 $1000$ 克 $=1$ 公斤，其中含溶質 $2$ 毫克，依定義每公斤含 $2$ 毫克即為 $2\\ \\mathrm{ppm}$。易錯處是把毫克與克或公斤的單位換算弄錯（多乘或少乘 $1000$ 倍）而得到 $0.2$ 或 $20\\ \\mathrm{ppm}$。"
     }
   ]
 }

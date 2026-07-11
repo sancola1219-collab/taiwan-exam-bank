@@ -162,6 +162,107 @@
       "options": ["240 元", "300 元", "120 元", "360 元"],
       "answer": 3,
       "explanation": "全部分成 3＋2＝5 份，每份 600÷5＝120 元，哥哥拿 3 份：120×3＝360 元。常見錯誤是算成弟弟的 240 元，或直接把 600 平分成 300 元。"
+    },
+    {
+      "id": "elem_math_6_021",
+      "difficulty": 1,
+      "question": "如長條圖是某飲料店週一到週五賣出果汁的杯數，這五天平均每天賣出幾杯？",
+      "figure": "<svg viewBox=\"0 0 260 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"150\" x2=\"240\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"150\" stroke=\"currentColor\"/><rect x=\"45\" y=\"70\" width=\"24\" height=\"80\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"85\" y=\"90\" width=\"24\" height=\"60\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"125\" y=\"50\" width=\"24\" height=\"100\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"165\" y=\"110\" width=\"24\" height=\"40\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"205\" y=\"30\" width=\"24\" height=\"120\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><text x=\"57\" y=\"66\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">40</text><text x=\"97\" y=\"86\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">30</text><text x=\"137\" y=\"46\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">50</text><text x=\"177\" y=\"106\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">20</text><text x=\"217\" y=\"26\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">60</text><text x=\"57\" y=\"164\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">一</text><text x=\"97\" y=\"164\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">二</text><text x=\"137\" y=\"164\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">三</text><text x=\"177\" y=\"164\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">四</text><text x=\"217\" y=\"164\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">五</text></svg>",
+      "options": ["40 杯", "45 杯", "50 杯", "200 杯"],
+      "answer": 0,
+      "explanation": "五天總共賣出 40＋30＋50＋20＋60＝200 杯，平均＝200÷5＝40 杯。常見錯誤是把五天的總數 200 杯直接當成答案，忘記除以天數。"
+    },
+    {
+      "id": "elem_math_6_022",
+      "difficulty": 2,
+      "question": "六年一班有 40 位同學，最喜歡水果的調查結果如圓餅圖。喜歡芒果的同學有幾人？",
+      "figure": "<svg viewBox=\"0 0 250 180\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M70,90 L70,35 A55,55 0 0 1 122.3,107 Z\" fill=\"#ef4444\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><path d=\"M70,90 L122.3,107 A55,55 0 0 1 53,142.3 Z\" fill=\"#f59e0b\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><path d=\"M70,90 L53,142.3 A55,55 0 0 1 15,90 Z\" fill=\"#a855f7\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><path d=\"M70,90 L15,90 A55,55 0 0 1 70,35 Z\" fill=\"#22c55e\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"150\" y=\"42\" width=\"12\" height=\"12\" fill=\"#ef4444\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><text x=\"168\" y=\"52\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">西瓜 30%</text><rect x=\"150\" y=\"67\" width=\"12\" height=\"12\" fill=\"#f59e0b\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><text x=\"168\" y=\"77\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">芒果 25%</text><rect x=\"150\" y=\"92\" width=\"12\" height=\"12\" fill=\"#a855f7\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><text x=\"168\" y=\"102\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">葡萄 20%</text><rect x=\"150\" y=\"117\" width=\"12\" height=\"12\" fill=\"#22c55e\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><text x=\"168\" y=\"127\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">香蕉 25%</text></svg>",
+      "options": ["8 人", "10 人", "25 人", "15 人"],
+      "answer": 1,
+      "explanation": "芒果占全班的 25%，40×25%＝40×0.25＝10 人。常見錯誤是把百分率 25 直接當成人數 25 人，或忘記換算小數。"
+    },
+    {
+      "id": "elem_math_6_023",
+      "difficulty": 3,
+      "question": "如圖是一個扇形，半徑 6 公分，圓心角 90 度。這個扇形的面積是多少平方公分？（圓周率用 3.14）",
+      "figure": "<svg viewBox=\"0 0 200 170\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M40,130 L130,130 A90,90 0 0 0 40,40 Z\" fill=\"#3b82f6\" fill-opacity=\"0.2\" stroke=\"currentColor\"/><rect x=\"40\" y=\"118\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"currentColor\"/><text x=\"85\" y=\"146\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">6 公分</text><text x=\"74\" y=\"108\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">90°</text></svg>",
+      "options": ["28.26 平方公分", "113.04 平方公分", "9.42 平方公分", "56.52 平方公分"],
+      "answer": 0,
+      "explanation": "圓心角 90 度是整圓的 4 分之 1，扇形面積＝6×6×3.14÷4＝113.04÷4＝28.26 平方公分。常見錯誤是忘記除以 4 而算成整圓 113.04，或算成弧長 9.42。"
+    },
+    {
+      "id": "elem_math_6_024",
+      "difficulty": 3,
+      "question": "如圖是一塊 L 形空地（單位：公尺），它的面積是多少平方公尺？",
+      "figure": "<svg viewBox=\"0 0 200 180\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"30,150 174,150 174,96 84,96 84,42 30,42\" fill=\"#22c55e\" fill-opacity=\"0.2\" stroke=\"currentColor\"/><text x=\"102\" y=\"167\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">8</text><text x=\"20\" y=\"99\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">6</text><text x=\"57\" y=\"37\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">3</text><text x=\"162\" y=\"127\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">3</text></svg>",
+      "options": ["48 平方公尺", "24 平方公尺", "33 平方公尺", "30 平方公尺"],
+      "answer": 2,
+      "explanation": "把外接大長方形 8×6＝48 平方公尺，再減去右上角缺口（8－3）×（6－3）＝5×3＝15 平方公尺，得 48－15＝33 平方公尺。常見錯誤是誤把整個外框 48 當答案，或漏算左上直條只算下方 24。"
+    },
+    {
+      "id": "elem_math_6_025",
+      "difficulty": 2,
+      "question": "如圖是一個圓柱形水桶，底面半徑 5 公分，高 10 公分。它的體積是多少立方公分？（圓周率用 3.14）",
+      "figure": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"25\" y=\"45\" width=\"90\" height=\"120\" fill=\"#3b82f6\" fill-opacity=\"0.15\" stroke=\"none\"/><path d=\"M25,165 A45,15 0 0 1 115,165\" fill=\"none\" stroke=\"currentColor\" stroke-dasharray=\"4 3\"/><line x1=\"25\" y1=\"45\" x2=\"25\" y2=\"165\" stroke=\"currentColor\"/><line x1=\"115\" y1=\"45\" x2=\"115\" y2=\"165\" stroke=\"currentColor\"/><path d=\"M25,165 A45,15 0 0 0 115,165\" fill=\"none\" stroke=\"currentColor\"/><ellipse cx=\"70\" cy=\"45\" rx=\"45\" ry=\"15\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><line x1=\"70\" y1=\"45\" x2=\"115\" y2=\"45\" stroke=\"currentColor\"/><text x=\"92\" y=\"39\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">5 公分</text><line x1=\"132\" y1=\"45\" x2=\"132\" y2=\"165\" stroke=\"currentColor\"/><line x1=\"128\" y1=\"50\" x2=\"132\" y2=\"45\" stroke=\"currentColor\"/><line x1=\"136\" y1=\"50\" x2=\"132\" y2=\"45\" stroke=\"currentColor\"/><line x1=\"128\" y1=\"160\" x2=\"132\" y2=\"165\" stroke=\"currentColor\"/><line x1=\"136\" y1=\"160\" x2=\"132\" y2=\"165\" stroke=\"currentColor\"/><text x=\"138\" y=\"110\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">10 公分</text></svg>",
+      "options": ["157 立方公分", "1570 立方公分", "250 立方公分", "785 立方公分"],
+      "answer": 3,
+      "explanation": "圓柱體積＝底面積×高＝（5×5×3.14）×10＝78.5×10＝785 立方公分。常見錯誤是忘記乘圓周率算成 5×5×10＝250，或誤用側面積公式。"
+    },
+    {
+      "id": "elem_math_6_026",
+      "difficulty": 1,
+      "question": "一條緞帶長 6 公尺，做勞作用掉了全長的 3 分之 2，用掉了幾公尺？",
+      "options": ["2 公尺", "3 公尺", "4 公尺", "9 公尺"],
+      "answer": 2,
+      "explanation": "用掉的長度＝6×3 分之 2＝3 分之 12＝4 公尺。常見錯誤是算成剩下的 2 公尺，或把 6 除以 3 分之 2 得到 9 公尺。"
+    },
+    {
+      "id": "elem_math_6_027",
+      "difficulty": 1,
+      "question": "蘋果 1 公斤賣 45 元，媽媽買了 2.5 公斤，要付多少元？",
+      "options": ["90 元", "112.5 元", "135 元", "1125 元"],
+      "answer": 1,
+      "explanation": "總價＝單價×重量＝45×2.5＝112.5 元。常見錯誤是只買整數公斤算成 45×2＝90，或小數點位置擺錯得到 1125。"
+    },
+    {
+      "id": "elem_math_6_028",
+      "difficulty": 1,
+      "question": "3 支原子筆賣 24 元，照這個價錢買 5 支要多少元？",
+      "options": ["32 元", "40 元", "120 元", "8 元"],
+      "answer": 1,
+      "explanation": "先求 1 支的價錢＝24÷3＝8 元，5 支＝8×5＝40 元。常見錯誤是把 24 元直接乘 5 得到 120 元，或把單價 8 元當成答案。"
+    },
+    {
+      "id": "elem_math_6_029",
+      "difficulty": 2,
+      "question": "小明把 5000 元存入銀行，年利率 2%，存滿一年後可以領回的本利和是多少元？",
+      "options": ["5100 元", "5200 元", "5002 元", "6000 元"],
+      "answer": 0,
+      "explanation": "一年利息＝5000×2%＝5000×0.02＝100 元，本利和＝本金＋利息＝5000＋100＝5100 元。常見錯誤是把 2% 當成 0.2% 算成加 10 元，或誤把利率當 4% 得到 5200 元。"
+    },
+    {
+      "id": "elem_math_6_030",
+      "difficulty": 2,
+      "question": "一張地圖上 1 公分代表實際 5 公里。地圖上甲、乙兩地相距 4 公分，實際相距多少公里？",
+      "options": ["9 公里", "1.25 公里", "20 公里", "25 公里"],
+      "answer": 2,
+      "explanation": "實際距離＝圖上距離×比例尺代表的距離＝4×5＝20 公里。常見錯誤是把 4 和 5 相加得到 9，或用除法 5÷4 得到 1.25。"
+    },
+    {
+      "id": "elem_math_6_031",
+      "difficulty": 3,
+      "question": "甲、乙兩地相距 210 公里。一輛車從甲地開到乙地，去程時速 70 公里，回程時速 105 公里，這趟來回的平均時速是多少公里？",
+      "options": ["87.5 公里", "85 公里", "88 公里", "84 公里"],
+      "answer": 3,
+      "explanation": "去程時間＝210÷70＝3 小時，回程時間＝210÷105＝2 小時，來回總距離 420 公里、總時間 5 小時，平均時速＝420÷5＝84 公里。常見錯誤是直接把兩個時速相加除以 2 算成（70＋105）÷2＝87.5 公里，忽略去程和回程花的時間不同。"
+    },
+    {
+      "id": "elem_math_6_032",
+      "difficulty": 3,
+      "question": "一個數的 5 分之 3 是 18，這個數是多少？",
+      "options": ["10.8", "15", "54", "30"],
+      "answer": 3,
+      "explanation": "設這個數為□，□×5 分之 3＝18，所以□＝18÷5 分之 3＝18×3 分之 5＝30。常見錯誤是反過來算成 18×5 分之 3＝10.8，或把 18 乘 3 得到 54。"
     }
   ]
 }

@@ -162,6 +162,86 @@
       "options": ["早上起床時", "下午見面時", "深夜睡覺前", "吃早餐的時候"],
       "answer": 1,
       "explanation": "Good afternoon. 的意思是「午安」，是下午見面時的問候語。早上說 Good morning.（早安），晚上見面說 Good evening.（晚安），睡前才說 Good night.。"
+    },
+    {
+      "id": "elem_english_3_021",
+      "difficulty": 1,
+      "question": "天空是藍色的，「藍色」的英語單字是下列哪一個？",
+      "options": ["green", "blue", "black", "brown"],
+      "answer": 1,
+      "explanation": "「藍色」的英語是 blue，例如 a blue sky（藍色的天空）。green 是綠色、black 是黑色、brown 是棕色，看到不同顏色時可以練習說出正確的英語單字。"
+    },
+    {
+      "id": "elem_english_3_022",
+      "difficulty": 1,
+      "question": "英語單字 fish 的中文意思是什麼？",
+      "options": ["鳥", "魚", "豬", "兔子"],
+      "answer": 1,
+      "explanation": "fish 的意思是「魚」，例如：This is a fish.（這是一條魚。）鳥是 bird、豬是 pig、兔子是 rabbit，都是常見的動物單字，要分清楚牠們的英語說法。"
+    },
+    {
+      "id": "elem_english_3_023",
+      "difficulty": 1,
+      "question": "一隻手有五根手指頭，數字「5」的英語單字是哪一個？",
+      "options": ["four", "three", "five", "nine"],
+      "answer": 2,
+      "explanation": "數字 5 的英語是 five。four 是 4、three 是 3、nine 是 9，這些數字單字的長相有點相近，數手指頭時可以一邊數一邊唸出英語。"
+    },
+    {
+      "id": "elem_english_3_024",
+      "difficulty": 2,
+      "question": "上課時老師說「Sit down, please.」，這句話是要同學做什麼？",
+      "options": ["站起來", "舉手", "安靜", "坐下"],
+      "answer": 3,
+      "explanation": "Sit down, please. 的意思是「請坐下」，所以同學要坐下來。站起來是 Stand up，舉手是 Raise your hand，安靜是 Be quiet，這些都是課堂上常聽到的英語指令。"
+    },
+    {
+      "id": "elem_english_3_025",
+      "difficulty": 2,
+      "question": "別人幫了你的忙，你說了 Thank you. 之後，對方最可能回答你什麼？",
+      "options": ["Good morning.", "You're welcome.", "I'm sorry.", "See you."],
+      "answer": 1,
+      "explanation": "別人說 Thank you.（謝謝）之後，通常會回答 You're welcome.（不客氣）。Good morning. 是早安，I'm sorry. 是對不起，See you. 是待會見，用在不同的情境。"
+    },
+    {
+      "id": "elem_english_3_026",
+      "difficulty": 2,
+      "question": "見面時對方問你「How are you?」，這句話是在問你什麼？",
+      "options": ["你幾歲？", "你叫什麼名字？", "你好嗎？", "你住在哪裡？"],
+      "answer": 2,
+      "explanation": "How are you? 的意思是「你好嗎？」，是關心對方近況的問候語，可以回答 I'm fine, thank you.。問年齡是 How old are you?，問名字是 What's your name?，要分清楚不同的問句。"
+    },
+    {
+      "id": "elem_english_3_027",
+      "difficulty": 2,
+      "question": "下列哪一個單字是「動物」類的單字？",
+      "options": ["blue", "desk", "six", "duck"],
+      "answer": 3,
+      "explanation": "duck 的意思是「鴨子」，屬於動物類單字。blue（藍色）是顏色、desk（書桌）是家具、six（六）是數字，做分類題時要先想清楚每個單字的意思。"
+    },
+    {
+      "id": "elem_english_3_028",
+      "difficulty": 3,
+      "question": "想問對方「這是什麼？」，用英語應該怎麼說才正確？",
+      "options": ["What is this?", "This is what?", "Is this what?", "What this is?"],
+      "answer": 0,
+      "explanation": "問「這是什麼？」正確的說法是 What is this?，疑問詞 What 要放在句子最前面。其他選項把單字的順序排錯了，英語問句的語序和中文不一樣，要特別記住。"
+    },
+    {
+      "id": "elem_english_3_029",
+      "difficulty": 3,
+      "question": "在英文字母表中，字母 M 的後面緊接著哪一個字母？",
+      "options": ["N", "L", "O", "P"],
+      "answer": 0,
+      "explanation": "字母表的順序是……L、M、N、O、P……，所以 M 的後面是 N。L 是在 M 的前面，O 和 P 則排在更後面，唱字母歌時可以幫助我們記住前後的順序。"
+    },
+    {
+      "id": "elem_english_3_030",
+      "difficulty": 3,
+      "question": "傍晚時到鄰居家拜訪，一見面用英語打招呼可以說什麼？",
+      "options": ["Good morning.", "Good night.", "Goodbye.", "Good evening."],
+      "answer": 3,
+      "explanation": "傍晚或晚上見面打招呼要說 Good evening.（晚上好）。Good night. 是睡覺前或道別才說的「晚安」，Good morning. 是早安，Goodbye. 是再見，見面和道別的用語不能混用。"
     }
   ]
 }

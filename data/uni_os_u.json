@@ -262,6 +262,167 @@
       ],
       "answer": 3,
       "explanation": "TLB 命中時花費 20 + 100 = 120ns；未命中時需查 TLB、讀分頁表、再存取資料，共 20 + 100 + 100 = 220ns；EAT = 0.9 × 120 + 0.1 × 220 = 108 + 22 = 130ns。易錯處是未命中情況忘記加上讀分頁表的那一次記憶體存取，或忘記兩種情況都要先付出查詢 TLB 的 20ns。"
+    },
+    {
+      "id": "uni_os_u_021",
+      "difficulty": 1,
+      "question": "圖為行程（process）的狀態轉移圖。若一個「執行中（Running）」的行程因為需要讀取磁碟資料而發出 I/O 請求，依圖它會轉移到下列哪一個狀態？",
+      "figure": "<svg viewBox=\"0 0 280 190\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"ahp1\" markerWidth=\"9\" markerHeight=\"9\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"currentColor\"/></marker></defs><rect x=\"20\" y=\"30\" width=\"72\" height=\"34\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"188\" y=\"30\" width=\"72\" height=\"34\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"104\" y=\"140\" width=\"72\" height=\"34\" fill=\"none\" stroke=\"currentColor\"/><text x=\"56\" y=\"52\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">Ready</text><text x=\"224\" y=\"52\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">Running</text><text x=\"140\" y=\"162\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">Waiting</text><line x1=\"92\" y1=\"42\" x2=\"182\" y2=\"42\" stroke=\"currentColor\" marker-end=\"url(#ahp1)\"/><line x1=\"188\" y1=\"54\" x2=\"98\" y2=\"54\" stroke=\"currentColor\" marker-end=\"url(#ahp1)\"/><line x1=\"204\" y1=\"64\" x2=\"176\" y2=\"134\" stroke=\"currentColor\" marker-end=\"url(#ahp1)\"/><line x1=\"104\" y1=\"134\" x2=\"62\" y2=\"64\" stroke=\"currentColor\" marker-end=\"url(#ahp1)\"/><text x=\"137\" y=\"38\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">分派</text><text x=\"137\" y=\"66\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">逾時</text><text x=\"214\" y=\"102\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">I/O 請求</text><text x=\"66\" y=\"102\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">I/O 完成</text></svg>",
+      "options": [
+        "就緒（Ready）",
+        "等待（Waiting）",
+        "維持執行（Running）不變",
+        "終止（Terminated）"
+      ],
+      "answer": 1,
+      "explanation": "執行中的行程發出 I/O 請求後無法繼續使用 CPU，會依圖中「I/O 請求」箭頭轉入等待（Waiting／Blocked）狀態，待 I/O 完成後才沿「I/O 完成」箭頭回到就緒排隊。常見錯誤是把它直接送回就緒：就緒代表「只差 CPU 就能執行」，但此時行程還在等 I/O 尚未備妥，因此應為等待而非就緒。"
+    },
+    {
+      "id": "uni_os_u_022",
+      "difficulty": 1,
+      "question": "當使用者程式需要進行檔案讀寫、配置記憶體等特權操作時，必須透過「系統呼叫（system call）」請作業系統代為執行。這樣設計的主要目的為何？",
+      "options": [
+        "讓 CPU 由使用者模式切換到核心模式，由作業系統以受保護的方式代為執行特權操作",
+        "加快使用者程式的編譯速度",
+        "讓使用者程式可直接控制硬體以省去作業系統的介入",
+        "避免使用者程式使用任何記憶體"
+      ],
+      "answer": 0,
+      "explanation": "系統呼叫是使用者程式進入核心的合法入口，呼叫時 CPU 由使用者模式切換到核心模式，作業系統檢查權限後代為執行 I/O、記憶體配置等特權指令，兼顧安全與資源保護。常見錯誤是以為系統呼叫讓程式「直接」控制硬體：恰好相反，它的用意正是不讓使用者程式直接碰硬體，以免破壞系統穩定與安全。"
+    },
+    {
+      "id": "uni_os_u_023",
+      "difficulty": 1,
+      "question": "在採用固定大小分頁的記憶體系統中，某行程的最後一頁只用到一部分、其餘空間閒置而無法配給別的行程使用。這種浪費稱為什麼？",
+      "options": [
+        "外部碎裂（external fragmentation）",
+        "內部碎裂（internal fragmentation）",
+        "顛簸（thrashing）",
+        "分頁錯誤（page fault）"
+      ],
+      "answer": 1,
+      "explanation": "配置單位固定為一整個頁框，而行程需求未必是頁大小的整數倍，最後一頁用不滿的部分閒置在「已配置區塊內部」，稱為內部碎裂。常見錯誤是與外部碎裂混淆：外部碎裂是指空閒空間被切成許多不連續的小塊、雖總量足夠卻無法滿足一次連續配置，成因與現象都不同。"
+    },
+    {
+      "id": "uni_os_u_024",
+      "difficulty": 1,
+      "question": "檔案系統的「連結配置（linked allocation）」把檔案的資料區塊以指標一塊接一塊串接。此方法最主要的缺點為何？",
+      "options": [
+        "會產生嚴重的外部碎裂",
+        "檔案完全無法動態增長",
+        "不利於直接（隨機）存取，要讀第 n 個區塊須沿指標逐一走訪",
+        "每個檔案只能佔用一個區塊"
+      ],
+      "answer": 2,
+      "explanation": "連結配置的每個區塊記錄下一區塊的位置，因此要存取檔案中第 n 個區塊必須從頭沿著指標鏈逐一走訪，對隨機存取效率很差。常見錯誤是說它會外部碎裂：正因區塊可散落各處以指標相連，它反而「不需要」連續空間、能利用零散區塊，也能動態增長。"
+    },
+    {
+      "id": "uni_os_u_025",
+      "difficulty": 2,
+      "question": "圖為某排程的甘特圖（Gantt chart），所有行程均在時間 0 到達。根據圖中的執行時序，行程 P3 的等待時間（waiting time）為多少毫秒？",
+      "figure": "<svg viewBox=\"0 0 300 160\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"164\" y=\"40\" width=\"36\" height=\"34\" fill=\"#3b82f6\" fill-opacity=\"0.2\" stroke=\"none\"/><rect x=\"20\" y=\"40\" width=\"252\" height=\"34\" fill=\"none\" stroke=\"currentColor\"/><line x1=\"74\" y1=\"40\" x2=\"74\" y2=\"74\" stroke=\"currentColor\"/><line x1=\"164\" y1=\"40\" x2=\"164\" y2=\"74\" stroke=\"currentColor\"/><line x1=\"200\" y1=\"40\" x2=\"200\" y2=\"74\" stroke=\"currentColor\"/><text x=\"47\" y=\"62\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">P1</text><text x=\"119\" y=\"62\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">P2</text><text x=\"182\" y=\"62\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">P3</text><text x=\"236\" y=\"62\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">P4</text><line x1=\"20\" y1=\"74\" x2=\"20\" y2=\"82\" stroke=\"currentColor\"/><line x1=\"74\" y1=\"74\" x2=\"74\" y2=\"82\" stroke=\"currentColor\"/><line x1=\"164\" y1=\"74\" x2=\"164\" y2=\"82\" stroke=\"currentColor\"/><line x1=\"200\" y1=\"74\" x2=\"200\" y2=\"82\" stroke=\"currentColor\"/><line x1=\"272\" y1=\"74\" x2=\"272\" y2=\"82\" stroke=\"currentColor\"/><text x=\"20\" y=\"98\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">0</text><text x=\"74\" y=\"98\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">3</text><text x=\"164\" y=\"98\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">8</text><text x=\"200\" y=\"98\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">10</text><text x=\"272\" y=\"98\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">14</text></svg>",
+      "options": [
+        "2",
+        "8",
+        "10",
+        "14"
+      ],
+      "answer": 1,
+      "explanation": "等待時間＝開始執行時間－到達時間。由圖可知 P3 於時間 8 才開始執行、到達時間為 0，故等待時間為 8－0＝8 毫秒。常見錯誤是把 P3 的完成時間 10 當成等待時間（那其實是回覆時間 turnaround time），或誤把它的執行長度 2（＝10－8）當成等待時間。"
+    },
+    {
+      "id": "uni_os_u_026",
+      "difficulty": 2,
+      "question": "圖為某行程的分頁表，頁大小為 100 個位元組。若 CPU 產生的邏輯位址落在「頁碼 2、頁內位移 30」，則其對應的實體位址為多少？",
+      "figure": "<svg viewBox=\"0 0 200 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"40\" y=\"20\" width=\"120\" height=\"150\" fill=\"none\" stroke=\"currentColor\"/><line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"170\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"50\" x2=\"160\" y2=\"50\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"80\" x2=\"160\" y2=\"80\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"110\" x2=\"160\" y2=\"110\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"140\" x2=\"160\" y2=\"140\" stroke=\"currentColor\"/><text x=\"70\" y=\"40\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">頁碼</text><text x=\"130\" y=\"40\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">頁框</text><text x=\"70\" y=\"70\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">0</text><text x=\"130\" y=\"70\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">5</text><text x=\"70\" y=\"100\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">1</text><text x=\"130\" y=\"100\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">2</text><text x=\"70\" y=\"130\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">2</text><text x=\"130\" y=\"130\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">7</text><text x=\"70\" y=\"160\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">3</text><text x=\"130\" y=\"160\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">1</text></svg>",
+      "options": [
+        "230",
+        "270",
+        "730",
+        "770"
+      ],
+      "answer": 2,
+      "explanation": "先由分頁表查得頁碼 2 對應到頁框 7，再以「頁框編號 × 頁大小 ＋ 頁內位移」計算實體位址：7 × 100 ＋ 30 ＝ 730。常見錯誤是拿頁碼本身（2）去乘、算成 2×100＋30＝230，或把頁框與頁碼看反；分頁表的作用正是把頁碼轉換成實體頁框。"
+    },
+    {
+      "id": "uni_os_u_027",
+      "difficulty": 2,
+      "question": "在虛擬記憶體系統中，若同時執行的行程過多、每個行程分配到的頁框太少，導致行程頻繁發生分頁錯誤、CPU 幾乎都在處理換頁而非執行有用工作。這種現象稱為什麼？",
+      "options": [
+        "顛簸（thrashing）",
+        "護航效應（convoy effect）",
+        "優先權反轉（priority inversion）",
+        "老化（aging）"
+      ],
+      "answer": 0,
+      "explanation": "當行程可用頁框不足以容納其工作集（working set）時，會不斷把剛換出的頁又換回來，分頁錯誤率飆升、CPU 使用率反而下降，這就是顛簸。常見錯誤是與護航效應混淆：護航效應是 FCFS 排程中長行程拖住後面短行程的問題，與記憶體換頁無關。"
+    },
+    {
+      "id": "uni_os_u_028",
+      "difficulty": 2,
+      "question": "在 UNIX／Linux 中呼叫 fork() 建立子行程後，關於其回傳值，下列敘述何者正確？",
+      "options": [
+        "父行程與子行程都會收到 0",
+        "在父行程中回傳 0，在子行程中回傳父行程的 PID",
+        "fork() 不會有任何回傳值",
+        "在父行程中回傳子行程的 PID（正數），在子行程中回傳 0"
+      ],
+      "answer": 3,
+      "explanation": "fork() 呼叫成功後會回到兩個行程：父行程取得子行程的 PID（大於 0），子行程取得 0，程式便可用回傳值判斷自己是父還是子；若失敗則回傳負值。常見錯誤是把父子的回傳值弄反，或以為兩者拿到相同的值——正因回傳值不同，同一段程式碼才能分岔出父、子不同的行為。"
+    },
+    {
+      "id": "uni_os_u_029",
+      "difficulty": 3,
+      "question": "圖為資源配置圖（圓圈代表行程、方框代表單一實例資源；資源指向行程表示「已配置」，行程指向資源表示「正在請求」）。依此圖，系統目前的狀態為何？",
+      "figure": "<svg viewBox=\"0 0 260 200\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"ahr2\" markerWidth=\"9\" markerHeight=\"9\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"currentColor\"/></marker></defs><circle cx=\"55\" cy=\"50\" r=\"20\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"205\" cy=\"150\" r=\"20\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"188\" y=\"33\" width=\"34\" height=\"34\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"38\" y=\"133\" width=\"34\" height=\"34\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"205\" cy=\"50\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"55\" cy=\"150\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"55\" y=\"55\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">P1</text><text x=\"205\" y=\"155\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">P2</text><text x=\"205\" y=\"28\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">R2</text><text x=\"55\" y=\"184\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">R1</text><line x1=\"55\" y1=\"131\" x2=\"55\" y2=\"72\" stroke=\"currentColor\" marker-end=\"url(#ahr2)\"/><line x1=\"75\" y1=\"50\" x2=\"186\" y2=\"50\" stroke=\"currentColor\" marker-end=\"url(#ahr2)\"/><line x1=\"205\" y1=\"69\" x2=\"205\" y2=\"128\" stroke=\"currentColor\" marker-end=\"url(#ahr2)\"/><line x1=\"183\" y1=\"150\" x2=\"74\" y2=\"150\" stroke=\"currentColor\" marker-end=\"url(#ahr2)\"/><text x=\"44\" y=\"104\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">配置</text><text x=\"130\" y=\"44\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">請求</text><text x=\"216\" y=\"104\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">配置</text><text x=\"130\" y=\"166\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">請求</text></svg>",
+      "options": [
+        "存在環路且資源皆為單一實例，系統發生死結",
+        "圖中沒有任何環路，系統處於安全狀態",
+        "雖有環路，但因資源為多實例，不一定死結",
+        "圖中缺少請求邊，無法判斷是否死結"
+      ],
+      "answer": 0,
+      "explanation": "圖中形成 P1→R2→P2→R1→P1 的環路，且 R1、R2 皆為單一實例資源（方框內各只有一個點），此時「有環」即死結的充分條件，故系統發生死結。常見錯誤是套用「多實例才需進一步判斷」的規則：那只適用於資源有多個實例時，單一實例下只要成環就必然死結。"
+    },
+    {
+      "id": "uni_os_u_030",
+      "difficulty": 3,
+      "question": "圖為磁碟磁軌示意圖，磁頭目前位於磁軌 50，待服務的請求為磁軌 10、20、60、90。採用最短搜尋時間優先（SSTF）排程，磁頭移動的總磁軌數為多少？",
+      "figure": "<svg viewBox=\"0 0 300 160\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"70\" x2=\"280\" y2=\"70\" stroke=\"currentColor\"/><line x1=\"20\" y1=\"66\" x2=\"20\" y2=\"74\" stroke=\"currentColor\"/><line x1=\"280\" y1=\"66\" x2=\"280\" y2=\"74\" stroke=\"currentColor\"/><text x=\"20\" y=\"100\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">0</text><text x=\"280\" y=\"100\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">100</text><circle cx=\"46\" cy=\"70\" r=\"4\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"#3b82f6\"/><circle cx=\"72\" cy=\"70\" r=\"4\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"#3b82f6\"/><circle cx=\"176\" cy=\"70\" r=\"4\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"#3b82f6\"/><circle cx=\"254\" cy=\"70\" r=\"4\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"#3b82f6\"/><text x=\"46\" y=\"90\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">10</text><text x=\"72\" y=\"90\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">20</text><text x=\"176\" y=\"90\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">60</text><text x=\"254\" y=\"90\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">90</text><polygon points=\"150,62 143,48 157,48\" fill=\"#f59e0b\" fill-opacity=\"0.3\" stroke=\"#f59e0b\"/><text x=\"150\" y=\"40\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">磁頭 50</text></svg>",
+      "options": [
+        "90",
+        "100",
+        "120",
+        "140"
+      ],
+      "answer": 2,
+      "explanation": "SSTF 每次選離目前磁頭最近的請求。磁頭從 50 出發：先到 60（移動 10）、再到 90（移動 30）、再到 20（移動 70）、最後到 10（移動 10），總移動量 10＋30＋70＋10 ＝ 120 個磁軌。常見錯誤是誤用 FCFS 依請求順序移動，或在服務 60 之後直接往 20、10 走而漏掉先服務較近的 90。"
+    },
+    {
+      "id": "uni_os_u_031",
+      "difficulty": 3,
+      "question": "使用 LRU（最近最少使用）頁面替換演算法、共 3 個頁框（初始為空），頁面參考串為 7, 0, 1, 2, 0, 3, 0, 4。總共發生幾次分頁錯誤（page fault）？",
+      "options": [
+        "4",
+        "5",
+        "8",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "LRU 每次替換「最久未被使用」的頁。追蹤參考串：載入 7、0、1（3 次失誤）；2 進來替換最久未用的 7；0 命中；3 進來替換最久未用的 1；0 命中；4 進來替換最久未用的 2，共 6 次分頁錯誤。常見錯誤是把兩次命中的 0 也算成失誤，或替換時挑錯頁面（LRU 看的是「最久沒被用到」，而非「最早載入」）。"
+    },
+    {
+      "id": "uni_os_u_032",
+      "difficulty": 3,
+      "question": "一個高優先權行程因為它所需的資源正被某個低優先權行程持有而被迫等待；更糟的是，中優先權行程還不斷搶佔低優先權行程的 CPU，使低優先權行程遲遲無法釋放資源。這種現象叫什麼？其常見解法為何？",
+      "options": [
+        "忙碌等待；解法是一律改用自旋鎖（spinlock）",
+        "死結；解法是套用銀行家演算法",
+        "飢餓；解法是把所有行程優先權調成相同",
+        "優先權反轉（priority inversion）；解法是採用優先權繼承（priority inheritance）協定"
+      ],
+      "answer": 3,
+      "explanation": "高優先權行程被低優先權行程持有的資源卡住、又被中優先權行程間接拖延，導致優先權高低失去意義，稱為優先權反轉；常見解法是優先權繼承，讓持有資源的低優先權行程暫時繼承等待者的高優先權，盡快完成並釋放資源。常見錯誤是與死結混淆：優先權反轉中資源最終仍會被釋放（只是被延誤），並未形成互相等待的環路。"
     }
   ]
 }

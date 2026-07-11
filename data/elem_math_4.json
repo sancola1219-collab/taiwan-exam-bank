@@ -162,6 +162,107 @@
       "options": ["960", "1000", "1024", "880"],
       "answer": 1,
       "explanation": "125×8 可以想成 125×8＝1000，因為 125 是 1000 的 8 分之 1；直式計算 5×8＝40 進 4、2×8＋4＝20 進 2、1×8＋2＝10，也得到 1000。常見錯誤是進位漏算得到 960 或 880。"
+    },
+    {
+      "id": "elem_math_4_021",
+      "difficulty": 1,
+      "question": "一條緞帶平分成 8 段，妹妹用了其中 3 段，姊姊用了其中 2 段，兩人一共用了這條緞帶的幾分之幾？",
+      "options": ["八分之一", "十六分之五", "八分之六", "八分之五"],
+      "answer": 3,
+      "explanation": "整條緞帶分成 8 段，妹妹 3 段、姊姊 2 段，同分母相加時分子 3＋2＝5、分母不變，所以共用了八分之五。常見錯誤是把分母也相加寫成十六分之五，或看成相減得到八分之一。"
+    },
+    {
+      "id": "elem_math_4_022",
+      "difficulty": 2,
+      "question": "把假分數「四分之十一」化成帶分數，是多少？",
+      "options": ["二又四分之三", "二又四分之一", "三又四分之三", "一又四分之三"],
+      "answer": 0,
+      "explanation": "11 除以 4 商 2 餘 3，商當整數部分、餘數當新的分子、分母不變，所以是二又四分之三。常見錯誤是把餘數看成 1 得到二又四分之一，或商算錯寫成三又四分之三。"
+    },
+    {
+      "id": "elem_math_4_023",
+      "difficulty": 2,
+      "question": "一箱汽水有 24 瓶，一共有 36 箱，總共有多少瓶汽水？",
+      "options": ["60 瓶", "720 瓶", "846 瓶", "864 瓶"],
+      "answer": 3,
+      "explanation": "每箱 24 瓶、共 36 箱，要用乘法 24×36＝864 瓶。常見錯誤是誤用加法算成 24＋36＝60，或只算 24×30＝720 而漏掉 24×6 的一段。"
+    },
+    {
+      "id": "elem_math_4_024",
+      "difficulty": 3,
+      "question": "有 100 顆糖果，每個袋子裝 7 顆，最多可以裝滿幾袋？還剩下幾顆？",
+      "options": ["15 袋，剩 2 顆", "14 袋，剩 2 顆", "14 袋，剩 3 顆", "13 袋，剩 9 顆"],
+      "answer": 1,
+      "explanation": "100÷7 商 14 餘 2，因為 7×14＝98、100－98＝2，所以裝滿 14 袋、剩下 2 顆。常見錯誤是把商多進 1 位寫成 15 袋，或餘數沒算清楚。"
+    },
+    {
+      "id": "elem_math_4_025",
+      "difficulty": 2,
+      "question": "一場電影從下午 2 時 40 分開始，播放了 1 小時 35 分鐘，結束時是下午幾時幾分？",
+      "options": ["下午 4 時 15 分", "下午 3 時 15 分", "下午 4 時 25 分", "下午 3 時 75 分"],
+      "answer": 0,
+      "explanation": "先加分鐘 40＋35＝75 分，滿 60 分要進 1 小時、剩 15 分；再算時 2＋1＋1＝4，所以結束時間是下午 4 時 15 分。常見錯誤是忘記把 75 分進位而寫成 3 時 75 分，或漏了進位得到 3 時 15 分。"
+    },
+    {
+      "id": "elem_math_4_026",
+      "difficulty": 1,
+      "question": "一個正方形花圃的邊長是 15 公尺，沿著花圃邊緣走一圈，一共走了多少公尺？",
+      "options": ["30 公尺", "45 公尺", "60 公尺", "225 公尺"],
+      "answer": 2,
+      "explanation": "走一圈就是正方形的周長，四邊相等：15×4＝60 公尺。常見錯誤是只算兩邊 15×2＝30，或誤把邊長相乘當成面積 15×15＝225。"
+    },
+    {
+      "id": "elem_math_4_027",
+      "difficulty": 3,
+      "question": "48÷（2＋4）＋7×5＝？",
+      "options": ["63", "75", "43", "40"],
+      "answer": 2,
+      "explanation": "先算括號 2＋4＝6，再算 48÷6＝8 與 7×5＝35，最後 8＋35＝43。常見錯誤是忽略括號或先加後除，例如把 8＋7 再×5 得到 75。"
+    },
+    {
+      "id": "elem_math_4_028",
+      "difficulty": 1,
+      "question": "下面長條圖是四年一班同學最喜歡水果的人數統計。喜歡蘋果的人數比喜歡香蕉的人數多幾人？",
+      "figure": "<svg viewBox=\"0 0 260 160\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"130\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"130\" x2=\"245\" y2=\"130\" stroke=\"currentColor\"/><text x=\"34\" y=\"110\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"34\" y=\"86\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"34\" y=\"62\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"34\" y=\"38\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">8</text><rect x=\"55\" y=\"34\" width=\"26\" height=\"96\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"100\" y=\"70\" width=\"26\" height=\"60\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"145\" y=\"58\" width=\"26\" height=\"72\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"190\" y=\"94\" width=\"26\" height=\"36\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><text x=\"68\" y=\"145\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">蘋果</text><text x=\"113\" y=\"145\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">香蕉</text><text x=\"158\" y=\"145\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">西瓜</text><text x=\"203\" y=\"145\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">芒果</text></svg>",
+      "options": ["3 人", "2 人", "5 人", "13 人"],
+      "answer": 0,
+      "explanation": "從長條圖讀出蘋果 8 人、香蕉 5 人，相差 8－5＝3 人。常見錯誤是把兩數相加算成 13 人，或看錯長條高度少數一格得到 2 人。"
+    },
+    {
+      "id": "elem_math_4_029",
+      "difficulty": 1,
+      "question": "下面數線上，箭頭所指的位置是多少？",
+      "figure": "<svg viewBox=\"0 0 260 90\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"55\" x2=\"240\" y2=\"55\" stroke=\"currentColor\"/><line x1=\"20\" y1=\"48\" x2=\"20\" y2=\"62\" stroke=\"currentColor\"/><line x1=\"42\" y1=\"50\" x2=\"42\" y2=\"60\" stroke=\"currentColor\"/><line x1=\"64\" y1=\"50\" x2=\"64\" y2=\"60\" stroke=\"currentColor\"/><line x1=\"86\" y1=\"50\" x2=\"86\" y2=\"60\" stroke=\"currentColor\"/><line x1=\"108\" y1=\"50\" x2=\"108\" y2=\"60\" stroke=\"currentColor\"/><line x1=\"130\" y1=\"50\" x2=\"130\" y2=\"60\" stroke=\"currentColor\"/><line x1=\"152\" y1=\"50\" x2=\"152\" y2=\"60\" stroke=\"currentColor\"/><line x1=\"174\" y1=\"50\" x2=\"174\" y2=\"60\" stroke=\"currentColor\"/><line x1=\"196\" y1=\"50\" x2=\"196\" y2=\"60\" stroke=\"currentColor\"/><line x1=\"218\" y1=\"50\" x2=\"218\" y2=\"60\" stroke=\"currentColor\"/><line x1=\"240\" y1=\"48\" x2=\"240\" y2=\"62\" stroke=\"currentColor\"/><text x=\"20\" y=\"78\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"240\" y=\"78\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">4</text><line x1=\"152\" y1=\"22\" x2=\"152\" y2=\"44\" stroke=\"currentColor\"/><polygon points=\"152,52 146,40 158,40\" fill=\"currentColor\" stroke=\"none\"/></svg>",
+      "options": ["3.5", "3.6", "3.06", "0.6"],
+      "answer": 1,
+      "explanation": "3 到 4 之間平分成 10 小格，每格代表 0.1，箭頭指在第 6 格，所以是 3.6。常見錯誤是數錯格數寫成 3.5，或忽略整數部分只寫成 0.6。"
+    },
+    {
+      "id": "elem_math_4_030",
+      "difficulty": 2,
+      "question": "如下圖，A、O、C 三點在同一直線上，OB 是一條射線。已知∠AOB＝125 度，∠BOC 是幾度？",
+      "figure": "<svg viewBox=\"0 0 240 130\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"95\" x2=\"210\" y2=\"95\" stroke=\"currentColor\"/><line x1=\"120\" y1=\"95\" x2=\"160\" y2=\"38\" stroke=\"currentColor\"/><text x=\"20\" y=\"99\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"212\" y=\"99\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"162\" y=\"34\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"114\" y=\"111\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"74\" y=\"66\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">125°</text></svg>",
+      "options": ["65 度", "45 度", "235 度", "55 度"],
+      "answer": 3,
+      "explanation": "A、O、C 在同一直線上，∠AOB 與∠BOC 合起來是平角 180 度，所以∠BOC＝180－125＝55 度。常見錯誤是把平角當成 360 度算出 235 度，或退位計算錯誤得到 45 度。"
+    },
+    {
+      "id": "elem_math_4_031",
+      "difficulty": 3,
+      "question": "下圖是一個 L 形的圖形，每一小格代表 1 平方公分，這個 L 形的面積是多少平方公分？",
+      "figure": "<svg viewBox=\"0 0 180 130\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"108\" stroke=\"currentColor\" stroke-opacity=\"0.35\"/><line x1=\"52\" y1=\"20\" x2=\"52\" y2=\"108\" stroke=\"currentColor\" stroke-opacity=\"0.35\"/><line x1=\"74\" y1=\"20\" x2=\"74\" y2=\"108\" stroke=\"currentColor\" stroke-opacity=\"0.35\"/><line x1=\"96\" y1=\"20\" x2=\"96\" y2=\"108\" stroke=\"currentColor\" stroke-opacity=\"0.35\"/><line x1=\"118\" y1=\"20\" x2=\"118\" y2=\"108\" stroke=\"currentColor\" stroke-opacity=\"0.35\"/><line x1=\"140\" y1=\"20\" x2=\"140\" y2=\"108\" stroke=\"currentColor\" stroke-opacity=\"0.35\"/><line x1=\"30\" y1=\"20\" x2=\"140\" y2=\"20\" stroke=\"currentColor\" stroke-opacity=\"0.35\"/><line x1=\"30\" y1=\"42\" x2=\"140\" y2=\"42\" stroke=\"currentColor\" stroke-opacity=\"0.35\"/><line x1=\"30\" y1=\"64\" x2=\"140\" y2=\"64\" stroke=\"currentColor\" stroke-opacity=\"0.35\"/><line x1=\"30\" y1=\"86\" x2=\"140\" y2=\"86\" stroke=\"currentColor\" stroke-opacity=\"0.35\"/><line x1=\"30\" y1=\"108\" x2=\"140\" y2=\"108\" stroke=\"currentColor\" stroke-opacity=\"0.35\"/><polygon points=\"30,108 140,108 140,64 96,64 96,20 30,20\" fill=\"#22c55e\" fill-opacity=\"0.2\" stroke=\"currentColor\"/></svg>",
+      "options": ["20 平方公分", "16 平方公分", "18 平方公分", "14 平方公分"],
+      "answer": 1,
+      "explanation": "可把 L 形補成完整大長方形 5×4＝20 平方公分，再減去右上角缺口 2×2＝4 平方公分，20－4＝16 平方公分。常見錯誤是忘了扣掉缺口直接算成 20，或缺口面積算錯。"
+    },
+    {
+      "id": "elem_math_4_032",
+      "difficulty": 3,
+      "question": "下面折線圖記錄某一天上午 6 時到 10 時的氣溫。氣溫上升最多的是哪一個時段？",
+      "figure": "<svg viewBox=\"0 0 260 160\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"30\" x2=\"40\" y2=\"130\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"130\" x2=\"245\" y2=\"130\" stroke=\"currentColor\"/><text x=\"34\" y=\"110\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">20</text><text x=\"34\" y=\"80\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">25</text><polyline points=\"50,118 95,106 140,100 185,76 230,70\" fill=\"none\" stroke=\"#ef4444\"/><circle cx=\"50\" cy=\"118\" r=\"3\" fill=\"#ef4444\" stroke=\"none\"/><circle cx=\"95\" cy=\"106\" r=\"3\" fill=\"#ef4444\" stroke=\"none\"/><circle cx=\"140\" cy=\"100\" r=\"3\" fill=\"#ef4444\" stroke=\"none\"/><circle cx=\"185\" cy=\"76\" r=\"3\" fill=\"#ef4444\" stroke=\"none\"/><circle cx=\"230\" cy=\"70\" r=\"3\" fill=\"#ef4444\" stroke=\"none\"/><text x=\"50\" y=\"145\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">6時</text><text x=\"95\" y=\"145\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">7時</text><text x=\"140\" y=\"145\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">8時</text><text x=\"185\" y=\"145\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">9時</text><text x=\"230\" y=\"145\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">10時</text></svg>",
+      "options": ["6 時到 7 時", "7 時到 8 時", "8 時到 9 時", "9 時到 10 時"],
+      "answer": 2,
+      "explanation": "從折線圖讀出各時刻氣溫為 18、20、21、25、26 度，各段上升 2、1、4、1 度，其中 8 時到 9 時上升 4 度最多。常見錯誤是只看氣溫最高的時刻，或誤把折線最高點當成上升最多的時段。"
     }
   ]
 }

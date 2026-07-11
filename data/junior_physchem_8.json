@@ -3,25 +3,426 @@
   "subject": "physchem",
   "grade": 8,
   "questions": [
-    { "id": "junior_physchem_8_001", "difficulty": 1, "question": "某物質質量為 $50$ 公克，體積為 $10$ 立方公分，則其密度為何？", "options": ["$0.2$ g/cm³", "$500$ g/cm³", "$5$ g/cm³", "$60$ g/cm³"], "answer": 2, "explanation": "密度等於質量除以體積，$\\dfrac{50}{10}=5$ g/cm³。常見錯誤是把體積除以質量得到 $0.2$，或把兩者相乘。" },
-    { "id": "junior_physchem_8_002", "difficulty": 1, "question": "在 $4°C$、$1$ 大氣壓下，純水的密度約為何？", "options": ["$0.5$ g/cm³", "$10$ g/cm³", "$100$ g/cm³", "$1$ g/cm³"], "answer": 3, "explanation": "純水密度約為 $1$ g/cm³，即 $1$ 立方公分的水質量約 $1$ 公克。常見錯誤是把單位換算弄錯而寫成 $100$ 或 $10$。" },
-    { "id": "junior_physchem_8_003", "difficulty": 1, "question": "聲音在下列哪一種介質中傳播速度最快？", "options": ["固體", "液體", "氣體", "真空"], "answer": 0, "explanation": "介質粒子排列越緊密，聲音傳遞越快，故固體最快、氣體最慢。常見錯誤是誤以為聲音能在真空中傳播，事實上真空無法傳聲。" },
-    { "id": "junior_physchem_8_004", "difficulty": 1, "question": "聲音無法在下列何者中傳播？", "options": ["空氣", "真空", "水", "鋼鐵"], "answer": 1, "explanation": "聲音是一種需要介質的機械波，真空中沒有可振動的粒子，故無法傳聲。常見錯誤是以為聲音像光一樣可在真空中前進。" },
-    { "id": "junior_physchem_8_005", "difficulty": 1, "question": "光在真空中的傳播速度約為何？", "options": ["$340$ m/s", "$1500$ m/s", "$3\\times 10^8$ m/s", "$3\\times 10^6$ m/s"], "answer": 2, "explanation": "光在真空中的速度約為 $3\\times 10^8$ 公尺每秒。常見錯誤是把聲音在空氣中的速度 $340$ m/s 誤當成光速，或指數寫錯成 $10^6$。" },
-    { "id": "junior_physchem_8_006", "difficulty": 1, "question": "在 $1$ 大氣壓下，純水的沸點為何？", "options": ["$0°C$", "$50°C$", "$212°C$", "$100°C$"], "answer": 3, "explanation": "$1$ 大氣壓下水的沸點為 $100°C$、凝固點為 $0°C$。常見錯誤是把華氏沸點 $212°F$ 誤填成攝氏值。" },
-    { "id": "junior_physchem_8_007", "difficulty": 1, "question": "下列何者屬於「元素」？", "options": ["氧", "水", "二氧化碳", "食鹽"], "answer": 0, "explanation": "元素是由同一種原子組成的純物質，氧為元素；水、二氧化碳、食鹽皆由兩種以上元素組成，屬於化合物。常見錯誤是把常見的水誤認為元素。" },
-    { "id": "junior_physchem_8_008", "difficulty": 2, "question": "將 $20$ 公克的糖完全溶於 $80$ 公克的水中，此糖水的重量百分濃度為何？", "options": ["$25\\%$", "$20\\%$", "$16\\%$", "$80\\%$"], "answer": 1, "explanation": "重量百分濃度 $=\\dfrac{\\text{溶質}}{\\text{溶液}}\\times 100\\%=\\dfrac{20}{20+80}\\times 100\\%=20\\%$。常見錯誤是把溶質除以溶劑（$\\dfrac{20}{80}$）得到 $25\\%$。" },
-    { "id": "junior_physchem_8_009", "difficulty": 2, "question": "一束光射向平面鏡，若入射光與鏡面法線的夾角為 $30°$，則反射角為何？", "options": ["$60°$", "$0°$", "$30°$", "$15°$"], "answer": 2, "explanation": "由反射定律，反射角等於入射角，皆以法線為基準量度，故反射角為 $30°$。常見錯誤是以鏡面（而非法線）量角而得到 $60°$。" },
-    { "id": "junior_physchem_8_010", "difficulty": 2, "question": "物體在平面鏡中所成的像具有下列何種性質？", "options": ["倒立實像", "放大虛像", "縮小實像", "正立等大虛像"], "answer": 3, "explanation": "平面鏡成像為正立、等大的虛像，且像與物到鏡面距離相等。常見錯誤是把凸透鏡或凹面鏡的成像性質套用在平面鏡上。" },
-    { "id": "junior_physchem_8_011", "difficulty": 2, "question": "冰塊熔化成水的過程中，關於熱量的敘述何者正確？", "options": ["需要吸收熱量", "會放出熱量", "不吸熱也不放熱", "先放熱後吸熱"], "answer": 0, "explanation": "冰熔化為水是由固態變液態，需吸收熱量（熔化熱）以破壞固態排列。常見錯誤是把凝固放熱與熔化吸熱的方向弄反。" },
-    { "id": "junior_physchem_8_012", "difficulty": 2, "question": "水的比熱為 $1$ cal/(g·°C)，將 $100$ 公克的水升高 $10°C$ 需吸收多少熱量？", "options": ["$100$ cal", "$1000$ cal", "$10$ cal", "$110$ cal"], "answer": 1, "explanation": "由 $Q=mc\\Delta T=100\\times 1\\times 10=1000$ cal。常見錯誤是漏乘溫差或漏乘質量而只得到 $100$ 或 $10$。" },
-    { "id": "junior_physchem_8_013", "difficulty": 2, "question": "下列何者屬於「化合物」？", "options": ["氧氣", "氮氣", "水", "銅"], "answer": 2, "explanation": "化合物是由兩種以上元素以固定比例化合而成，水由氫與氧組成，屬化合物；氧氣、氮氣、銅皆為元素。常見錯誤是把單一元素組成的氣體誤認為化合物。" },
-    { "id": "junior_physchem_8_014", "difficulty": 2, "question": "原子中帶負電的粒子是？", "options": ["質子", "中子", "原子核", "電子"], "answer": 3, "explanation": "電子帶負電，在原子核外運動；質子帶正電、中子不帶電，二者組成原子核。常見錯誤是把整體帶正電的原子核誤認為帶負電。" },
-    { "id": "junior_physchem_8_015", "difficulty": 3, "question": "一塊木頭放入水中會浮起，由此可推知木頭的密度與水相比為何？", "options": ["小於水的密度", "等於水的密度", "大於水的密度", "與密度無關"], "answer": 0, "explanation": "物體能浮於液面，表示其平均密度小於液體密度，此木頭密度小於水（約 $1$ g/cm³）。常見錯誤是以為只要體積大就會浮，忽略密度比較才是關鍵。" },
-    { "id": "junior_physchem_8_016", "difficulty": 3, "question": "光由空氣斜射進入水中時，其速度與行進方向的變化為何？", "options": ["速度變快，偏離法線", "速度變慢，偏向法線", "速度與方向都不變", "速度變快，偏向法線"], "answer": 1, "explanation": "水的光密度大於空氣，光進入水中速度變慢，且折射光偏向法線。常見錯誤是把由密介質進入疏介質（偏離法線）的情形弄反。" },
-    { "id": "junior_physchem_8_017", "difficulty": 3, "question": "凸透鏡成像時，若物體位於二倍焦距之外，所成的像為何？", "options": ["正立放大虛像", "倒立放大實像", "倒立縮小實像", "正立等大實像"], "answer": 2, "explanation": "物體在二倍焦距以外時，凸透鏡成倒立、縮小的實像（如照相機成像）。常見錯誤是把物體位於一倍焦距內所成的正立放大虛像套用於此。" },
-    { "id": "junior_physchem_8_018", "difficulty": 3, "question": "聲音的三要素中，決定聲音「音調高低」的物理量是？", "options": ["振幅", "波形", "響度", "頻率"], "answer": 3, "explanation": "音調由頻率決定，頻率越高音調越高；振幅決定響度、波形決定音色。常見錯誤是把決定音量大小的振幅誤當成決定音調的因素。" },
-    { "id": "junior_physchem_8_019", "difficulty": 3, "question": "將 $25$ 公克的鹽溶於 $100$ 公克的水中，此鹽水的重量百分濃度為何？", "options": ["$20\\%$", "$25\\%$", "$4\\%$", "$75\\%$"], "answer": 0, "explanation": "溶液總重為 $25+100=125$ 公克，濃度 $=\\dfrac{25}{125}\\times 100\\%=20\\%$。常見錯誤是用溶質除以溶劑（$\\dfrac{25}{100}$）得到 $25\\%$。" },
-    { "id": "junior_physchem_8_020", "difficulty": 3, "question": "在週期表中，一個元素的「原子序」等於原子中的什麼數目？", "options": ["中子數", "質子數", "電子數與中子數之和", "質量數"], "answer": 1, "explanation": "原子序等於原子核內的質子數，也等於中性原子的電子數。常見錯誤是把包含質子與中子的質量數誤當成原子序。" }
+    {
+      "id": "junior_physchem_8_001",
+      "difficulty": 1,
+      "question": "某物質質量為 $50$ 公克，體積為 $10$ 立方公分，則其密度為何？",
+      "options": [
+        "$0.2$ g/cm³",
+        "$500$ g/cm³",
+        "$5$ g/cm³",
+        "$60$ g/cm³"
+      ],
+      "answer": 2,
+      "explanation": "密度等於質量除以體積，$\\dfrac{50}{10}=5$ g/cm³。常見錯誤是把體積除以質量得到 $0.2$，或把兩者相乘。"
+    },
+    {
+      "id": "junior_physchem_8_002",
+      "difficulty": 1,
+      "question": "在 $4°C$、$1$ 大氣壓下，純水的密度約為何？",
+      "options": [
+        "$0.5$ g/cm³",
+        "$10$ g/cm³",
+        "$100$ g/cm³",
+        "$1$ g/cm³"
+      ],
+      "answer": 3,
+      "explanation": "純水密度約為 $1$ g/cm³，即 $1$ 立方公分的水質量約 $1$ 公克。常見錯誤是把單位換算弄錯而寫成 $100$ 或 $10$。"
+    },
+    {
+      "id": "junior_physchem_8_003",
+      "difficulty": 1,
+      "question": "聲音在下列哪一種介質中傳播速度最快？",
+      "options": [
+        "固體",
+        "液體",
+        "氣體",
+        "真空"
+      ],
+      "answer": 0,
+      "explanation": "介質粒子排列越緊密，聲音傳遞越快，故固體最快、氣體最慢。常見錯誤是誤以為聲音能在真空中傳播，事實上真空無法傳聲。"
+    },
+    {
+      "id": "junior_physchem_8_004",
+      "difficulty": 1,
+      "question": "聲音無法在下列何者中傳播？",
+      "options": [
+        "空氣",
+        "真空",
+        "水",
+        "鋼鐵"
+      ],
+      "answer": 1,
+      "explanation": "聲音是一種需要介質的機械波，真空中沒有可振動的粒子，故無法傳聲。常見錯誤是以為聲音像光一樣可在真空中前進。"
+    },
+    {
+      "id": "junior_physchem_8_005",
+      "difficulty": 1,
+      "question": "光在真空中的傳播速度約為何？",
+      "options": [
+        "$340$ m/s",
+        "$1500$ m/s",
+        "$3\\times 10^8$ m/s",
+        "$3\\times 10^6$ m/s"
+      ],
+      "answer": 2,
+      "explanation": "光在真空中的速度約為 $3\\times 10^8$ 公尺每秒。常見錯誤是把聲音在空氣中的速度 $340$ m/s 誤當成光速，或指數寫錯成 $10^6$。"
+    },
+    {
+      "id": "junior_physchem_8_006",
+      "difficulty": 1,
+      "question": "在 $1$ 大氣壓下，純水的沸點為何？",
+      "options": [
+        "$0°C$",
+        "$50°C$",
+        "$212°C$",
+        "$100°C$"
+      ],
+      "answer": 3,
+      "explanation": "$1$ 大氣壓下水的沸點為 $100°C$、凝固點為 $0°C$。常見錯誤是把華氏沸點 $212°F$ 誤填成攝氏值。"
+    },
+    {
+      "id": "junior_physchem_8_007",
+      "difficulty": 1,
+      "question": "下列何者屬於「元素」？",
+      "options": [
+        "氧",
+        "水",
+        "二氧化碳",
+        "食鹽"
+      ],
+      "answer": 0,
+      "explanation": "元素是由同一種原子組成的純物質，氧為元素；水、二氧化碳、食鹽皆由兩種以上元素組成，屬於化合物。常見錯誤是把常見的水誤認為元素。"
+    },
+    {
+      "id": "junior_physchem_8_008",
+      "difficulty": 2,
+      "question": "將 $20$ 公克的糖完全溶於 $80$ 公克的水中，此糖水的重量百分濃度為何？",
+      "options": [
+        "$25\\%$",
+        "$20\\%$",
+        "$16\\%$",
+        "$80\\%$"
+      ],
+      "answer": 1,
+      "explanation": "重量百分濃度 $=\\dfrac{\\text{溶質}}{\\text{溶液}}\\times 100\\%=\\dfrac{20}{20+80}\\times 100\\%=20\\%$。常見錯誤是把溶質除以溶劑（$\\dfrac{20}{80}$）得到 $25\\%$。"
+    },
+    {
+      "id": "junior_physchem_8_009",
+      "difficulty": 2,
+      "question": "一束光射向平面鏡，若入射光與鏡面法線的夾角為 $30°$，則反射角為何？",
+      "options": [
+        "$60°$",
+        "$0°$",
+        "$30°$",
+        "$15°$"
+      ],
+      "answer": 2,
+      "explanation": "由反射定律，反射角等於入射角，皆以法線為基準量度，故反射角為 $30°$。常見錯誤是以鏡面（而非法線）量角而得到 $60°$。"
+    },
+    {
+      "id": "junior_physchem_8_010",
+      "difficulty": 2,
+      "question": "物體在平面鏡中所成的像具有下列何種性質？",
+      "options": [
+        "倒立實像",
+        "放大虛像",
+        "縮小實像",
+        "正立等大虛像"
+      ],
+      "answer": 3,
+      "explanation": "平面鏡成像為正立、等大的虛像，且像與物到鏡面距離相等。常見錯誤是把凸透鏡或凹面鏡的成像性質套用在平面鏡上。"
+    },
+    {
+      "id": "junior_physchem_8_011",
+      "difficulty": 2,
+      "question": "冰塊熔化成水的過程中，關於熱量的敘述何者正確？",
+      "options": [
+        "需要吸收熱量",
+        "會放出熱量",
+        "不吸熱也不放熱",
+        "先放熱後吸熱"
+      ],
+      "answer": 0,
+      "explanation": "冰熔化為水是由固態變液態，需吸收熱量（熔化熱）以破壞固態排列。常見錯誤是把凝固放熱與熔化吸熱的方向弄反。"
+    },
+    {
+      "id": "junior_physchem_8_012",
+      "difficulty": 2,
+      "question": "水的比熱為 $1$ cal/(g·°C)，將 $100$ 公克的水升高 $10°C$ 需吸收多少熱量？",
+      "options": [
+        "$100$ cal",
+        "$1000$ cal",
+        "$10$ cal",
+        "$110$ cal"
+      ],
+      "answer": 1,
+      "explanation": "由 $Q=mc\\Delta T=100\\times 1\\times 10=1000$ cal。常見錯誤是漏乘溫差或漏乘質量而只得到 $100$ 或 $10$。"
+    },
+    {
+      "id": "junior_physchem_8_013",
+      "difficulty": 2,
+      "question": "下列何者屬於「化合物」？",
+      "options": [
+        "氧氣",
+        "氮氣",
+        "水",
+        "銅"
+      ],
+      "answer": 2,
+      "explanation": "化合物是由兩種以上元素以固定比例化合而成，水由氫與氧組成，屬化合物；氧氣、氮氣、銅皆為元素。常見錯誤是把單一元素組成的氣體誤認為化合物。"
+    },
+    {
+      "id": "junior_physchem_8_014",
+      "difficulty": 2,
+      "question": "原子中帶負電的粒子是？",
+      "options": [
+        "質子",
+        "中子",
+        "原子核",
+        "電子"
+      ],
+      "answer": 3,
+      "explanation": "電子帶負電，在原子核外運動；質子帶正電、中子不帶電，二者組成原子核。常見錯誤是把整體帶正電的原子核誤認為帶負電。"
+    },
+    {
+      "id": "junior_physchem_8_015",
+      "difficulty": 3,
+      "question": "一塊木頭放入水中會浮起，由此可推知木頭的密度與水相比為何？",
+      "options": [
+        "小於水的密度",
+        "等於水的密度",
+        "大於水的密度",
+        "與密度無關"
+      ],
+      "answer": 0,
+      "explanation": "物體能浮於液面，表示其平均密度小於液體密度，此木頭密度小於水（約 $1$ g/cm³）。常見錯誤是以為只要體積大就會浮，忽略密度比較才是關鍵。"
+    },
+    {
+      "id": "junior_physchem_8_016",
+      "difficulty": 3,
+      "question": "光由空氣斜射進入水中時，其速度與行進方向的變化為何？",
+      "options": [
+        "速度變快，偏離法線",
+        "速度變慢，偏向法線",
+        "速度與方向都不變",
+        "速度變快，偏向法線"
+      ],
+      "answer": 1,
+      "explanation": "水的光密度大於空氣，光進入水中速度變慢，且折射光偏向法線。常見錯誤是把由密介質進入疏介質（偏離法線）的情形弄反。"
+    },
+    {
+      "id": "junior_physchem_8_017",
+      "difficulty": 3,
+      "question": "凸透鏡成像時，若物體位於二倍焦距之外，所成的像為何？",
+      "options": [
+        "正立放大虛像",
+        "倒立放大實像",
+        "倒立縮小實像",
+        "正立等大實像"
+      ],
+      "answer": 2,
+      "explanation": "物體在二倍焦距以外時，凸透鏡成倒立、縮小的實像（如照相機成像）。常見錯誤是把物體位於一倍焦距內所成的正立放大虛像套用於此。"
+    },
+    {
+      "id": "junior_physchem_8_018",
+      "difficulty": 3,
+      "question": "聲音的三要素中，決定聲音「音調高低」的物理量是？",
+      "options": [
+        "振幅",
+        "波形",
+        "響度",
+        "頻率"
+      ],
+      "answer": 3,
+      "explanation": "音調由頻率決定，頻率越高音調越高；振幅決定響度、波形決定音色。常見錯誤是把決定音量大小的振幅誤當成決定音調的因素。"
+    },
+    {
+      "id": "junior_physchem_8_019",
+      "difficulty": 3,
+      "question": "將 $25$ 公克的鹽溶於 $100$ 公克的水中，此鹽水的重量百分濃度為何？",
+      "options": [
+        "$20\\%$",
+        "$25\\%$",
+        "$4\\%$",
+        "$75\\%$"
+      ],
+      "answer": 0,
+      "explanation": "溶液總重為 $25+100=125$ 公克，濃度 $=\\dfrac{25}{125}\\times 100\\%=20\\%$。常見錯誤是用溶質除以溶劑（$\\dfrac{25}{100}$）得到 $25\\%$。"
+    },
+    {
+      "id": "junior_physchem_8_020",
+      "difficulty": 3,
+      "question": "在週期表中，一個元素的「原子序」等於原子中的什麼數目？",
+      "options": [
+        "中子數",
+        "質子數",
+        "電子數與中子數之和",
+        "質量數"
+      ],
+      "answer": 1,
+      "explanation": "原子序等於原子核內的質子數，也等於中性原子的電子數。常見錯誤是把包含質子與中子的質量數誤當成原子序。"
+    },
+    {
+      "id": "junior_physchem_8_021",
+      "difficulty": 2,
+      "question": "如圖，一束光線射向水平放置的平面鏡並在 O 點反射，已知入射光線與鏡面的夾角為 $40°$。根據反射定律，此光線的反射角為何？",
+      "figure": "<svg viewBox=\"0 0 240 170\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"140\" x2=\"220\" y2=\"140\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"120\" y1=\"45\" x2=\"120\" y2=\"140\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><line x1=\"51\" y1=\"82\" x2=\"120\" y2=\"140\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"120\" y1=\"140\" x2=\"189\" y2=\"82\" stroke=\"#ef4444\" stroke-width=\"2\"/><polygon points=\"120,140 109.8,136.6 115,130.5\" fill=\"#3b82f6\"/><polygon points=\"189,82 184,91.5 178.8,85.3\" fill=\"#ef4444\"/><circle cx=\"120\" cy=\"140\" r=\"2.5\" fill=\"currentColor\"/><text x=\"124\" y=\"42\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">法線</text><text x=\"188\" y=\"155\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">鏡面</text><text x=\"70\" y=\"132\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">40°</text><text x=\"28\" y=\"80\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">入射光</text><text x=\"150\" y=\"70\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">反射光</text><text x=\"110\" y=\"153\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">O</text></svg>",
+      "options": [
+        "$50°$",
+        "$40°$",
+        "$25°$",
+        "$100°$"
+      ],
+      "answer": 0,
+      "explanation": "反射角是反射光線與法線之間的夾角。入射光與鏡面夾 $40°$，故與法線夾 $90°-40°=50°$；由反射定律反射角等於入射角，故為 $50°$。常見錯誤是把光線與鏡面的夾角 $40°$ 直接當成反射角。"
+    },
+    {
+      "id": "junior_physchem_8_022",
+      "difficulty": 2,
+      "question": "打雷時，小明先看到閃電，經過 $3$ 秒後才聽到雷聲。若當時聲音在空氣中的傳播速率為 $340$ m/s，且光的傳播時間可忽略不計，則打雷的位置與小明相距約多少公尺？",
+      "options": [
+        "$1020$ 公尺",
+        "$340$ 公尺",
+        "$113$ 公尺",
+        "$680$ 公尺"
+      ],
+      "answer": 0,
+      "explanation": "距離 $=$ 速率 $\\times$ 時間 $=340\\times 3=1020$ 公尺。因為光速極快，其傳播時間可忽略，故直接以聽到雷聲的時間差計算。常見錯誤是忘記乘上時間而寫成 $340$，或把速率除以時間。"
+    },
+    {
+      "id": "junior_physchem_8_023",
+      "difficulty": 3,
+      "question": "如圖為某固體物質在水中的溶解度曲線（縱軸為每 $100$ 公克水所能溶解的最大克數）。在 $40°C$ 時，將 $55$ 公克此固體加入 $100$ 公克的水中並充分攪拌，最多能溶解多少公克？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"35\" y1=\"30\" x2=\"35\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"35\" y1=\"150\" x2=\"225\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1\"/><polyline points=\"35,135 80,120 125,90 170,52.5 215,30\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"125\" y1=\"150\" x2=\"125\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\"/><line x1=\"125\" y1=\"90\" x2=\"35\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\"/><text x=\"27\" y=\"163\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">0</text><text x=\"74\" y=\"163\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">20</text><text x=\"119\" y=\"163\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">40</text><text x=\"164\" y=\"163\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">60</text><text x=\"209\" y=\"163\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">80</text><text x=\"18\" y=\"124\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">20</text><text x=\"18\" y=\"94\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">40</text><text x=\"18\" y=\"56\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">60</text><text x=\"18\" y=\"34\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">80</text><text x=\"150\" y=\"176\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">溫度(°C)</text><text x=\"40\" y=\"24\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">溶解度(g/100g水)</text></svg>",
+      "options": [
+        "$55$ g",
+        "$15$ g",
+        "$80$ g",
+        "$40$ g"
+      ],
+      "answer": 3,
+      "explanation": "由曲線可讀出 $40°C$ 時該固體的溶解度為每 $100$ 公克水溶 $40$ 公克，故加入的 $55$ 公克中只有 $40$ 公克溶解、其餘 $15$ 公克為未溶固體。常見錯誤是誤以為 $55$ 公克全部溶解，或把未溶的 $15$ 公克當成答案。"
+    },
+    {
+      "id": "junior_physchem_8_024",
+      "difficulty": 1,
+      "question": "在寒冷的冬天清晨，空氣中的水氣不經液態、直接在草葉表面結成白色的霜。這種物質由氣態直接變為固態的狀態變化，稱為下列何者？",
+      "options": [
+        "昇華",
+        "凝華",
+        "凝固",
+        "汽化"
+      ],
+      "answer": 1,
+      "explanation": "物質由氣態不經液態直接變成固態，稱為凝華，霜與樹霜即為實例。常見錯誤是與由固態直接變氣態的「昇華」（如乾冰、樟腦丸）方向弄反，或和液態變固態的「凝固」混淆。"
+    },
+    {
+      "id": "junior_physchem_8_025",
+      "difficulty": 2,
+      "question": "如圖為甲、乙兩聲波在同一部示波器上、相同時間內所顯示的波形。根據圖形，下列有關兩聲波的比較何者正確？",
+      "figure": "<svg viewBox=\"0 0 240 150\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"70\" x2=\"115\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\"/><line x1=\"130\" y1=\"70\" x2=\"225\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\"/><path d=\"M20,70 Q31.9,26 43.75,70 Q55.6,114 67.5,70 Q79.4,26 91.25,70 Q103.1,114 115,70\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><path d=\"M130,70 Q135.9,48 141.875,70 Q147.8,92 153.75,70 Q159.7,48 165.625,70 Q171.6,92 177.5,70 Q183.4,48 189.375,70 Q195.3,92 201.25,70 Q207.2,48 213.125,70 Q219.1,92 225,70\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><text x=\"62\" y=\"140\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">甲</text><text x=\"172\" y=\"140\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">乙</text></svg>",
+      "options": [
+        "甲的音調比乙高",
+        "甲、乙兩聲波完全相同",
+        "乙的音調比甲高",
+        "乙的響度比甲大"
+      ],
+      "answer": 2,
+      "explanation": "相同時間內乙的波數（週期數）比甲多，代表乙的頻率較高，故乙的音調比甲高。常見錯誤是只看波的高低（振幅）來判斷音調；其實振幅決定響度，甲的振幅較大故響度較大，頻率才決定音調。"
+    },
+    {
+      "id": "junior_physchem_8_026",
+      "difficulty": 1,
+      "question": "想把混在水中的泥沙分離出來、取得較澄清的水，下列哪一種方法最簡便且適當？",
+      "options": [
+        "蒸餾",
+        "結晶",
+        "過濾",
+        "再加水稀釋"
+      ],
+      "answer": 2,
+      "explanation": "泥沙不溶於水，是不溶固體與液體的混合物，用過濾即可把泥沙留在濾紙上、得到較澄清的水，最為簡便。常見錯誤是選蒸餾；蒸餾適用於分離互溶的液體（如由食鹽水取得純水），對不溶的泥沙並不需要。"
+    },
+    {
+      "id": "junior_physchem_8_027",
+      "difficulty": 3,
+      "question": "如圖為四種與水不互溶的液體其密度長條圖，圖中紅色虛線代表水的密度（$1.0$ g/cm³）。若將這四種液體分別倒入水中，哪一種會浮在水面上？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"35\" y1=\"30\" x2=\"35\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"35\" y1=\"150\" x2=\"220\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"47.5\" y=\"78\" width=\"25\" height=\"72\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"92.5\" y=\"66\" width=\"25\" height=\"84\" fill=\"#f59e0b\" fill-opacity=\"0.25\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"137.5\" y=\"54\" width=\"25\" height=\"96\" fill=\"#a855f7\" fill-opacity=\"0.25\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"182.5\" y=\"102\" width=\"25\" height=\"48\" fill=\"#22c55e\" fill-opacity=\"0.25\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"35\" y1=\"90\" x2=\"220\" y2=\"90\" stroke=\"#ef4444\" stroke-width=\"1\" stroke-dasharray=\"5 3\"/><text x=\"27\" y=\"154\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">0</text><text x=\"27\" y=\"94\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"27\" y=\"34\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"55\" y=\"163\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">甲</text><text x=\"100\" y=\"163\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">乙</text><text x=\"145\" y=\"163\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">丙</text><text x=\"190\" y=\"163\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">丁</text><text x=\"158\" y=\"86\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">水 1.0</text><text x=\"40\" y=\"24\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">密度(g/cm³)</text></svg>",
+      "options": [
+        "甲",
+        "乙",
+        "丙",
+        "丁"
+      ],
+      "answer": 3,
+      "explanation": "密度小於水（$<1.0$ g/cm³）的液體才會浮在水面上。由長條圖可知只有丁的密度約 $0.8$ g/cm³ 低於虛線，故丁會浮起。常見錯誤是誤以為長條較高（密度較大）者會浮，恰好相反。"
+    },
+    {
+      "id": "junior_physchem_8_028",
+      "difficulty": 1,
+      "question": "在固定溫度下，於某溶液中再加入一些相同的溶質並攪拌，發現溶質不再溶解而沉在杯底。此時原來的溶液屬於下列何者？",
+      "options": [
+        "稀溶液",
+        "未飽和溶液",
+        "飽和溶液",
+        "純溶液"
+      ],
+      "answer": 2,
+      "explanation": "在定溫下已無法再溶解更多溶質的溶液稱為飽和溶液。常見錯誤是與仍能繼續溶解溶質的未飽和溶液混淆；「純溶液」並非正式的溶液分類名稱。"
+    },
+    {
+      "id": "junior_physchem_8_029",
+      "difficulty": 2,
+      "question": "如圖，以量筒用排水法測量一金屬塊的體積，圖為放入金屬塊前、後的水面刻度。已知金屬塊的質量為 $50$ 公克（$1$ mL$=1$ cm³），則此金屬塊的密度為何？",
+      "figure": "<svg viewBox=\"0 0 240 200\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"46\" y=\"34\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">放入前</text><text x=\"156\" y=\"34\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">放入後</text><rect x=\"45\" y=\"110\" width=\"40\" height=\"65\" fill=\"#3b82f6\" fill-opacity=\"0.2\" stroke=\"none\"/><rect x=\"155\" y=\"66.5\" width=\"40\" height=\"108.5\" fill=\"#3b82f6\" fill-opacity=\"0.2\" stroke=\"none\"/><rect x=\"160\" y=\"118\" width=\"30\" height=\"47\" fill=\"#a855f7\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"45\" y1=\"42\" x2=\"45\" y2=\"175\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"85\" y1=\"42\" x2=\"85\" y2=\"175\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"45\" y1=\"175\" x2=\"85\" y2=\"175\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"155\" y1=\"42\" x2=\"155\" y2=\"175\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"195\" y1=\"42\" x2=\"195\" y2=\"175\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"155\" y1=\"175\" x2=\"195\" y2=\"175\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"45\" y1=\"175\" x2=\"52\" y2=\"175\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"45\" y1=\"131.7\" x2=\"52\" y2=\"131.7\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"45\" y1=\"88.3\" x2=\"52\" y2=\"88.3\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"45\" y1=\"45\" x2=\"52\" y2=\"45\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"155\" y1=\"175\" x2=\"162\" y2=\"175\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"155\" y1=\"131.7\" x2=\"162\" y2=\"131.7\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"155\" y1=\"88.3\" x2=\"162\" y2=\"88.3\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"155\" y1=\"45\" x2=\"162\" y2=\"45\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"45\" y1=\"110\" x2=\"85\" y2=\"110\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><line x1=\"155\" y1=\"66.5\" x2=\"195\" y2=\"66.5\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><text x=\"30\" y=\"179\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">0</text><text x=\"26\" y=\"135\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">20</text><text x=\"26\" y=\"92\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">40</text><text x=\"26\" y=\"49\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">60</text><text x=\"140\" y=\"179\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">0</text><text x=\"136\" y=\"135\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">20</text><text x=\"136\" y=\"92\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">40</text><text x=\"136\" y=\"49\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">60</text><text x=\"88\" y=\"114\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">30 mL</text><text x=\"198\" y=\"70\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">50 mL</text></svg>",
+      "options": [
+        "$2.0$ g/cm³",
+        "$2.5$ g/cm³",
+        "$0.4$ g/cm³",
+        "$1.0$ g/cm³"
+      ],
+      "answer": 1,
+      "explanation": "由圖讀出放入金屬塊前水面為 $30$ mL、放入後為 $50$ mL，故金屬塊體積 $=50-30=20$ cm³；密度 $=\\dfrac{50}{20}=2.5$ g/cm³。常見錯誤是忘了體積需用前後刻度相減，而直接把 $50$ mL 當體積得到 $1.0$ g/cm³。"
+    },
+    {
+      "id": "junior_physchem_8_030",
+      "difficulty": 3,
+      "question": "在空曠處對著遠方的峭壁大喊一聲，經過 $2$ 秒後聽到回聲。若當時聲速為 $340$ m/s，則此人與峭壁的距離約為多少公尺？",
+      "options": [
+        "$340$ 公尺",
+        "$680$ 公尺",
+        "$170$ 公尺",
+        "$1360$ 公尺"
+      ],
+      "answer": 0,
+      "explanation": "聲音從人傳到峭壁再反射回來，共走了 $340\\times 2=680$ 公尺，這是來回的距離；人與峭壁的距離為單程 $680\\div 2=340$ 公尺。常見錯誤是忘記聲音需要來回，直接把 $680$ 公尺當成答案。"
+    },
+    {
+      "id": "junior_physchem_8_031",
+      "difficulty": 3,
+      "question": "水的比熱為 $1$ cal/(g·°C)。將 $200$ 公克、溫度 $80°C$ 的熱水冷卻到 $30°C$，在此過程中水共放出多少熱量？",
+      "options": [
+        "$16000$ cal",
+        "$10000$ cal",
+        "$6000$ cal",
+        "$50$ cal"
+      ],
+      "answer": 1,
+      "explanation": "放出的熱量 $Q=mc\\Delta T=200\\times 1\\times (80-30)=200\\times 1\\times 50=10000$ cal。常見錯誤是把 $\\Delta T$ 用單一溫度（$80$ 或 $30$）代入，而不是用溫度差 $50°C$。"
+    },
+    {
+      "id": "junior_physchem_8_032",
+      "difficulty": 1,
+      "question": "下列物質中，何者屬於「混合物」？",
+      "options": [
+        "氧氣",
+        "二氧化碳",
+        "蒸餾水",
+        "空氣"
+      ],
+      "answer": 3,
+      "explanation": "空氣由氮氣、氧氣、二氧化碳、水氣等多種物質混合而成，各成分保有原本的性質、比例也不固定，屬於混合物。常見錯誤是把純物質誤認為混合物：氧氣是元素，二氧化碳與蒸餾水都是化合物。"
+    }
   ]
 }

@@ -162,6 +162,107 @@
       "options": ["變為 $2$ 倍", "變為 $\\dfrac{1}{2}$ 倍", "變為 $4$ 倍", "不變"],
       "answer": 3,
       "explanation": "磁場與 $nI$ 的乘積成正比，$n$ 變 $2$ 倍、$I$ 變 $\\dfrac{1}{2}$ 倍時，乘積 $nI$ 為 $2\\times\\dfrac{1}{2}=1$ 倍，故磁場不變。易錯處是只考慮其中一個因素的變化就下結論，應同時考慮兩個變因的乘積效果。"
+    },
+    {
+      "id": "senior_physics_10_021",
+      "difficulty": 2,
+      "question": "圖為一物體沿直線運動的速度—時間關係圖，求此物體在 $0$ 到 $6$ 秒間所行進的位移。",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"40,140 100,40 220,40 220,140\" fill=\"#3b82f6\" fill-opacity=\"0.2\" stroke=\"none\"/><polyline points=\"40,140 100,40 220,40\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"140\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"140\" x2=\"220\" y2=\"140\" stroke=\"currentColor\"/><text x=\"6\" y=\"16\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">v(m/s)</text><text x=\"200\" y=\"158\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">t(s)</text><text x=\"22\" y=\"44\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">8</text><text x=\"96\" y=\"156\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">2</text><text x=\"214\" y=\"156\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">6</text></svg>",
+      "options": ["$40$ m", "$48$ m", "$32$ m", "$24$ m"],
+      "answer": 0,
+      "explanation": "位移等於速度—時間圖線下方的面積：前 $2$ 秒為三角形 $\\dfrac{1}{2}\\times 2\\times 8=8\\ \\mathrm{m}$，後 $4$ 秒為矩形 $4\\times 8=32\\ \\mathrm{m}$，合計 $40\\ \\mathrm{m}$。易錯處是只算矩形而漏掉前段加速的三角形面積，或誤把末速 $8\\ \\mathrm{m/s}$ 乘總時間 $6$ 秒得 $48\\ \\mathrm{m}$。"
+    },
+    {
+      "id": "senior_physics_10_022",
+      "difficulty": 2,
+      "question": "圖為一物體沿直線運動的位置—時間關係圖，此物體在第 $4$ 到第 $6$ 秒間的速度為何？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"140\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"140\" x2=\"220\" y2=\"140\" stroke=\"currentColor\"/><polyline points=\"40,140 100,40 160,40 220,140\" fill=\"none\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"6\" y=\"16\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">x(m)</text><text x=\"200\" y=\"158\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">t(s)</text><text x=\"22\" y=\"44\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">8</text><text x=\"96\" y=\"156\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">2</text><text x=\"156\" y=\"156\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">4</text><text x=\"214\" y=\"156\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">6</text></svg>",
+      "options": ["$+4$ m/s（沿正向）", "$-4$ m/s（沿負向，速率 $4$ m/s）", "$-2$ m/s", "$0$ m/s"],
+      "answer": 1,
+      "explanation": "速度等於位置—時間圖的斜率。第 $4$ 到 $6$ 秒物體位置由 $8\\ \\mathrm{m}$ 減為 $0\\ \\mathrm{m}$，斜率為 $\\dfrac{0-8}{6-4}=-4\\ \\mathrm{m/s}$，負號代表沿負方向折返。易錯處是忽略負號只看速率，或把整段 $0$ 到 $6$ 秒的平均速度（因起終點都在原點而為 $0$）當成此段的速度。"
+    },
+    {
+      "id": "senior_physics_10_023",
+      "difficulty": 3,
+      "question": "如圖，$O$ 點同時受到兩個互相垂直的力，一為 $6\\ \\mathrm{N}$、另一為 $8\\ \\mathrm{N}$，則此二力合力的大小為何？",
+      "figure": "<svg viewBox=\"0 0 220 180\" xmlns=\"http://www.w3.org/2000/svg\"><polyline points=\"40,124 56,124 56,140\" fill=\"none\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"140\" x2=\"130\" y2=\"140\" stroke=\"#3b82f6\" stroke-width=\"2\"/><polyline points=\"122,135 130,140 122,145\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"40\" y1=\"140\" x2=\"40\" y2=\"20\" stroke=\"#ef4444\" stroke-width=\"2\"/><polyline points=\"35,28 40,20 45,28\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"40\" y1=\"140\" x2=\"130\" y2=\"20\" stroke=\"#f59e0b\" stroke-width=\"2\" stroke-dasharray=\"5 3\"/><text x=\"78\" y=\"158\" fill=\"currentColor\" stroke=\"none\" font-size=\"13\">6 N</text><text x=\"8\" y=\"86\" fill=\"currentColor\" stroke=\"none\" font-size=\"13\">8 N</text><text x=\"84\" y=\"84\" fill=\"currentColor\" stroke=\"none\" font-size=\"13\">合力 ?</text></svg>",
+      "options": ["$14$ N", "$2$ N", "$10$ N", "$48$ N"],
+      "answer": 2,
+      "explanation": "兩力互相垂直時，合力大小為兩分力的平方和再開根號：$\\sqrt{6^2+8^2}=\\sqrt{36+64}=\\sqrt{100}=10\\ \\mathrm{N}$。易錯處是把兩力直接相加得 $14\\ \\mathrm{N}$，只有同方向時才能直接相加；互相垂直時必須用畢氏定理合成。"
+    },
+    {
+      "id": "senior_physics_10_024",
+      "difficulty": 2,
+      "question": "圖為一橫波在某瞬間的波形圖，已知此波的週期為 $0.5\\ \\mathrm{s}$，則波速為何？",
+      "figure": "<svg viewBox=\"0 0 240 160\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"80\" x2=\"228\" y2=\"80\" stroke=\"currentColor\"/><line x1=\"20\" y1=\"20\" x2=\"20\" y2=\"140\" stroke=\"currentColor\"/><path d=\"M20,80 Q45,20 70,80 Q95,140 120,80 Q145,20 170,80 Q195,140 220,80\" fill=\"none\" stroke=\"#a855f7\" stroke-width=\"2\"/><line x1=\"45\" y1=\"80\" x2=\"45\" y2=\"50\" stroke=\"currentColor\" stroke-dasharray=\"3 2\"/><text x=\"50\" y=\"52\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">0.2 m</text><text x=\"4\" y=\"18\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">y(m)</text><text x=\"206\" y=\"98\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">x(m)</text><text x=\"64\" y=\"98\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">2</text><text x=\"114\" y=\"98\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">4</text><text x=\"164\" y=\"98\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">6</text></svg>",
+      "options": ["$2$ m/s", "$0.5$ m/s", "$16$ m/s", "$8$ m/s"],
+      "answer": 3,
+      "explanation": "由圖可讀出一個完整波長為 $4\\ \\mathrm{m}$，再由 $v=\\dfrac{\\lambda}{T}=\\dfrac{4}{0.5}=8\\ \\mathrm{m/s}$。易錯處是把波長與週期相乘得 $2$，或把振幅 $0.2\\ \\mathrm{m}$ 誤當成波長代入；波速是「波長除以週期」。"
+    },
+    {
+      "id": "senior_physics_10_025",
+      "difficulty": 3,
+      "question": "如圖，質量 $m$ 的物體置於傾角 $30^\\circ$ 的光滑斜面上，由靜止釋放（取 $g=10\\ \\mathrm{m/s^2}$），則物體沿斜面下滑的加速度為何？",
+      "figure": "<svg viewBox=\"0 0 240 160\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"20,140 200,140 200,36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"101,93 123,80 110,57 88,70\" fill=\"#f59e0b\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><path d=\"M50,140 A30,30 0 0 0 46,125\" fill=\"none\" stroke=\"currentColor\"/><text x=\"54\" y=\"135\" fill=\"currentColor\" stroke=\"none\" font-size=\"13\">30°</text><text x=\"99\" y=\"80\" fill=\"currentColor\" stroke=\"none\" font-size=\"13\">m</text></svg>",
+      "options": ["$5$ m/s²", "$10$ m/s²", "$8.7$ m/s²", "$2.5$ m/s²"],
+      "answer": 0,
+      "explanation": "光滑斜面上沿斜面方向的合力為重力分量 $mg\\sin\\theta$，故加速度 $a=g\\sin 30^\\circ=10\\times 0.5=5\\ \\mathrm{m/s^2}$，與質量無關。易錯處是誤用 $g\\cos 30^\\circ\\approx 8.7$（那是垂直斜面方向的分量），或直接用 $g=10$ 而忽略斜面上只分得部分重力。"
+    },
+    {
+      "id": "senior_physics_10_026",
+      "difficulty": 1,
+      "question": "一彈簧下端懸掛質量 $2\\ \\mathrm{kg}$ 的物體，靜止平衡時彈簧伸長 $0.1\\ \\mathrm{m}$（取 $g=10\\ \\mathrm{m/s^2}$），則此彈簧的力常數 $k$ 為何？",
+      "options": ["$20$ N/m", "$2$ N/m", "$100$ N/m", "$200$ N/m"],
+      "answer": 3,
+      "explanation": "平衡時彈力等於重力：$kx=mg$，故 $k=\\dfrac{mg}{x}=\\dfrac{2\\times 10}{0.1}=200\\ \\mathrm{N/m}$。易錯處是只算出重力 $mg=20\\ \\mathrm{N}$ 就當成力常數，忘記再除以伸長量 $x$。"
+    },
+    {
+      "id": "senior_physics_10_027",
+      "difficulty": 1,
+      "question": "下列各種電磁波在真空中傳播時，何者的波長最長？",
+      "options": ["可見光", "無線電波", "紫外線", "伽瑪射線"],
+      "answer": 1,
+      "explanation": "電磁波譜依波長由長到短為無線電波、微波、紅外線、可見光、紫外線、X 射線、伽瑪射線，其中波長最長者為無線電波。易錯處是把「波長最長」與「頻率最高、能量最大」混淆；波長最長者頻率反而最低。"
+    },
+    {
+      "id": "senior_physics_10_028",
+      "difficulty": 2,
+      "question": "一支連人共重 $50\\ \\mathrm{kg}$ 的槍原為靜止，水平射出質量 $0.01\\ \\mathrm{kg}$、速率 $500\\ \\mathrm{m/s}$ 的子彈，則射擊後槍（含人）反衝的速率為何？（不計地面摩擦）",
+      "options": ["$1$ m/s", "$5$ m/s", "$0.1$ m/s", "$0.01$ m/s"],
+      "answer": 2,
+      "explanation": "系統初動量為零，由動量守恆 $0=m_1v_1+m_2v_2$，其中子彈動量 $m_1v_1=0.01\\times 500=5\\ \\mathrm{kg\\cdot m/s}$，故槍的反衝速率 $v_2=\\dfrac{5}{50}=0.1\\ \\mathrm{m/s}$，方向與子彈相反。易錯處是把子彈動量 $5$ 直接當成反衝速率，忘記除以槍的質量。"
+    },
+    {
+      "id": "senior_physics_10_029",
+      "difficulty": 3,
+      "question": "質量 $2\\ \\mathrm{kg}$ 的物體以 $6\\ \\mathrm{m/s}$ 的初速在粗糙水平面上滑行，經 $9\\ \\mathrm{m}$ 後停止，則物體所受的摩擦力大小為何？",
+      "options": ["$8$ N", "$2$ N", "$6$ N", "$4$ N"],
+      "answer": 3,
+      "explanation": "由功能定理，摩擦力所作的負功使動能全部消耗：$f\\cdot d=\\dfrac{1}{2}mv^2$，故 $f=\\dfrac{1}{2}\\times 2\\times 6^2\\div 9=\\dfrac{36}{9}=4\\ \\mathrm{N}$。易錯處是忘記動能公式中的 $\\dfrac{1}{2}$，或誤用動量 $mv$ 的觀念去求摩擦力。"
+    },
+    {
+      "id": "senior_physics_10_030",
+      "difficulty": 1,
+      "question": "一物體沿直線運動，前 $2$ 秒內移動 $10\\ \\mathrm{m}$，接著 $3$ 秒內再移動 $20\\ \\mathrm{m}$，則全程的平均速率為何？",
+      "options": ["$6$ m/s", "$5$ m/s", "$7$ m/s", "$30$ m/s"],
+      "answer": 0,
+      "explanation": "平均速率等於總路程除以總時間：$\\dfrac{10+20}{2+3}=\\dfrac{30}{5}=6\\ \\mathrm{m/s}$。易錯處是把前後兩段的速率 $5\\ \\mathrm{m/s}$ 與約 $6.7\\ \\mathrm{m/s}$ 直接取平均，平均速率必須用總路程與總時間計算，不能把兩段速率再平均。"
+    },
+    {
+      "id": "senior_physics_10_031",
+      "difficulty": 1,
+      "question": "在電阻值為 $5\\ \\Omega$ 的電阻器兩端加上 $10\\ \\mathrm{V}$ 的電壓，則通過此電阻的電流為何？",
+      "options": ["$0.5$ A", "$2$ A", "$50$ A", "$15$ A"],
+      "answer": 1,
+      "explanation": "由歐姆定律 $I=\\dfrac{V}{R}=\\dfrac{10}{5}=2\\ \\mathrm{A}$。易錯處是把電壓與電阻相乘得 $50$，或相加得 $15$；歐姆定律中電流與電壓成正比、與電阻成反比。"
+    },
+    {
+      "id": "senior_physics_10_032",
+      "difficulty": 3,
+      "question": "一汽車以定速 $20\\ \\mathrm{m/s}$ 在水平路面行駛，此時引擎的輸出功率為 $30000\\ \\mathrm{W}$，則汽車所受的總阻力大小為何？",
+      "options": ["$600000$ N", "$750$ N", "$1500$ N", "$3000$ N"],
+      "answer": 2,
+      "explanation": "定速行駛時牽引力等於總阻力，由功率公式 $P=Fv$ 得 $F=\\dfrac{P}{v}=\\dfrac{30000}{20}=1500\\ \\mathrm{N}$。易錯處是把功率與速度相乘得 $600000$；$P=Fv$ 應以功率「除以」速度來求力。"
     }
   ]
 }

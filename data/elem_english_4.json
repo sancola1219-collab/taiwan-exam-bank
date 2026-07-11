@@ -162,6 +162,86 @@
       "options": ["desk", "book", "noodles", "chair"],
       "answer": 2,
       "explanation": "noodles 的意思是「麵條」，I like noodles. 就是「我喜歡吃麵」。desk 是書桌、book 是書、chair 是椅子，都不是食物，不適合接在 I like 後面表達喜歡的食物。"
+    },
+    {
+      "id": "elem_english_4_021",
+      "difficulty": 1,
+      "question": "英語單字 sister 的中文意思是什麼？",
+      "options": ["爸爸", "姊姊或妹妹", "叔叔", "爺爺"],
+      "answer": 1,
+      "explanation": "sister 的意思是「姊姊或妹妹」，英語中姊妹用同一個字。爸爸是 father，叔叔是 uncle，爺爺是 grandfather，都是不同的家庭成員單字。"
+    },
+    {
+      "id": "elem_english_4_022",
+      "difficulty": 1,
+      "question": "天氣單字 windy 是形容什麼樣的天氣？",
+      "options": ["晴朗的", "下雨的", "颳風的", "下雪的"],
+      "answer": 2,
+      "explanation": "windy 的意思是「颳風的」，wind 是風，加上 y 就變成形容詞 windy。晴朗的是 sunny，下雨的是 rainy，下雪的是 snowy，字尾都是 y 但字根不同。"
+    },
+    {
+      "id": "elem_english_4_023",
+      "difficulty": 1,
+      "question": "英語單字 Saturday 指的是星期幾？",
+      "options": ["星期二", "星期三", "星期日", "星期六"],
+      "answer": 3,
+      "explanation": "Saturday 的意思是「星期六」。星期二是 Tuesday，星期三是 Wednesday，星期日是 Sunday；Saturday 和 Sunday 都是週末，開頭都是 S，要看清楚後面的字母。"
+    },
+    {
+      "id": "elem_english_4_024",
+      "difficulty": 2,
+      "question": "英語單字 grandfather 的中文意思是什麼？",
+      "options": ["爺爺或外公", "奶奶或外婆", "阿姨", "哥哥或弟弟"],
+      "answer": 0,
+      "explanation": "grandfather 的意思是「爺爺或外公」，grand 加上 father 表示上一輩的爸爸。奶奶或外婆是 grandmother，只差一個字，回答時不要看錯 father 和 mother。"
+    },
+    {
+      "id": "elem_english_4_025",
+      "difficulty": 2,
+      "question": "英語單字 juice 指的是哪一種飲料？",
+      "options": ["米飯", "果汁", "魚", "蛋"],
+      "answer": 1,
+      "explanation": "juice 的意思是「果汁」，例如：I like juice.（我喜歡果汁。）米飯是 rice，魚是 fish，蛋是 egg，都是食物而不是飲料。"
+    },
+    {
+      "id": "elem_english_4_026",
+      "difficulty": 2,
+      "question": "有人跟你說 How are you? 下列哪一個回答最合適？",
+      "options": ["It's a dog.", "Yes, I do.", "I'm ten years old.", "I'm fine, thank you."],
+      "answer": 3,
+      "explanation": "How are you?（你好嗎？）是問候別人，要回答 I'm fine, thank you.（我很好，謝謝。）It's a dog 是回答 What's this?，I'm ten years old 是回答年齡，都答非所問。"
+    },
+    {
+      "id": "elem_english_4_027",
+      "difficulty": 2,
+      "question": "A: Do you like dogs?  B: Yes, I ___. 空格應填入哪一個字？",
+      "options": ["am", "don't", "do", "is"],
+      "answer": 2,
+      "explanation": "回答 Do you like...? 時，喜歡要說 Yes, I do.，所以空格填 do。回答 Yes 要配 do，若填 don't 就變成不喜歡了，前後意思會矛盾。"
+    },
+    {
+      "id": "elem_english_4_028",
+      "difficulty": 3,
+      "question": "今天是 Wednesday（星期三），那麼昨天是星期幾？",
+      "options": ["Tuesday", "Thursday", "Monday", "Sunday"],
+      "answer": 0,
+      "explanation": "Wednesday（星期三）的前一天是 Tuesday（星期二）。要注意題目問的是「昨天」，也就是前一天；Thursday（星期四）是明天，方向剛好相反，容易選錯。"
+    },
+    {
+      "id": "elem_english_4_029",
+      "difficulty": 3,
+      "question": "It's sunny and hot today. 下列哪一件事最適合在這種天氣做？",
+      "options": ["穿厚外套堆雪人", "去游泳玩水", "撐傘躲避大雨", "待在家裡發抖取暖"],
+      "answer": 1,
+      "explanation": "It's sunny and hot today. 的意思是「今天又晴又熱」，這種天氣最適合去游泳玩水。堆雪人是下雪冷天做的事，撐傘是下雨天，發抖取暖是冷天，都和又晴又熱不符。"
+    },
+    {
+      "id": "elem_english_4_030",
+      "difficulty": 3,
+      "question": "It's ___ egg. 想表達「這是一顆蛋」，空格應填入哪一個字？",
+      "options": ["an", "a", "the", "this"],
+      "answer": 0,
+      "explanation": "egg 的開頭發母音，前面要用 an，所以是 It's an egg.（這是一顆蛋。）若填 a 只能用在子音開頭的字前，例如 a banana，這是判斷 a 和 an 的重要關鍵。"
     }
   ]
 }

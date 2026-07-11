@@ -162,6 +162,86 @@
       "options": ["as a result", "in addition", "similarly", "in contrast"],
       "answer": 3,
       "explanation": "前句「亞洲銷售大漲」與後句「歐洲銷售大跌」呈現兩個對象的相反情況，應用表對比的 in contrast（相較之下）。易錯處是選 similarly（同樣地），那用於兩句情況相似時；as a result 表因果、in addition 表遞進，皆與本句的對比邏輯不合。"
+    },
+    {
+      "id": "uni_uenglish_u_021",
+      "difficulty": 1,
+      "question": "Whether the outdoor concert takes place will largely depend ___ the weather this weekend.",
+      "options": ["on", "of", "at", "into"],
+      "answer": 0,
+      "explanation": "depend 為不及物動詞，須搭配介系詞 on／upon，意為「取決於、視……而定」，故選 on。易錯處是受中文「依賴於」影響而寫成 depend of 或 depend with，記住 depend 後固定接 on/upon 才正確。"
+    },
+    {
+      "id": "uni_uenglish_u_022",
+      "difficulty": 1,
+      "question": "There is very ___ information available about this newly discovered species.",
+      "options": ["few", "many", "little", "a number of"],
+      "answer": 2,
+      "explanation": "information 是不可數名詞，表示「數量少」須用 little，故選 little（very little information＝很少資訊）。易錯處是選 few，few 只能修飾可數複數名詞；判斷關鍵是先確認名詞為可數或不可數再選對應的數量詞。"
+    },
+    {
+      "id": "uni_uenglish_u_023",
+      "difficulty": 1,
+      "question": "We are all looking forward to ___ the results of the final examination next week.",
+      "options": ["know", "knowing", "known", "have known"],
+      "answer": 1,
+      "explanation": "look forward to 中的 to 是介系詞而非不定詞，後面必須接動名詞，故選 knowing。易錯處是把 to 誤當作不定詞記號而選原形 know；be used to、object to、be committed to 等片語的 to 後同樣接 V-ing。"
+    },
+    {
+      "id": "uni_uenglish_u_024",
+      "difficulty": 2,
+      "question": "The board decided to ___ the meeting until next month because several members were away.",
+      "options": ["put up", "put on", "put down", "put off"],
+      "answer": 3,
+      "explanation": "put off 意為「延期、推遲」，符合「因多位成員不在而把會議延到下個月」的語意，故選 put off。易錯處是選 put up（搭建／舉起）、put on（穿上）或 put down（放下／鎮壓）；動詞片語須整體記憶其固定含意，不能望字生義。"
+    },
+    {
+      "id": "uni_uenglish_u_025",
+      "difficulty": 2,
+      "question": "It was ___ a complicated question that none of the students could answer it correctly.",
+      "options": ["so", "such", "very", "too"],
+      "answer": 1,
+      "explanation": "「such＋a／an＋形容詞＋名詞＋that...」表「如此……以致於」，此處空格後為 a complicated question（帶名詞的片語），故用 such。易錯處是選 so，so 之後只接形容詞或副詞（so complicated），若要接名詞須改寫為 so complicated a question。"
+    },
+    {
+      "id": "uni_uenglish_u_026",
+      "difficulty": 2,
+      "question": "The historic lighthouse ___ by thousands of visitors every summer.",
+      "options": ["visits", "is visiting", "is visited", "has visited"],
+      "answer": 2,
+      "explanation": "燈塔是被參觀的對象，主詞與動作為被動關係，加上 every summer 表示習慣性事實，故用現在簡單式被動 is visited。易錯處是選主動的 visits 或 has visited，那會誤成「燈塔去參觀遊客」，主動被動關係顛倒。"
+    },
+    {
+      "id": "uni_uenglish_u_027",
+      "difficulty": 3,
+      "question": "I wish I ___ more attention to my supervisor's advice during last year's internship.",
+      "options": ["had paid", "paid", "have paid", "would pay"],
+      "answer": 0,
+      "explanation": "wish 表達對過去的遺憾時，其後子句用過去完成式，故選 had paid（後悔當時沒認真聽從建議）。易錯處是選過去式 paid，那用於與現在事實相反的願望；句中 last year 明確指向過去，須用過去完成式才正確。"
+    },
+    {
+      "id": "uni_uenglish_u_028",
+      "difficulty": 3,
+      "question": "The applicant ___ the company eventually offered the position had studied abroad for three years.",
+      "options": ["who", "which", "whose", "to whom"],
+      "answer": 3,
+      "explanation": "空格代替原句 offer the position to somebody 中的 to somebody，先行詞為人且作介系詞 to 的受詞，正式關係子句用 to whom（＝the company offered the position to the applicant）。易錯處是選 who，介系詞之後的關係代名詞須用受格 whom；還原原句的介系詞搭配即可判斷。"
+    },
+    {
+      "id": "uni_uenglish_u_029",
+      "difficulty": 3,
+      "question": "The two departments are not in conflict; rather, their functions ___ each other in serving customers.",
+      "options": ["contradict", "compensate", "complement", "compliment"],
+      "answer": 2,
+      "explanation": "complement 意為「互補、補足」，符合「兩部門並不衝突而是彼此互補」的語意，故選 complement。易錯處是選同音的 compliment（讚美）或形近的 compensate（補償）；complement 與 compliment 是常考的同音異義字，須由「互相補足」的語意區辨。"
+    },
+    {
+      "id": "uni_uenglish_u_030",
+      "difficulty": 3,
+      "question": "Read the passage: \"Although the new smartphone won praise for its sleek design, many reviewers noted that its battery drained quickly and its price was far higher than that of competing models. As a result, initial sales fell short of the company's expectations.\" What can be inferred from the passage?",
+      "options": ["The smartphone sold poorly mainly because of its unattractive design.", "A good design alone was not enough to guarantee strong sales.", "Reviewers generally agreed that the phone was reasonably priced.", "The company's initial sales exceeded its own expectations."],
+      "answer": 1,
+      "explanation": "文章指出手機雖以外型獲好評，卻因電池不耐用與價格偏高而銷售不如預期，可推論「僅靠好設計不足以保證好銷量」，故選第二項。易錯處是選第一項，文中明說設計受到好評，銷售不佳的原因是電池與價格而非設計；推論題須以文中證據為依據，不可臆測。"
     }
   ]
 }

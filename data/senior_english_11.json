@@ -262,6 +262,136 @@
       ],
       "answer": 1,
       "explanation": "本題考「同位語名詞子句」：that 引導的子句說明 The fact 的內容，子句結構完整，that 僅作連接詞，故選 that。全句翻譯為「經理在銷售數字上說謊的這個事實，讓整個團隊非常憤怒」。which 是關係代名詞，須在子句中擔任成分；what 不能引導同位語子句；whether 表「是否」，與「事實」語意矛盾。"
+    },
+    {
+      "id": "senior_english_11_021",
+      "difficulty": 1,
+      "question": "During the flood, many local businesses ______ food, water, and blankets to the families who had lost their homes.",
+      "options": [
+        "donated",
+        "offended",
+        "delayed",
+        "pretended"
+      ],
+      "answer": 0,
+      "explanation": "donate 意為「捐贈、捐助」，將物資「捐給」災民語意通順，全句翻譯為「水災期間，許多當地商家捐贈食物、飲水和毛毯給那些失去家園的家庭」。offend 是「冒犯」，delay 是「延遲」，pretend 是「假裝」，皆與「提供援助」的語境不合。"
+    },
+    {
+      "id": "senior_english_11_022",
+      "difficulty": 1,
+      "question": "I know a girl ______ mother works as a heart surgeon at a well-known hospital in Taipei.",
+      "options": [
+        "who",
+        "which",
+        "whose",
+        "whom"
+      ],
+      "answer": 2,
+      "explanation": "whose 為所有格關係代名詞，表示先行詞 a girl 與 mother 之間的所屬關係（女孩「的」母親），故選 whose。全句翻譯為「我認識一個女孩，她的母親在台北一家知名醫院擔任心臟外科醫師」。who 作主格、whom 作受格、which 用於事物，皆無法表達所有格關係。"
+    },
+    {
+      "id": "senior_english_11_023",
+      "difficulty": 1,
+      "question": "The old stone bridge ______ more than a century ago, but it is still strong enough to be used today.",
+      "options": [
+        "built",
+        "was built",
+        "has built",
+        "is building"
+      ],
+      "answer": 1,
+      "explanation": "橋樑「被建造」，主詞為動作的承受者，須用被動語態；又由 more than a century ago 可知動作發生在過去，故用過去式被動 was built。全句翻譯為「這座古老的石橋建於一個多世紀前，但至今仍堅固得足以使用」。built 為主動、has built 為現在完成主動、is building 為現在進行主動，語態與時態皆不符。"
+    },
+    {
+      "id": "senior_english_11_024",
+      "difficulty": 2,
+      "question": "______ from the observation deck of Taipei 101, the busy streets below look like tiny toy models.",
+      "options": [
+        "Seeing",
+        "To see",
+        "See",
+        "Seen"
+      ],
+      "answer": 3,
+      "explanation": "分詞構句中，主要子句主詞 the busy streets 與 see 之間為被動關係（街道「被看見」），故用過去分詞 Seen 引導。全句翻譯為「從台北101的觀景台望下去，底下繁忙的街道看起來就像微小的玩具模型」。Seeing 表主動、To see 表目的、See 為原形，皆不符合被動的分詞構句用法。"
+    },
+    {
+      "id": "senior_english_11_025",
+      "difficulty": 2,
+      "question": "The newly opened science museum is definitely worth ______; you really should not miss it during the holiday.",
+      "options": [
+        "visit",
+        "visiting",
+        "to visit",
+        "visited"
+      ],
+      "answer": 1,
+      "explanation": "be worth 之後須接動名詞（Ving）表示「值得被……」，故選 visiting。全句翻譯為「這間新開幕的科學博物館絕對值得一遊，假期時你真的不該錯過」。worth 為特殊用法，其後不接不定詞 to visit，也不接原形或過去分詞，是常見的誤用陷阱。"
+    },
+    {
+      "id": "senior_english_11_026",
+      "difficulty": 2,
+      "question": "______ you review the new vocabulary, the more easily you will remember it in the exam.",
+      "options": [
+        "The much",
+        "The many",
+        "The more",
+        "More"
+      ],
+      "answer": 2,
+      "explanation": "本題為「the + 比較級……, the + 比較級……」句型，表示「越……就越……」，前半空格須用 The more 修飾 review 的程度。全句翻譯為「你越常複習新單字，考試時就越容易記住它們」。The much、The many 並非正確搭配，單獨的 More 也缺少定冠詞 the，皆不合句型。"
+    },
+    {
+      "id": "senior_english_11_027",
+      "difficulty": 3,
+      "question": "Despite the ______ evidence pointing to his guilt, the suspect kept insisting that he was innocent.",
+      "options": [
+        "overwhelming",
+        "reluctant",
+        "temporary",
+        "invisible"
+      ],
+      "answer": 0,
+      "explanation": "overwhelming 意為「壓倒性的、無法抗拒的」，overwhelming evidence 即「壓倒性的證據」，全句翻譯為「儘管有壓倒性的證據指向他有罪，這名嫌犯仍堅稱自己是清白的」。reluctant 是「不情願的」，temporary 是「暫時的」，invisible 是「看不見的」，皆無法合理形容 evidence。"
+    },
+    {
+      "id": "senior_english_11_028",
+      "difficulty": 3,
+      "question": "It was not until midnight ______ the exhausted firefighters finally put out the huge forest fire.",
+      "options": [
+        "when",
+        "then",
+        "which",
+        "that"
+      ],
+      "answer": 3,
+      "explanation": "本題為「It is/was not until... that...」的分裂句（強調句）句型，強調 not until 之後的時間，空格須用 that 連接。全句翻譯為「直到午夜，筋疲力盡的消防員才終於撲滅了這場大森林火災」。when、then、which 皆無法用於此強調句型，that 不可省略或替換。"
+    },
+    {
+      "id": "senior_english_11_029",
+      "difficulty": 2,
+      "question": "______ his young age, David has already published two best-selling novels and won several literary prizes.",
+      "options": [
+        "In spite of",
+        "Because of",
+        "Instead of",
+        "In addition to"
+      ],
+      "answer": 0,
+      "explanation": "In spite of 意為「儘管、雖然」，為介系詞片語，後接名詞（片語），與後句「已出版暢銷小說」形成讓步對比。全句翻譯為「儘管年紀輕輕，大衛已經出版了兩本暢銷小說，並贏得多項文學獎」。Because of（因為）表原因、Instead of（而非）表取代、In addition to（除……之外）表附加，語意皆與讓步對比不符。"
+    },
+    {
+      "id": "senior_english_11_030",
+      "difficulty": 3,
+      "question": "Neither the coach nor the players ______ happy with the referee's unfair decision during the final match.",
+      "options": [
+        "was",
+        "is",
+        "were",
+        "being"
+      ],
+      "answer": 2,
+      "explanation": "neither... nor... 連接兩個主詞時，動詞的單複數依照「就近原則」與較靠近的主詞 the players 一致，故用複數動詞 were。全句翻譯為「教練和球員都對裁判在決賽中不公平的判決感到不滿」。was、is 為單數動詞、being 為非限定動詞，皆不符合就近原則下的主詞動詞一致。"
     }
   ]
 }

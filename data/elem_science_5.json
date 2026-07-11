@@ -162,6 +162,107 @@
       "options": ["沿著勺柄的方向找下去", "把勺口前端兩顆星連線，向外延長約五倍的距離", "夜空中最亮的那顆星就是北極星", "北斗七星正中央的那顆星就是北極星"],
       "answer": 1,
       "explanation": "把北斗七星勺口前端的兩顆星連成一線，朝勺口開口方向延長約五倍距離，就能找到北極星。北極星其實不是夜空中最亮的星，只是位置幾乎不動，所以成為辨認北方的最佳指標，這是常見的迷思。"
+    },
+    {
+      "id": "elem_science_5_021",
+      "difficulty": 2,
+      "question": "小明在彈簧下端掛上不同重量的砝碼，並記錄彈簧的伸長量，結果如圖。由圖判斷，當掛上150公克重的砝碼時，彈簧的伸長量是多少公分？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"140\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"140\" x2=\"225\" y2=\"140\" stroke=\"currentColor\"/><polyline points=\"40,140 85,110 130,80 175,50 220,20\" fill=\"none\" stroke=\"#3b82f6\"/><circle cx=\"85\" cy=\"110\" r=\"3\" fill=\"#3b82f6\"/><circle cx=\"130\" cy=\"80\" r=\"3\" fill=\"#3b82f6\"/><circle cx=\"175\" cy=\"50\" r=\"3\" fill=\"#3b82f6\"/><circle cx=\"220\" cy=\"20\" r=\"3\" fill=\"#3b82f6\"/><text x=\"78\" y=\"158\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">50</text><text x=\"120\" y=\"158\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">100</text><text x=\"165\" y=\"158\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">150</text><text x=\"210\" y=\"158\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">200</text><text x=\"22\" y=\"114\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"22\" y=\"84\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"22\" y=\"54\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"22\" y=\"24\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">8</text><text x=\"66\" y=\"175\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">砝碼重量(公克重)</text><text x=\"2\" y=\"14\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">伸長量(公分)</text></svg>",
+      "options": ["4 公分", "6 公分", "8 公分", "10 公分"],
+      "answer": 1,
+      "explanation": "由圖可看出砝碼每增加50公克重，彈簧就多伸長2公分，因此掛150公克重時伸長量為6公分。常見錯誤是把橫軸的重量數值直接當成伸長量，或看錯座標對應的格線，判讀圖表時要先看清楚兩軸各代表什麼。"
+    },
+    {
+      "id": "elem_science_5_022",
+      "difficulty": 2,
+      "question": "用測力計拉著同一個木塊，分別在玻璃、木板、砂紙三種表面上前進，並記錄所需的拉力（等於摩擦力），結果如長條圖。由圖判斷，木塊在哪一種表面上受到的摩擦力最大？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"35\" y1=\"20\" x2=\"35\" y2=\"140\" stroke=\"currentColor\"/><line x1=\"35\" y1=\"140\" x2=\"225\" y2=\"140\" stroke=\"currentColor\"/><rect x=\"55\" y=\"104\" width=\"34\" height=\"36\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"#3b82f6\"/><rect x=\"110\" y=\"68\" width=\"34\" height=\"72\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"#3b82f6\"/><rect x=\"165\" y=\"32\" width=\"34\" height=\"108\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"#3b82f6\"/><text x=\"58\" y=\"156\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">玻璃</text><text x=\"113\" y=\"156\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">木板</text><text x=\"168\" y=\"156\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">砂紙</text><text x=\"62\" y=\"100\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">30</text><text x=\"117\" y=\"64\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">60</text><text x=\"172\" y=\"28\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">90</text><text x=\"2\" y=\"14\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">拉力(公克重)</text></svg>",
+      "options": ["玻璃", "木板", "砂紙", "三種表面一樣大"],
+      "answer": 2,
+      "explanation": "長條圖中砂紙的拉力最高（90公克重），表示摩擦力最大，因為砂紙表面最粗糙。常見錯誤是誤以為拉力越小摩擦力越大，其實表面越粗糙、摩擦力越大，需要的拉力也越大。"
+    },
+    {
+      "id": "elem_science_5_023",
+      "difficulty": 1,
+      "question": "圖為某城市某個月的天氣統計圓餅圖。由圖判斷，這個月哪一種天氣出現的天數最多？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M90,90 L90,30 A60,60 0 0 1 90,150 Z\" fill=\"#f59e0b\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><path d=\"M90,90 L90,150 A60,60 0 0 1 32.9,71.5 Z\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><path d=\"M90,90 L32.9,71.5 A60,60 0 0 1 90,30 Z\" fill=\"#a855f7\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"160\" y=\"50\" width=\"12\" height=\"12\" fill=\"#f59e0b\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"176\" y=\"60\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">晴天</text><rect x=\"160\" y=\"78\" width=\"12\" height=\"12\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"176\" y=\"88\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">陰天</text><rect x=\"160\" y=\"106\" width=\"12\" height=\"12\" fill=\"#a855f7\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"176\" y=\"116\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">雨天</text></svg>",
+      "options": ["晴天", "陰天", "雨天", "三種天氣一樣多"],
+      "answer": 0,
+      "explanation": "圓餅圖中晴天的扇形最大（佔整張圓的一半），代表這個月晴天的天數最多。常見錯誤是只看扇形的顏色或位置，而沒有比較扇形面積（角度）的大小，判讀圓餅圖時要以扇形所佔的比例來判斷多寡。"
+    },
+    {
+      "id": "elem_science_5_024",
+      "difficulty": 3,
+      "question": "圖為北斗七星的示意圖，圖中另有甲、乙、丙、丁四顆星。依照利用北斗七星尋找北極星的方法，將勺口前端兩顆星連線並向外延長，可以找到哪一顆星（即北極星）？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><polyline points=\"60,150 75,120 100,125 95,155 60,150\" fill=\"none\" stroke=\"currentColor\"/><polyline points=\"100,125 130,120 160,110 190,105\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"75\" cy=\"120\" r=\"3\" fill=\"currentColor\"/><circle cx=\"60\" cy=\"150\" r=\"3\" fill=\"currentColor\"/><circle cx=\"95\" cy=\"155\" r=\"3\" fill=\"currentColor\"/><circle cx=\"100\" cy=\"125\" r=\"3\" fill=\"currentColor\"/><circle cx=\"130\" cy=\"120\" r=\"3\" fill=\"currentColor\"/><circle cx=\"160\" cy=\"110\" r=\"3\" fill=\"currentColor\"/><circle cx=\"190\" cy=\"105\" r=\"3\" fill=\"currentColor\"/><line x1=\"75\" y1=\"120\" x2=\"115\" y2=\"40\" stroke=\"#3b82f6\" stroke-dasharray=\"5 4\"/><circle cx=\"115\" cy=\"40\" r=\"3\" fill=\"#3b82f6\"/><text x=\"120\" y=\"38\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">乙</text><circle cx=\"60\" cy=\"40\" r=\"3\" fill=\"currentColor\"/><text x=\"46\" y=\"38\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">甲</text><circle cx=\"170\" cy=\"45\" r=\"3\" fill=\"currentColor\"/><text x=\"175\" y=\"43\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">丙</text><circle cx=\"150\" cy=\"75\" r=\"3\" fill=\"currentColor\"/><text x=\"155\" y=\"73\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">丁</text><text x=\"68\" y=\"172\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">北斗七星</text></svg>",
+      "options": ["甲", "乙", "丙", "丁"],
+      "answer": 1,
+      "explanation": "圖中虛線是勺口前端兩顆星的連線向外延長的方向，正好指向乙星，這顆星就是北極星。常見錯誤是誤以為夜空中最亮或最靠近的星就是北極星，其實要靠指極星連線延長來定位，而北極星本身並不是最亮的星。"
+    },
+    {
+      "id": "elem_science_5_025",
+      "difficulty": 3,
+      "question": "圖為某種糖在每100毫升水中，最多能溶解的量與水溫的關係。由圖判斷，當水溫從40°C升高到60°C時，每100毫升的水能「多」溶解幾公克的糖？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"140\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"140\" x2=\"225\" y2=\"140\" stroke=\"currentColor\"/><polyline points=\"85,92 130,68 175,44 220,20\" fill=\"none\" stroke=\"#22c55e\"/><circle cx=\"85\" cy=\"92\" r=\"3\" fill=\"#22c55e\"/><circle cx=\"130\" cy=\"68\" r=\"3\" fill=\"#22c55e\"/><circle cx=\"175\" cy=\"44\" r=\"3\" fill=\"#22c55e\"/><circle cx=\"220\" cy=\"20\" r=\"3\" fill=\"#22c55e\"/><text x=\"78\" y=\"158\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">20</text><text x=\"123\" y=\"158\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">40</text><text x=\"168\" y=\"158\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">60</text><text x=\"213\" y=\"158\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">80</text><text x=\"20\" y=\"96\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">40</text><text x=\"20\" y=\"72\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">60</text><text x=\"20\" y=\"48\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">80</text><text x=\"14\" y=\"24\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">100</text><text x=\"92\" y=\"175\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">水溫(°C)</text><text x=\"2\" y=\"14\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">溶解量(公克)</text></svg>",
+      "options": ["10 公克", "20 公克", "40 公克", "80 公克"],
+      "answer": 1,
+      "explanation": "由圖讀出40°C時可溶60公克、60°C時可溶80公克，兩者相差20公克，所以多溶解20公克。常見錯誤是直接把60°C對應的80公克當成答案，忘了題目問的是「增加量」，必須用兩個溫度的溶解量相減。"
+    },
+    {
+      "id": "elem_science_5_026",
+      "difficulty": 2,
+      "question": "把一杯食鹽水放在陽光下曝曬，過了幾天水都不見了，杯底卻出現白白的食鹽顆粒。這個現象說明了什麼？",
+      "options": ["水蒸發到空氣中，原本溶解的食鹽被留了下來", "食鹽在陽光下變成了另一種新物質", "食鹽也跟著水一起蒸發消失了", "食鹽被陽光的熱分解掉了"],
+      "answer": 0,
+      "explanation": "水受熱蒸發變成水蒸氣離開，原本溶解在水中的食鹽無法蒸發，就留在杯底又變回固體，這是利用蒸發分離溶質的方法。常見錯誤是以為食鹽「消失」或「變質」，其實食鹽只是先溶解，等水蒸發後又重新出現。"
+    },
+    {
+      "id": "elem_science_5_027",
+      "difficulty": 2,
+      "question": "草莓的莖會貼著地面向外橫向生長，並在莖節的地方長出根和新的植株。這種特化、用來繁殖的莖稱為什麼？",
+      "options": ["塊莖", "塊根", "鱗莖", "走莖（匍匐莖）"],
+      "answer": 3,
+      "explanation": "草莓靠走莖（匍匐莖）繁殖，莖沿著地面延伸並在節上長出新植株，屬於用莖進行的營養器官繁殖。常見錯誤是和馬鈴薯的塊莖、洋蔥的鱗莖、甘藷的塊根混淆，這些雖然都能繁殖，但形態與生長方式各不相同。"
+    },
+    {
+      "id": "elem_science_5_028",
+      "difficulty": 3,
+      "question": "夏季夜晚可以看到高掛天空的「夏季大三角」，但到了冬天的夜晚卻幾乎看不到它。造成這種季節差異最主要的原因是什麼？",
+      "options": ["這些星星到了冬天就不再發光", "冬天雲層太厚，把這些星星完全遮住了", "這些星星在冬天移動到別的星系去了", "地球繞太陽公轉，不同季節夜晚朝向的星空方向不同"],
+      "answer": 3,
+      "explanation": "地球一年繞太陽公轉一圈，使得不同季節的夜晚，地球背對太陽那一面所朝向的星空方向不同，因此看得到的星座會隨季節改變。常見錯誤是以為星星消失或只是被雲遮住，其實冬夜看到的是獵戶座等冬季星空。"
+    },
+    {
+      "id": "elem_science_5_029",
+      "difficulty": 1,
+      "question": "把手中的橡皮擦放開，橡皮擦會直直往下掉到地面，這主要是因為它受到什麼力的作用？",
+      "options": ["摩擦力", "浮力", "重力（地心引力）", "磁力"],
+      "answer": 2,
+      "explanation": "地球會吸引周圍的物體，這種向下的吸引力就是重力（地心引力），所以放開的橡皮擦會往下掉。常見錯誤是以為物體往下掉是「沒有受力」，其實正是重力一直在作用，而且重力的方向永遠朝向地面。"
+    },
+    {
+      "id": "elem_science_5_030",
+      "difficulty": 1,
+      "question": "想要知道現在的風「從哪個方向吹來」，應該使用下列哪一種觀測工具？",
+      "options": ["溫度計", "雨量筒", "濕度計", "風向計（風向袋）"],
+      "answer": 3,
+      "explanation": "風向計或風向袋會隨風轉動或飄動，用來判斷風吹來的方向，是觀測風向的工具。常見錯誤是把測風向的風向計和測風速的風速計搞混；而溫度計測氣溫、雨量筒測降雨量、濕度計測空氣中的水氣，各有不同用途。"
+    },
+    {
+      "id": "elem_science_5_031",
+      "difficulty": 1,
+      "question": "下列哪一杯屬於「溶液」（杯中物質已均勻溶解，看起來透明清澈，靜置也不會分層或沉澱）？",
+      "options": ["把砂糖攪拌到完全溶解、清澈透明的糖水", "加入沙子攪拌後靜置、沙子沉底的沙水", "加入麵粉攪成白白濁濁的麵粉水", "倒入食用油後浮在水面、上下分層的油水"],
+      "answer": 0,
+      "explanation": "糖完全溶解在水中，形成透明且均勻、靜置也不分層的糖水，屬於溶液。常見錯誤是把混濁的麵粉水、會沉澱的沙水或會分層的油水也當成溶液，其實只有均勻溶解、透明清澈的混合物才算溶液。"
+    },
+    {
+      "id": "elem_science_5_032",
+      "difficulty": 3,
+      "question": "下列哪一個生活例子，主要是利用「力可以改變物體的形狀」這個作用？",
+      "options": ["用力推購物車使它向前移動", "滾動中的球因摩擦而慢慢停下來", "用手把彈簧壓短，或把黏土捏成不同造型", "磁鐵隔著空氣把迴紋針吸過來"],
+      "answer": 2,
+      "explanation": "把彈簧壓短、把黏土捏成不同形狀，都是力使物體發生形變（改變形狀）的例子。常見錯誤是和「改變運動狀態」混淆：推車前進、球滾動後停下、磁鐵吸迴紋針，改變的都是物體的運動狀態，而不是形狀。"
     }
   ]
 }

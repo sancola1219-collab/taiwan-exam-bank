@@ -162,6 +162,107 @@
       "options": ["只關注經濟成長，不涉及環境議題", "由歐盟制定，僅適用於歐洲國家", "聯合國於2015年提出17項目標，兼顧經濟發展、社會公平與環境保護", "設定的達成期限是西元2100年"],
       "answer": 2,
       "explanation": "聯合國於2015年通過2030永續發展議程，提出消除貧窮、優質教育、氣候行動等17項永續發展目標（SDGs），期望在2030年前兼顧經濟、社會與環境三個面向的均衡發展。SDGs是全球共同的行動方針，各國政府、企業與民間都被鼓勵參與落實。"
+    },
+    {
+      "id": "junior_geography_9_021",
+      "difficulty": 2,
+      "question": "圖為某地全年各月的氣溫（折線）與降水量（長條）分布。該地各月均溫都在20°C以上，且一年中有明顯的乾季與雨季。根據圖判斷，此地最可能屬於下列哪一種氣候類型？",
+      "figure": "<svg viewBox=\"0 0 260 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"30\" y1=\"150\" x2=\"245\" y2=\"150\" stroke=\"currentColor\"/><rect x=\"33.75\" y=\"147\" width=\"10\" height=\"3\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"51.25\" y=\"147\" width=\"10\" height=\"3\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"68.75\" y=\"144\" width=\"10\" height=\"6\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"86.25\" y=\"126\" width=\"10\" height=\"24\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"103.75\" y=\"96\" width=\"10\" height=\"54\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"121.25\" y=\"54\" width=\"10\" height=\"96\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"138.75\" y=\"30\" width=\"10\" height=\"120\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"156.25\" y=\"36\" width=\"10\" height=\"114\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"173.75\" y=\"78\" width=\"10\" height=\"72\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"191.25\" y=\"120\" width=\"10\" height=\"30\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"208.75\" y=\"141\" width=\"10\" height=\"9\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"226.25\" y=\"147\" width=\"10\" height=\"3\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><polyline points=\"39,96 56,84 74,72 91,72 109,78 126,90 144,96 161,96 179,90 196,84 214,90 231,96\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><text x=\"38.75\" y=\"164\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"middle\">1</text><text x=\"91.25\" y=\"164\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"middle\">4</text><text x=\"143.75\" y=\"164\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"middle\">7</text><text x=\"196.25\" y=\"164\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"middle\">10</text><text x=\"250\" y=\"154\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"middle\">月</text><line x1=\"120\" y1=\"12\" x2=\"136\" y2=\"12\" stroke=\"#ef4444\" stroke-width=\"2\"/><text x=\"140\" y=\"16\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">氣溫</text><rect x=\"180\" y=\"7\" width=\"14\" height=\"9\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"198\" y=\"16\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">降水</text></svg>",
+      "options": ["熱帶雨林氣候", "熱帶莽原（熱帶草原）氣候", "溫帶地中海型氣候", "溫帶大陸性氣候"],
+      "answer": 1,
+      "explanation": "熱帶莽原氣候全年高溫（各月均溫多在20°C以上），但受氣壓帶季節移動影響，夏季多雨、冬季乾燥，形成明顯的乾濕兩季，圖中降水長條的乾濕落差正是判斷關鍵。熱帶雨林氣候全年多雨、沒有明顯乾季；地中海型與溫帶氣候冬季氣溫會明顯下降，可藉氣溫折線的高低加以區別。"
+    },
+    {
+      "id": "junior_geography_9_022",
+      "difficulty": 1,
+      "question": "圖為甲、乙、丙、丁四國「每人國內生產毛額（人均GDP）」的比較長條圖。若僅依此圖判斷，下列哪一國的經濟發展程度最高、最可能屬於已開發國家？",
+      "figure": "<svg viewBox=\"0 0 240 170\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"140\" stroke=\"currentColor\"/><line x1=\"30\" y1=\"140\" x2=\"225\" y2=\"140\" stroke=\"currentColor\"/><rect x=\"40\" y=\"119\" width=\"30\" height=\"21\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"90\" y=\"132\" width=\"30\" height=\"8\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"140\" y=\"101\" width=\"30\" height=\"39\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"190\" y=\"30\" width=\"30\" height=\"110\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"55\" y=\"155\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"middle\">甲</text><text x=\"105\" y=\"155\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"middle\">乙</text><text x=\"155\" y=\"155\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"middle\">丙</text><text x=\"205\" y=\"155\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"middle\">丁</text><text x=\"32\" y=\"14\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">人均GDP</text></svg>",
+      "options": ["甲", "乙", "丙", "丁"],
+      "answer": 3,
+      "explanation": "人均GDP越高，通常代表國民平均所得與經濟發展程度越高；圖中丁國的長條最高、人均GDP最大，最可能為已開發國家。人均GDP是衡量經濟發展常用的指標，但因為它是「平均值」，無法完全反映一國內部的貧富差距，判讀時須留意。"
+    },
+    {
+      "id": "junior_geography_9_023",
+      "difficulty": 2,
+      "question": "圖為某國就業人口的三級產業結構圓餅圖。根據圖中各級產業所占比例判斷，下列敘述何者最符合此國的經濟特徵？",
+      "figure": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M100,100 L100,30 A70,70 0 0 1 121.6,33.4 Z\" fill=\"#22c55e\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><path d=\"M100,100 L121.6,33.4 A70,70 0 0 1 170,100 Z\" fill=\"#f59e0b\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><path d=\"M100,100 L170,100 A70,70 0 1 1 100,30 Z\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"108\" y=\"20\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"middle\">農業5%</text><text x=\"148\" y=\"72\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">工業20%</text><text x=\"45\" y=\"150\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">服務業75%</text></svg>",
+      "options": ["以第一級（農業）人口為主，屬於低度開發的農業國", "第二級（工業）就業人口最多，正處於工業化的起步階段", "第三級（服務業）就業人口比例最高，屬於經濟發展程度較高的國家", "三級產業各約占三分之一，屬於典型的開發中國家"],
+      "answer": 2,
+      "explanation": "圖中第三級產業（服務業）就業人口約占四分之三，比例最高，通常代表工商業與服務業發達、經濟發展程度較高的國家。一般而言，經濟越發達，就業人口會由第一級逐漸往第二、三級移動，因此產業結構的組成是判斷發展程度的重要依據。"
+    },
+    {
+      "id": "junior_geography_9_024",
+      "difficulty": 3,
+      "question": "圖為甲、乙兩國1950年至2020年「都市人口占總人口比例」的變化折線圖。根據圖判斷，下列敘述何者正確？",
+      "figure": "<svg viewBox=\"0 0 260 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"35\" y1=\"20\" x2=\"35\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"35\" y1=\"150\" x2=\"245\" y2=\"150\" stroke=\"currentColor\"/><polyline points=\"35,79 94,69 152,56 211,47 240,43\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><polyline points=\"35,134 94,124 152,106 211,85 240,75\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><text x=\"35\" y=\"165\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"middle\">1950</text><text x=\"138\" y=\"165\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"middle\">1985</text><text x=\"240\" y=\"165\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"middle\">2020</text><text x=\"5\" y=\"24\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">100</text><text x=\"8\" y=\"89\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">50</text><text x=\"12\" y=\"153\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">0</text><line x1=\"170\" y1=\"28\" x2=\"188\" y2=\"28\" stroke=\"#3b82f6\" stroke-width=\"2\"/><text x=\"192\" y=\"32\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">甲</text><line x1=\"170\" y1=\"44\" x2=\"188\" y2=\"44\" stroke=\"#ef4444\" stroke-width=\"2\"/><text x=\"192\" y=\"48\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">乙</text><text x=\"120\" y=\"14\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"middle\">都市人口比例(%)</text></svg>",
+      "options": ["甲國的都市化速度在近數十年明顯快於乙國", "乙國自始至終都市人口比例都高於甲國", "兩國的都市人口比例都持續下降", "乙國起步較晚，但近數十年都市化速度較快，最可能是開發中國家"],
+      "answer": 3,
+      "explanation": "圖中乙國1950年都市人口比例很低，之後急速上升、曲線斜率明顯較陡，代表近數十年都市化速度快，符合開發中國家鄉村人口大量湧入都市的特徵。甲國起步早、比例一直較高但成長趨緩，較符合已開發國家；判讀重點在於比較兩線的「起點高低」與「上升的陡緩」。"
+    },
+    {
+      "id": "junior_geography_9_025",
+      "difficulty": 1,
+      "question": "圖為一經緯線示意圖，圖中每一格代表20度。根據圖中標示的經線與緯線，甲點的位置最接近下列何者？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"40\" x2=\"40\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"80\" y1=\"40\" x2=\"80\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"160\" y1=\"40\" x2=\"160\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"200\" y1=\"40\" x2=\"200\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"40\" x2=\"200\" y2=\"40\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"80\" x2=\"200\" y2=\"80\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"120\" x2=\"200\" y2=\"120\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"160\" x2=\"200\" y2=\"160\" stroke=\"currentColor\"/><circle cx=\"160\" cy=\"40\" r=\"3.5\" fill=\"#ef4444\" stroke=\"none\"/><text x=\"166\" y=\"37\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">甲</text><text x=\"80\" y=\"175\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"middle\">0°</text><text x=\"120\" y=\"175\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"middle\">20°E</text><text x=\"160\" y=\"175\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"middle\">40°E</text><text x=\"205\" y=\"44\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">40°N</text><text x=\"205\" y=\"84\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">20°N</text><text x=\"205\" y=\"124\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">0°</text><text x=\"40\" y=\"22\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\">每格20°</text></svg>",
+      "options": ["北緯40度、東經40度", "南緯40度、東經40度", "北緯40度、西經40度", "北緯20度、東經20度"],
+      "answer": 0,
+      "explanation": "由圖可知甲點位於標示「40°N」的緯線與標示「40°E」的經線交會處，因此其位置為北緯40度、東經40度。判讀經緯度時，要先看清楚緯線是北緯或南緯、經線是東經或西經，並依每格代表的度數計算，才不會方向或數值判斷錯誤。"
+    },
+    {
+      "id": "junior_geography_9_026",
+      "difficulty": 1,
+      "question": "中南半島、南洋群島等熱帶地區，過去在歐洲殖民勢力影響下發展出大農場，僱用大量勞工專門種植橡膠、油棕、咖啡等單一經濟作物並大量外銷。這種農業經營方式稱為下列何者？",
+      "options": ["游牧業", "熱帶栽培業（栽培業）", "酪農業", "山田燒墾（游耕）"],
+      "answer": 1,
+      "explanation": "熱帶栽培業是殖民時期由外來資本在熱帶地區設立大農場，專門生產單一經濟作物並大量外銷的農業型態，橡膠、油棕、咖啡、可可等都是常見作物。由於高度依賴單一作物出口，當地經濟容易受國際價格波動影響，這是熱帶栽培業常被提及的隱憂。"
+    },
+    {
+      "id": "junior_geography_9_027",
+      "difficulty": 1,
+      "question": "印度近年成為全球重要的軟體設計與資訊服務外包中心，班加羅爾更有「印度矽谷」之稱。下列何者是印度資訊科技產業能夠快速發展的重要優勢？",
+      "options": ["擁有大量會說英語且薪資相對較低的科技人才", "全國普遍寒冷，適合設置伺服器機房", "石油與天然氣蘊藏量居世界第一", "位於國際換日線上，可最早接收全球資訊"],
+      "answer": 0,
+      "explanation": "印度曾為英國殖民地，英語普及，加上人口眾多、理工人才多且薪資相對歐美低廉，時區又與歐美互補，使其成為全球軟體開發與客服外包的重要據點。誤以為資訊業取決於氣候或石油資源是常見迷思，資訊服務業真正倚賴的是人才與語言等人力條件。"
+    },
+    {
+      "id": "junior_geography_9_028",
+      "difficulty": 2,
+      "question": "攤開非洲政治地圖，可以發現許多國家的國界呈現筆直的直線。這種現象最主要反映下列哪一段歷史背景？",
+      "options": ["非洲各民族自行協商、依河流山脈劃定疆界", "為了配合天文觀測而由當地人民設計", "殖民時期歐洲列強以經緯線瓜分土地，未考量當地民族分布", "非洲地形極為平坦，國界自然形成筆直的直線"],
+      "answer": 2,
+      "explanation": "十九世紀歐洲列強瓜分非洲時，常以經緯線等人為界線劃分殖民地，並未顧及原有部族與文化的分布，造成同一民族被拆散、不同民族被硬湊在一起。這也是非洲許多國家獨立後族群衝突、內戰頻仍的重要歷史根源之一。"
+    },
+    {
+      "id": "junior_geography_9_029",
+      "difficulty": 2,
+      "question": "1980年代以後，中國設立經濟特區、開放外資設廠，帶動部分地區快速工業化並使中國成為「世界工廠」。這些工業快速發展、吸引大量外資的地區，主要分布於下列何處？",
+      "options": ["西北內陸的沙漠地帶", "青藏高原等高海拔地區", "東北大興安嶺的針葉林區", "東南沿海一帶，臨近港口、交通便利且鄰近國際市場"],
+      "answer": 3,
+      "explanation": "中國改革開放後優先在深圳、珠海等東南沿海設立經濟特區，因臨海、港口與交通便利、鄰近香港與國際市場，吸引大量外資設廠，帶動沿海地區快速工業化。相對地，內陸與西部因交通、資金較不足而發展較慢，形成明顯的沿海與內陸區域發展差距。"
+    },
+    {
+      "id": "junior_geography_9_030",
+      "difficulty": 3,
+      "question": "巴西境內的亞馬孫雨林被稱為「地球之肺」，近年卻因開闢牧場、農地與濫伐而快速消失。關於雨林大量減少可能造成的影響，下列敘述何者最正確？",
+      "options": ["使全球氧氣暴增、二氧化碳大量減少", "對全球氣候與生物多樣性完全沒有影響", "減少碳的吸存並破壞生物棲地，加劇全球暖化與物種滅絕", "雨林砍伐後土壤會變得更肥沃，可永續耕作數百年"],
+      "answer": 2,
+      "explanation": "熱帶雨林能吸收大量二氧化碳並孕育豐富的物種，一旦大規模砍伐，碳吸存能力下降、棲地遭破壞，將加劇全球暖化並造成生物多樣性流失。雨林區的土壤其實相當貧瘠，養分多儲存在植物體內，開墾後地力很快耗盡，並非可長期耕作，這是常見的錯誤觀念。"
+    },
+    {
+      "id": "junior_geography_9_031",
+      "difficulty": 3,
+      "question": "「公平貿易」運動主張消費者以較合理的價格，購買開發中國家小農生產的咖啡、可可等產品。此運動最主要的目的是下列何者？",
+      "options": ["保障開發中國家的生產者獲得合理報酬，改善其生活與工作條件", "促使已開發國家完全停止進口熱帶作物", "鼓勵各國大幅提高關稅以保護本國農業", "協助跨國企業從中間商賺取更高的利潤"],
+      "answer": 0,
+      "explanation": "公平貿易希望縮短生產者與消費者間層層剝削的價差，讓開發中國家的小農與工人獲得合理收入，並改善勞動條件、兼顧環境永續。它反映了對傳統國際貿易中南北國家利益分配不均的反省，是一種強調倫理消費的行動，而非為中間商或企業牟利。"
+    },
+    {
+      "id": "junior_geography_9_032",
+      "difficulty": 3,
+      "question": "近年來，因戰爭、政治迫害或經濟因素，許多人被迫離開家園前往他國尋求庇護。關於這類「國際難民」與跨國移民現象，下列敘述何者最正確？",
+      "options": ["難民問題只是單一國家的內政，與國際社會完全無關", "大量難民湧入可能對接收國的社會、經濟與族群關係造成衝擊，需要國際合作因應", "跨國移民一律是為了觀光旅遊而短暫停留", "已開發國家完全不會有任何外來移民"],
+      "answer": 1,
+      "explanation": "戰亂、迫害與貧窮迫使人們跨國遷徙，大量難民在短時間內湧入，往往對接收國的居住、就業、教育與族群關係帶來壓力，需要透過國際組織與各國協調合作處理。將移民一律視為觀光、或認為難民與國際社會無關，都忽略了全球化下人口移動的複雜性與人道責任。"
     }
   ]
 }

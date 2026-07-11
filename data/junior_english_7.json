@@ -162,6 +162,86 @@
       "options": ["How do you do?", "What's wrong with you?", "May I help you?", "How's the weather today?"],
       "answer": 2,
       "explanation": "由回答 Yes, please. I'm looking for a cap...（好的，麻煩你，我正在幫兒子找一頂帽子）可知，這是店員詢問顧客是否需要協助，所以用 May I help you?（需要我為您服務嗎？）。How do you do? 用於初次見面，What's wrong? 是關心對方怎麼了，How's the weather? 是問天氣，都不符合購物情境。"
+    },
+    {
+      "id": "junior_english_7_021",
+      "difficulty": 1,
+      "question": "______ are my new shoes. Do you like them?",
+      "options": ["This", "That", "These", "It"],
+      "answer": 2,
+      "explanation": "主詞 shoes（鞋子，一雙有兩隻）是複數，指「這些」要用 These 當主詞，搭配複數 be 動詞 are。This 和 That 只能指單數，It 也是單數，都不能搭配複數名詞。全句意思是：這些是我的新鞋，你喜歡嗎？"
+    },
+    {
+      "id": "junior_english_7_022",
+      "difficulty": 1,
+      "question": "A: Can you swim? B: Yes, I ______.",
+      "options": ["can", "do", "am", "swim"],
+      "answer": 0,
+      "explanation": "用 Can you...? 提問時，肯定簡答要重複助動詞說 Yes, I can.。do 用於一般動詞（如 Do you...?）的簡答，am 是 be 動詞，直接回答 swim 也不符合簡答格式。全句意思是：你會游泳嗎？——是的，我會。"
+    },
+    {
+      "id": "junior_english_7_023",
+      "difficulty": 1,
+      "question": "Peggy's birthday is ______ July.",
+      "options": ["at", "on", "for", "in"],
+      "answer": 3,
+      "explanation": "月份前面的介系詞要用 in，例如 in July（在七月）。at 用於鐘點（at seven），on 用於特定日期或星期（on Monday），for 表持續多久，都不能直接接月份。全句意思是：佩姬的生日在七月。"
+    },
+    {
+      "id": "junior_english_7_024",
+      "difficulty": 2,
+      "question": "How many ______ are there in your classroom?",
+      "options": ["a student", "students", "student", "some student"],
+      "answer": 1,
+      "explanation": "How many（多少）用來問可數名詞的數量，後面必須接複數名詞 students。a student 是單數，student 少了複數字尾 s，some student 也不合文法。全句意思是：你的教室裡有多少學生？"
+    },
+    {
+      "id": "junior_english_7_025",
+      "difficulty": 2,
+      "question": "Be quiet! The baby ______ in the bedroom now.",
+      "options": ["sleep", "sleeps", "is sleeping", "slept"],
+      "answer": 2,
+      "explanation": "now（現在）和 Be quiet!（安靜）都提示動作此刻正在進行，要用現在進行式 be + Ving，主詞單數用 is sleeping。sleep 和 sleeps 是現在簡單式表習慣，slept 是過去式，都不符合「正在」的語意。全句意思是：安靜！寶寶現在正在臥室睡覺。"
+    },
+    {
+      "id": "junior_english_7_026",
+      "difficulty": 2,
+      "question": "______ umbrella is this? It's Nancy's.",
+      "options": ["Whose", "Who", "Who's", "Which"],
+      "answer": 0,
+      "explanation": "由回答 It's Nancy's.（是南西的）可知問句在問「這是誰的雨傘」，要用疑問詞 Whose（誰的）。Who 問「誰」指人，Who's 等於 who is，Which 問「哪一個」，都無法對應所有權的回答。全句意思是：這是誰的雨傘？——是南西的。"
+    },
+    {
+      "id": "junior_english_7_027",
+      "difficulty": 2,
+      "question": "Tom likes math, ______ his sister doesn't like it at all.",
+      "options": ["and", "or", "so", "but"],
+      "answer": 3,
+      "explanation": "前句說湯姆喜歡數學，後句說他妹妹一點也不喜歡，兩者語意相反，要用轉折連接詞 but（但是）。and 表並列、or 表選擇、so 表因果結果，都無法連接相反的句意。全句意思是：湯姆喜歡數學，但他妹妹一點也不喜歡。"
+    },
+    {
+      "id": "junior_english_7_028",
+      "difficulty": 3,
+      "question": "閱讀短文並回答問題：Today is Kevin's birthday. His mother makes a big cake for him. In the evening, his friends come to his house and bring him many presents. They sing, play games, and eat the cake together. — Why do Kevin's friends come to his house?",
+      "options": ["Because they want to sleep.", "Because it is his birthday.", "Because they are hungry.", "Because they go to school."],
+      "answer": 1,
+      "explanation": "短文說今天是凱文的生日，晚上朋友們帶著許多禮物到他家，可知他們是為了慶生而來，答案是「因為今天是他的生日」。短文大意：今天是凱文生日，媽媽做了大蛋糕，朋友們晚上帶禮物到他家，一起唱歌、玩遊戲、吃蛋糕。其他選項在文中都沒有提到，屬於憑空猜測。"
+    },
+    {
+      "id": "junior_english_7_029",
+      "difficulty": 3,
+      "question": "A: How much are these two comic books? B: ______",
+      "options": ["Yes, I like them.", "They are on the desk.", "They are one hundred dollars.", "I have two books."],
+      "answer": 2,
+      "explanation": "How much 是問「多少錢」的價錢，主詞 these two comic books 為複數用 are，回答要說明價格：They are one hundred dollars.（一百元。）。回答喜好、位置或數量都沒有回應價錢，是常見的陷阱。全句意思是：這兩本漫畫書多少錢？——一百元。"
+    },
+    {
+      "id": "junior_english_7_030",
+      "difficulty": 3,
+      "question": "A: How often do you play basketball after school? B: ______",
+      "options": ["Twice a week.", "In the gym.", "With my classmates.", "Because I love it."],
+      "answer": 0,
+      "explanation": "How often 是問「多久一次」的頻率，要用次數回答，Twice a week.（一週兩次。）最恰當。In the gym 回答地點（Where）、With my classmates 回答對象（Who）、Because I love it 回答原因（Why），都答非所問。全句意思是：你放學後多久打一次籃球？——一週兩次。"
     }
   ]
 }

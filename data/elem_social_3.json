@@ -162,6 +162,107 @@
       "options": ["只有班級幹部需要做事", "大家發揮專長，工作完成得更有效率", "可以互相推卸責任", "全部的事都交給老師做"],
       "answer": 1,
       "explanation": "分工合作能讓每個人依照自己的專長負責適合的工作，事情完成得更快也更好。無論在家庭、學校或社區，許多事情都需要大家分工合作才能完成，這也是團體生活重要的態度。"
+    },
+    {
+      "id": "elem_social_3_021",
+      "difficulty": 2,
+      "question": "下圖是以學校為中心畫出的方位圖，圖中的小明家位於學校的哪個方向？",
+      "figure": "<svg viewBox=\"0 0 240 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"120\" y1=\"30\" x2=\"120\" y2=\"170\" stroke=\"currentColor\"/><line x1=\"50\" y1=\"100\" x2=\"190\" y2=\"100\" stroke=\"currentColor\"/><line x1=\"120\" y1=\"100\" x2=\"172\" y2=\"55\" stroke=\"currentColor\" stroke-dasharray=\"4 3\"/><circle cx=\"120\" cy=\"100\" r=\"4\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"172\" cy=\"55\" r=\"6\" fill=\"#ef4444\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"112\" y=\"24\" font-size=\"16\" fill=\"currentColor\" stroke=\"none\">北</text><text x=\"112\" y=\"192\" font-size=\"16\" fill=\"currentColor\" stroke=\"none\">南</text><text x=\"196\" y=\"105\" font-size=\"16\" fill=\"currentColor\" stroke=\"none\">東</text><text x=\"28\" y=\"105\" font-size=\"16\" fill=\"currentColor\" stroke=\"none\">西</text><text x=\"90\" y=\"116\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">學校</text><text x=\"150\" y=\"46\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">小明家</text></svg>",
+      "options": ["西北方", "西南方", "東南方", "東北方"],
+      "answer": 3,
+      "explanation": "小明家在學校的右上方，也就是偏東又偏北的位置，所以是東北方。判讀方位圖時，先確認上北、下南、左西、右東，再看目標點落在哪兩個方向的中間，就能說出東北、西北等複合方位。"
+    },
+    {
+      "id": "elem_social_3_022",
+      "difficulty": 1,
+      "question": "根據下圖右邊的圖例，地圖上標示「乙」的位置是什麼地方？",
+      "figure": "<svg viewBox=\"0 0 260 180\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"15\" y=\"20\" width=\"150\" height=\"140\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"47\" y=\"47\" width=\"18\" height=\"18\" fill=\"#ef4444\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><line x1=\"56\" y1=\"50\" x2=\"56\" y2=\"62\" stroke=\"currentColor\"/><line x1=\"50\" y1=\"56\" x2=\"62\" y2=\"56\" stroke=\"currentColor\"/><text x=\"49\" y=\"80\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">甲</text><polygon points=\"120,48 131,68 109,68\" fill=\"#22c55e\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><text x=\"114\" y=\"84\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">乙</text><rect x=\"70\" y=\"112\" width=\"22\" height=\"15\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><line x1=\"70\" y1=\"112\" x2=\"81\" y2=\"120\" stroke=\"currentColor\"/><line x1=\"92\" y1=\"112\" x2=\"81\" y2=\"120\" stroke=\"currentColor\"/><text x=\"75\" y=\"142\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">丙</text><text x=\"185\" y=\"30\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">圖例</text><rect x=\"183\" y=\"42\" width=\"14\" height=\"14\" fill=\"#ef4444\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><line x1=\"190\" y1=\"44\" x2=\"190\" y2=\"54\" stroke=\"currentColor\"/><line x1=\"185\" y1=\"49\" x2=\"195\" y2=\"49\" stroke=\"currentColor\"/><text x=\"203\" y=\"53\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">醫院</text><polygon points=\"190,80 198,94 182,94\" fill=\"#22c55e\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><text x=\"203\" y=\"92\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">公園</text><rect x=\"183\" y=\"118\" width=\"16\" height=\"12\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><line x1=\"183\" y1=\"118\" x2=\"191\" y2=\"124\" stroke=\"currentColor\"/><line x1=\"199\" y1=\"118\" x2=\"191\" y2=\"124\" stroke=\"currentColor\"/><text x=\"203\" y=\"128\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">郵局</text></svg>",
+      "options": ["醫院", "公園", "郵局", "警察局"],
+      "answer": 1,
+      "explanation": "圖例告訴我們三角形（樹的形狀）代表公園，地圖上「乙」正是三角形符號，所以乙是公園。看地圖要先對照圖例，把每個符號和它代表的地點一一配對，才不會判讀錯誤。"
+    },
+    {
+      "id": "elem_social_3_023",
+      "difficulty": 2,
+      "question": "下圖是某社區四種店家的數量統計圖，數量最多的店家比數量最少的店家多幾間？",
+      "figure": "<svg viewBox=\"0 0 260 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"35\" y1=\"30\" x2=\"35\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"35\" y1=\"150\" x2=\"245\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"32\" y1=\"150\" x2=\"35\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"32\" y1=\"110\" x2=\"35\" y2=\"110\" stroke=\"currentColor\"/><line x1=\"32\" y1=\"70\" x2=\"35\" y2=\"70\" stroke=\"currentColor\"/><line x1=\"32\" y1=\"30\" x2=\"35\" y2=\"30\" stroke=\"currentColor\"/><text x=\"20\" y=\"154\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">0</text><text x=\"20\" y=\"114\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"20\" y=\"74\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"20\" y=\"34\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">6</text><rect x=\"48\" y=\"30\" width=\"28\" height=\"120\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"98\" y=\"70\" width=\"28\" height=\"80\" fill=\"#22c55e\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"148\" y=\"110\" width=\"28\" height=\"40\" fill=\"#f59e0b\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"198\" y=\"90\" width=\"28\" height=\"60\" fill=\"#a855f7\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><text x=\"44\" y=\"166\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">便利商店</text><text x=\"100\" y=\"166\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">早餐店</text><text x=\"150\" y=\"166\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">文具店</text><text x=\"202\" y=\"166\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">診所</text></svg>",
+      "options": ["4間", "3間", "5間", "6間"],
+      "answer": 0,
+      "explanation": "從長條圖可看出便利商店最多有6間，文具店最少只有2間，6減2等於4，所以相差4間。判讀長條圖時要對準長條頂端的刻度讀出數值，再進行比較或計算。"
+    },
+    {
+      "id": "elem_social_3_024",
+      "difficulty": 3,
+      "question": "下圖的圓餅圖表示全班同學上學的方式。走路上學的人數是坐公車上學人數的幾倍？",
+      "figure": "<svg viewBox=\"0 0 260 180\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 85 90 L 85 32 A 58 58 0 0 1 85 148 Z\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><path d=\"M 85 90 L 85 148 A 58 58 0 0 1 27 90 Z\" fill=\"#22c55e\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><path d=\"M 85 90 L 27 90 A 58 58 0 0 1 85 32 Z\" fill=\"#f59e0b\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><text x=\"108\" y=\"94\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">走路</text><text x=\"40\" y=\"120\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">公車</text><text x=\"40\" y=\"66\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">汽車</text><rect x=\"175\" y=\"50\" width=\"14\" height=\"14\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><text x=\"195\" y=\"61\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">走路</text><rect x=\"175\" y=\"80\" width=\"14\" height=\"14\" fill=\"#22c55e\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><text x=\"195\" y=\"91\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">公車</text><rect x=\"175\" y=\"110\" width=\"14\" height=\"14\" fill=\"#f59e0b\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><text x=\"195\" y=\"121\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">汽車</text></svg>",
+      "options": ["1倍", "3倍", "4倍", "2倍"],
+      "answer": 3,
+      "explanation": "圓餅圖中走路占了一半，坐公車占四分之一，一半是四分之一的兩倍，所以走路的人數是坐公車的2倍。看圓餅圖要比較各區塊占整個圓的大小，區塊愈大代表人數愈多。"
+    },
+    {
+      "id": "elem_social_3_025",
+      "difficulty": 3,
+      "question": "下圖中的比例尺表示一小段長度代表1公里。從學校到公園的道路如圖所示，兩地的實際距離大約是多少公里？",
+      "figure": "<svg viewBox=\"0 0 260 140\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"55\" x2=\"200\" y2=\"55\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"48\" x2=\"40\" y2=\"62\" stroke=\"currentColor\"/><line x1=\"80\" y1=\"48\" x2=\"80\" y2=\"62\" stroke=\"currentColor\"/><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"62\" stroke=\"currentColor\"/><line x1=\"160\" y1=\"48\" x2=\"160\" y2=\"62\" stroke=\"currentColor\"/><line x1=\"200\" y1=\"48\" x2=\"200\" y2=\"62\" stroke=\"currentColor\"/><circle cx=\"40\" cy=\"55\" r=\"5\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><circle cx=\"200\" cy=\"55\" r=\"5\" fill=\"#ef4444\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"22\" y=\"40\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">學校</text><text x=\"184\" y=\"40\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">公園</text><line x1=\"40\" y1=\"105\" x2=\"80\" y2=\"105\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"100\" x2=\"40\" y2=\"110\" stroke=\"currentColor\"/><line x1=\"80\" y1=\"100\" x2=\"80\" y2=\"110\" stroke=\"currentColor\"/><text x=\"88\" y=\"110\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">1公里</text><text x=\"96\" y=\"88\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">比例尺</text></svg>",
+      "options": ["2公里", "3公里", "4公里", "5公里"],
+      "answer": 2,
+      "explanation": "比例尺一小段代表1公里，圖上學校到公園的道路剛好被分成4小段，所以實際距離是4公里。用比例尺算距離時，先看一段代表多少，再數出總共有幾段，相乘就是實際距離。"
+    },
+    {
+      "id": "elem_social_3_026",
+      "difficulty": 1,
+      "question": "小朋友外出時不小心和家人走散、迷路了，下列哪一種做法最安全又適當？",
+      "options": ["就近向警察或商店的店員求助", "隨便跟著一個陌生人回家", "一個人一直往前走一定找得到", "躲到角落不讓任何人看見"],
+      "answer": 0,
+      "explanation": "迷路時應該找警察或商店店員這類可以信任的大人幫忙，請他們協助聯絡家人最安全。跟陌生人走或自己亂跑都可能發生危險，平時也要記住家人的電話和住家附近的明顯地標。"
+    },
+    {
+      "id": "elem_social_3_027",
+      "difficulty": 1,
+      "question": "搭乘公車時，下列哪一種行為最恰當、最有公德心？",
+      "options": ["車子還沒停就擠向車門", "在車上大聲唱歌吵鬧", "主動讓座給老人、孕婦或行動不便的人", "把背包放在旁邊的座位上佔位子"],
+      "answer": 2,
+      "explanation": "公車是大家共用的交通工具，主動讓座給有需要的人是體貼又有公德心的表現。搭車時應等車停穩再上下車、保持安靜、不佔用座位，才能讓大家都有舒適安全的乘車環境。"
+    },
+    {
+      "id": "elem_social_3_028",
+      "difficulty": 1,
+      "question": "用過的寶特瓶、紙箱和鋁罐，下列哪一種處理方式最好？",
+      "options": ["全部丟進一般垃圾一起清運", "做好分類回收，讓資源再利用", "隨手丟在路邊或公園", "堆在家裡都不處理"],
+      "answer": 1,
+      "explanation": "寶特瓶、紙箱、鋁罐都是可以回收再利用的資源，做好分類回收能減少垃圾、節省地球資源。隨意亂丟會造成環境髒亂，愛護社區環境是每個居民共同的責任。"
+    },
+    {
+      "id": "elem_social_3_029",
+      "difficulty": 2,
+      "question": "社區的公園是大家共用的地方，下列哪一種做法最能維護公園的環境？",
+      "options": ["遊玩後把自己的垃圾帶走或丟進垃圾桶", "在公園的牆上和椅子上塗鴉", "把花圃裡的花全部摘走", "開大音量放音樂吵到其他人"],
+      "answer": 0,
+      "explanation": "公園是大家共用的公共設施，玩過後收拾好自己製造的垃圾，能保持環境整潔。塗鴉、摘花、製造噪音都會破壞公共環境、影響別人，愛護公物才能讓大家一起享受美好的空間。"
+    },
+    {
+      "id": "elem_social_3_030",
+      "difficulty": 2,
+      "question": "小新拿一張100元紙鈔去買文具，買了45元的筆記本和25元的原子筆，店員應該找他多少錢？",
+      "options": ["20元", "30元", "40元", "50元"],
+      "answer": 1,
+      "explanation": "筆記本45元加原子筆25元共花了70元，100元減70元等於30元，所以店員要找30元。購物時自己先算好要付多少、該找多少，才能保障權益，不會多付或少拿零錢。"
+    },
+    {
+      "id": "elem_social_3_031",
+      "difficulty": 3,
+      "question": "社區舉辦資源回收和環境清潔的志工活動，身為社區的一份子，最適當的態度是什麼？",
+      "options": ["覺得那是清潔隊的事，和我沒有關係", "只有在發獎品的時候才願意參加", "主動參與、一起維護共同的生活環境", "認為反正有別人會做，自己不必動手"],
+      "answer": 2,
+      "explanation": "社區是大家共同生活的地方，主動參與公共事務、一起維護環境，是良好公民應有的態度。若人人都抱著事不關己或等別人做的心態，社區的環境和問題就很難真正改善。"
+    },
+    {
+      "id": "elem_social_3_032",
+      "difficulty": 3,
+      "question": "小玲每週有50元零用錢，她想買一個200元的玩具。如果她每週先存下30元，大約要存幾週才夠買這個玩具？",
+      "options": ["3週", "4週", "5週", "7週"],
+      "answer": 3,
+      "explanation": "每週存30元，存6週是180元還不夠，存到第7週才有210元，才足夠買200元的玩具。想買比較貴的東西時，訂定儲蓄計畫、按時存錢，就能靠自己的力量達成目標。"
     }
   ]
 }

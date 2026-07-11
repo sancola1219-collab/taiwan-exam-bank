@@ -162,6 +162,107 @@
       "options": ["9", "$\\sqrt{3}$", "6", "3"],
       "answer": 3,
       "explanation": "卜瓦松分布的重要性質是期望值與變異數皆等於參數 $\\lambda$，故 $\\mathrm{Var}(X)=3$，標準差則為 $\\sqrt{3}$。易錯處是把 $\\lambda$ 平方得 9，或把變異數與標準差 $\\sqrt{3}$ 混淆。"
+    },
+    {
+      "id": "uni_statistics_u_021",
+      "difficulty": 1,
+      "question": "下圖為某班數學小考成績的次數分配長條圖，人數最多的分數組距（眾數所在組）為下列何者？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"30\" x2=\"40\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"150\" x2=\"228\" y2=\"150\" stroke=\"currentColor\"/><rect x=\"48\" y=\"110\" width=\"28\" height=\"40\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"93\" y=\"86\" width=\"28\" height=\"64\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"138\" y=\"54\" width=\"28\" height=\"96\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"183\" y=\"102\" width=\"28\" height=\"48\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><text x=\"62\" y=\"105\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">5</text><text x=\"107\" y=\"81\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">8</text><text x=\"152\" y=\"49\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">12</text><text x=\"197\" y=\"97\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"62\" y=\"165\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">60~70</text><text x=\"107\" y=\"165\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">70~80</text><text x=\"152\" y=\"165\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">80~90</text><text x=\"197\" y=\"165\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">90~100</text><text x=\"14\" y=\"40\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">人數</text></svg>",
+      "options": ["60~70 分", "70~80 分", "80~90 分", "90~100 分"],
+      "answer": 2,
+      "explanation": "眾數所在組是次數（人數）最高的組距。由長條圖各長條高度可知 80~90 分有 12 人最多，故為眾數所在組。常見錯誤是把「人數最多」誤看成「分數最高的 90~100 組」；長條圖要比較的是長條的高度（次數），而不是橫軸上分數的大小。"
+    },
+    {
+      "id": "uni_statistics_u_022",
+      "difficulty": 1,
+      "question": "資料 12、7、20、15、9、18 的全距（range）為何？",
+      "options": ["13", "20", "27", "7"],
+      "answer": 0,
+      "explanation": "全距 = 最大值 − 最小值 = 20 − 7 = 13。常見錯誤是直接把最大值 20 當成全距，或把最大與最小相加得 27；全距只反映兩個極端值的差距，對中間資料的分布並不敏感。"
+    },
+    {
+      "id": "uni_statistics_u_023",
+      "difficulty": 1,
+      "question": "下列何者屬於「推論統計（inferential statistics）」的工作？",
+      "options": ["計算全班 40 位學生的平均身高", "用抽樣調查的結果推估全國選民的支持率", "把調查所得資料整理成圓餅圖", "計算一組已知資料的中位數"],
+      "answer": 1,
+      "explanation": "推論統計的核心是「由樣本推論母體」，以抽樣結果推估全國支持率正屬此類。其餘三者都是描述、整理手邊既有資料，屬於敘述統計。常見錯誤是只要有計算就當成推論統計；其實敘述統計也會算平均數、中位數，關鍵在於有沒有「由部分推論全體」。"
+    },
+    {
+      "id": "uni_statistics_u_024",
+      "difficulty": 1,
+      "question": "下圖為變數 x 與 y 的散布圖，兩變數的線性相關方向最可能為何？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"30\" x2=\"40\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"150\" x2=\"220\" y2=\"150\" stroke=\"currentColor\"/><text x=\"30\" y=\"34\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">y</text><text x=\"224\" y=\"154\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">x</text><circle cx=\"55\" cy=\"55\" r=\"3.5\" fill=\"#ef4444\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><circle cx=\"75\" cy=\"66\" r=\"3.5\" fill=\"#ef4444\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><circle cx=\"98\" cy=\"72\" r=\"3.5\" fill=\"#ef4444\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><circle cx=\"112\" cy=\"88\" r=\"3.5\" fill=\"#ef4444\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><circle cx=\"132\" cy=\"96\" r=\"3.5\" fill=\"#ef4444\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><circle cx=\"150\" cy=\"108\" r=\"3.5\" fill=\"#ef4444\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><circle cx=\"168\" cy=\"120\" r=\"3.5\" fill=\"#ef4444\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><circle cx=\"190\" cy=\"132\" r=\"3.5\" fill=\"#ef4444\" fill-opacity=\"0.3\" stroke=\"currentColor\"/></svg>",
+      "options": ["正相關", "完全無關", "相關係數恰等於 0", "負相關"],
+      "answer": 3,
+      "explanation": "圖中各點大致由左上往右下遞減，代表 x 越大 y 越小，屬於負相關。常見錯誤是只看到點有些散開就判為無關，或把下降趨勢誤讀成正相關；判斷相關方向要看整體點群的走向，而非單一點的位置。"
+    },
+    {
+      "id": "uni_statistics_u_025",
+      "difficulty": 2,
+      "question": "某課程學期成績由平時成績 30%、期中考 30%、期末考 40% 加權計算。某生平時 80 分、期中 70 分、期末 90 分，其學期成績為何？",
+      "options": ["80 分", "81 分", "82.5 分", "83 分"],
+      "answer": 1,
+      "explanation": "加權平均是各分數乘上對應權重再相加：$80\\times0.3+70\\times0.3+90\\times0.4=24+21+36=81$ 分。常見錯誤是忽略權重、直接算算術平均 $(80+70+90)\\div3=80$ 分；當各項權重不同時，必須以加權方式計算。"
+    },
+    {
+      "id": "uni_statistics_u_026",
+      "difficulty": 2,
+      "question": "下圖為某校 200 位學生上學交通方式的圓餅圖，搭「公車」的學生比「走路」的學生多幾人？",
+      "figure": "<svg viewBox=\"0 0 240 160\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M80 80 L80 28 A52 52 0 0 1 132 80 Z\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><path d=\"M80 80 L132 80 A52 52 0 0 1 63.93 129.45 Z\" fill=\"#22c55e\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><path d=\"M80 80 L63.93 129.45 A52 52 0 0 1 49.43 37.93 Z\" fill=\"#f59e0b\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><path d=\"M80 80 L49.43 37.93 A52 52 0 0 1 80 28 Z\" fill=\"#a855f7\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"150\" y=\"36\" width=\"12\" height=\"12\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"166\" y=\"46\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">走路 25%</text><rect x=\"150\" y=\"60\" width=\"12\" height=\"12\" fill=\"#22c55e\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"166\" y=\"70\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">腳踏車 30%</text><rect x=\"150\" y=\"84\" width=\"12\" height=\"12\" fill=\"#f59e0b\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"166\" y=\"94\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">公車 35%</text><rect x=\"150\" y=\"108\" width=\"12\" height=\"12\" fill=\"#a855f7\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"166\" y=\"118\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">其他 10%</text></svg>",
+      "options": ["10 人", "70 人", "20 人", "50 人"],
+      "answer": 2,
+      "explanation": "由圓餅圖，公車佔 35%、走路佔 25%，兩者相差 10%，故人數差為 $200\\times0.1=20$ 人。常見錯誤是只算單一比例（公車 70 人）忘了做差，或把百分比 10 直接當成人數；圓餅圖每個扇形對應的是總數的一個比例。"
+    },
+    {
+      "id": "uni_statistics_u_027",
+      "difficulty": 2,
+      "question": "袋中有 5 顆紅球與 3 顆白球，一次隨機取出 2 顆（無放回），兩顆都是紅球的機率為何？",
+      "options": ["$\\frac{5}{14}$", "$\\frac{25}{64}$", "$\\frac{1}{2}$", "$\\frac{5}{8}$"],
+      "answer": 0,
+      "explanation": "取 2 顆的方法數為 $\\binom{8}{2}=28$，兩顆皆紅的取法為 $\\binom{5}{2}=10$，故機率 $=\\frac{10}{28}=\\frac{5}{14}$。常見錯誤是誤以為「有放回」而算成 $\\left(\\frac{5}{8}\\right)^2=\\frac{25}{64}$；一次取出屬於無放回，須用組合計算。"
+    },
+    {
+      "id": "uni_statistics_u_028",
+      "difficulty": 2,
+      "question": "下圖為某次測驗成績的盒鬚圖，其四分位距（IQR）為何？",
+      "figure": "<svg viewBox=\"0 0 240 120\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"95\" x2=\"220\" y2=\"95\" stroke=\"currentColor\"/><line x1=\"30\" y1=\"95\" x2=\"30\" y2=\"99\" stroke=\"currentColor\"/><line x1=\"68\" y1=\"95\" x2=\"68\" y2=\"99\" stroke=\"currentColor\"/><line x1=\"106\" y1=\"95\" x2=\"106\" y2=\"99\" stroke=\"currentColor\"/><line x1=\"144\" y1=\"95\" x2=\"144\" y2=\"99\" stroke=\"currentColor\"/><line x1=\"182\" y1=\"95\" x2=\"182\" y2=\"99\" stroke=\"currentColor\"/><line x1=\"220\" y1=\"95\" x2=\"220\" y2=\"99\" stroke=\"currentColor\"/><text x=\"30\" y=\"112\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">0</text><text x=\"68\" y=\"112\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">20</text><text x=\"106\" y=\"112\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">40</text><text x=\"144\" y=\"112\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">60</text><text x=\"182\" y=\"112\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">80</text><text x=\"220\" y=\"112\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">100</text><rect x=\"77.5\" y=\"40\" width=\"57\" height=\"35\" fill=\"#3b82f6\" fill-opacity=\"0.2\" stroke=\"currentColor\"/><line x1=\"106\" y1=\"40\" x2=\"106\" y2=\"75\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"49\" y1=\"57.5\" x2=\"77.5\" y2=\"57.5\" stroke=\"currentColor\"/><line x1=\"49\" y1=\"47\" x2=\"49\" y2=\"68\" stroke=\"currentColor\"/><line x1=\"134.5\" y1=\"57.5\" x2=\"182\" y2=\"57.5\" stroke=\"currentColor\"/><line x1=\"182\" y1=\"47\" x2=\"182\" y2=\"68\" stroke=\"currentColor\"/><text x=\"49\" y=\"34\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">10</text><text x=\"77.5\" y=\"34\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">25</text><text x=\"106\" y=\"34\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">40</text><text x=\"134.5\" y=\"34\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">55</text><text x=\"182\" y=\"34\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">80</text></svg>",
+      "options": ["15", "40", "70", "30"],
+      "answer": 3,
+      "explanation": "四分位距 $\\text{IQR}=Q_3-Q_1$。由盒鬚圖，盒子左緣 $Q_1=25$、右緣 $Q_3=55$，故 $\\text{IQR}=55-25=30$。常見錯誤是改用全距（最大 80 減最小 10 得 70），或把中位數 40 當成 IQR；IQR 只衡量中間 50% 資料的分布寬度。"
+    },
+    {
+      "id": "uni_statistics_u_029",
+      "difficulty": 3,
+      "question": "甲班平均分數 60、標準差 12；乙班平均分數 80、標準差 12。就「相對離散程度」而言，下列敘述何者正確？",
+      "options": ["兩班相對離散程度相同，因為標準差相同", "甲班的相對離散程度較大", "乙班的相對離散程度較大", "無法比較，因為兩班平均數不同"],
+      "answer": 1,
+      "explanation": "比較平均數不同的資料要用變異係數 $\\text{CV}=\\frac{s}{\\bar{x}}$。甲班 $\\frac{12}{60}=0.2$、乙班 $\\frac{12}{80}=0.15$，故甲班相對離散較大。常見錯誤是只比標準差就說兩班一樣分散；標準差是絕對離散，平均數不同時應改看相對離散的變異係數。"
+    },
+    {
+      "id": "uni_statistics_u_030",
+      "difficulty": 3,
+      "question": "下圖為標準常態分布曲線，陰影區域為 $Z>1$ 的部分。依經驗法則（68-95-99.7 法則），此陰影區域的機率約為何？",
+      "figure": "<svg viewBox=\"0 0 240 150\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"120\" x2=\"220\" y2=\"120\" stroke=\"currentColor\"/><polygon points=\"150,71.5 165,94 180,109.2 195,116.5 210,119.1 210,120 150,120\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"none\"/><polyline points=\"30,119.1 45,116.5 60,109.2 75,94 90,71.5 105,49.4 120,40 135,49.4 150,71.5 165,94 180,109.2 195,116.5 210,119.1\" fill=\"none\" stroke=\"currentColor\"/><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"120\" stroke=\"currentColor\" stroke-dasharray=\"2 3\"/><line x1=\"150\" y1=\"71.5\" x2=\"150\" y2=\"120\" stroke=\"currentColor\" stroke-dasharray=\"4 3\"/><text x=\"120\" y=\"135\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">0</text><text x=\"150\" y=\"135\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">Z=1</text></svg>",
+      "options": ["32%", "68%", "2.5%", "16%"],
+      "answer": 3,
+      "explanation": "經驗法則指出 $-1<Z<1$ 約佔 68%，故兩側尾端共約 32%，由對稱性單邊 $P(Z>1)\\approx16\\%$。常見錯誤是把雙尾的 32% 當成單邊答案，或誤用兩個標準差以外的 2.5%；要留意題目問的是單邊尾端的機率。"
+    },
+    {
+      "id": "uni_statistics_u_031",
+      "difficulty": 3,
+      "question": "某射手每次命中目標的機率為 0.6，且各次射擊互相獨立。連續射擊 3 次，「至少命中一次」的機率為何？",
+      "options": ["0.936", "0.6", "0.064", "0.216"],
+      "answer": 0,
+      "explanation": "「至少一次」宜用餘事件：$P(\\text{至少一次})=1-P(\\text{三次全未命中})=1-0.4^3=1-0.064=0.936$。常見錯誤是把三次機率直接相加得 $0.6\\times3=1.8$（超過 1 顯然錯），或誤算成三次全部命中的 $0.6^3=0.216$；獨立事件求「至少一次」，取 1 減去「全都沒發生」最簡潔。"
+    },
+    {
+      "id": "uni_statistics_u_032",
+      "difficulty": 3,
+      "question": "甲生在數學考 80 分（全班平均 70、標準差 5），在英文考 85 分（全班平均 75、標準差 20）。以標準分數（z 分數）而言，甲生哪一科的相對表現較好？",
+      "options": ["英文，因為原始分數 85 較高", "兩科表現一樣好", "數學，因為 z 分數較高", "無法比較，因為兩科滿分相同"],
+      "answer": 2,
+      "explanation": "z 分數 $z=\\frac{x-\\bar{x}}{s}$ 可用來比較不同尺度的表現。數學 $\\frac{80-70}{5}=2$、英文 $\\frac{85-75}{20}=0.5$，數學的 z 分數較高，故相對表現較好。常見錯誤是直接比原始分數 85>80 就說英文較好；當兩科平均與標準差不同時，須先標準化再比較。"
     }
   ]
 }

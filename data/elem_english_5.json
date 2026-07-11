@@ -162,6 +162,86 @@
       "options": ["做家事", "做功課", "打電動", "看電視"],
       "answer": 1,
       "explanation": "do my homework 的意思是「做功課」，例如：I do my homework after school.（我放學後做功課。）做家事是 do the housework，看電視是 watch TV，意思不一樣。"
+    },
+    {
+      "id": "elem_english_5_021",
+      "difficulty": 1,
+      "question": "英語單字 Wednesday 指的是星期幾？",
+      "options": ["星期三", "星期一", "星期五", "星期日"],
+      "answer": 0,
+      "explanation": "Wednesday 的意思是「星期三」。星期一是 Monday，星期五是 Friday，星期日是 Sunday，星期的單字第一個字母都要大寫。"
+    },
+    {
+      "id": "elem_english_5_022",
+      "difficulty": 1,
+      "question": "英語單字 winter 指的是哪一個季節？",
+      "options": ["春天", "夏天", "秋天", "冬天"],
+      "answer": 3,
+      "explanation": "winter 的意思是「冬天」，是最冷的季節。春天是 spring，夏天是 summer，秋天是 fall（也可說 autumn），四季的單字要一起記熟。"
+    },
+    {
+      "id": "elem_english_5_023",
+      "difficulty": 1,
+      "question": "How's the weather today? It's ___.（今天是晴天）空格應填入哪一個字？",
+      "options": ["sunny", "happy", "apple", "seven"],
+      "answer": 0,
+      "explanation": "「晴天」的英語是 sunny，所以說 It's sunny.。happy 是快樂、apple 是蘋果、seven 是七，都和天氣沒有關係，不能填進去。"
+    },
+    {
+      "id": "elem_english_5_024",
+      "difficulty": 2,
+      "question": "表示「第一」的英語序數詞是下列哪一個？",
+      "options": ["one", "once", "first", "oneth"],
+      "answer": 2,
+      "explanation": "「第一」的序數詞是 first，例如 the first day（第一天）。one 是基數「一」表示數量，once 是「一次」，oneth 則是不存在的錯誤寫法。"
+    },
+    {
+      "id": "elem_english_5_025",
+      "difficulty": 2,
+      "question": "She ___ to school every day. 空格應填入哪一個動詞形式才正確？",
+      "options": ["go", "goes", "going", "gone"],
+      "answer": 1,
+      "explanation": "主詞 She 是第三人稱單數，現在式動詞要加 s 或 es，go 要變成 goes，所以是 She goes to school every day.。原形 go 只用在 I、you 或複數主詞。"
+    },
+    {
+      "id": "elem_english_5_026",
+      "difficulty": 2,
+      "question": "It's four fifteen. 這句話表示現在幾點？",
+      "options": ["四點五十分", "四點半", "四點十五分", "十五點四分"],
+      "answer": 2,
+      "explanation": "four fifteen 的意思是「四點十五分」，也可以說 a quarter past four。four fifty 才是四點五十分，four thirty 才是四點半，數字順序是「時＋分」。"
+    },
+    {
+      "id": "elem_english_5_027",
+      "difficulty": 2,
+      "question": "The ball is ___ the two boxes.（球在兩個箱子「之間」）空格應填入哪一個介係詞？",
+      "options": ["behind", "under", "on", "between"],
+      "answer": 3,
+      "explanation": "「在兩者之間」要用 between，所以說 The ball is between the two boxes.。behind 是後面、under 是下面、on 是上面；between 後面通常要接兩樣東西。"
+    },
+    {
+      "id": "elem_english_5_028",
+      "difficulty": 3,
+      "question": "Tom can play basketball, but he can't swim. 根據這句話，下列敘述何者正確？",
+      "options": ["Tom 會游泳。", "Tom 會打籃球。", "Tom 不會打籃球。", "Tom 什麼都不會。"],
+      "answer": 1,
+      "explanation": "句中 can play basketball 表示「會打籃球」，所以第二個敘述正確。but he can't swim 是「但他不會游泳」，but 表示轉折，前後意思相反，不能看成都會或都不會。"
+    },
+    {
+      "id": "elem_english_5_029",
+      "difficulty": 3,
+      "question": "A: ___ do you go to school?  B: By bus. 空格應填入哪一個疑問詞？",
+      "options": ["What", "When", "How", "Who"],
+      "answer": 2,
+      "explanation": "回答 By bus（搭公車）是說明交通「方式」，要用 How（如何）來問，所以 How do you go to school? 才對。When 問時間、What 問事物、Who 問人，都不符合這個回答。"
+    },
+    {
+      "id": "elem_english_5_030",
+      "difficulty": 3,
+      "question": "What day is it after Friday?（星期五的下一天是星期幾？）",
+      "options": ["Saturday", "Thursday", "Sunday", "Monday"],
+      "answer": 0,
+      "explanation": "Friday（星期五）的下一天是 Saturday（星期六），所以答案是 Saturday。Thursday（星期四）在星期五之前，Sunday 和 Monday 則是更後面的日子，順序不要弄混。"
     }
   ]
 }

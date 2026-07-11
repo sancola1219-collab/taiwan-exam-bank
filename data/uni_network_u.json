@@ -262,6 +262,167 @@
       ],
       "answer": 1,
       "explanation": "10.1.5.20 同時符合 10.1.0.0/16 與 10.1.5.0/24 兩筆路由，但路由器採「最長前綴匹配」原則，/24 比 /16 更精確，因此選擇介面 B。易錯處是以為照路由表的排列順序取第一筆符合者，或以為一定走預設路由：預設路由只有在沒有任何其他路由符合時才會使用。"
+    },
+    {
+      "id": "uni_network_u_021",
+      "difficulty": 1,
+      "question": "觀察下圖的網路拓樸，所有節點都各自連到中央的一台裝置。關於這種拓樸，下列敘述何者正確？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"120\" y1=\"90\" x2=\"40\" y2=\"40\" stroke=\"currentColor\"/><line x1=\"120\" y1=\"90\" x2=\"200\" y2=\"40\" stroke=\"currentColor\"/><line x1=\"120\" y1=\"90\" x2=\"40\" y2=\"140\" stroke=\"currentColor\"/><line x1=\"120\" y1=\"90\" x2=\"200\" y2=\"140\" stroke=\"currentColor\"/><rect x=\"98\" y=\"74\" width=\"44\" height=\"32\" fill=\"#f59e0b\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><text x=\"120\" y=\"94\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">中央</text><circle cx=\"40\" cy=\"40\" r=\"13\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><circle cx=\"200\" cy=\"40\" r=\"13\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><circle cx=\"40\" cy=\"140\" r=\"13\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><circle cx=\"200\" cy=\"140\" r=\"13\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><text x=\"40\" y=\"45\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"200\" y=\"45\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"40\" y=\"145\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"200\" y=\"145\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">D</text></svg>",
+      "options": [
+        "節點間必須逐一串接成一個環，資料沿環單向繞行",
+        "沒有中央裝置，任兩個節點之間都直接拉一條線相連",
+        "中央裝置一旦故障，整個網路的通訊都會癱瘓",
+        "任何一條連線斷掉，都會使所有節點同時失去連線"
+      ],
+      "answer": 2,
+      "explanation": "圖中每個節點各自連到中央的集線器或交換器，屬於星狀拓樸；單一條線斷掉只影響該節點，但中央裝置故障會使全網通訊中斷，這是星狀拓樸最大的弱點。易錯處是與環狀（節點串成環）或網狀（兩兩相連）拓樸混淆，也不要把「單一連線斷線」誤當成會癱瘓全網。"
+    },
+    {
+      "id": "uni_network_u_022",
+      "difficulty": 1,
+      "question": "關於乙太網路中網卡的 MAC 位址，下列敘述何者正確？",
+      "options": [
+        "MAC 位址長度為 48 位元，通常以 12 個十六進位數字表示",
+        "MAC 位址由 DHCP 伺服器在每次開機時動態分配給網卡",
+        "MAC 位址會隨主機搬移到不同網路而自動改變",
+        "MAC 位址與 IPv4 位址一樣都是 32 位元的邏輯位址"
+      ],
+      "answer": 0,
+      "explanation": "MAC 位址是網卡出廠時燒錄的實體位址，長度為 48 位元，常寫成六組兩位十六進位數（如 00:1A:2B:3C:4D:5E）。易錯處是與 IP 位址混淆：IP 是邏輯位址、會隨所在網路改變且可由 DHCP 分配，MAC 則固定綁在硬體上，長度也不是 32 位元。"
+    },
+    {
+      "id": "uni_network_u_023",
+      "difficulty": 2,
+      "question": "下圖標示某子網路遮罩「最後一個八位元」的組成，琥珀色為值為 1 的網路位元、藍色為值為 0 的主機位元。此遮罩對應的 CIDR 前綴長度與每個子網路的可用主機數各為何？",
+      "figure": "<svg viewBox=\"0 0 260 140\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"130\" y=\"16\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">遮罩最後一組的 8 個位元</text><rect x=\"10\" y=\"28\" width=\"28\" height=\"32\" fill=\"#f59e0b\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"40\" y=\"28\" width=\"28\" height=\"32\" fill=\"#f59e0b\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"70\" y=\"28\" width=\"28\" height=\"32\" fill=\"#f59e0b\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"100\" y=\"28\" width=\"28\" height=\"32\" fill=\"#3b82f6\" fill-opacity=\"0.2\" stroke=\"currentColor\"/><rect x=\"130\" y=\"28\" width=\"28\" height=\"32\" fill=\"#3b82f6\" fill-opacity=\"0.2\" stroke=\"currentColor\"/><rect x=\"160\" y=\"28\" width=\"28\" height=\"32\" fill=\"#3b82f6\" fill-opacity=\"0.2\" stroke=\"currentColor\"/><rect x=\"190\" y=\"28\" width=\"28\" height=\"32\" fill=\"#3b82f6\" fill-opacity=\"0.2\" stroke=\"currentColor\"/><rect x=\"220\" y=\"28\" width=\"28\" height=\"32\" fill=\"#3b82f6\" fill-opacity=\"0.2\" stroke=\"currentColor\"/><text x=\"24\" y=\"50\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"54\" y=\"50\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"84\" y=\"50\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"114\" y=\"50\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">0</text><text x=\"144\" y=\"50\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">0</text><text x=\"174\" y=\"50\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">0</text><text x=\"204\" y=\"50\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">0</text><text x=\"234\" y=\"50\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">0</text><text x=\"54\" y=\"80\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">網路位元</text><text x=\"189\" y=\"80\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">主機位元</text></svg>",
+      "options": [
+        "/26，可用主機 62 個",
+        "/27，可用主機 30 個",
+        "/27，可用主機 32 個",
+        "/29，可用主機 6 個"
+      ],
+      "answer": 1,
+      "explanation": "圖中最後一組有 3 個網路位元，加上前三組的 24 位元共 24+3=27，故為 /27；主機位元有 5 個，代表每個子網路 $2^5=32$ 個位址，扣掉網路位址與廣播位址後可用 30 個。易錯處是忘記扣掉頭尾兩個保留位址而答 32，或把網路位元數與 /26、/29 記錯。"
+    },
+    {
+      "id": "uni_network_u_024",
+      "difficulty": 3,
+      "question": "要透過頻寬為 100 Mbps 的鏈路傳送一個 5 MB（百萬位元組）的檔案，若忽略傳播延遲與協定額外負擔，純傳輸時間約為多少？（提示：1 byte = 8 bits）",
+      "options": [
+        "0.05 秒",
+        "4 秒",
+        "0.5 秒",
+        "0.4 秒"
+      ],
+      "answer": 3,
+      "explanation": "檔案大小 5 MB 換算成位元為 $5 \\times 8 = 40$ Mb，除以頻寬 100 Mbps 得傳輸時間 $40 \\div 100 = 0.4$ 秒。易錯處是忘記做位元組（byte）與位元（bit）的換算（差 8 倍）而直接用 $5 \\div 100 = 0.05$ 秒，或把單位弄反。"
+    },
+    {
+      "id": "uni_network_u_025",
+      "difficulty": 2,
+      "question": "下圖為某主機連到四台伺服器所量得的平均往返時間（RTT）。若要挑選「延遲最低」的伺服器來連線，應選擇哪一台？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"25\" y1=\"150\" x2=\"225\" y2=\"150\" stroke=\"currentColor\"/><text x=\"20\" y=\"16\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">ms</text><rect x=\"40\" y=\"102\" width=\"30\" height=\"48\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"90\" y=\"42\" width=\"30\" height=\"108\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"140\" y=\"120\" width=\"30\" height=\"30\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"190\" y=\"78\" width=\"30\" height=\"72\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><text x=\"55\" y=\"98\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">40</text><text x=\"105\" y=\"38\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">90</text><text x=\"155\" y=\"116\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">25</text><text x=\"205\" y=\"74\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">60</text><text x=\"55\" y=\"166\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"105\" y=\"166\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"155\" y=\"166\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"205\" y=\"166\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">D</text></svg>",
+      "options": [
+        "伺服器 C",
+        "伺服器 A",
+        "伺服器 D",
+        "伺服器 B"
+      ],
+      "answer": 0,
+      "explanation": "往返時間（RTT）越小代表封包來回的延遲越低，圖中 C 的長條最短、約 25 毫秒，因此延遲最低。易錯處是把長條「最高」誤當成最好：長條越高代表 RTT 越大、延遲越糟，應選最矮的 C 而非最高的 B。"
+    },
+    {
+      "id": "uni_network_u_026",
+      "difficulty": 2,
+      "question": "家用寬頻分享器讓家中多台裝置以「同一個對外公有 IP 位址」連上網際網路，這主要仰賴下列哪一項技術？",
+      "options": [
+        "ARP 位址解析",
+        "NAT 網路位址轉換",
+        "DNS 名稱解析",
+        "TLS 加密交握"
+      ],
+      "answer": 1,
+      "explanation": "NAT（網路位址轉換）在分享器上把內部多台裝置的私有 IP 與埠號，對應到同一個對外公有 IP 的不同埠號，讓多台裝置共用一個公有位址上網。易錯處是與 ARP 或 DNS 混淆：ARP 負責由 IP 查 MAC、DNS 負責名稱解析，都不處理私有與公有 IP 的轉換。"
+    },
+    {
+      "id": "uni_network_u_027",
+      "difficulty": 1,
+      "question": "下圖為 DNS 網域名稱的階層架構。圖中緊接在根（root）之下的「.com」「.org」「.tw」屬於哪一層？",
+      "figure": "<svg viewBox=\"0 0 260 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"110\" y=\"12\" width=\"44\" height=\"26\" fill=\"#a855f7\" fill-opacity=\"0.2\" stroke=\"currentColor\"/><text x=\"132\" y=\"29\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">root</text><line x1=\"132\" y1=\"38\" x2=\"50\" y2=\"78\" stroke=\"currentColor\"/><line x1=\"132\" y1=\"38\" x2=\"132\" y2=\"78\" stroke=\"currentColor\"/><line x1=\"132\" y1=\"38\" x2=\"214\" y2=\"78\" stroke=\"currentColor\"/><rect x=\"28\" y=\"78\" width=\"44\" height=\"26\" fill=\"#3b82f6\" fill-opacity=\"0.2\" stroke=\"currentColor\"/><text x=\"50\" y=\"95\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">.com</text><rect x=\"110\" y=\"78\" width=\"44\" height=\"26\" fill=\"#3b82f6\" fill-opacity=\"0.2\" stroke=\"currentColor\"/><text x=\"132\" y=\"95\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">.org</text><rect x=\"192\" y=\"78\" width=\"44\" height=\"26\" fill=\"#3b82f6\" fill-opacity=\"0.2\" stroke=\"currentColor\"/><text x=\"214\" y=\"95\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">.tw</text><line x1=\"214\" y1=\"104\" x2=\"214\" y2=\"128\" stroke=\"currentColor\"/><rect x=\"180\" y=\"128\" width=\"68\" height=\"26\" fill=\"#22c55e\" fill-opacity=\"0.2\" stroke=\"currentColor\"/><text x=\"214\" y=\"145\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">edu.tw</text></svg>",
+      "options": [
+        "根網域本身",
+        "個別主機名稱",
+        "頂級網域（TLD）",
+        "完整網域名稱（FQDN）"
+      ],
+      "answer": 2,
+      "explanation": "DNS 採樹狀階層，最上層是根（root），其下第一層即頂級網域（TLD），例如 .com、.org、.tw；再往下才是二級網域（如 edu.tw）與主機名稱。易錯處是把 TLD 誤當成根本身，或與最底層的個別主機名稱混淆。"
+    },
+    {
+      "id": "uni_network_u_028",
+      "difficulty": 3,
+      "question": "在一台交換器上設定兩個 VLAN，把埠口分成 VLAN10 與 VLAN20 兩群。關於其效果，下列敘述何者正確？",
+      "options": [
+        "設定後兩個 VLAN 會自動合併成同一個廣播網域",
+        "VLAN 只能在路由器上設定，一般交換器無法支援",
+        "同一個 VLAN 內的裝置彼此反而無法直接通訊",
+        "不同 VLAN 之間的裝置若要互通，必須經過第三層路由"
+      ],
+      "answer": 3,
+      "explanation": "VLAN 把一台實體交換器邏輯上切成多個獨立的廣播網域，同一 VLAN 內可直接互通，但不同 VLAN 之間屬於不同子網，必須透過具第三層路由功能的裝置（路由器或三層交換器）才能互相通訊。易錯處是以為切了 VLAN 仍在同一廣播網域，或誤以為同一 VLAN 內反而不能通訊。"
+    },
+    {
+      "id": "uni_network_u_029",
+      "difficulty": 3,
+      "question": "下圖為某資料傳輸協定的時序圖：傳送端每送出一個封包，就必須等到對應的 ACK 回來，才送出下一個封包。這屬於哪一種傳輸機制？",
+      "figure": "<svg viewBox=\"0 0 240 200\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"50\" y=\"16\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">傳送端</text><text x=\"190\" y=\"16\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">接收端</text><line x1=\"50\" y1=\"24\" x2=\"50\" y2=\"188\" stroke=\"currentColor\"/><line x1=\"190\" y1=\"24\" x2=\"190\" y2=\"188\" stroke=\"currentColor\"/><line x1=\"50\" y1=\"40\" x2=\"190\" y2=\"70\" stroke=\"#3b82f6\"/><polygon points=\"190,70 181,65 185,74\" fill=\"#3b82f6\" stroke=\"none\"/><text x=\"120\" y=\"47\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">資料1</text><line x1=\"190\" y1=\"82\" x2=\"50\" y2=\"112\" stroke=\"#22c55e\"/><polygon points=\"50,112 59,107 55,116\" fill=\"#22c55e\" stroke=\"none\"/><text x=\"120\" y=\"89\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">ACK1</text><line x1=\"50\" y1=\"128\" x2=\"190\" y2=\"158\" stroke=\"#3b82f6\"/><polygon points=\"190,158 181,153 185,162\" fill=\"#3b82f6\" stroke=\"none\"/><text x=\"120\" y=\"135\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">資料2</text></svg>",
+      "options": [
+        "停止等待（stop-and-wait）",
+        "廣播風暴（broadcast storm）",
+        "三方交握（three-way handshake）",
+        "最長前綴匹配（longest prefix match）"
+      ],
+      "answer": 0,
+      "explanation": "時序圖顯示傳送端送出一個封包後就停下來等 ACK，收到才送下一個，這正是停止等待協定的特徵，代價是鏈路常處於閒置、傳輸效率較低。易錯處是與滑動視窗混淆：滑動視窗允許連續送出多個尚未確認的封包，時序圖上會看到封包接連下送而非一送一等。"
+    },
+    {
+      "id": "uni_network_u_030",
+      "difficulty": 1,
+      "question": "瀏覽網頁時，伺服器回應 HTTP 狀態碼 404，代表下列何種情況？",
+      "options": [
+        "請求成功，網頁內容已正常回傳",
+        "找不到請求的資源，該網頁不存在",
+        "伺服器內部發生錯誤，無法處理請求",
+        "網頁已永久搬移到新的網址"
+      ],
+      "answer": 1,
+      "explanation": "404 Not Found 表示伺服器可正常回應，但該路徑對應的資源不存在，常見於網址打錯或網頁已被刪除。易錯處是與其他狀態碼混淆：200 代表成功、500 代表伺服器內部錯誤、301 才是永久搬移。"
+    },
+    {
+      "id": "uni_network_u_031",
+      "difficulty": 2,
+      "question": "將一個 /24 網路重新規劃，向主機位元「借用 3 個位元」來切割子網路，總共可切出幾個子網路？",
+      "options": [
+        "3 個",
+        "6 個",
+        "8 個",
+        "16 個"
+      ],
+      "answer": 2,
+      "explanation": "借用 n 個位元可切出 $2^n$ 個子網路，借 3 個位元即 $2^3 = 8$ 個，遮罩也由 /24 變成 /27。易錯處是把「借用的位元數」直接當成子網路數而答 3，或與「可用主機數要扣 2」的算法搞混。"
+    },
+    {
+      "id": "uni_network_u_032",
+      "difficulty": 3,
+      "question": "採用「偶同位（even parity）」檢查時，若要傳送的資料位元為 1011010，則附加的同位位元（parity bit）應為何？",
+      "options": [
+        "1，因為資料中含有奇數個 1",
+        "需視接收端狀態而定，無法事先決定",
+        "恆為 1，同位位元固定不變",
+        "0，因為資料中已含有偶數個 1"
+      ],
+      "answer": 3,
+      "explanation": "偶同位要求「含同位位元在內」的 1 的總數為偶數；資料 1011010 已有 4 個 1（偶數），因此同位位元補 0 即可維持偶數。易錯處是把 1 的個數數錯成奇數而補 1，或誤以為同位位元固定為某值；它其實由資料中 1 的個數決定。"
     }
   ]
 }

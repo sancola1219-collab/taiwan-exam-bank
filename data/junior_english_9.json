@@ -182,6 +182,91 @@
       ],
       "answer": 0,
       "explanation": "wonder 後面接間接問句，要用「疑問詞 + 主詞 + 動詞」的直述句語序，主詞 she 搭配過去式 be 動詞 was，所以 why she was late 正確。第二個選項是倒裝的直接問句語序；第三個選項 did 之後沒有原形動詞，文法錯誤；第四個選項 she 不能搭配 were。全句意思是：我真想知道她開會為什麼遲到。"
+    },
+    {
+      "id": "junior_english_9_021",
+      "difficulty": 1,
+      "question": "Of all the students in my class, Mia runs the ______.",
+      "options": ["fast", "faster", "fastest", "most fast"],
+      "answer": 2,
+      "explanation": "句中 Of all the students（在所有學生當中）表示三者以上的比較，要用最高級，且 fast 是單音節，最高級為 fastest，前面配 the。faster 是比較級，用於兩者相比；fast 是原級；most fast 是錯誤的最高級形式，單音節形容詞不加 most。全句意思是：在班上所有學生當中，米亞跑得最快。"
+    },
+    {
+      "id": "junior_english_9_022",
+      "difficulty": 1,
+      "question": "The tea is too hot ______ right now.",
+      "options": ["to drink", "drinking", "for drink", "drank"],
+      "answer": 0,
+      "explanation": "「too + 形容詞 + to + 原形動詞」表示「太……以致於不能……」，所以是 too hot to drink（太燙而不能喝）。drinking 是動名詞，for drink 詞性搭配錯誤，drank 是過去式，都不能接在 too hot 之後構成此句型。全句意思是：這茶現在太燙了，還不能喝。"
+    },
+    {
+      "id": "junior_english_9_023",
+      "difficulty": 1,
+      "question": "______ it was raining heavily, we still went hiking in the mountains.",
+      "options": ["Because", "Although", "So", "Unless"],
+      "answer": 1,
+      "explanation": "後半句有 still（仍然），表示前後語意相反，要用表「雖然」的連接詞 Although 引導讓步子句。Because 表原因，語意不通；So 是表結果的連接詞，不放句首引導這種子句；Unless 表「除非」，也不符合語意。全句意思是：雖然雨下得很大，我們仍然去山上健行。"
+    },
+    {
+      "id": "junior_english_9_024",
+      "difficulty": 2,
+      "question": "I am really looking forward to ______ you again next summer.",
+      "options": ["see", "saw", "seen", "seeing"],
+      "answer": 3,
+      "explanation": "片語 look forward to 中的 to 是介系詞，不是不定詞的 to，後面要接動名詞，所以用 seeing。see 是原形，saw 是過去式，seen 是過去分詞，都不能直接接在介系詞 to 之後。全句意思是：我真的很期待明年夏天再見到你。"
+    },
+    {
+      "id": "junior_english_9_025",
+      "difficulty": 2,
+      "question": "They ______ for the bus for over an hour, but it still hasn't come.",
+      "options": ["wait", "waited", "have been waiting", "are waiting"],
+      "answer": 2,
+      "explanation": "動作從過去持續到現在且仍在進行，並強調持續的時間 for over an hour，要用現在完成進行式 have been waiting。wait 是原形，waited 是單純過去式無法表達「一直持續到現在」，are waiting 是現在進行式，無法呈現已持續一小時多的時間長度。全句意思是：他們已經等公車超過一個小時了，但車還是沒來。"
+    },
+    {
+      "id": "junior_english_9_026",
+      "difficulty": 2,
+      "question": "The teacher made the students ______ the classroom after the party.",
+      "options": ["clean", "to clean", "cleaning", "cleaned"],
+      "answer": 0,
+      "explanation": "使役動詞 make 的句型是「make + 受詞 + 原形動詞」，表示「使、要求某人做某事」，所以用原形 clean。to clean 是不定詞，cleaning 是動名詞或現在分詞，cleaned 是過去式或過去分詞，都不能當使役動詞 make 後面的受詞補語。全句意思是：老師要學生在派對後打掃教室。"
+    },
+    {
+      "id": "junior_english_9_027",
+      "difficulty": 2,
+      "question": "It was ______ an interesting book that I read it twice.",
+      "options": ["so", "very", "too", "such"],
+      "answer": 3,
+      "explanation": "「such + a/an + 形容詞 + 名詞 + that ...」表示「如此……以致於……」，句中有 an interesting book（名詞片語），所以用 such。so 要接「形容詞或副詞」（如 so interesting），不直接接名詞片語；very 和 too 都無法與 that 引導的結果子句構成此固定句型。全句意思是：那是一本如此有趣的書，以致於我讀了兩遍。"
+    },
+    {
+      "id": "junior_english_9_028",
+      "difficulty": 3,
+      "question": "If I ______ more free time, I would travel around the world.",
+      "options": ["have", "had", "will have", "have had"],
+      "answer": 1,
+      "explanation": "主要子句用 would + 原形，可知這是與現在事實相反的假設語氣，if 子句要用過去式 had。have 和 will have 用於表達可能實現的條件句，不搭配 would；have had 是完成式，也不用於此與現在相反的假設句型。全句意思是：如果我有更多空閒時間，我就會環遊世界。"
+    },
+    {
+      "id": "junior_english_9_029",
+      "difficulty": 3,
+      "question": "Ted told me that he ______ his science project the day before.",
+      "options": ["had finished", "has finished", "will finish", "finishing"],
+      "answer": 0,
+      "explanation": "主要子句 told 是過去式，間接引述中「比過去更早發生」的動作要用過去完成式，配合 the day before（前一天），所以用 had finished。has finished 是現在完成式，時態不一致；will finish 是未來式，與 the day before 矛盾；finishing 缺少助動詞無法單獨當動詞。全句意思是：泰德告訴我他在前一天就已經完成了他的科學作品。"
+    },
+    {
+      "id": "junior_english_9_030",
+      "difficulty": 3,
+      "question": "閱讀短文並回答問題：Maria moved to Taipei three years ago. At first, she could hardly speak any Chinese and often got lost on the way home. Now she chats with her neighbors easily and even helps other newcomers find their way. — What can we learn about Maria?",
+      "options": [
+        "She still cannot speak any Chinese at all.",
+        "She got lost on purpose every single day.",
+        "She moved away from Taipei last year.",
+        "Her Chinese has improved a lot over the years."
+      ],
+      "answer": 3,
+      "explanation": "短文說瑪莉亞剛到台北時幾乎不會說中文又常迷路，如今能輕鬆和鄰居聊天甚至幫助新來的人指路，可見她的中文這幾年進步很多，第四個選項正確。她現在已能流利交談，並非完全不會中文；她是「不小心」迷路而非故意；短文也沒提到她搬離台北，其餘選項皆與內容不符。"
     }
   ]
 }

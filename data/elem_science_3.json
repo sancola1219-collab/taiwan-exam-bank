@@ -162,6 +162,107 @@
       "options": ["空氣其實不存在", "空氣流動起來就形成風", "扇子可以製造出新的空氣", "只有戶外才會有風"],
       "answer": 1,
       "explanation": "扇子搧動時推動了周圍的空氣，讓空氣流動起來，流動的空氣就是風。大自然中的風也是空氣流動形成的，這個小實驗讓我們用皮膚的感覺證明空氣確實存在於我們身邊。"
+    },
+    {
+      "id": "elem_science_3_021",
+      "difficulty": 2,
+      "question": "圖中是一支溫度計，紅色液柱停在如圖所示的位置。這時測到的溫度是多少？",
+      "figure": "<svg viewBox=\"0 0 160 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"72\" y=\"25\" width=\"16\" height=\"180\" rx=\"8\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"80\" cy=\"210\" r=\"14\" fill=\"#ef4444\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"76\" y=\"94\" width=\"8\" height=\"118\" fill=\"#ef4444\" fill-opacity=\"0.3\"/><line x1=\"64\" y1=\"190\" x2=\"72\" y2=\"190\" stroke=\"currentColor\"/><line x1=\"64\" y1=\"158\" x2=\"72\" y2=\"158\" stroke=\"currentColor\"/><line x1=\"64\" y1=\"126\" x2=\"72\" y2=\"126\" stroke=\"currentColor\"/><line x1=\"64\" y1=\"94\" x2=\"72\" y2=\"94\" stroke=\"currentColor\"/><line x1=\"64\" y1=\"62\" x2=\"72\" y2=\"62\" stroke=\"currentColor\"/><line x1=\"64\" y1=\"30\" x2=\"72\" y2=\"30\" stroke=\"currentColor\"/><line x1=\"68\" y1=\"174\" x2=\"72\" y2=\"174\" stroke=\"currentColor\"/><line x1=\"68\" y1=\"142\" x2=\"72\" y2=\"142\" stroke=\"currentColor\"/><line x1=\"68\" y1=\"110\" x2=\"72\" y2=\"110\" stroke=\"currentColor\"/><line x1=\"68\" y1=\"78\" x2=\"72\" y2=\"78\" stroke=\"currentColor\"/><line x1=\"68\" y1=\"46\" x2=\"72\" y2=\"46\" stroke=\"currentColor\"/><text x=\"60\" y=\"194\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">0</text><text x=\"60\" y=\"162\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">10</text><text x=\"60\" y=\"130\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">20</text><text x=\"60\" y=\"98\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">30</text><text x=\"60\" y=\"66\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">40</text><text x=\"60\" y=\"34\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">50</text><text x=\"98\" y=\"34\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">°C</text></svg>",
+      "options": ["20°C", "25°C", "30°C", "35°C"],
+      "answer": 2,
+      "explanation": "紅色液柱的頂端剛好對齊刻度30，所以水溫是攝氏30度。讀溫度計時要看液柱最頂端所對的刻度，而且視線要和液面平視，斜著看容易讀成25度或35度而讀錯。"
+    },
+    {
+      "id": "elem_science_3_022",
+      "difficulty": 1,
+      "question": "下面的長條圖記錄校園裡甲、乙、丙、丁四個花壇，在一節下課時間各吸引到多少隻蝴蝶。哪一個花壇吸引到的蝴蝶最多？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"150\" x2=\"222\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"36\" y1=\"150\" x2=\"40\" y2=\"150\" stroke=\"currentColor\"/><text x=\"32\" y=\"154\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">0</text><line x1=\"36\" y1=\"124\" x2=\"40\" y2=\"124\" stroke=\"currentColor\"/><text x=\"32\" y=\"128\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">2</text><line x1=\"36\" y1=\"98\" x2=\"40\" y2=\"98\" stroke=\"currentColor\"/><text x=\"32\" y=\"102\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">4</text><line x1=\"36\" y1=\"72\" x2=\"40\" y2=\"72\" stroke=\"currentColor\"/><text x=\"32\" y=\"76\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">6</text><line x1=\"36\" y1=\"46\" x2=\"40\" y2=\"46\" stroke=\"currentColor\"/><text x=\"32\" y=\"50\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">8</text><line x1=\"36\" y1=\"20\" x2=\"40\" y2=\"20\" stroke=\"currentColor\"/><text x=\"32\" y=\"24\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">10</text><rect x=\"54\" y=\"72\" width=\"28\" height=\"78\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"98\" y=\"33\" width=\"28\" height=\"117\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"142\" y=\"98\" width=\"28\" height=\"52\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"186\" y=\"59\" width=\"28\" height=\"91\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"68\" y=\"166\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">甲</text><text x=\"112\" y=\"166\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">乙</text><text x=\"156\" y=\"166\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">丙</text><text x=\"200\" y=\"166\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">丁</text><text x=\"30\" y=\"16\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">隻</text></svg>",
+      "options": ["甲花壇", "乙花壇", "丙花壇", "丁花壇"],
+      "answer": 1,
+      "explanation": "從長條圖比較，乙花壇的長條最高，代表牠吸引到的蝴蝶最多，有9隻。看長條圖只要比較長條的高低就能判斷數量多少；花朵鮮豔的顏色和香味能吸引蝴蝶等昆蟲，順便幫忙傳粉。"
+    },
+    {
+      "id": "elem_science_3_023",
+      "difficulty": 2,
+      "question": "下面的折線圖是某一天在不同時間測到的氣溫變化。這一天哪一個時間的氣溫最高？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"150\" x2=\"222\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"36\" y1=\"150\" x2=\"40\" y2=\"150\" stroke=\"currentColor\"/><text x=\"32\" y=\"154\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">20</text><line x1=\"36\" y1=\"118\" x2=\"40\" y2=\"118\" stroke=\"currentColor\"/><text x=\"32\" y=\"122\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">24</text><line x1=\"36\" y1=\"86\" x2=\"40\" y2=\"86\" stroke=\"currentColor\"/><text x=\"32\" y=\"90\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">28</text><line x1=\"36\" y1=\"54\" x2=\"40\" y2=\"54\" stroke=\"currentColor\"/><text x=\"32\" y=\"58\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">32</text><polyline points=\"60,118 110,86 160,62 200,102\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"60\" cy=\"118\" r=\"3\" fill=\"#3b82f6\" stroke=\"currentColor\"/><circle cx=\"110\" cy=\"86\" r=\"3\" fill=\"#3b82f6\" stroke=\"currentColor\"/><circle cx=\"160\" cy=\"62\" r=\"3\" fill=\"#3b82f6\" stroke=\"currentColor\"/><circle cx=\"200\" cy=\"102\" r=\"3\" fill=\"#3b82f6\" stroke=\"currentColor\"/><text x=\"60\" y=\"166\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">9時</text><text x=\"110\" y=\"166\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">12時</text><text x=\"160\" y=\"166\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">15時</text><text x=\"200\" y=\"166\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">18時</text><text x=\"30\" y=\"16\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">°C</text></svg>",
+      "options": ["9時", "12時", "15時", "18時"],
+      "answer": 2,
+      "explanation": "折線圖在15時的點位置最高，對應到的氣溫是31度，所以這一天下午3時（15時）最熱。判讀折線圖要找出位置最高的點；很多人以為中午12時一定最熱，其實地面吸熱後氣溫還會續升，常在下午2、3點才達到最高。"
+    },
+    {
+      "id": "elem_science_3_024",
+      "difficulty": 1,
+      "question": "圖中是一棵植物的示意圖，標示了甲、乙、丙、丁四個部位。哪一個部位負責吸收水分，並把植物固定在土壤裡？",
+      "figure": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"150\" x2=\"160\" y2=\"150\" stroke=\"currentColor\" stroke-dasharray=\"4 3\"/><line x1=\"100\" y1=\"150\" x2=\"100\" y2=\"62\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"52\" r=\"12\" fill=\"#f59e0b\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><ellipse cx=\"76\" cy=\"98\" rx=\"22\" ry=\"9\" fill=\"#22c55e\" fill-opacity=\"0.3\" stroke=\"currentColor\" transform=\"rotate(-20 76 98)\"/><ellipse cx=\"124\" cy=\"116\" rx=\"22\" ry=\"9\" fill=\"#22c55e\" fill-opacity=\"0.3\" stroke=\"currentColor\" transform=\"rotate(20 124 116)\"/><line x1=\"100\" y1=\"150\" x2=\"80\" y2=\"180\" stroke=\"currentColor\"/><line x1=\"100\" y1=\"150\" x2=\"100\" y2=\"188\" stroke=\"currentColor\"/><line x1=\"100\" y1=\"150\" x2=\"120\" y2=\"180\" stroke=\"currentColor\"/><line x1=\"88\" y1=\"165\" x2=\"78\" y2=\"184\" stroke=\"currentColor\"/><line x1=\"112\" y1=\"165\" x2=\"122\" y2=\"184\" stroke=\"currentColor\"/><line x1=\"114\" y1=\"52\" x2=\"136\" y2=\"52\" stroke=\"currentColor\"/><text x=\"140\" y=\"56\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">甲</text><line x1=\"146\" y1=\"116\" x2=\"152\" y2=\"116\" stroke=\"currentColor\"/><text x=\"156\" y=\"120\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">乙</text><line x1=\"100\" y1=\"135\" x2=\"138\" y2=\"135\" stroke=\"currentColor\"/><text x=\"142\" y=\"139\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">丙</text><line x1=\"112\" y1=\"176\" x2=\"136\" y2=\"178\" stroke=\"currentColor\"/><text x=\"140\" y=\"182\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">丁</text></svg>",
+      "options": ["甲", "乙", "丙", "丁"],
+      "answer": 3,
+      "explanation": "圖中丁所指的是長在土壤裡的根，根負責吸收水分並把植物固定在土裡。甲是花、乙是葉、丙是莖，各有不同功能；同學要記得吸水的是根，製造養分的才是葉子，不要弄反了。"
+    },
+    {
+      "id": "elem_science_3_025",
+      "difficulty": 3,
+      "question": "甲、乙兩個相同的量杯各裝了一些水，水面高度如圖所示。哪一杯裝的水比較多？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"45\" y=\"35\" width=\"48\" height=\"118\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"46\" y=\"60\" width=\"46\" height=\"90\" fill=\"#3b82f6\" fill-opacity=\"0.3\"/><rect x=\"150\" y=\"35\" width=\"48\" height=\"118\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"151\" y=\"90\" width=\"46\" height=\"60\" fill=\"#3b82f6\" fill-opacity=\"0.3\"/><line x1=\"38\" y1=\"150\" x2=\"45\" y2=\"150\" stroke=\"currentColor\"/><text x=\"34\" y=\"154\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">0</text><line x1=\"38\" y1=\"130\" x2=\"45\" y2=\"130\" stroke=\"currentColor\"/><text x=\"34\" y=\"134\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">10</text><line x1=\"38\" y1=\"110\" x2=\"45\" y2=\"110\" stroke=\"currentColor\"/><text x=\"34\" y=\"114\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">20</text><line x1=\"38\" y1=\"90\" x2=\"45\" y2=\"90\" stroke=\"currentColor\"/><text x=\"34\" y=\"94\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">30</text><line x1=\"38\" y1=\"70\" x2=\"45\" y2=\"70\" stroke=\"currentColor\"/><text x=\"34\" y=\"74\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">40</text><line x1=\"38\" y1=\"50\" x2=\"45\" y2=\"50\" stroke=\"currentColor\"/><text x=\"34\" y=\"54\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">50</text><line x1=\"198\" y1=\"150\" x2=\"205\" y2=\"150\" stroke=\"currentColor\"/><text x=\"209\" y=\"154\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">0</text><line x1=\"198\" y1=\"130\" x2=\"205\" y2=\"130\" stroke=\"currentColor\"/><text x=\"209\" y=\"134\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">10</text><line x1=\"198\" y1=\"110\" x2=\"205\" y2=\"110\" stroke=\"currentColor\"/><text x=\"209\" y=\"114\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">20</text><line x1=\"198\" y1=\"90\" x2=\"205\" y2=\"90\" stroke=\"currentColor\"/><text x=\"209\" y=\"94\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">30</text><line x1=\"198\" y1=\"70\" x2=\"205\" y2=\"70\" stroke=\"currentColor\"/><text x=\"209\" y=\"74\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">40</text><line x1=\"198\" y1=\"50\" x2=\"205\" y2=\"50\" stroke=\"currentColor\"/><text x=\"209\" y=\"54\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">50</text><text x=\"69\" y=\"170\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">甲</text><text x=\"174\" y=\"170\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">乙</text><text x=\"118\" y=\"24\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">mL</text></svg>",
+      "options": ["甲杯", "乙杯", "兩杯裝的水一樣多", "無法從圖中判斷"],
+      "answer": 0,
+      "explanation": "讀刻度可知甲杯的水面在45毫升、乙杯在30毫升，所以甲杯裝的水比較多。比較水量要看液面對齊的刻度數字，不能只憑杯子外觀猜測；讀數時視線也要和水面平視才準確。"
+    },
+    {
+      "id": "elem_science_3_026",
+      "difficulty": 2,
+      "question": "蒲公英的種子上長著像小降落傘一樣的白色絨毛，這樣的構造最有利於種子用哪一種方式傳播？",
+      "options": ["靠風飄散到遠方", "靠水流漂到遠方", "靠動物吃下後排出", "靠果實爆開彈射出去"],
+      "answer": 0,
+      "explanation": "蒲公英的種子上有像小降落傘的絨毛，能隨風飄散到遠方，這是靠風傳播。不同植物有不同的傳播方式，有的靠水漂、有的靠動物攜帶或食用，種子傳得越遠，越有機會在新的地方發芽長大。"
+    },
+    {
+      "id": "elem_science_3_027",
+      "difficulty": 1,
+      "question": "青蛙的身體表面主要是下列哪一種構造？",
+      "options": ["乾燥的羽毛", "濕潤的皮膚", "堅硬的鱗片", "厚厚的絨毛"],
+      "answer": 1,
+      "explanation": "青蛙屬於兩生類，身體表面是濕潤的皮膚，還能幫助呼吸。羽毛是鳥類的特徵、鱗片是魚類和爬蟲類的特徵、絨毛常見於哺乳類，不同動物的體表覆蓋物和牠們的生活環境有關。"
+    },
+    {
+      "id": "elem_science_3_028",
+      "difficulty": 3,
+      "question": "把一顆洩了氣的皮球用打氣筒打飽氣後，再放到磅秤上秤，和打氣前比較，球的重量會怎樣變化？",
+      "options": ["變輕了", "維持不變", "變重了", "先變重再變輕"],
+      "answer": 2,
+      "explanation": "把洩了氣的球打飽氣後再秤，球會變重，因為打進去的空氣本身是有重量的。空氣雖然看不見，卻是真實存在而且有重量的物質；許多人誤以為空氣沒有重量，其實一大房間的空氣加起來也相當重。"
+    },
+    {
+      "id": "elem_science_3_029",
+      "difficulty": 3,
+      "question": "晴朗的清晨，常可以看到草葉上出現一顆顆小水珠。這些小水珠是怎麼形成的？",
+      "options": ["空氣中的水蒸氣遇冷凝結成的小水珠", "植物體內流出的汗水", "一定是昨晚下雨留下的雨水", "從土壤裡冒出來的地下水"],
+      "answer": 0,
+      "explanation": "清晨草葉上的小水珠，是空氣中看不見的水蒸氣在夜裡遇到較冷的葉面凝結而成的，稱為露水。這和燒水時壺口白煙的形成原理相同；它不是植物流的汗，也不一定代表昨晚下過雨。"
+    },
+    {
+      "id": "elem_science_3_030",
+      "difficulty": 2,
+      "question": "用溫度計量一杯水的溫度時，下列哪一種做法才正確？",
+      "options": ["先用手把溫度計的球部握熱再量", "把球部完全浸入水中，視線與液面平視後再讀數", "溫度計一放入水中就立刻讀數", "只把球部輕輕碰一下水面就好"],
+      "answer": 1,
+      "explanation": "正確做法是把溫度計的球部完全浸入水中、不碰到杯底和杯壁，等液面穩定後，視線與液面平視再讀數。用手握住球部會因手溫使讀數偏高，一放入就急著讀也會因為還沒穩定而不準。"
+    },
+    {
+      "id": "elem_science_3_031",
+      "difficulty": 3,
+      "question": "用一塊磁鐵朝同一個方向反覆摩擦一根鐵釘數十次後，發現這根鐵釘也能吸起迴紋針了。這個現象說明了什麼？",
+      "options": ["鐵釘的材質變成了塑膠", "迴紋針本來就會互相黏住", "磁鐵的磁力完全消失了", "鐵釘被磁化，暫時具有了磁性"],
+      "answer": 3,
+      "explanation": "用磁鐵朝同一方向摩擦鐵釘很多次後，鐵釘被磁化，暫時具有了磁性，所以能吸起迴紋針。這種磁性通常不是永久的，經過敲打或加熱、放久了磁性會慢慢減弱或消失；鐵釘本身並沒有變成別的材料。"
+    },
+    {
+      "id": "elem_science_3_032",
+      "difficulty": 1,
+      "question": "把一盆原本健康的植物，長時間搬到完全照不到陽光的暗房裡，最可能發生什麼情形？",
+      "options": ["長得比原來更高更茂盛", "開出比原來更多的花", "完全不受影響，照常生長", "葉子漸漸變黃、生長變差"],
+      "answer": 3,
+      "explanation": "植物需要陽光才能行光合作用製造養分，搬到完全照不到光的暗房後，葉子會漸漸變黃、生長變差。這說明陽光是植物生長的必要條件之一；同學可以自己做對照實驗，把兩盆相同的植物分別放在有光和無光處觀察差異。"
     }
   ]
 }

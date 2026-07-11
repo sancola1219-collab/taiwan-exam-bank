@@ -3,25 +3,426 @@
   "subject": "finance",
   "grade": 0,
   "questions": [
-    { "id": "uni_finance_u_001", "difficulty": 1, "question": "貨幣時間價值中，「今天的一元比未來的一元更有價值」主要是因為？", "options": ["資金具有機會成本，可再投資生息", "通貨必然緊縮", "未來一定會虧損", "名目與實質利率必然相同"], "answer": 0, "explanation": "今天的錢可立即投資產生報酬，具機會成本，故現值高於未來同額。這是時間價值的核心，與通膨方向雖有關但屬獨立於機會成本的因素。" },
-    { "id": "uni_finance_u_002", "difficulty": 1, "question": "在複利之下，將未來值折算為現值的公式為？", "options": ["$PV=FV\\times(1+r)^n$", "$PV=\\frac{FV}{(1+r)^n}$", "$PV=FV\\times r\\times n$", "$PV=\\frac{FV}{1+rn}$"], "answer": 1, "explanation": "複利現值為 $PV=\\frac{FV}{(1+r)^n}$，將未來值折現。第一式反而是由現值求終值的公式，勿把折現與複利成長方向顛倒。" },
-    { "id": "uni_finance_u_003", "difficulty": 1, "question": "年利率 10%、每年複利一次，現在存入 $1000$ 元，一年後的終值為？", "options": ["$900$ 元", "$1000$ 元", "$1100$ 元", "$1210$ 元"], "answer": 2, "explanation": "$FV=1000\\times(1+0.1)=1100$。$1210$ 是兩年後的終值 $1000\\times(1.1)^2$，計算時勿把年期弄錯。" },
-    { "id": "uni_finance_u_004", "difficulty": 1, "question": "在效率市場中，風險與預期報酬的一般關係為？", "options": ["風險越高預期報酬越低", "兩者完全無關", "報酬固定，與風險無關", "風險越高，投資人要求的預期報酬越高"], "answer": 3, "explanation": "理性且風險趨避的投資人承擔較高風險時，會要求較高預期報酬作為補償，故呈正向關係。無風險資產報酬最低即為此理。" },
-    { "id": "uni_finance_u_005", "difficulty": 1, "question": "藉由投資組合分散投資，主要能降低下列哪一種風險？", "options": ["非系統（可分散）風險", "系統風險", "市場風險", "利率風險"], "answer": 0, "explanation": "分散投資可消除個別公司特有的非系統風險，但無法消除影響全市場的系統風險。故充分分散後，投資組合仍留有系統風險。" },
-    { "id": "uni_finance_u_006", "difficulty": 1, "question": "淨現值（NPV）法的決策準則為？", "options": ["NPV 小於 0 時接受", "NPV 大於 0 時接受", "NPV 等於 IRR 時接受", "僅看回收期長短"], "answer": 1, "explanation": "NPV 大於零表示計畫創造超額價值，應接受；小於零則拒絕。NPV 法考慮所有現金流與時間價值，理論上優於回收期法。" },
-    { "id": "uni_finance_u_007", "difficulty": 1, "question": "傳統「回收期間法」最主要的缺點是？", "options": ["計算過於複雜", "一定需要折現率", "忽略回收期後的現金流與貨幣時間價值", "無法比較不同專案"], "answer": 2, "explanation": "傳統回收期法未考慮貨幣時間價值，也忽略回收期之後的現金流量。因此常作為輔助指標，而非主要決策依據。" },
-    { "id": "uni_finance_u_008", "difficulty": 2, "question": "每年年底收到 $100$ 元、共 3 年，折現率 10%，此普通年金的現值最接近？", "options": ["$300$ 元", "$273$ 元", "$225$ 元", "$248.7$ 元"], "answer": 3, "explanation": "普通年金現值 $PV=100\\times\\frac{1-(1+0.1)^{-3}}{0.1}\\approx248.7$。$300$ 是未折現的名目總額，忽略時間價值會高估現值。" },
-    { "id": "uni_finance_u_009", "difficulty": 2, "question": "某專案期初投入 $1000$ 元，第 1 年底、第 2 年底各流入 $600$ 元，折現率 10%，NPV 最接近？", "options": ["$41$ 元", "$200$ 元", "$-41$ 元", "$100$ 元"], "answer": 0, "explanation": "$NPV=-1000+\\frac{600}{1.1}+\\frac{600}{(1.1)^2}\\approx-1000+545.5+495.9=41$。若直接以 $1200-1000=200$ 未折現相減，會明顯高估。" },
-    { "id": "uni_finance_u_010", "difficulty": 2, "question": "內部報酬率（IRR）的定義是？", "options": ["使 NPV 最大化的折現率", "使 NPV 等於零的折現率", "恆等於無風險利率", "恆等於會計報酬率"], "answer": 1, "explanation": "IRR 是使專案 NPV 為零的折現率，代表專案的內含報酬率。當 IRR 大於資金成本時可接受，多數情況與 NPV 法結論一致。" },
-    { "id": "uni_finance_u_011", "difficulty": 2, "question": "計算加權平均資金成本（WACC）時，債務成本通常需要？", "options": ["以稅前金額計算", "額外加計股利", "乘以 $(1-稅率)$ 以反映利息稅盾", "直接等於股東權益成本"], "answer": 2, "explanation": "利息費用可抵稅，故稅後債務成本為 $k_d\\times(1-T)$。WACC 以各資金來源的市值權重加權，權益成本則不享有此稅盾。" },
-    { "id": "uni_finance_u_012", "difficulty": 2, "question": "甲股票報酬率標準差大於乙股票，且兩者預期報酬相同，風險趨避的投資人應？", "options": ["選甲股票", "兩者皆不投資", "無從判斷", "選乙股票（風險較低）"], "answer": 3, "explanation": "預期報酬相同時，風險趨避的投資人會選標準差（風險）較低的乙。此即效率取捨原則：同報酬取低風險，同風險取高報酬。" },
-    { "id": "uni_finance_u_013", "difficulty": 2, "question": "流動比率的計算公式為？", "options": ["流動資產÷流動負債", "現金÷流動負債", "流動資產÷總資產", "(流動資產−存貨)÷流動負債"], "answer": 0, "explanation": "流動比率＝流動資產÷流動負債，衡量短期償債能力。第四式（扣除存貨後再除）為速動比率，標準較嚴格，勿與流動比率混淆。" },
-    { "id": "uni_finance_u_014", "difficulty": 2, "question": "某公司稅後淨利 $200$ 萬元、股東權益 $1000$ 萬元，其股東權益報酬率（ROE）為？", "options": ["10%", "20%", "2%", "50%"], "answer": 1, "explanation": "$ROE=\\frac{淨利}{股東權益}=\\frac{200}{1000}=20\\%$。若誤以總資產或營收為分母，算出的是 ROA 或淨利率，意義不同。" },
-    { "id": "uni_finance_u_015", "difficulty": 3, "question": "某永續年金每年底支付 $50$ 元，折現率 5%，其現值為？", "options": ["$500$ 元", "$250$ 元", "$1000$ 元", "$1050$ 元"], "answer": 2, "explanation": "永續年金現值 $PV=\\frac{C}{r}=\\frac{50}{0.05}=1000$。永續年金無到期日，直接以現金流除以折現率即可，不需再另加本金。" },
-    { "id": "uni_finance_u_016", "difficulty": 3, "question": "關於 NPV 與 IRR 的比較，下列敘述何者正確？", "options": ["兩法結論永遠一致", "IRR 必定唯一", "NPV 假設現金流以 IRR 再投資", "互斥方案且規模差異大時，NPV 較可靠"], "answer": 3, "explanation": "互斥方案排序時，NPV 以資金成本再投資、直接反映價值增加，較 IRR 可靠。非常規現金流下 IRR 甚至可能出現多重解。" },
-    { "id": "uni_finance_u_017", "difficulty": 3, "question": "某投資今日 $1000$ 元，兩年後成長為 $1210$ 元，其年複利報酬率為？", "options": ["10%", "21%", "5%", "1.1%"], "answer": 0, "explanation": "$r=\\left(\\frac{1210}{1000}\\right)^{1/2}-1=1.1-1=10\\%$。若把兩年總報酬 21% 直接除以 2 得 10.5%，只是近似，複利正解為 10%。" },
-    { "id": "uni_finance_u_018", "difficulty": 3, "question": "依 CAPM，某股票 $\\beta=1.5$、無風險利率 4%、市場預期報酬 12%，其要求報酬率為？", "options": ["12%", "16%", "18%", "8%"], "answer": 1, "explanation": "$r=R_f+\\beta(R_m-R_f)=4\\%+1.5\\times(12\\%-4\\%)=16\\%$。市場風險溢酬為 $R_m-R_f=8\\%$，勿誤用 $R_m$ 整體去乘 $\\beta$。" },
-    { "id": "uni_finance_u_019", "difficulty": 3, "question": "MM 理論（無公司稅）主張，在完美市場下，公司價值？", "options": ["隨負債增加而上升", "隨負債增加而下降", "與資本結構無關", "僅由股利政策決定"], "answer": 2, "explanation": "莫迪格里安尼與米勒（無稅）主張完美市場下公司價值取決於資產獲利能力，與資本結構無關。加入公司稅後，負債的利息稅盾才會提升價值。" },
-    { "id": "uni_finance_u_020", "difficulty": 3, "question": "在現金流折現下，其他條件不變，折現率上升會使專案 NPV？", "options": ["上升", "維持不變", "先升後降", "下降"], "answer": 3, "explanation": "折現率上升使未來現金流的現值變小，NPV 隨之下降。這也是 NPV 對資金成本敏感、並與 IRR（使 NPV 為零之折現率）概念相連的原因。" }
+    {
+      "id": "uni_finance_u_001",
+      "difficulty": 1,
+      "question": "貨幣時間價值中，「今天的一元比未來的一元更有價值」主要是因為？",
+      "options": [
+        "資金具有機會成本，可再投資生息",
+        "通貨必然緊縮",
+        "未來一定會虧損",
+        "名目與實質利率必然相同"
+      ],
+      "answer": 0,
+      "explanation": "今天的錢可立即投資產生報酬，具機會成本，故現值高於未來同額。這是時間價值的核心，與通膨方向雖有關但屬獨立於機會成本的因素。"
+    },
+    {
+      "id": "uni_finance_u_002",
+      "difficulty": 1,
+      "question": "在複利之下，將未來值折算為現值的公式為？",
+      "options": [
+        "$PV=FV\\times(1+r)^n$",
+        "$PV=\\frac{FV}{(1+r)^n}$",
+        "$PV=FV\\times r\\times n$",
+        "$PV=\\frac{FV}{1+rn}$"
+      ],
+      "answer": 1,
+      "explanation": "複利現值為 $PV=\\frac{FV}{(1+r)^n}$，將未來值折現。第一式反而是由現值求終值的公式，勿把折現與複利成長方向顛倒。"
+    },
+    {
+      "id": "uni_finance_u_003",
+      "difficulty": 1,
+      "question": "年利率 10%、每年複利一次，現在存入 $1000$ 元，一年後的終值為？",
+      "options": [
+        "$900$ 元",
+        "$1000$ 元",
+        "$1100$ 元",
+        "$1210$ 元"
+      ],
+      "answer": 2,
+      "explanation": "$FV=1000\\times(1+0.1)=1100$。$1210$ 是兩年後的終值 $1000\\times(1.1)^2$，計算時勿把年期弄錯。"
+    },
+    {
+      "id": "uni_finance_u_004",
+      "difficulty": 1,
+      "question": "在效率市場中，風險與預期報酬的一般關係為？",
+      "options": [
+        "風險越高預期報酬越低",
+        "兩者完全無關",
+        "報酬固定，與風險無關",
+        "風險越高，投資人要求的預期報酬越高"
+      ],
+      "answer": 3,
+      "explanation": "理性且風險趨避的投資人承擔較高風險時，會要求較高預期報酬作為補償，故呈正向關係。無風險資產報酬最低即為此理。"
+    },
+    {
+      "id": "uni_finance_u_005",
+      "difficulty": 1,
+      "question": "藉由投資組合分散投資，主要能降低下列哪一種風險？",
+      "options": [
+        "非系統（可分散）風險",
+        "系統風險",
+        "市場風險",
+        "利率風險"
+      ],
+      "answer": 0,
+      "explanation": "分散投資可消除個別公司特有的非系統風險，但無法消除影響全市場的系統風險。故充分分散後，投資組合仍留有系統風險。"
+    },
+    {
+      "id": "uni_finance_u_006",
+      "difficulty": 1,
+      "question": "淨現值（NPV）法的決策準則為？",
+      "options": [
+        "NPV 小於 0 時接受",
+        "NPV 大於 0 時接受",
+        "NPV 等於 IRR 時接受",
+        "僅看回收期長短"
+      ],
+      "answer": 1,
+      "explanation": "NPV 大於零表示計畫創造超額價值，應接受；小於零則拒絕。NPV 法考慮所有現金流與時間價值，理論上優於回收期法。"
+    },
+    {
+      "id": "uni_finance_u_007",
+      "difficulty": 1,
+      "question": "傳統「回收期間法」最主要的缺點是？",
+      "options": [
+        "計算過於複雜",
+        "一定需要折現率",
+        "忽略回收期後的現金流與貨幣時間價值",
+        "無法比較不同專案"
+      ],
+      "answer": 2,
+      "explanation": "傳統回收期法未考慮貨幣時間價值，也忽略回收期之後的現金流量。因此常作為輔助指標，而非主要決策依據。"
+    },
+    {
+      "id": "uni_finance_u_008",
+      "difficulty": 2,
+      "question": "每年年底收到 $100$ 元、共 3 年，折現率 10%，此普通年金的現值最接近？",
+      "options": [
+        "$300$ 元",
+        "$273$ 元",
+        "$225$ 元",
+        "$248.7$ 元"
+      ],
+      "answer": 3,
+      "explanation": "普通年金現值 $PV=100\\times\\frac{1-(1+0.1)^{-3}}{0.1}\\approx248.7$。$300$ 是未折現的名目總額，忽略時間價值會高估現值。"
+    },
+    {
+      "id": "uni_finance_u_009",
+      "difficulty": 2,
+      "question": "某專案期初投入 $1000$ 元，第 1 年底、第 2 年底各流入 $600$ 元，折現率 10%，NPV 最接近？",
+      "options": [
+        "$41$ 元",
+        "$200$ 元",
+        "$-41$ 元",
+        "$100$ 元"
+      ],
+      "answer": 0,
+      "explanation": "$NPV=-1000+\\frac{600}{1.1}+\\frac{600}{(1.1)^2}\\approx-1000+545.5+495.9=41$。若直接以 $1200-1000=200$ 未折現相減，會明顯高估。"
+    },
+    {
+      "id": "uni_finance_u_010",
+      "difficulty": 2,
+      "question": "內部報酬率（IRR）的定義是？",
+      "options": [
+        "使 NPV 最大化的折現率",
+        "使 NPV 等於零的折現率",
+        "恆等於無風險利率",
+        "恆等於會計報酬率"
+      ],
+      "answer": 1,
+      "explanation": "IRR 是使專案 NPV 為零的折現率，代表專案的內含報酬率。當 IRR 大於資金成本時可接受，多數情況與 NPV 法結論一致。"
+    },
+    {
+      "id": "uni_finance_u_011",
+      "difficulty": 2,
+      "question": "計算加權平均資金成本（WACC）時，債務成本通常需要？",
+      "options": [
+        "以稅前金額計算",
+        "額外加計股利",
+        "乘以 $(1-稅率)$ 以反映利息稅盾",
+        "直接等於股東權益成本"
+      ],
+      "answer": 2,
+      "explanation": "利息費用可抵稅，故稅後債務成本為 $k_d\\times(1-T)$。WACC 以各資金來源的市值權重加權，權益成本則不享有此稅盾。"
+    },
+    {
+      "id": "uni_finance_u_012",
+      "difficulty": 2,
+      "question": "甲股票報酬率標準差大於乙股票，且兩者預期報酬相同，風險趨避的投資人應？",
+      "options": [
+        "選甲股票",
+        "兩者皆不投資",
+        "無從判斷",
+        "選乙股票（風險較低）"
+      ],
+      "answer": 3,
+      "explanation": "預期報酬相同時，風險趨避的投資人會選標準差（風險）較低的乙。此即效率取捨原則：同報酬取低風險，同風險取高報酬。"
+    },
+    {
+      "id": "uni_finance_u_013",
+      "difficulty": 2,
+      "question": "流動比率的計算公式為？",
+      "options": [
+        "流動資產÷流動負債",
+        "現金÷流動負債",
+        "流動資產÷總資產",
+        "(流動資產−存貨)÷流動負債"
+      ],
+      "answer": 0,
+      "explanation": "流動比率＝流動資產÷流動負債，衡量短期償債能力。第四式（扣除存貨後再除）為速動比率，標準較嚴格，勿與流動比率混淆。"
+    },
+    {
+      "id": "uni_finance_u_014",
+      "difficulty": 2,
+      "question": "某公司稅後淨利 $200$ 萬元、股東權益 $1000$ 萬元，其股東權益報酬率（ROE）為？",
+      "options": [
+        "10%",
+        "20%",
+        "2%",
+        "50%"
+      ],
+      "answer": 1,
+      "explanation": "$ROE=\\frac{淨利}{股東權益}=\\frac{200}{1000}=20\\%$。若誤以總資產或營收為分母，算出的是 ROA 或淨利率，意義不同。"
+    },
+    {
+      "id": "uni_finance_u_015",
+      "difficulty": 3,
+      "question": "某永續年金每年底支付 $50$ 元，折現率 5%，其現值為？",
+      "options": [
+        "$500$ 元",
+        "$250$ 元",
+        "$1000$ 元",
+        "$1050$ 元"
+      ],
+      "answer": 2,
+      "explanation": "永續年金現值 $PV=\\frac{C}{r}=\\frac{50}{0.05}=1000$。永續年金無到期日，直接以現金流除以折現率即可，不需再另加本金。"
+    },
+    {
+      "id": "uni_finance_u_016",
+      "difficulty": 3,
+      "question": "關於 NPV 與 IRR 的比較，下列敘述何者正確？",
+      "options": [
+        "兩法結論永遠一致",
+        "IRR 必定唯一",
+        "NPV 假設現金流以 IRR 再投資",
+        "互斥方案且規模差異大時，NPV 較可靠"
+      ],
+      "answer": 3,
+      "explanation": "互斥方案排序時，NPV 以資金成本再投資、直接反映價值增加，較 IRR 可靠。非常規現金流下 IRR 甚至可能出現多重解。"
+    },
+    {
+      "id": "uni_finance_u_017",
+      "difficulty": 3,
+      "question": "某投資今日 $1000$ 元，兩年後成長為 $1210$ 元，其年複利報酬率為？",
+      "options": [
+        "10%",
+        "21%",
+        "5%",
+        "1.1%"
+      ],
+      "answer": 0,
+      "explanation": "$r=\\left(\\frac{1210}{1000}\\right)^{1/2}-1=1.1-1=10\\%$。若把兩年總報酬 21% 直接除以 2 得 10.5%，只是近似，複利正解為 10%。"
+    },
+    {
+      "id": "uni_finance_u_018",
+      "difficulty": 3,
+      "question": "依 CAPM，某股票 $\\beta=1.5$、無風險利率 4%、市場預期報酬 12%，其要求報酬率為？",
+      "options": [
+        "12%",
+        "16%",
+        "18%",
+        "8%"
+      ],
+      "answer": 1,
+      "explanation": "$r=R_f+\\beta(R_m-R_f)=4\\%+1.5\\times(12\\%-4\\%)=16\\%$。市場風險溢酬為 $R_m-R_f=8\\%$，勿誤用 $R_m$ 整體去乘 $\\beta$。"
+    },
+    {
+      "id": "uni_finance_u_019",
+      "difficulty": 3,
+      "question": "MM 理論（無公司稅）主張，在完美市場下，公司價值？",
+      "options": [
+        "隨負債增加而上升",
+        "隨負債增加而下降",
+        "與資本結構無關",
+        "僅由股利政策決定"
+      ],
+      "answer": 2,
+      "explanation": "莫迪格里安尼與米勒（無稅）主張完美市場下公司價值取決於資產獲利能力，與資本結構無關。加入公司稅後，負債的利息稅盾才會提升價值。"
+    },
+    {
+      "id": "uni_finance_u_020",
+      "difficulty": 3,
+      "question": "在現金流折現下，其他條件不變，折現率上升會使專案 NPV？",
+      "options": [
+        "上升",
+        "維持不變",
+        "先升後降",
+        "下降"
+      ],
+      "answer": 3,
+      "explanation": "折現率上升使未來現金流的現值變小，NPV 隨之下降。這也是 NPV 對資金成本敏感、並與 IRR（使 NPV 為零之折現率）概念相連的原因。"
+    },
+    {
+      "id": "uni_finance_u_021",
+      "difficulty": 2,
+      "question": "依下圖之現金流量（期初支出與各年底回收），折現率為 10%，此專案的淨現值（NPV）最接近？",
+      "figure": "<svg viewBox=\"0 0 260 130\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"70\" x2=\"235\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"66\" x2=\"50\" y2=\"74\" stroke=\"currentColor\"/><line x1=\"130\" y1=\"66\" x2=\"130\" y2=\"74\" stroke=\"currentColor\"/><line x1=\"210\" y1=\"66\" x2=\"210\" y2=\"74\" stroke=\"currentColor\"/><text x=\"50\" y=\"90\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">0</text><text x=\"130\" y=\"90\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">1</text><text x=\"210\" y=\"90\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">2</text><line x1=\"50\" y1=\"70\" x2=\"50\" y2=\"102\" stroke=\"#ef4444\" stroke-width=\"1.5\"/><polygon points=\"50,110 45,100 55,100\" fill=\"#ef4444\" fill-opacity=\"0.3\" stroke=\"#ef4444\"/><text x=\"50\" y=\"124\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">-500</text><line x1=\"130\" y1=\"70\" x2=\"130\" y2=\"38\" stroke=\"#22c55e\" stroke-width=\"1.5\"/><polygon points=\"130,30 125,40 135,40\" fill=\"#22c55e\" fill-opacity=\"0.3\" stroke=\"#22c55e\"/><text x=\"130\" y=\"24\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">+300</text><line x1=\"210\" y1=\"70\" x2=\"210\" y2=\"38\" stroke=\"#22c55e\" stroke-width=\"1.5\"/><polygon points=\"210,30 205,40 215,40\" fill=\"#22c55e\" fill-opacity=\"0.3\" stroke=\"#22c55e\"/><text x=\"210\" y=\"24\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">+400</text></svg>",
+      "options": [
+        "$103$ 元",
+        "$200$ 元",
+        "$150$ 元",
+        "$80$ 元"
+      ],
+      "answer": 0,
+      "explanation": "$NPV=-500+\\frac{300}{1.1}+\\frac{400}{(1.1)^2}\\approx-500+272.7+330.6=103$，故選 103 元。若直接以未折現的 $700-500=200$ 相減，會忽略貨幣時間價值而高估專案價值。"
+    },
+    {
+      "id": "uni_finance_u_022",
+      "difficulty": 3,
+      "question": "下圖為某專案的 NPV 對折現率（r）之關係曲線。由圖判讀，此專案的內部報酬率（IRR）最接近？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"110\" x2=\"225\" y2=\"110\" stroke=\"currentColor\"/><text x=\"36\" y=\"24\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">NPV</text><text x=\"210\" y=\"104\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">r(%)</text><path d=\"M45,45 C90,75 120,98 148,110 C180,124 205,140 220,150\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"76\" y1=\"110\" x2=\"76\" y2=\"115\" stroke=\"currentColor\"/><text x=\"76\" y=\"128\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">4</text><line x1=\"112\" y1=\"110\" x2=\"112\" y2=\"115\" stroke=\"currentColor\"/><text x=\"112\" y=\"128\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">8</text><line x1=\"148\" y1=\"105\" x2=\"148\" y2=\"115\" stroke=\"#ef4444\"/><text x=\"148\" y=\"128\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">12</text><line x1=\"184\" y1=\"110\" x2=\"184\" y2=\"115\" stroke=\"currentColor\"/><text x=\"184\" y=\"128\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">16</text><circle cx=\"148\" cy=\"110\" r=\"4\" fill=\"#ef4444\" fill-opacity=\"0.3\" stroke=\"#ef4444\"/></svg>",
+      "options": [
+        "8%",
+        "12%",
+        "20%",
+        "0%"
+      ],
+      "answer": 1,
+      "explanation": "IRR 是使 NPV 等於零的折現率，即曲線與橫軸的交點，由圖可讀出約在 12%。若把曲線最高點對應的折現率誤當成 IRR 就會判讀錯誤，因為 IRR 對應的是零點而非極大值。"
+    },
+    {
+      "id": "uni_finance_u_023",
+      "difficulty": 1,
+      "question": "下圖長條圖為某公司兩年度的營收（單位：萬元）。其 2024 年相對於 2023 年的營收成長率為？",
+      "figure": "<svg viewBox=\"0 0 220 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"35\" y1=\"150\" x2=\"205\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"35\" y1=\"20\" x2=\"35\" y2=\"150\" stroke=\"currentColor\"/><rect x=\"60\" y=\"70\" width=\"45\" height=\"80\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"#3b82f6\"/><rect x=\"135\" y=\"50\" width=\"45\" height=\"100\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"#3b82f6\"/><text x=\"82\" y=\"64\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">100</text><text x=\"157\" y=\"44\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">125</text><text x=\"82\" y=\"165\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">2023</text><text x=\"157\" y=\"165\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">2024</text><text x=\"22\" y=\"30\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">萬元</text></svg>",
+      "options": [
+        "20%",
+        "12.5%",
+        "25%",
+        "125%"
+      ],
+      "answer": 2,
+      "explanation": "成長率 $=\\frac{125-100}{100}=25\\%$，以基期（2023 年）為分母，故選 25%。若誤以當年度 125 為分母而得 20%，就是把成長率的比較基準弄反了。"
+    },
+    {
+      "id": "uni_finance_u_024",
+      "difficulty": 3,
+      "question": "下圖圓餅圖為某公司之資本結構。已知稅後債務成本為 5%、權益成本為 15%，其加權平均資金成本（WACC）最接近？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M110,90 L110,35 A55,55 0 0 1 142.3,134.5 Z\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"#3b82f6\"/><path d=\"M110,90 L142.3,134.5 A55,55 0 1 1 110,35 Z\" fill=\"#f59e0b\" fill-opacity=\"0.3\" stroke=\"#f59e0b\"/><text x=\"150\" y=\"66\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">負債 40%</text><text x=\"52\" y=\"120\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">權益 60%</text></svg>",
+      "options": [
+        "9%",
+        "10%",
+        "20%",
+        "11%"
+      ],
+      "answer": 3,
+      "explanation": "$WACC=0.4\\times5\\%+0.6\\times15\\%=2\\%+9\\%=11\\%$，以各資金來源的市值權重加權，故選 11%。若忽略權重直接取 $(5\\%+15\\%)/2=10\\%$ 的簡單平均，會低估權益比重較高時的整體資金成本。"
+    },
+    {
+      "id": "uni_finance_u_025",
+      "difficulty": 3,
+      "question": "下圖為買進某買權（call）到期時的損益圖，履約價與權利金可由圖中讀出。此買權部位的損益兩平點（標的價格）為？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"15\" x2=\"40\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"120\" x2=\"225\" y2=\"120\" stroke=\"currentColor\"/><text x=\"36\" y=\"20\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">損益</text><text x=\"212\" y=\"114\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">S</text><polyline points=\"50,140 114,140 210,20\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"114\" y1=\"116\" x2=\"114\" y2=\"124\" stroke=\"currentColor\"/><text x=\"114\" y=\"136\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">50</text><line x1=\"36\" y1=\"140\" x2=\"44\" y2=\"140\" stroke=\"currentColor\"/><text x=\"32\" y=\"144\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">-5</text><circle cx=\"130\" cy=\"120\" r=\"4\" fill=\"#ef4444\" fill-opacity=\"0.3\" stroke=\"#ef4444\"/><text x=\"138\" y=\"116\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">?</text></svg>",
+      "options": [
+        "$55$ 元",
+        "$50$ 元",
+        "$45$ 元",
+        "$60$ 元"
+      ],
+      "answer": 0,
+      "explanation": "買進買權的損益兩平點 = 履約價 + 權利金 = $50+5=55$ 元，即圖中損益回到零時的標的價格，故選 55 元。常見錯誤是把損益兩平點直接當成履約價 50，忽略了已付出的權利金成本。"
+    },
+    {
+      "id": "uni_finance_u_026",
+      "difficulty": 1,
+      "question": "面額 $1000$ 元、一年後到期的零息債券，若市場殖利率為 5%，其目前的合理價格最接近？",
+      "options": [
+        "$900$ 元",
+        "$952$ 元",
+        "$1000$ 元",
+        "$1050$ 元"
+      ],
+      "answer": 1,
+      "explanation": "零息債券價格為面額的折現值 $\\frac{1000}{1+0.05}\\approx952$ 元，故選 952 元。若把面額乘以 $(1+利率)$ 得 1050，方向剛好相反，那是求終值而非折現求現值。"
+    },
+    {
+      "id": "uni_finance_u_027",
+      "difficulty": 2,
+      "question": "名目年利率為 12%、每季複利一次，其有效年利率（EAR）最接近？",
+      "options": [
+        "12%",
+        "12.36%",
+        "12.55%",
+        "13%"
+      ],
+      "answer": 2,
+      "explanation": "$EAR=\\left(1+\\frac{0.12}{4}\\right)^4-1=(1.03)^4-1\\approx12.55\\%$，故選 12.55%。若直接把名目 12% 當作有效利率會低估報酬，複利次數越多，EAR 與名目利率的差距越大。"
+    },
+    {
+      "id": "uni_finance_u_028",
+      "difficulty": 3,
+      "question": "以固定成長股利折現模型（Gordon 模型）評價，某股票下一期預期股利為 $2$ 元、股利永續成長率 3%、投資人要求報酬率 8%，其合理股價為？",
+      "options": [
+        "$25$ 元",
+        "$50$ 元",
+        "$66.7$ 元",
+        "$40$ 元"
+      ],
+      "answer": 3,
+      "explanation": "$P_0=\\frac{D_1}{r-g}=\\frac{2}{0.08-0.03}=\\frac{2}{0.05}=40$ 元，故選 40 元。分母必須用「要求報酬率減成長率」；若漏減成長率而用 $\\frac{2}{0.08}=25$，就會低估股價。"
+    },
+    {
+      "id": "uni_finance_u_029",
+      "difficulty": 1,
+      "question": "某公司總資產為 $500$ 萬元、總負債為 $200$ 萬元，其負債比率為？",
+      "options": [
+        "40%",
+        "60%",
+        "25%",
+        "2.5%"
+      ],
+      "answer": 0,
+      "explanation": "負債比率 $=\\frac{總負債}{總資產}=\\frac{200}{500}=40\\%$，衡量資產由負債支應的比例，故選 40%。60% 是權益占資產的比例（權益比率），兩者互補但意義不同，勿混淆。"
+    },
+    {
+      "id": "uni_finance_u_030",
+      "difficulty": 2,
+      "question": "某公司每股盈餘（EPS）為 $4$ 元，目前股價為 $60$ 元，其本益比（P/E）為？",
+      "options": [
+        "4",
+        "15",
+        "240",
+        "0.25"
+      ],
+      "answer": 1,
+      "explanation": "本益比 $=\\frac{股價}{每股盈餘}=\\frac{60}{4}=15$，代表投資人願為每一元盈餘付出 15 元，故選 15。若把股價乘以 EPS 得 240，或以 EPS 除以股價得 0.25（此為益本比），都是公式方向弄錯。"
+    },
+    {
+      "id": "uni_finance_u_031",
+      "difficulty": 2,
+      "question": "在其他條件不變下，當市場利率上升時，既有固定利率債券的市場價格通常會如何變動？",
+      "options": [
+        "上升",
+        "不變",
+        "下跌",
+        "先跌後升"
+      ],
+      "answer": 2,
+      "explanation": "債券價格是未來固定現金流的折現值，折現率（市場利率）上升會使現值下降，故價格下跌，選「下跌」。這說明債券價格與市場利率呈反向關係，也是利率風險的來源。"
+    },
+    {
+      "id": "uni_finance_u_032",
+      "difficulty": 1,
+      "question": "財務管理中，「淨營運資金（淨營運資本）」的定義為？",
+      "options": [
+        "流動資產÷流動負債",
+        "總資產－總負債",
+        "流動資產＋流動負債",
+        "流動資產－流動負債"
+      ],
+      "answer": 3,
+      "explanation": "淨營運資金 = 流動資產 － 流動負債，反映公司可用於日常營運的短期資金淨額，故選最後一項。第一項（流動資產÷流動負債）是流動比率，屬於比率而非金額，兩者概念不同。"
+    }
   ]
 }

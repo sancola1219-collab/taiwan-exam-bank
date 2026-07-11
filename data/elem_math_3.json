@@ -162,6 +162,107 @@
       "options": ["8 元", "64 元", "9 元", "80 元"],
       "answer": 2,
       "explanation": "每顆的價錢＝72÷8＝9 元，用「八九七十二」驗算 8×9＝72。常見錯誤是把 72－8＝64 或 72＋8＝80 當成答案。"
+    },
+    {
+      "id": "elem_math_3_021",
+      "difficulty": 1,
+      "question": "5 公升等於多少毫升？",
+      "options": ["5000 毫升", "500 毫升", "50 毫升", "10000 毫升"],
+      "answer": 0,
+      "explanation": "容量單位的換算是 1 公升＝1000 毫升，所以 5 公升＝5×1000＝5000 毫升。常見錯誤是把 1 公升當成 100 毫升算成 500 毫升，和「1 公尺＝100 公分」搞混。"
+    },
+    {
+      "id": "elem_math_3_022",
+      "difficulty": 1,
+      "question": "下圖中兩條線所夾的角，是哪一種角？",
+      "figure": "<svg viewBox=\"0 0 220 150\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"110\" y1=\"120\" x2=\"205\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"110\" y1=\"120\" x2=\"55\" y2=\"25\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 138 120 A 28 28 0 0 0 96 96\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"110\" cy=\"120\" r=\"2.5\" fill=\"currentColor\"/></svg>",
+      "options": ["銳角", "直角", "鈍角", "平角"],
+      "answer": 2,
+      "explanation": "圖中的角開口比直角（90 度的正方形角）還要大，卻沒有張成一直線，所以是鈍角。常見錯誤是只看角的兩邊很短就以為是銳角，其實判斷角的大小要看兩邊張開的程度，和邊畫多長無關。"
+    },
+    {
+      "id": "elem_math_3_023",
+      "difficulty": 1,
+      "question": "123×3＝？",
+      "options": ["363", "369", "339", "126"],
+      "answer": 1,
+      "explanation": "從個位算起：3×3＝9、2×3＝6、1×3＝3，合起來是 369。常見錯誤是把某一位忘了乘算成 363，或把乘法看成加法 123＋3＝126。"
+    },
+    {
+      "id": "elem_math_3_024",
+      "difficulty": 1,
+      "question": "一場電影從下午 2 時 10 分開始播放，到下午 2 時 55 分結束，這場電影一共播放了多少分鐘？",
+      "options": ["55 分鐘", "35 分鐘", "65 分鐘", "45 分鐘"],
+      "answer": 3,
+      "explanation": "同一個小時內的時間差用分鐘相減：55－10＝45 分鐘。常見錯誤是直接把結束時刻的 55 當成答案，或把兩個分鐘數相加得到 65。"
+    },
+    {
+      "id": "elem_math_3_025",
+      "difficulty": 2,
+      "question": "下圖是三年一班同學最喜歡的運動人數統計圖。喜歡桌球和喜歡羽球的人數合起來共有幾人？",
+      "figure": "<svg viewBox=\"0 0 260 180\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"40\" y=\"14\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">人</text><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"150\" x2=\"250\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"124\" x2=\"250\" y2=\"124\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"40\" y1=\"98\" x2=\"250\" y2=\"98\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"40\" y1=\"72\" x2=\"250\" y2=\"72\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"40\" y1=\"46\" x2=\"250\" y2=\"46\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"40\" y1=\"20\" x2=\"250\" y2=\"20\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><text x=\"32\" y=\"154\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">0</text><text x=\"32\" y=\"128\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">2</text><text x=\"32\" y=\"102\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">4</text><text x=\"32\" y=\"76\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">6</text><text x=\"32\" y=\"50\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">8</text><text x=\"32\" y=\"24\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">10</text><rect x=\"60\" y=\"46\" width=\"30\" height=\"104\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"110\" y=\"98\" width=\"30\" height=\"52\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"160\" y=\"72\" width=\"30\" height=\"78\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"210\" y=\"124\" width=\"30\" height=\"26\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"75\" y=\"165\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">籃球</text><text x=\"125\" y=\"165\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">跳繩</text><text x=\"175\" y=\"165\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">桌球</text><text x=\"225\" y=\"165\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">羽球</text></svg>",
+      "options": ["8 人", "6 人", "12 人", "10 人"],
+      "answer": 0,
+      "explanation": "從長條圖對照左邊刻度：桌球的長條到 6、羽球的長條到 2，合起來 6＋2＝8 人。常見錯誤是刻度沒有一格一格對準，或只讀了其中一個長條就作答。"
+    },
+    {
+      "id": "elem_math_3_026",
+      "difficulty": 2,
+      "question": "下面的數線把 0 到 1 平均分成 5 段，箭頭所指的位置代表的分數是多少？",
+      "figure": "<svg viewBox=\"0 0 260 80\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"45\" x2=\"240\" y2=\"45\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"20\" y1=\"40\" x2=\"20\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"64\" y1=\"40\" x2=\"64\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"108\" y1=\"40\" x2=\"108\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"152\" y1=\"40\" x2=\"152\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"196\" y1=\"40\" x2=\"196\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"240\" y1=\"40\" x2=\"240\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"20\" y=\"66\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">0</text><text x=\"240\" y=\"66\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">1</text><text x=\"152\" y=\"14\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">?</text><line x1=\"152\" y1=\"18\" x2=\"152\" y2=\"41\" stroke=\"#ef4444\" stroke-width=\"2\"/><polygon points=\"152,47 147,37 157,37\" fill=\"#ef4444\" stroke=\"none\"/></svg>",
+      "options": ["5 分之 2", "5 分之 3", "3 分之 5", "5 分之 4"],
+      "answer": 1,
+      "explanation": "0 到 1 被平均分成 5 段，每一段是 5 分之 1；箭頭在第 3 個刻度上，所以是 5 分之 3。常見錯誤是數錯格數答成 5 分之 2，或把分子分母寫反成 3 分之 5。"
+    },
+    {
+      "id": "elem_math_3_027",
+      "difficulty": 2,
+      "question": "一瓶醬油裝滿是 1 公升，煮菜時用掉了 350 毫升，瓶子裡還剩下多少毫升的醬油？",
+      "options": ["350 毫升", "750 毫升", "650 毫升", "1350 毫升"],
+      "answer": 2,
+      "explanation": "先把 1 公升換成 1000 毫升，再減去用掉的：1000－350＝650 毫升。常見錯誤是忘了換單位直接拿 1 去減，或把數字相加算成 1350 毫升。"
+    },
+    {
+      "id": "elem_math_3_028",
+      "difficulty": 2,
+      "question": "下圖中每一個方格的大小都相同，塗色部分的面積是幾個方格？",
+      "figure": "<svg viewBox=\"0 0 200 160\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"40,40 80,40 80,80 120,80 120,100 40,100\" fill=\"#22c55e\" fill-opacity=\"0.25\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"40\" x2=\"40\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"80\" y1=\"40\" x2=\"80\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"100\" y1=\"40\" x2=\"100\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"40\" y1=\"40\" x2=\"120\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"40\" y1=\"60\" x2=\"120\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"40\" y1=\"80\" x2=\"120\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"40\" y1=\"100\" x2=\"120\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"1\"/></svg>",
+      "options": ["12 個", "10 個", "7 個", "8 個"],
+      "answer": 3,
+      "explanation": "一格一格數塗色的方格：左邊 2 直行各 3 格共 6 格，再加下面凸出來的 2 格，合計 6＋2＝8 個方格。常見錯誤是把整個大長方形 4×3＝12 個都算進去，或漏數了轉角的方格。"
+    },
+    {
+      "id": "elem_math_3_029",
+      "difficulty": 3,
+      "question": "下圖的時鐘顯示小明開始寫作業的時刻。他寫了 40 分鐘後完成，完成作業時是幾時幾分？",
+      "figure": "<svg viewBox=\"0 0 220 180\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"110\" cy=\"90\" r=\"70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"110\" y=\"40\" font-size=\"14\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">12</text><text x=\"170\" y=\"95\" font-size=\"14\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">3</text><text x=\"110\" y=\"150\" font-size=\"14\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">6</text><text x=\"52\" y=\"95\" font-size=\"14\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">9</text><line x1=\"110\" y1=\"90\" x2=\"110\" y2=\"145\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"110\" y1=\"90\" x2=\"71\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"3.5\"/><circle cx=\"110\" cy=\"90\" r=\"3\" fill=\"currentColor\"/></svg>",
+      "options": ["10 時 10 分", "10 時 20 分", "9 時 70 分", "10 時 30 分"],
+      "answer": 0,
+      "explanation": "分針指向 6 是 30 分，時針在 9 和 10 中間，所以開始時刻是 9 時 30 分；9 時 30 分再過 40 分鐘，30＋40＝70 分要進位成 1 小時 10 分，變成 10 時 10 分。常見錯誤是寫成 9 時 70 分沒有進位，或加法算錯。"
+    },
+    {
+      "id": "elem_math_3_030",
+      "difficulty": 3,
+      "question": "小玲有 100 元，買了 3 枝各 18 元的原子筆後，剩下的錢最多可以買幾個 5 元的橡皮擦？",
+      "options": ["10 個", "9 個", "8 個", "46 個"],
+      "answer": 1,
+      "explanation": "先算原子筆花的錢：18×3＝54 元，剩下 100－54＝46 元；再用 46÷5＝9 餘 1，最多可以買 9 個橡皮擦。常見錯誤是把剩下不夠買一個的 1 元也硬湊成 10 個，或忘了先扣掉買原子筆的錢。"
+    },
+    {
+      "id": "elem_math_3_031",
+      "difficulty": 3,
+      "question": "做一個燈籠要用 6 張色紙，現在有 50 張色紙，最多可以做幾個燈籠，還會剩下幾張色紙？",
+      "options": ["9 個，剩 2 張", "8 個，剩 4 張", "8 個，剩 2 張", "7 個，剩 8 張"],
+      "answer": 2,
+      "explanation": "用除法算：50÷6＝8 餘 2，所以最多做 8 個燈籠，剩下 2 張色紙。常見錯誤是商多算一個變成 9 個（其實 6×9＝54 已經超過 50），或餘數算成比除數 6 還大的數。"
+    },
+    {
+      "id": "elem_math_3_032",
+      "difficulty": 3,
+      "question": "學校操場跑道一圈是 400 公尺，小華沿著跑道跑了 3 圈，還要再跑多少公尺才滿 2 公里？",
+      "options": ["1200 公尺", "700 公尺", "600 公尺", "800 公尺"],
+      "answer": 3,
+      "explanation": "小華跑了 400×3＝1200 公尺；2 公里＝2000 公尺，還差 2000－1200＝800 公尺。常見錯誤是把 2 公里當成 200 公尺，或算出跑了 1200 公尺就當成答案，忘了題目問的是「還差多少」。"
     }
   ]
 }

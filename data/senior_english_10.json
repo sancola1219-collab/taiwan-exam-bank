@@ -262,6 +262,136 @@
       ],
       "answer": 1,
       "explanation": "reach an agreement 是固定搭配，意為「達成協議」，全句翻譯為「經過數月的談判，兩家公司終於就新專案達成協議」。argument 是「爭論」，與 finally reached 的正面語意矛盾；instrument 是「儀器、樂器」，equipment 是「設備」且為不可數名詞，皆不符合語境與句法。"
+    },
+    {
+      "id": "senior_english_10_021",
+      "difficulty": 1,
+      "question": "This is the ______ movie I have ever seen; I laughed from the beginning to the end.",
+      "options": [
+        "interesting",
+        "more interesting",
+        "most interesting",
+        "interestingly"
+      ],
+      "answer": 2,
+      "explanation": "「the + 最高級 + 名詞 + (that) + 主詞 + have ever + 過去分詞」是常見的最高級句型，表示「（某人）看過最……的」，故選 most interesting，全句翻譯為「這是我看過最有趣的電影，我從頭笑到尾」。more interesting 是比較級，不能與 the 和「ever seen」的最高級語境搭配；interestingly 是副詞，不能修飾名詞 movie。"
+    },
+    {
+      "id": "senior_english_10_022",
+      "difficulty": 1,
+      "question": "My grandmother is very ______; she always shares her food with the neighbors and helps anyone in need.",
+      "options": [
+        "generous",
+        "selfish",
+        "lazy",
+        "nervous"
+      ],
+      "answer": 0,
+      "explanation": "generous 意為「慷慨的、大方的」，與後半句「總是與鄰居分享食物、幫助有需要的人」的描述一致，故為正解，全句翻譯為「我奶奶很慷慨，她總是把食物分給鄰居，也幫助任何有需要的人」。selfish（自私的）語意相反，lazy（懶惰的）與 nervous（緊張的）則和分享、助人的行為無關，屬於情境不符的誘答選項。"
+    },
+    {
+      "id": "senior_english_10_023",
+      "difficulty": 1,
+      "question": "There ______ some milk in the refrigerator, so you don't have to buy any on your way home.",
+      "options": [
+        "is",
+        "are",
+        "have",
+        "has"
+      ],
+      "answer": 0,
+      "explanation": "milk（牛奶）是不可數名詞，視為單數，且「There + be 動詞」句型須依後面主詞決定單複數，故用 is，全句翻譯為「冰箱裡有一些牛奶，所以你回家路上不必買」。are 用於複數可數名詞，與不可數的 milk 不符；There 之後的存在句只能接 be 動詞，不能用 have 或 has。"
+    },
+    {
+      "id": "senior_english_10_024",
+      "difficulty": 2,
+      "question": "If it ______ tomorrow, we will cancel the outdoor picnic and stay at home instead.",
+      "options": [
+        "will rain",
+        "rains",
+        "rained",
+        "is raining"
+      ],
+      "answer": 1,
+      "explanation": "本題為表示未來可能發生的「第一類條件句」，if 引導的條件子句須用現在簡單式代替未來式，主要子句才用 will，故選 rains，全句翻譯為「如果明天下雨，我們就取消戶外野餐，改待在家裡」。常見錯誤是在 if 子句中直接寫 will rain；rained 是過去式，is raining 表示現在正在下雨，皆不符合「明天」的未來語境。"
+    },
+    {
+      "id": "senior_english_10_025",
+      "difficulty": 2,
+      "question": "The famous painting Mona Lisa ______ by Leonardo da Vinci more than five hundred years ago.",
+      "options": [
+        "painted",
+        "was painted",
+        "has painted",
+        "paints"
+      ],
+      "answer": 1,
+      "explanation": "主詞 the painting（畫作）是動作的接受者，與 paint 是被動關係，且句尾 more than five hundred years ago 是明確的過去時間，故用過去式被動語態 was painted，全句翻譯為「名畫《蒙娜麗莎》是達文西五百多年前所畫的」。painted、paints 為主動語態，語意變成「畫作去畫別人」；has painted 是現在完成式，不能與明確的過去時間副詞連用。"
+    },
+    {
+      "id": "senior_english_10_026",
+      "difficulty": 2,
+      "question": "I really enjoyed talking with you today. I look forward to ______ you again next month.",
+      "options": [
+        "see",
+        "saw",
+        "seen",
+        "seeing"
+      ],
+      "answer": 3,
+      "explanation": "在 look forward to 這個片語中，to 是介係詞而非不定詞，後面須接動名詞，故選 seeing，全句翻譯為「今天很高興和你聊天，我期待下個月再見到你」。最常見的錯誤是把 to 當成不定詞而選原形動詞 see；saw 是過去式、seen 是過去分詞，都不能接在介係詞 to 之後。類似片語還有 be used to、devote...to 等。"
+    },
+    {
+      "id": "senior_english_10_027",
+      "difficulty": 3,
+      "question": "I wish I ______ taller; then I could easily reach the books on the top shelf without a stool.",
+      "options": [
+        "am",
+        "was",
+        "were",
+        "be"
+      ],
+      "answer": 2,
+      "explanation": "wish 後接與現在事實相反的假設時，子句動詞須用假設語氣，be 動詞一律用 were，故選 were，全句翻譯為「我真希望自己再高一點，那樣我就能輕鬆拿到最上層架子的書，不必用凳子」。雖然口語中有時會用 was，但在正式文法與大考中，與事實相反的假設仍以 were 為標準答案；am、be 皆不符合假設語氣的規則。"
+    },
+    {
+      "id": "senior_english_10_028",
+      "difficulty": 3,
+      "question": "Not only ______ the difficult final exam, but she also received the highest score in the whole grade.",
+      "options": [
+        "she passed",
+        "did she pass",
+        "she did pass",
+        "passed she"
+      ],
+      "answer": 1,
+      "explanation": "當否定副詞 Not only 置於句首時，該子句須用「助動詞 + 主詞 + 原形動詞」的倒裝結構，故選 did she pass，全句翻譯為「她不僅通過了困難的期末考，還拿到全年級最高分」。常見錯誤是保留正常語序寫成 she passed；she did pass 未倒裝，passed she 則語序錯誤，都不符合句首否定副詞的倒裝規則。"
+    },
+    {
+      "id": "senior_english_10_029",
+      "difficulty": 3,
+      "question": "閱讀測驗：Two years ago, students at Sunshine Junior High turned the empty rooftop of their school into a small vegetable garden. Every class takes turns watering the plants and pulling out weeds. The vegetables they grow are used in the school kitchen, and any extra is sold to parents at a low price. The money earned is then used to buy more seeds and tools. Teachers say the garden is not only about food; students have learned how much effort goes into growing what they eat, and many of them now waste far less food during lunch. What can we learn from the passage?",
+      "options": [
+        "Students at Sunshine Junior High have learned to value food through gardening",
+        "The rooftop garden was built and cared for mainly by the students' parents",
+        "All the vegetables from the garden are given away to neighbors for free",
+        "The garden was finally closed because it cost the school too much money"
+      ],
+      "answer": 0,
+      "explanation": "文章說學生把屋頂變成菜園，親手照顧作物，並「學到種植食物有多辛苦、午餐時更不浪費食物」，可見主旨是透過園藝學會珍惜食物，故選第一項，關鍵句 students have learned how much effort goes into growing what they eat 翻譯為「學生學到了種植食物要付出多少心力」。菜園由學生輪流照顧、蔬菜是「低價賣給家長」而非免費贈送，賺得的錢還用來買種子，因此其餘三項與文意不符。"
+    },
+    {
+      "id": "senior_english_10_030",
+      "difficulty": 3,
+      "question": "The witness gave the police a very ______ description of the robber, so they were able to arrest him within a few hours.",
+      "options": [
+        "vague",
+        "boring",
+        "silent",
+        "detailed"
+      ],
+      "answer": 3,
+      "explanation": "detailed 意為「詳細的」，唯有描述詳盡，警方才能在數小時內迅速逮到嫌犯，前後因果一致，故選 detailed，全句翻譯為「目擊者向警方提供了非常詳細的搶匪描述，因此他們在幾小時內就逮到了他」。vague（模糊的）語意相反，會讓警方難以辨認；boring（無聊的）與 silent（沉默的）用來形容 description 語意不通，屬情境誘答。"
     }
   ]
 }

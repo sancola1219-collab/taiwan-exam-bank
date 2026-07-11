@@ -162,6 +162,107 @@
       "options": ["$+184$ kJ", "$+247$ kJ", "$-92$ kJ", "$-184$ kJ"],
       "answer": 3,
       "explanation": "$\\Delta H=$ 斷鍵吸收的能量 $-$ 形成鍵放出的能量 $=(436+242)-2\\times 431=678-862=-184\\ \\mathrm{kJ}$。易錯處是忘記生成 $2$ 莫耳 HCl 要乘 $2$（誤算成 $678-431=+247$），或把斷鍵與成鍵的正負角色顛倒而答 $+184$。"
+    },
+    {
+      "id": "senior_chemistry_11_021",
+      "difficulty": 1,
+      "question": "圖為某反應的能量變化圖，反應物能量為 30 kJ、活化複合物（過渡狀態）能量為 90 kJ、生成物能量為 50 kJ。此反應「正反應」的活化能為多少 kJ？",
+      "figure": "<svg viewBox=\"0 0 260 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"150\" x2=\"245\" y2=\"150\" stroke=\"currentColor\"/><path d=\"M45,111 H85 C115,111 125,33 140,33 C155,33 165,85 195,85 H235\" fill=\"none\" stroke=\"#3b82f6\"/><line x1=\"40\" y1=\"111\" x2=\"85\" y2=\"111\" stroke=\"currentColor\" stroke-dasharray=\"3 3\"/><line x1=\"40\" y1=\"33\" x2=\"140\" y2=\"33\" stroke=\"currentColor\" stroke-dasharray=\"3 3\"/><line x1=\"40\" y1=\"85\" x2=\"195\" y2=\"85\" stroke=\"currentColor\" stroke-dasharray=\"3 3\"/><text x=\"16\" y=\"115\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">30</text><text x=\"16\" y=\"37\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">90</text><text x=\"16\" y=\"89\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">50</text><text x=\"46\" y=\"16\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">能量/kJ</text><text x=\"150\" y=\"166\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">反應進程</text></svg>",
+      "options": ["$20$ kJ", "$40$ kJ", "$60$ kJ", "$90$ kJ"],
+      "answer": 2,
+      "explanation": "正反應活化能等於「活化複合物能量減反應物能量」$=90-30=60\\ \\mathrm{kJ}$。易錯處是把逆反應活化能（$90-50=40\\ \\mathrm{kJ}$）或活化複合物的絕對能量 $90$ 當成答案；活化能一律以「峰頂減起點」計算，$50-30=20$ 只是反應熱 $\\Delta H$。"
+    },
+    {
+      "id": "senior_chemistry_11_022",
+      "difficulty": 1,
+      "question": "下列改變中，最能加快「塊狀大理石（$\\mathrm{CaCO_3}$）與稀鹽酸反應」速率的是？",
+      "options": ["降低鹽酸的溫度", "改用更大塊的大理石", "把鹽酸稀釋成較低濃度", "把大理石磨成細粉末"],
+      "answer": 3,
+      "explanation": "固體磨成細粉末可大幅增加與鹽酸接觸的表面積，單位時間內有效碰撞增多，反應速率加快。易錯處是誤選降溫、稀釋或改用更大塊，這三者都會降低碰撞頻率或碰撞能量而使反應變慢。"
+    },
+    {
+      "id": "senior_chemistry_11_023",
+      "difficulty": 2,
+      "question": "圖為以 $0.1\\ \\mathrm{M}$ NaOH 滴定某強酸的滴定曲線（縱軸為 pH，橫軸為加入 NaOH 的體積）。由圖判斷，此滴定的當量點約出現在加入 NaOH 多少毫升處？",
+      "figure": "<svg viewBox=\"0 0 260 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"150\" x2=\"245\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"85\" x2=\"245\" y2=\"85\" stroke=\"currentColor\" stroke-dasharray=\"3 3\"/><path d=\"M40,138 L90,136 L120,131 Q128,128 130,117 L135,103 L140,85 L145,66 L150,52 Q155,46 160,43 L190,36 L240,32\" fill=\"none\" stroke=\"#ef4444\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"154\" stroke=\"currentColor\"/><line x1=\"140\" y1=\"150\" x2=\"140\" y2=\"154\" stroke=\"currentColor\"/><line x1=\"190\" y1=\"150\" x2=\"190\" y2=\"154\" stroke=\"currentColor\"/><line x1=\"240\" y1=\"150\" x2=\"240\" y2=\"154\" stroke=\"currentColor\"/><text x=\"84\" y=\"166\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">10</text><text x=\"134\" y=\"166\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">20</text><text x=\"184\" y=\"166\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">30</text><text x=\"234\" y=\"166\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">40</text><text x=\"22\" y=\"89\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">7</text><text x=\"46\" y=\"16\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">pH</text><text x=\"146\" y=\"178\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">NaOH/mL</text></svg>",
+      "options": ["$10$ mL", "$20$ mL", "$25$ mL", "$40$ mL"],
+      "answer": 1,
+      "explanation": "強酸強鹼滴定的當量點落在 pH 突躍的中點，且恰為 pH$=7$，對應圖中約 $20\\ \\mathrm{mL}$ 處。易錯處是把曲線起點或末端（鹼過量）的體積當成當量點，當量點應看 pH 陡升段的中央。"
+    },
+    {
+      "id": "senior_chemistry_11_024",
+      "difficulty": 2,
+      "question": "反應 $\\mathrm{N_2(g)}+3\\mathrm{H_2(g)}\\rightleftharpoons 2\\mathrm{NH_3(g)}$ 達平衡後，若在定溫下縮小容器體積（增大總壓），平衡將如何移動？",
+      "options": ["向氣體莫耳數較少的一方（右）移動", "向氣體莫耳數較多的一方（左）移動", "平衡不移動", "無法判斷"],
+      "answer": 0,
+      "explanation": "增壓時平衡向氣體總莫耳數較少的一側移動以緩解壓力，左側共 $4$ 莫耳氣體、右側 $2$ 莫耳，故平衡向右（多生成 $\\mathrm{NH_3}$）移動。易錯處是忽略兩側氣體莫耳數不同；若兩側莫耳數相等，改變壓力則不影響平衡位置。"
+    },
+    {
+      "id": "senior_chemistry_11_025",
+      "difficulty": 2,
+      "question": "圖為某可逆反應 $\\mathrm{A}\\rightleftharpoons \\mathrm{B}$ 在定溫下，反應物 A 與生成物 B 濃度隨時間的變化曲線。由圖判斷，達平衡後 B 的濃度約為多少 M？",
+      "figure": "<svg viewBox=\"0 0 260 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"150\" x2=\"245\" y2=\"150\" stroke=\"currentColor\"/><path d=\"M40,20 Q60,52 80,72 Q100,84 120,93 Q145,97 165,98 L240,98\" fill=\"none\" stroke=\"#3b82f6\"/><path d=\"M40,150 Q60,118 80,98 Q100,86 120,77 Q145,73 165,72 L240,72\" fill=\"none\" stroke=\"#ef4444\"/><line x1=\"40\" y1=\"98\" x2=\"240\" y2=\"98\" stroke=\"currentColor\" stroke-dasharray=\"3 3\"/><line x1=\"40\" y1=\"72\" x2=\"240\" y2=\"72\" stroke=\"currentColor\" stroke-dasharray=\"3 3\"/><text x=\"14\" y=\"102\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">0.4</text><text x=\"14\" y=\"76\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">0.6</text><text x=\"14\" y=\"24\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">1.0</text><text x=\"205\" y=\"93\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"205\" y=\"67\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"46\" y=\"16\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">濃度/M</text><text x=\"185\" y=\"166\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">時間</text></svg>",
+      "options": ["$0.4$ M", "$0.5$ M", "$0.6$ M", "$1.0$ M"],
+      "answer": 2,
+      "explanation": "曲線在後段趨於水平即代表達平衡，此時生成物 B（上升曲線）穩定在 $0.6\\ \\mathrm{M}$。易錯處是讀成反應物 A 的平衡濃度 $0.4\\ \\mathrm{M}$，或把 A 的初始濃度 $1.0\\ \\mathrm{M}$ 誤當成 B 的平衡值。"
+    },
+    {
+      "id": "senior_chemistry_11_026",
+      "difficulty": 1,
+      "question": "反應 $\\mathrm{Fe^{3+}}+\\mathrm{SCN^-}\\rightleftharpoons \\mathrm{FeSCN^{2+}}$（$\\mathrm{FeSCN^{2+}}$ 呈紅色）已達平衡，若再加入少量 KSCN 固體以增加 $[\\mathrm{SCN^-}]$，則溶液顏色將如何變化？",
+      "options": ["顏色變淺（平衡左移）", "顏色變深（平衡右移）", "顏色不變", "先變淺後變深"],
+      "answer": 1,
+      "explanation": "增加反應物 $\\mathrm{SCN^-}$ 的濃度，平衡向消耗它的正反應（右）移動，生成更多紅色 $\\mathrm{FeSCN^{2+}}$，故顏色變深。易錯處是誤以為加入固體會稀釋而變淺；依勒沙特列原理，增加反應物必使平衡朝生成物方向移動。"
+    },
+    {
+      "id": "senior_chemistry_11_027",
+      "difficulty": 1,
+      "question": "圖為某反應在其他條件相同、僅改變溫度時所測得的初始反應速率長條圖（橫軸為溫度、縱軸為初速率）。由圖中趨勢可判斷，溫度與反應速率的關係為何？",
+      "figure": "<svg viewBox=\"0 0 260 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"150\" x2=\"245\" y2=\"150\" stroke=\"currentColor\"/><rect x=\"55\" y=\"136\" width=\"30\" height=\"14\" fill=\"#22c55e\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"105\" y=\"122\" width=\"30\" height=\"28\" fill=\"#22c55e\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"155\" y=\"95\" width=\"30\" height=\"55\" fill=\"#22c55e\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"205\" y=\"40\" width=\"30\" height=\"110\" fill=\"#22c55e\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><text x=\"62\" y=\"166\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">20</text><text x=\"112\" y=\"166\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">30</text><text x=\"162\" y=\"166\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">40</text><text x=\"212\" y=\"166\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">50</text><text x=\"116\" y=\"178\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">溫度/°C</text><text x=\"46\" y=\"16\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">初速率</text></svg>",
+      "options": ["溫度越高，反應速率越快", "溫度越高，反應速率越慢", "溫度與反應速率無關", "溫度越高，速率先增後減"],
+      "answer": 0,
+      "explanation": "圖中溫度由 $20^\\circ\\mathrm{C}$ 升到 $50^\\circ\\mathrm{C}$，長條持續增高，代表速率持續加快，故溫度越高反應速率越快。易錯處是誤判速率與溫度無關或會下降；升溫使能量超過活化能的分子比例增多，有效碰撞增加。"
+    },
+    {
+      "id": "senior_chemistry_11_028",
+      "difficulty": 3,
+      "question": "以惰性電極電解 $\\mathrm{CuSO_4}$ 水溶液，陰極反應為 $\\mathrm{Cu^{2+}}+2\\mathrm{e^-}\\rightarrow \\mathrm{Cu}$。若共通過 $0.4$ 莫耳電子，理論上陰極可析出銅多少莫耳？",
+      "options": ["$0.1$ 莫耳", "$0.2$ 莫耳", "$0.4$ 莫耳", "$0.8$ 莫耳"],
+      "answer": 1,
+      "explanation": "由半反應可知每析出 $1$ 莫耳 Cu 需 $2$ 莫耳電子，故 $0.4$ 莫耳電子可析出 $0.4\\div 2=0.2$ 莫耳銅。易錯處是忽略 $\\mathrm{Cu^{2+}}$ 帶 $+2$ 價，把電子莫耳數直接當成銅莫耳數而答 $0.4$ 莫耳。"
+    },
+    {
+      "id": "senior_chemistry_11_029",
+      "difficulty": 2,
+      "question": "圖為鋅銅原電池（伽凡尼電池）示意圖：左槽為鋅電極插入 $\\mathrm{ZnSO_4}$ 溶液，右槽為銅電極插入 $\\mathrm{CuSO_4}$ 溶液，中間以鹽橋相連。放電時，外電路中電子的流動方向為何？",
+      "figure": "<svg viewBox=\"0 0 260 170\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M30,75 V140 H100 V75\" fill=\"none\" stroke=\"currentColor\"/><path d=\"M160,75 V140 H230 V75\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"32\" y=\"100\" width=\"66\" height=\"39\" fill=\"#a855f7\" fill-opacity=\"0.18\" stroke=\"none\"/><rect x=\"162\" y=\"100\" width=\"66\" height=\"39\" fill=\"#3b82f6\" fill-opacity=\"0.18\" stroke=\"none\"/><rect x=\"57\" y=\"35\" width=\"6\" height=\"90\" fill=\"currentColor\" stroke=\"none\"/><rect x=\"197\" y=\"35\" width=\"6\" height=\"90\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"60\" y1=\"35\" x2=\"122\" y2=\"35\" stroke=\"currentColor\"/><line x1=\"138\" y1=\"35\" x2=\"200\" y2=\"35\" stroke=\"currentColor\"/><circle cx=\"130\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"currentColor\"/><text x=\"126\" y=\"39\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">V</text><path d=\"M95,115 C95,80 165,80 165,115\" fill=\"none\" stroke=\"currentColor\"/><text x=\"111\" y=\"76\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">鹽橋</text><text x=\"45\" y=\"52\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">Zn</text><text x=\"206\" y=\"52\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">Cu</text><text x=\"34\" y=\"156\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">ZnSO4</text><text x=\"168\" y=\"156\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">CuSO4</text></svg>",
+      "options": ["由銅電極流向鋅電極", "由鹽橋流向兩電極", "電子不流動，僅離子移動", "由鋅電極流向銅電極"],
+      "answer": 3,
+      "explanation": "鋅較活潑，作為陽極（負極）被氧化並放出電子，電子沿外電路由鋅極流向作為陰極（正極）的銅極。易錯處是把「傳統電流方向」（銅到鋅）誤當成電子方向；電子由負極流出，方向與電流恰好相反。"
+    },
+    {
+      "id": "senior_chemistry_11_030",
+      "difficulty": 3,
+      "question": "在 $25^\\circ\\mathrm{C}$ 下，將 $0.1\\ \\mathrm{M}$ HCl $100\\ \\mathrm{mL}$ 與 $0.08\\ \\mathrm{M}$ NaOH $100\\ \\mathrm{mL}$ 混合，混合後溶液的 pH 為何？",
+      "options": ["$1$", "$7$", "$12$", "$2$"],
+      "answer": 3,
+      "explanation": "$\\mathrm{H^+}$ 為 $0.1\\times 0.1=0.01$ 莫耳，$\\mathrm{OH^-}$ 為 $0.08\\times 0.1=0.008$ 莫耳，中和後剩 $\\mathrm{H^+}$ $0.002$ 莫耳，溶於總體積 $0.2\\ \\mathrm{L}$ 得 $[\\mathrm{H^+}]=0.01\\ \\mathrm{M}$，故 pH$=2$。易錯處是忘記把兩溶液體積相加為 $200\\ \\mathrm{mL}$，或誤判為恰好中和而答 pH$=7$。"
+    },
+    {
+      "id": "senior_chemistry_11_031",
+      "difficulty": 3,
+      "question": "反應 $2\\mathrm{H_2S}+\\mathrm{SO_2}\\rightarrow 3\\mathrm{S}+2\\mathrm{H_2O}$ 中，下列關於氧化劑與還原劑的判斷何者正確？",
+      "options": ["$\\mathrm{H_2S}$ 是氧化劑，$\\mathrm{SO_2}$ 是還原劑", "兩者都是氧化劑", "$\\mathrm{SO_2}$ 是氧化劑，$\\mathrm{H_2S}$ 是還原劑", "兩者都是還原劑"],
+      "answer": 2,
+      "explanation": "$\\mathrm{H_2S}$ 中硫由 $-2$ 升為 $0$ 被氧化，是還原劑；$\\mathrm{SO_2}$ 中硫由 $+4$ 降為 $0$ 被還原，是氧化劑。易錯處是兩反應物都含硫而混淆，須逐一比較各硫原子氧化數的升降來判定氧化劑與還原劑。"
+    },
+    {
+      "id": "senior_chemistry_11_032",
+      "difficulty": 3,
+      "question": "已知 $\\mathrm{AgCl}$ 的 $K_{sp}=1.0\\times 10^{-10}$。將等體積的 $2.0\\times 10^{-3}\\ \\mathrm{M}$ $\\mathrm{AgNO_3}$ 與 $2.0\\times 10^{-3}\\ \\mathrm{M}$ NaCl 溶液混合，是否會生成 AgCl 沉澱？",
+      "options": ["會，因為 $Q>K_{sp}$", "不會，因為 $Q<K_{sp}$", "會，因為 $Q=K_{sp}$", "不會，因為兩溶液濃度太低"],
+      "answer": 0,
+      "explanation": "等體積混合使各離子濃度減半為 $1.0\\times 10^{-3}\\ \\mathrm{M}$，離子積 $Q=[\\mathrm{Ag^+}][\\mathrm{Cl^-}]=1.0\\times 10^{-6}$，遠大於 $K_{sp}=1.0\\times 10^{-10}$，故會生成沉澱。易錯處是忘記混合後因稀釋濃度減半；只要 $Q>K_{sp}$ 即代表過飽和而析出沉澱。"
     }
   ]
 }

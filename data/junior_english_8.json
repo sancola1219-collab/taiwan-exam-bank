@@ -177,6 +177,96 @@
       "options": ["locking", "to lock", "locked", "locks"],
       "answer": 1,
       "explanation": "forget to V 表示「忘記去做（還沒做的事）」，這裡提醒對方出門前要記得鎖門，是還沒做的動作，所以用 to lock。forget V-ing 則表示「忘記做過（已經做的事）」，語意不符；locked 和 locks 都不能接在 forget 後面表達此意。全句意思是：離開家之前，別忘了鎖門。"
+    },
+    {
+      "id": "junior_english_8_021",
+      "difficulty": 1,
+      "question": "There ______ many students in the school library yesterday afternoon.",
+      "options": ["was", "were", "is", "are"],
+      "answer": 1,
+      "explanation": "yesterday afternoon（昨天下午）是過去時間，且 many students 是複數，There be 句型要用過去複數 were。was 是過去單數，is 和 are 都是現在式，皆不符合。全句意思是：昨天下午學校圖書館裡有許多學生。"
+    },
+    {
+      "id": "junior_english_8_022",
+      "difficulty": 1,
+      "question": "How ______ apples did you buy at the market this morning?",
+      "options": ["many", "much", "few", "little"],
+      "answer": 0,
+      "explanation": "apples 是可數名詞複數，詢問數量要用 How many。much 用於不可數名詞，few 和 little 是表示「很少」的形容詞，不能與 How 連用來問數量。全句意思是：你今天早上在市場買了多少顆蘋果？"
+    },
+    {
+      "id": "junior_english_8_023",
+      "difficulty": 1,
+      "question": "Would you mind ______ the window? It's a little cold in here.",
+      "options": ["close", "to close", "closed", "closing"],
+      "answer": 3,
+      "explanation": "mind（介意）後面固定接動名詞 V-ing，所以用 closing。mind 不能接不定詞 to close，也不能接原形 close 或過去式 closed。全句意思是：你介意把窗戶關上嗎？這裡有點冷。"
+    },
+    {
+      "id": "junior_english_8_024",
+      "difficulty": 2,
+      "question": "This science question is ______ than the last one, so it took me a longer time.",
+      "options": ["difficult", "difficulter", "more difficult", "most difficult"],
+      "answer": 2,
+      "explanation": "difficult 是三音節的長形容詞，比較級要在前面加 more，寫成 more difficult，不能加字尾變成 difficulter。difficult 是原級，most difficult 是最高級，都不能與 than 連用。全句意思是：這道自然題比上一題更難，所以花了我比較久的時間。"
+    },
+    {
+      "id": "junior_english_8_025",
+      "difficulty": 2,
+      "question": "A: The phone is ringing. B: OK, I ______ answer it right now.",
+      "options": ["am going to", "will", "was", "would"],
+      "answer": 1,
+      "explanation": "電話正在響，B 是在說話當下臨時決定去接，這種即時決定用 will。be going to 用於「事先計畫好」的未來，was 是過去式，would 在此語意不合。全句意思是：A：電話在響。B：好，我現在就去接。"
+    },
+    {
+      "id": "junior_english_8_026",
+      "difficulty": 2,
+      "question": "Taking the MRT is ______ convenient than taking the bus during rush hour.",
+      "options": ["much more", "very", "so", "too"],
+      "answer": 0,
+      "explanation": "句中有 than，convenient 要用比較級 more convenient，而修飾比較級表「更加」時用 much，故為 much more。very、so、too 只能修飾原級形容詞，不能放在 more ... than 的比較句型中。全句意思是：在尖峰時段，搭捷運比搭公車方便得多。"
+    },
+    {
+      "id": "junior_english_8_027",
+      "difficulty": 2,
+      "question": "My sister is good at ______ English songs, so she often performs at school parties.",
+      "options": ["sing", "to sing", "singing", "sang"],
+      "answer": 2,
+      "explanation": "be good at 中的 at 是介系詞，後面要接動名詞 V-ing，所以用 singing。介系詞後不能接原形 sing、不定詞 to sing 或過去式 sang。全句意思是：我姊姊擅長唱英文歌，所以她常在學校派對上表演。"
+    },
+    {
+      "id": "junior_english_8_028",
+      "difficulty": 3,
+      "question": "下列哪一個句子完全沒有文法錯誤？",
+      "options": [
+        "He doesn't likes to eat vegetables.",
+        "There is many books on the desk.",
+        "She can plays the piano very well.",
+        "My parents were watching TV when I got home."
+      ],
+      "answer": 3,
+      "explanation": "My parents were watching TV when I got home.（我到家時，父母正在看電視。）過去進行式與過去簡單式搭配正確。doesn't 後面要接原形，應為 doesn't like；主詞是複數 many books，應為 There are；情態助動詞 can 後面要接原形，應為 can play。"
+    },
+    {
+      "id": "junior_english_8_029",
+      "difficulty": 3,
+      "question": "閱讀短文並回答問題：David moved to Taichung two years ago. At first, he had no friends and felt lonely. Later, he joined the school basketball team and soon made many good friends. Now he really loves his new life. — Which is true about David?",
+      "options": [
+        "David has lived in Taichung for ten years.",
+        "David felt lonely when he first moved to Taichung.",
+        "David didn't join any team at school.",
+        "David wants to move away from Taichung."
+      ],
+      "answer": 1,
+      "explanation": "文中 At first, he had no friends and felt lonely 說明他剛搬到台中時沒有朋友、感到孤單，因此第二個選項正確。短文大意：大衛兩年前搬到台中，起初孤單，後來加入籃球隊交到許多好友，現在很喜歡新生活。他搬來兩年而非十年、有加入球隊、也想留下，其餘選項皆與短文不符。"
+    },
+    {
+      "id": "junior_english_8_030",
+      "difficulty": 3,
+      "question": "The box is ______ heavy for the little girl ______ carry alone.",
+      "options": ["too; to", "so; that", "enough; to", "very; that"],
+      "answer": 0,
+      "explanation": "「too + 形容詞 + for 某人 + to V」表示「太……以致於某人無法……」，這裡指箱子太重、小女孩無法獨自搬動，故用 too ... to。so ... that 後面要接一個完整子句而非不定詞，enough 須放在形容詞之後（heavy enough），very 不能構成此句型。全句意思是：這個箱子太重了，小女孩無法獨自搬動。"
     }
   ]
 }

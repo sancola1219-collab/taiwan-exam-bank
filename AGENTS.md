@@ -13,7 +13,7 @@
 - 正式網址：<https://sancola1219-collab.github.io/taiwan-exam-bank/>
 - GitHub：`sancola1219-collab/taiwan-exam-bank`（`main` 分支，GitHub Pages legacy 建置，root 目錄）
 - 本機路徑：`C:\Users\凱凱\Desktop\taiwan-exam-bank`
-- 目前規模：**116 個題庫檔、2,320 題**（國小 26 / 國中 22 / 高中 22 / 大學 46）
+- 目前規模：**116 個題庫檔、3,598 題，其中 295 題附 SVG 圖**（國小 26 / 國中 22 / 高中 22 / 大學 46 檔）
 
 ### 專案使用者是誰
 一位台灣的老師。他不寫程式，只會用瀏覽器開網址、把網址分享給別人。
@@ -81,6 +81,16 @@ taiwan-exam-bank/
 | `options` | **恰好 4 個**，互不相同，禁止「以上皆是／皆非」。錯誤選項要是常見失誤的結果 |
 | `answer` | 正確選項的**索引 0～3**。整檔中 0/1/2/3 各出現約 5 次 |
 | `explanation` | 至少兩句 |
+| `figure`（選填） | 題目附圖，值為**單一 inline `<svg>` 字串**。規則見下方「附圖規則」 |
+
+### 附圖（figure）規則
+- 必須以 `<svg` 開頭、含 `viewBox`（例 `0 0 240 180`），**不要**寫 width/height（要自適應縮放）。
+- 線條/座標軸用 `stroke="currentColor"`、文字用 `fill="currentColor" stroke="none"`（深淺色模式都清楚）。
+  需要填色只用中間色（藍 #3b82f6、紅 #ef4444、綠 #22c55e、琥珀 #f59e0b、紫 #a855f7）配 `fill-opacity 0.15~0.3`。
+- **嚴禁** `<script>`、`<image>`、`<foreignObject>`、`on*` 事件屬性、外部網址——
+  `validate.js` 會擋，前端 `sanitizeFigure()` 也會再過濾一次。
+- 圖必須是解題必要或明確輔助，答案要能由「圖＋題幹」唯一決定；不放裝飾圖。
+- 在 JSON 字串內，SVG 的雙引號要跳脫為 `\"`。
 
 - 每檔 **20 題**（validate.js 最低要求 18 題）。
 - LaTeX 用 `$...$` 包住，`$` 必須成對；JSON 字串裡反斜線要寫兩個（`\\frac`、`\\sqrt`）。

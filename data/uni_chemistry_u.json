@@ -162,6 +162,107 @@
       "options": ["任何溫度都自發", "溫度高於 500 K", "任何溫度都不自發", "溫度低於 500 K"],
       "answer": 1,
       "explanation": "$\\Delta G=\\Delta H-T\\Delta S<0$ 需 $T>\\frac{\\Delta H}{\\Delta S}=\\frac{100000\\ \\mathrm{J}}{200\\ \\mathrm{J/K}}=500\\ \\mathrm{K}$，即高溫下熵項 $T\\Delta S$ 才能勝過吸熱的 $\\Delta H$。易錯處是單位不一致，忘記把 kJ 換成 J 而算出 0.5 K；吸熱且熵增的反應屬「高溫自發」型。"
+    },
+    {
+      "id": "uni_chemistry_u_021",
+      "difficulty": 1,
+      "question": "在化學計量計算中，8 克的氧氣 $O_2$（分子量 32）相當於多少莫耳？",
+      "options": ["0.5", "4", "0.25", "8"],
+      "answer": 2,
+      "explanation": "莫耳數 = 質量 ÷ 分子量 = $\\frac{8}{32}=0.25$ 莫耳。易錯處：誤把 $O_2$ 當成單原子（原子量 16）而算成 0.5，或把公式倒過來用 $\\frac{32}{8}=4$。"
+    },
+    {
+      "id": "uni_chemistry_u_022",
+      "difficulty": 1,
+      "question": "0.5 莫耳的水分子中約含有多少個水分子？（亞佛加厥數 $N_A=6.0\\times10^{23}$）",
+      "options": ["$3.0\\times10^{23}$", "$6.0\\times10^{23}$", "$1.2\\times10^{24}$", "$1.5\\times10^{23}$"],
+      "answer": 0,
+      "explanation": "粒子數 = 莫耳數 × 亞佛加厥數 = $0.5\\times6.0\\times10^{23}=3.0\\times10^{23}$ 個。易錯處：忽略莫耳數 0.5 而直接寫一個 $N_A$（$6.0\\times10^{23}$），或把莫耳數誤當成 2 倍。"
+    },
+    {
+      "id": "uni_chemistry_u_023",
+      "difficulty": 1,
+      "question": "將 0.5 莫耳的氯化鈉 $NaCl$ 完全溶於水並定容至 2 公升，此溶液的體積莫耳濃度為多少 M？",
+      "options": ["1", "0.5", "4", "0.25"],
+      "answer": 3,
+      "explanation": "體積莫耳濃度 = 溶質莫耳數 ÷ 溶液體積（公升）= $\\frac{0.5}{2}=0.25$ M。易錯處：把莫耳數與體積相乘得 1，或忘記除以體積而直接寫溶質的 0.5。"
+    },
+    {
+      "id": "uni_chemistry_u_024",
+      "difficulty": 1,
+      "question": "圖為某反應的位能對反應進行程度關係圖。依圖判斷此反應的能量變化為何？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"30\" y1=\"150\" x2=\"225\" y2=\"150\" stroke=\"currentColor\"/><path d=\"M40,70 L70,70 C95,70 100,35 120,35 C140,35 145,115 170,115 L210,115\" fill=\"none\" stroke=\"#3b82f6\"/><text x=\"34\" y=\"64\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">反應物</text><text x=\"166\" y=\"132\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">生成物</text><text x=\"98\" y=\"28\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">過渡態</text><text x=\"16\" y=\"16\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">位能</text><text x=\"120\" y=\"168\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">反應進行</text></svg>",
+      "options": ["吸熱反應，$\\Delta H>0$", "放熱反應，$\\Delta H<0$", "反應不需活化能即可進行", "生成物位能高於反應物"],
+      "answer": 1,
+      "explanation": "由圖可見生成物的位能低於反應物，反應過程淨釋出能量，故為放熱反應，$\\Delta H<0$；曲線中間的隆起為過渡態，其高度代表活化能。易錯處：把中間隆起誤認為生成物較高，或忽略「生成物位能較低即為放熱」的判讀原則。"
+    },
+    {
+      "id": "uni_chemistry_u_025",
+      "difficulty": 2,
+      "question": "一容器中含有 2 莫耳 $N_2$ 與 3 莫耳 $O_2$，混合氣體的總壓為 5 atm，則 $O_2$ 的分壓為多少 atm？",
+      "options": ["3", "2", "5", "1.5"],
+      "answer": 0,
+      "explanation": "由道耳頓分壓定律，分壓 = 莫耳分率 × 總壓，$O_2$ 的莫耳分率 = $\\frac{3}{2+3}=0.6$，故分壓 = $0.6\\times5=3$ atm。易錯處：把 $N_2$ 的分壓（$0.4\\times5=2$）誤當成 $O_2$，或忘記先求莫耳分率。"
+    },
+    {
+      "id": "uni_chemistry_u_026",
+      "difficulty": 2,
+      "question": "在乙烯 $C_2H_4$ 分子中，每個碳原子的混成軌域類型為何？",
+      "options": ["$sp$", "$sp^3$", "$sp^2$", "$sp^3d$"],
+      "answer": 2,
+      "explanation": "乙烯中每個碳形成 3 個 $\\sigma$ 鍵（兩個 C–H、一個 C–C）且無孤對電子，$\\sigma$ 鍵數為 3，採 $sp^2$ 混成，另有一個未混成 $p$ 軌域與相鄰碳形成 $\\pi$ 鍵。易錯處：把碳一律當成 $sp^3$（如甲烷），或看到雙鍵就誤判為 $sp$。"
+    },
+    {
+      "id": "uni_chemistry_u_027",
+      "difficulty": 2,
+      "question": "圖為以 0.1 M 強鹼滴定某強酸的滴定曲線（橫軸為加入鹼的體積 mL、縱軸為 pH）。由圖判斷此滴定的當量點約在加入鹼多少毫升時？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"35\" y1=\"15\" x2=\"35\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"35\" y1=\"155\" x2=\"222\" y2=\"155\" stroke=\"currentColor\"/><path d=\"M35,145 L70,136 L100,126 L114,116 L120,100 L125,85 L130,68 L136,52 L150,40 L180,30 L215,26\" fill=\"none\" stroke=\"#ef4444\"/><line x1=\"125\" y1=\"85\" x2=\"125\" y2=\"155\" stroke=\"currentColor\" stroke-dasharray=\"3 3\"/><circle cx=\"125\" cy=\"85\" r=\"3\" fill=\"#ef4444\" stroke=\"none\"/><line x1=\"80\" y1=\"155\" x2=\"80\" y2=\"159\" stroke=\"currentColor\"/><line x1=\"125\" y1=\"155\" x2=\"125\" y2=\"159\" stroke=\"currentColor\"/><line x1=\"170\" y1=\"155\" x2=\"170\" y2=\"159\" stroke=\"currentColor\"/><line x1=\"215\" y1=\"155\" x2=\"215\" y2=\"159\" stroke=\"currentColor\"/><text x=\"31\" y=\"170\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">0</text><text x=\"73\" y=\"170\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">10</text><text x=\"118\" y=\"170\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">20</text><text x=\"163\" y=\"170\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">30</text><text x=\"208\" y=\"170\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">40</text><text x=\"14\" y=\"20\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">pH</text><text x=\"128\" y=\"110\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">當量點</text></svg>",
+      "options": ["10 mL", "20 mL", "30 mL", "40 mL"],
+      "answer": 1,
+      "explanation": "當量點位於 pH 急遽變化（曲線近乎垂直躍升）的中點，由圖中虛線對應橫軸約為 20 mL。易錯處：把曲線開始上揚或已趨平緩處誤認為當量點，當量點應取滴定曲線最陡段的中點。"
+    },
+    {
+      "id": "uni_chemistry_u_028",
+      "difficulty": 2,
+      "question": "圖為某有色溶液以分光光度計測得的比爾定律檢量線（縱軸為吸光度 $A$、橫軸為濃度 M）。已知某待測樣品的吸光度為 0.6，由檢量線判斷其濃度約為多少 M？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"35\" y1=\"15\" x2=\"35\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"35\" y1=\"150\" x2=\"220\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"35\" y1=\"150\" x2=\"210\" y2=\"25\" stroke=\"#3b82f6\"/><line x1=\"35\" y1=\"75\" x2=\"140\" y2=\"75\" stroke=\"currentColor\" stroke-dasharray=\"3 3\"/><line x1=\"140\" y1=\"75\" x2=\"140\" y2=\"150\" stroke=\"currentColor\" stroke-dasharray=\"3 3\"/><circle cx=\"140\" cy=\"75\" r=\"3\" fill=\"#3b82f6\" stroke=\"none\"/><text x=\"66\" y=\"165\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"101\" y=\"165\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"136\" y=\"165\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"171\" y=\"165\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"206\" y=\"165\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">5</text><text x=\"8\" y=\"79\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">0.6</text><text x=\"20\" y=\"14\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"150\" y=\"175\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">濃度(M)</text></svg>",
+      "options": ["2 M", "4 M", "6 M", "3 M"],
+      "answer": 3,
+      "explanation": "依比爾定律吸光度與濃度成正比，檢量線為通過原點的直線；由 $A=0.6$ 沿水平虛線交檢量線後向下對應橫軸，讀得濃度約 3 M。易錯處：誤把吸光度數值 0.6 直接當成濃度，或讀軸方向錯誤；應循「吸光度 → 檢量線 → 濃度」的順序對應。"
+    },
+    {
+      "id": "uni_chemistry_u_029",
+      "difficulty": 3,
+      "question": "某一級反應的半生期為 10 分鐘，反應物起始濃度為 $0.8\\ \\mathrm{M}$，經過 30 分鐘後反應物濃度約剩下多少 M？",
+      "options": ["0.1", "0.2", "0.4", "0.05"],
+      "answer": 0,
+      "explanation": "一級反應的半生期固定，30 分鐘 = 3 個半生期，濃度每經一個半生期減半：$0.8\\times\\left(\\frac{1}{2}\\right)^3=\\frac{0.8}{8}=0.1$ M。易錯處：把 30 分鐘當成僅一個半生期而算成 0.4，或誤以為濃度隨時間線性遞減。"
+    },
+    {
+      "id": "uni_chemistry_u_030",
+      "difficulty": 3,
+      "question": "難溶鹽 $AgCl$ 的溶度積 $K_{sp}=1\\times10^{-10}$，設其在純水中的溶解度為 $s$（M），則 $s$ 約為多少 M？",
+      "options": ["$1\\times10^{-10}$", "$1\\times10^{-20}$", "$1\\times10^{-5}$", "$5\\times10^{-11}$"],
+      "answer": 2,
+      "explanation": "$AgCl\\rightleftharpoons Ag^{+}+Cl^{-}$，溶解 $s$ 莫耳時 $[Ag^{+}]=[Cl^{-}]=s$，故 $K_{sp}=s^2=1\\times10^{-10}$，$s=\\sqrt{1\\times10^{-10}}=1\\times10^{-5}$ M。易錯處：忘記開平方根而直接把 $K_{sp}$ 當成溶解度，或把 $K_{sp}$ 再平方得 $10^{-20}$。"
+    },
+    {
+      "id": "uni_chemistry_u_031",
+      "difficulty": 3,
+      "question": "圖為某反應物 $A$ 的濃度自然對數 $\\ln[A]$ 對時間 $t$ 作圖，所有數據點落在一條直線上。由此圖形可判斷此反應對 $A$ 的反應級數為何？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"35\" y1=\"15\" x2=\"35\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"35\" y1=\"150\" x2=\"220\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"45\" y1=\"40\" x2=\"205\" y2=\"140\" stroke=\"#22c55e\"/><circle cx=\"45\" cy=\"40\" r=\"3\" fill=\"#22c55e\" stroke=\"none\"/><circle cx=\"85\" cy=\"65\" r=\"3\" fill=\"#22c55e\" stroke=\"none\"/><circle cx=\"125\" cy=\"90\" r=\"3\" fill=\"#22c55e\" stroke=\"none\"/><circle cx=\"165\" cy=\"115\" r=\"3\" fill=\"#22c55e\" stroke=\"none\"/><circle cx=\"205\" cy=\"140\" r=\"3\" fill=\"#22c55e\" stroke=\"none\"/><text x=\"8\" y=\"22\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">ln[A]</text><text x=\"150\" y=\"170\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">時間 t</text></svg>",
+      "options": ["零級", "一級", "二級", "三級"],
+      "answer": 1,
+      "explanation": "一級反應的積分速率式為 $\\ln[A]=\\ln[A]_0-kt$，故 $\\ln[A]$ 對時間作圖為一直線，斜率為 $-k$；圖中數據呈直線即符合一級反應。易錯處：零級是 $[A]$ 對 $t$ 為直線、二級是 $\\frac{1}{[A]}$ 對 $t$ 為直線，須依「哪一種函數對時間呈線性」判斷級數。"
+    },
+    {
+      "id": "uni_chemistry_u_032",
+      "difficulty": 3,
+      "question": "圖為某純物質的相圖（縱軸為壓力 $P$、橫軸為溫度 $T$），圖中以 X 標示一個狀態點。由相圖判斷在 X 點的溫度與壓力下，此物質呈現何種狀態？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"30\" y1=\"150\" x2=\"225\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"90\" y1=\"110\" x2=\"112\" y2=\"25\" stroke=\"#a855f7\"/><path d=\"M90,110 Q140,70 180,50\" fill=\"none\" stroke=\"#a855f7\"/><line x1=\"90\" y1=\"110\" x2=\"33\" y2=\"147\" stroke=\"#a855f7\"/><circle cx=\"90\" cy=\"110\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><text x=\"48\" y=\"62\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">固態</text><text x=\"150\" y=\"40\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">液態</text><text x=\"178\" y=\"122\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">氣態</text><circle cx=\"125\" cy=\"62\" r=\"3\" fill=\"#ef4444\" stroke=\"none\"/><text x=\"129\" y=\"60\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">X</text><text x=\"14\" y=\"16\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">P</text><text x=\"214\" y=\"166\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">T</text></svg>",
+      "options": ["固態", "氣態", "超臨界流體", "液態"],
+      "answer": 3,
+      "explanation": "X 點落在相圖中被固-液相界線與液-氣相界線所夾的「液態」區域內，故此溫度與壓力下物質為液態。易錯處：只看溫度偏高就直覺判為氣態，須同時考量壓力並對照 X 點實際落在哪一個相區。"
     }
   ]
 }

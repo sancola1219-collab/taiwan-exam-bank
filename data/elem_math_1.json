@@ -7,7 +7,12 @@
       "id": "elem_math_1_001",
       "difficulty": 1,
       "question": "小美一顆一顆數糖果，數到 27 顆，媽媽又給她 1 顆，現在共有幾顆糖果？",
-      "options": ["26 顆", "27 顆", "28 顆", "29 顆"],
+      "options": [
+        "26 顆",
+        "27 顆",
+        "28 顆",
+        "29 顆"
+      ],
       "answer": 2,
       "explanation": "27 再多 1 顆就是接著數的下一個數，27＋1＝28，所以共有 28 顆。常見錯誤是往回數變成 26，或忘記加上新的 1 顆而答 27。"
     },
@@ -15,7 +20,12 @@
       "id": "elem_math_1_002",
       "difficulty": 1,
       "question": "下列四個數，哪一個最大？",
-      "options": ["45", "50", "39", "54"],
+      "options": [
+        "45",
+        "50",
+        "39",
+        "54"
+      ],
       "answer": 3,
       "explanation": "先比十位：54 和 50 的十位都是 5，比 45 和 39 大；再比個位，54 的個位是 4 比 50 的 0 大，所以 54 最大。常見錯誤是只看個位數字 5 就選 45，忘了要先比十位。"
     },
@@ -23,7 +33,12 @@
       "id": "elem_math_1_003",
       "difficulty": 1,
       "question": "8＋5＝？",
-      "options": ["12", "13", "14", "11"],
+      "options": [
+        "12",
+        "13",
+        "14",
+        "11"
+      ],
       "answer": 1,
       "explanation": "8 再加 2 湊成 10，剩下 3 再加上去，10＋3＝13。常見錯誤是數手指時多數或少數一個，變成 12 或 14。"
     },
@@ -31,7 +46,12 @@
       "id": "elem_math_1_004",
       "difficulty": 1,
       "question": "12－4＝？",
-      "options": ["8", "9", "7", "16"],
+      "options": [
+        "8",
+        "9",
+        "7",
+        "16"
+      ],
       "answer": 0,
       "explanation": "12 先減 2 變成 10，再減 2 得到 8，所以 12－4＝8。常見錯誤是把減法看成加法算出 16，或倒數時多算一個變成 7。"
     },
@@ -39,7 +59,12 @@
       "id": "elem_math_1_005",
       "difficulty": 1,
       "question": "丙繩子比乙繩子長，乙繩子比甲繩子長，哪一條繩子最長？",
-      "options": ["甲", "乙", "丙", "無法比較"],
+      "options": [
+        "甲",
+        "乙",
+        "丙",
+        "無法比較"
+      ],
       "answer": 2,
       "explanation": "丙比乙長，乙又比甲長，所以由長到短排是丙、乙、甲，丙最長。常見錯誤是只看到「乙比甲長」就選乙，沒有把兩句話連起來比較。"
     },
@@ -47,7 +72,12 @@
       "id": "elem_math_1_006",
       "difficulty": 1,
       "question": "一個三角形有幾個角？",
-      "options": ["2 個", "3 個", "4 個", "5 個"],
+      "options": [
+        "2 個",
+        "3 個",
+        "4 個",
+        "5 個"
+      ],
       "answer": 1,
       "explanation": "三角形有 3 條邊和 3 個角，所以是 3 個角。常見錯誤是和正方形搞混而答 4 個。"
     },
@@ -55,7 +85,12 @@
       "id": "elem_math_1_007",
       "difficulty": 1,
       "question": "小明有一枚 10 元硬幣和一枚 5 元硬幣，他共有多少元？",
-      "options": ["5 元", "10 元", "20 元", "15 元"],
+      "options": [
+        "5 元",
+        "10 元",
+        "20 元",
+        "15 元"
+      ],
       "answer": 3,
       "explanation": "把兩枚硬幣的錢合起來，10＋5＝15，共有 15 元。常見錯誤是把兩枚都當成 10 元算成 20 元，或只算其中一枚。"
     },
@@ -63,7 +98,12 @@
       "id": "elem_math_1_008",
       "difficulty": 2,
       "question": "比 69 多 1 的數是多少？",
-      "options": ["68", "70", "79", "60"],
+      "options": [
+        "68",
+        "70",
+        "79",
+        "60"
+      ],
       "answer": 1,
       "explanation": "69 的下一個數要進到七十，69＋1＝70。常見錯誤是往回數答 68，或把十位多加變成 79。"
     },
@@ -71,7 +111,12 @@
       "id": "elem_math_1_009",
       "difficulty": 2,
       "question": "36＋7＝？",
-      "options": ["42", "33", "43", "44"],
+      "options": [
+        "42",
+        "33",
+        "43",
+        "44"
+      ],
       "answer": 2,
       "explanation": "先算個位 6＋7＝13，寫 3 進 1，十位 3＋1＝4，所以 36＋7＝43。常見錯誤是忘記進位算成 33，或進位後個位又算錯變成 42、44。"
     },
@@ -79,7 +124,12 @@
       "id": "elem_math_1_010",
       "difficulty": 2,
       "question": "50－20＝？",
-      "options": ["30", "20", "40", "70"],
+      "options": [
+        "30",
+        "20",
+        "40",
+        "70"
+      ],
       "answer": 0,
       "explanation": "5 個十減 2 個十剩 3 個十，所以 50－20＝30。常見錯誤是把減法算成加法得到 70，或十位數錯減成 20。"
     },
@@ -87,7 +137,12 @@
       "id": "elem_math_1_011",
       "difficulty": 2,
       "question": "小明帶 50 元到便利商店買一瓶 35 元的飲料，應找回多少元？",
-      "options": ["25 元", "10 元", "85 元", "15 元"],
+      "options": [
+        "25 元",
+        "10 元",
+        "85 元",
+        "15 元"
+      ],
       "answer": 3,
       "explanation": "找回的錢是 50－35＝15，所以應找回 15 元。常見錯誤是把兩數相加得到 85 元，或退位算錯變成 25 元。"
     },
@@ -95,7 +150,12 @@
       "id": "elem_math_1_012",
       "difficulty": 2,
       "question": "哥哥比小華高，小華比妹妹高，三個人中誰最矮？",
-      "options": ["哥哥", "小華", "妹妹", "無法比較"],
+      "options": [
+        "哥哥",
+        "小華",
+        "妹妹",
+        "無法比較"
+      ],
       "answer": 2,
       "explanation": "由高到矮排是哥哥、小華、妹妹，所以妹妹最矮。常見錯誤是把「最高」和「最矮」看反而選哥哥。"
     },
@@ -103,7 +163,12 @@
       "id": "elem_math_1_013",
       "difficulty": 2,
       "question": "骰子的每一個面都是什麼形狀？",
-      "options": ["圓形", "三角形", "長方形", "正方形"],
+      "options": [
+        "圓形",
+        "三角形",
+        "長方形",
+        "正方形"
+      ],
       "answer": 3,
       "explanation": "骰子是正方體，它的 6 個面都是正方形，四條邊一樣長。常見錯誤是選長方形，但長方形的長和寬不一樣長。"
     },
@@ -111,7 +176,12 @@
       "id": "elem_math_1_014",
       "difficulty": 2,
       "question": "依照規律接下去：2、4、6、8、（　），括號中應填入什麼數？",
-      "options": ["10", "9", "12", "11"],
+      "options": [
+        "10",
+        "9",
+        "12",
+        "11"
+      ],
       "answer": 0,
       "explanation": "這串數每次都多 2，8 再多 2 就是 10。常見錯誤是只加 1 答 9，或一次跳太多答 12。"
     },
@@ -119,7 +189,12 @@
       "id": "elem_math_1_015",
       "difficulty": 3,
       "question": "公車上原本有 15 人，到站後下車 6 人，又上車 4 人，現在公車上有幾人？",
-      "options": ["12 人", "13 人", "14 人", "25 人"],
+      "options": [
+        "12 人",
+        "13 人",
+        "14 人",
+        "25 人"
+      ],
       "answer": 1,
       "explanation": "先算下車後：15－6＝9 人，再算上車後：9＋4＝13 人。常見錯誤是把下車也用加的算成 25 人，或只算其中一步。"
     },
@@ -127,7 +202,12 @@
       "id": "elem_math_1_016",
       "difficulty": 3,
       "question": "小華的撲滿裡有 2 枚 10 元、1 枚 5 元和 3 枚 1 元硬幣，他共有多少元？",
-      "options": ["26 元", "27 元", "30 元", "28 元"],
+      "options": [
+        "26 元",
+        "27 元",
+        "30 元",
+        "28 元"
+      ],
       "answer": 3,
       "explanation": "2 枚 10 元是 20 元，加 1 枚 5 元是 25 元，再加 3 枚 1 元是 25＋3＝28 元。常見錯誤是把 3 枚 1 元只算 1 元變成 26 元，或漏算 5 元硬幣。"
     },
@@ -135,7 +215,12 @@
       "id": "elem_math_1_017",
       "difficulty": 3,
       "question": "□＋7＝15，□裡應該填多少？",
-      "options": ["7", "8", "9", "22"],
+      "options": [
+        "7",
+        "8",
+        "9",
+        "22"
+      ],
       "answer": 1,
       "explanation": "想「多少加 7 會等於 15」，用 15－7＝8，所以□是 8。常見錯誤是把兩數相加算成 22，或減錯變成 7 或 9。"
     },
@@ -143,7 +228,12 @@
       "id": "elem_math_1_018",
       "difficulty": 3,
       "question": "姊姊有 24 張貼紙，弟弟有 16 張貼紙，姊姊比弟弟多幾張？",
-      "options": ["6 張", "7 張", "8 張", "40 張"],
+      "options": [
+        "6 張",
+        "7 張",
+        "8 張",
+        "40 張"
+      ],
       "answer": 2,
       "explanation": "求相差要用減法，24－16＝8，姊姊比弟弟多 8 張。常見錯誤是把兩人的貼紙相加得到 40 張，或退位算錯得到 6、7 張。"
     },
@@ -151,7 +241,12 @@
       "id": "elem_math_1_019",
       "difficulty": 3,
       "question": "一個數的十位是 6、個位是 3，這個數是多少？",
-      "options": ["63", "36", "66", "33"],
+      "options": [
+        "63",
+        "36",
+        "66",
+        "33"
+      ],
       "answer": 0,
       "explanation": "十位是 6 表示有 6 個十是 60，個位是 3 再加 3，合起來是 63。常見錯誤是把十位和個位寫反變成 36。"
     },
@@ -159,9 +254,175 @@
       "id": "elem_math_1_020",
       "difficulty": 3,
       "question": "用 4 根一樣長的吸管，頭尾相接可以排出下列哪一種形狀？",
-      "options": ["正方形", "三角形", "圓形", "五邊形"],
+      "options": [
+        "正方形",
+        "三角形",
+        "圓形",
+        "五邊形"
+      ],
       "answer": 0,
       "explanation": "正方形有 4 條一樣長的邊，剛好用 4 根一樣長的吸管排成。三角形只需要 3 根，五邊形要 5 根，圓形沒有直直的邊，所以都不對。"
+    },
+    {
+      "id": "elem_math_1_021",
+      "difficulty": 1,
+      "question": "看下面的時鐘，現在是幾點鐘？",
+      "figure": "<svg viewBox=\"0 0 200 200\"><circle cx=\"100\" cy=\"100\" r=\"80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"100\" r=\"4\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"100\" y1=\"100\" x2=\"100\" y2=\"44\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"100\" y1=\"100\" x2=\"144\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"6\"/><text x=\"100\" y=\"34\" font-size=\"16\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">12</text><text x=\"176\" y=\"106\" font-size=\"16\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"100\" y=\"184\" font-size=\"16\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"24\" y=\"106\" font-size=\"16\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">9</text></svg>",
+      "options": [
+        "1 點",
+        "3 點",
+        "6 點",
+        "9 點"
+      ],
+      "answer": 1,
+      "explanation": "看時鐘要先看短短的時針，它指著 3；長長的分針指著 12，表示整點，所以現在是 3 點整。常見錯誤是看到長針指 12 就答 12 點，其實幾點是由短針決定的。"
+    },
+    {
+      "id": "elem_math_1_022",
+      "difficulty": 1,
+      "question": "下面數線上的箭頭指的是哪一個數？",
+      "figure": "<svg viewBox=\"0 0 260 90\"><line x1=\"20\" y1=\"60\" x2=\"240\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"20\" y1=\"55\" x2=\"20\" y2=\"65\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"42\" y1=\"55\" x2=\"42\" y2=\"65\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"64\" y1=\"55\" x2=\"64\" y2=\"65\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"86\" y1=\"55\" x2=\"86\" y2=\"65\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"108\" y1=\"55\" x2=\"108\" y2=\"65\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"130\" y1=\"55\" x2=\"130\" y2=\"65\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"152\" y1=\"55\" x2=\"152\" y2=\"65\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"174\" y1=\"55\" x2=\"174\" y2=\"65\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"196\" y1=\"55\" x2=\"196\" y2=\"65\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"218\" y1=\"55\" x2=\"218\" y2=\"65\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"240\" y1=\"55\" x2=\"240\" y2=\"65\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"174\" y1=\"24\" x2=\"174\" y2=\"48\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"167,47 181,47 174,58\" fill=\"#ef4444\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"20\" y=\"82\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">0</text><text x=\"42\" y=\"82\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"64\" y=\"82\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"86\" y=\"82\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"108\" y=\"82\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"130\" y=\"82\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">5</text><text x=\"152\" y=\"82\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"174\" y=\"82\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">7</text><text x=\"196\" y=\"82\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">8</text><text x=\"218\" y=\"82\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">9</text><text x=\"240\" y=\"82\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">10</text></svg>",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 2,
+      "explanation": "從 0 開始一格一格數到箭頭的位置，剛好是第 7 格，所以箭頭指的是 7。常見錯誤是少數一格答 6，或多數一格答 8。"
+    },
+    {
+      "id": "elem_math_1_023",
+      "difficulty": 2,
+      "question": "下面長條圖是三種水果的數量，蘋果比香蕉多幾個？",
+      "figure": "<svg viewBox=\"0 0 240 180\"><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"30\" y1=\"150\" x2=\"225\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"30\" y1=\"120\" x2=\"225\" y2=\"120\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"30\" y1=\"90\" x2=\"225\" y2=\"90\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"30\" y1=\"60\" x2=\"225\" y2=\"60\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"30\" y1=\"30\" x2=\"225\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><text x=\"25\" y=\"154\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">0</text><text x=\"25\" y=\"124\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"25\" y=\"94\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"25\" y=\"64\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"25\" y=\"34\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">8</text><rect x=\"50\" y=\"30\" width=\"35\" height=\"120\" fill=\"#ef4444\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"105\" y=\"90\" width=\"35\" height=\"60\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><rect x=\"160\" y=\"60\" width=\"35\" height=\"90\" fill=\"#22c55e\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><text x=\"67\" y=\"165\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">蘋果</text><text x=\"122\" y=\"165\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">香蕉</text><text x=\"177\" y=\"165\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">橘子</text></svg>",
+      "options": [
+        "2 個",
+        "4 個",
+        "3 個",
+        "12 個"
+      ],
+      "answer": 1,
+      "explanation": "從圖上讀出蘋果有 8 個、香蕉有 4 個，要比多少用減法，8－4＝4，所以蘋果比香蕉多 4 個。常見錯誤是把兩數相加算成 12，或看錯長條的高度。"
+    },
+    {
+      "id": "elem_math_1_024",
+      "difficulty": 3,
+      "question": "下面象形圖是全班最喜歡的運動人數（每個 ● 代表 1 人）。喜歡跑步和游泳的人合起來，比喜歡打球的人多幾人？",
+      "figure": "<svg viewBox=\"0 0 270 170\"><text x=\"12\" y=\"20\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">每個 ● 代表 1 人</text><text x=\"12\" y=\"60\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">跑步</text><text x=\"12\" y=\"100\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">游泳</text><text x=\"12\" y=\"140\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">打球</text><circle cx=\"70\" cy=\"55\" r=\"9\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><circle cx=\"94\" cy=\"55\" r=\"9\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><circle cx=\"118\" cy=\"55\" r=\"9\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><circle cx=\"142\" cy=\"55\" r=\"9\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><circle cx=\"166\" cy=\"55\" r=\"9\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><circle cx=\"70\" cy=\"95\" r=\"9\" fill=\"#22c55e\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><circle cx=\"94\" cy=\"95\" r=\"9\" fill=\"#22c55e\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><circle cx=\"118\" cy=\"95\" r=\"9\" fill=\"#22c55e\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><circle cx=\"70\" cy=\"135\" r=\"9\" fill=\"#f59e0b\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><circle cx=\"94\" cy=\"135\" r=\"9\" fill=\"#f59e0b\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><circle cx=\"118\" cy=\"135\" r=\"9\" fill=\"#f59e0b\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><circle cx=\"142\" cy=\"135\" r=\"9\" fill=\"#f59e0b\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><circle cx=\"166\" cy=\"135\" r=\"9\" fill=\"#f59e0b\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><circle cx=\"190\" cy=\"135\" r=\"9\" fill=\"#f59e0b\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><circle cx=\"214\" cy=\"135\" r=\"9\" fill=\"#f59e0b\" fill-opacity=\"0.3\" stroke=\"currentColor\"/></svg>",
+      "options": [
+        "3 人",
+        "2 人",
+        "0 人",
+        "1 人"
+      ],
+      "answer": 3,
+      "explanation": "先數出跑步 5 人、游泳 3 人，合起來 5＋3＝8 人；打球有 7 人，再比 8－7＝1，所以多 1 人。常見錯誤是只用其中一項去比，或忘了先把跑步和游泳的人數加起來。"
+    },
+    {
+      "id": "elem_math_1_025",
+      "difficulty": 2,
+      "question": "下圖是用一樣大的小正方形拼成的，一共用了幾個小正方形？",
+      "figure": "<svg viewBox=\"0 0 200 160\"><rect x=\"80\" y=\"20\" width=\"40\" height=\"40\" fill=\"#3b82f6\" fill-opacity=\"0.2\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"40\" y=\"60\" width=\"40\" height=\"40\" fill=\"#3b82f6\" fill-opacity=\"0.2\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"80\" y=\"60\" width=\"40\" height=\"40\" fill=\"#3b82f6\" fill-opacity=\"0.2\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"120\" y=\"60\" width=\"40\" height=\"40\" fill=\"#3b82f6\" fill-opacity=\"0.2\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"80\" y=\"100\" width=\"40\" height=\"40\" fill=\"#3b82f6\" fill-opacity=\"0.2\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>",
+      "options": [
+        "5 個",
+        "4 個",
+        "6 個",
+        "3 個"
+      ],
+      "answer": 0,
+      "explanation": "一個一個數，中間一個，加上上、下、左、右各一個，一共是 5 個小正方形。常見錯誤是漏數了中間那一個，或少看邊角的正方形而答 4 個。"
+    },
+    {
+      "id": "elem_math_1_026",
+      "difficulty": 1,
+      "question": "一個星期一共有幾天？",
+      "options": [
+        "5 天",
+        "6 天",
+        "7 天",
+        "10 天"
+      ],
+      "answer": 2,
+      "explanation": "一個星期從星期日、星期一一直到星期六，共有 7 天。常見錯誤是只算星期一到星期五的上學日而答 5 天，忘了星期六和星期日。"
+    },
+    {
+      "id": "elem_math_1_027",
+      "difficulty": 1,
+      "question": "60 和 8 合起來是多少？",
+      "options": [
+        "68",
+        "608",
+        "86",
+        "14"
+      ],
+      "answer": 0,
+      "explanation": "60 是 6 個十，再加上 8 個一，合起來就是 68。常見錯誤是把兩個數直接並排寫成 608，或把數字前後顛倒寫成 86。"
+    },
+    {
+      "id": "elem_math_1_028",
+      "difficulty": 2,
+      "question": "停車場原本停了 28 輛車，又開進來 9 輛，現在停車場裡有幾輛車？",
+      "options": [
+        "36 輛",
+        "19 輛",
+        "38 輛",
+        "37 輛"
+      ],
+      "answer": 3,
+      "explanation": "又開進來要用加法，個位 8＋9＝17，寫 7 進 1，十位 2＋1＝3，所以是 37 輛。常見錯誤是忘記進位算成 36 輛，或把「開進來」誤看成離開用減法得到 19 輛。"
+    },
+    {
+      "id": "elem_math_1_029",
+      "difficulty": 2,
+      "question": "依照規律接下去：20、18、16、14、（　），括號中應填入什麼數？",
+      "options": [
+        "12",
+        "10",
+        "13",
+        "15"
+      ],
+      "answer": 0,
+      "explanation": "這串數每次都少 2，14 再少 2 就是 12。常見錯誤是看成加 2 而答 16，或一次減太多算成 10。"
+    },
+    {
+      "id": "elem_math_1_030",
+      "difficulty": 3,
+      "question": "書包裡有 12 顆彈珠，其中紅色有 7 顆，其餘都是藍色。藍色彈珠比紅色彈珠少幾顆？",
+      "options": [
+        "3 顆",
+        "4 顆",
+        "2 顆",
+        "5 顆"
+      ],
+      "answer": 2,
+      "explanation": "先算藍色有幾顆：12－7＝5 顆；再比紅色和藍色，7－5＝2，所以藍色比紅色少 2 顆。常見錯誤是算出藍色 5 顆就當成答案，忘了題目問的是兩色相差幾顆。"
+    },
+    {
+      "id": "elem_math_1_031",
+      "difficulty": 3,
+      "question": "15－□＝8，□裡應該填多少？",
+      "options": [
+        "8",
+        "6",
+        "23",
+        "7"
+      ],
+      "answer": 3,
+      "explanation": "想「15 減去多少會剩下 8」，用 15－8＝7，所以□是 7。常見錯誤是把 15 和 8 相加算成 23，或退位減錯填成 6 或 8。"
+    },
+    {
+      "id": "elem_math_1_032",
+      "difficulty": 3,
+      "question": "有一個兩位數，它比 30 大、又比 40 小，而且個位是 7，這個數是多少？",
+      "options": [
+        "27",
+        "37",
+        "47",
+        "73"
+      ],
+      "answer": 1,
+      "explanation": "比 30 大又比 40 小，表示十位一定是 3；再加上個位是 7，這個數就是 37。常見錯誤是十位挑錯選成 27 或 47，或把數字前後顛倒寫成 73。"
     }
   ]
 }

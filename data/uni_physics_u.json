@@ -162,6 +162,107 @@
       "options": ["$10\\ \\mathrm{cm/s^2}$", "$5\\ \\mathrm{cm/s^2}$", "$20\\ \\mathrm{cm/s^2}$", "$40\\ \\mathrm{cm/s^2}$"],
       "answer": 2,
       "explanation": "簡諧運動最大加速度 $a_{max}=\\omega^2 A$，本題角頻率 $\\omega=2\\ \\mathrm{rad/s}$、振幅 $A=5$ 公分，故 $a_{max}=2^2\\times 5=20\\ \\mathrm{cm/s^2}$。易錯處是忘記把 $\\omega$ 平方而算成 $\\omega A=10$，或把最大速度 $\\omega A$ 與最大加速度混淆。"
+    },
+    {
+      "id": "uni_physics_u_021",
+      "difficulty": 2,
+      "question": "如圖為某物體沿直線運動的速度—時間（$v$-$t$）圖，物體由靜止開始等加速運動，在第 4 秒末速度達 8 m/s。此物體在前 4 秒內的位移為何？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"40,150 200,30 200,150\" fill=\"#3b82f6\" fill-opacity=\"0.2\" stroke=\"none\"/><line x1=\"40\" y1=\"150\" x2=\"224\" y2=\"150\" stroke=\"currentColor\" fill=\"none\"/><line x1=\"40\" y1=\"150\" x2=\"40\" y2=\"20\" stroke=\"currentColor\" fill=\"none\"/><line x1=\"40\" y1=\"150\" x2=\"200\" y2=\"30\" stroke=\"#3b82f6\" fill=\"none\"/><line x1=\"200\" y1=\"150\" x2=\"200\" y2=\"30\" stroke=\"currentColor\" stroke-dasharray=\"4 3\" fill=\"none\"/><line x1=\"40\" y1=\"30\" x2=\"200\" y2=\"30\" stroke=\"currentColor\" stroke-dasharray=\"4 3\" fill=\"none\"/><text x=\"28\" y=\"164\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"196\" y=\"166\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"22\" y=\"34\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">8</text><text x=\"206\" y=\"146\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">t/s</text><text x=\"46\" y=\"32\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">v (m/s)</text></svg>",
+      "options": ["16 公尺", "8 公尺", "32 公尺", "12 公尺"],
+      "answer": 0,
+      "explanation": "在 $v$-$t$ 圖中，位移等於圖線與時間軸所圍的面積；本題為底 4 秒、高 8 m/s 的三角形，面積 $=\\frac{1}{2}\\times 4\\times 8=16$ 公尺。易錯處是把終速直接當位移（8），或誤用長方形面積 $4\\times 8=32$ 而忘記三角形要乘 $\\frac{1}{2}$。"
+    },
+    {
+      "id": "uni_physics_u_022",
+      "difficulty": 2,
+      "question": "如圖，質量 10 公斤的木塊靜置於傾角 $30^\\circ$ 的光滑斜面上（取 $g=10\\ \\mathrm{m/s^2}$），則重力沿斜面方向的分量大小為何？",
+      "figure": "<svg viewBox=\"0 0 240 160\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"30,130 210,130 210,26\" fill=\"none\" stroke=\"currentColor\"/><polygon points=\"92.5,93.9 111.5,82.9 100.5,63.85 81.5,74.85\" fill=\"#f59e0b\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><path d=\"M60,130 A30,30 0 0 0 56,115\" fill=\"none\" stroke=\"currentColor\"/><text x=\"64\" y=\"124\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">30°</text><text x=\"90\" y=\"82\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">m</text></svg>",
+      "options": ["25 N", "50 N", "100 N", "86.6 N"],
+      "answer": 1,
+      "explanation": "重力沿斜面方向的分量為 $mg\\sin\\theta=10\\times 10\\times\\sin 30^\\circ=100\\times 0.5=50\\ \\mathrm{N}$。易錯處是誤用 $\\cos 30^\\circ$ 得約 86.6 N（那是垂直於斜面的分量），或忘記乘 $\\sin\\theta$ 而直接寫成重力 100 N。"
+    },
+    {
+      "id": "uni_physics_u_023",
+      "difficulty": 1,
+      "question": "如圖，兩力 $F_1=3\\ \\mathrm{N}$ 與 $F_2=4\\ \\mathrm{N}$ 互相垂直並作用於同一點，其合力的大小為何？",
+      "figure": "<svg viewBox=\"0 0 200 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"140\" x2=\"130\" y2=\"140\" stroke=\"#3b82f6\" fill=\"none\"/><polygon points=\"130,140 121,136 121,144\" fill=\"#3b82f6\" stroke=\"none\"/><line x1=\"40\" y1=\"140\" x2=\"40\" y2=\"20\" stroke=\"#ef4444\" fill=\"none\"/><polygon points=\"40,20 36,29 44,29\" fill=\"#ef4444\" stroke=\"none\"/><line x1=\"40\" y1=\"140\" x2=\"130\" y2=\"20\" stroke=\"currentColor\" stroke-dasharray=\"4 3\" fill=\"none\"/><rect x=\"40\" y=\"131\" width=\"9\" height=\"9\" fill=\"none\" stroke=\"currentColor\"/><text x=\"80\" y=\"157\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">3 N</text><text x=\"16\" y=\"84\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">4 N</text><text x=\"92\" y=\"72\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">?</text></svg>",
+      "options": ["1 N", "7 N", "5 N", "12 N"],
+      "answer": 2,
+      "explanation": "兩力互相垂直時，合力大小由畢氏定理求得 $\\sqrt{3^2+4^2}=\\sqrt{9+16}=\\sqrt{25}=5\\ \\mathrm{N}$。易錯處是把兩力直接相加得 7 N（那只在同向時成立），或相減得 1 N（那是反向時的結果）。"
+    },
+    {
+      "id": "uni_physics_u_024",
+      "difficulty": 2,
+      "question": "如圖電路，$12\\ \\mathrm{V}$ 電源與 $2\\ \\Omega$、$4\\ \\Omega$ 兩電阻串聯，則 $4\\ \\Omega$ 電阻兩端的電壓為何？",
+      "figure": "<svg viewBox=\"0 0 240 160\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"30\" x2=\"80\" y2=\"30\" stroke=\"currentColor\" fill=\"none\"/><rect x=\"80\" y=\"22\" width=\"60\" height=\"16\" fill=\"none\" stroke=\"currentColor\"/><line x1=\"140\" y1=\"30\" x2=\"200\" y2=\"30\" stroke=\"currentColor\" fill=\"none\"/><line x1=\"200\" y1=\"30\" x2=\"200\" y2=\"55\" stroke=\"currentColor\" fill=\"none\"/><rect x=\"192\" y=\"55\" width=\"16\" height=\"50\" fill=\"none\" stroke=\"currentColor\"/><line x1=\"200\" y1=\"105\" x2=\"200\" y2=\"130\" stroke=\"currentColor\" fill=\"none\"/><line x1=\"200\" y1=\"130\" x2=\"40\" y2=\"130\" stroke=\"currentColor\" fill=\"none\"/><line x1=\"40\" y1=\"130\" x2=\"40\" y2=\"92\" stroke=\"currentColor\" fill=\"none\"/><line x1=\"28\" y1=\"92\" x2=\"52\" y2=\"92\" stroke=\"currentColor\" fill=\"none\"/><line x1=\"34\" y1=\"84\" x2=\"46\" y2=\"84\" stroke=\"currentColor\" fill=\"none\"/><line x1=\"40\" y1=\"84\" x2=\"40\" y2=\"30\" stroke=\"currentColor\" fill=\"none\"/><text x=\"96\" y=\"16\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">2 Ω</text><text x=\"212\" y=\"84\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">4 Ω</text><text x=\"4\" y=\"92\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">12 V</text></svg>",
+      "options": ["4 V", "6 V", "12 V", "8 V"],
+      "answer": 3,
+      "explanation": "串聯總電阻 $2+4=6\\ \\Omega$，電路電流 $I=\\frac{12}{6}=2\\ \\mathrm{A}$，故 $4\\ \\Omega$ 兩端電壓 $V=IR=2\\times 4=8\\ \\mathrm{V}$。易錯處是把整個電源電壓 12 V 都當成單一電阻的電壓，或把分壓算反而得 4 V（那是 $2\\ \\Omega$ 的分壓）。"
+    },
+    {
+      "id": "uni_physics_u_025",
+      "difficulty": 3,
+      "question": "如圖為作用於一物體的水平力隨時間變化的關係圖，該物體質量為 4 公斤、最初靜止且置於光滑水平面上。經過 4 秒後，物體的速率為何？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"40,150 120,50 200,150\" fill=\"#f59e0b\" fill-opacity=\"0.22\" stroke=\"none\"/><line x1=\"40\" y1=\"150\" x2=\"224\" y2=\"150\" stroke=\"currentColor\" fill=\"none\"/><line x1=\"40\" y1=\"150\" x2=\"40\" y2=\"20\" stroke=\"currentColor\" fill=\"none\"/><polyline points=\"40,150 120,50 200,150\" fill=\"none\" stroke=\"#f59e0b\"/><line x1=\"120\" y1=\"150\" x2=\"120\" y2=\"50\" stroke=\"currentColor\" stroke-dasharray=\"4 3\" fill=\"none\"/><line x1=\"40\" y1=\"50\" x2=\"120\" y2=\"50\" stroke=\"currentColor\" stroke-dasharray=\"4 3\" fill=\"none\"/><text x=\"28\" y=\"164\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"116\" y=\"166\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"196\" y=\"166\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"22\" y=\"54\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">8</text><text x=\"206\" y=\"146\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">t/s</text><text x=\"46\" y=\"32\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">F/N</text></svg>",
+      "options": ["4 m/s", "16 m/s", "8 m/s", "2 m/s"],
+      "answer": 0,
+      "explanation": "力對時間圖線下方的面積即為衝量，本題三角形面積 $=\\frac{1}{2}\\times 4\\times 8=16\\ \\mathrm{N\\cdot s}$；由衝量等於動量變化 $J=mv$，$16=4v$，得 $v=4\\ \\mathrm{m/s}$。易錯處是把衝量 16 直接當成速率，或忘記三角形面積要乘 $\\frac{1}{2}$。"
+    },
+    {
+      "id": "uni_physics_u_026",
+      "difficulty": 2,
+      "question": "一凸透鏡的焦距為 10 公分，有一物體置於透鏡前 15 公分處，依薄透鏡成像公式，其像距為何？",
+      "options": ["6 公分", "30 公分", "25 公分", "5 公分"],
+      "answer": 1,
+      "explanation": "薄透鏡成像公式 $\\frac{1}{f}=\\frac{1}{p}+\\frac{1}{q}$，代入得 $\\frac{1}{q}=\\frac{1}{10}-\\frac{1}{15}=\\frac{3-2}{30}=\\frac{1}{30}$，故像距 $q=30$ 公分。易錯處是把公式誤寫成 $\\frac{1}{q}=\\frac{1}{f}+\\frac{1}{p}$ 而得 6 公分，或把物距與焦距相加得 25 公分。"
+    },
+    {
+      "id": "uni_physics_u_027",
+      "difficulty": 1,
+      "question": "將質量 5 公斤的物體從地面緩慢舉高 3 公尺（取 $g=10\\ \\mathrm{m/s^2}$），此物體增加的重力位能為何？",
+      "options": ["15 J", "50 J", "150 J", "1.5 J"],
+      "answer": 2,
+      "explanation": "重力位能的變化為 $\\Delta U=mgh=5\\times 10\\times 3=150\\ \\mathrm{J}$。易錯處是漏乘其中一個量，例如只算 $mg=50$ 或 $mh=15$，重力位能須同時包含質量、重力加速度與高度三者相乘。"
+    },
+    {
+      "id": "uni_physics_u_028",
+      "difficulty": 3,
+      "question": "一體積 $2\\times 10^{-3}\\ \\mathrm{m^3}$、重 30 N 的金屬塊，以細線懸掛並完全浸入水中（水密度 $1000\\ \\mathrm{kg/m^3}$，取 $g=10\\ \\mathrm{m/s^2}$），則細線的張力為何？",
+      "options": ["50 N", "30 N", "20 N", "10 N"],
+      "answer": 3,
+      "explanation": "浮力 $F_{浮}=\\rho V g=1000\\times 2\\times 10^{-3}\\times 10=20\\ \\mathrm{N}$；金屬塊在水中受力平衡，張力 $T=$ 重量 $-$ 浮力 $=30-20=10\\ \\mathrm{N}$。易錯處是忘記扣掉浮力而以為張力仍為 30 N，或直接把浮力 20 N 當成答案。"
+    },
+    {
+      "id": "uni_physics_u_029",
+      "difficulty": 3,
+      "question": "一條兩端固定、長度 1 公尺的弦，弦上橫波的傳播速率為 240 m/s，則此弦第三諧音（三倍頻）的頻率為何？",
+      "options": ["360 Hz", "120 Hz", "240 Hz", "720 Hz"],
+      "answer": 0,
+      "explanation": "兩端固定弦的第 $n$ 諧音頻率為 $f_n=\\frac{nv}{2L}$；基頻 $f_1=\\frac{240}{2\\times 1}=120\\ \\mathrm{Hz}$，第三諧音 $f_3=3\\times 120=360\\ \\mathrm{Hz}$。易錯處是把基頻 120 Hz 當成答案，或忘記除以 $2L$ 而直接使用波速。"
+    },
+    {
+      "id": "uni_physics_u_030",
+      "difficulty": 1,
+      "question": "一電容器的電容為 $2\\ \\mu\\mathrm{F}$，兩端加上 5 V 的電壓，則此電容器所儲存的電荷量為何？",
+      "options": ["2.5 μC", "10 μC", "0.4 μC", "7 μC"],
+      "answer": 1,
+      "explanation": "電容的定義為 $C=\\frac{Q}{V}$，故電荷 $Q=CV=2\\times 5=10\\ \\mu\\mathrm{C}$。易錯處是把公式記反成 $Q=\\frac{C}{V}=0.4$ 或 $Q=\\frac{V}{C}=2.5$，電荷應為電容與電壓相乘。"
+    },
+    {
+      "id": "uni_physics_u_031",
+      "difficulty": 3,
+      "question": "已知普朗克常數 $h=6.6\\times 10^{-34}\\ \\mathrm{J\\cdot s}$，一個頻率為 $5\\times 10^{14}\\ \\mathrm{Hz}$ 的光子，其能量為何？",
+      "options": ["$6.6\\times 10^{-19}$ J", "$1.32\\times 10^{-19}$ J", "$3.3\\times 10^{-19}$ J", "$3.3\\times 10^{-20}$ J"],
+      "answer": 2,
+      "explanation": "光子能量 $E=hf=6.6\\times 10^{-34}\\times 5\\times 10^{14}=33\\times 10^{-20}=3.3\\times 10^{-19}\\ \\mathrm{J}$。易錯處是指數運算出錯，須注意 $10^{-34}\\times 10^{14}=10^{-20}$、$6.6\\times 5=33$，再把 $33\\times 10^{-20}$ 改寫成 $3.3\\times 10^{-19}$。"
+    },
+    {
+      "id": "uni_physics_u_032",
+      "difficulty": 1,
+      "question": "將 0.5 公斤的水從 20°C 加熱到 30°C，已知水的比熱為 $4200\\ \\mathrm{J/(kg\\cdot ^\\circ C)}$，需要吸收的熱量為何？",
+      "options": ["2100 J", "42000 J", "4200 J", "21000 J"],
+      "answer": 3,
+      "explanation": "吸熱公式 $Q=mc\\Delta T=0.5\\times 4200\\times (30-20)=0.5\\times 4200\\times 10=21000\\ \\mathrm{J}$。易錯處是溫差只取 1 度而得 2100 J，或忘記乘上質量 0.5 而算成 42000 J。"
     }
   ]
 }

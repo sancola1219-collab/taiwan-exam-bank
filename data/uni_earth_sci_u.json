@@ -3,25 +3,426 @@
   "subject": "earth_sci",
   "grade": 0,
   "questions": [
-    { "id": "uni_earth_sci_u_001", "difficulty": 1, "question": "由岩漿或熔岩冷卻凝固所形成的岩石稱為？", "options": ["沉積岩", "火成岩", "變質岩", "化石岩"], "answer": 1, "explanation": "火成岩由岩漿或熔岩冷卻凝固而成，依冷卻速率分為深成岩與噴出岩。易錯是與由沉積物膠結而成的沉積岩混淆。" },
-    { "id": "uni_earth_sci_u_002", "difficulty": 1, "question": "下列何者最可能在沉積岩中被發現？", "options": ["柱狀節理", "大型結晶", "玻璃質結構", "層理與化石"], "answer": 3, "explanation": "沉積岩由沉積物層層堆積、膠結而成，常保留層理構造與生物化石。易錯是把火成岩才有的柱狀節理、大結晶或玻璃質當成沉積岩特徵。" },
-    { "id": "uni_earth_sci_u_003", "difficulty": 1, "question": "全球地震最頻繁的區域大多分布於？", "options": ["板塊交界帶", "大陸內部中央", "深海平原中央", "極區冰蓋之上"], "answer": 0, "explanation": "地震主要因板塊間的碰撞、隱沒或錯動而發生，故集中於板塊交界帶（如環太平洋地震帶）。易錯是以為地震在大陸中央同樣頻繁。" },
-    { "id": "uni_earth_sci_u_004", "difficulty": 1, "question": "各種天氣現象（雲、雨、颱風）主要發生在大氣的哪一層？", "options": ["平流層", "中氣層", "對流層", "增溫層"], "answer": 2, "explanation": "對流層是最接近地面的一層，含大部分水氣且對流旺盛，故天氣現象幾乎都在此發生。易錯是選臭氧層所在的平流層，該層氣流穩定少天氣變化。" },
-    { "id": "uni_earth_sci_u_005", "difficulty": 1, "question": "水由海洋、湖泊表面轉變為水蒸氣進入大氣的過程稱為？", "options": ["凝結", "蒸發", "降水", "逕流"], "answer": 1, "explanation": "蒸發是液態水吸熱變為水蒸氣進入大氣，為水循環的起始環節。易錯是與凝結（水氣變液態）方向記反。" },
-    { "id": "uni_earth_sci_u_006", "difficulty": 1, "question": "太陽系目前公認的行星數目為？", "options": ["$6$", "$7$", "$9$", "$8$"], "answer": 3, "explanation": "冥王星於 2006 年被國際天文聯合會重新歸類為矮行星，故太陽系現有 $8$ 顆行星。易錯是沿用舊制答 $9$。" },
-    { "id": "uni_earth_sci_u_007", "difficulty": 1, "question": "莫氏硬度表中硬度最高（$10$）的礦物為？", "options": ["鑽石", "石英", "滑石", "方解石"], "answer": 0, "explanation": "莫氏硬度表以滑石為 $1$、鑽石為 $10$，鑽石為天然礦物中最硬者。易錯是選硬度 $7$ 的石英。" },
-    { "id": "uni_earth_sci_u_008", "difficulty": 2, "question": "海洋板塊與大陸板塊聚合時，密度較大的海洋板塊會？", "options": ["向上抬升形成高山", "維持不動", "隱沒到大陸板塊之下", "裂開形成裂谷"], "answer": 2, "explanation": "海洋板塊密度較大，聚合時會隱沒到大陸板塊之下形成隱沒帶，伴隨海溝與火山。易錯是以為較重者反被抬升。" },
-    { "id": "uni_earth_sci_u_009", "difficulty": 2, "question": "變質岩的形成主要是因為原有岩石受到？", "options": ["風化與侵蝕作用", "高溫與高壓作用", "岩漿冷卻凝固", "流水搬運堆積"], "answer": 1, "explanation": "變質岩是既有岩石在高溫、高壓（未熔融）下礦物重組而成，如石灰岩變質為大理岩。易錯是把冷卻（火成）或搬運堆積（沉積）當成變質作用。" },
-    { "id": "uni_earth_sci_u_010", "difficulty": 2, "question": "下列地質年代中，距今最久遠且時間跨度最長的時期為？", "options": ["中生代", "古生代", "新生代", "前寒武時期"], "answer": 3, "explanation": "前寒武時期涵蓋地球誕生到約 5.4 億年前，佔地球歷史約九成，是最古老也最長的時期。易錯是誤以為古生代最早。" },
-    { "id": "uni_earth_sci_u_011", "difficulty": 2, "question": "北半球低氣壓中心附近的天氣特徵通常為？", "options": ["多雲有雨、氣流上升", "晴朗乾燥、氣流下沉", "無風靜止", "終年降雪"], "answer": 0, "explanation": "低氣壓中心氣流輻合上升，水氣冷卻凝結成雲致雨，故多為陰雨天氣。易錯是與高氣壓（下沉、晴朗）的特徵搞反。" },
-    { "id": "uni_earth_sci_u_012", "difficulty": 2, "question": "推動海洋表層洋流的主要動力為？", "options": ["月球的引力", "海底地震", "盛行風", "地球自轉單獨造成"], "answer": 2, "explanation": "表層洋流主要由長期盛行風的摩擦拖曳驅動，並受科氏力偏轉形成環流。易錯是把驅動潮汐的月球引力當成洋流成因。" },
-    { "id": "uni_earth_sci_u_013", "difficulty": 2, "question": "太陽能持續發光發熱的能量來源為？", "options": ["化學燃燒", "氫核融合為氦", "重原子核分裂", "純粹的重力收縮"], "answer": 1, "explanation": "太陽核心在高溫高壓下進行氫核融合為氦，過程釋放巨大能量。易錯是誤以為是化學燃燒或核分裂，太陽的主要機制是核融合。" },
-    { "id": "uni_earth_sci_u_014", "difficulty": 2, "question": "下列何者為造成全球暖化的主要溫室氣體？", "options": ["氮氣 $N_2$", "氧氣 $O_2$", "氬氣 $Ar$", "二氧化碳 $CO_2$"], "answer": 3, "explanation": "二氧化碳能吸收地表放出的長波輻射而增強溫室效應，是人為暖化的主要氣體。易錯是選佔大氣最多但不吸紅外線的氮氣或氧氣。" },
-    { "id": "uni_earth_sci_u_015", "difficulty": 3, "question": "地震 S 波（橫波）無法通過地球外核，據此可推論外核為？", "options": ["液態", "固態", "氣態", "真空"], "answer": 0, "explanation": "S 波（橫波）無法在液體或氣體中傳播，其在外核消失代表外核為液態（熔融金屬）。易錯是誤判外核為固態，內核才是固態。" },
-    { "id": "uni_earth_sci_u_016", "difficulty": 3, "question": "中洋脊 (mid-ocean ridge) 屬於哪一種板塊邊界？", "options": ["聚合邊界", "轉形（錯動）邊界", "張裂（分離）邊界", "隱沒邊界"], "answer": 2, "explanation": "中洋脊是兩板塊分離、岩漿上湧生成新海洋地殼的張裂邊界。易錯是與板塊相撞的聚合邊界或平移的轉形邊界混淆。" },
-    { "id": "uni_earth_sci_u_017", "difficulty": 3, "question": "與太陽相比，質量遠大於太陽的恆星其壽命通常？", "options": ["更長", "更短", "完全相同", "接近無限長"], "answer": 1, "explanation": "質量越大的恆星核心溫度壓力越高，核融合越劇烈，燃料消耗極快，故壽命反而較短。易錯是直覺以為燃料多就活得久。" },
-    { "id": "uni_earth_sci_u_018", "difficulty": 3, "question": "能吸收大部分太陽紫外線、保護地表生物的臭氧層位於大氣的？", "options": ["對流層", "中氣層", "增溫層", "平流層"], "answer": 3, "explanation": "臭氧層位於平流層，臭氧吸收紫外線使該層溫度隨高度上升。易錯是誤以為臭氧層在最接近地面的對流層。" },
-    { "id": "uni_earth_sci_u_019", "difficulty": 3, "question": "聖嬰現象 (El Niño) 主要與哪個海域的海溫異常升高有關？", "options": ["赤道東太平洋", "北大西洋", "印度洋西部", "南極海"], "answer": 0, "explanation": "聖嬰現象指赤道東太平洋海溫異常偏高，改變大氣環流而影響全球氣候。易錯是誤記為大西洋或印度洋海域。" },
-    { "id": "uni_earth_sci_u_020", "difficulty": 3, "question": "恐龍大滅絕（白堊紀末大滅絕）發生在哪一地質年代的末期？", "options": ["古生代", "前寒武時期", "中生代", "新生代"], "answer": 2, "explanation": "恐龍繁盛於中生代，於中生代末（約 6600 萬年前）的白堊紀-古近紀滅絕事件中消失。易錯是把恐龍時代誤放到古生代或新生代。" }
+    {
+      "id": "uni_earth_sci_u_001",
+      "difficulty": 1,
+      "question": "由岩漿或熔岩冷卻凝固所形成的岩石稱為？",
+      "options": [
+        "沉積岩",
+        "火成岩",
+        "變質岩",
+        "化石岩"
+      ],
+      "answer": 1,
+      "explanation": "火成岩由岩漿或熔岩冷卻凝固而成，依冷卻速率分為深成岩與噴出岩。易錯是與由沉積物膠結而成的沉積岩混淆。"
+    },
+    {
+      "id": "uni_earth_sci_u_002",
+      "difficulty": 1,
+      "question": "下列何者最可能在沉積岩中被發現？",
+      "options": [
+        "柱狀節理",
+        "大型結晶",
+        "玻璃質結構",
+        "層理與化石"
+      ],
+      "answer": 3,
+      "explanation": "沉積岩由沉積物層層堆積、膠結而成，常保留層理構造與生物化石。易錯是把火成岩才有的柱狀節理、大結晶或玻璃質當成沉積岩特徵。"
+    },
+    {
+      "id": "uni_earth_sci_u_003",
+      "difficulty": 1,
+      "question": "全球地震最頻繁的區域大多分布於？",
+      "options": [
+        "板塊交界帶",
+        "大陸內部中央",
+        "深海平原中央",
+        "極區冰蓋之上"
+      ],
+      "answer": 0,
+      "explanation": "地震主要因板塊間的碰撞、隱沒或錯動而發生，故集中於板塊交界帶（如環太平洋地震帶）。易錯是以為地震在大陸中央同樣頻繁。"
+    },
+    {
+      "id": "uni_earth_sci_u_004",
+      "difficulty": 1,
+      "question": "各種天氣現象（雲、雨、颱風）主要發生在大氣的哪一層？",
+      "options": [
+        "平流層",
+        "中氣層",
+        "對流層",
+        "增溫層"
+      ],
+      "answer": 2,
+      "explanation": "對流層是最接近地面的一層，含大部分水氣且對流旺盛，故天氣現象幾乎都在此發生。易錯是選臭氧層所在的平流層，該層氣流穩定少天氣變化。"
+    },
+    {
+      "id": "uni_earth_sci_u_005",
+      "difficulty": 1,
+      "question": "水由海洋、湖泊表面轉變為水蒸氣進入大氣的過程稱為？",
+      "options": [
+        "凝結",
+        "蒸發",
+        "降水",
+        "逕流"
+      ],
+      "answer": 1,
+      "explanation": "蒸發是液態水吸熱變為水蒸氣進入大氣，為水循環的起始環節。易錯是與凝結（水氣變液態）方向記反。"
+    },
+    {
+      "id": "uni_earth_sci_u_006",
+      "difficulty": 1,
+      "question": "太陽系目前公認的行星數目為？",
+      "options": [
+        "$6$",
+        "$7$",
+        "$9$",
+        "$8$"
+      ],
+      "answer": 3,
+      "explanation": "冥王星於 2006 年被國際天文聯合會重新歸類為矮行星，故太陽系現有 $8$ 顆行星。易錯是沿用舊制答 $9$。"
+    },
+    {
+      "id": "uni_earth_sci_u_007",
+      "difficulty": 1,
+      "question": "莫氏硬度表中硬度最高（$10$）的礦物為？",
+      "options": [
+        "鑽石",
+        "石英",
+        "滑石",
+        "方解石"
+      ],
+      "answer": 0,
+      "explanation": "莫氏硬度表以滑石為 $1$、鑽石為 $10$，鑽石為天然礦物中最硬者。易錯是選硬度 $7$ 的石英。"
+    },
+    {
+      "id": "uni_earth_sci_u_008",
+      "difficulty": 2,
+      "question": "海洋板塊與大陸板塊聚合時，密度較大的海洋板塊會？",
+      "options": [
+        "向上抬升形成高山",
+        "維持不動",
+        "隱沒到大陸板塊之下",
+        "裂開形成裂谷"
+      ],
+      "answer": 2,
+      "explanation": "海洋板塊密度較大，聚合時會隱沒到大陸板塊之下形成隱沒帶，伴隨海溝與火山。易錯是以為較重者反被抬升。"
+    },
+    {
+      "id": "uni_earth_sci_u_009",
+      "difficulty": 2,
+      "question": "變質岩的形成主要是因為原有岩石受到？",
+      "options": [
+        "風化與侵蝕作用",
+        "高溫與高壓作用",
+        "岩漿冷卻凝固",
+        "流水搬運堆積"
+      ],
+      "answer": 1,
+      "explanation": "變質岩是既有岩石在高溫、高壓（未熔融）下礦物重組而成，如石灰岩變質為大理岩。易錯是把冷卻（火成）或搬運堆積（沉積）當成變質作用。"
+    },
+    {
+      "id": "uni_earth_sci_u_010",
+      "difficulty": 2,
+      "question": "下列地質年代中，距今最久遠且時間跨度最長的時期為？",
+      "options": [
+        "中生代",
+        "古生代",
+        "新生代",
+        "前寒武時期"
+      ],
+      "answer": 3,
+      "explanation": "前寒武時期涵蓋地球誕生到約 5.4 億年前，佔地球歷史約九成，是最古老也最長的時期。易錯是誤以為古生代最早。"
+    },
+    {
+      "id": "uni_earth_sci_u_011",
+      "difficulty": 2,
+      "question": "北半球低氣壓中心附近的天氣特徵通常為？",
+      "options": [
+        "多雲有雨、氣流上升",
+        "晴朗乾燥、氣流下沉",
+        "無風靜止",
+        "終年降雪"
+      ],
+      "answer": 0,
+      "explanation": "低氣壓中心氣流輻合上升，水氣冷卻凝結成雲致雨，故多為陰雨天氣。易錯是與高氣壓（下沉、晴朗）的特徵搞反。"
+    },
+    {
+      "id": "uni_earth_sci_u_012",
+      "difficulty": 2,
+      "question": "推動海洋表層洋流的主要動力為？",
+      "options": [
+        "月球的引力",
+        "海底地震",
+        "盛行風",
+        "地球自轉單獨造成"
+      ],
+      "answer": 2,
+      "explanation": "表層洋流主要由長期盛行風的摩擦拖曳驅動，並受科氏力偏轉形成環流。易錯是把驅動潮汐的月球引力當成洋流成因。"
+    },
+    {
+      "id": "uni_earth_sci_u_013",
+      "difficulty": 2,
+      "question": "太陽能持續發光發熱的能量來源為？",
+      "options": [
+        "化學燃燒",
+        "氫核融合為氦",
+        "重原子核分裂",
+        "純粹的重力收縮"
+      ],
+      "answer": 1,
+      "explanation": "太陽核心在高溫高壓下進行氫核融合為氦，過程釋放巨大能量。易錯是誤以為是化學燃燒或核分裂，太陽的主要機制是核融合。"
+    },
+    {
+      "id": "uni_earth_sci_u_014",
+      "difficulty": 2,
+      "question": "下列何者為造成全球暖化的主要溫室氣體？",
+      "options": [
+        "氮氣 $N_2$",
+        "氧氣 $O_2$",
+        "氬氣 $Ar$",
+        "二氧化碳 $CO_2$"
+      ],
+      "answer": 3,
+      "explanation": "二氧化碳能吸收地表放出的長波輻射而增強溫室效應，是人為暖化的主要氣體。易錯是選佔大氣最多但不吸紅外線的氮氣或氧氣。"
+    },
+    {
+      "id": "uni_earth_sci_u_015",
+      "difficulty": 3,
+      "question": "地震 S 波（橫波）無法通過地球外核，據此可推論外核為？",
+      "options": [
+        "液態",
+        "固態",
+        "氣態",
+        "真空"
+      ],
+      "answer": 0,
+      "explanation": "S 波（橫波）無法在液體或氣體中傳播，其在外核消失代表外核為液態（熔融金屬）。易錯是誤判外核為固態，內核才是固態。"
+    },
+    {
+      "id": "uni_earth_sci_u_016",
+      "difficulty": 3,
+      "question": "中洋脊 (mid-ocean ridge) 屬於哪一種板塊邊界？",
+      "options": [
+        "聚合邊界",
+        "轉形（錯動）邊界",
+        "張裂（分離）邊界",
+        "隱沒邊界"
+      ],
+      "answer": 2,
+      "explanation": "中洋脊是兩板塊分離、岩漿上湧生成新海洋地殼的張裂邊界。易錯是與板塊相撞的聚合邊界或平移的轉形邊界混淆。"
+    },
+    {
+      "id": "uni_earth_sci_u_017",
+      "difficulty": 3,
+      "question": "與太陽相比，質量遠大於太陽的恆星其壽命通常？",
+      "options": [
+        "更長",
+        "更短",
+        "完全相同",
+        "接近無限長"
+      ],
+      "answer": 1,
+      "explanation": "質量越大的恆星核心溫度壓力越高，核融合越劇烈，燃料消耗極快，故壽命反而較短。易錯是直覺以為燃料多就活得久。"
+    },
+    {
+      "id": "uni_earth_sci_u_018",
+      "difficulty": 3,
+      "question": "能吸收大部分太陽紫外線、保護地表生物的臭氧層位於大氣的？",
+      "options": [
+        "對流層",
+        "中氣層",
+        "增溫層",
+        "平流層"
+      ],
+      "answer": 3,
+      "explanation": "臭氧層位於平流層，臭氧吸收紫外線使該層溫度隨高度上升。易錯是誤以為臭氧層在最接近地面的對流層。"
+    },
+    {
+      "id": "uni_earth_sci_u_019",
+      "difficulty": 3,
+      "question": "聖嬰現象 (El Niño) 主要與哪個海域的海溫異常升高有關？",
+      "options": [
+        "赤道東太平洋",
+        "北大西洋",
+        "印度洋西部",
+        "南極海"
+      ],
+      "answer": 0,
+      "explanation": "聖嬰現象指赤道東太平洋海溫異常偏高，改變大氣環流而影響全球氣候。易錯是誤記為大西洋或印度洋海域。"
+    },
+    {
+      "id": "uni_earth_sci_u_020",
+      "difficulty": 3,
+      "question": "恐龍大滅絕（白堊紀末大滅絕）發生在哪一地質年代的末期？",
+      "options": [
+        "古生代",
+        "前寒武時期",
+        "中生代",
+        "新生代"
+      ],
+      "answer": 2,
+      "explanation": "恐龍繁盛於中生代，於中生代末（約 6600 萬年前）的白堊紀-古近紀滅絕事件中消失。易錯是把恐龍時代誤放到古生代或新生代。"
+    },
+    {
+      "id": "uni_earth_sci_u_021",
+      "difficulty": 2,
+      "question": "農曆初一（朔）或十五（望）時，太陽、月球、地球接近排成一直線，日、月的引潮力相互加強，此時的潮汐特徵為？",
+      "options": [
+        "潮差最大的大潮",
+        "潮差最小的小潮",
+        "整天完全沒有潮汐",
+        "只漲潮而不退潮"
+      ],
+      "answer": 0,
+      "explanation": "朔望時日、月、地連成一線，太陽與月球的引潮力方向相近而互相疊加，使潮差達到最大，稱為大潮；上弦、下弦月時日月引潮力互相抵消而形成小潮。常見錯誤是把大潮誤認為與颱風或海嘯有關，其實大潮是天體排列造成的規律潮汐現象。"
+    },
+    {
+      "id": "uni_earth_sci_u_022",
+      "difficulty": 2,
+      "question": "圖為一未受擾動、未倒轉的水平沉積岩層剖面。依據疊置定律，圖中哪一層岩層的形成年代最古老？",
+      "figure": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"110\" y=\"22\" fill=\"currentColor\" stroke=\"none\" font-size=\"13\" text-anchor=\"middle\">地表</text><rect x=\"30\" y=\"30\" width=\"160\" height=\"30\" fill=\"#3b82f6\" fill-opacity=\"0.2\" stroke=\"currentColor\"/><rect x=\"30\" y=\"60\" width=\"160\" height=\"30\" fill=\"#f59e0b\" fill-opacity=\"0.2\" stroke=\"currentColor\"/><rect x=\"30\" y=\"90\" width=\"160\" height=\"30\" fill=\"#22c55e\" fill-opacity=\"0.2\" stroke=\"currentColor\"/><rect x=\"30\" y=\"120\" width=\"160\" height=\"30\" fill=\"#ef4444\" fill-opacity=\"0.2\" stroke=\"currentColor\"/><text x=\"110\" y=\"51\" fill=\"currentColor\" stroke=\"none\" font-size=\"16\" text-anchor=\"middle\">甲</text><text x=\"110\" y=\"81\" fill=\"currentColor\" stroke=\"none\" font-size=\"16\" text-anchor=\"middle\">乙</text><text x=\"110\" y=\"111\" fill=\"currentColor\" stroke=\"none\" font-size=\"16\" text-anchor=\"middle\">丙</text><text x=\"110\" y=\"141\" fill=\"currentColor\" stroke=\"none\" font-size=\"16\" text-anchor=\"middle\">丁</text></svg>",
+      "options": [
+        "最上方的甲層",
+        "中間偏上的乙層",
+        "中間偏下的丙層",
+        "最下方的丁層"
+      ],
+      "answer": 3,
+      "explanation": "疊置定律指出，在未受擾動且未倒轉的沉積岩層中，越下方的岩層沉積得越早、年代越老，故最底部的丁層最古老。常見錯誤是誤以為最上層最先形成，其實上層是後來才堆積在既有岩層之上的。"
+    },
+    {
+      "id": "uni_earth_sci_u_023",
+      "difficulty": 1,
+      "question": "觀察夜空中的恆星，其顏色與表面溫度有關。下列哪一種顏色的恆星，表面溫度最高？",
+      "options": [
+        "紅色",
+        "橙色",
+        "黃色",
+        "藍白色"
+      ],
+      "answer": 3,
+      "explanation": "恆星顏色反映其表面溫度，由低到高大致依序為紅、橙、黃、白、藍，故藍白色恆星表面溫度最高。常見錯誤是受日常「火紅代表高溫」的印象影響而選紅色，實際上恆星呈紅色代表表面溫度相對較低。"
+    },
+    {
+      "id": "uni_earth_sci_u_024",
+      "difficulty": 1,
+      "question": "河流搬運來的泥沙沉積後，經長時間受上覆物質壓實並由礦物質膠結，逐漸固結變硬而形成岩石。此一過程主要屬於下列何種作用？",
+      "options": [
+        "成岩（膠結）作用",
+        "變質作用",
+        "火山噴發作用",
+        "岩漿結晶作用"
+      ],
+      "answer": 0,
+      "explanation": "沉積物經壓密與膠結而固結成沉積岩的過程稱為成岩（膠結）作用。常見錯誤是與需要高溫高壓改變礦物的變質作用混淆，成岩作用發生在相對低溫、低壓的環境，且不會使原有礦物熔融。"
+    },
+    {
+      "id": "uni_earth_sci_u_025",
+      "difficulty": 3,
+      "question": "圖為大氣氣溫隨高度變化的示意圖。由圖判讀，氣溫「由隨高度下降轉為隨高度上升」的轉折高度（對流層頂）大約位於幾公里處？",
+      "figure": "<svg viewBox=\"0 0 240 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"170\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"170\" x2=\"220\" y2=\"170\" stroke=\"currentColor\"/><line x1=\"37\" y1=\"140\" x2=\"40\" y2=\"140\" stroke=\"currentColor\"/><line x1=\"37\" y1=\"110\" x2=\"40\" y2=\"110\" stroke=\"currentColor\"/><line x1=\"37\" y1=\"80\" x2=\"40\" y2=\"80\" stroke=\"currentColor\"/><line x1=\"37\" y1=\"50\" x2=\"40\" y2=\"50\" stroke=\"currentColor\"/><line x1=\"37\" y1=\"20\" x2=\"40\" y2=\"20\" stroke=\"currentColor\"/><text x=\"34\" y=\"173\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"end\">0</text><text x=\"34\" y=\"144\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"end\">10</text><text x=\"34\" y=\"114\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"end\">20</text><text x=\"34\" y=\"84\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"end\">30</text><text x=\"34\" y=\"54\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"end\">40</text><text x=\"34\" y=\"24\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"end\">50</text><text x=\"60\" y=\"16\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"start\">高度/km</text><text x=\"216\" y=\"188\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"end\">溫度/°C</text><polyline points=\"209,170 51,134 164,26\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/></svg>",
+      "options": [
+        "約 2 公里",
+        "約 12 公里",
+        "約 30 公里",
+        "約 50 公里"
+      ],
+      "answer": 1,
+      "explanation": "圖中氣溫自地表隨高度上升而下降，到約 12 公里處出現轉折後改為隨高度上升，此轉折點即對流層頂。常見錯誤是把圖形最高處的 50 公里誤讀為轉折點，判讀時應找「下降轉為上升」的位置，而非曲線的頂端。"
+    },
+    {
+      "id": "uni_earth_sci_u_026",
+      "difficulty": 1,
+      "question": "下列各項作用中，何者屬於「物理（機械）風化」，也就是岩石被崩解成碎塊、但化學成分並未改變？",
+      "options": [
+        "岩石裂隙中的水結冰膨脹使岩石崩裂",
+        "長石遇水與二氧化碳反應變成黏土礦物",
+        "石灰岩被含酸的雨水溶蝕出溶洞",
+        "含鐵礦物氧化生鏽而碎解"
+      ],
+      "answer": 0,
+      "explanation": "凍融作用中水結冰、體積膨脹撐裂岩石，只改變岩石外形而不改變化學成分，屬於物理風化。常見錯誤是把長石水解、石灰岩溶蝕、鐵質氧化等會有新物質生成的過程誤認為物理風化，這些其實都屬於化學風化。"
+    },
+    {
+      "id": "uni_earth_sci_u_027",
+      "difficulty": 1,
+      "question": "圖為乾燥空氣的體積組成圓餅圖。圖中占比最大的「甲」氣體最可能是下列何者？",
+      "figure": "<svg viewBox=\"0 0 240 190\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M120,90 L120,30 A60,60 0 1 1 61,79 Z\" fill=\"#3b82f6\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><path d=\"M120,90 L61,79 A60,60 0 0 1 116,30 Z\" fill=\"#f59e0b\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><path d=\"M120,90 L116,30 A60,60 0 0 1 120,30 Z\" fill=\"#22c55e\" fill-opacity=\"0.25\" stroke=\"currentColor\"/><text x=\"138\" y=\"112\" fill=\"currentColor\" stroke=\"none\" font-size=\"13\" text-anchor=\"middle\">甲 78%</text><text x=\"96\" y=\"66\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"middle\">乙 21%</text><line x1=\"115\" y1=\"33\" x2=\"150\" y2=\"18\" stroke=\"currentColor\"/><text x=\"152\" y=\"16\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"start\">丙 1%</text></svg>",
+      "options": [
+        "氧氣",
+        "氮氣",
+        "二氧化碳",
+        "氬氣"
+      ],
+      "answer": 1,
+      "explanation": "乾燥空氣中氮氣約占 78%（體積）為最多，氧氣約占 21% 次之，其餘氣體（氬氣、二氧化碳等）合計約 1%，故占比最大的甲為氮氣。常見錯誤是以為維持呼吸與燃燒的氧氣最多，實際上氧氣只約占五分之一。"
+    },
+    {
+      "id": "uni_earth_sci_u_028",
+      "difficulty": 3,
+      "question": "地質學上用來對比不同地區地層年代的「指準化石（標準化石）」，最理想的特徵組合為下列何者？",
+      "options": [
+        "演化緩慢、在地層中存在的時間很長",
+        "只分布於單一狹小地區且數量稀少",
+        "演化快速、存在時間短、分布廣且數量多",
+        "體型巨大且僅生活在深海海底"
+      ],
+      "answer": 2,
+      "explanation": "良好的指準化石須「存在時間短」才能精確指示地層年代，且「分布廣、數量多」才便於跨區域對比，兩者兼具者對比效果最佳。常見錯誤是以為存在時間越長越好，但存在時間長的化石涵蓋年代太廣，反而無法精確判定地層的年齡。"
+    },
+    {
+      "id": "uni_earth_sci_u_029",
+      "difficulty": 3,
+      "question": "圖為春分正午時太陽照射地球的示意圖，P 地位於北緯 $30°$（即圖中 P 與赤道對地心的夾角）。此時 P 地的太陽高度角（太陽仰角）約為？",
+      "figure": "<svg viewBox=\"0 0 240 200\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"110\" cy=\"110\" r=\"70\" fill=\"none\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"110\" x2=\"180\" y2=\"110\" stroke=\"currentColor\" stroke-dasharray=\"4 3\"/><line x1=\"110\" y1=\"110\" x2=\"171\" y2=\"75\" stroke=\"currentColor\"/><circle cx=\"171\" cy=\"75\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"149\" y1=\"36\" x2=\"193\" y2=\"114\" stroke=\"currentColor\" stroke-dasharray=\"4 3\"/><line x1=\"232\" y1=\"75\" x2=\"176\" y2=\"75\" stroke=\"#f59e0b\"/><polyline points=\"183,71 176,75 183,79\" fill=\"none\" stroke=\"#f59e0b\"/><line x1=\"232\" y1=\"55\" x2=\"210\" y2=\"55\" stroke=\"#f59e0b\"/><polyline points=\"217,51 210,55 217,59\" fill=\"none\" stroke=\"#f59e0b\"/><line x1=\"232\" y1=\"95\" x2=\"210\" y2=\"95\" stroke=\"#f59e0b\"/><polyline points=\"217,91 210,95 217,99\" fill=\"none\" stroke=\"#f59e0b\"/><text x=\"144\" y=\"104\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"middle\">30°</text><text x=\"176\" y=\"69\" fill=\"currentColor\" stroke=\"none\" font-size=\"13\" text-anchor=\"start\">P</text><text x=\"214\" y=\"40\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"middle\">陽光</text><text x=\"196\" y=\"126\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"middle\">地平面</text></svg>",
+      "options": [
+        "$30°$",
+        "$45°$",
+        "$60°$",
+        "$90°$"
+      ],
+      "answer": 2,
+      "explanation": "春分正午太陽直射赤道，太陽高度角等於 $90°$ 減去當地緯度，故 P 地為 $90°-30°=60°$。常見錯誤是直接把緯度 $30°$ 當成太陽高度角，而忽略了「$90°$ 減緯度」的關係。"
+    },
+    {
+      "id": "uni_earth_sci_u_030",
+      "difficulty": 3,
+      "question": "地表對太陽輻射的反射比例稱為反照率（albedo）。下列地表中，反照率通常最高（反射最強、吸收最少）的是？",
+      "options": [
+        "深色柏油路面",
+        "深藍色的海洋",
+        "深綠色的森林",
+        "新鮮的白雪"
+      ],
+      "answer": 3,
+      "explanation": "新鮮白雪表面明亮，反照率可高達 0.8 至 0.9，能反射大部分入射的陽光；而深色的柏油、海洋、森林吸收較多、反照率較低。常見錯誤是以為海洋面積廣大就反射最多，實際上深色水面吸收太陽輻射的比例相當高、反照率低。"
+    },
+    {
+      "id": "uni_earth_sci_u_031",
+      "difficulty": 2,
+      "question": "圖為某地震測站記錄的地震波走時曲線，橫軸為震央距離、縱軸為傳播時間，甲、乙兩曲線分別代表 P 波與 S 波。哪一條曲線代表傳播較快、最先抵達的 P 波？",
+      "figure": "<svg viewBox=\"0 0 240 190\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"160\" x2=\"220\" y2=\"160\" stroke=\"currentColor\"/><polyline points=\"40,160 215,90\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><polyline points=\"40,160 215,40\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><text x=\"218\" y=\"88\" fill=\"currentColor\" stroke=\"none\" font-size=\"13\" text-anchor=\"start\">甲</text><text x=\"218\" y=\"42\" fill=\"currentColor\" stroke=\"none\" font-size=\"13\" text-anchor=\"start\">乙</text><text x=\"30\" y=\"18\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"start\">時間</text><text x=\"215\" y=\"175\" fill=\"currentColor\" stroke=\"none\" font-size=\"12\" text-anchor=\"end\">震央距離</text></svg>",
+      "options": [
+        "乙曲線，因為它的傳播時間較長",
+        "甲曲線，因為相同距離下它的傳播時間較短",
+        "兩條曲線代表的波速完全相同",
+        "由圖無法比較兩者的快慢"
+      ],
+      "answer": 1,
+      "explanation": "P 波（縱波）傳播速度較快，在相同震央距離下所需傳播時間較短，故對應圖中時間較小、位置較低的甲曲線；S 波較慢，對應時間較長的乙曲線。常見錯誤是只看曲線的高低，而忽略「相同距離下時間較短代表傳得較快、先抵達」的判讀原則。"
+    },
+    {
+      "id": "uni_earth_sci_u_032",
+      "difficulty": 2,
+      "question": "深海的「溫鹽環流（深層洋流）」主要是由海水的什麼性質差異所驅動？",
+      "options": [
+        "海面盛行風的直接吹拂",
+        "月球與太陽引起的潮汐",
+        "海水密度差異（由溫度與鹽度決定）",
+        "海底地震所產生的震動"
+      ],
+      "answer": 2,
+      "explanation": "溫鹽環流是因高緯度海水變冷、鹽度升高使密度增大而下沉，再於深層流動、在他處上湧所形成，屬於密度驅動的環流。常見錯誤是與表層洋流混淆，表層洋流主要由盛行風驅動，而深層環流則靠溫度與鹽度造成的密度差來推動。"
+    }
   ]
 }

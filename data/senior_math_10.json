@@ -7,7 +7,12 @@
       "id": "senior_math_10_001",
       "difficulty": 1,
       "question": "方程式 $|x-3|=5$ 的兩個解之和為何？",
-      "options": ["$-6$", "$10$", "$6$", "$2$"],
+      "options": [
+        "$-6$",
+        "$10$",
+        "$6$",
+        "$2$"
+      ],
       "answer": 2,
       "explanation": "由 $|x-3|=5$ 得 $x-3=5$ 或 $x-3=-5$，即 $x=8$ 或 $x=-2$，兩解之和為 $8+(-2)=6$。易錯處在於漏掉 $x-3=-5$ 這一組解，或誤把兩解都取正號而算成 $10$。"
     },
@@ -15,7 +20,12 @@
       "id": "senior_math_10_002",
       "difficulty": 1,
       "question": "化簡 $\\sqrt{50}+\\sqrt{8}$ 的結果為何？",
-      "options": ["$7\\sqrt{2}$", "$\\sqrt{58}$", "$9\\sqrt{2}$", "$10\\sqrt{2}$"],
+      "options": [
+        "$7\\sqrt{2}$",
+        "$\\sqrt{58}$",
+        "$9\\sqrt{2}$",
+        "$10\\sqrt{2}$"
+      ],
       "answer": 0,
       "explanation": "先化為最簡根式：$\\sqrt{50}=5\\sqrt{2}$，$\\sqrt{8}=2\\sqrt{2}$，故 $\\sqrt{50}+\\sqrt{8}=5\\sqrt{2}+2\\sqrt{2}=7\\sqrt{2}$。易錯處是直接把根號內相加得 $\\sqrt{58}$，根式加法必須先化簡成同類根式才能合併。"
     },
@@ -23,7 +33,12 @@
       "id": "senior_math_10_003",
       "difficulty": 1,
       "question": "多項式 $f(x)=x^3-2x^2+3x-1$ 除以 $x-1$ 的餘式為何？",
-      "options": ["$-1$", "$1$", "$0$", "$3$"],
+      "options": [
+        "$-1$",
+        "$1$",
+        "$0$",
+        "$3$"
+      ],
       "answer": 1,
       "explanation": "由餘式定理，$f(x)$ 除以 $x-1$ 的餘式為 $f(1)=1-2+3-1=1$。易錯處是誤代 $x=-1$ 計算 $f(-1)$，餘式定理中除式為 $x-a$ 時應代入 $x=a$。"
     },
@@ -31,7 +46,12 @@
       "id": "senior_math_10_004",
       "difficulty": 1,
       "question": "$\\log_2 8+\\log_2 4$ 之值為何？",
-      "options": ["$12$", "$6$", "$7$", "$5$"],
+      "options": [
+        "$12$",
+        "$6$",
+        "$7$",
+        "$5$"
+      ],
       "answer": 3,
       "explanation": "分別計算 $\\log_2 8=3$、$\\log_2 4=2$，故 $\\log_2 8+\\log_2 4=3+2=5$；也可用 $\\log_2 8+\\log_2 4=\\log_2 32=5$。易錯處是把真數直接相加算成 $\\log_2 12$，或把 $3$ 與 $2$ 相乘得 $6$。"
     },
@@ -39,7 +59,12 @@
       "id": "senior_math_10_005",
       "difficulty": 1,
       "question": "$2^3\\times 2^4$ 之值為何？",
-      "options": ["$128$", "$4096$", "$64$", "$256$"],
+      "options": [
+        "$128$",
+        "$4096$",
+        "$64$",
+        "$256$"
+      ],
       "answer": 0,
       "explanation": "同底數相乘時指數相加：$2^3\\times 2^4=2^{3+4}=2^7=128$。易錯處是把指數相乘算成 $2^{12}=4096$，指數相乘是 $(2^3)^4$ 的規則，不可混用。"
     },
@@ -47,7 +72,12 @@
       "id": "senior_math_10_006",
       "difficulty": 1,
       "question": "通過 $(1,2)$ 與 $(3,6)$ 兩點的直線，其斜率為何？",
-      "options": ["$\\dfrac{1}{2}$", "$4$", "$2$", "$-2$"],
+      "options": [
+        "$\\dfrac{1}{2}$",
+        "$4$",
+        "$2$",
+        "$-2$"
+      ],
       "answer": 2,
       "explanation": "斜率公式為 $m=\\dfrac{y_2-y_1}{x_2-x_1}=\\dfrac{6-2}{3-1}=\\dfrac{4}{2}=2$。易錯處是把分子分母顛倒算成 $\\dfrac{1}{2}$，或只算 $y$ 的差 $4$ 忘記除以 $x$ 的差。"
     },
@@ -55,7 +85,12 @@
       "id": "senior_math_10_007",
       "difficulty": 1,
       "question": "$\\sin 30^\\circ+\\cos 60^\\circ$ 之值為何？",
-      "options": ["$\\dfrac{1}{2}$", "$1$", "$\\sqrt{3}$", "$\\dfrac{\\sqrt{3}}{2}$"],
+      "options": [
+        "$\\dfrac{1}{2}$",
+        "$1$",
+        "$\\sqrt{3}$",
+        "$\\dfrac{\\sqrt{3}}{2}$"
+      ],
       "answer": 1,
       "explanation": "由特別角三角比，$\\sin 30^\\circ=\\dfrac{1}{2}$、$\\cos 60^\\circ=\\dfrac{1}{2}$，故兩者之和為 $\\dfrac{1}{2}+\\dfrac{1}{2}=1$。易錯處是把 $\\cos 60^\\circ$ 誤記為 $\\dfrac{\\sqrt{3}}{2}$（那是 $\\cos 30^\\circ$ 的值）。"
     },
@@ -63,7 +98,12 @@
       "id": "senior_math_10_008",
       "difficulty": 2,
       "question": "已知多項式 $f(x)=x^3+ax+2$ 可被 $x+1$ 整除，則 $a$ 之值為何？",
-      "options": ["$1$", "$-1$", "$3$", "$-3$"],
+      "options": [
+        "$1$",
+        "$-1$",
+        "$3$",
+        "$-3$"
+      ],
       "answer": 0,
       "explanation": "由因式定理，$x+1$ 為因式表示 $f(-1)=0$，即 $(-1)^3+a(-1)+2=-1-a+2=1-a=0$，解得 $a=1$。易錯處是誤代 $x=1$，或把 $(-1)^3$ 的符號算錯而得 $a=-1$ 或 $a=3$。"
     },
@@ -71,7 +111,12 @@
       "id": "senior_math_10_009",
       "difficulty": 2,
       "question": "圓 $x^2+y^2-4x+6y-3=0$ 的圓心與半徑為何？",
-      "options": ["圓心 $(-2,3)$，半徑 $4$", "圓心 $(2,-3)$，半徑 $\\sqrt{3}$", "圓心 $(4,-6)$，半徑 $4$", "圓心 $(2,-3)$，半徑 $4$"],
+      "options": [
+        "圓心 $(-2,3)$，半徑 $4$",
+        "圓心 $(2,-3)$，半徑 $\\sqrt{3}$",
+        "圓心 $(4,-6)$，半徑 $4$",
+        "圓心 $(2,-3)$，半徑 $4$"
+      ],
       "answer": 3,
       "explanation": "配方得 $(x-2)^2+(y+3)^2=3+4+9=16$，故圓心為 $(2,-3)$，半徑 $r=\\sqrt{16}=4$。易錯處是圓心座標符號弄反寫成 $(-2,3)$，或忘記把移項後的常數與配方補上的 $4$、$9$ 相加而算錯半徑。"
     },
@@ -79,7 +124,12 @@
       "id": "senior_math_10_010",
       "difficulty": 2,
       "question": "解方程式 $\\log_3(x+1)=2$，則 $x$ 之值為何？",
-      "options": ["$5$", "$2$", "$8$", "$7$"],
+      "options": [
+        "$5$",
+        "$2$",
+        "$8$",
+        "$7$"
+      ],
       "answer": 2,
       "explanation": "由對數定義，$\\log_3(x+1)=2$ 表示 $x+1=3^2=9$，故 $x=8$。易錯處是把 $3^2$ 誤算成 $3\\times 2=6$ 而得 $x=5$，或忘記最後要減 $1$ 而答 $9$ 相關的錯誤值。"
     },
@@ -87,7 +137,12 @@
       "id": "senior_math_10_011",
       "difficulty": 2,
       "question": "若 $27^x=9$，則 $x$ 之值為何？",
-      "options": ["$\\dfrac{2}{3}$", "$\\dfrac{3}{2}$", "$\\dfrac{1}{3}$", "$3$"],
+      "options": [
+        "$\\dfrac{2}{3}$",
+        "$\\dfrac{3}{2}$",
+        "$\\dfrac{1}{3}$",
+        "$3$"
+      ],
       "answer": 0,
       "explanation": "化為同底：$27^x=(3^3)^x=3^{3x}$，$9=3^2$，故 $3x=2$，得 $x=\\dfrac{2}{3}$。易錯處是把指數關係顛倒寫成 $2x=3$ 而得 $\\dfrac{3}{2}$，化同底後應讓指數相等再解。"
     },
@@ -95,7 +150,12 @@
       "id": "senior_math_10_012",
       "difficulty": 2,
       "question": "不等式 $|2x-1|<5$ 的解為何？",
-      "options": ["$-3<x<2$", "$-2<x<3$", "$x<3$", "$-2<x<2$"],
+      "options": [
+        "$-3<x<2$",
+        "$-2<x<3$",
+        "$x<3$",
+        "$-2<x<2$"
+      ],
       "answer": 1,
       "explanation": "$|2x-1|<5$ 等價於 $-5<2x-1<5$，各加 $1$ 得 $-4<2x<6$，再除以 $2$ 得 $-2<x<3$。易錯處是只解 $2x-1<5$ 而漏掉左半邊 $-5<2x-1$，或忘記整段同除以 $2$。"
     },
@@ -103,7 +163,12 @@
       "id": "senior_math_10_013",
       "difficulty": 2,
       "question": "原點 $(0,0)$ 到直線 $3x+4y=12$ 的距離為何？",
-      "options": ["$3$", "$\\dfrac{12}{7}$", "$12$", "$\\dfrac{12}{5}$"],
+      "options": [
+        "$3$",
+        "$\\dfrac{12}{7}$",
+        "$12$",
+        "$\\dfrac{12}{5}$"
+      ],
       "answer": 3,
       "explanation": "點到直線距離公式 $d=\\dfrac{|3\\cdot 0+4\\cdot 0-12|}{\\sqrt{3^2+4^2}}=\\dfrac{12}{5}$。易錯處是分母誤用 $3+4=7$，正確應為 $\\sqrt{9+16}=5$，也不可忘記取絕對值。"
     },
@@ -111,7 +176,12 @@
       "id": "senior_math_10_014",
       "difficulty": 2,
       "question": "設 $\\theta$ 為銳角且 $\\tan\\theta=\\dfrac{3}{4}$，則 $\\sin\\theta$ 之值為何？",
-      "options": ["$\\dfrac{4}{5}$", "$\\dfrac{3}{5}$", "$\\dfrac{3}{4}$", "$\\dfrac{5}{3}$"],
+      "options": [
+        "$\\dfrac{4}{5}$",
+        "$\\dfrac{3}{5}$",
+        "$\\dfrac{3}{4}$",
+        "$\\dfrac{5}{3}$"
+      ],
       "answer": 1,
       "explanation": "$\\tan\\theta=\\dfrac{3}{4}$ 可視為直角三角形對邊 $3$、鄰邊 $4$，由畢氏定理斜邊 $=\\sqrt{3^2+4^2}=5$，故 $\\sin\\theta=\\dfrac{3}{5}$。易錯處是把對邊與鄰邊弄反而答 $\\dfrac{4}{5}$（那是 $\\cos\\theta$ 的值）。"
     },
@@ -119,7 +189,12 @@
       "id": "senior_math_10_015",
       "difficulty": 3,
       "question": "已知 $x$ 滿足 $x^2-3x+1=0$，則 $x^2+\\dfrac{1}{x^2}$ 之值為何？",
-      "options": ["$9$", "$11$", "$7$", "$3$"],
+      "options": [
+        "$9$",
+        "$11$",
+        "$7$",
+        "$3$"
+      ],
       "answer": 2,
       "explanation": "因 $x\\neq 0$，方程式兩邊除以 $x$ 得 $x+\\dfrac{1}{x}=3$；再平方得 $x^2+2+\\dfrac{1}{x^2}=9$，故 $x^2+\\dfrac{1}{x^2}=9-2=7$。易錯處是平方後忘記減去交叉項的 $2$ 而直接答 $9$。"
     },
@@ -127,7 +202,12 @@
       "id": "senior_math_10_016",
       "difficulty": 3,
       "question": "多項式 $f(x)$ 除以 $x-1$ 餘 $3$，除以 $x-2$ 餘 $5$，則 $f(x)$ 除以 $(x-1)(x-2)$ 的餘式為何？",
-      "options": ["$2x+1$", "$x+2$", "$2x-1$", "$x+1$"],
+      "options": [
+        "$2x+1$",
+        "$x+2$",
+        "$2x-1$",
+        "$x+1$"
+      ],
       "answer": 0,
       "explanation": "設餘式為 $ax+b$（次數低於除式的 $2$ 次），由餘式定理 $f(1)=a+b=3$、$f(2)=2a+b=5$，兩式相減得 $a=2$，代回得 $b=1$，餘式為 $2x+1$。易錯處是誤以為餘式仍是常數，除以二次式時餘式應設為一次式 $ax+b$。"
     },
@@ -135,7 +215,12 @@
       "id": "senior_math_10_017",
       "difficulty": 3,
       "question": "已知 $\\log 2\\approx 0.301$，則 $2^{10}$ 是幾位數？",
-      "options": ["$3$", "$10$", "$5$", "$4$"],
+      "options": [
+        "$3$",
+        "$10$",
+        "$5$",
+        "$4$"
+      ],
       "answer": 3,
       "explanation": "取常用對數：$\\log 2^{10}=10\\log 2\\approx 3.01$，因 $3\\le 3.01<4$，故 $2^{10}$ 為 $3+1=4$ 位數（事實上 $2^{10}=1024$ 確為四位數）。易錯處是忘記位數等於首數（整數部分）加 $1$，直接答 $3$。"
     },
@@ -143,7 +228,12 @@
       "id": "senior_math_10_018",
       "difficulty": 3,
       "question": "圓 $x^2+y^2=25$ 在其上一點 $(3,4)$ 處的切線方程式為何？",
-      "options": ["$4x+3y=25$", "$3x+4y=25$", "$3x-4y=25$", "$3x+4y=5$"],
+      "options": [
+        "$4x+3y=25$",
+        "$3x+4y=25$",
+        "$3x-4y=25$",
+        "$3x+4y=5$"
+      ],
       "answer": 1,
       "explanation": "圓 $x^2+y^2=r^2$ 上點 $(x_0,y_0)$ 的切線為 $x_0x+y_0y=r^2$，代入得 $3x+4y=25$；驗證：$(3,4)$ 代入左式得 $9+16=25$ 成立，且切線與半徑方向 $(3,4)$ 垂直。易錯處是把右邊寫成半徑 $5$ 而非 $r^2=25$，或把係數順序寫反。"
     },
@@ -151,7 +241,12 @@
       "id": "senior_math_10_019",
       "difficulty": 3,
       "question": "三角形兩邊長為 $5$ 與 $8$，夾角為 $60^\\circ$，則第三邊長為何？",
-      "options": ["$\\sqrt{129}$", "$\\sqrt{89}$", "$7$", "$3$"],
+      "options": [
+        "$\\sqrt{129}$",
+        "$\\sqrt{89}$",
+        "$7$",
+        "$3$"
+      ],
       "answer": 2,
       "explanation": "由餘弦定理 $c^2=5^2+8^2-2\\cdot 5\\cdot 8\\cos 60^\\circ=25+64-80\\times\\dfrac{1}{2}=89-40=49$，故 $c=7$。易錯處是把減號誤成加號得 $c^2=129$，或忘記乘 $\\cos 60^\\circ$ 而得 $\\sqrt{89}$ 相關的錯誤。"
     },
@@ -159,9 +254,175 @@
       "id": "senior_math_10_020",
       "difficulty": 3,
       "question": "直線 $L$ 通過點 $(2,1)$ 且與直線 $x+2y=4$ 垂直，則 $L$ 的方程式為何？",
-      "options": ["$x+2y=4$", "$2x-y=-3$", "$x-2y=0$", "$2x-y=3$"],
+      "options": [
+        "$x+2y=4$",
+        "$2x-y=-3$",
+        "$x-2y=0$",
+        "$2x-y=3$"
+      ],
       "answer": 3,
       "explanation": "直線 $x+2y=4$ 的斜率為 $-\\dfrac{1}{2}$，與其垂直的直線斜率為 $2$（兩斜率相乘為 $-1$）；由點斜式 $y-1=2(x-2)$ 整理得 $2x-y=3$。易錯處是把垂直斜率誤取為 $\\dfrac{1}{2}$（負倒數才對），或整理移項時常數符號弄錯成 $2x-y=-3$。"
+    },
+    {
+      "id": "senior_math_10_021",
+      "difficulty": 2,
+      "question": "下圖為二次函數 $y=a(x-2)^2-3$ 的圖形，其頂點為 $V(2,-3)$，並通過 $y$ 軸上的點 $P(0,1)$。求 $a$ 之值。",
+      "figure": "<svg viewBox=\"0 0 260 220\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"70\" y1=\"130\" x2=\"235\" y2=\"130\" stroke=\"currentColor\"/><line x1=\"110\" y1=\"45\" x2=\"110\" y2=\"212\" stroke=\"currentColor\"/><text x=\"238\" y=\"134\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">x</text><text x=\"99\" y=\"44\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">y</text><polyline points=\"110,110 120,145 130,170 140,185 150,190 160,185 170,170 180,145 190,110\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"190\" r=\"3\" fill=\"#3b82f6\" stroke=\"none\"/><circle cx=\"110\" cy=\"110\" r=\"3\" fill=\"#3b82f6\" stroke=\"none\"/><text x=\"154\" y=\"205\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">V(2,-3)</text><text x=\"114\" y=\"106\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">P(0,1)</text></svg>",
+      "options": [
+        "$-1$",
+        "$\\dfrac{1}{2}$",
+        "$1$",
+        "$2$"
+      ],
+      "answer": 2,
+      "explanation": "將圖上的點 $P(0,1)$ 代入 $y=a(x-2)^2-3$，得 $1=a(0-2)^2-3=4a-3$，解得 $4a=4$，故 $a=1$。易錯處是把 $(0-2)^2$ 算成 $-4$，或忽略頂點式中的常數 $-3$，導致 $a$ 求錯。"
+    },
+    {
+      "id": "senior_math_10_022",
+      "difficulty": 1,
+      "question": "下圖為某社團連續 $5$ 週回收寶特瓶數量的長條圖（單位：個）。這 $5$ 週回收數量的平均為何？",
+      "figure": "<svg viewBox=\"0 0 260 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"40\" x2=\"40\" y2=\"170\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"170\" x2=\"244\" y2=\"170\" stroke=\"currentColor\"/><rect x=\"50\" y=\"140\" width=\"24\" height=\"30\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"90\" y=\"110\" width=\"24\" height=\"60\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"130\" y=\"110\" width=\"24\" height=\"60\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"170\" y=\"80\" width=\"24\" height=\"90\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"210\" y=\"50\" width=\"24\" height=\"120\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"56\" y=\"135\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">10</text><text x=\"96\" y=\"105\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">20</text><text x=\"136\" y=\"105\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">20</text><text x=\"176\" y=\"75\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">30</text><text x=\"216\" y=\"45\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">40</text><text x=\"59\" y=\"185\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"99\" y=\"185\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"139\" y=\"185\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"179\" y=\"185\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"219\" y=\"185\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">5</text><text x=\"120\" y=\"197\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">週次</text></svg>",
+      "options": [
+        "$20$",
+        "$22$",
+        "$25$",
+        "$24$"
+      ],
+      "answer": 3,
+      "explanation": "五週數量分別為 $10,20,20,30,40$，總和為 $120$，平均 $=\\dfrac{120}{5}=24$（個）。易錯處是把出現最多次或位於中間的 $20$（眾數、中位數）誤當成平均，平均必須以總和除以週數計算。"
+    },
+    {
+      "id": "senior_math_10_023",
+      "difficulty": 2,
+      "question": "下圖為一直線斜坡的示意圖，坡面（斜邊）長 $20$ 公尺，坡面與水平面的夾角為 $30^\\circ$。此斜坡頂端距離水平地面的垂直高度 $h$ 為多少公尺？",
+      "figure": "<svg viewBox=\"0 0 260 170\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"40,140 220,140 220,36\" fill=\"#f59e0b\" fill-opacity=\"0.15\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"206\" y=\"126\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\"/><path d=\"M 72 140 A 32 32 0 0 0 68 124\" fill=\"none\" stroke=\"currentColor\"/><text x=\"76\" y=\"134\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">30°</text><text x=\"110\" y=\"78\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">20</text><text x=\"226\" y=\"92\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">h</text><text x=\"108\" y=\"156\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">水平面</text></svg>",
+      "options": [
+        "$10$",
+        "$10\\sqrt{3}$",
+        "$20$",
+        "$10\\sqrt{2}$"
+      ],
+      "answer": 0,
+      "explanation": "垂直高度為斜邊乘上夾角的正弦：$h=20\\sin 30^\\circ=20\\times\\dfrac{1}{2}=10$（公尺）。易錯處是誤用 $\\cos 30^\\circ$ 而得 $10\\sqrt{3}$；高度是夾角的對邊，應乘 $\\sin$ 而非 $\\cos$。"
+    },
+    {
+      "id": "senior_math_10_024",
+      "difficulty": 1,
+      "question": "下圖是某班 $30$ 位學生最喜歡運動的圓餅圖，其中「籃球」所占的扇形圓心角為 $120^\\circ$。喜歡籃球的學生有幾人？",
+      "figure": "<svg viewBox=\"0 0 220 180\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M95 90 L95 30 A60 60 0 0 1 147 120 Z\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><path d=\"M95 90 L147 120 A60 60 0 0 1 65 142 Z\" fill=\"#ef4444\" fill-opacity=\"0.15\" stroke=\"currentColor\"/><path d=\"M95 90 L65 142 A60 60 0 0 1 43 60 Z\" fill=\"#22c55e\" fill-opacity=\"0.15\" stroke=\"currentColor\"/><path d=\"M95 90 L43 60 A60 60 0 0 1 95 30 Z\" fill=\"#f59e0b\" fill-opacity=\"0.15\" stroke=\"currentColor\"/><text x=\"108\" y=\"70\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">籃球</text><text x=\"106\" y=\"86\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">120°</text><text x=\"90\" y=\"126\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">羽球</text><text x=\"46\" y=\"102\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">桌球</text><text x=\"62\" y=\"58\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">游泳</text></svg>",
+      "options": [
+        "$8$",
+        "$10$",
+        "$12$",
+        "$15$"
+      ],
+      "answer": 1,
+      "explanation": "籃球占整個圓的 $\\dfrac{120^\\circ}{360^\\circ}=\\dfrac{1}{3}$，故人數為 $30\\times\\dfrac{1}{3}=10$（人）。易錯處是把 $120$ 直接當成人數，或忘記全圓為 $360^\\circ$ 而把比例算錯。"
+    },
+    {
+      "id": "senior_math_10_025",
+      "difficulty": 3,
+      "question": "下圖在坐標平面上標出三角形 $ABC$ 的三個頂點 $A(-2,-1)$、$B(4,-1)$、$C(1,3)$。此三角形的面積為何？",
+      "figure": "<svg viewBox=\"0 0 240 210\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"150\" x2=\"216\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"100\" y1=\"66\" x2=\"100\" y2=\"196\" stroke=\"currentColor\"/><text x=\"219\" y=\"154\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">x</text><text x=\"90\" y=\"66\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">y</text><polygon points=\"60,170 180,170 120,90\" fill=\"#22c55e\" fill-opacity=\"0.15\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"60\" cy=\"170\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"180\" cy=\"170\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"120\" cy=\"90\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"30\" y=\"185\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">A(-2,-1)</text><text x=\"158\" y=\"186\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">B(4,-1)</text><text x=\"108\" y=\"84\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">C(1,3)</text></svg>",
+      "options": [
+        "$10$",
+        "$14$",
+        "$12$",
+        "$18$"
+      ],
+      "answer": 2,
+      "explanation": "取水平邊 $\\overline{AB}$ 為底，其長為 $4-(-2)=6$；頂點 $C$ 到直線 $AB$（即直線 $y=-1$）的鉛直距離為 $3-(-1)=4$，故面積 $=\\dfrac{1}{2}\\times 6\\times 4=12$。易錯處是忘記面積公式要乘 $\\dfrac{1}{2}$，或把底與高的座標差算錯。"
+    },
+    {
+      "id": "senior_math_10_026",
+      "difficulty": 1,
+      "question": "一個等差數列的首項為 $3$，公差為 $4$，則此數列的第 $10$ 項為何？",
+      "options": [
+        "$36$",
+        "$39$",
+        "$43$",
+        "$40$"
+      ],
+      "answer": 1,
+      "explanation": "等差數列一般項為 $a_n=a_1+(n-1)d$，代入得 $a_{10}=3+(10-1)\\times 4=3+36=39$。易錯處是把 $(n-1)$ 誤用成 $n$ 而多加一個公差得 $43$，第 $10$ 項只需加上 $9$ 個公差。"
+    },
+    {
+      "id": "senior_math_10_027",
+      "difficulty": 1,
+      "question": "一個等比數列為 $2,\\ 6,\\ 18,\\ \\dots$，則此數列的第 $5$ 項為何？",
+      "options": [
+        "$54$",
+        "$486$",
+        "$162$",
+        "$108$"
+      ],
+      "answer": 2,
+      "explanation": "公比 $r=\\dfrac{6}{2}=3$，一般項為 $a_n=a_1 r^{n-1}$，故 $a_5=2\\times 3^{4}=2\\times 81=162$。易錯處是把指數用成 $3^5$ 而得 $486$，第 $5$ 項的公比次方應為 $n-1=4$。"
+    },
+    {
+      "id": "senior_math_10_028",
+      "difficulty": 2,
+      "question": "從 $5$ 位同學中選出正班長與副班長各一人（同一人不得兼任），共有幾種不同的選法？",
+      "options": [
+        "$10$",
+        "$20$",
+        "$25$",
+        "$120$"
+      ],
+      "answer": 1,
+      "explanation": "正班長有 $5$ 種選擇，選定後副班長只剩 $4$ 種，依乘法原理共 $5\\times 4=20$ 種。易錯處是誤把兩職位視為不分順序而算成組合 $C^5_2=10$；正、副班長有區別，屬於排列問題。"
+    },
+    {
+      "id": "senior_math_10_029",
+      "difficulty": 2,
+      "question": "同時擲兩顆公正的骰子，出現的兩點數之和等於 $7$ 的機率為何？",
+      "options": [
+        "$\\dfrac{1}{6}$",
+        "$\\dfrac{1}{9}$",
+        "$\\dfrac{5}{36}$",
+        "$\\dfrac{1}{12}$"
+      ],
+      "answer": 0,
+      "explanation": "兩顆骰子共有 $36$ 種等機率結果，點數和為 $7$ 的有 $(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)$ 共 $6$ 種，機率 $=\\dfrac{6}{36}=\\dfrac{1}{6}$。易錯處是把 $(1,6)$ 與 $(6,1)$ 當成同一種而少算，兩顆骰子需分辨先後。"
+    },
+    {
+      "id": "senior_math_10_030",
+      "difficulty": 3,
+      "question": "從 $7$ 名學生中選出 $3$ 人組成一個服務小組（不分職務），共有幾種不同的選法？",
+      "options": [
+        "$21$",
+        "$210$",
+        "$42$",
+        "$35$"
+      ],
+      "answer": 3,
+      "explanation": "不分職務屬於組合，$C^7_3=\\dfrac{7\\times 6\\times 5}{3\\times 2\\times 1}=35$。易錯處是誤用排列 $P^7_3=210$，或選出後忘記除以 $3!$；不需排序時要除以 $3!=6$。"
+    },
+    {
+      "id": "senior_math_10_031",
+      "difficulty": 3,
+      "question": "求等差級數 $1+4+7+\\cdots+28$ 之和。",
+      "options": [
+        "$145$",
+        "$150$",
+        "$140$",
+        "$155$"
+      ],
+      "answer": 0,
+      "explanation": "首項為 $1$、公差為 $3$、末項為 $28$，項數 $n=\\dfrac{28-1}{3}+1=10$，總和 $=\\dfrac{n(a_1+a_n)}{2}=\\dfrac{10\\times(1+28)}{2}=145$。易錯處是把項數少算成 $9$，或忘記等差級數和公式要除以 $2$。"
+    },
+    {
+      "id": "senior_math_10_032",
+      "difficulty": 3,
+      "question": "已知 $\\sin\\theta+\\cos\\theta=\\dfrac{1}{2}$，求 $\\sin\\theta\\cos\\theta$ 之值。",
+      "options": [
+        "$\\dfrac{3}{8}$",
+        "$-\\dfrac{3}{4}$",
+        "$\\dfrac{1}{4}$",
+        "$-\\dfrac{3}{8}$"
+      ],
+      "answer": 3,
+      "explanation": "將 $\\sin\\theta+\\cos\\theta=\\dfrac{1}{2}$ 兩邊平方，得 $\\sin^2\\theta+2\\sin\\theta\\cos\\theta+\\cos^2\\theta=\\dfrac{1}{4}$；因 $\\sin^2\\theta+\\cos^2\\theta=1$，故 $1+2\\sin\\theta\\cos\\theta=\\dfrac{1}{4}$，解得 $\\sin\\theta\\cos\\theta=-\\dfrac{3}{8}$。易錯處是忘記平方展開的交叉項 $2\\sin\\theta\\cos\\theta$，或漏用 $\\sin^2\\theta+\\cos^2\\theta=1$。"
     }
   ]
 }
